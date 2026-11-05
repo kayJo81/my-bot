@@ -440,32 +440,6 @@
      "n": "NVIDIA"
     }
    ]
-  },
-  {
-   "key": "Rare Earth",
-   "name": "희토류",
-   "tickers": [
-    {
-     "s": "CRML",
-     "n": "Critical Metals"
-    },
-    {
-     "s": "USAR",
-     "n": "USA Rare Earth"
-    },
-    {
-     "s": "NVA",
-     "n": "Nova Minerals"
-    },
-    {
-     "s": "LAC",
-     "n": "Lithium Americas"
-    },
-    {
-     "s": "BHP",
-     "n": "BHP"
-    }
-   ]
   }
  ]
 }

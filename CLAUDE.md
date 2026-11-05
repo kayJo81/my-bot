@@ -19,7 +19,7 @@
      직접 접속이 막힌 사이트는 검색 결과의 제목·요약·URL로 확인합니다. 확인 못 한 수치는 쓰지 않습니다.
 3. `out/D/content.json` 작성 (형식은 `examples/content.json` 참고)
    - 가이드라인 3~6절: 분류, 라벨([사실]/[의미]/[영향]/[체크]/[배경]), 사실성 규칙, 문체.
-   - `sections`의 키: `megatech`, `mobility`, `ai_software`, `ai_infra`, `semis`, `others`(크립토·희토류, 선택).
+   - `sections`의 키: `megatech`, `mobility`, `ai_software`, `ai_infra`, `semis`, `others`(크립토, 선택).
      워치리스트 그룹을 어느 분류에 넣을지는 가이드라인 3절을 따릅니다. `others`는 소식이 없으면 비워 두면 그림이 생기지 않습니다.
      소식이 없는 분류는 빈 배열로 두고 `empty_notes`에 직전 맥락 한 줄을 씁니다.
    - 카드 `tag`: 15:30 이후면 `"신규"`, 이전이면 `"배경"`.
