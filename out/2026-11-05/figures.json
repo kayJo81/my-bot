@@ -4,97 +4,97 @@
   "id": "summary",
   "name": "요약",
   "file": "pre_1.jpg",
-  "height": 1680
+  "height": 1724
  },
  {
   "n": 2,
   "id": "issue1#1",
   "name": "이슈1(1/2)",
   "file": "pre_2.jpg",
-  "height": 1513
+  "height": 1560
  },
  {
   "n": 3,
   "id": "issue1#2",
   "name": "이슈1(2/2)",
   "file": "pre_3.jpg",
-  "height": 1676
+  "height": 1783
  },
  {
   "n": 4,
   "id": "issue2#1",
   "name": "이슈2(1/2)",
   "file": "pre_4.jpg",
-  "height": 1461
+  "height": 1506
  },
  {
   "n": 5,
   "id": "issue2#2",
   "name": "이슈2(2/2)",
   "file": "pre_5.jpg",
-  "height": 1612
+  "height": 1713
  },
  {
   "n": 6,
   "id": "megatech#1",
   "name": "메가테크(1/2)",
   "file": "pre_6.jpg",
-  "height": 1696
+  "height": 1790
  },
  {
   "n": 7,
   "id": "megatech#2",
   "name": "메가테크(2/2)",
   "file": "pre_7.jpg",
-  "height": 1564
+  "height": 1655
  },
  {
   "n": 8,
   "id": "mobility#1",
   "name": "모빌리티(1/2)",
   "file": "pre_8.jpg",
-  "height": 1696
+  "height": 1782
  },
  {
   "n": 9,
   "id": "mobility#2",
   "name": "모빌리티(2/2)",
   "file": "pre_9.jpg",
-  "height": 1540
+  "height": 1621
  },
  {
   "n": 10,
   "id": "ai_software",
   "name": "AI 소프트웨어",
   "file": "pre_10.jpg",
-  "height": 1489
+  "height": 1572
  },
  {
   "n": 11,
   "id": "ai_infra#1",
   "name": "AI 인프라(1/2)",
   "file": "pre_11.jpg",
-  "height": 1579
+  "height": 1661
  },
  {
   "n": 12,
   "id": "ai_infra#2",
   "name": "AI 인프라(2/2)",
   "file": "pre_12.jpg",
-  "height": 1423
+  "height": 1504
  },
  {
   "n": 13,
   "id": "semis#1",
   "name": "반도체(1/2)",
   "file": "pre_13.jpg",
-  "height": 1623
+  "height": 1163
  },
  {
   "n": 14,
   "id": "semis#2",
   "name": "반도체(2/2)",
   "file": "pre_14.jpg",
-  "height": 945
+  "height": 1598
  }
 ]

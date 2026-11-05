@@ -18,7 +18,9 @@ def commentary_for(fig: dict, comm: dict):
     key, _, part = fid.partition("#")
     v = comm.get(key)
     if isinstance(v, list):
-        idx = int(part) - 1 if part else 0
+        if not part:  # 나뉘지 않은 그림인데 해설이 여러 단락이면 이어 붙임
+            return " ".join(x.strip() for x in v if x)
+        idx = int(part) - 1
         return v[idx] if idx < len(v) else None
     if isinstance(v, str) and not part:
         return v

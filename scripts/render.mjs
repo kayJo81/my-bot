@@ -13,174 +13,221 @@ if (!dir) { console.error("usage: node scripts/render.mjs <out/YYYY-MM-DD>"); pr
 const content = JSON.parse(fs.readFileSync(path.join(dir, "content.json"), "utf8"));
 
 const W = 1080, MAX_H = 1900;
-const COLORS = {
-  summary: "#212a3e", megatech: "#1f5fbf", mobility: "#d9480f",
-  ai_software: "#7b2cbf", ai_infra: "#0b7285", semis: "#2b8a3e",
+// [메인색, 진한색, 옅은 배경]
+const THEME = {
+  summary: ["#2b3a5c", "#141c30", "#e8ecf5"],
+  issue1: ["#d6336c", "#8f1d47", "#fff0f6"],
+  issue2: ["#6741d9", "#3b2185", "#f3f0ff"],
+  megatech: ["#1c7ed6", "#0b4a8a", "#e7f5ff"],
+  mobility: ["#f76707", "#a93f00", "#fff4e6"],
+  ai_software: ["#7b2cbf", "#4a1478", "#f8f0fc"],
+  ai_infra: ["#0c8599", "#065463", "#e3fafc"],
+  semis: ["#2f9e44", "#16602a", "#ebfbee"],
 };
-const ISSUE_COLORS = ["#c92a2a", "#5f3dc4"];
 const SECTIONS = [
   ["megatech", "메가테크", "애플 · 엔비디아 · 알파벳 · 아마존 · MSFT · 메타"],
-  ["mobility", "모빌리티", "테슬라 · 기타 제조사 · 로보틱스 · 스페이스X · 우주항공"],
+  ["mobility", "모빌리티", "테슬라 · 완성차 · 로보틱스 · 스페이스X · 우주항공"],
   ["ai_software", "AI 소프트웨어", "앤트로픽 · 오픈AI 등"],
   ["ai_infra", "AI 인프라", "네오클라우드 · 데이터센터 에너지 · 서버 · 네트워킹 · 광통신"],
-  ["semis", "반도체", ""],
+  ["semis", "반도체", "파운드리 · 메모리 · 설계 · 장비"],
 ];
-const LABEL_COLORS = { "사실": "#343a40", "의미": "#7048e8", "영향": "#e8590c", "체크": "#2f9e44", "배경": "#868e96" };
+const LABEL = {
+  "사실": ["#343a40", "#f1f3f5"], "의미": ["#6741d9", "#f3f0ff"], "영향": ["#e8590c", "#fff4e6"],
+  "체크": ["#2b8a3e", "#ebfbee"], "배경": ["#868e96", "#f8f9fa"],
+};
+const UP = ["#d6336c", "#fff0f6"], DOWN = ["#1971c2", "#e7f5ff"], FLAT = ["#495057", "#f1f3f5"];
 
 const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+const stripSign = (v) => String(v ?? "").replace(/^[+\-−▲▼]\s*/, "");
+const WEEK = ["일", "월", "화", "수", "목", "금", "토"];
+const dateLabel = (() => {
+  const [y, m, d] = content.date.split("-").map(Number);
+  return `${y}.${String(m).padStart(2, "0")}.${String(d).padStart(2, "0")} (${WEEK[new Date(Date.UTC(y, m - 1, d)).getUTCDay()]})`;
+})();
 
 function chip(c) {
   const v = String(c.chg ?? "").trim();
-  let color = "#868e96", arrow = "";
-  if (/^[+▲]/.test(v) || c.dir === "up") { color = "#d6336c"; arrow = "▲"; }
-  else if (/^[-−▼]/.test(v) || c.dir === "down") { color = "#1971c2"; arrow = "▼"; }
-  const num = v.replace(/^[+\-−▲▼]\s*/, "");
-  return `<span class="chip" style="border-color:${color};color:${color}">${esc(c.name)}${num ? ` <b>${arrow}${esc(num)}</b>` : ""}</span>`;
+  let [fg, bg] = FLAT, arrow = "";
+  if (/^[+▲]/.test(v) || c.dir === "up") { [fg, bg] = UP; arrow = "▲"; }
+  else if (/^[-−▼]/.test(v) || c.dir === "down") { [fg, bg] = DOWN; arrow = "▼"; }
+  const num = stripSign(v);
+  const neutral = !arrow;
+  const st = neutral ? "color:#495057;background:#fff;border:2px solid #dee2e6" : `color:${fg};background:${bg}`;
+  return `<span class="chip" style="${st}">${esc(c.name)}${num ? `<b>${arrow} ${esc(num)}</b>` : ""}</span>`;
 }
-
-function chips(list) {
-  return list && list.length ? `<div class="chips">${list.map(chip).join("")}</div>` : "";
-}
-
-function source(s) {
-  return s ? `<div class="src">출처: ${esc(s)}</div>` : "";
-}
+const chips = (list, title = "관련 종목") => (list && list.length ? `<div class="chips">${title ? `<span class="ct">${title}</span>` : ""}${list.map(chip).join("")}</div>` : "");
+const source = (s) => (s ? `<div class="src"><span>출처</span>${esc(s)}</div>` : "");
 
 const CSS = `
 *{box-sizing:border-box;margin:0;padding:0}
-body{width:${W}px;background:#f4f5f8;font-family:'NanumGothic','Nanum Gothic',sans-serif;color:#212529;font-size:36px;line-height:1.45;word-break:keep-all;overflow-wrap:anywhere}
-.head{padding:56px 56px 44px;color:#fff}
-.head .kicker{font-size:30px;opacity:.85;font-weight:700;letter-spacing:1px}
-.head h1{font-size:66px;font-weight:800;line-height:1.2;margin-top:10px}
-.head .sub{font-size:30px;opacity:.9;margin-top:14px}
-.body{padding:36px 40px 44px}
-.card{background:#fff;border-radius:22px;border-left:14px solid #999;padding:30px 36px 26px;margin-bottom:26px;box-shadow:0 2px 6px rgba(0,0,0,.06)}
-.card h2{font-size:44px;font-weight:800;line-height:1.25;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
-.tag{font-size:26px;font-weight:700;padding:4px 14px;border-radius:999px;color:#fff;background:#495057}
-.tag.new{background:#e03131}.tag.bg{background:#868e96}
-.line{display:flex;gap:16px;margin-top:12px;align-items:flex-start}
-.lab{flex:0 0 auto;font-size:26px;font-weight:800;color:#fff;border-radius:10px;padding:5px 12px;margin-top:6px}
-.chips{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
-.chip{border:3px solid;border-radius:999px;padding:4px 18px;font-size:30px;font-weight:700;background:#fff}
-.src{font-size:24px;color:#868e96;margin-top:16px}
-.box-title{font-size:40px;font-weight:800;margin-bottom:14px}
-ul.dots{list-style:none}
-ul.dots li{position:relative;padding-left:34px;margin-top:12px}
-ul.dots li:before{content:"·";position:absolute;left:6px;font-weight:800}
-ul.checks{list-style:none}
-ul.checks li{position:relative;padding-left:52px;margin-top:12px}
-ul.checks li:before{content:"☐";position:absolute;left:0;font-weight:700}
-.tl{display:flex;gap:22px;margin-top:12px}.tl .t{flex:0 0 120px;font-weight:800}
-.metrics{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-.metric{background:#f8f9fa;border-radius:16px;padding:20px 24px}
-.metric .ml{font-size:26px;color:#495057;font-weight:700}
-.metric .mv{font-size:44px;font-weight:800;margin-top:4px}
-.metric .mn{font-size:26px;color:#868e96;margin-top:2px}
+body{width:${W}px;background:#eef1f6;font-family:'NanumGothic','Nanum Gothic',sans-serif;color:#1f2430;font-size:36px;line-height:1.5;word-break:keep-all;overflow-wrap:anywhere;letter-spacing:-0.3px}
+.head{position:relative;overflow:hidden;padding:40px 56px 56px;color:#fff}
+.head .top{display:flex;justify-content:space-between;align-items:center;font-size:26px;font-weight:700}
+.head .brand{background:rgba(255,255,255,.18);padding:8px 20px;border-radius:999px}
+.head .date{opacity:.9}
+.head .kicker{font-size:26px;font-weight:700;opacity:.8;margin-top:30px;letter-spacing:2px}
+.head h1{font-size:66px;font-weight:800;line-height:1.2;margin-top:6px;display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.head h1 .part{font-size:28px;font-weight:700;background:rgba(255,255,255,.22);padding:6px 18px;border-radius:999px}
+.head .sub{font-size:28px;opacity:.88;margin-top:14px}
+.head .wm{position:absolute;right:-6px;bottom:-56px;font-size:240px;font-weight:800;opacity:.08;line-height:1}
+.body{padding:0 36px 20px;margin-top:-26px;position:relative}
+.card{background:#fff;border-radius:28px;padding:30px 36px 26px;margin-bottom:22px;box-shadow:0 6px 20px rgba(20,32,64,.07)}
+.ch{display:flex;align-items:center;gap:16px;padding-bottom:16px;margin-bottom:4px;border-bottom:2px solid #f1f3f5}
+.ch .dot{width:16px;height:16px;border-radius:50%;flex:0 0 16px}
+.ch h2{font-size:46px;font-weight:800;line-height:1.2;flex:1}
+.tag{font-size:24px;font-weight:800;padding:6px 16px;border-radius:999px}
+.tag.new{color:#e03131;background:#fff5f5;border:2px solid #ffc9c9}.tag.bg{color:#868e96;background:#f8f9fa;border:2px solid #dee2e6}
+.line{display:flex;gap:18px;margin-top:13px;align-items:flex-start}
+.lab{flex:0 0 92px;text-align:center;font-size:25px;font-weight:800;border-radius:12px;padding:6px 0;margin-top:5px}
+.chips{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px;align-items:center}
+.chips .ct{font-size:23px;font-weight:800;color:#adb5bd;margin-right:4px}
+.chip{border-radius:14px;padding:8px 18px;font-size:29px;font-weight:700;display:inline-flex;gap:12px;align-items:center}
+.src{font-size:23px;color:#868e96;margin-top:18px;padding-top:14px;border-top:2px dashed #e9ecef;display:flex;gap:12px;align-items:center}
+.src span{font-weight:800;color:#adb5bd}
+.bt{font-size:38px;font-weight:800;margin-bottom:14px;display:flex;align-items:center;gap:14px}
+.bt i{display:inline-block;width:10px;height:36px;border-radius:6px}
+.num{display:flex;gap:20px;margin-top:16px;align-items:flex-start}
+.num .n{flex:0 0 50px;height:50px;border-radius:50%;color:#fff;font-size:27px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:2px}
+.chk{display:flex;gap:20px;margin-top:16px;align-items:flex-start}
+.chk .b{flex:0 0 40px;height:40px;border:4px solid;border-radius:10px;margin-top:7px}
+.tl{position:relative;padding-left:44px}
+.tl:before{content:"";position:absolute;left:13px;top:18px;bottom:18px;width:4px;border-radius:2px;background:#e9ecef}
+.tl .r{position:relative;margin-top:14px}
+.tl .r:before{content:"";position:absolute;left:-41px;top:14px;width:22px;height:22px;border-radius:50%;background:#fff;border:5px solid var(--c)}
+.tl .t{font-weight:800;color:var(--c);margin-right:16px}
+.metrics{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.metric{border-radius:20px;padding:20px 24px;background:#f8f9fa;border-top:6px solid #ced4da}
+.metric .ml{font-size:25px;color:#495057;font-weight:700}
+.metric .mv{font-size:42px;font-weight:800;margin-top:4px;line-height:1.25}
+.metric .mn{font-size:24px;color:#868e96;margin-top:4px}
 .empty{color:#495057}
-.foot{font-size:24px;color:#adb5bd;text-align:right;padding:0 44px 36px}
+.foot{display:flex;justify-content:space-between;font-size:23px;color:#adb5bd;padding:6px 48px 34px;font-weight:700}
 `;
 
-function page(color, kicker, title, sub, cardsHtml) {
+function page(f, title, part, cardsHtml, pageNo, total) {
+  const [c1, c2] = f.theme;
   return `<!doctype html><html><head><meta charset="utf-8"><style>${CSS}</style></head><body>
-<div class="head" style="background:${color}"><div class="kicker">${esc(kicker)}</div><h1>${esc(title)}</h1>${sub ? `<div class="sub">${esc(sub)}</div>` : ""}</div>
+<div class="head" style="background:linear-gradient(135deg,${c1} 0%,${c2} 100%)">
+ <div class="top"><span class="brand">개장 전 주요 소식</span><span class="date">${esc(dateLabel)}</span></div>
+ <div class="kicker">${esc(f.kicker)}</div>
+ <h1>${esc(title)}${part ? `<span class="part">${esc(part)}</span>` : ""}</h1>
+ ${f.sub ? `<div class="sub">${esc(f.sub)}</div>` : ""}
+ <div class="wm">${esc(f.wm || "")}</div>
+</div>
 <div class="body">${cardsHtml.join("")}</div>
-<div class="foot">${esc(content.date)} 개장 전 주요 소식</div>
+<div class="foot"><span>탐색 구간 ${esc(content.window)}</span><span>${pageNo ? `${pageNo} / ${total}` : ""}</span></div>
 </body></html>`;
 }
 
-function newsCard(c, color) {
+function newsCard(c, theme) {
   const tag = c.tag === "배경" ? `<span class="tag bg">배경</span>` : c.tag ? `<span class="tag new">신규</span>` : "";
   const lines = (c.lines || []).map((l) => {
-    const lc = LABEL_COLORS[l.label] || "#495057";
-    return `<div class="line"><span class="lab" style="background:${lc}">${esc(l.label)}</span><div>${esc(l.text)}</div></div>`;
+    const [fg, bg] = LABEL[l.label] || ["#495057", "#f1f3f5"];
+    return `<div class="line"><span class="lab" style="color:${fg};background:${bg}">${esc(l.label)}</span><div>${esc(l.text)}</div></div>`;
   }).join("");
-  return `<div class="card" style="border-left-color:${color}"><h2>${esc(c.company)}${tag}</h2>${lines}${chips(c.chips)}${source(c.source)}</div>`;
+  return `<div class="card"><div class="ch"><span class="dot" style="background:${theme[0]}"></span><h2>${esc(c.company)}</h2>${tag}</div>${lines}${chips(c.chips)}${source(c.source)}</div>`;
 }
 
-function emptyCard(note, color) {
-  return `<div class="card empty" style="border-left-color:${color}"><h2>해당 시간대 새 소식 없음</h2>${note ? `<div class="line"><span class="lab" style="background:${LABEL_COLORS["배경"]}">배경</span><div>${esc(note)}</div></div>` : ""}</div>`;
+function emptyCard(note, theme) {
+  return `<div class="card empty"><div class="ch"><span class="dot" style="background:${theme[0]}"></span><h2>해당 시간대 새 소식 없음</h2></div>${note ? `<div class="line"><span class="lab" style="color:${LABEL["배경"][0]};background:${LABEL["배경"][1]}">배경</span><div>${esc(note)}</div></div>` : ""}</div>`;
 }
 
-function issueCards(is, color) {
+const boxTitle = (t, color) => `<div class="bt"><i style="background:${color}"></i>${esc(t)}</div>`;
+
+function issueCards(is, theme) {
+  const [c1, , light] = theme;
   const out = [];
-  if (is.timeline?.length) out.push(`<div class="card" style="border-left-color:${color}"><div class="box-title">타임라인 (KST)</div>${is.timeline.map((t) => `<div class="tl"><span class="t">${esc(t.t)}</span><div>${esc(t.text)}</div></div>`).join("")}</div>`);
-  if (is.metrics?.length) out.push(`<div class="card" style="border-left-color:${color}"><div class="box-title">핵심 수치</div><div class="metrics">${is.metrics.map((m) => {
-    const mc = m.dir === "up" ? "#d6336c" : m.dir === "down" ? "#1971c2" : "#212529";
+  if (is.timeline?.length) out.push(`<div class="card">${boxTitle("타임라인 (KST)", c1)}<div class="tl" style="--c:${c1}">${is.timeline.map((t) => `<div class="r"><span class="t">${esc(t.t)}</span>${esc(t.text)}</div>`).join("")}</div></div>`);
+  if (is.metrics?.length) out.push(`<div class="card">${boxTitle("핵심 수치", c1)}<div class="metrics">${is.metrics.map((m) => {
+    const [fg] = m.dir === "up" ? UP : m.dir === "down" ? DOWN : FLAT;
     const ar = m.dir === "up" ? "▲ " : m.dir === "down" ? "▼ " : "";
-    const mv = ar ? String(m.value ?? "").replace(/^[+\-−▲▼]\s*/, "") : m.value;
-    return `<div class="metric"><div class="ml">${esc(m.label)}</div><div class="mv" style="color:${mc}">${ar}${esc(mv)}</div>${m.note ? `<div class="mn">${esc(m.note)}</div>` : ""}</div>`;
+    const mv = ar ? stripSign(m.value) : m.value;
+    return `<div class="metric" style="border-top-color:${m.dir ? fg : "#ced4da"}"><div class="ml">${esc(m.label)}</div><div class="mv" style="color:${m.dir ? fg : "#1f2430"}">${ar}${esc(mv)}</div>${m.note ? `<div class="mn">${esc(m.note)}</div>` : ""}</div>`;
   }).join("")}</div></div>`);
-  if (is.cause?.length) out.push(`<div class="card" style="border-left-color:${color}"><div class="box-title">원인</div><ul class="dots">${is.cause.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>`);
-  if (is.chips?.length) out.push(`<div class="card" style="border-left-color:${color}"><div class="box-title">파급 업체</div>${chips(is.chips)}</div>`);
-  if (is.checks?.length) out.push(`<div class="card" style="border-left-color:${color}"><div class="box-title">체크 포인트</div><ul class="checks">${is.checks.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>${source(is.source)}</div>`);
+  if (is.cause?.length) out.push(`<div class="card">${boxTitle("원인", c1)}${is.cause.map((x, i) => `<div class="num"><span class="n" style="background:${c1}">${i + 1}</span><div>${esc(x)}</div></div>`).join("")}</div>`);
+  if (is.chips?.length) out.push(`<div class="card" style="background:${light}">${boxTitle("파급 업체", c1)}${chips(is.chips, "")}</div>`);
+  if (is.checks?.length) out.push(`<div class="card">${boxTitle("체크 포인트", c1)}${is.checks.map((x) => `<div class="chk"><span class="b" style="border-color:${c1}"></span><div>${esc(x)}</div></div>`).join("")}${source(is.source)}</div>`);
   return out;
 }
 
-// 그림 정의: key, 색, 제목, 카드 목록
+// 그림 정의
 const figs = [];
+const T = THEME.summary;
 figs.push({
-  key: "summary", name: "요약", color: COLORS.summary,
-  kicker: `탐색 구간 ${content.window}`, title: "오늘의 핵심", sub: content.date_label || content.date,
+  key: "summary", name: "요약", theme: T, wm: "00",
+  kicker: "SUMMARY", title: "오늘의 핵심", sub: `탐색 구간 ${content.window}`,
   cards: [
-    `<div class="card" style="border-left-color:${COLORS.summary}"><div class="box-title">요약</div><ul class="dots">${(content.summary || []).map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>`,
-    `<div class="card" style="border-left-color:#c92a2a"><div class="box-title">오늘 밤 체크리스트</div><ul class="checks">${(content.checklist || []).map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>`,
+    `<div class="card">${boxTitle("요약", T[0])}${(content.summary || []).map((x, i) => `<div class="num"><span class="n" style="background:${T[0]}">${i + 1}</span><div>${esc(x)}</div></div>`).join("")}</div>`,
+    `<div class="card">${boxTitle("오늘 밤 체크리스트", "#d6336c")}${(content.checklist || []).map((x) => `<div class="chk"><span class="b" style="border-color:#d6336c"></span><div>${esc(x)}</div></div>`).join("")}</div>`,
   ],
 });
 (content.issues || []).forEach((is, i) => {
-  const color = ISSUE_COLORS[i % ISSUE_COLORS.length];
-  figs.push({ key: `issue${i + 1}`, name: `이슈${i + 1}`, color, kicker: `이슈 카드 ${i + 1}`, title: is.title, sub: is.subtitle || "", cards: issueCards(is, color) });
+  const theme = THEME[`issue${(i % 2) + 1}`];
+  figs.push({ key: `issue${i + 1}`, name: `이슈${i + 1}`, theme, wm: `0${i + 1}`, kicker: `ISSUE ${i + 1}`, title: is.title, sub: is.subtitle || "", cards: issueCards(is, theme) });
 });
-for (const [key, label, sub] of SECTIONS) {
+SECTIONS.forEach(([key, label, sub], i) => {
   const cards = content.sections?.[key] || [];
-  const color = COLORS[key];
+  const theme = THEME[key];
   figs.push({
-    key, name: label, color, kicker: "섹션", title: label, sub,
-    cards: cards.length ? cards.map((c) => newsCard(c, color)) : [emptyCard(content.empty_notes?.[key], color)],
+    key, name: label, theme, wm: String(i + 1).padStart(2, "0"), kicker: "SECTOR", title: label, sub,
+    cards: cards.length ? cards.map((c) => newsCard(c, theme)) : [emptyCard(content.empty_notes?.[key], theme)],
   });
-}
+});
 
 const browser = await chromium.launch();
 const ctx = await browser.newContext({ viewport: { width: W, height: 400 }, deviceScaleFactor: 1 });
 const pg = await ctx.newPage();
 
-// 높이를 재서 MAX_H를 넘으면 같은 분류를 (1/2), (2/2)로 나눕니다.
-async function measure(f, title, cards) {
-  await pg.setContent(page(f.color, f.kicker, title, f.sub, cards), { waitUntil: "load" });
+async function measure(f) {
+  await pg.setContent(page(f, f.title, "1/2", f.cards, 1, 1), { waitUntil: "load" });
   return pg.evaluate(() => {
-    const cs = [...document.querySelectorAll(".body > .card")].map((e) => e.getBoundingClientRect().height + 26);
-    return { total: document.documentElement.scrollHeight, cards: cs, fixed: document.documentElement.scrollHeight - cs.reduce((a, b) => a + b, 0) };
+    const cs = [...document.querySelectorAll(".body > .card")].map((e) => e.getBoundingClientRect().height + 22);
+    const total = document.documentElement.scrollHeight;
+    return { total, cards: cs, fixed: total - cs.reduce((a, b) => a + b, 0) };
   });
 }
 
-for (const f of fs.readdirSync(dir)) if (/^pre_\d+\.jpg$/.test(f)) fs.unlinkSync(path.join(dir, f));
-
-const manifest = [];
-let n = 0;
+// 1) 나눌 위치 계산: MAX_H를 넘으면 같은 분류를 (1/2), (2/2)로 나눕니다.
+const plan = [];
 for (const f of figs) {
-  const m = await measure(f, f.title, f.cards);
+  const m = await measure(f);
   let groups = [f.cards];
   if (m.total > MAX_H && f.cards.length > 1) {
-    const room = MAX_H - m.fixed - 40; // 제목 길이 여유
-    groups = []; let cur = [], h = 0;
-    f.cards.forEach((c, i) => {
-      if (cur.length && h + m.cards[i] > room) { groups.push(cur); cur = []; h = 0; }
-      cur.push(c); h += m.cards[i];
-    });
-    groups.push(cur);
+    const room = MAX_H - m.fixed - 30;
+    // 최소 장수 k를 구한 뒤, k장으로 나누는 방법 중 가장 높은 장이 가장 낮은 것을 고릅니다(균등 분할).
+    const hs = m.cards, n = hs.length;
+    let k = 1; { let h = 0; hs.forEach((x) => { if (h && h + x > room) { k++; h = 0; } h += x; }); }
+    const sum = (a, b) => hs.slice(a, b).reduce((p, q) => p + q, 0);
+    let best = null;
+    const rec = (start, left, cuts) => {
+      if (left === 1) { const all = [...cuts, n]; let prev = 0, mx = 0;
+        for (const c of all) { mx = Math.max(mx, sum(prev, c)); prev = c; }
+        if (!best || mx < best.mx) best = { mx, all }; return; }
+      for (let c = start + 1; c <= n - left + 1; c++) rec(c, left - 1, [...cuts, c]);
+    };
+    rec(0, k, []);
+    groups = []; let prev = 0;
+    for (const c of best.all) { groups.push(f.cards.slice(prev, c)); prev = c; }
   }
-  for (let g = 0; g < groups.length; g++) {
-    n++;
-    const title = groups.length > 1 ? `${f.title} (${g + 1}/${groups.length})` : f.title;
-    await pg.setContent(page(f.color, f.kicker, title, f.sub, groups[g]), { waitUntil: "load" });
-    await pg.evaluate(() => document.fonts.ready);
-    const file = `pre_${n}.jpg`;
-    await pg.screenshot({ path: path.join(dir, file), fullPage: true, type: "jpeg", quality: 92 });
-    const h = await pg.evaluate(() => document.documentElement.scrollHeight);
-    const id = groups.length > 1 ? `${f.key}#${g + 1}` : f.key;
-    const name = groups.length > 1 ? `${f.name}(${g + 1}/${groups.length})` : f.name;
-    manifest.push({ n, id, name, file, height: h });
-    console.log(`그림${n} ${id} ${file} ${W}x${h}${h > MAX_H ? "  ⚠ 높이 초과(카드 1장이 너무 김)" : ""}`);
-  }
+  groups.forEach((g, gi) => plan.push({ f, cards: g, gi, gn: groups.length }));
+}
+
+// 2) 렌더링
+for (const f of fs.readdirSync(dir)) if (/^pre_\d+\.jpg$/.test(f)) fs.unlinkSync(path.join(dir, f));
+const manifest = [];
+for (let i = 0; i < plan.length; i++) {
+  const { f, cards, gi, gn } = plan[i];
+  const n = i + 1;
+  const part = gn > 1 ? `${gi + 1}/${gn}` : "";
+  await pg.setContent(page(f, f.title, part, cards, n, plan.length), { waitUntil: "load" });
+  await pg.evaluate(() => document.fonts.ready);
+  const file = `pre_${n}.jpg`;
+  await pg.screenshot({ path: path.join(dir, file), fullPage: true, type: "jpeg", quality: 92 });
+  const h = await pg.evaluate(() => document.documentElement.scrollHeight);
+  const id = gn > 1 ? `${f.key}#${gi + 1}` : f.key;
+  const name = gn > 1 ? `${f.name}(${gi + 1}/${gn})` : f.name;
+  manifest.push({ n, id, name, file, height: h });
+  console.log(`그림${n} ${id} ${file} ${W}x${h}${h > MAX_H ? "  ⚠ 높이 초과(카드 1장이 너무 김)" : ""}`);
 }
 await browser.close();
 fs.writeFileSync(path.join(dir, "figures.json"), JSON.stringify(manifest, null, 1));
