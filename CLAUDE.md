@@ -13,11 +13,14 @@
    - `python3 scripts/fetch_flash.py out/D` → `out/D/flash_window.json` (15:30 KST 이후 속보만).
      항목이 많으면 메가테크·모빌리티·AI·반도체 관련만 골라 읽습니다(grep, jq, python 활용).
    - DIGITIMES: WebFetch로 https://www.digitimes.com/ 와 https://www.digitimes.com.tw/ 를 읽습니다.
+   - `watchlist.json`의 워치리스트 종목도 모니터링 대상입니다. flash_window.json에서 종목명·티커(영문·한국어·중국어 표기)로
+     걸러 읽고, 큰 소식은 WebSearch로 한 번 더 확인합니다.
    - 주요 매체(로이터, CNBC, Bloomberg, Yahoo Finance 등)와 기업 IR은 WebSearch로 찾습니다.
      직접 접속이 막힌 사이트는 검색 결과의 제목·요약·URL로 확인합니다. 확인 못 한 수치는 쓰지 않습니다.
 3. `out/D/content.json` 작성 (형식은 `examples/content.json` 참고)
    - 가이드라인 3~6절: 분류, 라벨([사실]/[의미]/[영향]/[체크]/[배경]), 사실성 규칙, 문체.
-   - `sections`의 키: `megatech`, `mobility`, `ai_software`, `ai_infra`, `semis`.
+   - `sections`의 키: `megatech`, `mobility`, `ai_software`, `ai_infra`, `semis`, `others`(크립토·희토류, 선택).
+     워치리스트 그룹을 어느 분류에 넣을지는 가이드라인 3절을 따릅니다. `others`는 소식이 없으면 비워 두면 그림이 생기지 않습니다.
      소식이 없는 분류는 빈 배열로 두고 `empty_notes`에 직전 맥락 한 줄을 씁니다.
    - 카드 `tag`: 15:30 이후면 `"신규"`, 이전이면 `"배경"`.
    - `chips[].chg`: 확인된 등락률만, `"+2.3%"` / `"-1.1%"` 형식. 숫자가 없으면 `chg`를 비웁니다.

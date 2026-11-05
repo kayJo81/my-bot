@@ -23,6 +23,7 @@ const THEME = {
   ai_software: ["#7b2cbf", "#4a1478", "#f8f0fc"],
   ai_infra: ["#0c8599", "#065463", "#e3fafc"],
   semis: ["#2f9e44", "#16602a", "#ebfbee"],
+  others: ["#e67700", "#8a4700", "#fff9db"],
 };
 const SECTIONS = [
   ["megatech", "메가테크", "애플 · 엔비디아 · 알파벳 · 아마존 · MSFT · 메타"],
@@ -30,6 +31,7 @@ const SECTIONS = [
   ["ai_software", "AI 소프트웨어", "앤트로픽 · 오픈AI 등"],
   ["ai_infra", "AI 인프라", "네오클라우드 · 데이터센터 에너지 · 서버 · 네트워킹 · 광통신"],
   ["semis", "반도체", "파운드리 · 메모리 · 설계 · 장비"],
+  ["others", "크립토·희토류", "워치리스트 기타 종목", true],
 ];
 const LABEL = {
   "사실": ["#343a40", "#f1f3f5"], "의미": ["#6741d9", "#f3f0ff"], "영향": ["#e8590c", "#fff4e6"],
@@ -165,8 +167,9 @@ figs.push({
   const theme = THEME[`issue${(i % 2) + 1}`];
   figs.push({ key: `issue${i + 1}`, name: `이슈${i + 1}`, theme, wm: `0${i + 1}`, kicker: `ISSUE ${i + 1}`, title: is.title, sub: is.subtitle || "", cards: issueCards(is, theme) });
 });
-SECTIONS.forEach(([key, label, sub], i) => {
+SECTIONS.forEach(([key, label, sub, optional], i) => {
   const cards = content.sections?.[key] || [];
+  if (optional && !cards.length) return; // 선택 섹션은 소식이 없으면 장을 만들지 않음
   const theme = THEME[key];
   figs.push({
     key, name: label, theme, wm: String(i + 1).padStart(2, "0"), kicker: "SECTOR", title: label, sub,

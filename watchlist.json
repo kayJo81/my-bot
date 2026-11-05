@@ -1,0 +1,471 @@
+{
+ "source": "CNBC 워치리스트 (사용자 제공, 2026-11-04 기준)",
+ "groups": [
+  {
+   "key": "Semi",
+   "name": "반도체",
+   "tickers": [
+    {
+     "s": "NVDA",
+     "n": "NVIDIA"
+    },
+    {
+     "s": "ASML",
+     "n": "ASML"
+    },
+    {
+     "s": "AMD",
+     "n": "AMD"
+    },
+    {
+     "s": "INTC",
+     "n": "Intel"
+    },
+    {
+     "s": "QCOM",
+     "n": "Qualcomm"
+    },
+    {
+     "s": "TSM",
+     "n": "TSMC"
+    },
+    {
+     "s": "SOXX",
+     "n": "iShares 반도체 ETF"
+    },
+    {
+     "s": "AVGO",
+     "n": "Broadcom"
+    },
+    {
+     "s": "MU",
+     "n": "Micron"
+    },
+    {
+     "s": "NXPI",
+     "n": "NXP"
+    },
+    {
+     "s": "SWKS",
+     "n": "Skyworks"
+    },
+    {
+     "s": "GFS",
+     "n": "GlobalFoundries"
+    },
+    {
+     "s": "MRVL",
+     "n": "Marvell"
+    },
+    {
+     "s": "LRCX",
+     "n": "Lam Research"
+    },
+    {
+     "s": "SNPS",
+     "n": "Synopsys"
+    },
+    {
+     "s": "AMAT",
+     "n": "Applied Materials"
+    },
+    {
+     "s": "ARM",
+     "n": "Arm"
+    },
+    {
+     "s": "ON",
+     "n": "ON Semi"
+    },
+    {
+     "s": "TXN",
+     "n": "Texas Instruments"
+    },
+    {
+     "s": "CDNS",
+     "n": "Cadence"
+    },
+    {
+     "s": "WDC",
+     "n": "Western Digital"
+    },
+    {
+     "s": "STX",
+     "n": "Seagate"
+    },
+    {
+     "s": "SNDK",
+     "n": "Sandisk"
+    },
+    {
+     "s": "STM",
+     "n": "STMicro"
+    },
+    {
+     "s": "KLAC",
+     "n": "KLA"
+    },
+    {
+     "s": "ADI",
+     "n": "Analog Devices"
+    },
+    {
+     "s": "CBRS",
+     "n": "Cerebras"
+    },
+    {
+     "s": "SKHY",
+     "n": "SK hynix"
+    }
+   ]
+  },
+  {
+   "key": "Cloud",
+   "name": "클라우드·소프트웨어",
+   "tickers": [
+    {
+     "s": "CRM",
+     "n": "Salesforce"
+    },
+    {
+     "s": "ORCL",
+     "n": "Oracle"
+    },
+    {
+     "s": "ADBE",
+     "n": "Adobe"
+    },
+    {
+     "s": "CLOU",
+     "n": "Global X Cloud ETF"
+    },
+    {
+     "s": "PLTR",
+     "n": "Palantir"
+    },
+    {
+     "s": "WDAY",
+     "n": "Workday"
+    },
+    {
+     "s": "CRWD",
+     "n": "CrowdStrike"
+    },
+    {
+     "s": "IBM",
+     "n": "IBM"
+    },
+    {
+     "s": "SNOW",
+     "n": "Snowflake"
+    },
+    {
+     "s": "HUBS",
+     "n": "HubSpot"
+    },
+    {
+     "s": "ZM",
+     "n": "Zoom"
+    },
+    {
+     "s": "RDDT",
+     "n": "Reddit"
+    },
+    {
+     "s": "NOW",
+     "n": "ServiceNow"
+    },
+    {
+     "s": "IGV",
+     "n": "iShares 소프트웨어 ETF"
+    },
+    {
+     "s": "PANW",
+     "n": "Palo Alto Networks"
+    },
+    {
+     "s": "DDOG",
+     "n": "Datadog"
+    },
+    {
+     "s": "AKAM",
+     "n": "Akamai"
+    },
+    {
+     "s": "APP",
+     "n": "AppLovin"
+    }
+   ]
+  },
+  {
+   "key": "TSLA",
+   "name": "테슬라",
+   "tickers": [
+    {
+     "s": "TSLA",
+     "n": "Tesla"
+    }
+   ]
+  },
+  {
+   "key": "space",
+   "name": "우주",
+   "tickers": [
+    {
+     "s": "RKLB",
+     "n": "Rocket Lab"
+    },
+    {
+     "s": "LUNR",
+     "n": "Intuitive Machines"
+    },
+    {
+     "s": "PL",
+     "n": "Planet Labs"
+    },
+    {
+     "s": "ASTS",
+     "n": "AST SpaceMobile"
+    },
+    {
+     "s": "ITA",
+     "n": "iShares 항공우주·방산 ETF"
+    },
+    {
+     "s": "RDW",
+     "n": "Redwire"
+    },
+    {
+     "s": "UFO",
+     "n": "Procure Space ETF"
+    },
+    {
+     "s": "SPCX",
+     "n": "SpaceX"
+    }
+   ]
+  },
+  {
+   "key": "Serve & Infra",
+   "name": "서버·인프라",
+   "tickers": [
+    {
+     "s": "VRT",
+     "n": "Vertiv"
+    },
+    {
+     "s": "ANET",
+     "n": "Arista"
+    },
+    {
+     "s": "CRWV",
+     "n": "CoreWeave"
+    },
+    {
+     "s": "SMCI",
+     "n": "Super Micro"
+    },
+    {
+     "s": "DELL",
+     "n": "Dell"
+    },
+    {
+     "s": "HPE",
+     "n": "HPE"
+    },
+    {
+     "s": "COHR",
+     "n": "Coherent"
+    },
+    {
+     "s": "NBIS",
+     "n": "Nebius"
+    },
+    {
+     "s": "NVTS",
+     "n": "Navitas"
+    },
+    {
+     "s": "POWI",
+     "n": "Power Integrations"
+    },
+    {
+     "s": "IREN",
+     "n": "IREN"
+    },
+    {
+     "s": "ETN",
+     "n": "Eaton"
+    },
+    {
+     "s": "CSCO",
+     "n": "Cisco"
+    },
+    {
+     "s": "WULF",
+     "n": "TeraWulf"
+    },
+    {
+     "s": "NVT",
+     "n": "nVent"
+    },
+    {
+     "s": "LITE",
+     "n": "Lumentum"
+    },
+    {
+     "s": "APLD",
+     "n": "Applied Digital"
+    },
+    {
+     "s": "POET",
+     "n": "POET"
+    },
+    {
+     "s": "GLW",
+     "n": "Corning"
+    }
+   ]
+  },
+  {
+   "key": "nuclear",
+   "name": "원전·전력",
+   "tickers": [
+    {
+     "s": "SMR",
+     "n": "NuScale"
+    },
+    {
+     "s": "LEU",
+     "n": "Centrus"
+    },
+    {
+     "s": "OKLO",
+     "n": "Oklo"
+    },
+    {
+     "s": "GEV",
+     "n": "GE Vernova"
+    },
+    {
+     "s": "NNE",
+     "n": "Nano Nuclear"
+    },
+    {
+     "s": "LTBR",
+     "n": "Lightbridge"
+    },
+    {
+     "s": "CEG",
+     "n": "Constellation"
+    },
+    {
+     "s": "CCJ",
+     "n": "Cameco"
+    },
+    {
+     "s": "FRMI",
+     "n": "Fermi"
+    },
+    {
+     "s": "BE",
+     "n": "Bloom Energy"
+    }
+   ]
+  },
+  {
+   "key": "Crypto",
+   "name": "크립토",
+   "tickers": [
+    {
+     "s": "HOOD",
+     "n": "Robinhood"
+    },
+    {
+     "s": "CRCL",
+     "n": "Circle"
+    },
+    {
+     "s": "COIN",
+     "n": "Coinbase"
+    },
+    {
+     "s": "BLSH",
+     "n": "Bullish"
+    },
+    {
+     "s": "MSTR",
+     "n": "Strategy"
+    },
+    {
+     "s": "BMNR",
+     "n": "BitMine"
+    },
+    {
+     "s": "GEMI",
+     "n": "Gemini"
+    },
+    {
+     "s": "FIGR",
+     "n": "Figure"
+    }
+   ]
+  },
+  {
+   "key": "Big Tech",
+   "name": "빅테크",
+   "tickers": [
+    {
+     "s": "AMZN",
+     "n": "Amazon"
+    },
+    {
+     "s": "AAPL",
+     "n": "Apple"
+    },
+    {
+     "s": "GOOGL",
+     "n": "Alphabet"
+    },
+    {
+     "s": "MSFT",
+     "n": "Microsoft"
+    },
+    {
+     "s": "META",
+     "n": "Meta"
+    },
+    {
+     "s": "NVDA",
+     "n": "NVIDIA"
+    }
+   ]
+  },
+  {
+   "key": "Rare Earth",
+   "name": "희토류",
+   "tickers": [
+    {
+     "s": "CRML",
+     "n": "Critical Metals"
+    },
+    {
+     "s": "USAR",
+     "n": "USA Rare Earth"
+    },
+    {
+     "s": "NVA",
+     "n": "Nova Minerals"
+    },
+    {
+     "s": "LAC",
+     "n": "Lithium Americas"
+    },
+    {
+     "s": "BHP",
+     "n": "BHP"
+    }
+   ]
+  }
+ ]
+}
