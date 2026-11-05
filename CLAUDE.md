@@ -1,4 +1,4 @@
-# my-bot: 개장 전 주요 소식 봇
+# my-bot: 개장 전 섹터별 이슈체크 봇
 
 매일 21:30 KST 전후로 Claude 예약 작업이 새 세션을 열고 이 저장소에서 아래 절차를 실행합니다.
 글쓰기 규칙은 모두 `GUIDELINE_FOR_CLAUDE.md`를 따릅니다. 이 파일은 실행 절차만 정합니다.
@@ -27,8 +27,9 @@
 5. 해설 작성: `figures.json`의 각 그림 id(`summary`, `issue1`, `megatech` 또는 나뉜 경우 `megatech#1`, `megatech#2` …)마다
    `content.json`의 `commentary`에 2~4문장 해설을 씁니다(가이드라인 8절). 나뉜 분류는 리스트로 써도 됩니다.
    `greeting`(인사 2~3줄: 날짜, 탐색 구간, 안내)도 씁니다.
-6. 메일 만들기: `python3 scripts/build_email.py out/D`. "고칠 것"이 나오면 고치고 다시 실행합니다.
-7. 발송: `out/D/`의 `content.json`, `figures.json`, `pre_*.jpg`, `body.txt`, `mail.json`, `flash_window.json`을
+6. 메일 만들기: `python3 scripts/build_email.py out/D` → `body.txt`, 그림 PDF, `mail.json`. "고칠 것"이 나오면 고치고 다시 실행합니다.
+   Pillow가 없다는 오류가 나면 `pip install pillow` 후 다시 실행합니다.
+7. 발송: `out/D/`의 `content.json`, `figures.json`, `pre_*.jpg`, PDF, `body.txt`, `mail.json`, `flash_window.json`을
    한 커밋으로 `main`에 푸시합니다. 커밋 메시지: `briefing: D`.
    푸시되면 GitHub Actions(`send-mail.yml`)가 Gmail로 메일을 보냅니다.
    - `main` 푸시가 거부되면 `briefing/D` 브랜치로 푸시합니다. 이 경우에도 메일은 발송됩니다.

@@ -5,6 +5,7 @@
 사용법: python3 scripts/send_mail.py out/2026-11-06 [out/...]
 """
 import json
+import mimetypes
 import os
 import smtplib
 import sys
@@ -23,12 +24,14 @@ def send(d: Path, user: str, pw: str) -> None:
     msg["To"] = to
     msg.set_content(body, charset="utf-8")
     for name in mail["attachments"]:
-        msg.add_attachment((d / name).read_bytes(), maintype="image", subtype="jpeg", filename=name)
+        ctype = mimetypes.guess_type(name)[0] or "application/octet-stream"
+        maintype, subtype = ctype.split("/", 1)
+        msg.add_attachment((d / name).read_bytes(), maintype=maintype, subtype=subtype, filename=name)
 
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=60) as s:
         s.login(user, pw)
         s.send_message(msg)
-    print(f"sent: {mail['subject']} -> {to} ({len(mail['attachments'])} images)")
+    print(f"sent: {mail['subject']} -> {to} ({', '.join(mail['attachments'])})")
 
 
 def main() -> None:

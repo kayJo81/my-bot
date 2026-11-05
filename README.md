@@ -1,9 +1,9 @@
 # my-bot
 
-매일 저녁 "개장 전 주요 소식"을 만들어 이메일로 보내는 봇입니다.
+매일 저녁 "개장 전 섹터별 이슈체크"를 만들어 이메일로 보내는 봇입니다.
 
-- 작성: Claude 예약 작업이 매일 21시경 새 세션을 열어 `CLAUDE.md` 절차대로 소식을 모으고, 글과 인포그래픽(`pre_N.jpg`)을 만들어 `out/YYYY-MM-DD/`에 커밋합니다.
-- 발송: `out/**/mail.json`이 푸시되면 GitHub Actions(`.github/workflows/send-mail.yml`)가 Gmail로 보냅니다.
+- 작성: Claude 예약 작업이 매일 21시경 새 세션을 열어 `CLAUDE.md` 절차대로 소식을 모으고, 글과 인포그래픽(`pre_N.jpg`, 그림 PDF)을 만들어 `out/YYYY-MM-DD/`에 커밋합니다.
+- 발송: `out/**/mail.json`이 푸시되면 GitHub Actions(`.github/workflows/send-mail.yml`)가 PDF를 첨부해 Gmail로 보냅니다.
 - 글쓰기 규칙: `GUIDELINE_FOR_CLAUDE.md`
 
 ## 설정 (한 번만)

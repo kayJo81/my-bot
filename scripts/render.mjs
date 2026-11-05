@@ -108,7 +108,7 @@ function page(f, title, part, cardsHtml, pageNo, total) {
   const [c1, c2] = f.theme;
   return `<!doctype html><html><head><meta charset="utf-8"><style>${CSS}</style></head><body>
 <div class="head" style="background:linear-gradient(135deg,${c1} 0%,${c2} 100%)">
- <div class="top"><span class="brand">개장 전 주요 소식</span><span class="date">${esc(dateLabel)}</span></div>
+ <div class="top"><span class="brand">개장 전 섹터별 이슈체크</span><span class="date">${esc(dateLabel)}</span></div>
  <div class="kicker">${esc(f.kicker)}</div>
  <h1>${esc(title)}${part ? `<span class="part">${esc(part)}</span>` : ""}</h1>
  ${f.sub ? `<div class="sub">${esc(f.sub)}</div>` : ""}

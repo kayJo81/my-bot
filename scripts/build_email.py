@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""content.json + figures.json -> 메일 본문(body.txt) + 발송 정보(mail.json)
+"""content.json + figures.json -> 메일 본문(body.txt) + 그림 PDF + 발송 정보(mail.json)
 
 사용법: python3 scripts/build_email.py out/2026-11-06
 - 해설이 빠진 그림이 있으면 목록을 출력하고 종료 코드 1로 끝납니다.
@@ -9,6 +9,18 @@ import json
 import sys
 from datetime import date
 from pathlib import Path
+
+TITLE = "개장 전 섹터별 이슈체크"
+
+
+def make_pdf(d: Path, figs: list, name: str) -> None:
+    """그림을 1쪽에 1장씩 담은 PDF를 만듭니다."""
+    try:
+        from PIL import Image
+    except ImportError:
+        sys.exit("Pillow가 없습니다: pip install pillow")
+    imgs = [Image.open(d / f["file"]).convert("RGB") for f in figs]
+    imgs[0].save(d / name, "PDF", resolution=150.0, save_all=True, append_images=imgs[1:])
 
 
 def commentary_for(fig: dict, comm: dict):
@@ -38,7 +50,7 @@ def main() -> None:
     kdate = f"{dt.year}년 {dt.month}월 {dt.day}일"
 
     problems = []
-    paras = [f"{kdate} 개장 전 주요 소식"]
+    paras = [f"{kdate} {TITLE}"]
     greeting = content.get("greeting")
     if not greeting:
         problems.append("greeting(인사 2~3줄) 없음")
@@ -64,7 +76,7 @@ def main() -> None:
         seen.add(s["url"])
         lines.append(f"· {s['title']} ({s['outlet']}): {s['url']}")
     paras.append("\n".join(lines))
-    paras.append("그림 대응: " + ", ".join(f"그림{f['n']}={f['name']}" for f in figs))
+    paras.append("그림 대응(PDF 쪽 번호): " + ", ".join(f"그림{f['n']}={f['name']}" for f in figs))
 
     if problems:
         print("고칠 것:\n- " + "\n- ".join(problems))
@@ -72,14 +84,16 @@ def main() -> None:
 
     body = "\n\n".join(paras) + "\n"
     (d / "body.txt").write_text(body, encoding="utf-8")
+    pdf_name = f"개장전_섹터별_이슈체크_{content['date']}.pdf"
+    make_pdf(d, figs, pdf_name)
     mail = {
-        "subject": f"[개장 전 주요 소식] {kdate}",
+        "subject": f"[{TITLE}] {kdate}",
         "to": content.get("mail_to", "yidiar80k@gmail.com"),
         "body_file": "body.txt",
-        "attachments": [f["file"] for f in figs],
+        "attachments": [pdf_name],
     }
     (d / "mail.json").write_text(json.dumps(mail, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"OK: {mail['subject']} / 그림 {len(figs)}장 / 본문 {len(body)}자")
+    print(f"OK: {mail['subject']} / PDF {len(figs)}쪽 ({pdf_name}) / 본문 {len(body)}자")
 
 
 if __name__ == "__main__":
