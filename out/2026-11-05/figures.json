@@ -4,7 +4,7 @@
   "id": "summary",
   "name": "요약",
   "file": "pre_1.jpg",
-  "height": 1724
+  "height": 1778
  },
  {
   "n": 2,
@@ -64,37 +64,44 @@
  },
  {
   "n": 10,
-  "id": "ai_software",
-  "name": "AI 소프트웨어",
+  "id": "ai_software#1",
+  "name": "AI 소프트웨어(1/2)",
   "file": "pre_10.jpg",
-  "height": 1572
+  "height": 1080
  },
  {
   "n": 11,
-  "id": "ai_infra#1",
-  "name": "AI 인프라(1/2)",
+  "id": "ai_software#2",
+  "name": "AI 소프트웨어(2/2)",
   "file": "pre_11.jpg",
-  "height": 1661
+  "height": 1655
  },
  {
   "n": 12,
-  "id": "ai_infra#2",
-  "name": "AI 인프라(2/2)",
+  "id": "ai_infra#1",
+  "name": "AI 인프라(1/2)",
   "file": "pre_12.jpg",
-  "height": 1504
+  "height": 1661
  },
  {
   "n": 13,
-  "id": "semis#1",
-  "name": "반도체(1/2)",
+  "id": "ai_infra#2",
+  "name": "AI 인프라(2/2)",
   "file": "pre_13.jpg",
-  "height": 1163
+  "height": 1504
  },
  {
   "n": 14,
+  "id": "semis#1",
+  "name": "반도체(1/2)",
+  "file": "pre_14.jpg",
+  "height": 1723
+ },
+ {
+  "n": 15,
   "id": "semis#2",
   "name": "반도체(2/2)",
-  "file": "pre_14.jpg",
-  "height": 1598
+  "file": "pre_15.jpg",
+  "height": 1655
  }
 ]
