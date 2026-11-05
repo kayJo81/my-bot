@@ -1,0 +1,923 @@
+{
+ "date": "2026-11-05",
+ "window": "15:30~21:30 KST",
+ "mail_to": "yidiar80k@gmail.com",
+ "summary": [
+  "퀄컴, 4분기 실적은 예상 상회했지만 1분기 EPS 가이던스가 기대 밑돌며 프리마켓 9% 넘게 하락",
+  "Arm, 2분기 매출·EPS 예상 상회에도 로열티 매출 부진·가이던스 소폭 상회에 그쳐 4% 가까이 하락",
+  "훙하이 10월 매출 NT$1.31조(전년 대비 +45.7%), 4분기 AI 사업 성장 지속 전망",
+  "마이크론, 노사 갈등으로 45억 달러 규모 대만 공장 공사 중단 보도… 메모리·광통신주 프리마켓 약세",
+  "엔비디아 H200 약 60만 개가 홍콩에서 중국 본토 반입 대기 중이라는 보도"
+ ],
+ "checklist": [
+  "퀄컴·Arm 하락이 다른 모바일·설계 반도체로 번지는지",
+  "마이크론 대만 공장 공사 중단 관련 회사 공식 입장",
+  "메모리(SK하이닉스·마이크론)·광통신(루멘텀·코닝) 약세 지속 여부",
+  "H200 중국 반입 보도에 대한 엔비디아·미 정부 반응",
+  "테슬라·스페이스X 등 머스크 관련주 연속 하락 여부"
+ ],
+ "issues": [
+  {
+   "title": "퀄컴 실적: 숫자는 상회, 이익 가이던스는 미달",
+   "subtitle": "2026 회계연도 4분기(7~9월) · 핸드셋 부진·원가 부담",
+   "timeline": [
+    {
+     "t": "새벽",
+     "text": "4분기 실적 발표(미국 4일 장 마감 후)"
+    },
+    {
+     "t": "16:14",
+     "text": "JP모건 목표가 $215→$200 하향"
+    },
+    {
+     "t": "18:03",
+     "text": "프리마켓 9% 넘게 하락"
+    },
+    {
+     "t": "20:06",
+     "text": "서스케하나 $185→$165, 20:44 미즈호 $170→$160 하향"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "4분기 조정 매출",
+     "value": "$10.44B",
+     "note": "예상 $10.12B",
+     "dir": "up"
+    },
+    {
+     "label": "4분기 조정 EPS",
+     "value": "$2.17",
+     "note": "예상 $2.16",
+     "dir": "up"
+    },
+    {
+     "label": "1분기 매출 가이던스",
+     "value": "$10.4~11.2B",
+     "note": "예상 $10.55B (로이터)",
+     "dir": "up"
+    },
+    {
+     "label": "1분기 EPS 가이던스",
+     "value": "$2.15~2.35",
+     "note": "예상 $2.32 (로이터)",
+     "dir": "down"
+    }
+   ],
+   "cause": [
+    "핸드셋 매출 전년 대비 26% 감소한 약 $5.14B(예상 $5.25B)",
+    "칩 원가 상승분을 메울 가격 인상 효과는 2027 회계연도 하반기부터 반영(CFO)",
+    "2027년 세계 스마트폰 시장 보합~소폭 감소 전망",
+    "자동차 매출은 89% 늘어난 약 $2B로 호조"
+   ],
+   "chips": [
+    {
+     "name": "퀄컴"
+    },
+    {
+     "name": "Arm"
+    },
+    {
+     "name": "SK하이닉스"
+    },
+    {
+     "name": "마이크론"
+    }
+   ],
+   "checks": [
+    "정규장에서 낙폭이 줄어드는지",
+    "목표가 하향 행렬(LSEG 기준 최소 8곳) 이어지는지",
+    "데이터센터(AI250 등) 사업 기대가 핸드셋 우려를 상쇄할지"
+   ],
+   "source": "로이터, CNBC, Yahoo Finance, 월스트리트견문, 시나"
+  },
+  {
+   "title": "Arm 실적: 사상 최대 2분기, 시장은 냉담",
+   "subtitle": "2027 회계연도 2분기(7~9월) · 로열티 매출 부진",
+   "timeline": [
+    {
+     "t": "새벽",
+     "text": "2분기 실적 발표(미국 4일 장 마감 후)"
+    },
+    {
+     "t": "16:24",
+     "text": "JP모건 목표가 $255→$245 하향"
+    },
+    {
+     "t": "18:03",
+     "text": "프리마켓 4% 가까이 하락"
+    },
+    {
+     "t": "18:47",
+     "text": "RBC 목표가 $340→$300 하향"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "2분기 매출",
+     "value": "$1.44B",
+     "note": "예상 $1.38B (LSEG)",
+     "dir": "up"
+    },
+    {
+     "label": "2분기 조정 EPS",
+     "value": "$0.52",
+     "note": "예상 $0.47",
+     "dir": "up"
+    },
+    {
+     "label": "로열티 매출",
+     "value": "$670M",
+     "note": "예상 $720.8M",
+     "dir": "down"
+    },
+    {
+     "label": "3분기 매출 가이던스",
+     "value": "$1.54B ±50M",
+     "note": "예상 $1.53B (LSEG)"
+    }
+   ],
+   "cause": [
+    "로열티 매출 증가율 8%에 그쳐 예상 하회, 분기는 라이선스가 견인",
+    "3분기 가이던스가 컨센서스를 겨우 넘는 수준",
+    "스마트폰 둔화를 데이터센터 매출이 메우는 구조(블룸버그)"
+   ],
+   "chips": [
+    {
+     "name": "Arm"
+    },
+    {
+     "name": "퀄컴"
+    },
+    {
+     "name": "소프트뱅크"
+    }
+   ],
+   "checks": [
+    "AGI CPU 2027~28 회계연도 최대 $20억 매출 목표 재확인 효과",
+    "퀄컴과 동반 약세가 모바일 반도체 전반으로 확대되는지",
+    "목표가 추가 하향 여부"
+   ],
+   "source": "Arm IR, 로이터, 블룸버그, 월스트리트견문, 시나"
+  }
+ ],
+ "sections": {
+  "megatech": [
+   {
+    "company": "엔비디아",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "H200 AI 칩 약 60만 개가 홍콩에서 중국 본토 반입을 기다리고 있다는 보도(두 소식통)"
+     },
+     {
+      "label": "배경",
+      "text": "2025년 12월 로이터는 엔비디아 H200 재고를 약 60만 개로 보도"
+     },
+     {
+      "label": "의미",
+      "text": "중국향 매출 회복 여부가 실적 기대의 변수"
+     },
+     {
+      "label": "체크",
+      "text": "11월 17일 실적 발표 전 정책 관련 후속 보도"
+     }
+    ],
+    "chips": [
+     {
+      "name": "엔비디아"
+     },
+     {
+      "name": "TSMC"
+     }
+    ],
+    "source": "FinancialJuice, 로이터"
+   },
+   {
+    "company": "메타",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "첫 유로화 채권 발행으로 90억 유로 조달, 기록적 청약 수요"
+     },
+     {
+      "label": "의미",
+      "text": "AI 데이터센터 투자 자금 조달 통로를 달러에서 유로로 넓힘"
+     },
+     {
+      "label": "사실",
+      "text": "AI 모델 이름에 과일 이름을 더 쓰지 않기로"
+     },
+     {
+      "label": "체크",
+      "text": "빅테크 회사채 발행이 이어지는지"
+     }
+    ],
+    "chips": [
+     {
+      "name": "메타"
+     }
+    ],
+    "source": "월스트리트견문, 시나"
+   },
+   {
+    "company": "마이크로소프트",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "모닝스타, 잉여현금흐름 2027 회계연도 바닥 전망·공정가치 $600 유지"
+     },
+     {
+      "label": "사실",
+      "text": "SEC 공시: 이사 에마 월름슬리, 2026년 주총까지만 재임하고 재선임 불참"
+     },
+     {
+      "label": "의미",
+      "text": "대규모 AI 투자로 현금흐름 부담이 정점을 향한다는 시각"
+     }
+    ],
+    "chips": [
+     {
+      "name": "마이크로소프트"
+     }
+    ],
+    "source": "시나"
+   },
+   {
+    "company": "매그니피센트 7",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "미국 프리마켓에서 대형 기술주 7종목 대체로 상승"
+     },
+     {
+      "label": "배경",
+      "text": "4일 장에서는 MSFT·아마존·애플이 강세, 엔비디아·테슬라는 약세로 엇갈림"
+     },
+     {
+      "label": "체크",
+      "text": "반도체 약세와 빅테크 강세의 엇갈림이 이어지는지"
+     }
+    ],
+    "chips": [
+     {
+      "name": "애플"
+     },
+     {
+      "name": "아마존"
+     },
+     {
+      "name": "알파벳"
+     }
+    ],
+    "source": "시나, 24/7 Wall St."
+   }
+  ],
+  "mobility": [
+   {
+    "company": "테슬라",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "프리마켓 2.3% 하락, 전 거래일에도 3% 넘게 하락"
+     },
+     {
+      "label": "의미",
+      "text": "민주당 선거 승리 이후 매그니피센트 7 대비 부진, 머스크 관련 자산 약세"
+     },
+     {
+      "label": "사실",
+      "text": "보조주행 누적 주행거리 전 세계 275억km 돌파 발표"
+     },
+     {
+      "label": "사실",
+      "text": "독일 베를린에 엔지니어링 센터 개설, 개발·양산 주기 단축 목적"
+     }
+    ],
+    "chips": [
+     {
+      "name": "테슬라",
+      "chg": "-2.3%"
+     }
+    ],
+    "source": "시나"
+   },
+   {
+    "company": "스페이스X",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "프리마켓 1.8% 하락, 미국 우주 관련주 전반 약세"
+     },
+     {
+      "label": "사실",
+      "text": "금융사들이 스페이스X의 400억 달러 칩 금융에 참여할 투자자 모집 착수 보도"
+     },
+     {
+      "label": "배경",
+      "text": "10월 아폴로 주도로 엔비디아 칩 구매용 400억 달러 조달 추진 보도"
+     },
+     {
+      "label": "체크",
+      "text": "우주주 약세가 정규장까지 이어지는지"
+     }
+    ],
+    "chips": [
+     {
+      "name": "스페이스X",
+      "chg": "-1.8%"
+     }
+    ],
+    "source": "시나, DIGITIMES, 로이터"
+   },
+   {
+    "company": "도요타",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "이익 전망 상향·자사주 매입 확대, 도쿄에서 약 40년 만의 최대 상승폭"
+     },
+     {
+      "label": "영향",
+      "text": "미국 ADR 프리마켓 8.29% 상승, $216.00"
+     },
+     {
+      "label": "사실",
+      "text": "북미법인 사장 겸 CEO 테드 오가와, 일본 본사 선임 연구원으로 복귀"
+     }
+    ],
+    "chips": [
+     {
+      "name": "도요타",
+      "chg": "+8.29%"
+     }
+    ],
+    "source": "시나"
+   },
+   {
+    "company": "로보틱스 · 자율주행",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "상하이차, 모멘타 등과 자본금 3억 위안 규모 자율주행 합작사 설립 추진"
+     },
+     {
+      "label": "사실",
+      "text": "중국 공업정보화부, 로봇 제품 식별코드 관리 잠정 방안 의견 수렴"
+     },
+     {
+      "label": "의미",
+      "text": "중국이 로봇·자율주행 산업의 표준·관리 체계를 서두르는 흐름"
+     }
+    ],
+    "chips": [],
+    "source": "월스트리트견문"
+   }
+  ],
+  "ai_software": [
+   {
+    "company": "오픈AI",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "반대 여론 속에 데이터센터 프로젝트 추진 방식을 바꾸기로"
+     },
+     {
+      "label": "배경",
+      "text": "1월부터 스타게이트 부지마다 지역 맞춤 상생 계획을 약속, 위스콘신 계획은 철회"
+     },
+     {
+      "label": "의미",
+      "text": "선거일 미국 곳곳에서 데이터센터 반대 표심, AI가 2028년 대선 쟁점 될 수 있다는 분석"
+     },
+     {
+      "label": "체크",
+      "text": "전력·용지 확보 지연이 AI 인프라 일정에 주는 영향"
+     }
+    ],
+    "chips": [],
+    "source": "월스트리트견문, 시나, The Register"
+   },
+   {
+    "company": "알리바바 클라우드",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "'쳰원 AI 광군제' 시작, 모델 호출·AI 앱·클라우드 동시 할인"
+     },
+     {
+      "label": "의미",
+      "text": "중국 AI 모델 가격 경쟁이 이어지는 흐름"
+     }
+    ],
+    "chips": [
+     {
+      "name": "알리바바"
+     }
+    ],
+    "source": "시나"
+   }
+  ],
+  "ai_infra": [
+   {
+    "company": "훙하이(폭스콘)",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "10월 매출 NT$1.31조, 전년 대비 45.7% 증가"
+     },
+     {
+      "label": "사실",
+      "text": "1~10월 누적 NT$8.98조, 전년 대비 40.4% 증가"
+     },
+     {
+      "label": "의미",
+      "text": "4분기에도 AI 관련 사업 성장 지속 전망, 정치·경제 변동은 계속 점검"
+     },
+     {
+      "label": "체크",
+      "text": "엔비디아 서버 공급망 수요 확인 신호"
+     }
+    ],
+    "chips": [
+     {
+      "name": "훙하이",
+      "chg": "+45.7%"
+     }
+    ],
+    "source": "월스트리트견문, DIGITIMES"
+   },
+   {
+    "company": "네오클라우드",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "프리마켓 코어위브 1.6%, 네비우스 2.8%, IREN 1% 하락"
+     },
+     {
+      "label": "의미",
+      "text": "미국 컴퓨팅 클라우드 관련주 전반 약세"
+     },
+     {
+      "label": "체크",
+      "text": "데이터센터 반대 여론이 부지·전력 확보 리스크로 번지는지"
+     }
+    ],
+    "chips": [
+     {
+      "name": "코어위브",
+      "chg": "-1.6%"
+     },
+     {
+      "name": "네비우스",
+      "chg": "-2.8%"
+     },
+     {
+      "name": "IREN",
+      "chg": "-1.0%"
+     }
+    ],
+    "source": "시나"
+   },
+   {
+    "company": "광통신",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "프리마켓 루멘텀 3% 넘게, 마벨 2% 넘게, 코닝 3% 가까이 하락"
+     },
+     {
+      "label": "사실",
+      "text": "코히런트, 마벨-루멘텀 거래 이후 '중립적 광학 공급사'로 차별화"
+     },
+     {
+      "label": "사실",
+      "text": "코닝, AI 데이터센터 수요 겨냥해 인도 광섬유 생산 확대"
+     }
+    ],
+    "chips": [
+     {
+      "name": "루멘텀"
+     },
+     {
+      "name": "마벨"
+     },
+     {
+      "name": "코닝"
+     },
+     {
+      "name": "코히런트"
+     }
+    ],
+    "source": "월스트리트견문, DIGITIMES"
+   },
+   {
+    "company": "대만 서버 공급망",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "대만 전자업체들의 텍사스 공장 투자 약속 합계 29억 달러"
+     },
+     {
+      "label": "의미",
+      "text": "AI 서버·데이터센터 수요에 맞춘 미국 현지 생산 확대"
+     }
+    ],
+    "chips": [],
+    "source": "DIGITIMES"
+   }
+  ],
+  "semis": [
+   {
+    "company": "마이크론",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "노사 갈등 이후 45억 달러 규모 대만 칩 공장 공사 중단"
+     },
+     {
+      "label": "배경",
+      "text": "10월 21일 타이중 노조와 합의했지만 타오위안 노조 분쟁은 미해결"
+     },
+     {
+      "label": "영향",
+      "text": "메모리주 프리마켓 약세: SK하이닉스 3% 넘게, 마이크론 2% 넘게 하락"
+     },
+     {
+      "label": "체크",
+      "text": "4분기 NAND 가격 압박 전망(DIGITIMES)과 겹치는 메모리 투자심리"
+     }
+    ],
+    "chips": [
+     {
+      "name": "마이크론"
+     },
+     {
+      "name": "SK하이닉스"
+     },
+     {
+      "name": "삼성전자"
+     }
+    ],
+    "source": "FinancialJuice, 월스트리트견문, Focus Taiwan, DIGITIMES"
+   },
+   {
+    "company": "AMD",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "UBS, 목표가 $700로 하향·매수 유지, 공급망 탄력 평가"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 3.15% 하락, $473.36"
+     },
+     {
+      "label": "배경",
+      "text": "한국 모레, MI355X 추론 처리량이 B200의 두 배 이상이라고 주장"
+     }
+    ],
+    "chips": [
+     {
+      "name": "AMD",
+      "chg": "-3.15%"
+     }
+    ],
+    "source": "시나, DIGITIMES"
+   },
+   {
+    "company": "유럽 반도체 · 장비",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "ASMI·ASML·BESI·ST마이크로·Soitec 2.2~4% 하락"
+     },
+     {
+      "label": "사실",
+      "text": "장비 리드타임 2년 넘어 칩 업체들이 2029년분 장비 선확보 경쟁"
+     },
+     {
+      "label": "사실",
+      "text": "중국 빅펀드 3기, 12인치 팹·장비 인수로 투자 방향 전환"
+     }
+    ],
+    "chips": [
+     {
+      "name": "ASML"
+     },
+     {
+      "name": "ASMI"
+     },
+     {
+      "name": "BESI"
+     }
+    ],
+    "source": "시나, DIGITIMES"
+   }
+  ]
+ },
+ "empty_notes": {},
+ "sources": [
+  {
+   "title": "Qualcomm slumps as weak smartphone chip sales overshadow data-center momentum",
+   "outlet": "로이터(Investing.com)",
+   "url": "https://www.investing.com/news/stock-market-news/qualcomm-slumps-as-weak-smartphone-chip-sales-overshadow-datacenter-momentum-5002833"
+  },
+  {
+   "title": "Qualcomm tops Q4 estimates, but Q1 earnings outlook falls short",
+   "outlet": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/technology/article/qualcomm-tops-q4-estimates-offers-better-than-anticipated-outlook-210119306.html"
+  },
+  {
+   "title": "美股盘前 高通·ARM·存储·光通信",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3194947"
+  },
+  {
+   "title": "摩根大通下调高通目标价",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsmis8815885.d.html"
+  },
+  {
+   "title": "Susquehanna下调高通目标价",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsvxn8727243.d.html"
+  },
+  {
+   "title": "瑞穗下调高通目标价",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsvxn8749193.d.html"
+  },
+  {
+   "title": "Arm Q2 FYE27 results (6-K)",
+   "outlet": "SEC",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001973239/000197323926000141/exhibit992fye27q230-sepx26.htm"
+  },
+  {
+   "title": "Arm forecasts third-quarter revenue above estimates on AI spending boom",
+   "outlet": "로이터",
+   "url": "https://lufkindailynews.com/news_reuters/business/arms-third-quarter-revenue-forecast-above-estimates-but-investors-unimpressed/article_5959a06a-dbb2-56cf-a373-9c2f853004eb.html"
+  },
+  {
+   "title": "Arm Forecast Meets Estimates as Data Center Sales Offset Smartphone Decline",
+   "outlet": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-04/arm-forecast-meets-estimates-after-data-center-push-pays-off"
+  },
+  {
+   "title": "摩根大通下调Arm目标价",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsmiu5600198.d.html"
+  },
+  {
+   "title": "加拿大皇家银行下调Arm目标价",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsrrq8800196.d.html"
+  },
+  {
+   "title": "About 600,000 Nvidia H200 AI chips are in Hong Kong awaiting shipment to mainland China",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9838586/About-600000-Nvidia-H200-AI-chips-are-in-Hong-Kong-awaiting-shipment-to-mainland-China---Two-Sources-NVDA.aspx?xy=rss"
+  },
+  {
+   "title": "Nvidia sounds out TSMC on new H200 chip order as China demand jumps",
+   "outlet": "BNN Bloomberg(로이터)",
+   "url": "https://www.bnnbloomberg.ca/business/2025/12/31/nvidia-sounds-out-tsmc-on-new-h200-chip-order-as-china-demand-jumps"
+  },
+  {
+   "title": "Meta首次发行欧元债融资90亿欧元",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3195047"
+  },
+  {
+   "title": "Meta将不再用水果来命名AI模型",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsvxq5512413.d.html"
+  },
+  {
+   "title": "晨星：预估微软自由现金流2027财年触底",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsmiu5590991.d.html"
+  },
+  {
+   "title": "微软董事将不参与连任竞选",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsvxq5504369.d.html"
+  },
+  {
+   "title": "美股盘前：七姐妹普涨",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsrrq8766902.d.html"
+  },
+  {
+   "title": "Nvidia And Tesla Left Behind, As Rest Of Mag7 Rally On Dem's Big Night",
+   "outlet": "24/7 Wall St.",
+   "url": "https://247wallst.com/investing/2026/11/04/nvidia-and-tesla-left-behind-as-rest-of-mag7-rally-on-dems-big-night/"
+  },
+  {
+   "title": "特斯拉、SpaceX盘前下跌",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsrry6079957.d.html"
+  },
+  {
+   "title": "民主党胜选后特斯拉跑输七大科技巨头",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsrry6092788.d.html"
+  },
+  {
+   "title": "特斯拉辅助驾驶累计行驶超275亿公里",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsrrq8793702.d.html"
+  },
+  {
+   "title": "特斯拉在德国柏林启用工程中心",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsvxu9370410.d.html"
+  },
+  {
+   "title": "美股太空概念股盘前普跌",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsrrw9407794.d.html"
+  },
+  {
+   "title": "Finance firms reportedly begin seeking investors for SpaceX's US$40B chip financing",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261105VL224/spacex-goldman-sachs-financing-chips-nvidia.html"
+  },
+  {
+   "title": "SpaceX seeks $40 billion financing to buy Nvidia chips, sources say",
+   "outlet": "로이터(GV Wire)",
+   "url": "https://gvwire.com/2026/10/07/spacex-seeks-40-billion-financing-to-buy-nvidia-chips-sources-say/"
+  },
+  {
+   "title": "丰田汽车创近40年最大升幅",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsmka6113174.d.html"
+  },
+  {
+   "title": "丰田汽车盘前涨8.29%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsrry6060941.d.html"
+  },
+  {
+   "title": "丰田北美CEO回日本",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsvxn8725707.d.html"
+  },
+  {
+   "title": "上汽集团拟与魔门塔等设立合资公司",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3195084"
+  },
+  {
+   "title": "工信部征求机器人产品标识码管理办法意见",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3195073"
+  },
+  {
+   "title": "反对声浪之下 OpenAI将改变数据中心项目推进方式",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3195049"
+  },
+  {
+   "title": "选举当日全美爆发反数据中心浪潮",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsrry6076874.d.html"
+  },
+  {
+   "title": "We come in peace, OpenAI tells locals near gargantuan Stargate facilities",
+   "outlet": "The Register",
+   "url": "https://www.theregister.com/2026/01/21/stargate_openai_community_plans/"
+  },
+  {
+   "title": "阿里云启动千问AI双11",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsmiu5568901.d.html"
+  },
+  {
+   "title": "鸿海10月销售额1.31万亿元新台币",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3194850"
+  },
+  {
+   "title": "鸿海：AI相关业务预计将在第四季度持续成长",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3194860"
+  },
+  {
+   "title": "Foxconn October revenue tops NT$1.3T on consumer and AI demand",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261105PD242/foxconn-revenue-demand-2026-growth.html"
+  },
+  {
+   "title": "COREWEAVE、NEBIUS、IREN盘前下跌",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsrrs5569350.d.html"
+  },
+  {
+   "title": "Coherent pitches itself as the neutral optics supplier after Marvell-Lumentum deal",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261105VL222/coherent-optics-cpo-revenue-supplier.html"
+  },
+  {
+   "title": "康寧擴大印度光纖布局 瞄準AI資料中心需求",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=9&id=0000773556_EGA464F56E5AZ45RJ7Q40"
+  },
+  {
+   "title": "Taiwan tech firms' Texas factory commitments total US$2.9 billion",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261105VL232/texas-data-center-electronics-manufacturing-ai-server.html"
+  },
+  {
+   "title": "Micron pauses work on $4.5bln Taiwan chip plant after labor row",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9838365/Micron-pauses-work-on-45bln-Taiwan-chip-plant-after-labor-row.aspx?xy=rss"
+  },
+  {
+   "title": "Micron and Taichung union reach agreement",
+   "outlet": "Focus Taiwan",
+   "url": "https://focustaiwan.tw/business/202610210014"
+  },
+  {
+   "title": "NAND prices face pressure as end demand freezes in 4Q26",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261105PD215/nand-demand-2026-nand-flash-2027.html"
+  },
+  {
+   "title": "瑞银降AMD目标价至700美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsmiu5645178.d.html"
+  },
+  {
+   "title": "超威半导体盘前跌3.15%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsrry6060126.d.html"
+  },
+  {
+   "title": "South Korea's Moreh claims AMD MI355X delivers over twice Nvidia B200's inference throughput",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261105VL217/moreh-amd-nvidia-software-government.html"
+  },
+  {
+   "title": "欧洲半导体股走低",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-05/detail-inixsmiu5637296.d.html"
+  },
+  {
+   "title": "Chipmakers rush to secure equipment for 2029 as lead times top two years",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261105VL219/semiconductors-equipment-production-asml-earnings-2028.html"
+  },
+  {
+   "title": "China's Big Fund III pivots to 12-inch chip fabs, equipment acquisitions",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261105VL220/12-inch-equipment-big-fund-investment-manufacturing.html?chid=10"
+  }
+ ],
+ "greeting": "2026년 11월 5일 개장 전 주요 소식입니다.\n한국시간 15:30부터 21:30까지 나온 메가테크·모빌리티·AI·반도체 소식을 정리했습니다.\n등락률은 미국 프리마켓 기준이며, 정규장에서 달라질 수 있습니다.",
+ "commentary": {
+  "summary": "오늘 밤의 중심은 전날 장 마감 후 나온 퀄컴과 Arm의 실적입니다. 두 회사 모두 분기 숫자는 시장 예상을 넘었지만, 스마트폰 수요 둔화와 원가 부담이 앞으로의 이익을 누를 수 있다는 점이 더 크게 받아들여졌습니다. 반면 훙하이의 10월 매출은 AI 서버 수요가 여전히 강하다는 점을 보여 줘, 반도체 안에서도 업종별로 온도 차가 큰 하루입니다.",
+  "issue1": [
+   "퀄컴은 매출과 이익 모두 예상을 조금 넘었지만, 시장은 다음 분기 이익 전망에 더 주목했습니다. 매출 가이던스는 컨센서스보다 높았는데도 EPS 가이던스가 낮게 나온 것은, 칩 원가 상승분을 가격에 바로 넘기지 못하고 있다는 뜻으로 읽힙니다.",
+   "회사는 가격 인상 효과가 2027 회계연도 하반기에야 본격 반영된다고 밝혀, 당분간 마진 압박이 이어질 가능성이 큽니다. 자동차 매출이 크게 늘고 데이터센터 사업 기대도 있지만, 아직은 핸드셋 비중이 커서 주가 방향을 바꾸기에는 부족하다는 평가가 많습니다. 증권사들의 목표가 하향이 오후 내내 이어진 점도 투자심리에 부담입니다."
+  ],
+  "issue2": [
+   "Arm은 2분기 기준 사상 최대 매출을 냈지만, 회사의 체력을 보여 주는 로열티 매출이 8% 성장에 그치며 예상을 밑돌았습니다. 분기 실적을 라이선스 매출이 이끈 만큼, 시장은 반복 매출의 성장 속도에 의문을 품고 있습니다.",
+   "다음 분기 가이던스도 컨센서스를 겨우 넘는 수준이어서 높은 밸류에이션을 정당화하기엔 부족했다는 반응입니다. 다만 데이터센터용 자체 CPU 매출 목표를 다시 확인한 만큼, 스마트폰 둔화를 서버 쪽이 얼마나 빨리 메울지가 중장기 관전 포인트입니다."
+  ],
+  "megatech": [
+   "엔비디아 H200의 홍콩 대기 물량 보도는 중국향 매출이 언제, 얼마나 회복될지에 대한 질문을 다시 꺼냈습니다. 같은 규모의 재고가 지난해 말에도 보도된 만큼, 실제 반입 여부와 미국·중국 양쪽 정부의 태도를 함께 봐야 합니다. 메타는 처음으로 유로화 채권을 찍어 대규모 자금을 모았는데, AI 데이터센터 투자 재원을 여러 시장에서 끌어오는 흐름으로 볼 수 있습니다.",
+   "마이크로소프트에 대해서는 대규모 AI 투자로 잉여현금흐름이 2027 회계연도에 바닥을 칠 것이라는 분석이 나왔습니다. 빅테크 전반은 프리마켓에서 대체로 오르고 있어, 반도체 약세와 대형 플랫폼 강세가 엇갈리는 모습이 오늘도 이어질지 지켜볼 만합니다."
+  ],
+  "mobility": [
+   "테슬라와 스페이스X는 전날에 이어 프리마켓에서도 약세입니다. 선거 결과 이후 머스크 관련 자산에 대한 정치적 부담이 커졌다는 해석이 나오고 있고, 우주 관련주도 함께 밀리고 있습니다. 스페이스X의 대규모 엔비디아 칩 금융은 투자자 모집 단계로 넘어간 것으로 전해집니다.",
+   "도요타는 이익 전망 상향과 자사주 매입 확대로 도쿄에서 큰 폭으로 올랐고, 미국 ADR도 프리마켓에서 강세입니다. 중국에서는 상하이차의 자율주행 합작사 설립과 로봇 식별코드 관리 방안이 나오며, 자율주행·로봇 산업의 제도화가 빨라지는 흐름입니다."
+  ],
+  "ai_software": "오픈AI가 데이터센터 추진 방식을 바꾸기로 한 것은 AI 인프라 확장의 병목이 칩에서 전력과 지역 사회의 동의로 옮겨 가고 있음을 보여 줍니다. 이번 선거에서 데이터센터 반대 여론이 표로 드러나면서, 부지 확보와 인허가 일정이 앞으로 AI 기업의 주요 리스크가 될 수 있습니다. 중국에서는 알리바바가 광군제에 맞춰 AI 모델 호출 가격을 낮추는 등 가격 경쟁이 이어지고 있습니다.",
+  "ai_infra": [
+   "훙하이의 10월 매출은 전년보다 45% 넘게 늘며 AI 서버 수요가 꺾이지 않았음을 보여 줬습니다. 회사가 4분기에도 AI 사업 성장을 자신한 만큼, 엔비디아 공급망 전반의 수요 신호로 읽을 수 있습니다. 다만 코어위브·네비우스 등 네오클라우드는 데이터센터 반대 여론 속에 프리마켓에서 약세입니다.",
+   "광통신주는 전날에 이어 약세가 계속되고 있습니다. 업계 재편 속에 코히런트는 중립적 공급사를 내세우고, 코닝은 인도에서 광섬유 생산을 늘리는 등 AI 데이터센터 수요를 겨냥한 움직임은 이어지고 있습니다. 대만 서버 업체들의 텍사스 공장 투자도 미국 내 AI 서버 생산 확대 흐름의 일부입니다."
+  ],
+  "semis": [
+   "마이크론의 대만 공장 공사 중단 소식은 메모리 공급망에 노사 문제가 직접 영향을 줄 수 있음을 보여 줍니다. 대만은 마이크론의 D램과 HBM 생산 거점이어서, 분쟁이 길어지면 공급 일정에도 변수가 될 수 있습니다. 여기에 4분기 NAND 가격 압박 전망까지 겹치며 메모리주 전반이 약세입니다.",
+   "AMD는 UBS의 목표가 하향 속에 프리마켓에서 3% 넘게 내리고 있고, 유럽 반도체·장비주도 일제히 밀렸습니다. 한편 장비 리드타임이 2년을 넘으면서 칩 업체들이 2029년 장비까지 미리 확보하려 한다는 보도는, 단기 주가 조정과 별개로 설비 투자 수요가 여전히 강하다는 점을 보여 줍니다."
+  ]
+ }
+}
