@@ -1,0 +1,47 @@
+name: Send premarket briefing mail
+
+on:
+  push:
+    paths:
+      - "out/**/mail.json"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "다시 보낼 날짜 (YYYY-MM-DD)"
+        required: true
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Find briefings to send
+        id: find
+        env:
+          BEFORE: ${{ github.event.before }}
+          INPUT_DATE: ${{ github.event.inputs.date }}
+        run: |
+          if [ -n "$INPUT_DATE" ]; then
+            dirs="out/$INPUT_DATE"
+          else
+            if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "$BEFORE" 2>/dev/null; then
+              files=$(git show --name-only --pretty=format: HEAD)
+            else
+              files=$(git diff --name-only "$BEFORE" HEAD)
+            fi
+            dirs=$(echo "$files" | grep -E '^out/[^/]+/mail\.json$' | xargs -r -n1 dirname | sort -u | tr '\n' ' ')
+          fi
+          echo "dirs=$dirs" >> "$GITHUB_OUTPUT"
+          echo "to send: $dirs"
+      - name: Send
+        if: steps.find.outputs.dirs != ''
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ vars.MAIL_TO }}
+        run: python scripts/send_mail.py ${{ steps.find.outputs.dirs }}
