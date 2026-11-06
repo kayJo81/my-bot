@@ -1,0 +1,34 @@
+민주당 압승 이후 AI 인프라: 병목을 가진 쪽이 이긴다
+
+2026년 미국 중간선거에서 민주당이 상원과 하원을 모두 가져가면서, AI 데이터센터 규제가 강해질 것이라는 이야기가 나오고 있습니다.
+이번 글에서는 그 규제가 AI 인프라 투자 지형을 어떻게 바꿀 수 있는지, 누가 유리하고 누가 불리한지를 정리했습니다.
+첨부 PDF 1~3쪽이 아래 [그림1]~[그림3]입니다. 사실과 추론을 구분해 표기했고, 투자 권유가 아닙니다.
+
+[그림1]
+
+AI 인프라의 병목은 이미 칩에서 전력과 허가로 옮겨 가고 있습니다. 미시간에서는 최소 19개 지자체가 데이터센터 신규 건설을 멈췄고, 오픈AI는 위스콘신 계획을 철회한 데 이어 데이터센터 추진 방식을 바꾸기로 했습니다. 반면 훙하이의 10월 매출이 전년보다 45% 넘게 늘어난 것처럼 AI 수요는 꺾이지 않았습니다. 이번 선거는 이런 흐름을 만든 원인이라기보다, 지역의 데이터센터 반대 여론이 표로 드러난 신호로 보는 편이 정확합니다. 2029년까지는 트럼프 대통령의 거부권이 있어 연방 차원의 강한 규제는 어렵고, 실제 변화는 주와 지자체에서 먼저 나타날 가능성이 큽니다.
+
+[그림2]
+
+수요는 늘어나는데 새로 짓기가 어려워지면, 가치는 병목을 쥔 쪽으로 이동합니다. 그래서 원전과 발전 설비 같은 전력 공급자, 그리고 이미 부지와 전력과 허가를 확보한 하이퍼스케일러가 가장 유리한 위치에 섭니다. 칩은 조금 다릅니다. 칩 자체가 병목이었던 2023년과 달리 이번에는 칩 업체가 가격을 쥐기 어렵고, 새 부지가 막힌 상황에서는 기존 시설의 구형 칩을 효율 좋은 신형으로 바꾸는 수요만 남습니다. 따라서 와트당 성능이 가장 좋은 최신 GPU와 맞춤형 칩은 단가 측면에서 유리하지만, 판매량에 기대는 2·3등 칩 업체는 오히려 약세가 될 수 있습니다. 하이퍼스케일러가 자체 칩을 늘려 GPU 업체의 이익률을 압박할 수 있다는 점에서, 둘은 함께 이기는 관계가 아니라 이익을 나눠 갖는 관계입니다.
+
+[그림3]
+
+이 논리에도 약점은 있습니다. 민주당은 빅테크 반독점과 데이터센터의 전력망 비용 분담에 적극적이어서, 하이퍼스케일러가 희소성의 승자가 되는 순간 규제의 표적이 될 수 있습니다. 원전·전력주는 이런 기대가 이미 주가에 반영됐을 수 있고, 데이터센터가 해외로 옮겨 가면 희소성도 약해집니다. 앞으로는 장기 전력 계약 가격, 데이터센터 건설을 멈추는 지자체 수, 주 공공요금위원회의 비용 분담 결정, 빅테크 설비투자 중 교체 비중, 엔비디아의 단가와 출하량 흐름을 함께 지켜보시면 이 논리가 맞아 가는지 확인할 수 있습니다.
+
+출처 링크 (2026-11-06 KST)
+· 2026 midterm election live updates (CBS News): https://www.cbsnews.com/live-updates/midterm-election-results-2026-democrats-house-senate-trump/
+· 2026 Senate midterm election results (CBS News): https://www.cbsnews.com/live-updates/senate-election-results-2026/
+· Michigan towns rush to block AI data centers after Stargate project (Tom's Hardware): https://www.tomshardware.com/tech-industry/michigan-towns-rush-to-block-ai-data-centers-after-16-billion-stargate-project-overrode-local-opposition
+· Michigan township opposition fails to stop OpenAI data center project (Broadband Breakfast): https://broadbandbreakfast.com/michigan-township-opposition-fails-to-stop-openai-data-center-project.md
+· Warnock calls for Georgia data center moratorium (WABE): https://www.wabe.org/warnock-calls-for-georgia-data-center-moratorium/
+· We come in peace, OpenAI tells locals near Stargate facilities (The Register): https://www.theregister.com/2026/01/21/stargate_openai_community_plans/
+· 反对声浪之下 OpenAI将改变数据中心项目推进方式 (월스트리트견문): https://wallstreetcn.com/livenews/3195049
+· 选举当日全美爆发反数据中心浪潮 (시나): https://finance.sina.cn/7x24/2026-11-05/detail-inixsrry6076874.d.html
+· The 346-GW question: Will anti-data-center votes slow America's AI buildout? (DIGITIMES): https://www.digitimes.com/news/a20261105VL225/data-center-development-capacity-infrastructure-electricity.html
+· Chipmakers rush to secure equipment for 2029 as lead times top two years (DIGITIMES): https://www.digitimes.com/news/a20261105VL219/semiconductors-equipment-production-asml-earnings-2028.html
+· 鸿海10月销售额1.31万亿元新台币 (월스트리트견문): https://wallstreetcn.com/livenews/3194850
+· 鸿海：AI相关业务预计将在第四季度持续成长 (월스트리트견문): https://wallstreetcn.com/livenews/3194860
+· Nvidia And Tesla Left Behind, As Rest Of Mag7 Rally On Dem's Big Night (24/7 Wall St.): https://247wallst.com/investing/2026/11/04/nvidia-and-tesla-left-behind-as-rest-of-mag7-rally-on-dems-big-night/
+
+그림 대응(PDF 쪽 번호): 그림1=논리 사슬, 그림2=수혜 구도, 그림3=수정점·리스크·확인 지표
