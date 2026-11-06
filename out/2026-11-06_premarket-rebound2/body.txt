@@ -1,0 +1,49 @@
+폭락 하루 만에 급반등: 11월 6일 프리마켓 반도체·AI 인프라 상승 이유 (보완)
+
+어제(미국 11월 5일) 반도체주가 2020년 이후 최악의 하루를 보낸 뒤, 오늘 미국 프리마켓에서는 반도체와 AI 인프라 종목이 일제히 반등하고 있습니다.
+한국시간 오후 6시 전후까지 나온 속보와 교차 확인된 기사를 바탕으로, 무엇이 얼마나 오르고 있는지와 그 이유, 그리고 함께 나온 위험 신호를 정리했습니다.
+첨부 PDF 1~4쪽이 아래 [그림1]~[그림4]입니다. 프리마켓 등락률은 정규장에서 달라질 수 있고, 투자 권유가 아닙니다.
+
+[그림1]
+
+어제 정규장에서 나스닥100은 6.36%, S&P500은 4.36% 떨어졌고, 반도체지수는 약 12% 급락했습니다. 민주당이 이끄는 새 의회가 AI 데이터센터 규제를 강화할 수 있다는 우려가 한꺼번에 반영된 결과입니다. 오늘 프리마켓에서는 IREN이 14%, 샌디스크가 10% 넘게 오르고 있고, 코어위브와 마이크론도 7% 넘게, AMD는 6% 넘게 오르고 있습니다. 나스닥 선물은 1.29%, 반도체 ETF는 4.26% 오르고 변동성지수(VIX)는 4.67% 내려, 하루 만에 공포가 상당 부분 진정되는 모습입니다.
+
+[그림2]
+
+반등 이유는 다섯 가지로 정리할 수 있습니다. 첫째, 하루 만에 너무 많이 빠졌다는 인식에 따른 반발 매수입니다. 둘째, IREN이 AI 클라우드 매출 2억 달러(전분기의 약 3배), 수주잔고 200억 달러 이상을 발표하며 AI 연산 수요가 꺾이지 않았다는 점을 숫자로 보여 줬습니다. 셋째, 엔비디아가 통신사 브라이트스피드의 옛 건물 130여 곳에 약 1GW 규모의 AI 추론망을 제안했다는 보도가 나왔습니다. 이미 전력이 들어와 있는 건물이라 새 데이터센터 건설 규제를 피해 갈 수 있다는 점이 주목받고 있습니다. 넷째, 램리서치가 250억 달러 규모의 자사주 매입을 승인했고 삼성전자 CEO도 자사주를 사들이는 등, 회사 스스로 지금 주가가 싸다는 신호를 보냈습니다. 다섯째, 삼성이 메모리 부족이 2028년까지 이어질 것으로 보고 평택 P5 2공장 건설을 서두르고 있고, 구글은 규제 우려 속에서도 와이오밍에 170억 달러 규모의 데이터센터를 계획하고 있다는 소식이 나왔습니다.
+
+[그림3]
+
+다만 같은 시간대 속보에는 부정적인 신호도 함께 나왔습니다. 로이터는 중국이 수입 승인을 미루면서 엔비디아 칩이 홍콩에 쌓이고 있다고 보도했고, IREN은 40억 달러 연환산 매출 목표를 내년 1월로 미루고 마이크로소프트의 요청에 따른 변경으로 97억 달러 규모 프로젝트가 지연됐다고 밝혔습니다. 코어위브는 전날 건설 위험과 이자 부담으로 10% 넘게 빠졌고, 마이크론은 대만 타오위안 신규 공장 건설을 멈춘 것으로 알려졌습니다. 정치 쪽에서는 텍사스·오하이오·조지아·펜실베이니아 주지사들이 데이터센터를 겨냥하고 있다는 분석이 나왔고, 앤트로픽 IPO의 1조 5천억 달러 가치에 대해서도 투자자들의 회의적인 시각이 전해졌습니다. 규제 우려가 해소된 것이 아니라 실적과 대안에 대한 기대로 반등하고 있다는 점을 기억해 둘 필요가 있습니다.
+
+[그림4]
+
+이번 반등은 앞서 정리한 "병목을 가진 쪽이 이긴다"는 논리로 읽을 수 있습니다. 엔비디아가 새 부지 대신 이미 전력이 있는 건물을 찾는 것은 병목이 칩이 아니라 전력과 허가라는 점을 보여 주고, 전력을 확보한 IREN과 코어위브가 반등을 이끄는 것도 같은 맥락입니다. 메모리와 장비주의 반등은 규제가 AI 수요 자체를 없애지는 못하고 공급 부족도 이어진다는 기대가 반영된 것으로 보입니다. 오늘 밤 정규장에서 반도체 ETF의 상승이 유지되는지, 엔비디아와 브라이트스피드의 협상 후속 보도, 11월 17일 엔비디아 실적, 주지사와 새 의회의 데이터센터 관련 첫 조치, 중국의 H200 수입 승인 여부를 차례로 확인해 보시면 좋겠습니다.
+
+출처 링크 (2026-11-06 KST)
+· 美国芯片股在周四暴跌后盘前交易中反弹 (시나): https://finance.sina.cn/7x24/2026-11-06/detail-inixuure5675581.d.html
+· 美股盘前，明星科技股多数反弹 (월스트리트견문): https://wallstreetcn.com/livenews/3195810
+· IREN第一季度营收超预期，盘前上涨14% (시나): https://finance.sina.cn/7x24/2026-11-06/detail-inixuuqy5457626.d.html
+· 闪迪美股盘前涨超10% (시나): https://finance.sina.cn/7x24/2026-11-06/detail-inixuuqw8814125.d.html
+· 美股光通信股盘前普涨 (시나): https://finance.sina.cn/7x24/2026-11-06/detail-inixuuqy5454020.d.html
+· 美股存储板块盘前普涨 (시나): https://finance.sina.cn/7x24/2026-11-06/detail-inixuura8894435.d.html
+· Chip Stocks Worst Day Since 2020 (Benzinga): https://benzinga.com/markets/equities/26/11/62961405/chip-stocks-worst-day-since-2020-soxx-bear-market
+· Nasdaq Posts Its Biggest Daily Drop in 19 Months as AI Regulation Fears Hit Chipmakers (ATFX): https://www.atfxcapital.com/en/analysis/market-news/nasdaq-posts-its-biggest-daily-drop-in-19-months
+· IREN AI Cloud revenue hits $200 million as $4 billion ARR target moves to January (Yahoo Finance): https://finance.yahoo.com/technology/ai/articles/iren-ai-cloud-revenue-hits-212716474.html
+· IREN Q1 2027 Earnings Call Transcript (Motley Fool): https://www.fool.com/earnings/call-transcripts/2026/11/06/iren-iren-q1-2027-earnings-call-transcript/
+· IREN blames Microsoft-requested networking changes for delays to its $9.7 billion AI project (Business Insider): https://news.google.com/rss/articles/CBMingFBVV95cUxNcG1rLVZMeC1NdGpuZ0xrOENTYzFELVhTeUFnMGhMR29nU1Y4T1ZlSGtxYmdvRHQ2dGd5ZlJheWhEYWFLNHg0bHhCaHNHeFVQVkRWU0MwcnUybjVyOUthc1hwYTBMMV94bTNHUDY4RHA1WXhwNlJTVlVSQkVKRVgtdnY5Q2luai13eTlzTXVhZGVGbkljQy1GdHhBRWdBQQ?oc=5
+· Nvidia explores retrofitting old telecom buildings for AI data centers (Investing.com, 디인포메이션 인용): https://www.investing.com/news/stock-market-news/nvidia-explores-retrofitting-old-telecom-buildings-for-ai-data-centers--information-93CH-5005447
+· 英伟达"盯上"电信老机房 拟打造1吉瓦的AI推理网络 (시나): https://finance.sina.cn/7x24/2026-11-06/detail-inixuuqy5461686.d.html
+· Lam Research Announces $25 Billion Share Repurchase Authorization (PR Newswire): https://news.google.com/rss/articles/CBMi9wFBVV95cUxNZ0tveG0ydmtWS1FlMVowTms3RVNobTVQVUNoMWktVVpJTDhVZVdIQk5IeXp4TjF0T1M0N0dXQVZ0MW02NFJOMmR4bVdmeV9yZkxjRlkzY3pJZk9mQ1JSaHdHVlVFcE9Ld2h1OXR2UG8zQ0tpWlFNWHlpaEtaMlpSby1YRFByREFwSWtLZ1gxNzFTNEF6cDIybWR6Vy1iQ3YxYk9hZ3VLZmFidGpCZHJQZkl5cG1VLTVaM1ROM2VEU2d
+· 三星电子CEO斥资6.3亿韩元增持自家股票 (동방재부): https://finance.eastmoney.com/a/202611063924866052.html
+· Samsung speeds P5 Fab 2 construction as memory chip shortage looks to last through 2028 (DIGITIMES): https://news.google.com/rss/articles/CBMikwFBVV95cUxOVmo3a1hQeGhzMGpGSmRwUHVpVmxWU242SlprWlJRTmwwWk1ZWVNOWDdWV2tXRkpFcjlyR3NtZEZfcC1xX3hURkNnUzk5LU1ydTRqbWZpZFBoeXg3eTB5Mkx2VEcza1VNc1BvUzVwemhmR2p0Y2NDVGYyX05oV2tGakJqNHBpZmNKaEpaWkctZmJlNzQ?oc=5
+· Google plans $17 billion Wyoming data center amid rising threats of curbs (Reuters): https://news.google.com/rss/articles/CBMitAFBVV95cUxOSXNTLVJtQV9yc3AzLTh3VGlkVkl5M1ZmMmhjOHkzSGtCWTctUHhwMkhaaHZvLTVhUXNMdmgyNGFYVldhN2RrM0FtUVRRcnBFYnV4Zkxwa0NaRjNOSlJha1RoZ0tWeHVZaTlFb0tQdjUtMTAwNm5XdERkSDVWSjhQc1pYSjV4azVJZVYteF9zb0VCbFA5OEtUZXhnbGhLQTBZUXlkNlJpUGR1RTY4TGRzQVFWLXQ?oc=5
+· Exclusive: Nvidia chips pile up in Hong Kong as China withholds import approval (Reuters): https://finance.yahoo.com/news/exclusive-nvidia-chips-pile-hong-112651215.html
+· CoreWeave Stocks Fall 10.66% as Construction Risk Meets Heavy Interest Costs (Yahoo Finance): https://news.google.com/rss/articles/CBMilwFBVV95cUxQTkpyUHRWNmpDNTY1a1ZTYUh1UmtCVi1VeXZNckpFVF9QLWVlQ0h3akVvTVZabFBRaTRrS1dRQ3FCR290d1djNjBUN2RRTlBlS1N2X0x0T2pFZV94QnhscG1XSEtPejM1RHpTdTZlc2t3aW1tb2ZuOF9jbDJ5WExBYmVhWm1NLVBZd0g1LVhtYzYtSmF2eFVV?oc=5
+· 美光据悉将停止在台湾地区新建工厂 (동방재부): https://finance.eastmoney.com/a/202611063924790423.html
+· Commentary: US governors target AI data centers as Taiwan firms await Nvidia outlook (DIGITIMES): https://www.digitimes.com/news/a20261106PD241/usa-data-center-ai-outlook-2026.html
+· Does the Democratic midterm victory spell the end of US AI data centre boom? (SCMP): https://www.scmp.com/tech/big-tech/article/3373506/does-democratic-midterm-victory-spell-end-us-ai-data-centre-boom
+· Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5 Trillion Valuation (WSJ): https://news.google.com/rss/articles/CBMitgFBVV95cUxPNVlmZWpuTHFFVDktVG9OaXlnVl9xSFliZFl4YXFRemVUZDFRRFFaajdEcnQ0b01sQTNJNDVDUkRaQXpLdEY3dGhVUjloVS16UHZIQ0cwUG5wQnpxaDcyX3lvX3A0VFZTb0xjMFBObUJKR3N5cVU
+· 投资大佬称英伟达正在走思科老路 (시나): https://finance.sina.cn/7x24/2026-11-06/detail-inixuura8887099.d.html
+
+그림 대응(PDF 쪽 번호): 그림1=폭락 vs 프리마켓 반등, 그림2=상승 이유 다섯 가지, 그림3=남은 위험, 그림4=병목 논리와 체크 포인트
