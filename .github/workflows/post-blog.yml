@@ -1,0 +1,86 @@
+name: Post to Naver blog
+
+# mail.json이 푸시되면(메일 발송과 같은 시점) 같은 본문·그림을 네이버 블로그에 올립니다.
+# 기본은 임시저장. 저장소 Variable NAVER_PUBLISH=1이면 발행합니다.
+# NAVER_COOKIES(Secret) 또는 NAVER_BLOG_ID(Variable)가 없으면 아무것도 하지 않습니다.
+
+on:
+  push:
+    paths:
+      - "out/**/mail.json"
+  workflow_dispatch:
+    inputs:
+      dir:
+        description: "올릴 폴더 (예: out/2026-11-06)"
+        required: true
+      publish:
+        description: "발행하려면 1, 임시저장만 하려면 비워 두기"
+        required: false
+        default: ""
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check settings
+        id: cfg
+        env:
+          HAS_COOKIES: ${{ secrets.NAVER_COOKIES != '' }}
+          BLOG_ID: ${{ vars.NAVER_BLOG_ID }}
+        run: |
+          if [ "$HAS_COOKIES" != "true" ] || [ -z "$BLOG_ID" ]; then
+            echo "NAVER_COOKIES 또는 NAVER_BLOG_ID가 없어 건너뜁니다."
+            echo "skip=1" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.cfg.outputs.skip != '1'
+        with:
+          fetch-depth: 0
+      - name: Find folders
+        id: find
+        if: steps.cfg.outputs.skip != '1'
+        env:
+          BEFORE: ${{ github.event.before }}
+          INPUT_DIR: ${{ github.event.inputs.dir }}
+        run: |
+          if [ -n "$INPUT_DIR" ]; then
+            dirs="$INPUT_DIR"
+          else
+            if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "$BEFORE" 2>/dev/null; then
+              files=$(git show --name-only --pretty=format: HEAD)
+            else
+              files=$(git diff --name-only "$BEFORE" HEAD)
+            fi
+            dirs=$(echo "$files" | grep -E '^out/[^/]+/mail\.json$' | while read -r f; do [ -f "$f" ] && dirname "$f"; done | sort -u | tr '\n' ' ')
+          fi
+          echo "dirs=$dirs" >> "$GITHUB_OUTPUT"
+          echo "to post: $dirs"
+      - uses: actions/setup-python@v5
+        if: steps.cfg.outputs.skip != '1' && steps.find.outputs.dirs != ''
+        with:
+          python-version: "3.12"
+      - name: Install Playwright
+        if: steps.cfg.outputs.skip != '1' && steps.find.outputs.dirs != ''
+        run: |
+          pip install playwright==1.47.0
+          python -m playwright install --with-deps chromium
+          sudo apt-get install -y fonts-nanum poppler-utils
+      - name: Post
+        if: steps.cfg.outputs.skip != '1' && steps.find.outputs.dirs != ''
+        env:
+          NAVER_COOKIES: ${{ secrets.NAVER_COOKIES }}
+          NAVER_BLOG_ID: ${{ vars.NAVER_BLOG_ID }}
+          NAVER_PUBLISH: ${{ github.event.inputs.publish || vars.NAVER_PUBLISH }}
+          SHOT_DIR: naver_shots
+        run: |
+          for d in ${{ steps.find.outputs.dirs }}; do
+            python scripts/post_naver_blog.py "$d"
+          done
+      - name: Upload screenshots
+        if: always() && steps.cfg.outputs.skip != '1'
+        uses: actions/upload-artifact@v4
+        with:
+          name: naver-screenshots
+          path: naver_shots
+          if-no-files-found: ignore
+          retention-days: 7
