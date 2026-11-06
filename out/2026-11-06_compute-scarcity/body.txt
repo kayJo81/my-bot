@@ -1,0 +1,46 @@
+AI 컴퓨팅은 왜 희소 자원이 됐나: 숫자로 본 병목과 수혜자
+
+요즘 AI 투자 이야기에서 "컴퓨팅이 부족하다"는 말을 자주 듣습니다. 그런데 정말 부족한 것이 GPU 칩일까요?
+이번 글에서는 2026년 11월 기준으로 확인한 숫자를 통해, 무엇이 실제로 모자라는지와 데이터센터 건설이 늦어질 때 누가 유리해지는지를 정리했습니다.
+첨부 PDF 1~5쪽이 아래 [그림1]~[그림5]입니다. 사실과 추론을 구분해 썼고, 투자 권유가 아닙니다.
+
+[그림1]
+
+결론부터 말씀드리면, 희소한 것은 칩이 아니라 칩을 꽂아 돌릴 전력과 공간입니다. 빅테크 네 곳이 올해에만 7,200억 달러가 넘는 설비투자를 계획할 만큼 돈은 넘치지만, 북미 데이터센터 공실률은 1.4%로 역대 최저이고 가스터빈은 앞으로 5년 동안 만들 물량이 이미 주인을 찾았습니다. 반면 H100 같은 GPU의 시간당 임대료는 3~5달러 수준에서 뚜렷하게 오르지 않고 있습니다. 칩 자체가 병목이었다면 2023년처럼 임대료가 치솟았을 텐데, 지금은 그렇지 않다는 점이 핵심입니다.
+
+[그림2]
+
+먼저 수요 쪽입니다. 아마존이 약 2,200억 달러, 알파벳과 마이크로소프트가 각각 2,000억 달러 안팎, 메타가 1,400억 달러 안팎을 올해 설비투자로 잡고 있습니다. 이미 계약해 두고 아직 매출로 잡지 못한 수주잔고도 마이크로소프트가 약 6,770억 달러, AWS가 5천억 달러 안팎에 이릅니다. 전력도 마찬가지입니다. 미국 전체 전력 중 데이터센터 비중은 지금 약 4.5%인데, EPRI는 2030년에 9~17%까지 늘어날 수 있다고 봅니다. AI 서버를 조립하는 훙하이의 10월 매출이 전년보다 45% 넘게 늘어난 것도 수요가 꺾이지 않았다는 신호입니다. 다만 빅테크 설비투자와 수주잔고는 업계 집계에서 가져온 수치라 회사별 기준에 따라 차이가 있습니다.
+
+[그림3]
+
+공급 쪽을 보면 병목이 어디인지 분명해집니다. CBRE에 따르면 북미 주요 시장의 데이터센터 공급은 1년 사이 33.7% 늘었는데도, 공실률은 1.6%에서 1.4%로 오히려 내려갔습니다. 세계 최대 시장인 북버지니아는 0.24%로 사실상 빈 곳이 없습니다. 짓고 있는 용량의 80.4%가 완공 전에 이미 임대됐는데, 과거 평균이 40~50%였던 것을 생각하면 두 배 가까운 수준입니다. 전력 설비는 더 빠듯합니다. GE버노바의 가스터빈 주문과 예약은 100GW인데 연간 생산 능력은 약 20GW라서, 지금 주문하면 약 3년을 기다려야 하고 2029~2030년분도 거의 남지 않았습니다. 같은 시기 GPU 임대료가 보합이라는 점을 함께 보면, 돈과 칩은 있어도 그것을 돌릴 전력과 공간이 모자란 상황이라는 것을 알 수 있습니다.
+
+[그림4]
+
+그렇다면 데이터센터 건설이 지금보다 더 늦어지면 누가 유리해질까요? 공급이 막힐수록 "이미 가진 것"의 값이 오릅니다. 가장 먼저 수혜를 보는 쪽은 이미 돌아가는 데이터센터를 가진 하이퍼스케일러와 코로케이션 리츠, 그리고 이미 돌아가는 발전소를 가진 원전·발전사입니다. 새 공급이 늦어지면 기존 용량의 임대료와 장기 전력 계약 가격이 오르기 때문입니다. 그다음은 이미 몇 년치가 팔린 가스터빈과 전력·냉각 설비 업체, 그리고 전력망 연결을 기다리지 않고 바로 전기를 만드는 연료전지 같은 자가발전 업체입니다. 칩은 새 부지가 막힌 상황에서 기존 시설의 구형 장비를 신형으로 바꾸는 수요가 생기므로, 같은 전력으로 더 많은 연산을 하는 효율 1등 제품만 상대적으로 유리합니다. 네오클라우드는 전력이 연결된 부지를 이미 가졌는지에 따라 결과가 갈립니다.
+
+[그림5]
+
+다만 건설이 늦어지는 이유에 따라 결론이 달라집니다. 터빈이나 장비가 모자라서 늦어지는 경우라면 설비 업체도 함께 웃지만, 지역 반대나 인허가 때문에 늦어지는 경우라면 설비 업체도 주문이 밀려 불리해지고 수혜는 기존 용량과 전력을 가진 쪽으로 집중됩니다. 지금은 두 원인이 함께 작용하고 있는데, 이번 중간선거에서 데이터센터 반대 여론이 표로 드러난 만큼 앞으로는 규제 쪽 비중이 커질 가능성이 있습니다. 반대로 새로 지어야 하는 AI 기업, 신규 증설 물량에 기대는 서버·건설 업체, 효율 경쟁에서 밀리는 2·3등 칩 업체, 그리고 전력망 비용을 떠안게 될 데이터센터는 불리해질 수 있습니다. 결국 지연이 길어질수록 이미 가진 것의 값이 오른다는 것이 이번 숫자들이 말해 주는 방향입니다.
+
+출처 링크 (2026-11-06 KST)
+· North America Data Center Trends H1 2026 (CBRE): https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026
+· CBRE: Record Data Center Construction Fails to Ease Capacity Crunch (Data Center Frontier): https://www.datacenterfrontier.com/site-selection/news/55401462/cbre-record-data-center-construction-fails-to-ease-capacity-crunch
+· Data Center Vacancy Hits 1.4%, a Record Low (The American Developer): https://theamericandeveloper.com/news/data-center-vacancy-1-4-percent-record-low-cbre/
+· Hyperscaler AI Capex 2026: Four Spenders and a $700 Billion-Plus Year (Analysis Atlas): https://analysis-atlas.com/research/hyperscaler-ai-capex-2026/
+· Hyperscalers and neoclouds after Q3: capacity is the constraint (Technosight): https://technosight.substack.com/p/hyperscalers-and-neoclouds-after
+· Hyperscaler Capex Q3 2026 (MMARW): https://mmarw.com/intelligence/ai/hyperscaler-capex-q3-2026
+· Data Center Load Growth in Context (EPRI): https://powering-intelligence.epri.com/load-growth.html
+· US Data Center Power Demand Projected to Double by 2027 (Goldman Sachs): https://www.goldmansachs.com/insights/articles/us-data-center-power-demand-projected-to-double-by-2027
+· Gartner Says Data Center Electricity Consumption to Grow 26% in 2026 (Gartner): https://www.gartner.com/en/newsroom/press-releases/2026-06-10-gartner-says-data-center-electricity-demand-to-grow-26-percent-in-2026
+· GE Vernova Gas Turbine Backlog Reaches 100 GW (mgrid): https://mgrid.org/2026/04/22/ge-vernovas-gas-turbine-backlog-hits-100-gw-as-data-centers-drive-4-billion-in-q1-orders/
+· Gas Turbine Backlog Extends To 2031 As Demand Surges (Enverus): https://www.enverus.com/blog/the-queue-before-the-queue-gevs-backlog-extends-to-2031/
+· Natural Gas Turbines Aren't 'Gating' Data Center Buildouts, GE Vernova Says (Natural Gas Intelligence): https://naturalgasintel.com/news/natural-gas-turbines-arent-gating-data-center-buildouts-ge-vernova-says/
+· ProEnergy repurposes jet engines to power data centers (DCD): https://www.datacenterdynamics.com/en/news/proenergy-offers-repurposed-jet-engines-to-data-cent/
+· GPU Rental Prices: H100, H200, B200 Cost Per Hour by Provider (Mercatus): https://www.mercatus-ai.com/blog/gpu-rental-prices
+· GPU Cloud Pricing Comparison 2026 (Spheron): https://www.spheron.network/blog/gpu-cloud-pricing-comparison-2026/
+· 鸿海10月销售额1.31万亿元新台币 (월스트리트견문): https://wallstreetcn.com/livenews/3194850
+· 选举当日全美爆发反数据中心浪潮 (시나): https://finance.sina.cn/7x24/2026-11-05/detail-inixsrry6076874.d.html
+
+그림 대응(PDF 쪽 번호): 그림1=핵심 요약, 그림2=수요, 그림3=공급, 그림4=건설 지연 시 수혜 순위, 그림5=지연 원인별·불리한 쪽
