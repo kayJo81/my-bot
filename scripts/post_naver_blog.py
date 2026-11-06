@@ -161,13 +161,18 @@ def main() -> None:
                 "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
             ),
         )
-        ctx.add_cookies(load_cookies())
+        cookies = load_cookies()
+        names = sorted({c["name"] for c in cookies})
+        print(f"쿠키 {len(cookies)}개, 로그인 쿠키 NID_AUT={'NID_AUT' in names} NID_SES={'NID_SES' in names}")
+        print("쿠키 이름:", ", ".join(names))
+        ctx.add_cookies(cookies)
         page = ctx.new_page()
         page.set_default_timeout(20000)
 
         page.goto(f"https://blog.naver.com/{blog_id}?Redirect=Write", wait_until="domcontentloaded")
         page.wait_for_timeout(5000)
         shot(page, "open")
+        print("이동한 주소:", page.url.split("?")[0])
         if "nid.naver.com" in page.url:
             shot(page, "login_required")
             sys.exit("로그인이 풀려 있습니다: 쿠키를 다시 내보내 NAVER_COOKIES를 갱신하세요.")
