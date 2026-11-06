@@ -1,0 +1,1018 @@
+{
+ "date": "2026-11-06",
+ "window": "15:30~21:23 KST",
+ "mail_to": "yidiar80k@gmail.com",
+ "summary": [
+  "전날 폭락했던 반도체·AI 인프라주 프리마켓 반등 확대: 반도체 ETF +5.9%, 마이크론 +9.2%, AMD +8.3%",
+  "15:30 이후 나스닥 선물 +0.73%: 유가 하락 구간에 오르고, 유가 반등·조사 보도 구간에 밀림",
+  "민주당, 애플·메타·머스크 기업을 조사 대상에 올린다는 보도 → 애플 프리마켓 1% 넘게 하락",
+  "트럼프 \"대통령으로서 초지능 100% 찬성, 여러 주와 협력\" — 데이터센터 규제 공방 본격화",
+  "테슬라, 2027년 중반부터 텍사스 사이버트럭 생산 축소하고 사이버캡에 집중"
+ ],
+ "checklist": [
+  "22:30 미국 10월 고용보고서",
+  "반도체 반등이 정규장에서도 유지되는지",
+  "민주당의 빅테크 조사·AI 법안 구체화 여부",
+  "트럼프 행정부와 주 정부의 데이터센터 대응",
+  "11월 17일 엔비디아 실적 전 칩 수출·밀수 관련 후속"
+ ],
+ "issues": [
+  {
+   "title": "폭락 다음 날, 반도체·AI 인프라 반등 확대",
+   "subtitle": "전날 나스닥 −5.52% · 반도체지수 약 −12%",
+   "timeline": [
+    {
+     "t": "06:05",
+     "text": "11/5 미국 마감: 나스닥 −5.52%, 나스닥100 −6.36%"
+    },
+    {
+     "t": "16:30",
+     "text": "유가 하락 구간 시작, 나스닥 선물 18:00까지 +1.05%"
+    },
+    {
+     "t": "18:05",
+     "text": "프리마켓 개시: 반도체 ETF +4.1%, 마이크론 +6.5%"
+    },
+    {
+     "t": "20:55",
+     "text": "상승 확대: 반도체 ETF +5.9%, 마이크론 +9.2%"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "반도체 ETF(SOXX)",
+     "value": "+5.9%",
+     "note": "20:55 프리마켓",
+     "dir": "up"
+    },
+    {
+     "label": "마이크론",
+     "value": "+9.2%",
+     "note": "전날 약 −17.5%",
+     "dir": "up"
+    },
+    {
+     "label": "샌디스크",
+     "value": "+11.19%",
+     "note": "$896.66 · 전날 −22.26%",
+     "dir": "up"
+    },
+    {
+     "label": "나스닥 선물",
+     "value": "+0.73%",
+     "note": "15:30 이후 (20:50)",
+     "dir": "up"
+    }
+   ],
+   "cause": [
+    "역대급 낙폭 뒤 저점 매수 (배런스 \"저가 매수에 엔비디아 상승\")",
+    "16:30~18:00 유가 하락 구간에 선물 상승 (미니 블벅터 원인 분석)",
+    "IREN·클라우드플레어 등 AI 관련 실적 호조",
+    "[배경] 텍사스 주지사 당선인 \"데이터센터를 싫어하는 건 아니다\" 발언 (08:46 보도)"
+   ],
+   "chips": [
+    {
+     "name": "엔비디아",
+     "chg": "+5%"
+    },
+    {
+     "name": "AMD",
+     "chg": "+8.3%"
+    },
+    {
+     "name": "Arm",
+     "chg": "+7.4%"
+    },
+    {
+     "name": "인텔",
+     "chg": "+6.2%"
+    },
+    {
+     "name": "브로드컴",
+     "chg": "+4.9%"
+    },
+    {
+     "name": "퀄컴",
+     "chg": "+3.4%"
+    }
+   ],
+   "checks": [
+    "정규장에서 반등폭 유지 여부",
+    "22:30 10월 고용보고서와 금리",
+    "데이터센터 규제 관련 새 발언"
+   ],
+   "source": "시나, 동방재부, 미니 블벅터, 배런스, 로이터"
+  },
+  {
+   "title": "데이터센터·빅테크 정치 공방",
+   "subtitle": "민주당 조사·AI 법안 예고 vs 트럼프 \"AI 100% 지지\"",
+   "timeline": [
+    {
+     "t": "19:02",
+     "text": "민주당, 애플·메타·머스크 기업 조사 대상 보도"
+    },
+    {
+     "t": "19:04",
+     "text": "미 의원들, 젠슨 황에 메가스피드 관련 브리핑 요구"
+    },
+    {
+     "t": "19:57",
+     "text": "마이크로소프트 암스테르담 데이터센터 공사장에 시위대 진입"
+    },
+    {
+     "t": "21:02",
+     "text": "트럼프 \"초지능 100% 찬성, 여러 주와 협력\""
+    }
+   ],
+   "metrics": [
+    {
+     "label": "애플 프리마켓",
+     "value": "−1%대",
+     "note": "조사 보도 후 (19:13)",
+     "dir": "down"
+    },
+    {
+     "label": "메타 프리마켓",
+     "value": "+0.65%",
+     "note": "상승폭 축소 (19:13)"
+    },
+    {
+     "label": "나스닥 선물",
+     "value": "−0.56%",
+     "note": "18:35~19:55 · 유가 반등과 겹침",
+     "dir": "down"
+    },
+    {
+     "label": "주지사 당선인 규제 지지",
+     "value": "32/34명",
+     "note": "[배경] Data Center Watch"
+    }
+   ],
+   "cause": [
+    "선거에서 드러난 데이터센터 반대 표심과 전기요금 부담",
+    "민주당, 의회 장악 뒤 AI 법안 대거 추진 계획 (Investing.com)",
+    "트럼프와 가까웠던 빅테크·머스크 기업에 대한 견제"
+   ],
+   "chips": [
+    {
+     "name": "애플"
+    },
+    {
+     "name": "메타"
+    },
+    {
+     "name": "테슬라"
+    },
+    {
+     "name": "엔비디아"
+    }
+   ],
+   "checks": [
+    "민주당 조사 대상·일정 공식화 여부",
+    "AI 법안 내용(전력 비용·모라토리엄)",
+    "트럼프 행정부의 주 정부 압박 방식"
+   ],
+   "source": "시나, 월스트리트견문, DIGITIMES, 로이터, FinancialJuice"
+  }
+ ],
+ "sections": {
+  "megatech": [
+   {
+    "company": "엔비디아",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "프리마켓 5% 상승 (20:55)"
+     },
+     {
+      "label": "사실",
+      "text": "미 의원들, 젠슨 황에 메가스피드 임원과의 거래 관련 브리핑 요구"
+     },
+     {
+      "label": "사실",
+      "text": "밀수 막으려 동남아 칩 추적 강화 (블룸버그)"
+     },
+     {
+      "label": "사실",
+      "text": "네이버 지분 4% 넘게 확보, 10억 달러 납입 완료"
+     }
+    ],
+    "chips": [
+     {
+      "name": "엔비디아",
+      "chg": "+5%"
+     }
+    ],
+    "source": "시나, DIGITIMES, 블룸버그, 코리아중앙데일리"
+   },
+   {
+    "company": "애플",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "민주당이 조사 대상에 애플·메타·머스크 기업을 올린다는 보도"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 1% 넘게 하락 (19:13)"
+     },
+     {
+      "label": "체크",
+      "text": "조사 범위와 일정이 공식화되는지"
+     }
+    ],
+    "chips": [
+     {
+      "name": "애플"
+     }
+    ],
+    "source": "시나, 월스트리트견문"
+   },
+   {
+    "company": "메타",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "조사 보도 뒤 프리마켓 상승폭 0.65%로 축소"
+     },
+     {
+      "label": "사실",
+      "text": "번스타인, 매수 의견"
+     },
+     {
+      "label": "사실",
+      "text": "비즈니스 서비스 약관 변경, 11월 20일 시행하지 않기로"
+     }
+    ],
+    "chips": [
+     {
+      "name": "메타",
+      "chg": "+0.65%"
+     }
+    ],
+    "source": "월스트리트견문, 마켓스크리너, 시나"
+   },
+   {
+    "company": "마이크로소프트",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "시위대, 암스테르담 데이터센터 공사장 진입 (로이터)"
+     },
+     {
+      "label": "사실",
+      "text": "IREN, MS 요청 설계 변경으로 AI 인프라 납품 지연"
+     },
+     {
+      "label": "의미",
+      "text": "데이터센터 반대 여론이 유럽 현장으로도 번짐"
+     }
+    ],
+    "chips": [
+     {
+      "name": "마이크로소프트"
+     }
+    ],
+    "source": "로이터, 마켓스크리너"
+   },
+   {
+    "company": "알파벳",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "13F 공시: 스페이스X가 최대 보유 종목, 전체 883억 달러"
+     },
+     {
+      "label": "사실",
+      "text": "퀄컴 300만 주 보유 신고 (SEC)"
+     },
+     {
+      "label": "배경",
+      "text": "규제 우려 속 와이오밍에 170억 달러 데이터센터 발표"
+     }
+    ],
+    "chips": [
+     {
+      "name": "알파벳"
+     },
+     {
+      "name": "스페이스X"
+     },
+     {
+      "name": "퀄컴"
+     }
+    ],
+    "source": "시나, 로이터"
+   }
+  ],
+  "mobility": [
+   {
+    "company": "테슬라",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "머스크: 2027년 중반부터 텍사스 사이버트럭 생산 축소, 사이버캡 생산 확대"
+     },
+     {
+      "label": "사실",
+      "text": "사이버트럭 가격 인상: AWD 프리미엄 $92,490, 사이버비스트 $102,490"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 1.9% 상승, 2거래일 연속 하락 뒤 반등"
+     },
+     {
+      "label": "의미",
+      "text": "판매 부진 차종을 줄이고 로보택시·AI로 무게 이동"
+     }
+    ],
+    "chips": [
+     {
+      "name": "테슬라",
+      "chg": "+1.9%"
+     }
+    ],
+    "source": "블룸버그, FinancialJuice, 시나"
+   },
+   {
+    "company": "스페이스X",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "프리마켓 4% 상승, 2거래일 연속 하락 뒤 반등"
+     },
+     {
+      "label": "사실",
+      "text": "알파벳 13F에서 최대 보유 종목으로 확인"
+     },
+     {
+      "label": "사실",
+      "text": "러시아 안보회의 \"스타링크·원웹, 주권국에 위험\" (로이터)"
+     },
+     {
+      "label": "사실",
+      "text": "파이퍼샌들러, 레드와이어 목표가 $11 → $8 하향"
+     }
+    ],
+    "chips": [
+     {
+      "name": "스페이스X",
+      "chg": "+4%"
+     },
+     {
+      "name": "레드와이어"
+     }
+    ],
+    "source": "시나, 로이터, 다우존스"
+   },
+   {
+    "company": "로보틱스",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "베이징, 로봇 제품 '1기 1코드' 식별 관리 착수"
+     },
+     {
+      "label": "배경",
+      "text": "중국석유 계열사·유니트리, 산업용 로봇 합작사 설립 추진 (11/4 공시)"
+     },
+     {
+      "label": "의미",
+      "text": "중국이 로봇 산업 관리 체계와 국유기업 참여를 함께 넓히는 흐름"
+     }
+    ],
+    "chips": [],
+    "source": "시나, 동방재부"
+   }
+  ],
+  "ai_software": [
+   {
+    "company": "클라우드플레어",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "3분기 매출 7.825억 달러, 전년 대비 +39% (가이던스 7.36~7.37억 달러)"
+     },
+     {
+      "label": "사실",
+      "text": "JP모건 목표가 $350 → $375 상향"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 14.66% 상승, $280.35"
+     }
+    ],
+    "chips": [
+     {
+      "name": "클라우드플레어",
+      "chg": "+14.66%"
+     }
+    ],
+    "source": "클라우드플레어 IR, 시나"
+   },
+   {
+    "company": "앤트로픽",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "AI 매도세 뒤 IPO 기업가치에 투자자 반발 (폴리티코, DIGITIMES)"
+     },
+     {
+      "label": "배경",
+      "text": "주요 투자자들, 1.5조 달러 가치 달성에 회의적 (WSJ)"
+     },
+     {
+      "label": "체크",
+      "text": "상장 일정과 공모가 조정 여부"
+     }
+    ],
+    "chips": [],
+    "source": "폴리티코, DIGITIMES, WSJ"
+   },
+   {
+    "company": "사운드하운드 AI",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "2026 회계연도 매출 전망이 예상 하회"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 7.5% 하락"
+     }
+    ],
+    "chips": [
+     {
+      "name": "사운드하운드",
+      "chg": "-7.5%"
+     }
+    ],
+    "source": "시나"
+   }
+  ],
+  "ai_infra": [
+   {
+    "company": "네오클라우드",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "전날 매도 뒤 프리마켓 반등: 코어위브 +6.9%, 네비우스 +7.2% (18:21)"
+     },
+     {
+      "label": "영향",
+      "text": "라운드힐 네오클라우드 ETF +6.9%"
+     },
+     {
+      "label": "의미",
+      "text": "20:00 전후 'AI 인프라 신용 우려 완화' 구간에 선물도 상승"
+     }
+    ],
+    "chips": [
+     {
+      "name": "코어위브",
+      "chg": "+6.9%"
+     },
+     {
+      "name": "네비우스",
+      "chg": "+7.2%"
+     }
+    ],
+    "source": "시나, 미니 블벅터"
+   },
+   {
+    "company": "IREN",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "1분기 AI 클라우드 매출 2억 달러, 전분기 약 3배"
+     },
+     {
+      "label": "사실",
+      "text": "MS 요청 설계 변경으로 AI 인프라 납품 지연, 40억 달러 연환산 매출 목표는 1월로"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 14% 상승"
+     }
+    ],
+    "chips": [
+     {
+      "name": "IREN",
+      "chg": "+14%"
+     }
+    ],
+    "source": "시나, 야후 파이낸스, 마켓스크리너"
+   },
+   {
+    "company": "광통신",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "루멘텀 10% 넘게, 코히런트 10% 넘게 상승 (20:42~20:45)"
+     },
+     {
+      "label": "사실",
+      "text": "2027년 AI 네트워크·인터커넥트 시장 2,798억 달러 전망 (기관)"
+     }
+    ],
+    "chips": [
+     {
+      "name": "루멘텀"
+     },
+     {
+      "name": "코히런트"
+     }
+    ],
+    "source": "시나"
+   },
+   {
+    "company": "데이터센터 부지·전력",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "캐나다 텔러스, 전력 확보된 데이터센터 셸 세 번째 계획 추진"
+     },
+     {
+      "label": "배경",
+      "text": "엔비디아, 이미 전력 있는 옛 통신 건물 130여 곳으로 1GW 추론망 제안"
+     },
+     {
+      "label": "의미",
+      "text": "신규 건설 대신 전력 확보된 기존 부지 활용 경쟁"
+     }
+    ],
+    "chips": [
+     {
+      "name": "텔러스"
+     },
+     {
+      "name": "엔비디아"
+     }
+    ],
+    "source": "시나, 디인포메이션"
+   }
+  ],
+  "semis": [
+   {
+    "company": "메모리",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "마이크론 +9.2%, 샌디스크 +11.19% ($896.66)"
+     },
+     {
+      "label": "사실",
+      "text": "HBM 가격 상승 지속, 메모리 업체 4분기 사상 최대 매출 전망 (기관)"
+     },
+     {
+      "label": "사실",
+      "text": "한국 SSD 수출 584% 급증, 삼성·SK하이닉스 AI 추론 수요 겨냥"
+     }
+    ],
+    "chips": [
+     {
+      "name": "마이크론",
+      "chg": "+9.2%"
+     },
+     {
+      "name": "샌디스크",
+      "chg": "+11.19%"
+     }
+    ],
+    "source": "시나, 동방재부, DIGITIMES"
+   },
+   {
+    "company": "설계·CPU",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "AMD +8.3%, Arm +7.4%, 인텔 +6.2%, 브로드컴 +4.9%, 퀄컴 +3.4%"
+     },
+     {
+      "label": "사실",
+      "text": "퀄컴, HBC 메모리 구조 검증·AI250 샘플 2027년 상반기 목표"
+     },
+     {
+      "label": "사실",
+      "text": "마이크로칩, 3분기 조정 매출총이익률 예상 하회 → 프리마켓 −1.5%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "AMD",
+      "chg": "+8.3%"
+     },
+     {
+      "name": "Arm",
+      "chg": "+7.4%"
+     },
+     {
+      "name": "마이크로칩",
+      "chg": "-1.5%"
+     }
+    ],
+    "source": "시나, DIGITIMES"
+   },
+   {
+    "company": "중국 반도체",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "YMTC, 새 NAND 공장 장비 최대 70%를 중국산으로"
+     },
+     {
+      "label": "사실",
+      "text": "중국 장비업체, AI 주문 호조로 2027년까지 수주 기록"
+     },
+     {
+      "label": "의미",
+      "text": "미국 규제 속 장비 국산화 가속"
+     }
+    ],
+    "chips": [],
+    "source": "DIGITIMES"
+   }
+  ],
+  "others": [
+   {
+    "company": "코인베이스",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "모건스탠리, 투자의견·목표가 하향 \"실적 회복 덜 확실\""
+     },
+     {
+      "label": "영향",
+      "text": "비트코인 7.6만 달러 회복했지만 ETF 4.3억 달러 유출"
+     },
+     {
+      "label": "배경",
+      "text": "바이낸스 63억 달러 해킹으로 보험사 점검 강화 (로이터)"
+     }
+    ],
+    "chips": [
+     {
+      "name": "코인베이스"
+     },
+     {
+      "name": "비트코인"
+     }
+    ],
+    "source": "블룸버그, 시나, 코인데스크, 로이터"
+   }
+  ]
+ },
+ "empty_notes": {},
+ "greeting": "2026년 11월 6일 개장 전 섹터별 이슈체크입니다.\n한국시간 15:30부터 21:23까지 나온 메가테크·모빌리티·AI·반도체·크립토 소식과 워치리스트 종목 소식을 정리했습니다.\n프리마켓 등락률은 해당 시각 기준이며, 정규장에서 달라질 수 있습니다.",
+ "commentary": {
+  "summary": "전날 미국 증시는 데이터센터 규제 우려로 나스닥이 5% 넘게 빠졌는데, 오늘 프리마켓에서는 반도체와 AI 인프라주가 큰 폭으로 되돌리고 있습니다. 다만 규제 우려 자체가 해소된 것은 아니어서, 민주당의 빅테크 조사 보도와 트럼프 대통령의 AI 지지 발언이 같은 저녁에 엇갈려 나왔습니다. 오늘 밤에는 10월 고용보고서까지 겹쳐 있어 변동성이 클 수 있습니다.",
+  "issue1": [
+   "반도체 반등은 오늘 오후 갑자기 시작된 것이 아니라, 전날 밤 미국 시간외 거래부터 이어진 흐름입니다. 한국장 마감 이후 구간만 보면 나스닥 선물은 0.7% 남짓 올랐고, 그중 상당 부분은 유가가 내린 오후 4시 반부터 6시 사이에 나왔습니다. 프리마켓이 열린 뒤에는 개별 종목의 반등 폭이 점점 커져 밤 9시 전에는 반도체 ETF가 6% 가까이 올랐습니다.",
+   "반등 이유로 가장 먼저 꼽히는 것은 하루 만에 너무 많이 빠졌다는 인식에 따른 저점 매수입니다. 여기에 유가 하락, 그리고 IREN과 클라우드플레어처럼 AI 수요가 여전하다는 실적이 힘을 보탰습니다. 텍사스 주지사 당선인이 \"데이터센터를 싫어하는 건 아니다\"라고 말한 것도 전날 밤 반등이 시작된 시점과 겹치지만, 이 발언이 직접 반등을 이끌었는지는 확인되지 않았습니다."
+  ],
+  "issue2": [
+   "선거 이후 데이터센터와 빅테크를 둘러싼 정치 공방이 빠르게 커지고 있습니다. 민주당이 애플·메타·머스크 기업을 조사 대상으로 올린다는 보도가 나오자 애플은 프리마켓에서 1% 넘게 밀렸고, 메타의 상승폭도 줄었습니다. 같은 시간 미국 의원들은 엔비디아 젠슨 황 CEO에게 브리핑을 요구했고, 유럽에서는 마이크로소프트 데이터센터 공사장에 시위대가 들어가는 일도 있었습니다.",
+   "반면 트럼프 대통령은 \"초지능에 100% 찬성하며 여러 주와 협력하겠다\"고 밝혀, 연방 정부와 민주당 주지사·의회 사이의 줄다리기가 예상됩니다. 주지사 당선인 대부분이 데이터센터 규제를 지지하는 만큼, 내년 1월 취임 이후 실제 행정명령이 나오는지가 다음 분기점입니다. 민주당이 의회 장악 뒤 AI 법안을 대거 추진할 계획이라는 보도도 있어, 전력 비용과 모라토리엄 관련 법안 내용을 지켜볼 필요가 있습니다."
+  ],
+  "megatech": [
+   "엔비디아는 반도체 반등을 이끌며 프리마켓에서 5% 올랐지만, 정치권의 압박도 동시에 받고 있습니다. 미국 의원들이 젠슨 황 CEO에게 브리핑을 요구했고, 회사는 동남아에서 칩 밀수를 막기 위한 추적을 강화하고 있습니다. 네이버 지분 투자 마무리는 한국 AI 생태계와의 협력이 구체화되는 흐름으로 볼 수 있습니다.",
+   "애플과 메타는 민주당의 조사 대상 보도가 나온 뒤 프리마켓 흐름이 약해졌습니다. 조사는 아직 보도 단계여서 범위와 일정이 공식화되는지가 중요합니다. 메타는 번스타인의 매수 의견에도 불구하고 상승폭이 줄어, 정치 이슈가 당분간 주가에 부담이 될 수 있음을 보여 줍니다.",
+   "마이크로소프트는 유럽 데이터센터 현장의 시위와 IREN의 납품 지연이 함께 나왔습니다. 데이터센터 반대 여론이 미국을 넘어 유럽 현장으로 번지고 있다는 점은 하이퍼스케일러 투자 일정의 새로운 변수입니다. 알파벳은 13F 공시에서 스페이스X가 최대 보유 종목으로 확인돼, 스페이스X 주가 흐름이 알파벳 투자 손익에도 영향을 줄 수 있습니다."
+  ],
+  "mobility": [
+   "테슬라는 판매가 부진했던 사이버트럭 생산을 2027년 중반부터 줄이고, 그 자리를 로보택시용 사이버캡 생산에 쓰기로 했습니다. 동시에 남은 사이버트럭 고급 트림 가격은 올려, 수익성을 챙기면서 물량은 줄이는 모습입니다. 이틀 연속 빠졌던 주가는 프리마켓에서 반등하고 있습니다.",
+   "스페이스X도 이틀 연속 하락한 뒤 프리마켓에서 4% 반등하고 있습니다. 다만 러시아가 스타링크를 주권국에 대한 위험으로 규정하는 등 지정학적 견제도 이어지고 있습니다. 중국에서는 로봇 제품 식별 관리와 국유기업의 로봇 산업 참여가 함께 늘어, 로봇 산업의 제도화가 빨라지고 있습니다."
+  ],
+  "ai_software": "클라우드플레어는 3분기 매출이 회사 가이던스를 4천만 달러 넘게 웃돌며 AI 관련 트래픽 수요가 탄탄하다는 점을 보여 줬고, 프리마켓에서 15% 가까이 오르고 있습니다. 반면 앤트로픽은 AI 매도세 이후 IPO 기업가치에 대한 투자자들의 반발이 커지고 있어, 상장 일정과 공모가가 조정될지 관심이 모입니다. 사운드하운드처럼 매출 전망이 기대에 못 미친 AI 소프트웨어 기업은 반등장에서도 약세를 보였습니다.",
+  "ai_infra": [
+   "전날 크게 빠졌던 코어위브와 네비우스 등 네오클라우드가 프리마켓에서 7% 안팎 반등하고 있습니다. 미니 블벅터의 흐름 분석에서도 저녁 8시 전후 AI 인프라 신용 우려가 누그러진 구간에 선물이 함께 올랐습니다. IREN은 AI 클라우드 매출이 크게 늘며 14% 올랐지만, 마이크로소프트 요청에 따른 납품 지연과 매출 목표 연기도 함께 밝혀 일정 위험은 남아 있습니다.",
+   "광통신주인 루멘텀과 코히런트도 10% 넘게 반등하고 있습니다. 데이터센터 부지 쪽에서는 캐나다 텔러스가 전력이 확보된 데이터센터 건물 계획을 늘리고, 엔비디아가 이미 전력이 들어와 있는 옛 통신 건물을 활용하려는 등, 새로 짓기보다 전력이 확보된 기존 부지를 찾는 움직임이 이어지고 있습니다."
+  ],
+  "semis": [
+   "메모리주는 전날 낙폭이 컸던 만큼 반등도 가장 강합니다. 마이크론은 9% 넘게, 샌디스크는 11% 넘게 오르고 있고, HBM 가격 상승과 메모리 업체들의 4분기 사상 최대 매출 전망이 함께 나왔습니다. 한국의 SSD 수출이 크게 늘었다는 소식도 AI 추론 수요가 메모리 전반으로 번지고 있음을 보여 줍니다.",
+   "AMD와 Arm, 인텔도 6~8% 오르는 등 설계·CPU 종목 전반이 반등하고 있습니다. 반면 마이크로칩은 매출총이익률 가이던스가 기대에 못 미쳐 약세입니다. 중국에서는 YMTC가 새 공장 장비의 대부분을 자국산으로 채우려 하는 등 미국 규제에 맞선 장비 국산화가 빨라지고 있습니다."
+  ],
+  "others": "크립토 쪽에서는 모건스탠리가 코인베이스에 대해 실적 회복이 덜 확실하다며 투자의견과 목표가를 낮췄습니다. 비트코인은 7만 6천 달러 선을 되찾았지만 ETF에서 자금이 빠져나가고 있고, 최근 바이낸스 대형 해킹 이후 보험사들의 점검도 강화되고 있습니다. 기술주 반등이 크립토로 이어질지는 아직 불확실합니다."
+ },
+ "sources": [
+  {
+   "title": "美国芯片股盘前涨幅扩大 (반도체 프리마켓 20:55)",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixvfey5560239.d.html"
+  },
+  {
+   "title": "美国芯片股在周四暴跌后盘前交易中反弹 (18:05)",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixuure5675581.d.html"
+  },
+  {
+   "title": "闪迪美股盘前大幅反弹逾11%",
+   "outlet": "동방재부",
+   "url": "https://finance.eastmoney.com/a/202611063924976526.html"
+  },
+  {
+   "title": "美光科技美股盘前涨超8%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixuuqw8823478.d.html"
+  },
+  {
+   "title": "시장을 움직인 뉴스 (나스닥 선물 흐름·원인 분석)",
+   "outlet": "미니 블벅터",
+   "url": "https://mini-bbterminal.pages.dev/"
+  },
+  {
+   "title": "Nvidia Stock Rises on Dip-Buying: 3 Reasons to Be Optimistic",
+   "outlet": "배런스",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBpbHc0aG5OM2dVRUpBUEFXeVRDZnB3WWpwemtTYU44MGx0MHNRUkRlUFgzUFZyaV9UTFZWSG1GekFBSktPLTl3ZzFSeEVaYnpEUUpWMkxmN3lyanNXTVhYbDNDVU1kOEh5RVdaemdOekM0Z3NMZGVZ?oc=5"
+  },
+  {
+   "title": "Nasdaq futures rise after steep AI selloff as chip stocks stabilize",
+   "outlet": "로이터",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQang5czlMS1c0LVRiTWdNdXItcDlKcTgyOXplSVVGRHljMGVrVG1KVGJTclR0TmtjWjFob0t1QWh6OTdkNzltaDJhTi1fdUdkM2tOb01JaVVlaVRWcWVTdkZFbmdBYlgxY2ktWVh6eFdZRVczekVTdFRCSWtOSzBGVnNCWHpFNFFXWFE2WDVQUjFCa19tbUhzNzdlNksyNFBqek4tcXdrcjVIVTQxMkE?oc=5"
+  },
+  {
+   "title": "Oil Set for Sharp Weekly Fall After U.S. Midterms",
+   "outlet": "WSJ",
+   "url": "https://www.wsj.com/finance/commodities-futures/oil-holds-gains-after-selloff-ad231914?mod=rss_markets_main"
+  },
+  {
+   "title": "Texas governor-elect says state will have laws to shield citizens from data centers",
+   "outlet": "로이터(Investing.com)",
+   "url": "https://www.investing.com/news/economy-news/texas-governorelect-says-state-will-have-laws-to-shield-citizens-from-data-centers-5006141"
+  },
+  {
+   "title": "Nasdaq Futures Climb as Chip Stocks Bounce After Rout; Key U.S. Jobs Report in Focus",
+   "outlet": "바차트",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMEcxRlBEcDZLR2pOTnVhWTZkSkZJdl82RXFheFJhNzhFQVJYZEJRX216WnRMTm5RaHBUcHhpa0xjYUJFRDA4NUQ1aVh3R3d3M1Q2T09lZU5PUzdaVjA4LWJMZkVXR012OTFwcW5ocXpCWlhXeTZMZkNhTmdlUDNfSTJROHNlcDBoZzhsX1NIVERDQ012dEpXU0FtczFCcnFoRDc5V2lfMDFfV2JPeTdISUJOa3htZ2VXU2MtTmkxUENYVGtR?oc=5"
+  },
+  {
+   "title": "美国民主党将在调查中把苹果、Meta及马斯克旗下公司列为目标",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixuyxa5601781.d.html"
+  },
+  {
+   "title": "报道：美国民主党准备对苹果、META和马斯克的公司展开调查",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3195857"
+  },
+  {
+   "title": "苹果美股盘前跌超1%，META盘前涨幅收窄",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3195878"
+  },
+  {
+   "title": "US lawmakers request briefing with Nvidia's Jensen Huang on dealings with Megaspeed executive",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261106VL220/nvidia-jensen-huang-ceo-chips-government.html"
+  },
+  {
+   "title": "Protesters enter Microsoft data centre site in Amsterdam",
+   "outlet": "로이터",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVEdZZ1dJZWJXSEpqSFpmRDhHRDlYRURxZnROd1BFc0lFa3dJX3BTOHg4ejVuUnFMZnhOYVNHUTZDSmVCTlVBaTRiQ3Q2aHNKNmZYTkJ4RUdPT0F6MFZrRWNrcU1VWTFUVXNDZ2xpYjRuNmlRZ21zVEZiVzZ4NlJLU0hJWDAtWm53YzVPeGNPSFRjeWEydF9hNVoxZURCcHFDSFE?oc=5"
+  },
+  {
+   "title": "Trump: As president, I am 100% in favor of Super Intelligence (SI)",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9840613/Trump-As-president-I-am-100-in-favor-of-Super-Intelligence-SI-and-will-work-with-the-many-states-in-the-US.aspx?xy=rss"
+  },
+  {
+   "title": "美国总统特朗普：100%支持人工智能",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3195980"
+  },
+  {
+   "title": "Democrats planning flood of AI bills when they take control of Congress",
+   "outlet": "Investing.com",
+   "url": "https://www.investing.com/news/stock-market-news/democrats-planning-flood-of-ai-bills-when-they-take-control-of-congress-5007213"
+  },
+  {
+   "title": "Data Center Moratorium Wave After the 2026 Midterms",
+   "outlet": "Luminix",
+   "url": "https://www.useluminix.com/reports/industry-analysis/data-center-moratoriums-after-the-midterms"
+  },
+  {
+   "title": "Nvidia Boosts Chip Tracking in Southeast Asia to Fight Smuggling",
+   "outlet": "블룸버그",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZ0lJLXdrVkh1Znk1NVctYlYwdjhzR2hySkctbHliLW03bmQ3WGtJT3FFQ1dUb2RSZEZVZXRNNkVPcFgxdnVfUU0zYm5xMklxekQyejBTa0JzT19uT0o1d1N6WVlzZkNNTkxiZUN3dlhwMDc2ZUZHMzlackpiVjVUU2wxNnBnSm9DOTkyc2FQdTZLaWFIUV9OYkN4eDBJdGxDY2JCVS1XNVJLSmowYzgwSGlOak5UZw?oc=5"
+  },
+  {
+   "title": "Nvidia finalizes payment of $1 billion, acquires over 4% stake in Naver",
+   "outlet": "코리아중앙데일리",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdUtUZFJaLVlhbnQ5SDlOODVDblpFZnRuakVzUDlFVEU3b1daRWdBQTA1YXVfS2RxVDVTSWRwMGZjT21vN2plMUM2d2JkMXVKb3FLZDFQYS1BYTNWdllXaVRySS1GUVJleXlqM1hSaHpfUmNCWnd6ekNMdGRyRUZlLTFSejdGREVsLTlTQWoxNVhHbDdIeWtkYTRTTmlyck9JeFVCcGN0STliQWZQbU00dkhGWGl3QndxZ2hxdHJ3?oc=5"
+  },
+  {
+   "title": "Meta Platforms, Inc. : Buy rating from Bernstein",
+   "outlet": "마켓스크리너",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTzlFYjRJbW4xNWVibC1oR1lJVUt0VmdzNXEyVWVUTWd1UzlianQ5N2k4UFBRUUJucVhYNHlDanUzWkV1QUplRzROZFc0NzQ3TFdGZ3VqOTNrQldlR1ZBSDBDaGVDemdIZGszbVlGeF9CWUpfR2hUTXRIOHJBZG5CcFBWY3FVdkhkLTJlT1IyQ3NPcVVUSExEYWVnc0tXdw?oc=5"
+  },
+  {
+   "title": "META更新帮助中心，商业服务条款更新不会在11月20日进行",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixvfes8687383.d.html"
+  },
+  {
+   "title": "Alphabet三季度13F持仓规模达883亿美元，SpaceX为第一大持仓",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixuywy8914024.d.html"
+  },
+  {
+   "title": "Alphabet报告持有高通公司300万股股份",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixuyxa5662457.d.html"
+  },
+  {
+   "title": "Google plans $17 billion Wyoming data center",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3195313"
+  },
+  {
+   "title": "Tesla to Wind Down Cybertruck Production in Texas Next Year, Elon Musk Says",
+   "outlet": "블룸버그",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRGdvX0pvbXJYRDkwem1xU0pQQVpPaFZlemVSdUFkTFdQMU5iNDVGTDJOLVd6RzNDcmFvaG1ReXhobE5UbmFlTzYxNmt4bjJ2MDlaSEtZa181Q3dnb3BTSl9CdURSWWo2ODRiQzBGa2FnMURLTzV2Q09LRVRKVTUzb1NMV0ZtNk9vYjBGY0NMR2xnWWg0ajlVVjgxQ0xmU1hKdU85Y2JsTTg1UzhBVmpz?oc=5"
+  },
+  {
+   "title": "Elon Musk: Tesla to wind down Cybertruck production in Texas in mid-2027",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9840158/Elon-Musk-Tesla-to-wind-down-Cybertruck-production-in-Texas-in-mid-2027-TSLA.aspx?xy=rss"
+  },
+  {
+   "title": "特斯拉将美国市场的Cybertruck全轮驱动高级版售价上调至92,490美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixuywu8723547.d.html"
+  },
+  {
+   "title": "特斯拉将美国市场Cybertruck Cyberbeast的价格上调至102,490美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixuywy8818017.d.html"
+  },
+  {
+   "title": "特斯拉股价盘前上涨1.9%，SpaceX盘前上涨4%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixuyxa5653502.d.html"
+  },
+  {
+   "title": "Russian Security Council says Starlink/Oneweb satellite services pose risk",
+   "outlet": "로이터",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQM1lNNTd4SjQ5dGlFcG1hdjFVY2lvOXZDMVZCUmZjaTJBSXlFTGZsS1E2aEt2bXhQUXl4R0FrZnNtUlFpdUo5RVJUZ2JISllTV0RFQ0tqLWNSNk5HeVBpU2N1WFJKck9LRHYxSE9nSjJ1cXhpN3VKNlV6TGhTSkVOR3EzT2dtSXBtUTNEU2FkQVVBLUVMckZvU0c2dkhQcmNyVTh6V01CcnF6MmFtV0lfS2pNTU1JSEdMRWxUV1lqblJtanNaRTljQXRPN0hQbEJl?oc=5"
+  },
+  {
+   "title": "Redwire Price Target Cut to $8.00/Share From $11.00 by Piper Sandler",
+   "outlet": "다우존스",
+   "url": "https://news-static.webullfintech.com/us/news-html/20261106/15876083167355904.html"
+  },
+  {
+   "title": "北京部署启动机器人产品\"一机一码\"工作",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixvfey5560737.d.html"
+  },
+  {
+   "title": "中国石油集团旗下公司与宇树科技拟牵手",
+   "outlet": "동방재부",
+   "url": "https://finance.eastmoney.com/a/202611063924874592.html"
+  },
+  {
+   "title": "Cloudflare Announces Third Quarter 2026 Financial Results (8-K)",
+   "outlet": "클라우드플레어 IR(SEC)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001477333/000147733326000060/q326exhibit991.htm"
+  },
+  {
+   "title": "摩根大通将Cloudflare目标价从350美元上调至375美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixuqhs8258438.d.html"
+  },
+  {
+   "title": "Cloudflare盘前涨14.66%，现报280.35美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixuure5694219.d.html"
+  },
+  {
+   "title": "The blue wave hits Anthropic's IPO",
+   "outlet": "폴리티코",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNM24zREh6T0lhdVNvakRRNHY1S1ExNklDYWxWTFNjUHV4UjlLU1dHUE1MdTdWdzJaOWhmc0g5OXk5b0lRQ3kxY0lRSjVMcFhuNnVzMkNuallrRHhCZEwtWWduM0plNXlkemVUSmc3amVoNm9YT2ZtdEpTYzF2c2FXTlo4eTlKenlKQzVKc3YxbHBTR0hockxqd3EwQzBITmVhSlg3R3BvcEcxWjloQ3Zj?oc=5"
+  },
+  {
+   "title": "AI市場信心降溫 Anthropic 11月上市添變數",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=1&id=0000773807_NZK7GI3C14SS1T6NPYINN"
+  },
+  {
+   "title": "SoundHound AI 股价盘前下跌7.5%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixuura8905194.d.html"
+  },
+  {
+   "title": "美国云计算新股周四遭抛售后，盘前反弹 (코어위브·네비우스)",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixuura8915974.d.html"
+  },
+  {
+   "title": "IREN第一季度营收超预期，盘前上涨14%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixuuqy5457626.d.html"
+  },
+  {
+   "title": "IREN AI Cloud revenue hits $200 million as $4 billion ARR target moves to January",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/technology/ai/articles/iren-ai-cloud-revenue-hits-212716474.html"
+  },
+  {
+   "title": "Iren Fiscal Q1 Swings to Loss; Microsoft AI Infrastructure Deliveries Delayed",
+   "outlet": "마켓스크리너",
+   "url": "https://finnhub.io/api/news?id=bb867da1c4dcd1cd9ba2bf739c4dade00dc3cc2ac7a47bf11d5d312f6614a188"
+  },
+  {
+   "title": "Lumentum控股美股盘前涨超10%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixuyxa5683728.d.html"
+  },
+  {
+   "title": "Coherent美股盘前涨超10%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixuyxa5685907.d.html"
+  },
+  {
+   "title": "机构：2027年AI网络与互连产值预估将达2798亿美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixuuqw8736081.d.html"
+  },
+  {
+   "title": "TELUS正在探索数据中心外壳的第三项计划",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixuywu8810926.d.html"
+  },
+  {
+   "title": "英伟达\"盯上\"电信老机房 拟打造1吉瓦的AI推理网络",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixuuqy5461686.d.html"
+  },
+  {
+   "title": "机构：新一代HBM价格将持续上涨",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixuure5589410.d.html"
+  },
+  {
+   "title": "Samsung, SK Hynix eye AI inference boom as South Korea's SSD exports soar 584%",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261106PD219/sk-hynix-samsung-ssd-exports-demand.html"
+  },
+  {
+   "title": "Qualcomm validates HBC memory architecture, targets AI250 samples in 1H27",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261106PD216/qualcomm-hardware-ai-inference-technology-hbm4.html"
+  },
+  {
+   "title": "微芯科技盘前股价下跌1.5%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixuyxa5663552.d.html"
+  },
+  {
+   "title": "YMTC targets up to 70% Chinese tools for new NAND fab",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261106VL217/ymtc-nand-equipment-manufacturing.html"
+  },
+  {
+   "title": "China's chip equipment makers ride record AI orders into 2027",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261106VL211/china-ic-manufacturing-equipment-expansion-investment-2027.html"
+  },
+  {
+   "title": "Coinbase Bear Morgan Stanley Says Earnings Recovery Less Certain",
+   "outlet": "블룸버그",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTEdtZ3JKS00zVnFScmlIbmdQU3JGRVR3NXJ2eVdxMGpxcHA1OHJZWVN6Q0E5RUlyUEpmWWRsTVRTQ2x2SHpzTHgwYlVyZENqa2hRWUVBeEVtQmpEdXFjcWdiaFp0bHQ1emVIUUhCZG5MeDhIWFkxOFJaQnZHNXdQSUdqLW8wakpTN2RNYzkxQnNSd0d4ZExkTExHc3lVLTIyTExuMGl3Yk41UVVGVmkteklOdkJQQQ?oc=5"
+  },
+  {
+   "title": "多家机构看空Coinbase，摩根士丹利下调评级与目标价",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-06/detail-inixvfey5561723.d.html"
+  },
+  {
+   "title": "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout",
+   "outlet": "코인데스크",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdF9qRWk2RGF2X29PZXdKaWpYa19Od1J0WTBUSS1yQ0NlOWU3d0JDYVhGT2hWWm5VU2hqR08wa0FKTk4zUG1FNE9QcGJBdDVORVcxSHRMNDZhb3VUYWtWblFVVGxueFN0NnZaZ3A5UmJsQkg4NHpjU2hhVEZpUk40d2dSSWdBb2k5dkpCdjc4NFpjWGZaZEVjbXRGRGJuMWNLSWZEQ2YwblFHcGRjYzFXelZuLW9ERzhlSWtvWA?oc=5"
+  },
+  {
+   "title": "Binance $6.3 billion heist to prompt closer scrutiny by insurers",
+   "outlet": "로이터",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWG84THVjeHZPNm5hOXJKYzlNeVJsYXNxMnFiWXVLYVB4N2dCSVNZU2JGcHIyMjZ4MUZUV21uVmRGam5lMHNOZkZCMEZURXRqNzZUNUNKTU84ZHhxX3BJVzhTZ2I5UzZ4VUt4WW5PVEkyMmhOVGM0aTZHS1JCMlFwU0wteW5OcmI4WUV6M083b1dERXNUblRUWmdBR25sVHNBR01ZZVJMaE9SSXhFbDVuV0daLWhfQQ?oc=5"
+  }
+ ]
+}
