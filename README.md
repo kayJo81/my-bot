@@ -30,14 +30,14 @@ Actions → "Send premarket briefing mail" → Run workflow → 날짜 입력.
 
 ## 네이버 블로그 자동 올리기 (선택)
 
-`out/**/mail.json`이 푸시되면 `.github/workflows/post-blog.yml`이 같은 본문·그림을 네이버 블로그에 올립니다(기본: 임시저장).
+`out/**/mail.json`이 푸시되면 `.github/workflows/post-blog.yml`이 같은 본문·그림을 네이버 블로그에 올립니다(기본: 바로 발행).
 네이버 공식 글쓰기 API가 없어(2020년 종료) 브라우저 조작 방식이며, 에디터 화면이 바뀌면 고쳐야 합니다.
 
 | 종류 | 이름 | 값 |
 |---|---|---|
 | Secret | `NAVER_COOKIES` | 네이버 로그인 쿠키(Cookie-Editor 확장 → Export → JSON) |
 | Variable | `NAVER_BLOG_ID` | 블로그 아이디 (blog.naver.com/아이디) |
-| Variable (선택) | `NAVER_PUBLISH` | `1`이면 바로 발행, 없으면 임시저장 |
+| Variable (선택) | `NAVER_PUBLISH` | `0`이면 임시저장만, 없으면 바로 발행 |
 
 시험: Actions → "Post to Naver blog" → Run workflow → 폴더 입력. 실패하면 실행 결과의 `naver-screenshots`를 확인합니다.
 

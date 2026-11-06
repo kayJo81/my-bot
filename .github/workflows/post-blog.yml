@@ -1,7 +1,7 @@
 name: Post to Naver blog
 
 # mail.json이 푸시되면(메일 발송과 같은 시점) 같은 본문·그림을 네이버 블로그에 올립니다.
-# 기본은 임시저장. 저장소 Variable NAVER_PUBLISH=1이면 발행합니다.
+# 기본은 바로 발행. 저장소 Variable NAVER_PUBLISH=0이면 임시저장만 합니다.
 # NAVER_COOKIES(Secret) 또는 NAVER_BLOG_ID(Variable)가 없으면 아무것도 하지 않습니다.
 
 on:
@@ -14,7 +14,7 @@ on:
         description: "올릴 폴더 (예: out/2026-11-06)"
         required: true
       publish:
-        description: "발행하려면 1, 임시저장만 하려면 비워 두기"
+        description: "기본은 발행. 임시저장만 하려면 0"
         required: false
         default: ""
 
@@ -70,7 +70,7 @@ jobs:
         env:
           NAVER_COOKIES: ${{ secrets.NAVER_COOKIES }}
           NAVER_BLOG_ID: ${{ vars.NAVER_BLOG_ID }}
-          NAVER_PUBLISH: ${{ github.event.inputs.publish || vars.NAVER_PUBLISH }}
+          NAVER_PUBLISH: ${{ github.event.inputs.publish || vars.NAVER_PUBLISH || '1' }}
           SHOT_DIR: naver_shots
         run: |
           for d in ${{ steps.find.outputs.dirs }}; do
