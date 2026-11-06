@@ -40,3 +40,8 @@ Actions → "Send premarket briefing mail" → Run workflow → 날짜 입력.
 | Variable (선택) | `NAVER_PUBLISH` | `1`이면 바로 발행, 없으면 임시저장 |
 
 시험: Actions → "Post to Naver blog" → Run workflow → 폴더 입력. 실패하면 실행 결과의 `naver-screenshots`를 확인합니다.
+
+## 미국장 마감 시황 (매 거래일 16:10 ET)
+
+예약 작업이 `BRIEF_ROUTINE.md` 절차대로 시황을 쓰고(`brief_skill/SKILL.md` 문체), PDF를 `reports/<한국날짜>/`에 푸시하면
+`send-mail.yml`이 메일로 보냅니다. 휴장일에는 아무것도 보내지 않습니다.

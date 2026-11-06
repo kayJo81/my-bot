@@ -1,9 +1,10 @@
-name: Send premarket briefing mail
+name: Send briefing mail
 
 on:
   push:
     paths:
       - "out/**/mail.json"
+      - "reports/**/mail.json"
   workflow_dispatch:
     inputs:
       date:
@@ -40,7 +41,7 @@ jobs:
             else
               files=$(git diff --name-only "$BEFORE" HEAD)
             fi
-            dirs=$(echo "$files" | grep -E '^out/[^/]+/mail\.json$' | while read -r f; do [ -f "$f" ] && dirname "$f"; done | sort -u | tr '\n' ' ')
+            dirs=$(echo "$files" | grep -E '^(out|reports)/[^/]+/mail\.json$' | while read -r f; do [ -f "$f" ] && dirname "$f"; done | sort -u | tr '\n' ' ')
           fi
           echo "dirs=$dirs" >> "$GITHUB_OUTPUT"
           echo "to send: $dirs"
