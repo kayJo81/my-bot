@@ -8,7 +8,10 @@ on:
     inputs:
       date:
         description: "다시 보낼 날짜 (YYYY-MM-DD)"
-        required: true
+        required: false
+      dir:
+        description: "보낼 폴더 (예: reports/2026-11-07). 넣으면 date보다 우선"
+        required: false
 
 jobs:
   send:
@@ -25,8 +28,11 @@ jobs:
         env:
           BEFORE: ${{ github.event.before }}
           INPUT_DATE: ${{ github.event.inputs.date }}
+          INPUT_DIR: ${{ github.event.inputs.dir }}
         run: |
-          if [ -n "$INPUT_DATE" ]; then
+          if [ -n "$INPUT_DIR" ]; then
+            dirs="$INPUT_DIR"
+          elif [ -n "$INPUT_DATE" ]; then
             dirs="out/$INPUT_DATE"
           else
             if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "$BEFORE" 2>/dev/null; then
