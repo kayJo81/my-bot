@@ -1,0 +1,36 @@
+[정정] 11월 6일 프리마켓 반등, 한국장 마감 이후 무엇이 움직였나
+
+앞서 보내 드린 "프리마켓 반도체 반등 이유" 두 편에서 반등 원인으로 든 뉴스 가운데 일부가, 실제 가격이 움직인 시각과 맞지 않았습니다.
+이번 글에서는 기준을 한국장 마감(15:30)부터 미국 프리마켓 개시(18:00)까지로 잡고, 뉴스가 나온 시각과 나스닥 선물이 움직인 시각을 하나씩 대조해 다시 정리했습니다.
+첨부 PDF 1~3쪽이 아래 [그림1]~[그림3]입니다. 프리마켓 등락률은 정규장에서 달라질 수 있고, 투자 권유가 아닙니다.
+
+[그림1]
+
+나스닥100 선물을 미국 장 마감(한국시간 오전 6시 5분) 이후 30분 단위로 따라가 보면, 반등의 대부분은 한국장이 끝나기 전에 이미 나왔습니다. 선물은 장 마감 뒤 두 시간 넘게 더 밀려 0.76%까지 빠졌다가, 오전 8시 35분부터 11시 50분 사이 미국 밤 시간에 1.59%까지 급하게 올랐습니다. 한국장이 마감한 오후 3시 30분에는 이미 1% 가까이 오른 상태였고, 그 뒤 프리마켓이 열리는 오후 6시까지 추가로 오른 폭은 약 0.35%에 그쳤습니다. 따라서 오후 6시에 보이는 반도체주의 큰 상승률은 대부분 그 전에 쌓인 몫이라고 보는 것이 맞습니다.
+
+[그림2]
+
+한국장 마감 이후 구간만 떼어 보면 처음 한 시간은 오히려 약했습니다. 닛케이와 코스피가 6% 가까이 급락한 채 마감했고, 브렌트유가 다시 100달러대로 올라섰으며, 호르무즈 해협에서 유조선 화재 소식과 AI 인프라 기업의 부채 부담을 다룬 기사가 이어지면서 선물은 0.4%가량 밀렸습니다. 흐름이 바뀐 것은 오후 4시 30분 무렵입니다. 15분 만에 나스닥 선물이 0.77% 올랐고, 같은 구간 유가는 1.35% 내리고 독일 국채 금리는 8월 말 이후 최저로 떨어졌습니다. 미니 블벅터의 원인 분석도 이 구간의 상승 요인으로 유가 하락을 꼽았습니다. 이후 브렌트유는 97달러대, WTI는 90달러 아래로 내려갔고, 이번 주 유가가 12% 가까이 떨어질 수 있다는 전망이 나왔습니다.
+
+[그림3]
+
+정리하면, 한국장 마감 이후 구간에서 시각이 맞는 이유는 유가와 금리 하락, 그리고 IREN·클라우드플레어·에어비앤비처럼 실적을 발표한 개별 종목의 상승입니다. 그 전에 오른 약 1%는 뚜렷한 호재가 없는 시간대에 나와, 2020년 이후 최악의 하루를 보낸 뒤의 기술적 반등으로 보입니다. 다만 수급 자료로 확인한 것은 아닙니다. 앞선 글에서 반등 이유로 든 엔비디아의 통신 건물 1GW 계획과 구글의 와이오밍 데이터센터는 미국 정규장 중에 보도됐고 그 뒤에도 시장은 저점으로 마감했습니다. 램리서치 자사주 매입은 보도 직후에도 선물이 더 내려 램리서치 개별 재료로 보는 것이 맞고, 삼성 관련 소식은 미국 프리마켓과 시각과 대상이 맞지 않습니다. 이 뉴스들은 반등의 원인이 아니라, 전력과 허가가 병목이라는 흐름을 보여 주는 배경으로 읽어 주시기 바랍니다.
+
+출처 링크 (2026-11-06 KST)
+· 미니 블벅터 "시장을 움직인 뉴스"(나스닥 선물 30분 단위 흐름·원인 분석) (미니 블벅터): https://mini-bbterminal.pages.dev/
+· 日经225指数收跌5.96%，韩国KOSPI指数收跌6.02% (월스트리트견문): https://wallstreetcn.com/livenews/3195665
+· 布伦特原油重回100美元关口 将进一步压制股市表现 (시나): https://finance.sina.cn/7x24/2026-11-06/detail-inixuqhu5024112.d.html
+· Iran's IRGC Navy: Two oil tankers catch fire in the Strait of Hormuz (FinancialJuice): https://www.financialjuice.com/News/9840216/Irans-IRGC-Navy-Two-oil-tankers-catch-fire-while-attempting-to-pass-through-the-Strait-of-Hormuz---IRNA.aspx?xy=rss
+· CoreWeave Stocks Fall 10.66% as Construction Risk Meets Heavy Interest Costs (Yahoo Finance): https://news.google.com/rss/articles/CBMilwFBVV95cUxQTkpyUHRWNmpDNTY1a1ZTYUh1UmtCVi1VeXZNckpFVF9QLWVlQ0h3akVvTVZabFBRaTRrS1dRQ3FCR290d1djNjBUN2RRTlBlS1N2X0x0T2pFZV94QnhscG1XSEtPejM1RHpTdTZlc2t3aW1tb2ZuOF9jbDJ5WExBYmVhWm1NLVBZd0g1LVhtYzYtSmF2eFVV?oc=5
+· 德国2年期国债收益率下行5个基点至2.93% (월스트리트견문): https://wallstreetcn.com/livenews/3195735
+· 德国10年期国债收益率跌至3.208% (시나): https://finance.sina.cn/7x24/2026-11-06/detail-inixuuqy5406749.d.html
+· WTI原油失守90美元/桶 (시나): https://finance.sina.cn/7x24/2026-11-06/detail-inixuura8863358.d.html
+· 布伦特原油日内跌1%，现报97.31美元/桶 (시나): https://finance.sina.cn/7x24/2026-11-06/detail-inixuuqw8795387.d.html
+· Oil Prices Head for 12% Weekly Loss Despite Fresh Tanker Attacks (OilPrice.com): https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYUJLYkpBS2YzZ01lWVU3MGJNQ1RucGpwZXFDY1VoblNacG5BTUl0VkRWVDA1MU9YaTdja0xFQ2Rodnc2Y2NKWVE3MDQyNU5RcldBZ25UMnRDSDhCWi1MdWpLQXh5ZXJwNER2UW1fZktBeFlGRzEwa1RKYUs0R0R1Mk1KcVl3N2lTeGlnTDBKb215YUJDM0w5bTV4SnJ6a2lnYkxmZjh5VzRNcU82OWVFWXZ2RHpodlh3NjI00gHAAUFVX3lxTFBfUnNKc1Rkam5WZ09yRFV2NmRqM0ZRUXpxZHAteHZfMm1RSFg4cy1NV3FKcWR3OWlKS1Z2Qml3RmNVZDZndW5zXzRJTVRldjk0VjkxeXVBc0JIV3JBTGxVbTdxVFlOMkkxTVo5WFRPTzd2dDZVLWhHaHNnanYzaGZQSGRzTmVhc3NfVHVUY2JKMnVKa0w0ODZ3WThiOWQ1R2JuQWx4VEJqUmVxZkYzOUlWVFJlYVE2Y2NaX21DYnYzSA?oc=5
+· Asia Faces AI Reckoning Post-Midterms, With Silver Lining on Oil (Bloomberg): https://www.bloomberg.com/news/articles/2026-11-06/asia-faces-ai-reckoning-post-midterms-with-silver-lining-on-oil
+· IREN第一季度营收超预期，盘前上涨14% (시나): https://finance.sina.cn/7x24/2026-11-06/detail-inixuuqy5457626.d.html
+· Cloudflare股价盘前上涨12.8% (시나): https://finance.sina.cn/7x24/2026-11-06/detail-inixuuqw8811803.d.html
+· Airbnb盘前上涨11.6% (시나): https://finance.sina.cn/7x24/2026-11-06/detail-inixuura8897901.d.html
+· 美国芯片股在周四暴跌后盘前交易中反弹 (시나): https://finance.sina.cn/7x24/2026-11-06/detail-inixuure5675581.d.html
+
+그림 대응(PDF 쪽 번호): 그림1=나스닥 선물 시간대별 흐름, 그림2=15:30~18:00 타임라인, 그림3=정정 결론
