@@ -1,0 +1,24 @@
+name: Read Naver post format
+
+on:
+  workflow_dispatch:
+    inputs:
+      lognos:
+        description: "읽을 글 번호(쉼표로 구분, 비우면 최근 글 목록만)"
+        required: false
+        default: ""
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install beautifulsoup4
+      - name: Dump
+        env:
+          NAVER_BLOG_ID: ${{ vars.NAVER_BLOG_ID }}
+        run: python -u scripts/naver_dump.py "$NAVER_BLOG_ID" "${{ github.event.inputs.lognos }}"
