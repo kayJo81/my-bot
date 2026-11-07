@@ -77,7 +77,10 @@ def realign(page, blog_id: str, log_no: str) -> None:
             .filter(e => /수정|edit|update/i.test((e.textContent||'') + ' ' + e.className + ' ' + (e.getAttribute('href')||'')))
             .slice(0, 12).map(e => e.outerHTML.slice(0, 220))""")
         print("  수정 후보:", cands, flush=True)
-        btn = page.locator("a:text-is('수정'), button:text-is('수정'), a[class*='edit'], a[href*='Update']").first
+        btn = page.locator(f"a._modifyPost[class*='_param({log_no}|']").first
+        if not btn.count():
+            print(f"  {log_no}: 이 번호의 글이 없습니다(삭제됐거나 비공개). 건너뜁니다.", flush=True)
+            return
         if btn.count():
             try:
                 with page.context.expect_page(timeout=8000) as newp:
@@ -104,6 +107,7 @@ def realign(page, blog_id: str, log_no: str) -> None:
     def cur():
         return fr.evaluate(nb._ALIGN_JS) or ""
 
+    n_changed = len(bad)
     for n, i in enumerate(bad):
         el = fr.locator(PARAS).nth(i)
         try:
@@ -122,6 +126,11 @@ def realign(page, blog_id: str, log_no: str) -> None:
     nb.shot(page, f"{log_no}_aligned")
     if bad:
         sys.exit(f"{log_no}: {len(bad)}개 문단 정렬을 바꾸지 못해 저장하지 않았습니다.")
+    if "postupdate" in page.url and f"logNo={log_no}" not in page.url:
+        sys.exit(f"{log_no}: 다른 글({page.url})이 열려 저장하지 않고 멈춥니다.")
+    if not fr.evaluate(_BAD_JS, "__never__") or len(bad) == 0 and n_changed == 0:
+        print(f"{log_no}: 바꿀 문단이 없어 저장하지 않습니다.", flush=True)
+        return
     fr.get_by_role("button", name=re.compile("^발행")).first.click()
     page.wait_for_timeout(1500)
     nb.shot(page, f"{log_no}_publish_layer")
