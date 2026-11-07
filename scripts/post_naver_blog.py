@@ -296,7 +296,12 @@ def main() -> None:
                 page.wait_for_timeout(4000)
                 # 이미지 다음 줄로 커서 이동 후 이어서 입력
                 last_text = fr.locator(".se-component.se-text .se-text-paragraph").last
-                last_text.click()
+                page.keyboard.press("Escape")  # 이미지 선택 해제(선택 테두리가 클릭을 가로막음)
+                page.wait_for_timeout(300)
+                try:
+                    last_text.click(timeout=5000)
+                except Exception:
+                    last_text.click(force=True)
                 page.keyboard.press("End")
             print(f"  · {kind}: {str(val)[:40]}")
         shot(page, "body_done")
