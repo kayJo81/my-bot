@@ -164,12 +164,10 @@ def select_category(page, fr, want: str) -> bool:
 
 
 def type_paragraph(page, text: str) -> None:
-    lines = text.split("\n")
-    for i, ln in enumerate(lines):
-        if ln:
-            page.keyboard.insert_text(ln)
-        if i < len(lines) - 1:
-            page.keyboard.press("Shift+Enter")
+    """한 문단은 줄바꿈 없이 이어 쓰고(줄은 에디터가 폭에 맞춰 정렬), 문단 사이에는 빈 줄을 하나 둡니다."""
+    one = " ".join(ln.strip() for ln in text.split("\n") if ln.strip())
+    page.keyboard.insert_text(one)
+    page.keyboard.press("Enter")
     page.keyboard.press("Enter")
 
 
