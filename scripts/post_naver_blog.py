@@ -171,23 +171,45 @@ _align_logged = False
 
 
 def ensure_align(page, fr) -> None:
-    """현재 문단이 가운데 정렬이 아니면 Ctrl+E로 가운데 정렬합니다(NAVER_ALIGN=left면 건너뜀)."""
+    """현재 문단이 가운데 정렬이 아니면 툴바의 정렬 메뉴에서 '가운데'를 고릅니다(NAVER_ALIGN=left면 건너뜀)."""
     global _align_logged
     if ALIGN != "center":
         return
-    try:
-        cls = fr.evaluate(_ALIGN_JS)
-    except Exception:
-        cls = ""
-    if "align-center" not in cls:
-        page.keyboard.press("Control+e")
-        page.wait_for_timeout(150)
-        if not _align_logged:
-            try:
-                print("정렬 확인:", fr.evaluate(_ALIGN_JS))
-            except Exception:
-                pass
-            _align_logged = True
+
+    def cur():
+        try:
+            return fr.evaluate(_ALIGN_JS) or ""
+        except Exception:
+            return ""
+
+    if "align-center" in cur():
+        return
+    tried = []
+    # 1) 툴바의 정렬 드롭다운 열기 → 가운데 정렬 옵션
+    for opener in ["button[class*='se-align'][class*='toolbar-button']", "button[class*='align'][class*='drop-down']",
+                   "button[data-name='align']", "button[class*='se-align']"]:
+        if click_if(fr, opener, 1200):
+            page.wait_for_timeout(300)
+            for opt in ["button[class*='align-center']", "[class*='option'][class*='center'] button",
+                        "button[data-value='center']", "button[data-name='align-center']"]:
+                if click_if(fr, opt, 1200):
+                    tried.append(f"{opener} -> {opt}")
+                    break
+            break
+    page.wait_for_timeout(200)
+    if "align-center" not in cur():
+        page.keyboard.press("Control+e")  # 단축키도 시도
+        page.wait_for_timeout(200)
+        tried.append("Ctrl+E")
+    if not _align_logged:
+        _align_logged = True
+        try:
+            names = fr.evaluate("""() => [...document.querySelectorAll('button')].map(b => b.className)
+                .filter(c => /align/i.test(c)).slice(0, 12)""")
+        except Exception:
+            names = []
+        print("정렬 시도:", tried, "| 결과:", cur(), "| 정렬 버튼 후보:", names)
+        shot(page, "align")
 
 
 def type_paragraph(page, text: str, fr=None) -> None:
