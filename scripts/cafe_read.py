@@ -4,6 +4,7 @@
 사용법:
   python scripts/cafe_read.py <cafeId> list [페이지수]        → 게시판 목록 + 최근 글 목록
   python scripts/cafe_read.py <cafeId> read <글번호,글번호...>  → 글 본문
+  python scripts/cafe_read.py <cafeId> search <검색어,검색어...> → 카페 검색 결과
 출력: cafe_out.json  (워크플로가 바로 암호화해서 로그에는 암호문만 남깁니다. 공개 저장소이므로 평문을 출력하지 않습니다)
 """
 import json
@@ -55,6 +56,11 @@ def main():
         if mode == "list":
             visit(f"https://m.cafe.naver.com/ca-fe/web/cafes/{cafe}")
             visit(f"https://m.cafe.naver.com/ca-fe/web/cafes/{cafe}/menus/0", scroll=int(arg or 3))
+        elif mode == "search":
+            import urllib.parse
+            for kw in [k for k in arg.split(",") if k.strip()]:
+                q = urllib.parse.quote(kw.strip())
+                visit(f"https://m.cafe.naver.com/ca-fe/web/cafes/{cafe}/search/articles?q={q}", scroll=6)
         else:
             for aid in [a for a in arg.split(",") if a.strip()]:
                 visit(f"https://m.cafe.naver.com/ca-fe/web/cafes/{cafe}/articles/{aid.strip()}")

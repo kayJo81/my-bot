@@ -7,10 +7,10 @@ on:
         description: "카페 번호(cafeId)"
         required: true
       mode:
-        description: "list 또는 read"
+        description: "list, read, search"
         default: "list"
       arg:
-        description: "list: 스크롤 횟수 / read: 글번호(쉼표)"
+        description: "list: 스크롤 횟수 / read: 글번호(쉼표) / search: 검색어(쉼표)"
         default: "3"
 
 jobs:
