@@ -163,7 +163,7 @@ def select_category(page, fr, want: str) -> bool:
     return False
 
 
-ALIGN = os.environ.get("NAVER_ALIGN", "center").strip().lower()
+ALIGN = os.environ.get("NAVER_ALIGN", "left").strip().lower()
 _ALIGN_JS = """() => { const s = window.getSelection(); if (!s || !s.anchorNode) return '';
   const n = s.anchorNode.nodeType === 1 ? s.anchorNode : s.anchorNode.parentElement;
   const el = n && n.closest('.se-text-paragraph'); return el ? el.className : ''; }"""
@@ -171,10 +171,11 @@ _align_logged = False
 
 
 def ensure_align(page, fr) -> None:
-    """현재 문단이 가운데 정렬이 아니면 툴바의 정렬 메뉴에서 '가운데'를 고릅니다(NAVER_ALIGN=left면 건너뜀)."""
+    """현재 문단 정렬이 NAVER_ALIGN(left/center/right)과 다르면 툴바의 정렬 메뉴에서 맞춥니다."""
     global _align_logged
-    if ALIGN != "center":
+    if ALIGN not in ("left", "center", "right"):
         return
+    want = f"align-{ALIGN}"
 
     def cur():
         try:
@@ -182,7 +183,7 @@ def ensure_align(page, fr) -> None:
         except Exception:
             return ""
 
-    if "align-center" in cur():
+    if want in cur():
         return
     tried = []
     # 1) 툴바의 정렬 드롭다운 열기 → 가운데 정렬 옵션
@@ -190,15 +191,15 @@ def ensure_align(page, fr) -> None:
                    "button[data-name='align']", "button[class*='se-align']"]:
         if click_if(fr, opener, 1200):
             page.wait_for_timeout(300)
-            for opt in ["button[class*='align-center']", "[class*='option'][class*='center'] button",
-                        "button[data-value='center']", "button[data-name='align-center']"]:
+            for opt in [f"button[class*='{want}']", f"[class*='option'][class*='{ALIGN}'] button",
+                        f"button[data-value='{ALIGN}']", f"button[data-name='{want}']"]:
                 if click_if(fr, opt, 1200):
                     tried.append(f"{opener} -> {opt}")
                     break
             break
     page.wait_for_timeout(200)
-    if "align-center" not in cur():
-        page.keyboard.press("Control+e")  # 단축키도 시도
+    if want not in cur():
+        page.keyboard.press({"left": "Control+l", "center": "Control+e", "right": "Control+r"}[ALIGN])  # 단축키도 시도
         page.wait_for_timeout(200)
         tried.append("Ctrl+E")
     if not _align_logged:

@@ -76,7 +76,7 @@ jobs:
           NAVER_BLOG_ID: ${{ vars.NAVER_BLOG_ID }}
           NAVER_PUBLISH: ${{ github.event.inputs.publish || vars.NAVER_PUBLISH || '1' }}
           NAVER_CATEGORY: ${{ github.event.inputs.category || vars.NAVER_CATEGORY }}
-          NAVER_ALIGN: ${{ vars.NAVER_ALIGN || 'center' }}
+          NAVER_ALIGN: ${{ vars.NAVER_ALIGN || 'left' }}
           SHOT_DIR: naver_shots
         run: |
           for d in ${{ steps.find.outputs.dirs }}; do
