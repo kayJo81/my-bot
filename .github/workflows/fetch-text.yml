@@ -1,0 +1,19 @@
+name: Fetch page text
+
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "읽을 주소(공백으로 구분)"
+        required: true
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install beautifulsoup4
+      - env:
+          URLS: ${{ github.event.inputs.urls }}
+        run: python3 -u scripts/fetch_text.py "$URLS"
