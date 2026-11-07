@@ -13,6 +13,10 @@ on:
       dir:
         description: "올릴 폴더 (예: out/2026-11-06)"
         required: true
+      category:
+        description: "카테고리 이름(일부만 써도 됨, 예: 투자). 비우면 기본 카테고리"
+        required: false
+        default: ""
       publish:
         description: "기본은 발행. 임시저장만 하려면 0"
         required: false
@@ -71,6 +75,7 @@ jobs:
           NAVER_COOKIES: ${{ secrets.NAVER_COOKIES }}
           NAVER_BLOG_ID: ${{ vars.NAVER_BLOG_ID }}
           NAVER_PUBLISH: ${{ github.event.inputs.publish || vars.NAVER_PUBLISH || '1' }}
+          NAVER_CATEGORY: ${{ github.event.inputs.category || vars.NAVER_CATEGORY }}
           SHOT_DIR: naver_shots
         run: |
           for d in ${{ steps.find.outputs.dirs }}; do

@@ -5,7 +5,8 @@
 환경 변수
   NAVER_COOKIES   네이버 로그인 쿠키(JSON 배열, Cookie-Editor 확장으로 내보낸 형식)  [필수, Secret]
   NAVER_BLOG_ID   블로그 아이디 (blog.naver.com/<아이디>)                         [필수]
-  NAVER_PUBLISH   "1"이면 발행, 그 외에는 임시저장만 합니다(기본: 임시저장)
+  NAVER_PUBLISH   "1"이면 발행, 그 외에는 임시저장만 합니다
+  NAVER_CATEGORY  발행할 카테고리 이름(일부만 써도 됨). 못 찾으면 발행하지 않고 임시저장
   SHOT_DIR        단계별 스크린샷 저장 폴더 (기본: naver_shots)
 
 본문 규칙 (body.txt)
@@ -131,6 +132,37 @@ def click_if(fr, selector: str, timeout=1500) -> bool:
         return False
 
 
+def select_category(page, fr, want: str) -> bool:
+    """발행 레이어에서 이름에 want가 들어간 카테고리를 고릅니다. 목록은 로그에 남깁니다."""
+    opened = False
+    for sel in ["button[class*='selectbox_button']", "[class*='option_category'] button",
+                "button[aria-haspopup='listbox']", "button:has-text('카테고리')"]:
+        if click_if(fr, sel, 2500):
+            opened = True
+            break
+    page.wait_for_timeout(1000)
+    shot(page, "category_open")
+    for sel in ["[class*='option_list'] li", "[role='option']", "[class*='selectbox_list'] li",
+                "ul[class*='list'] li label", "label[for*='category']"]:
+        opts = fr.locator(sel)
+        try:
+            n = opts.count()
+        except Exception:
+            n = 0
+        if not n:
+            continue
+        texts = [t.strip().replace("\n", " ") for t in opts.all_inner_texts()]
+        print(f"카테고리 목록({sel}, 열림={opened}):", texts)
+        for i, t in enumerate(texts):
+            if want in t:
+                opts.nth(i).click()
+                page.wait_for_timeout(800)
+                shot(page, "category_selected")
+                print("카테고리 선택:", t)
+                return True
+    return False
+
+
 def type_paragraph(page, text: str) -> None:
     lines = text.split("\n")
     for i, ln in enumerate(lines):
@@ -217,6 +249,16 @@ def main() -> None:
             fr.get_by_role("button", name=re.compile("^발행")).first.click()
             page.wait_for_timeout(1500)
             shot(page, "publish_layer")
+            want = os.environ.get("NAVER_CATEGORY", "").strip()
+            if want and not select_category(page, fr, want):
+                # 원하는 카테고리를 못 찾으면 엉뚱한 곳에 발행하지 않고 임시저장만 합니다.
+                page.keyboard.press("Escape")
+                page.wait_for_timeout(800)
+                if not click_if(fr, "button:has-text('저장')", 5000):
+                    page.keyboard.press("Control+s")
+                page.wait_for_timeout(3000)
+                shot(page, "saved_no_category")
+                sys.exit(f"'{want}' 카테고리를 찾지 못해 임시저장만 했습니다. 로그의 카테고리 목록과 스크린샷을 확인하세요.")
             fr.locator("button:has-text('발행')").last.click()
             page.wait_for_timeout(5000)
             shot(page, "published")
