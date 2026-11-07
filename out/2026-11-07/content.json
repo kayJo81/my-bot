@@ -1,0 +1,861 @@
+{
+ "date": "2026-11-07",
+ "window": "15:30~21:23 KST",
+ "mail_to": "yidiar80k@gmail.com",
+ "summary": [
+  "[배경] 금요일 미국장: 반도체 저가매수로 나스닥 +1.09%, 반도체지수 +4.21%(주간 −12%)",
+  "[배경] 10월 비농업 고용 16.5만 명(예상 7만) → 12월 금리 인상 베팅 증가",
+  "[배경] 블룸버그 \"MS, 오라클 AI 클라우드 임차 단계적 종료\" → 반도체·네오클라우드 상승폭 축소",
+  "이란 혁명수비대 \"호르무즈에서 미군에 발포\", 유조선 기뢰 화재 → 주말 중동 긴장",
+  "마이크론 주말 장외 700달러 돌파, 앤트로픽 기업가치 기대 40% 하락 보도"
+ ],
+ "checklist": [
+  "주말 호르무즈 긴장과 월요일 유가",
+  "다음 주 미국 10월 CPI와 12월 금리 인상 확률",
+  "MS의 AI 클라우드 임차 정리가 오라클 밖으로 번지는지",
+  "반도체 주간 −12% 이후 추가 반등 여부",
+  "11월 17일 엔비디아 실적 전 AI 인프라 투자 신호"
+ ],
+ "issues": [
+  {
+   "title": "금요일 미국장: 반도체 반등, MS 보도에 절반 반납",
+   "subtitle": "[배경] 11/6 미국 정규장 · 고용 서프라이즈와 AI 인프라 엇갈림",
+   "timeline": [
+    {
+     "t": "22:30",
+     "text": "10월 비농업 고용 16.5만 명(예상 7만), 실업률 4.1%"
+    },
+    {
+     "t": "23:12",
+     "text": "해싯 \"데이터센터 성장 여지 충분, 지역이 결정\""
+    },
+    {
+     "t": "02:36",
+     "text": "블룸버그: MS, 오라클 AI 클라우드 임차 단계적 종료"
+    },
+    {
+     "t": "06:00",
+     "text": "마감: 나스닥 +1.09%, 반도체지수 +4.21%"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "나스닥",
+     "value": "+1.09%",
+     "note": "24,579.43",
+     "dir": "up"
+    },
+    {
+     "label": "반도체지수(SOX)",
+     "value": "+4.21%",
+     "note": "주간 약 −12%",
+     "dir": "up"
+    },
+    {
+     "label": "비농업 고용",
+     "value": "16.5만 명",
+     "note": "예상 7만 · 8~9월 8.4만 상향",
+     "dir": "up"
+    },
+    {
+     "label": "엔비디아",
+     "value": "+2.78%",
+     "note": "장중 7%대 상승 뒤 반납",
+     "dir": "up"
+    }
+   ],
+   "cause": [
+    "전날 12% 급락 뒤 반도체 저가매수",
+    "해싯·오픈AI CFO \"데이터센터 투자 지속\" 발언에 투매 진정",
+    "MS가 \"칩이 충분히 새롭지 않다\"며 오라클 임차 정리 → AI 인프라 수요 의문",
+    "고용 서프라이즈로 국채 금리·달러 상승, 12월 금리 인상 베팅 증가"
+   ],
+   "chips": [
+    {
+     "name": "AMD",
+     "chg": "+11.04%"
+    },
+    {
+     "name": "인텔",
+     "chg": "+7.71%"
+    },
+    {
+     "name": "TSMC",
+     "chg": "+6.33%"
+    },
+    {
+     "name": "퀄컴",
+     "chg": "+5.52%"
+    },
+    {
+     "name": "마이크론",
+     "chg": "+5.12%"
+    },
+    {
+     "name": "MS",
+     "chg": "-0.99%"
+    }
+   ],
+   "checks": [
+    "다음 주 10월 CPI",
+    "MS의 AI 클라우드 임차 정리 범위",
+    "반도체 추가 반등 여부"
+   ],
+   "source": "FinancialJuice, 월스트리트견문, 시나, 블룸버그, 야후 파이낸스"
+  },
+  {
+   "title": "주말 중동 긴장: 이란 \"호르무즈서 미군에 발포\"",
+   "subtitle": "이란 혁명수비대 발표 · 유조선 기뢰 화재 · 미사일 사거리",
+   "timeline": [
+    {
+     "t": "17:07",
+     "text": "혁명수비대 \"어젯밤 호르무즈 해협에서 미군에 발포\""
+    },
+    {
+     "t": "18:59",
+     "text": "이란 해군 \"호르무즈 동쪽에서 유조선 기뢰 접촉 후 화재\""
+    },
+    {
+     "t": "20:46",
+     "text": "브렌트유 주말 장외 98달러 아래, 1.1% 하락"
+    },
+    {
+     "t": "20:57",
+     "text": "혁명수비대 \"미사일 사거리 제한 해제\""
+    }
+   ],
+   "metrics": [
+    {
+     "label": "브렌트유(주말 장외)",
+     "value": "98달러 아래",
+     "note": "20:46 · 1.1% 하락",
+     "dir": "down"
+    },
+    {
+     "label": "WTI(주말 장외)",
+     "value": "90달러 아래",
+     "note": "16:53 · 1% 넘게 하락",
+     "dir": "down"
+    },
+    {
+     "label": "이란 미사일 사거리",
+     "value": "2,000→4,100km",
+     "note": "주이스라엘 미국 대사 주장"
+    },
+    {
+     "label": "브렌트유 금요일 종가",
+     "value": "$98.32",
+     "note": "[배경] +0.03%"
+    }
+   ],
+   "cause": [
+    "중간선거 뒤 대이란 정책 변화 기대와 군사 긴장이 엇갈림",
+    "해싯 \"총체적 물가는 에너지와 이란이 끌어올리는 중\" ([배경])",
+    "러시아의 우크라이나 에너지 시설 대규모 공습도 겹침"
+   ],
+   "chips": [
+    {
+     "name": "유가"
+    },
+    {
+     "name": "방산"
+    },
+    {
+     "name": "해운"
+    }
+   ],
+   "checks": [
+    "월요일 유가 시초가",
+    "호르무즈 통항 차질 여부",
+    "미·러·우 3자 회담 진행"
+   ],
+   "source": "월스트리트견문, 시나, FinancialJuice"
+  }
+ ],
+ "sections": {
+  "megatech": [
+   {
+    "company": "마이크로소프트",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "블룸버그: 오라클 AI 클라우드 임차를 단계적으로 종료, 칩이 충분히 새롭지 않다는 이유"
+     },
+     {
+      "label": "영향",
+      "text": "[배경] 금요일 0.99% 하락, 오라클은 0.82% 상승 마감"
+     },
+     {
+      "label": "사실",
+      "text": "네덜란드 MS AI 데이터센터 공사장에 시위대 진입, 경찰 약 200명 구금"
+     }
+    ],
+    "chips": [
+     {
+      "name": "MS",
+      "chg": "-0.99%"
+     },
+     {
+      "name": "오라클",
+      "chg": "+0.82%"
+     }
+    ],
+    "source": "블룸버그, 월스트리트견문, 시나"
+   },
+   {
+    "company": "알파벳",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "크루소의 와이오밍 데이터센터 프로젝트 인수 (테크크런치)"
+     },
+     {
+      "label": "사실",
+      "text": "스페이스X 이사회에서 구글 임원 돈 해리슨 사임 (로이터·CNBC)"
+     },
+     {
+      "label": "영향",
+      "text": "금요일 0.78% 상승"
+     }
+    ],
+    "chips": [
+     {
+      "name": "알파벳",
+      "chg": "+0.78%"
+     }
+    ],
+    "source": "테크크런치, 로이터"
+   },
+   {
+    "company": "엔비디아",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "금요일 장중 7% 넘게 올랐다가 MS 보도에 상승폭 반납, 2.78% 상승 마감"
+     },
+     {
+      "label": "사실",
+      "text": "해싯 \"AI 버블은 실제로 타당한 우려\"이면서도 \"데이터센터 성장 여지 충분\""
+     },
+     {
+      "label": "체크",
+      "text": "11월 17일 실적"
+     }
+    ],
+    "chips": [
+     {
+      "name": "엔비디아",
+      "chg": "+2.78%"
+     }
+    ],
+    "source": "월스트리트견문, FinancialJuice"
+   }
+  ],
+  "mobility": [
+   {
+    "company": "스페이스X",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "팰컨9, 캘리포니아 4E 발사대에서 미 우주군 USSF-432 발사"
+     },
+     {
+      "label": "배경",
+      "text": "머스크 \"4분기 매출 전분기 대비 약 70% 증가, 12월 연환산 1,000억 달러\""
+     },
+     {
+      "label": "배경",
+      "text": "정부 매출 비중 10% 미만, 2027년 12월 연환산 5,000억 달러 이상 전망 유지"
+     },
+     {
+      "label": "영향",
+      "text": "[배경] 금요일 8.62% 상승"
+     }
+    ],
+    "chips": [
+     {
+      "name": "스페이스X",
+      "chg": "+8.62%"
+     }
+    ],
+    "source": "시나, 월스트리트견문, FinancialJuice"
+   },
+   {
+    "company": "테슬라",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "머스크 \"중국을 사랑한다, 중국 자동차 회사들은 정말 훌륭하다\""
+     },
+     {
+      "label": "배경",
+      "text": "사이버트럭 생산 축소·사이버캡 집중 발표 뒤 금요일 4.23% 상승"
+     }
+    ],
+    "chips": [
+     {
+      "name": "테슬라",
+      "chg": "+4.23%"
+     }
+    ],
+    "source": "시나, 월스트리트견문"
+   },
+   {
+    "company": "로보틱스",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "애플 연구팀, 로봇 '두뇌' 단일 작업 평균 성공률 91% 공개"
+     },
+     {
+      "label": "사실",
+      "text": "알리바바 첸원 모델을 불러 유니트리 G1 휴머노이드에서 검증"
+     },
+     {
+      "label": "사실",
+      "text": "중국, 범용 체화지능 '두뇌' 산업혁신연합체 출범"
+     }
+    ],
+    "chips": [
+     {
+      "name": "애플"
+     },
+     {
+      "name": "유니트리"
+     }
+    ],
+    "source": "월스트리트견문, 시나"
+   },
+   {
+    "company": "포드",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "NHTSA: 앞좌석이 의도치 않게 움직일 수 있어 미국에서 36,994대 리콜"
+     },
+     {
+      "label": "영향",
+      "text": "[배경] 금요일 0.72% 하락"
+     }
+    ],
+    "chips": [],
+    "source": "시나"
+   }
+  ],
+  "ai_software": [
+   {
+    "company": "앤트로픽",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "기술주 매도에 기업가치 기대 40% 급락 보도"
+     },
+     {
+      "label": "배경",
+      "text": "악시오스 \"IPO 가치 하락이 AI 거래 전반의 판돈을 키운다\""
+     },
+     {
+      "label": "체크",
+      "text": "상장 일정과 공모가"
+     }
+    ],
+    "chips": [],
+    "source": "시나, 악시오스"
+   },
+   {
+    "company": "오픈AI",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "CFO \"선거 결과와 무관하게 AI 데이터센터 투자 계속\" (CNBC)"
+     },
+     {
+      "label": "사실",
+      "text": "3월 투자 때보다 50% 가까이 높은 가치로 자금 조달 협상 중"
+     }
+    ],
+    "chips": [],
+    "source": "FinancialJuice, 월스트리트견문"
+   },
+   {
+    "company": "딥시크",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "웹과 API 일부 서비스 다시 중단"
+     }
+    ],
+    "chips": [],
+    "source": "시나, 월스트리트견문"
+   },
+   {
+    "company": "애틀래시안",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "약한 가이던스에 금요일 16.15% 급락, 2024년 이후 최대 장중 낙폭"
+     },
+     {
+      "label": "의미",
+      "text": "반도체 반등과 달리 기업용 소프트웨어는 동반 약세"
+     }
+    ],
+    "chips": [
+     {
+      "name": "애틀래시안",
+      "chg": "-16.15%"
+     }
+    ],
+    "source": "월스트리트견문, 야후 파이낸스"
+   }
+  ],
+  "ai_infra": [
+   {
+    "company": "네오클라우드",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "IREN +20.02%, 테라울프 +12.80%, 네비우스 +7.58%, 코어위브 +6.28%"
+     },
+     {
+      "label": "사실",
+      "text": "장중 코어위브 9%대·네비우스 13%대 올랐다가 MS 보도에 상승폭 축소"
+     },
+     {
+      "label": "체크",
+      "text": "MS의 네오클라우드 의존도 조정 여부"
+     }
+    ],
+    "chips": [
+     {
+      "name": "IREN",
+      "chg": "+20.02%"
+     },
+     {
+      "name": "코어위브",
+      "chg": "+6.28%"
+     },
+     {
+      "name": "네비우스",
+      "chg": "+7.58%"
+     }
+    ],
+    "source": "월스트리트견문, 야후 파이낸스"
+   },
+   {
+    "company": "원전·전력",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "오클로 금요일 22.66% 급등, 3분기 실적 발표 뒤"
+     },
+     {
+      "label": "사실",
+      "text": "해싯 \"트럼프는 데이터센터를 원치 않는 지역을 존중한다\""
+     }
+    ],
+    "chips": [
+     {
+      "name": "오클로",
+      "chg": "+22.66%"
+     }
+    ],
+    "source": "야후 파이낸스, FinancialJuice"
+   },
+   {
+    "company": "데이터센터 반대",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "네덜란드 MS AI 데이터센터 공사장 시위, 약 200명 구금"
+     },
+     {
+      "label": "배경",
+      "text": "환경단체들, AI는 활용하면서도 데이터센터 영향 경고 (로이터)"
+     },
+     {
+      "label": "의미",
+      "text": "반대 여론이 미국 밖 현장으로도 번지는 흐름"
+     }
+    ],
+    "chips": [],
+    "source": "시나, 로이터"
+   }
+  ],
+  "semis": [
+   {
+    "company": "마이크론",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "주말 장외 700달러 돌파, 1.9% 상승"
+     },
+     {
+      "label": "배경",
+      "text": "금요일 5.12% 상승, $690.00"
+     },
+     {
+      "label": "배경",
+      "text": "장중 메모리 지수 8% 넘게 상승, TSMC 메모리 진출 검토 보도"
+     }
+    ],
+    "chips": [
+     {
+      "name": "마이크론",
+      "chg": "+5.12%"
+     },
+     {
+      "name": "샌디스크",
+      "chg": "+3.55%"
+     }
+    ],
+    "source": "시나, 월스트리트견문, 야후 파이낸스"
+   },
+   {
+    "company": "인텔",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "금요일 7.71% 상승"
+     },
+     {
+      "label": "사실",
+      "text": "해싯 \"트럼프가 인텔 거래에 흥분, 인텔 실적은 칩 시장에 호재\""
+     }
+    ],
+    "chips": [
+     {
+      "name": "인텔",
+      "chg": "+7.71%"
+     }
+    ],
+    "source": "FinancialJuice, 월스트리트견문"
+   },
+   {
+    "company": "반도체 업종",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "필라델피아 반도체지수 금요일 +4.21%에도 주간 12% 하락"
+     },
+     {
+      "label": "의미",
+      "text": "2025년 4월 이후 최악의 한 주"
+     },
+     {
+      "label": "영향",
+      "text": "AMD +11.04%, TSMC +6.33%, 퀄컴 +5.52%, 브로드컴 +0.74%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "AMD",
+      "chg": "+11.04%"
+     },
+     {
+      "name": "TSMC",
+      "chg": "+6.33%"
+     },
+     {
+      "name": "브로드컴",
+      "chg": "+0.74%"
+     }
+    ],
+    "source": "시나, 월스트리트견문, 야후 파이낸스"
+   }
+  ],
+  "others": []
+ },
+ "empty_notes": {},
+ "greeting": "2026년 11월 7일 토요일 개장 전 섹터별 이슈체크입니다. 오늘은 미국장이 쉬는 주말이라 한국시간 15:30~21:23 사이 새 소식과 함께, 새벽에 끝난 금요일 미국장 흐름을 [배경]으로 정리했어요.",
+ "commentary": {
+  "summary": "금요일 미국장은 반도체가 하루 만에 반등했지만, 오후에 나온 마이크로소프트·오라클 관련 보도로 상승폭을 절반쯤 반납했습니다. 주말 사이에는 이란이 호르무즈에서 미군에 발포했다고 주장하면서 중동 긴장이 다시 커졌어요.",
+  "issue1": [
+   "여기가 중요한 부분인데, 금요일 반등을 이끈 건 전날 12% 넘게 빠진 반도체로 몰린 저가매수와 해싯 국가경제위원장의 \"데이터센터 성장 여지는 충분하고 지역이 결정할 일\"이라는 발언이었습니다. 오픈AI CFO도 선거 결과와 무관하게 데이터센터 투자를 이어 가겠다고 밝혀 투매를 진정시켰어요.",
+   "하지만 오후에 블룸버그가 마이크로소프트가 \"칩이 충분히 새롭지 않다\"며 오라클 AI 클라우드 임차를 단계적으로 정리한다고 보도하자, 장중 7% 가까이 올랐던 반도체지수가 4%대로 밀렸습니다. 10월 고용도 예상의 두 배를 넘으면서 12월 금리 인상 베팅이 커졌기 때문에, 다음 주 CPI가 반등 지속 여부를 가를 가능성이 큽니다."
+  ],
+  "issue2": [
+   "이란 혁명수비대는 어젯밤 호르무즈 해협에서 미군을 향해 발포했다고 밝혔고, 이어 해협 동쪽에서 유조선이 기뢰에 닿아 불이 났다는 이란 해군 발표도 나왔습니다. 그런데도 주말 장외 유가는 오히려 1% 안팎 내려, 시장은 아직 실제 공급 차질보다 선거 이후 대이란 정책 변화에 더 무게를 두는 모습이에요.",
+   "혁명수비대가 미사일 사거리 제한을 풀었다고 밝히고 러시아의 우크라이나 에너지 시설 공습도 겹친 만큼, 월요일 유가가 어떻게 열리는지가 첫 확인 포인트입니다. 해싯 위원장도 물가를 끌어올리는 요인으로 에너지와 이란을 꼽았기 때문에, 유가가 뛰면 금리 인상 우려와 함께 기술주에 부담이 될 수 있습니다."
+  ],
+  "megatech": [
+   "마이크로소프트의 오라클 임차 정리 보도는 하이퍼스케일러가 낡은 칩이 들어간 외부 용량부터 줄일 수 있다는 신호로 읽혔습니다. 네덜란드에서는 마이크로소프트 AI 데이터센터 공사장에 시위대가 들어가 200명 가까이 구금됐는데, 데이터센터 반대 여론이 미국 밖으로도 번지고 있다는 점은 눈여겨볼 대목이에요.",
+   "알파벳은 크루소가 짓던 와이오밍 데이터센터 프로젝트를 넘겨받으며 직접 확보에 나섰고, 엔비디아는 장중 7% 넘게 올랐다가 상승폭 대부분을 반납했습니다. 해싯 위원장이 \"AI 버블은 실제로 타당한 우려\"라고 말한 대목도 함께 기억해 둘 만합니다."
+  ],
+  "mobility": [
+   "스페이스X는 금요일 머스크가 4분기 매출이 전분기보다 70%가량 늘고 12월 연환산 매출이 1,000억 달러에 이를 것이라고 밝히며 8% 넘게 올랐고, 오늘은 미 우주군 위성을 실은 팰컨9를 쏘아 올렸습니다. 테슬라는 사이버트럭 생산 축소 발표 뒤 반등한 데 이어, 머스크가 중국 자동차 회사들을 높이 평가하는 발언을 내놨어요.",
+   "애플 연구팀은 알리바바 첸원 모델로 유니트리 휴머노이드를 움직여 평균 91%의 작업 성공률을 냈다고 공개해, 미국 빅테크와 중국 로봇·AI 생태계가 연구 단계에서 맞물리는 모습을 보여 줬습니다. 중국은 로봇 '두뇌'를 함께 만드는 산업 연합체도 출범시켰습니다."
+  ],
+  "ai_software": [
+   "앤트로픽은 기술주 매도 이후 기업가치 기대가 40% 낮아졌다는 보도가 나와, IPO 가격이 AI 업종 전반의 분위기를 보여 주는 지표가 되고 있습니다. 반대로 오픈AI는 3월보다 50% 가까이 높은 가치로 자금을 모으는 협상을 하고 있다고 CFO가 밝혀 두 회사의 온도 차가 큽니다.",
+   "금요일 애틀래시안이 약한 가이던스로 16% 넘게 급락하면서, 반도체가 반등한 날에도 기업용 소프트웨어는 따로 약세를 보였습니다. 중국 딥시크는 웹과 API가 다시 일부 멈췄어요."
+  ],
+  "ai_infra": [
+   "네오클라우드는 금요일 크게 반등했지만 마이크로소프트 보도 이후 상승폭이 줄었고, IREN만 실적 효과로 20% 넘게 올랐습니다. 원전주 오클로도 실적 발표 뒤 22% 넘게 급등해, 전력을 쥔 쪽에 대한 기대는 여전합니다.",
+   "네덜란드 시위와 함께, 로이터는 환경단체들이 AI는 적극 쓰면서도 데이터센터의 환경 영향을 경고하고 있다고 전했습니다. 미국 선거에서 드러난 반대 여론이 해외 현장과 시민단체로 넓어지는 흐름이에요."
+  ],
+  "semis": [
+   "마이크론은 금요일 5% 넘게 오른 데 이어 주말 장외 거래에서 700달러를 넘었고, 금요일 장중에는 TSMC가 메모리 진출을 검토한다는 보도에 메모리 지수가 8% 넘게 뛰기도 했습니다. 인텔은 해싯 위원장이 \"트럼프 대통령이 인텔 거래에 흥분하고 있다\"고 말하며 7% 넘게 올랐어요.",
+   "그래도 필라델피아 반도체지수는 한 주 동안 12% 빠져 2025년 4월 이후 최악의 한 주를 보냈습니다. 하루 반등만으로 추세가 돌아섰다고 보기는 이르고, 다음 주 CPI와 엔비디아 실적까지 확인할 필요가 있습니다."
+  ]
+ },
+ "sources": [
+  {
+   "title": "US Nonfarm Payrolls Actual 165k (Forecast 70k)",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9840745/US-Nonfarm-Payrolls-Actual-165k-Forecast-70k-Previous-29k-Revised-60K.aspx?xy=rss"
+  },
+  {
+   "title": "US Unemployment Rate Actual 4.1% (Forecast 4.2%)",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9840746/US-Unemployment-Rate-Actual-41-Forecast-42-Previous-42.aspx?xy=rss"
+  },
+  {
+   "title": "美国8月和9月非农就业新增人数合计上修8.4万人",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3196035"
+  },
+  {
+   "title": "非农数据公布后，交易员加大对美联储12月加息的押注",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3196033"
+  },
+  {
+   "title": "WH Sr. Adviser Hassett: Plenty of room for data center growth to continue",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9840864/WH-Sr-Adviser-Hassett-Plenty-of-room-for-data-center-growth-to-continue---CNBC.aspx?xy=rss"
+  },
+  {
+   "title": "WH Sr. Adviser Hassett: We want communities to decide on data centers",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9840867/WH-Sr-Adviser-Hassett-We-want-communities-to-decide-on-data-centers---CNBC.aspx?xy=rss"
+  },
+  {
+   "title": "WH Sr. Adviser Hassett: Trump respects localities that don't want data centers",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9840865/WH-Sr-Adviser-Hassett-Trump-respects-localities-that-dont-want-data-centers.aspx?xy=rss"
+  },
+  {
+   "title": "WH Sr. Adviser Hassett: AI bubble is actually a worthy concern",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9840879/WH-Sr-Adviser-Hassett-AI-bubble-is-actually-a-worthy-concern.aspx?xy=rss"
+  },
+  {
+   "title": "WH Sr. Adviser Hassett: Intel performance is good news for chip market",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9840890/WH-Sr-Adviser-Hassett-Intel-performance-is-good-news-for-chip-market.aspx?xy=rss"
+  },
+  {
+   "title": "白宫顾问哈塞特：特朗普对于与英特尔达成的交易感到兴奋",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3196066"
+  },
+  {
+   "title": "WH Sr. Adviser Hassett: Top-line inflation is being driven by energy and Iran",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9840923/WH-Sr-Adviser-Hassett-Top-line-inflation-is-being-driven-by-energy-and-Iran.aspx?xy=rss"
+  },
+  {
+   "title": "OpenAI CFO: We will keep investing in AI data centers despite the election results",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9841103/OpenAI-CFO-We-will-keep-investing-in-AI-data-centers-despite-the-election-results---CNBC.aspx?xy=rss"
+  },
+  {
+   "title": "OpenAI首席财务官：融资估值较3月接近上涨50%",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3196133"
+  },
+  {
+   "title": "Microsoft is winding down its Oracle deal to rent AI cloud capacity",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9841205/Microsoft-is-winding-down-its-Oracle-deal-to-rent-AI-cloud-capacity-MSFT-ORCL.aspx?xy=rss"
+  },
+  {
+   "title": "报道：嫌弃用的芯片不够新，微软正逐步终止向甲骨文租用AI云算力的安排",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3196151"
+  },
+  {
+   "title": "\"新云\"概念股CoreWeave一度涨约9.2%，Nebius一度涨13.7%",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3196100"
+  },
+  {
+   "title": "美股费城半导体指数在非农日收涨4.2%，本周仍然累跌超12.1%",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3196220"
+  },
+  {
+   "title": "费城半导体指数创2025年4月以来最差单周表现",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixwakk4991809.d.html"
+  },
+  {
+   "title": "美股存储芯片指数涨超8%，台积电考虑进军存储芯片市场",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3196085"
+  },
+  {
+   "title": "Atlassian跌15%，创2024年以来最大盘中跌幅",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3196077"
+  },
+  {
+   "title": "Nasdaq·S&P500·반도체지수·종목 종가 (11/6)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/%5ESOX/"
+  },
+  {
+   "title": "伊朗伊斯兰革命卫队称昨晚在霍尔木兹海峡向美军开火",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3196381"
+  },
+  {
+   "title": "Iran navy: oil tanker ignites in eastern Strait of Hormuz",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9841901/Iran-navy-oil-tanker-ignites-in-eastern-Strait-of-Hormuz---Iranian-media.aspx?xy=rss"
+  },
+  {
+   "title": "伊朗海军称一艘油轮在霍尔木兹海峡东部触碰水雷后起火",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixxcwa4941741.d.html"
+  },
+  {
+   "title": "伊朗革命卫队称已解除导弹射程限制",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixxkcu4570619.d.html"
+  },
+  {
+   "title": "美国驻以色列大使：伊朗将弹道导弹射程提高到4100公里",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixxkcw8080986.d.html"
+  },
+  {
+   "title": "布伦特原油暗盘跌破98美元，日内跌超1.1%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixxkcw8077434.d.html"
+  },
+  {
+   "title": "纽约原油暗盘跌破90美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixwxqe5014632.d.html"
+  },
+  {
+   "title": "Russia launched 36 ballistic missiles and 172 drones at Ukraine overnight",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9841882/Russia-launched-36-ballistic-missiles-and-172-drones-at-Ukraine-overnight-mainly-targeting-energy-facilities-Zelenskiy.aspx?xy=rss"
+  },
+  {
+   "title": "俄罗斯出席美俄乌三边会议的代表团",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixwxqa8225856.d.html"
+  },
+  {
+   "title": "荷兰微软AI数据中心工地遭抗议者闯入，警方拘留近200人",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixwxqe5014285.d.html"
+  },
+  {
+   "title": "Crusoe sells troubled Wyoming data center project to Google",
+   "outlet": "테크크런치",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOTZaSVJmRTQ3WWYwN3NtZktMaDFicXkxaWd2akk4QmNKQkMtY1RrclR5aUdENEJpNDdFMzJxRTlhQlhvQ2o0MjZicDBrS1p6eFJYWFoxci15b3BNQXdCcE5sMzJRdElmMmt6NkhBUkl1bm16OEQ1dHB0eUJhcWNIc0FzZUI0bzAyX1B4RXlaaS1EcEVheGs0QldR?"
+  },
+  {
+   "title": "SpaceX says Google exec Don Harrison has resigned from its board",
+   "outlet": "로이터·CNBC",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBDUG0wM0tqSkdkSFJhYUZwUXhXRUt2RmVYN05ETDBScWVFWUNsUVdJVXh6R013eG9USjRKRGpxcDFoRTdsUFpvVW5lcFJyQnk3U3EzOGpIajk2eVpveFJPdDZPX2Jmdw?oc=5"
+  },
+  {
+   "title": "SpaceX：猎鹰9号将USSF-432送入轨道",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixwxqa8199073.d.html"
+  },
+  {
+   "title": "马斯克：预计SpaceX四季度营收将季环比增长大约70%",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3196179"
+  },
+  {
+   "title": "Musk: Government revenue will be less than 10% of SpaceX revenue this quarter",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9841089/Musk-Government-revenue-will-be-less-than-10-of-SpaceX-revenue-this-quarter-SPCX.aspx?xy=rss"
+  },
+  {
+   "title": "马斯克直言我爱中国：中国的汽车公司非常棒",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixxcvy8134830.d.html"
+  },
+  {
+   "title": "事关中国汽车工业，马斯克最新表态",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3196421"
+  },
+  {
+   "title": "苹果研究团队披露机器人\"大脑\"进展：调用千问模型在宇树G1上验证",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3196396"
+  },
+  {
+   "title": "通用具身大脑产业创新联合体正式启动",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixwxqe5002343.d.html"
+  },
+  {
+   "title": "NHTSA：福特将在美国召回36,994辆汽车",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixwxpy4739365.d.html"
+  },
+  {
+   "title": "美科技股遭抛售AI巨头承压，Anthropic估值预期骤降40%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixxcwa4923262.d.html"
+  },
+  {
+   "title": "Anthropic's falling IPO valuation raises stakes for broader AI trade",
+   "outlet": "악시오스",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yTl96WG92c29IdFAtUW9FWXhGRDNRaFhyVXVEb1ZWMHNTTzRpcTk4cVBYbGJQSGc4S1R0c0RXSnVuUVA4LUJZc19IeGlzb3dlZFo2TWFxb3JNd0I1Q29mcXpKQ3hLS3Jka1VIRFp0aE1rTzlMN0E?oc=5"
+  },
+  {
+   "title": "DeepSeek网页及API部分中断",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3196371"
+  },
+  {
+   "title": "Environmental groups embrace AI, even as they warn of data center impacts",
+   "outlet": "로이터",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSmxyU3I5VWJjVjhxTjhobWVHa2MwT3p3NlliNUZsVG14VkVsMHI4cGhsOXNfY1Q3TDRoQ09Hc3RwR0xNaUZvejFKLWU0dUtzelVaeEtucU9Sa3JOVUhKcDNqcFpxZ2tnZms0cEFuM0hqUzM0SC1lTXdIM1EzX09lRE0wd3pkYVVqYXFYaE5iOFVoV0R2aWhGM3hIM"
+  },
+  {
+   "title": "Oklo (OKLO) Q3 2026 Earnings Call Transcript",
+   "outlet": "야후 파이낸스",
+   "url": "https://finnhub.io/api/news?id=6e143d202a163c99aeaddbd46d0176ccb351d33bd612098027c9cbf01f7f0e89"
+  },
+  {
+   "title": "美光暗盘突破700美元，日内涨1.9%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixxcwa4915095.d.html"
+  },
+  {
+   "title": "白宫经济顾问委员会主席费兰：要看下一份CPI",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3196177"
+  }
+ ]
+}
