@@ -15,7 +15,33 @@ from playwright.sync_api import sync_playwright  # noqa: E402
 
 PARAS = ".se-component.se-text .se-text-paragraph"
 _BAD_JS = """(want) => [...document.querySelectorAll('%s')]
-    .map((p, i) => [i, p.className]).filter(([i, c]) => !c.includes(want)).map(([i]) => i)""" % PARAS
+    .map((p, i) => [i, p.className, p.textContent.trim()])
+    .filter(([i, c, t]) => t && !c.includes(want)).map(([i]) => i)""" % PARAS
+_OPTS_JS = """() => [...document.querySelectorAll('button')]
+    .filter(b => /align/i.test(b.className) && b.offsetParent !== null).map(b => b.className)"""
+
+
+def apply_align(page, fr, want: str) -> bool:
+    """툴바 정렬 드롭다운을 열고 원하는 정렬 옵션을 누릅니다. 성공하면 True."""
+    opener = fr.locator("button[class*='se-align-'][class*='toolbar-button']").first
+    try:
+        opener.click(timeout=3000)
+    except Exception:
+        return False
+    page.wait_for_timeout(250)
+    opts = fr.evaluate(_OPTS_JS)
+    for c in opts:
+        if want in c and "drop-down-button" not in c:
+            sel = "button." + ".".join(x for x in c.split() if x)
+            try:
+                fr.locator(sel).first.click(timeout=2000)
+                page.wait_for_timeout(200)
+                return True
+            except Exception:
+                pass
+    print("  정렬 옵션 후보:", opts, flush=True)
+    page.keyboard.press("Escape")
+    return False
 
 
 def realign(page, blog_id: str, log_no: str) -> None:
@@ -33,19 +59,25 @@ def realign(page, blog_id: str, log_no: str) -> None:
     want = f"align-{nb.ALIGN}"
     total = fr.locator(PARAS).count()
     bad = fr.evaluate(_BAD_JS, want)
-    print(f"{log_no}: 문단 {total}개 중 {len(bad)}개 정렬 변경")
-    for _ in range(3):  # 놓친 문단이 있으면 다시 훑습니다
-        for i in bad:
-            el = fr.locator(PARAS).nth(i)
-            try:
-                el.click(timeout=4000)
-            except Exception:
-                el.click(force=True)
-            page.keyboard.press("End")
-            nb.ensure_align(page, fr)
-        bad = fr.evaluate(_BAD_JS, want)
-        if not bad:
-            break
+    print(f"{log_no}: 문단 {total}개 중 {len(bad)}개 정렬 변경", flush=True)
+    def cur():
+        return fr.evaluate(nb._ALIGN_JS) or ""
+
+    for n, i in enumerate(bad):
+        el = fr.locator(PARAS).nth(i)
+        try:
+            el.click(timeout=4000)
+        except Exception:
+            el.click(force=True)
+        page.keyboard.press("End")
+        if want not in cur():
+            apply_align(page, fr, want)
+        if n == 0:
+            print("  첫 문단 결과:", cur(), flush=True)
+            if want not in cur():
+                nb.shot(page, f"{log_no}_align_fail")
+                sys.exit(f"{log_no}: 정렬 메뉴를 다루지 못해 저장하지 않고 멈춥니다.")
+    bad = fr.evaluate(_BAD_JS, want)
     nb.shot(page, f"{log_no}_aligned")
     if bad:
         sys.exit(f"{log_no}: {len(bad)}개 문단 정렬을 바꾸지 못해 저장하지 않았습니다.")

@@ -13,6 +13,7 @@ on:
 jobs:
   realign:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -28,7 +29,7 @@ jobs:
           NAVER_BLOG_ID: ${{ vars.NAVER_BLOG_ID }}
           NAVER_ALIGN: ${{ github.event.inputs.align }}
           SHOT_DIR: naver_shots
-        run: python scripts/naver_realign.py "${{ github.event.inputs.lognos }}"
+        run: python -u scripts/naver_realign.py "${{ github.event.inputs.lognos }}"
       - name: Upload screenshots
         if: always()
         uses: actions/upload-artifact@v4
