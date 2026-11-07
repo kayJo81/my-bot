@@ -44,13 +44,31 @@ def apply_align(page, fr, want: str) -> bool:
     return False
 
 
+def find_editor(page):
+    """제목 칸과 정렬 버튼이 있는 프레임만 에디터로 인정합니다(글 보기 화면과 구분)."""
+    for _ in range(10):
+        for f in page.frames:
+            try:
+                if f.locator(".se-documentTitle").count() and f.locator("button[class*='se-align-']").count():
+                    return f
+            except Exception:
+                pass
+        page.wait_for_timeout(1000)
+    return None
+
+
 def realign(page, blog_id: str, log_no: str) -> None:
-    page.goto(f"https://blog.naver.com/PostUpdateForm.naver?blogId={blog_id}&logNo={log_no}",
-              wait_until="domcontentloaded")
-    page.wait_for_timeout(6000)
-    if "nid.naver.com" in page.url:
-        sys.exit("로그인이 풀려 있습니다: NAVER_COOKIES를 갱신하세요.")
-    fr = nb.editor_frame(page)
+    fr = None
+    for url in (f"https://blog.naver.com/{blog_id}/postupdate?logNo={log_no}",
+                f"https://blog.naver.com/PostUpdateForm.naver?blogId={blog_id}&logNo={log_no}"):
+        page.goto(url, wait_until="domcontentloaded")
+        page.wait_for_timeout(6000)
+        if "nid.naver.com" in page.url:
+            sys.exit("로그인이 풀려 있습니다: NAVER_COOKIES를 갱신하세요.")
+        fr = find_editor(page)
+        print(f"  {url.split('.com/')[1]} → {page.url.split('.com/')[-1][:80]} / 에디터 {'있음' if fr else '없음'}", flush=True)
+        if fr:
+            break
     if fr is None:
         nb.shot(page, f"{log_no}_no_editor")
         sys.exit(f"{log_no}: 수정 화면을 찾지 못했습니다.")
@@ -58,6 +76,8 @@ def realign(page, blog_id: str, log_no: str) -> None:
     nb.click_if(fr, ".se-help-panel-close-button", 2000)
     want = f"align-{nb.ALIGN}"
     total = fr.locator(PARAS).count()
+    if total > 200:
+        sys.exit(f"{log_no}: 문단이 {total}개로 비정상입니다(에디터가 아닐 수 있음). 저장하지 않고 멈춥니다.")
     bad = fr.evaluate(_BAD_JS, want)
     print(f"{log_no}: 문단 {total}개 중 {len(bad)}개 정렬 변경", flush=True)
     def cur():
