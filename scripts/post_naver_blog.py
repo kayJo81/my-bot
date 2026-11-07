@@ -163,10 +163,46 @@ def select_category(page, fr, want: str) -> bool:
     return False
 
 
-def type_paragraph(page, text: str) -> None:
-    """한 문단은 줄바꿈 없이 이어 쓰고(줄은 에디터가 폭에 맞춰 정렬), 문단 사이에는 빈 줄을 하나 둡니다."""
-    one = " ".join(ln.strip() for ln in text.split("\n") if ln.strip())
-    page.keyboard.insert_text(one)
+ALIGN = os.environ.get("NAVER_ALIGN", "center").strip().lower()
+_ALIGN_JS = """() => { const s = window.getSelection(); if (!s || !s.anchorNode) return '';
+  const n = s.anchorNode.nodeType === 1 ? s.anchorNode : s.anchorNode.parentElement;
+  const el = n && n.closest('.se-text-paragraph'); return el ? el.className : ''; }"""
+_align_logged = False
+
+
+def ensure_align(page, fr) -> None:
+    """현재 문단이 가운데 정렬이 아니면 Ctrl+E로 가운데 정렬합니다(NAVER_ALIGN=left면 건너뜀)."""
+    global _align_logged
+    if ALIGN != "center":
+        return
+    try:
+        cls = fr.evaluate(_ALIGN_JS)
+    except Exception:
+        cls = ""
+    if "align-center" not in cls:
+        page.keyboard.press("Control+e")
+        page.wait_for_timeout(150)
+        if not _align_logged:
+            try:
+                print("정렬 확인:", fr.evaluate(_ALIGN_JS))
+            except Exception:
+                pass
+            _align_logged = True
+
+
+def type_paragraph(page, text: str, fr=None) -> None:
+    """가운데 정렬이면 문장 줄바꿈을 살리고(Shift+Enter), 왼쪽 정렬이면 한 줄로 이어 씁니다.
+    문단 사이에는 빈 줄을 하나 둡니다."""
+    if fr is not None:
+        ensure_align(page, fr)
+    lines = [ln.strip() for ln in text.split("\n") if ln.strip()]
+    if ALIGN == "center":
+        for i, ln in enumerate(lines):
+            page.keyboard.insert_text(ln)
+            if i < len(lines) - 1:
+                page.keyboard.press("Shift+Enter")
+    else:
+        page.keyboard.insert_text(" ".join(lines))
     page.keyboard.press("Enter")
     page.keyboard.press("Enter")
 
@@ -228,7 +264,7 @@ def main() -> None:
 
         for kind, val in blocks:
             if kind == "text":
-                type_paragraph(page, val)
+                type_paragraph(page, val, fr)
             else:
                 with page.expect_file_chooser(timeout=15000) as fc:
                     if not click_if(fr, "button.se-image-toolbar-button", 5000):
