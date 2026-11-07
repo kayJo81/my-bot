@@ -46,7 +46,7 @@ def apply_align(page, fr, want: str) -> bool:
 
 def find_editor(page):
     """제목 칸과 정렬 버튼이 있는 프레임만 에디터로 인정합니다(글 보기 화면과 구분)."""
-    for _ in range(10):
+    for _ in range(12):
         for f in page.frames:
             try:
                 if f.locator(".se-documentTitle").count() and f.locator("button[class*='se-align-']").count():
@@ -59,16 +59,31 @@ def find_editor(page):
 
 def realign(page, blog_id: str, log_no: str) -> None:
     fr = None
-    for url in (f"https://blog.naver.com/{blog_id}/postupdate?logNo={log_no}",
-                f"https://blog.naver.com/PostUpdateForm.naver?blogId={blog_id}&logNo={log_no}"):
+    for url in (f"https://blog.naver.com/{blog_id}?Redirect=Update&logNo={log_no}",
+                f"https://blog.naver.com/{blog_id}/postupdate?logNo={log_no}"):
         page.goto(url, wait_until="domcontentloaded")
         page.wait_for_timeout(6000)
         if "nid.naver.com" in page.url:
             sys.exit("로그인이 풀려 있습니다: NAVER_COOKIES를 갱신하세요.")
         fr = find_editor(page)
-        print(f"  {url.split('.com/')[1]} → {page.url.split('.com/')[-1][:80]} / 에디터 {'있음' if fr else '없음'}", flush=True)
+        print(f"  {url.split('.com/')[1]} → 프레임 {[f.url.split('.com/')[-1][:60] for f in page.frames][:4]} / 에디터 {'있음' if fr else '없음'}", flush=True)
         if fr:
             break
+    if fr is None:
+        # 글 보기 화면에서 '수정' 버튼 누르기
+        page.goto(f"https://blog.naver.com/{blog_id}/{log_no}", wait_until="domcontentloaded")
+        page.wait_for_timeout(5000)
+        for f in page.frames:
+            try:
+                btn = f.locator("a:has-text('수정'), button:has-text('수정')").first
+                if btn.count():
+                    btn.click(timeout=5000)
+                    page.wait_for_timeout(1500)
+                    break
+            except Exception:
+                pass
+        fr = find_editor(page)
+        print(f"  글 보기 → 수정 버튼 → 에디터 {'있음' if fr else '없음'}", flush=True)
     if fr is None:
         nb.shot(page, f"{log_no}_no_editor")
         sys.exit(f"{log_no}: 수정 화면을 찾지 못했습니다.")
