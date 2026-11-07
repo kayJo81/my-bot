@@ -1,0 +1,12 @@
+name: Fetch BLS jobs
+
+on:
+  workflow_dispatch:
+
+jobs:
+  bls:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -u scripts/fetch_bls.py
