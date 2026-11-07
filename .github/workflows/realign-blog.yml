@@ -1,0 +1,39 @@
+name: Realign Naver posts
+
+on:
+  workflow_dispatch:
+    inputs:
+      lognos:
+        description: "고칠 글 번호(쉼표로 구분)"
+        required: true
+      align:
+        description: "left / center / right"
+        default: "left"
+
+jobs:
+  realign:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Playwright
+        run: |
+          pip install playwright==1.47.0
+          python -m playwright install --with-deps chromium
+      - name: Realign
+        env:
+          NAVER_COOKIES: ${{ secrets.NAVER_COOKIES }}
+          NAVER_BLOG_ID: ${{ vars.NAVER_BLOG_ID }}
+          NAVER_ALIGN: ${{ github.event.inputs.align }}
+          SHOT_DIR: naver_shots
+        run: python scripts/naver_realign.py "${{ github.event.inputs.lognos }}"
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: realign-screenshots
+          path: naver_shots
+          if-no-files-found: ignore
+          retention-days: 7
