@@ -57,10 +57,34 @@ def main():
             visit(f"https://m.cafe.naver.com/ca-fe/web/cafes/{cafe}")
             visit(f"https://m.cafe.naver.com/ca-fe/web/cafes/{cafe}/menus/0", scroll=int(arg or 3))
         elif mode == "search":
-            import urllib.parse
-            for kw in [k for k in arg.split(",") if k.strip()]:
-                q = urllib.parse.quote(kw.strip())
-                visit(f"https://m.cafe.naver.com/ca-fe/web/cafes/{cafe}/search/articles?q={q}", scroll=6)
+            for kw in [k.strip() for k in arg.split(",") if k.strip()]:
+                page.goto(f"https://m.cafe.naver.com/ca-fe/web/cafes/{cafe}", wait_until="domcontentloaded")
+                page.wait_for_timeout(3500)
+                clicked = False
+                for sel in ["a:has-text('검색')", "button:has-text('검색')", "[aria-label*='검색']", "a[href*='search']"]:
+                    try:
+                        page.locator(sel).first.click(timeout=3000)
+                        clicked = True
+                        break
+                    except Exception:
+                        pass
+                page.wait_for_timeout(2000)
+                try:
+                    inp = page.locator("input[type='search'], input[type='text']").first
+                    inp.fill(kw, timeout=5000)
+                    inp.press("Enter")
+                except Exception as e:  # noqa: BLE001
+                    out["pages"].append({"url": kw, "final": page.url, "text": f"입력 실패 {e}"[:300]})
+                    continue
+                page.wait_for_timeout(4000)
+                for _ in range(6):
+                    page.mouse.wheel(0, 4000)
+                    page.wait_for_timeout(1500)
+                try:
+                    txt = page.inner_text("body")[:30000]
+                except Exception:
+                    txt = ""
+                out["pages"].append({"url": kw, "final": page.url, "clicked": clicked, "text": txt})
         else:
             for aid in [a for a in arg.split(",") if a.strip()]:
                 visit(f"https://m.cafe.naver.com/ca-fe/web/cafes/{cafe}/articles/{aid.strip()}")
