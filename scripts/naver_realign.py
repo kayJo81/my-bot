@@ -70,18 +70,24 @@ def realign(page, blog_id: str, log_no: str) -> None:
         if fr:
             break
     if fr is None:
-        # 글 보기 화면에서 '수정' 버튼 누르기
-        page.goto(f"https://blog.naver.com/{blog_id}/{log_no}", wait_until="domcontentloaded")
+        # 글 보기 화면에서 '수정' 링크 찾기
+        page.goto(f"https://blog.naver.com/PostView.naver?blogId={blog_id}&logNo={log_no}", wait_until="domcontentloaded")
         page.wait_for_timeout(5000)
-        for f in page.frames:
+        cands = page.evaluate("""() => [...document.querySelectorAll('a,button')]
+            .filter(e => /수정|edit|update/i.test((e.textContent||'') + ' ' + e.className + ' ' + (e.getAttribute('href')||'')))
+            .slice(0, 12).map(e => e.outerHTML.slice(0, 220))""")
+        print("  수정 후보:", cands, flush=True)
+        btn = page.locator("a:text-is('수정'), button:text-is('수정'), a[class*='edit'], a[href*='Update']").first
+        if btn.count():
             try:
-                btn = f.locator("a:has-text('수정'), button:has-text('수정')").first
-                if btn.count():
+                with page.context.expect_page(timeout=8000) as newp:
                     btn.click(timeout=5000)
-                    page.wait_for_timeout(1500)
-                    break
+                page = newp.value
+                page.wait_for_load_state("domcontentloaded")
+                print("  새 창:", page.url[:120], flush=True)
             except Exception:
-                pass
+                page.wait_for_timeout(3000)
+                print("  같은 창:", page.url[:120], flush=True)
         fr = find_editor(page)
         print(f"  글 보기 → 수정 버튼 → 에디터 {'있음' if fr else '없음'}", flush=True)
     if fr is None:
