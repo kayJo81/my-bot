@@ -1,0 +1,32 @@
+name: Naver mail bulk trash (encrypted output)
+
+on:
+  workflow_dispatch:
+    inputs:
+      rule:
+        description: "규칙 JSON (scripts/naver_mail_bulk.py 참고)"
+        required: true
+
+jobs:
+  bulk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          pip install playwright==1.47.0
+          python -m playwright install --with-deps chromium
+      - name: Run and encrypt
+        env:
+          NAVER_COOKIES: ${{ secrets.NAVER_COOKIES }}
+          RULE: ${{ github.event.inputs.rule }}
+        run: |
+          python -u scripts/naver_mail_bulk.py "$RULE" || true
+          [ -f naver_mail_out.json ] || echo '{}' > naver_mail_out.json
+          gzip -9 naver_mail_out.json
+          openssl cms -encrypt -aes256 -binary -in naver_mail_out.json.gz -outform PEM scripts/cafe_cert.pem > enc.pem
+          echo "=====ENC-BEGIN"; cat enc.pem; echo "=====ENC-END"
+          rm -f naver_mail_out.json.gz enc.pem
