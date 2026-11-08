@@ -210,25 +210,39 @@ def main():
                     rest = []
                 from urllib.parse import parse_qsl, urlencode
                 q0 = dict(parse_qsl(body0, keep_blank_values=True))
-                PAR = """async ([u, bodies]) => {
-                  let ok = 0, fail = 0, last = '';
-                  const one = async (b) => { try { const r = await fetch(u, {method: 'POST', credentials: 'include',
-                      headers: {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}, body: b});
-                      const t = await r.text(); if (t.includes('"OK"')) ok++; else { fail++; last = t.slice(0, 120); } } catch (e) { fail++; last = String(e); } };
-                  for (let i = 0; i < bodies.length; i += 6) await Promise.all(bodies.slice(i, i + 6).map(one));
-                  return {ok, fail, last}; }"""
-                for k in range(0, len(rest), 300):
-                    chunk = rest[k:k + 300]
+                # 너무 빨리 보내면 TEMPORARY_BLOCKED가 뜹니다: 한 통씩 천천히, 막히면 쉬었다가 다시
+                PAR = """async ([u, bodies, gap]) => {
+                  const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+                  let ok = 0, fail = 0, blocks = 0, last = '';
+                  for (const b of bodies) {
+                    for (let tries = 0; tries < 6; tries++) {
+                      let t = '';
+                      try { const r = await fetch(u, {method: 'POST', credentials: 'include',
+                          headers: {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}, body: b}); t = await r.text(); } catch (e) { t = String(e); }
+                      if (t.includes('"OK"')) { ok++; break; }
+                      if (t.includes('TEMPORARY_BLOCKED')) { blocks++; await sleep(60000 * (tries + 1)); continue; }
+                      fail++; last = t.slice(0, 120); break;
+                    }
+                    await sleep(gap);
+                  }
+                  return {ok, fail, blocks, last}; }"""
+                import time as _t
+                t_end = _t.time() + float(rule.get("minutes", 300)) * 60
+                for k in range(0, len(rest), 100):
+                    chunk = rest[k:k + 100]
                     bodies = []
                     for mid in chunk:
                         q = dict(q0)
                         q["mailSNList"] = mid
                         q["folderSNList"] = str(targets[mid][0])
                         bodies.append(urlencode(q))
-                    r = page.evaluate(PAR, [u, bodies])
+                    if _t.time() > t_end:
+                        print("시간 한도에 닿아 여기서 멈춥니다(다시 돌리면 남은 것부터 이어서 지움)", flush=True)
+                        break
+                    r = page.evaluate(PAR, [u, bodies, int(rule.get("gap_ms", 700))])
                     done += r["ok"]
                     out["delete"].append(r)
-                    print(f"  {k + len(chunk)}/{len(rest)}: 성공 {r['ok']}, 실패 {r['fail']}", flush=True)
+                    print(f"  {k + len(chunk)}/{len(rest)}: 성공 {r['ok']}, 실패 {r['fail']}, 차단 대기 {r['blocks']}회", flush=True)
             print(f"휴지통으로 옮김: {done}통", flush=True)
         b.close()
     with open("naver_mail_out.json", "w", encoding="utf-8") as f:
