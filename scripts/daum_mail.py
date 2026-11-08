@@ -31,7 +31,8 @@ def main():
 
         def on_req(rq):
             if "mail.daum.net" in rq.url and rq.resource_type in ("xhr", "fetch"):
-                out["requests"].append({"m": rq.method, "u": rq.url[:300], "body": (rq.post_data or "")[:500]})
+                h = {k: v for k, v in rq.headers.items() if k.lower() not in ("cookie",)}
+                out["requests"].append({"m": rq.method, "u": rq.url[:300], "body": (rq.post_data or "")[:800], "h": h if rq.method != "GET" else {}})
 
         def on_resp(r):
             if "mail.daum.net" in r.url and r.request.resource_type in ("xhr", "fetch") and r.status == 200:
@@ -49,6 +50,42 @@ def main():
             sys.exit("로그인이 풀려 있습니다(DAUM_COOKIES 갱신 필요).")
         if mode == "probe":
             out["html_sample"] = page.content()[:3000]
+        if mode in ("list", "discover"):
+            # 메일함별 전체 목록(보낸사람·제목·시각·ID만)
+            folders = ["INBOX", "PROMOTION", "SHOPPING", "SOCIAL", "BILL", "SPAM"]
+            out["mails"] = {}
+            for fid in folders:
+                rows, off = [], 0
+                while off < 3000:
+                    j = page.evaluate("""async ([f, o]) => { const r = await fetch(`https://cmail.daum.net/v2/mails?offset=${o}&limit=100&folderId=${f}&includeVIPLabel=true`, {credentials: 'include'});
+                        return r.ok ? r.json() : {err: r.status}; }""", [fid, off])
+                    if "err" in j:
+                        out["log"].append(f"{fid} {off} 오류 {j['err']}")
+                        break
+                    ms = j.get("mails", [])
+                    rows += [{"id": m.get("id"), "from": (m.get("from") or {}).get("name"), "addr": (m.get("from") or {}).get("addr"),
+                              "subject": m.get("subject"), "t": m.get("recvTime"), "labels": m.get("labelIds")} for m in ms]
+                    off += 100
+                    if len(ms) < 100:
+                        break
+                out["mails"][fid] = {"total": j.get("total") if isinstance(j, dict) else None, "rows": rows}
+                print(f"{fid}: {len(rows)}통", flush=True)
+        if mode == "discover":
+            # 화면에서 '(광고)' 메일 한 통을 골라 삭제 버튼을 눌러, 삭제 API 형식을 기록합니다.
+            out["requests"] = []
+            page.goto("https://mail.daum.net/top/INBOX", wait_until="domcontentloaded")
+            page.wait_for_timeout(6000)
+            row = page.locator("li, tr").filter(has_text="(광고)").first
+            try:
+                cb = row.locator("input[type=checkbox], label, .ico_check, [class*=check]").first
+                cb.click(timeout=6000)
+                page.wait_for_timeout(800)
+                page.get_by_role("button", name="삭제", exact=True).locator("visible=true").first.click(timeout=6000)
+                page.wait_for_timeout(3000)
+                out["log"].append("삭제 클릭 완료")
+            except Exception as e:  # noqa: BLE001
+                out["log"].append(f"삭제 시도 실패 {e}"[:300])
+                out["buttons"] = page.evaluate("""() => [...document.querySelectorAll('button')].filter(b=>b.offsetParent).map(b=>(b.innerText||b.getAttribute('aria-label')||'').trim().slice(0,15)).slice(0,60)""")
         b.close()
     with open("daum_mail_out.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False)
