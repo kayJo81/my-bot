@@ -1,0 +1,27 @@
+name: Gmail trash (by search)
+
+on:
+  workflow_dispatch:
+    inputs:
+      queries:
+        description: "지메일 검색식, 여러 개는 | 로 구분"
+        required: true
+      dry_run:
+        description: "1이면 개수만 확인"
+        default: "0"
+
+jobs:
+  trash:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Move to Trash
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+          QUERIES: ${{ github.event.inputs.queries }}
+        run: |
+          IFS='|' read -ra Q <<< "$QUERIES"
+          python3 -u scripts/gmail_trash.py "${Q[@]}"
