@@ -3,7 +3,7 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const { chromium } = require("playwright");
 const OUT = process.argv[2];
-const TOTAL = 12;
+const TOTAL = 10;
 const TAG = "림프종 정보 · 혈액검사와 예후 지표 이해하기";
 
 let seed = 7;
@@ -308,7 +308,7 @@ ${frac("NLR", N_, L_, "down", "3~4 이상이면 높음")}
 ${frac("PLR", PL_, L_, "down", "기준 연구마다 다름")}
 ${frac("SII", PL_ + " × " + N_, L_, "down", "기준 연구마다 다름")}
 ${frac("CAR", CR_, A_, "down", "염증 대비 체력")}
-${frac("LDH 비율", LD_, UL_, "down", "3배 넘으면 IPI 2점")}
+${frac("LDH 비율", LD_, UL_, "down", "1 넘으면 정상보다 높음")}
 <div style="display:flex;gap:10px">
 <div style="flex:1;background:#faf9fd;border:2px solid #ece9f4;border-radius:18px;padding:14px 16px"><div style="font-size:28px;font-weight:800;color:#4b3a8c">ALC</div><div style="font-size:20px;margin-top:4px">${L_} 의 절대 수</div><div style="font-size:19px;color:${COL.good};font-weight:800;margin-top:6px">1,000 미만이면 불리</div></div>
 <div style="flex:1;background:#faf9fd;border:2px solid #ece9f4;border-radius:18px;padding:14px 16px"><div style="font-size:28px;font-weight:800;color:#4b3a8c">PNI</div><div style="font-size:20px;margin-top:4px">10×${A_} + 0.005×${L_}</div><div style="font-size:19px;color:${COL.good};font-weight:800;margin-top:6px">45 미만이면 불리</div></div></div>
@@ -374,7 +374,7 @@ const it = (name, easy, up, down, c, bg) => `<div style="background:${bg};border
 const P4 = pg(10, "OTHER ITEMS", "나머지 항목 한눈에", "▲ 높으면 · ▼ 낮으면 (일반적인 경향)", `
 <div class="card"><div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
 ${it("요산·인·칼륨", "세포가 깨질 때 나오는 물질", "첫 항암 직후 급증 → 종양용해증후군 주의", "", COL.tum, COL.tumBg)}
-${it("β2-마이크로글로불린", "림프구 표면에서 떨어진 단백", "종양 양이 많음 → 예후 점수에 쓰임", "", COL.tum, COL.tumBg)}
+${it("β2-마이크로글로불린", "림프구 표면에서 떨어진 단백", "종양 양이 많다는 신호", "", COL.tum, COL.tumBg)}
 ${it("AST·ALT·빌리루빈", "간 건강", "항암제 부작용, 간 침범", "", "#8a4b1f", "#f6ece2")}
 ${it("크레아티닌·BUN", "콩팥 기능", "콩팥 부담 → 약 용량 조절", "", "#8a4b1f", "#f6ece2")}
 ${it("CRP·페리틴", "염증 신호", "감염·염증·종양 활동", "", COL.inf, COL.infBg)}
@@ -384,46 +384,9 @@ ${it("글로불린·IgG", "항체(면역)", "", "리툭시맙 뒤 흔함 → 감
 </div>
 <div class="box">제 경우 1차 항암 뒤 <b>IgG 456</b>(참고치 700~1,600), <b>페리틴 943</b>(참고치 30~400)이었어요.</div></div>`);
 
-// ---------- 10. IPI 체크리스트 ----------
-const chk = (t, d) => `<div style="display:flex;align-items:center;gap:16px;padding:12px 0;border-bottom:1px solid #efedf5"><div style="width:40px;height:40px;border:3px solid #4b3a8c;border-radius:8px;flex:none;display:flex;align-items:center;justify-content:center;color:#4b3a8c;font-size:26px;font-weight:800">+1</div><div><div style="font-size:25px;font-weight:800">${t}</div><div style="font-size:19px;color:#5e5a6e">${d}</div></div></div>`;
-const seg = (t, s, c) => `<div style="flex:1;background:${c};padding:14px 6px;text-align:center"><div style="font-size:24px;font-weight:800">${t}</div><div style="font-size:18px">${s}</div></div>`;
-const P5 = pg(11, "PROGNOSIS · DLBCL", "IPI: 해당하면 1점씩", "공격성 림프종(DLBCL)에서 진단 때 매기는 점수", `
-<div class="card">
-${chk("나이 60세 초과", "")}
-${chk("LDH가 참고치 상한 초과", "피검사로 확인")}
-${chk("전신 상태 ECOG 2 이상", "자기 돌봄은 되지만 일은 못 하는 정도 이상")}
-${chk("병기 3~4기", "횡격막 위아래 모두 또는 장기 침범")}
-${chk("림프절 밖 침범 2곳 이상", "골수·간·위장관 등")}
-<div style="display:flex;border-radius:14px;overflow:hidden;margin-top:20px">${seg("0~1점", "저위험", "#cfeadb")}${seg("2점", "저중간", "#e6f2cf")}${seg("3점", "고중간", "#fbe9bf")}${seg("4~5점", "고위험", "#f6c9c0")}</div>
-<div class="box"><b>R-IPI</b>는 같은 항목을 3단계(0 / 1~2 / 3~5점)로, <b>NCCN-IPI</b>는 나이와 LDH 배수까지 더 잘게 나눠요(0~8점). 점수는 <b>집단의 평균 경향</b>일 뿐입니다.</div></div>`);
-
-// ---------- 11. FL 지표 + Deauville ----------
-function deauville() {
-  const w = 1000, h = 300, cols = ["#f4f2f8", "#e2deec", "#c9c1dc", "#e7a07e", "#c8432b"], lab = ["1", "2", "3", "4", "5"], d = ["섭취 없음", "종격동 이하", "간 이하", "간보다 약간↑", "간보다 훨씬↑"];
-  let s = `<svg width="100%" height="${h}" viewBox="0 0 ${w} ${h}" font-family="NanumSquare_ac,NanumGothic,sans-serif">`;
-  lab.forEach((t, i) => { const x = 20 + i * 196; s += `<rect x="${x}" y="70" width="180" height="90" rx="14" fill="${cols[i]}"/><text x="${x + 90}" y="128" font-size="40" font-weight="800" text-anchor="middle" fill="${i >= 3 ? "#fff" : "#4b3a8c"}">${t}</text><text x="${x + 90}" y="190" font-size="19" text-anchor="middle" fill="#3d3950">${d[i]}</text>`; });
-  s += `<rect x="20" y="30" width="572" height="28" rx="8" fill="#cfeadb"/><text x="306" y="51" font-size="19" font-weight="800" text-anchor="middle" fill="${COL.good}">1~3점: 완전 대사 반응</text>`;
-  s += `<rect x="608" y="30" width="376" height="28" rx="8" fill="#f6c9c0"/><text x="796" y="51" font-size="19" font-weight="800" text-anchor="middle" fill="${COL.bad}">4~5점: 활동성 남음</text>`;
-  s += `<path d="M894 215 C 860 270, 740 270, 706 220" fill="none" stroke="#262233" stroke-width="3" marker-end="url(#ah)"/><defs><marker id="ah" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#262233"/></marker></defs>`;
-  s += `<text x="800" y="290" font-size="20" font-weight="800" text-anchor="middle">제 경우: 치료 전 5 → 중간 PET 4</text>`;
-  return s + "</svg>";
-}
-const bar = (t, v, mx, c) => `<div style="display:flex;align-items:center;gap:12px;margin:8px 0"><div style="width:150px;font-size:21px;font-weight:800">${t}</div><div style="flex:1;background:#f1f0f4;border-radius:8px;height:34px"><div style="width:${v / mx * 100}%;min-width:40px;height:34px;background:${c};border-radius:8px"></div></div><div style="width:90px;font-size:22px;font-weight:800;text-align:right">${v}</div></div>`;
-const P6 = pg(12, "FL · PET", "여포성 림프종 지표와 PET 점수", "FLIPI · POD24 · Deauville", `
-<div class="card"><h2>여포성 림프종(FL) 점수</h2>
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
-${it("FLIPI", "나이·병기·혈색소·LDH·림프절 부위 수", "3개 이상이면 고위험", "", COL.tum, COL.tumBg)}
-${it("FLIPI-2", "LDH 대신 β2M·골수·가장 큰 림프절 6cm", "3개 이상이면 고위험", "", COL.tum, COL.tumBg)}
-${it("PRIMA-PI", "β2M 3 초과 / 골수 침범", "두 항목만으로 간단히", "", COL.tum, COL.tumBg)}
-${it("POD24", "첫 면역항암 뒤 24개월 안 진행?", "해당하면 더 적극적 관리", "", COL.inf, COL.infBg)}
-</div></div>
-<div class="card"><h2>PET-CT Deauville 5점 척도</h2>${deauville()}
-${bar("치료 전", 25.65, 26, "#c8432b")}${bar("중간 PET", 5.15, 26, "#e7a07e")}
-<div class="note">SUVmax(당 섭취 최고치) 약 80% 감소. 최종 판정은 치료 종료 PET로 합니다.</div></div>`);
-
 const b = await chromium.launch();
 const p = await b.newPage({ viewport: { width: 1080, height: 800 }, deviceScaleFactor: 1 });
-for (const [i, html] of [P1, PS, P2, P3, PC, PR1, PW, PR2, PR3, P4, P5, P6].entries()) {
+for (const [i, html] of [P1, PS, P2, P3, PC, PR1, PW, PR2, PR3, P4].entries()) {
   await p.setContent(html, { waitUntil: "load" });
   await p.waitForTimeout(300);
   await p.screenshot({ path: `${OUT}/pre-${i + 1}.jpg`, type: "jpeg", quality: 90, fullPage: true });
