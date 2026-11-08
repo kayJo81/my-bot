@@ -1,0 +1,29 @@
+name: Gmail daily cleanup
+
+# 매일 05:17 KST: 30일 넘은 광고·소셜·뉴스레터만 휴지통으로(영구 삭제 아님)
+on:
+  schedule:
+    - cron: "17 20 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "1이면 개수만 확인"
+        default: "0"
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Move old newsletters/promotions to Trash
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+        run: |
+          KEEP='-is:starred -is:important -in:sent -from:github.com -(영수증 OR 결제 OR 주문 OR 청구 OR 명세서 OR 은행 OR 카드 OR 증권 OR 세금 OR 보험 OR 병원 OR 진료 OR 예약 OR 인증 OR 보안 OR 비밀번호 OR receipt OR invoice OR payment OR statement OR "시장 동향" OR 이슈체크)'
+          python3 -u scripts/gmail_trash.py \
+            "category:promotions older_than:30d $KEEP" \
+            "category:social older_than:30d $KEEP" \
+            "older_than:30d unsubscribe -category:primary $KEEP"

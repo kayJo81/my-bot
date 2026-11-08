@@ -34,7 +34,11 @@ def main():
     m.select(f'"{allmail}"')
     total = 0
     for q in [a for a in sys.argv[1:] if a.strip()]:
-        typ, data = m.uid("SEARCH", "X-GM-RAW", f'"{q}"')
+        if q.isascii():
+            typ, data = m.uid("SEARCH", "X-GM-RAW", f'"{q}"')
+        else:  # 한글 검색어: UTF-8 리터럴로 전송
+            m.literal = q.encode("utf-8")
+            typ, data = m.uid("SEARCH", "CHARSET", "UTF-8", "X-GM-RAW")
         uids = data[0].split()[:MAX] if data and data[0] else []
         print(f"검색 [{q}] → {len(uids)}건", flush=True)
         if dry or not uids:
