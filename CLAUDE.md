@@ -16,6 +16,10 @@
    - DIGITIMES: WebFetch로 https://www.digitimes.com/ 와 https://www.digitimes.com.tw/ 를 읽습니다.
    - `watchlist.json`의 워치리스트 종목도 모니터링 대상입니다. flash_window.json에서 종목명·티커(영문·한국어·중국어 표기)로
      걸러 읽고, 큰 소식은 WebSearch로 한 번 더 확인합니다.
+   - 시킹알파 헤드라인: GitHub Actions(`sa-rss.yml`)가 매일 20:35 KST에 `feeds/sa/D.json`으로 저장해 둡니다
+     (시장 뉴스 + 워치리스트 종목별 공개 RSS, 제목·링크·발행 시각만). 파일이 없으면 이 단계는 건너뜁니다.
+     15:30 KST(06:30 UTC) 이후 항목만 `신규`로 씁니다. 뉴스성 제목(실적·발표·계약·규제 등)은 원 출처를 WebSearch로 확인해 쓰고,
+     투자 의견 글("~: Buy", "Rating Upgrade" 등 기고문)은 사실로 쓰지 않습니다. 본문은 유료라 제목 이상을 지어내지 않습니다.
    - 주요 매체(로이터, CNBC, Bloomberg, Yahoo Finance 등)와 기업 IR은 WebSearch로 찾습니다.
      직접 접속이 막힌 사이트는 검색 결과의 제목·요약·URL로 확인합니다. 확인 못 한 수치는 쓰지 않습니다.
 3. `out/D/content.json` 작성 (형식은 `examples/content.json` 참고)
