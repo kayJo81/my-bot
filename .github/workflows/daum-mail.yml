@@ -24,7 +24,7 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Run and encrypt
         env:
-          DAUM_COOKIES: ${{ secrets.DAUM_COOKIES }}
+          DAUM_MAIL_COOKIES: ${{ secrets.DAUM_MAIL_COOKIES }}
           MODE: ${{ github.event.inputs.mode }}
           ARG: ${{ github.event.inputs.arg }}
         run: |

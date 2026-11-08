@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Daum 메일을 로그인 쿠키(DAUM_COOKIES)로 열어 목록을 받거나, 고른 메일을 휴지통으로 옮깁니다.
+"""Daum 메일을 로그인 쿠키(DAUM_MAIL_COOKIES)로 열어 목록을 받거나, 고른 메일을 휴지통으로 옮깁니다.
 
 사용법:
   python scripts/daum_mail.py probe          → 받은편지함을 열며 오가는 API 응답을 저장(구조 파악용)
@@ -25,7 +25,7 @@ def main():
         ctx = b.new_context(locale="ko-KR", timezone_id="Asia/Seoul", viewport={"width": 1400, "height": 1000},
                             user_agent=("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                                         "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"))
-        ctx.add_cookies(load_cookies("DAUM_COOKIES", ".daum.net"))
+        ctx.add_cookies(load_cookies("DAUM_MAIL_COOKIES", ".daum.net"))
         page = ctx.new_page()
         page.set_default_timeout(30000)
 
@@ -47,7 +47,7 @@ def main():
         out["log"].append(page.url[:80])
         if "kakao.com" in page.url or "logins.daum" in page.url:
             print("도착:", page.url.split("?")[0][:60], flush=True)
-            sys.exit("로그인이 풀려 있습니다(DAUM_COOKIES 갱신 필요).")
+            sys.exit("로그인이 풀려 있습니다(DAUM_MAIL_COOKIES 갱신 필요).")
         if mode == "probe":
             out["html_sample"] = page.content()[:3000]
         if mode in ("list", "discover"):
