@@ -181,19 +181,19 @@ function lineChart({ pts, w = 1000, h = 360, yMin, yMax, log = false, bands = []
   });
   return s + "</svg>";
 }
-const LAB = ["23.9", "24.2", "24.5", "24.11", "25.4", "26.5.7", "5.21", "6.1", "6.15", "7.6", "8.5", "8.12", "9.2", "9.23"];
+const LAB = ["23.9", "24.2", "24.5", "24.11", "25.4", "26.5.7", "5.21", "6.1", "6.15", "7.6", "8.5", "8.12", "9.2", "9.23", "11.4"];
 const ser = (arr) => arr.map((v, i) => [LAB[i], v]);
-const LDH = ser([119, 149, 145, 152, 134, 1387, 7000, 700, 205, 204, 165, null, 241, 255]);
-const ANC = ser([2894, 2828, 4466, 2394, 6909, 7469, null, 3060, 3172, 3060, 476, 1548, 2928, 2560]);
-const HB = ser([14.6, 15.6, 14.2, 15.8, 14.2, 13.8, null, 10.3, 11.0, 11.5, 12.2, 12.3, 12.4, 12.2]);
-const PLT = ser([159, 167, 175, 172, 154, 195, null, 39, 375, 240, 177, 168, 217, 231]);
+const LDH = ser([119, 149, 145, 152, 134, 1387, 7000, 700, 205, 204, 165, null, 241, 255, 218]);
+const ANC = ser([2894, 2828, 4466, 2394, 6909, 7469, null, 3060, 3172, 3060, 476, 1548, 2928, 2560, 1178]);
+const HB = ser([14.6, 15.6, 14.2, 15.8, 14.2, 13.8, null, 10.3, 11.0, 11.5, 12.2, 12.3, 12.4, 12.2, 12.8]);
+const PLT = ser([159, 167, 175, 172, 154, 195, null, 39, 375, 240, 177, 168, 217, 231, 169]);
 
 // ---------- 혈액 비율 지표 ----------
-const RL = ["23.9", "24.2", "24.5", "24.11", "25.4", "26.5.7", "6.1", "6.15", "7.6", "8.5", "8.12", "9.2", "9.23"];
+const RL = ["23.9", "24.2", "24.5", "24.11", "25.4", "26.5.7", "6.1", "6.15", "7.6", "8.5", "8.12", "9.2", "9.23", "11.4"];
 const rs = (a) => a.map((v, i) => [RL[i], v]);
-const LMRs = rs([3.56, 4.25, 4.01, 3.28, 2.34, 3.76, 4.0, 2.5, 3.11, 3.28, 2.73, 2.6, 1.43]);
-const NLRs = rs([1.6, 1.29, 2.18, 1.61, 4.39, 4.87, 2.14, 2.44, 2.14, 0.29, 0.88, 2.35, 3.2]);
-const ALCs = rs([1813, 2190, 2052, 1487, 1573, 1533, 1428, 1300, 1428, 1652, 1763, 1248, 800]);
+const LMRs = rs([3.56, 4.25, 4.01, 3.28, 2.34, 3.76, 4.0, 2.5, 3.11, 3.28, 2.73, 2.6, 1.43, 2.2]);
+const NLRs = rs([1.6, 1.29, 2.18, 1.61, 4.39, 4.87, 2.14, 2.44, 2.14, 0.29, 0.88, 2.35, 3.2, 0.92]);
+const ALCs = rs([1813, 2190, 2052, 1487, 1573, 1533, 1428, 1300, 1428, 1652, 1763, 1248, 800, 1280]);
 // ---------- 공통 도식 요소 ----------
 const COL = { imm: "#1f8a9c", immBg: "#e2f3f5", inf: "#d0602b", infBg: "#fdebe2", nut: "#4f8a3a", nutBg: "#e9f4e2", tum: "#6b4ea0", tumBg: "#eee8f8", good: "#3a9a6a", mid: "#e0a23a", bad: "#d0503b" };
 const ico = (txt, c, bg, size = 84) => `<div style="width:${size}px;height:${size}px;border-radius:50%;background:${bg};border:4px solid ${c};color:${c};display:flex;align-items:center;justify-content:center;font-size:${size * 0.36}px;font-weight:800;flex:none">${txt}</div>`;
@@ -248,12 +248,12 @@ const P2 = pg(3, "LDH", "LDH: 종양 활동의 온도계", "제 기록: 관찰�
 const zone = (c, t) => `<span style="display:inline-flex;align-items:center;gap:8px;margin-right:18px"><i style="width:22px;height:22px;border-radius:5px;background:${c};display:inline-block"></i>${t}</span>`;
 const P3 = pg(4, "CBC", "항암 중 혈구: 언제 조심할까", "초록·노랑·빨강 구간으로 보는 호중구·혈색소·혈소판", `
 <div class="card"><h2>호중구(ANC) — 세균과 싸우는 세포</h2>
-${lineChart({ pts: ANC, h: 320, yMin: 0, yMax: 8000, split: 6, bands: [{ lo: 1500, hi: 8000, fill: "#e3f3ea", label: "" }, { lo: 500, hi: 1500, fill: "#fbf0d6", label: "감소", tc: "#a0702b" }, { lo: 0, hi: 500, fill: "#fbe0db", label: "심한 감소", tc: "#a33a14" }], fmt: (v) => Math.round(v).toLocaleString(), color: "#2f7f9a" })}
+${lineChart({ pts: ANC, h: 320, yMin: 0, yMax: 8000, split: 6, bands: [{ lo: 1500, hi: 8000, fill: "#e3f3ea", label: "" }, { lo: 500, hi: 1500, fill: "#fbf0d6", label: "", tc: "#a0702b" }, { lo: 0, hi: 500, fill: "#fbe0db", label: "", tc: "#a33a14" }], fmt: (v) => Math.round(v).toLocaleString(), color: "#2f7f9a" })}
 <div style="font-size:21px;margin-top:6px">${zone("#e3f3ea", "1,500 이상 안심")}${zone("#fbf0d6", "500~1,500 조심")}${zone("#fbe0db", "500 미만 + 38도 열 = 응급실")}</div></div>
 <div class="card"><div class="two">
 <div style="text-align:left"><h2>혈색소(빈혈)</h2>${lineChart({ pts: HB, w: 470, h: 300, yMin: 8, yMax: 17, split: 6, small: true, show: [3, 7, 13], bands: [{ lo: 12.5, hi: 17, fill: "#e3f3ea", label: "" }], fmt: (v) => (+v).toFixed(1), color: "#b5174f" })}</div>
 <div style="text-align:left"><h2>혈소판(출혈)</h2>${lineChart({ pts: PLT, w: 470, h: 300, yMin: 0, yMax: 420, split: 6, small: true, show: [7, 8, 13], bands: [{ lo: 134, hi: 387, fill: "#e3f3ea", label: "" }], fmt: (v) => Math.round(v), color: "#8a4b1f" })}</div></div>
-<div class="box">항암 뒤 <b>7~14일</b>이 가장 낮은 시기예요. 제 경우 1차 뒤 혈색소 <b>10.3</b>, 혈소판 <b>39</b>까지 내려갔다가 회복했어요.</div></div>`);
+<div class="box">항암 뒤 <b>7~14일</b>이 가장 낮은 시기예요. 제 경우 1차 뒤 혈색소 <b>10.3</b>, 혈소판 <b>39</b>까지 내려갔다가 회복했어요. 치료 6주 뒤(11.4) 혈색소 12.8·혈소판 169는 정상, 호중구 <b>1,178</b>은 아직 노랑 구간이에요.</div></div>`);
 
 
 // ---------- 5. 낮을 때 조심할 것 ----------
@@ -344,28 +344,28 @@ const PR2 = pg(8, "MY RATIOS", "내 비율 지표의 흐름", "초록 = 유리�
 <div class="card"><h2>LMR (림프구 ÷ 단핵구)</h2>${sm({ pts: LMRs, yMin: 0, yMax: 5, bands: [{ lo: 2.6, hi: 5, fill: "#e3f3ea", label: "유리" , tc: COL.good}, { lo: 0, hi: 2.6, fill: "#fbe0db", label: "불리(2.6 이하)", tc: COL.bad }], fmt: (v) => (+v).toFixed(1), color: "#2f7f9a" })}</div>
 <div class="card"><h2>NLR (호중구 ÷ 림프구)</h2>${sm({ pts: NLRs, yMin: 0, yMax: 6, bands: [{ lo: 4, hi: 6, fill: "#fbe0db", label: "높음(4 이상)", tc: COL.bad }, { lo: 0, hi: 3, fill: "#e3f3ea", label: "" }], fmt: (v) => (+v).toFixed(1), color: "#b5174f" })}</div>
 <div class="card"><h2>림프구 수 (ALC, /μL)</h2>${sm({ pts: ALCs, yMin: 0, yMax: 2500, bands: [{ lo: 1000, hi: 2500, fill: "#e3f3ea", label: "", tc: COL.good }, { lo: 0, hi: 1000, fill: "#fbe0db", label: "불리(1,000 미만)", tc: COL.bad }], fmt: (v) => Math.round(v).toLocaleString(), color: "#4b3a8c" })}
-<div style="font-size:20px;margin-bottom:12px">${zone("#e3f3ea", "유리한 구간")}${zone("#fbe0db", "불리한 구간")}</div><div class="box">오른쪽(치료기)의 값은 <b>항암제·리툭시맙 영향</b>이 섞여 있어요. 예후보다 <b>회복 정도</b>를 보는 용도입니다.</div></div>`);
+<div style="font-size:20px;margin-bottom:12px">${zone("#e3f3ea", "유리한 구간")}${zone("#fbe0db", "불리한 구간")}</div><div class="box">오른쪽(치료기·치료 후)의 값은 <b>항암제·리툭시맙 영향</b>이 섞여 있어요. 예후보다 <b>회복 정도</b>를 보는 용도입니다.</div></div>`);
 
 // ---------- 8. 신호등 표 ----------
 const RL2 = RL;
 const rows = [
-  ["림프구 수", [1813, 2190, 2052, 1487, 1573, 1533, 1428, 1300, 1428, 1652, 1763, 1248, 800], (v) => v >= 1500 ? "g" : v >= 1000 ? "y" : "r", (v) => v.toLocaleString()],
-  ["LMR", [3.56, 4.25, 4.01, 3.28, 2.34, 3.76, 4.0, 2.5, 3.11, 3.28, 2.73, 2.6, 1.43], (v) => v >= 3 ? "g" : v > 2.6 ? "y" : "r", (v) => v.toFixed(1)],
-  ["NLR", [1.6, 1.29, 2.18, 1.61, 4.39, 4.87, 2.14, 2.44, 2.14, 0.29, 0.88, 2.35, 3.2], (v, i) => i === 9 ? "n" : v < 3 ? "g" : v < 4 ? "y" : "r", (v) => v.toFixed(1)],
-  ["PNI", [53.1, 56.9, null, null, 51.9, 53.7, null, null, null, 52.3, null, 48.2, 47.0], (v) => v >= 45 ? "g" : v >= 40 ? "y" : "r", (v) => v.toFixed(0)],
-  ["LDH 비율", [0.6, 0.75, 0.73, 0.76, 0.67, 6.9, 3.5, 1.03, 1.02, 0.83, null, 1.21, 1.28], (v) => v <= 1 ? "g" : v <= 3 ? "y" : "r", (v) => v >= 3 ? v.toFixed(1) : v.toFixed(2)],
+  ["림프구 수", [1813, 2190, 2052, 1487, 1573, 1533, 1428, 1300, 1428, 1652, 1763, 1248, 800, 1280], (v) => v >= 1500 ? "g" : v >= 1000 ? "y" : "r", (v) => v.toLocaleString()],
+  ["LMR", [3.56, 4.25, 4.01, 3.28, 2.34, 3.76, 4.0, 2.5, 3.11, 3.28, 2.73, 2.6, 1.43, 2.2], (v) => v >= 3 ? "g" : v > 2.6 ? "y" : "r", (v) => v.toFixed(1)],
+  ["NLR", [1.6, 1.29, 2.18, 1.61, 4.39, 4.87, 2.14, 2.44, 2.14, 0.29, 0.88, 2.35, 3.2, 0.92], (v, i) => i === 9 ? "n" : v < 3 ? "g" : v < 4 ? "y" : "r", (v) => v.toFixed(1)],
+  ["PNI", [53.1, 56.9, null, null, 51.9, 53.7, null, null, null, 52.3, null, 48.2, 47.0, 49.4], (v) => v >= 45 ? "g" : v >= 40 ? "y" : "r", (v) => v.toFixed(0)],
+  ["LDH 비율", [0.6, 0.75, 0.73, 0.76, 0.67, 6.9, 3.5, 1.03, 1.02, 0.83, null, 1.21, 1.28, 1.09], (v) => v <= 1 ? "g" : v <= 3 ? "y" : "r", (v) => v >= 3 ? v.toFixed(1) : v.toFixed(2)],
 ];
 const bgc = { g: "#cfeadb", y: "#fbe9bf", r: "#f6c9c0", n: "#e6e4ec" };
 const heat = () => {
-  let t = `<table style="width:100%;border-collapse:separate;border-spacing:3px;table-layout:fixed"><tr><td style="width:118px"></td><td colspan="5" style="text-align:center;font-size:19px;font-weight:800;color:#2f7f9a;border-bottom:3px solid #2f7f9a;padding:4px">관찰기</td><td style="text-align:center;font-size:17px;font-weight:800;color:${COL.bad};border-bottom:3px solid ${COL.bad};padding:4px">치료 직전</td><td colspan="7" style="text-align:center;font-size:19px;font-weight:800;color:#a0602b;border-bottom:3px solid #a0602b;padding:4px">R-CHOP 치료 중</td></tr>`;
+  let t = `<table style="width:100%;border-collapse:separate;border-spacing:3px;table-layout:fixed"><tr><td style="width:118px"></td><td colspan="5" style="text-align:center;font-size:19px;font-weight:800;color:#2f7f9a;border-bottom:3px solid #2f7f9a;padding:4px">관찰기</td><td style="text-align:center;font-size:17px;font-weight:800;color:${COL.bad};border-bottom:3px solid ${COL.bad};padding:4px">치료 직전</td><td colspan="7" style="text-align:center;font-size:19px;font-weight:800;color:#a0602b;border-bottom:3px solid #a0602b;padding:4px">R-CHOP 치료 중</td><td style="text-align:center;font-size:17px;font-weight:800;color:#3a9a6a;border-bottom:3px solid #3a9a6a;padding:4px">치료 후</td></tr>`;
   t += `<tr><td></td>${RL2.map((d) => `<td style="text-align:center;font-size:15px;color:#5e5a6e;padding:4px 0">${d}</td>`).join("")}</tr>`;
   for (const [name, vals, f, fm] of rows) t += `<tr><td style="font-size:20px;font-weight:800;padding:0 4px">${name}</td>${vals.map((v, i) => v == null ? `<td style="background:#f6f5f9;border-radius:8px;height:62px"></td>` : `<td style="background:${bgc[f(v, i)]};border-radius:8px;height:62px;text-align:center;font-size:17px;font-weight:800">${fm(v)}</td>`).join("")}</tr>`;
   return t + "</table>";
 };
-const PR3 = pg(9, "TRAFFIC LIGHT", "신호등으로 한눈에", "제 기록 13번을 색으로 칠하면", `
+const PR3 = pg(9, "TRAFFIC LIGHT", "신호등으로 한눈에", "제 기록 14번을 색으로 칠하면", `
 <div class="card">${heat()}
 <div style="font-size:20px;margin-top:16px">${zone(bgc.g, "유리")}${zone(bgc.y, "경계")}${zone(bgc.r, "불리")}${zone(bgc.n, "치료 영향(호중구 최저)")}</div>
-<div class="box">관찰기는 거의 초록이었는데, <b>형질전환 전 마지막 검사(25.4)</b>에서 LMR·NLR이 먼저 빨갛게 변했어요. 치료 직전엔 <b>LDH가 제 병원 정상 상한의 약 7배</b>였습니다. 치료 중 색은 약의 영향이라 치료 뒤 다시 봐야 해요.</div>
+<div class="box">관찰기는 거의 초록이었는데, <b>형질전환 전 마지막 검사(25.4)</b>에서 LMR·NLR이 먼저 빨갛게 변했어요. 치료 직전엔 <b>LDH가 제 병원 정상 상한의 약 7배</b>였습니다. 치료 6주 뒤(11.4)엔 NLR·PNI가 초록으로 돌아왔고, 림프구가 회복 중이라 <b>LMR은 아직 빨강</b>이에요.</div>
 <div class="note">색 기준: 림프구 1,500·1,000 / LMR 3·2.6 / NLR 3·4 / PNI 45·40 / LDH 비율 1·3(제 병원 상한 200 기준). 연구마다 기준값은 다르며 개인의 예후를 정하지 않습니다.</div></div>`);
 
 // ---------- 9. 나머지 항목 ----------
