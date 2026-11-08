@@ -103,14 +103,63 @@ def main():
             try:
                 page.get_by_text("프로모션", exact=True).first.click()
                 page.wait_for_timeout(5000)
-                lr = [r for r in reqs if "page=" in r[1]]
-                out["promo_all"] = [(r[0], r[1][:200]) for r in reqs][-8:]
-                out["promo_req"] = [(r[0], r[1][:300]) for r in lr[-3:]]
-                if lr:
-                    u, body = lr[-1]
-                    n = page_all(u, body, "프로모션", lambda m: True)
-                    out["log"].append(f"프로모션: {n}통")
-                    print(f"[프로모션] {n}통", flush=True)
+                from urllib.parse import parse_qsl, urlencode
+                sr = [r for r in reqs if r[0].endswith("/json/list/sender")]
+                senders = []
+                if sr:
+                    u, body = sr[-1]
+                    q = dict(parse_qsl(body, keep_blank_values=True))
+                    for pg in range(1, 200):
+                        q["page"] = str(pg)
+                        j = page.evaluate(FETCH, [u, urlencode(q)])
+                        if pg == 1:
+                            out["sender_keys"] = list(j.keys())[:20] if isinstance(j, dict) else str(type(j))
+                        got = []
+                        def walk(o):
+                            if isinstance(o, dict):
+                                for kk in ("sender", "email", "senderAddress", "address"):
+                                    v = o.get(kk)
+                                    if isinstance(v, str) and "@" in v:
+                                        got.append(v)
+                                        break
+                                for v in o.values():
+                                    walk(v)
+                            elif isinstance(o, list):
+                                for v in o:
+                                    walk(v)
+                        walk(j)
+                        new = [g for g in dict.fromkeys(got) if g not in senders]
+                        senders += new
+                        last = int(j.get("lastPage") or 0) if isinstance(j, dict) else 0
+                        if not new or (last and pg >= last):
+                            break
+                out["promo_senders"] = len(senders)
+                n = 0
+                for snd in senders:
+                    off = 0
+                    while off < 5000:
+                        body = urlencode({"sender": snd, "folderSN": "10", "startOffset": str(off), "pageSize": "100", "previewMode": "3", "u": q.get("u", "") if sr else ""})
+                        j = page.evaluate(FETCH, ["https://mail.naver.com/json/list/specificSender/", body])
+                        rows = []
+                        def walk2(o):
+                            if isinstance(o, dict):
+                                if "mailSN" in o:
+                                    rows.append(o)
+                                else:
+                                    for v in o.values():
+                                        walk2(v)
+                            elif isinstance(o, list):
+                                for v in o:
+                                    walk2(v)
+                        walk2(j)
+                        for m in rows:
+                            targets[str(m.get("mailSN"))] = (m.get("folderSN", 10), "프로모션", (m.get("subject") or "")[:40])
+                            n += 1
+                        if len(rows) < 100:
+                            break
+                        off += 100
+                out["log"].append(f"프로모션: 보낸 사람 {len(senders)}곳, {n}통")
+                print(f"[프로모션] 보낸 사람 {len(senders)}곳, {n}통", flush=True)
             except Exception as e:  # noqa: BLE001
                 out["log"].append(f"프로모션 실패 {e}"[:200])
 
@@ -140,9 +189,13 @@ def main():
                     if sns[0] not in body0:
                         out["log"].append("삭제 요청에서 메일 번호를 찾지 못해 중단")
                         break
-                    body = body0.replace(sns[0], ",".join(chunk))
+                    from urllib.parse import parse_qsl, urlencode
+                    q = dict(parse_qsl(body0, keep_blank_values=True))
+                    q["mailSNList"] = ",".join(chunk)
+                    q["folderSNList"] = ",".join(str(targets[x][0]) for x in chunk)
+                    body = urlencode(q)
                     j = page.evaluate(FETCH, [u, body])
-                    ok = isinstance(j, dict) and (j.get("Result") == "OK" or j.get("result") in ("OK", "SUCCESS") or "raw" not in j)
+                    ok = isinstance(j, dict) and str(j.get("Result", "")).upper() == "OK"
                     out["delete"].append({"n": len(chunk), "resp": str(j)[:200]})
                     if ok:
                         done += len(chunk)
