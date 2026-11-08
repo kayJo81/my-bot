@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "search 또는 trash"
+        description: "search, list, trash"
         default: "search"
       keywords:
         description: "검색어, 여러 개는 | 로 구분"

@@ -28,7 +28,7 @@ def main():
         page.set_default_timeout(20000)
 
         def on_resp(r):
-            if "mail.naver.com" in r.url and "json" in r.url and r.status == 200:
+            if "mail.naver.com" in r.url and "/json/" in r.url and r.status == 200 and (mode != "list" or "/json/search/?" in r.url):
                 try:
                     out["api"].append({"url": r.url[:200], "json": r.json()})
                 except Exception:
@@ -54,6 +54,35 @@ def main():
                 page.screenshot(path="naver_mail_fail.png")
                 continue
             page.wait_for_timeout(5000)
+            if mode == "list":
+                # 첫 페이지 검색 API 주소를 찾아 나머지 페이지도 같은 방식으로 받아 옵니다(GET, 로그인 쿠키 포함)
+                urls = [a["url"] for a in out["api"] if "/json/search/?" in a["url"]]
+                full = None
+                for r in reversed(urls):
+                    full = r
+                    break
+                src = [a for a in out["api"] if a["url"] == full]
+                rows = []
+                if src:
+                    j = src[-1]["json"]
+                    last = int(j.get("lastPage") or 1)
+                    rows += j.get("mailData", [])
+                    real = page.evaluate("() => performance.getEntriesByType('resource').map(e => e.name).filter(n => n.includes('/json/search/?')).pop()")
+                    for pg in range(2, min(last, 20) + 1):
+                        u = real.replace("page=1&", f"page={pg}&", 1)
+                        try:
+                            jj = page.evaluate("async (u) => { const r = await fetch(u, {credentials: 'include'}); return await r.json(); }", u)
+                            rows += jj.get("mailData", [])
+                        except Exception as e:  # noqa: BLE001
+                            out["log"].append(f"{kw} p{pg} 실패 {e}"[:200])
+                keep = ["mailSN", "folderSN", "folderName", "from", "subject", "receivedTime", "attachCount"]
+                out["results"].append({"keyword": kw, "count": len(rows),
+                                       "rows": [{k: r.get(k) for k in keep} for r in rows]})
+                print(f"[{kw}] {len(rows)}건 수집", flush=True)
+                out["api"] = []
+                page.goto("https://mail.naver.com/", wait_until="domcontentloaded")
+                page.wait_for_timeout(4000)
+                continue
             text = page.inner_text("body")[:30000]
             out["results"].append({"keyword": kw, "url": page.url[:200], "text": text})
             print(f"[{kw}] 검색 완료", flush=True)
