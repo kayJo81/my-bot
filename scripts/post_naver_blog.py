@@ -227,7 +227,22 @@ def type_paragraph(page, text: str, fr=None) -> None:
     else:
         page.keyboard.insert_text(" ".join(lines))
     page.keyboard.press("Enter")
+    page.wait_for_timeout(60)
     page.keyboard.press("Enter")
+    page.wait_for_timeout(60)
+    if fr is not None:
+        # 가끔 두 번째 Enter가 먹히지 않아 빈 줄이 빠집니다. 커서 앞 문단이 비어 있지 않으면 한 번 더 누릅니다.
+        try:
+            prev_has_text = fr.evaluate("""() => {
+                const sel = getSelection(); if (!sel.rangeCount) return false;
+                let n = sel.anchorNode; while (n && !(n.classList && n.classList.contains('se-text-paragraph'))) n = n.parentNode;
+                if (!n) return false;
+                const prev = n.previousElementSibling;
+                return !!prev && prev.textContent.replace(/\u200b/g, '').trim().length > 0; }""")
+            if prev_has_text:
+                page.keyboard.press("Enter")
+        except Exception:
+            pass
 
 
 def main() -> None:
