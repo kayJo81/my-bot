@@ -258,8 +258,19 @@ def main() -> None:
         page = ctx.new_page()
         page.set_default_timeout(20000)
 
-        page.goto(f"https://blog.naver.com/{blog_id}?Redirect=Write", wait_until="domcontentloaded")
-        page.wait_for_timeout(5000)
+        edit_no = os.environ.get("EDIT_LOGNO", "").strip()
+        if edit_no:
+            # 기존 글 수정: 글 보기 화면의 '수정하기' 링크로 에디터를 엽니다(새 글을 만들지 않음)
+            page.goto(f"https://blog.naver.com/PostView.naver?blogId={blog_id}&logNo={edit_no}", wait_until="domcontentloaded")
+            page.wait_for_timeout(4000)
+            link = page.locator(f"a._modifyPost[class*='_param({edit_no}|']").first
+            if not link.count():
+                sys.exit(f"{edit_no}번 글의 수정 링크를 찾지 못했습니다(삭제됐거나 권한 없음).")
+            link.click()
+            page.wait_for_timeout(6000)
+        else:
+            page.goto(f"https://blog.naver.com/{blog_id}?Redirect=Write", wait_until="domcontentloaded")
+            page.wait_for_timeout(5000)
         shot(page, "open")
         print("이동한 주소:", page.url.split("?")[0])
         if "nid.naver.com" in page.url:
@@ -278,12 +289,33 @@ def main() -> None:
 
         # 제목
         fr.locator(".se-documentTitle .se-text-paragraph, .se-title-text").first.click()
+        if edit_no:
+            page.keyboard.press("Control+a")
+            page.keyboard.press("Backspace")
         page.keyboard.insert_text(title)
         shot(page, "title")
 
         # 본문 첫 칸으로 이동
         body = fr.locator(".se-component.se-text .se-text-paragraph").first
         body.click()
+        if edit_no:
+            # 기존 본문을 모두 지운 뒤 확인: 이미지·문단이 남아 있으면 저장하지 않고 멈춤
+            for _ in range(3):
+                fr.locator(".se-component.se-text .se-text-paragraph").first.click()
+                page.keyboard.press("Control+a")
+                page.keyboard.press("Control+a")
+                page.keyboard.press("Backspace")
+                page.wait_for_timeout(800)
+                imgs = fr.locator(".se-component.se-image").count()
+                texts = fr.locator(".se-component.se-text").count()
+                left = fr.evaluate("() => [...document.querySelectorAll('.se-component.se-text')].map(e => e.innerText.trim()).join('').length")
+                print(f"본문 비우기: 이미지 {imgs}, 글 상자 {texts}, 남은 글자 {left}", flush=True)
+                if imgs == 0 and left == 0:
+                    break
+            else:
+                shot(page, "clear_failed")
+                sys.exit("기존 본문을 비우지 못해 저장하지 않고 멈춥니다.")
+            fr.locator(".se-component.se-text .se-text-paragraph").first.click()
 
         for kind, val in blocks:
             if kind == "text":

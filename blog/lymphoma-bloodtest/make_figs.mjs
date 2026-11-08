@@ -3,7 +3,7 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const { chromium } = require("playwright");
 const OUT = process.argv[2];
-const TOTAL = 6;
+const TOTAL = 9;
 const TAG = "림프종 정보 · 혈액검사와 예후 지표 이해하기";
 
 let seed = 7;
@@ -152,6 +152,7 @@ const css3 = `
 .score{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px}
 .score div{border-radius:12px;padding:10px;text-align:center;font-size:19px;line-height:1.35}
 .score b{display:block;font-size:22px}
+.note{font-size:19px;color:#7a7690;margin-top:12px;line-height:1.5}
 `;
 const pg = (n, eng, title, sub, body) => page(n, eng, title, sub, body).replace("</style>", css3 + "</style>");
 
@@ -211,7 +212,7 @@ ${lineChart({ pts: ANC, h: 320, yMin: 0, yMax: 8000, split: 5, lines: [{ v: 1500
 <div style="text-align:left"><h2>혈소판(출혈)</h2>${lineChart({ pts: PLT, w: 470, h: 300, yMin: 0, yMax: 420, split: 5, small: true, show: [7, 8, 13], lines: [{ v: 134, c: "#c8552b", label: "하한 134", below: true }], fmt: (v) => Math.round(v), color: "#8a4b1f" })}</div></div>
 <div class="box">1차 항암 11일 뒤 혈색소 <b>10.3</b>, 혈소판 <b>39</b>로 가장 낮았다가 회복했어요. 항암 후 7~14일이 보통 가장 낮은 시기(최저점)입니다.</div></div>`);
 
-const P4 = pg(4, "WHAT EACH MEANS", "나머지 항목 한눈에", "높으면·낮으면 무엇을 뜻하나 (일반적 경향)", `
+const P4 = pg(7, "WHAT EACH MEANS", "나머지 항목 한눈에", "높으면·낮으면 무엇을 뜻하나 (일반적 경향)", `
 <div class="card"><table class="vt">
 <tr><th style="width:22%">항목</th><th>쉽게 말하면</th><th style="width:30%">림프종에서 볼 점</th></tr>
 <tr><td class="k">요산·인·칼륨</td><td>세포가 깨질 때 나오는 물질</td><td>첫 항암 직후 급증하면 '종양용해증후군' 주의</td></tr>
@@ -225,7 +226,7 @@ const P4 = pg(4, "WHAT EACH MEANS", "나머지 항목 한눈에", "높으면·�
 <tr><td class="k">β2-마이크로글로불린</td><td>세포 표면에서 떨어져 나오는 단백(림프구에 많음)</td><td>종양 양을 반영, 예후 지표(FLIPI-2 등)에 쓰임</td></tr></table>
 <div class="box">제 경우 1차 항암 뒤 <b>IgG 456</b>(참고치 700~1,600), <b>페리틴 943</b>(참고치 30~400)이었어요. 이런 값은 주치의와 재측정 시기를 상의합니다.</div></div>`);
 
-const P5 = pg(5, "PROGNOSIS · DLBCL", "공격성 림프종의 예후 지표", "IPI · R-IPI · NCCN-IPI (진단 시 점수)", `
+const P5 = pg(8, "PROGNOSIS · DLBCL", "공격성 림프종의 예후 지표", "IPI · R-IPI · NCCN-IPI (진단 시 점수)", `
 <div class="card"><h2>IPI — 5가지 항목, 해당하면 1점씩</h2>
 <table class="vt"><tr><th>항목</th><th>점수 기준</th></tr>
 <tr><td class="k">나이</td><td>60세 초과</td></tr><tr><td class="k">LDH</td><td>참고치 상한 초과</td></tr>
@@ -237,7 +238,7 @@ const P5 = pg(5, "PROGNOSIS · DLBCL", "공격성 림프종의 예후 지표", "
 <tr><td class="k">NCCN-IPI</td><td>나이를 세분(40·60·75세)하고 LDH를 <b>상한의 몇 배</b>인지로 나누며, 골수·뇌·간/위장관·폐 침범을 따로 봅니다. 0~8점.</td></tr></table>
 <div class="box">점수는 <b>집단의 평균 경향</b>일 뿐, 한 사람의 결과를 정하지 않아요. 치료 반응(중간·최종 PET)이 함께 중요합니다.</div></div>`);
 
-const P6 = pg(6, "PROGNOSIS · FL · PET", "여포성 림프종 지표와 PET 점수", "FLIPI · FLIPI-2 · PRIMA-PI · POD24 · Deauville", `
+const P6 = pg(9, "PROGNOSIS · FL · PET", "여포성 림프종 지표와 PET 점수", "FLIPI · FLIPI-2 · PRIMA-PI · POD24 · Deauville", `
 <div class="card"><table class="vt">
 <tr><th style="width:20%">지표</th><th>보는 항목</th><th style="width:26%">해석</th></tr>
 <tr><td class="k">FLIPI</td><td>60세 초과, 3~4기, 혈색소 12 미만, LDH 상승, 침범 림프절 부위 5곳 이상</td><td>0~1 저 / 2 중 / 3↑ 고</td></tr>
@@ -248,9 +249,48 @@ const P6 = pg(6, "PROGNOSIS · FL · PET", "여포성 림프종 지표와 PET �
 <div class="score" style="grid-template-columns:repeat(5,1fr)"><div style="background:#dff1ef"><b>1</b>섭취 없음</div><div style="background:#dff1ef"><b>2</b>종격동 이하</div><div style="background:#eef6e8"><b>3</b>간 이하</div><div style="background:#fbefe2"><b>4</b>간보다 약간 높음</div><div style="background:#fbe3e0"><b>5</b>간보다 훨씬 높음·새 병변</div></div>
 <div class="box">보통 <b>1~3점은 완전 대사 반응</b>, 4~5점은 남은 활동성으로 봅니다. 제 경우 치료 전 <b>Deauville 5 (SUVmax 25.65)</b> → 중간 PET <b>Deauville 4 (SUVmax 5.15)</b>, 약 80% 줄었어요. 최종 판정은 치료 종료 PET로 합니다.</div></div>`);
 
+
+// ---------- 혈액 비율 지표 ----------
+const RL = ["23.9", "24.2", "24.5", "24.11", "25.4", "26.5.7", "6.1", "6.15", "7.6", "8.5", "8.12", "9.2", "9.23"];
+const rs = (a) => a.map((v, i) => [RL[i], v]);
+const LMRs = rs([3.56, 4.25, 4.01, 3.28, 2.34, 3.76, 4.0, 2.5, 3.11, 3.28, 2.73, 2.6, 1.43]);
+const NLRs = rs([1.6, 1.29, 2.18, 1.61, 4.39, 4.87, 2.14, 2.44, 2.14, 0.29, 0.88, 2.35, 3.2]);
+const ALCs = rs([1813, 2190, 2052, 1487, 1573, 1533, 1428, 1300, 1428, 1652, 1763, 1248, 800]);
+const card = (name, full, formula, cut) => `<div style="background:#f4f2fa;border-radius:16px;padding:16px 18px"><div style="font-size:28px;font-weight:800;color:#4b3a8c">${name}</div><div style="font-size:18px;color:#5e5a6e;margin-top:2px">${full}</div><div style="font-size:21px;font-weight:800;margin-top:10px">${formula}</div><div style="font-size:19px;color:#3d3950;margin-top:8px;line-height:1.4">${cut}</div></div>`;
+const PR1 = pg(4, "BLOOD RATIOS", "혈액 비율 지표 만드는 법", "피검사 숫자 두세 개를 나누면 되는 예후 지표", `
+<div class="card"><div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+${card("LMR", "림프구 / 단핵구", "림프구 수 ÷ 단핵구 수", "낮을수록 불리. DLBCL 연구에서 <b>2.6 이하</b>를 기준으로 많이 씀")}
+${card("NLR", "호중구 / 림프구", "호중구 수 ÷ 림프구 수", "높을수록 염증·면역 불균형. 보통 <b>3~4 이상</b>을 높다고 봄")}
+${card("PLR", "혈소판 / 림프구", "혈소판 수 ÷ 림프구 수", "높을수록 불리. 기준은 연구마다 150~250")}
+${card("SII", "전신 면역염증 지수", "혈소판 × 호중구 ÷ 림프구", "NLR에 혈소판까지 반영. 기준 제각각")}
+${card("ALC", "림프구 절대수", "백혈구 × 림프구 %", "<b>1,000/μL 미만</b>이면 불리하다는 연구가 많음")}
+${card("PNI", "예후 영양 지수", "10×알부민 + 0.005×림프구 수", "<b>45 미만</b>이면 영양·면역 저하로 봄")}
+${card("CAR", "CRP / 알부민", "CRP ÷ 알부민", "염증 대비 영양. 높을수록 불리")}
+${card("LDH 비율", "LDH / 정상 상한", "LDH ÷ 정상 상한값", "NCCN-IPI: 1~3배 1점, <b>3배 초과 2점</b>")}
+</div>
+<div class="box">림프구는 <b>종양을 공격하는 면역</b>, 단핵구·호중구는 <b>종양을 돕는 염증</b>을 대표해요. 그래서 그 비율이 예후와 관련됩니다. 원래 <b>치료 전(진단 시)</b> 값으로 쓰는 지표예요.</div></div>`);
+
+const sm = (o) => lineChart({ w: 1000, h: 300, split: 5, ...o });
+const PR2 = pg(5, "MY RATIOS", "내 비율 지표의 흐름", "관찰기 → 형질전환 직전 → R-CHOP 치료기", `
+<div class="card"><h2>LMR (림프구/단핵구)</h2>${sm({ pts: LMRs, yMin: 0, yMax: 5, lines: [{ v: 2.6, c: "#c8552b", label: "2.6 이하: 불리 기준(DLBCL)", below: true }], fmt: (v) => (+v).toFixed(1), color: "#2f7f9a" })}</div>
+<div class="card"><h2>NLR (호중구/림프구)</h2>${sm({ pts: NLRs, yMin: 0, yMax: 6, lines: [{ v: 4, c: "#c8552b", label: "4 이상: 높음" }], fmt: (v) => (+v).toFixed(1), color: "#b5174f" })}</div>
+<div class="card"><h2>림프구 수 (ALC, /μL)</h2>${sm({ pts: ALCs, yMin: 0, yMax: 2500, lines: [{ v: 1000, c: "#c8552b", label: "1,000 미만: 불리 기준", below: true }], fmt: (v) => Math.round(v).toLocaleString(), color: "#4b3a8c" })}
+<div class="box">치료기 값은 <b>항암·리툭시맙의 영향</b>을 크게 받아요. 리툭시맙은 B림프구를 줄이기 때문에 림프구 수와 LMR이 낮아지는 게 흔합니다. 그래서 치료 중 값은 예후보다 <b>회복 정도</b>를 보는 용도예요.</div></div>`);
+
+const PR3 = pg(6, "BY TIMEPOINT", "시점별로 다시 보면", "개인 기준선과 함께 읽기", `
+<div class="card"><table class="vt">
+<tr><th style="width:22%">시점</th><th>ALC</th><th>LMR</th><th>NLR</th><th>PLR</th><th>SII</th><th>PNI</th><th>LDH 비율</th></tr>
+<tr><td class="k">관찰기 4회<small>23.9~24.11</small></td><td>1,487~2,190</td><td>3.3~4.3</td><td>1.3~2.2</td><td>76~116</td><td>216~381</td><td>52~57</td><td>0.6~0.8</td></tr>
+<tr><td class="k">25.4<small>관찰기 마지막</small></td><td>1,573</td><td style="color:#a33a14;font-weight:800">2.34</td><td style="color:#a33a14;font-weight:800">4.39</td><td>98</td><td>676</td><td>51.9</td><td>0.67</td></tr>
+<tr><td class="k">26.5.7<small>치료 직전</small></td><td>1,533</td><td>3.76</td><td style="color:#a33a14;font-weight:800">4.87</td><td>127</td><td>950</td><td>53.7</td><td style="color:#a33a14;font-weight:800">6.9</td></tr>
+<tr><td class="k">8.5<small>호중구 최저</small></td><td>1,652</td><td>3.28</td><td>0.29</td><td>107</td><td>51</td><td>52.3</td><td>0.83</td></tr>
+<tr><td class="k">9.23<small>6차 직전</small></td><td style="color:#a33a14;font-weight:800">800</td><td style="color:#a33a14;font-weight:800">1.43</td><td>3.2</td><td>289</td><td>739</td><td>47.0</td><td>1.28</td></tr></table>
+<div class="box">관찰기 마지막(25.4)에 LMR이 처음 2.6 아래로, NLR이 4 위로 넘어갔어요. 치료 직전에는 <b>LDH가 정상 상한의 약 7배</b>(NCCN-IPI 2점 구간)였습니다. 최근 값은 치료 영향이 섞여 있어 치료 종료 후 다시 확인할 부분이에요.</div>
+<div class="note">계산: 림프구·단핵구 수 = 백혈구 × 분획 %. 비율 지표의 기준값은 연구마다 다르며, 개인의 예후를 확정하지 않습니다.</div></div>`);
+
 const b = await chromium.launch();
 const p = await b.newPage({ viewport: { width: 1080, height: 800 }, deviceScaleFactor: 1 });
-for (const [i, html] of [P1, P2, P3, P4, P5, P6].entries()) {
+for (const [i, html] of [P1, P2, P3, PR1, PR2, PR3, P4, P5, P6].entries()) {
   await p.setContent(html, { waitUntil: "load" });
   await p.waitForTimeout(300);
   await p.screenshot({ path: `${OUT}/pre-${i + 1}.jpg`, type: "jpeg", quality: 90, fullPage: true });
