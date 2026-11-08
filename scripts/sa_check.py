@@ -24,37 +24,44 @@ def main():
         ctx.add_cookies(cookies)
         page = ctx.new_page()
         page.set_default_timeout(30000)
-        status = {}
-        try:
-            r = page.goto("https://seekingalpha.com/account/subscriptions", wait_until="domcontentloaded")
-            page.wait_for_timeout(6000)
-            status["http"] = r.status if r else None
-        except Exception as e:  # noqa: BLE001
-            status["http"] = f"오류 {type(e).__name__}"
-        body = ""
-        try:
-            body = page.inner_text("body")[:20000].lower()
-        except Exception:
-            pass
-        url = page.url
-        blocked = any(k in body for k in ["press & hold", "press and hold", "access to this page has been denied", "verify you are a human"])
-        logged_out = ("/login" in url) or ("sign in" in body and "sign out" not in body and "log out" not in body)
-        try:
-            api = page.evaluate("""async () => { const r = await fetch('/api/v3/users/current', {credentials: 'include'}); return r.status; }""")
-        except Exception:
-            api = None
-        page.screenshot(path="sa_check.png")  # 아티팩트로 올리지 않음(개인 정보가 보일 수 있음)
+        res = {}
+        for name, url in [("home", "https://seekingalpha.com/"), ("kr_home", "https://kr.seekingalpha.com/")]:
+            try:
+                r = page.goto(url, wait_until="domcontentloaded")
+                page.wait_for_timeout(5000)
+                body = page.inner_text("body")[:30000].lower()
+                html = page.content().lower()
+                res[name] = {
+                    "http": r.status if r else None,
+                    "final": page.url.split("?")[0],
+                    "px_block": any(k in body for k in ["press & hold", "press and hold", "access to this page has been denied", "verify you are a human"]) or "px-captcha" in html,
+                    "sign_in_btn": ("sign in" in body) or ("로그인" in body),
+                    "logout_word": any(k in body for k in ["sign out", "log out", "로그아웃"]),
+                    "premium_word": ("premium" in body),
+                }
+            except Exception as e:  # noqa: BLE001
+                res[name] = {"err": type(e).__name__}
+        api = {}
+        for ep in ["/api/v3/users/current", "/api/v3/user_subscriptions", "/api/v3/articles?filter[category]=latest-articles&page[size]=1"]:
+            try:
+                api[ep.split("?")[0]] = page.evaluate("""async (u) => { const r = await fetch(u, {credentials: 'include'}); const t = await r.text();
+                    return {status: r.status, px: /px-captcha|perimeterx|_pxappid|blocked/i.test(t), len: t.length}; }""", ep)
+            except Exception as e:  # noqa: BLE001
+                api[ep] = {"err": type(e).__name__}
         b.close()
-    print("열린 주소:", url.split("?")[0], flush=True)
-    print("HTTP:", status.get("http"), "| 사용자 API:", api, flush=True)
-    if blocked:
-        print("결과: 봇 차단 화면(PerimeterX)이 떴습니다. 쿠키와 별개로 GitHub 서버 IP가 막혔을 수 있습니다.")
-    elif logged_out or api in (401, 403):
-        print("결과: 로그인 안 됨 → 쿠키를 다시 내보내 SEEKING_ALPHA_COOKIES를 갱신하세요.")
-    elif api == 200:
+    for k, v in res.items():
+        print(k, v, flush=True)
+    for k, v in api.items():
+        print("API", k, v, flush=True)
+    a = api.get("/api/v3/users/current", {})
+    if any(v.get("px_block") for v in res.values()) or a.get("px"):
+        print("결과: 봇 차단(PerimeterX) 흔적이 있습니다.")
+    elif a.get("status") == 200:
         print("결과: 로그인 확인됨")
+    elif any(v.get("logout_word") for v in res.values()):
+        print("결과: 화면상 로그인된 것으로 보임(API는 막힘)")
     else:
-        print("결과: 판단 불가(화면은 열렸지만 로그인 여부를 확정하지 못함)")
+        print("결과: 로그인 안 된 것으로 보임")
     print("세션 쿠키 이름 확인:", "있음" if names & {"session_id", "_sapi_session_id", "user_id", "machine_cookie"} else "주요 쿠키 이름 없음")
 
 
