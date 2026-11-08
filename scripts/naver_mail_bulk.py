@@ -35,6 +35,8 @@ def main():
         reqs = []
         def _rq(rq):
             if "mail.naver.com/json" in rq.url:
+                if "/select/delete" in rq.url:
+                    out["delete_headers"] = {k: v for k, v in rq.headers.items() if k.lower() != "cookie"}
                 body = rq.post_data or ""
                 u = rq.url
                 if not body and "?" in u:
@@ -184,6 +186,28 @@ def main():
             if dr:
                 u, body0 = dr[-1]
                 rest = sns[1:]
+                if rule.get("diag"):
+                    from urllib.parse import parse_qsl, urlencode
+                    hdr = {k: v for k, v in (out.get("delete_headers") or {}).items() if k.lower().startswith("x-") or k.lower() in ("content-type",)}
+                    FETCH2 = """async ([u, body, h]) => { const r = await fetch(u, {method: 'POST', credentials: 'include', headers: h, body}); const t = await r.text(); return t.slice(0, 200); }"""
+                    q0 = dict(parse_qsl(body0, keep_blank_values=True))
+                    a1, a2, a3, a4, a5 = rest[0:1], rest[1:3], rest[3:5], rest[5:7], rest[7:9]
+                    tries = [
+                        ("한통-같은형식", a1, {"mailSNList": a1[0], "folderSNList": str(targets[a1[0]][0])}, False),
+                        ("두통-폴더목록", a2, {"mailSNList": ",".join(a2), "folderSNList": ",".join(str(targets[x][0]) for x in a2)}, False),
+                        ("두통-폴더하나", a3, {"mailSNList": ",".join(a3), "folderSNList": str(targets[a3[0]][0])}, False),
+                        ("두통-헤더포함", a4, {"mailSNList": ",".join(a4), "folderSNList": ",".join(str(targets[x][0]) for x in a4)}, True),
+                        ("한통-헤더포함", a5[:1], {"mailSNList": a5[0], "folderSNList": str(targets[a5[0]][0])}, True),
+                    ]
+                    out["diag"] = []
+                    for name, ids, upd, useh in tries:
+                        q = dict(q0)
+                        q.update(upd)
+                        h = hdr if useh else {"Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"}
+                        res = page.evaluate(FETCH2, [u, urlencode(q), h])
+                        out["diag"].append((name, len(ids), res))
+                    out["hdr_names"] = list((out.get("delete_headers") or {}).keys())
+                    rest = []
                 for k in range(0, len(rest), 100):
                     chunk = rest[k:k + 100]
                     if sns[0] not in body0:
