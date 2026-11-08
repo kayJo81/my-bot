@@ -342,8 +342,8 @@ def main() -> None:
                     if not click_if(fr, "button.se-image-toolbar-button", 5000):
                         click_if(fr, "button[data-name='image']", 5000)
                 fc.value.set_files(str(val))
-                # 업로드 완료 대기: 이미지 컴포넌트 수가 늘 때까지
-                page.wait_for_timeout(4000)
+                # 업로드 완료 대기: 이미지 컴포넌트 수가 늘 때까지 (움직이는 GIF는 더 오래 걸림)
+                page.wait_for_timeout(15000 if str(val).lower().endswith(".gif") else 4000)
                 # 이미지 다음 줄로 커서 이동 후 이어서 입력
                 last_text = fr.locator(".se-component.se-text .se-text-paragraph").last
                 page.keyboard.press("Escape")  # 이미지 선택 해제(선택 테두리가 클릭을 가로막음)
