@@ -208,21 +208,27 @@ def main():
                         out["diag"].append((name, len(ids), res))
                     out["hdr_names"] = list((out.get("delete_headers") or {}).keys())
                     rest = []
-                for k in range(0, len(rest), 100):
-                    chunk = rest[k:k + 100]
-                    if sns[0] not in body0:
-                        out["log"].append("삭제 요청에서 메일 번호를 찾지 못해 중단")
-                        break
-                    from urllib.parse import parse_qsl, urlencode
-                    q = dict(parse_qsl(body0, keep_blank_values=True))
-                    q["mailSNList"] = ",".join(chunk)
-                    q["folderSNList"] = ",".join(str(targets[x][0]) for x in chunk)
-                    body = urlencode(q)
-                    j = page.evaluate(FETCH, [u, body])
-                    ok = isinstance(j, dict) and str(j.get("Result", "")).upper() == "OK"
-                    out["delete"].append({"n": len(chunk), "resp": str(j)[:200]})
-                    if ok:
-                        done += len(chunk)
+                from urllib.parse import parse_qsl, urlencode
+                q0 = dict(parse_qsl(body0, keep_blank_values=True))
+                PAR = """async ([u, bodies]) => {
+                  let ok = 0, fail = 0, last = '';
+                  const one = async (b) => { try { const r = await fetch(u, {method: 'POST', credentials: 'include',
+                      headers: {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}, body: b});
+                      const t = await r.text(); if (t.includes('"OK"')) ok++; else { fail++; last = t.slice(0, 120); } } catch (e) { fail++; last = String(e); } };
+                  for (let i = 0; i < bodies.length; i += 6) await Promise.all(bodies.slice(i, i + 6).map(one));
+                  return {ok, fail, last}; }"""
+                for k in range(0, len(rest), 300):
+                    chunk = rest[k:k + 300]
+                    bodies = []
+                    for mid in chunk:
+                        q = dict(q0)
+                        q["mailSNList"] = mid
+                        q["folderSNList"] = str(targets[mid][0])
+                        bodies.append(urlencode(q))
+                    r = page.evaluate(PAR, [u, bodies])
+                    done += r["ok"]
+                    out["delete"].append(r)
+                    print(f"  {k + len(chunk)}/{len(rest)}: 성공 {r['ok']}, 실패 {r['fail']}", flush=True)
             print(f"휴지통으로 옮김: {done}통", flush=True)
         b.close()
     with open("naver_mail_out.json", "w", encoding="utf-8") as f:
