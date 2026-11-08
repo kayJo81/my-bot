@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "probe, list, trash"
+        description: "probe, list, clean(쓸데없는 메일 휴지통으로)"
         default: "probe"
       arg:
         description: "list: 쪽수 / trash: 메일 ID 목록(쉼표)"

@@ -70,6 +70,80 @@ def main():
                         break
                 out["mails"][fid] = {"total": j.get("total") if isinstance(j, dict) else None, "rows": rows}
                 print(f"{fid}: {len(rows)}통", flush=True)
+        if mode == "clean":
+            import re
+            ad = re.compile(r"^\s*[\(\[]\s*광고\s*[\)\]]")
+            folders = ["INBOX", "PROMOTION", "SHOPPING", "SOCIAL", "BILL", "SPAM"]
+            junk, keep = [], 0
+            for fid in folders:
+                off = 0
+                while off < 5000:
+                    j = page.evaluate("""async ([f, o]) => { const r = await fetch(`https://cmail.daum.net/v2/mails?offset=${o}&limit=100&folderId=${f}`, {credentials: 'include'});
+                        return r.ok ? r.json() : {err: r.status}; }""", [fid, off])
+                    ms = j.get("mails", []) if "err" not in j else []
+                    for m in ms:
+                        subj = m.get("subject") or ""
+                        # 쓸데없는 메일: 스팸·프로모션 메일함 전체, 그리고 어느 메일함이든 제목이 (광고)/[광고]로 시작하는 메일
+                        if fid in ("SPAM", "PROMOTION") or ad.match(subj):
+                            junk.append({"id": m["id"], "f": fid, "subject": subj[:60], "from": (m.get("from") or {}).get("name")})
+                        else:
+                            keep += 1
+                    off += 100
+                    if len(ms) < 100:
+                        break
+            out["junk"] = junk
+            print(f"쓸데없는 메일 {len(junk)}통, 남길 메일 {keep}통", flush=True)
+            # 삭제: 화면에서 첫 통을 지워 삭제 요청 형식을 잡고, 같은 형식으로 나머지를 보냅니다.
+            out["requests"] = []
+            done = 0
+            if junk:
+                first = junk[0]
+                page.goto(f"https://mail.daum.net/top/{first['f']}", wait_until="domcontentloaded")
+                page.wait_for_timeout(6000)
+                try:
+                    row = page.locator("li, tr").filter(has_text=first["subject"][:20]).first
+                    row.locator("input[type=checkbox], label[for], [class*=check]").first.click(timeout=6000)
+                    page.wait_for_timeout(800)
+                    page.get_by_role("button", name="삭제", exact=True).locator("visible=true").first.click(timeout=6000)
+                    page.wait_for_timeout(3000)
+                except Exception as e:  # noqa: BLE001
+                    out["log"].append(f"첫 삭제 실패 {e}"[:300])
+                dels = [r for r in out["requests"] if r["m"] in ("POST", "PUT", "PATCH", "DELETE") and first["id"] in (r["u"] + r["body"])]
+                out["delete_req"] = dels[:2]
+                if dels:
+                    done = 1
+                    r0 = dels[0]
+                    rest = [x["id"] for x in junk[1:]]
+                    for k in range(0, len(rest), 50):
+                        chunk = rest[k:k + 50]
+                        body = r0["body"]
+                        url = r0["u"]
+                        if first["id"] in body:
+                            # 본문에 ID 목록이 들어 있는 형식: 첫 ID 자리를 묶음 ID로 바꿉니다.
+                            try:
+                                bj = json.loads(body)
+                                def sub(o):
+                                    if isinstance(o, list) and first["id"] in o:
+                                        return chunk
+                                    if isinstance(o, dict):
+                                        return {kk: sub(vv) for kk, vv in o.items()}
+                                    return o
+                                body = json.dumps(sub(bj))
+                            except Exception:
+                                body = body.replace(first["id"], ",".join(chunk))
+                            res = page.evaluate("""async ([m, u, b, ct]) => { const r = await fetch(u, {method: m, credentials: 'include', headers: {'Content-Type': ct}, body: b}); return r.status; }""",
+                                                [r0["m"], url, body, r0["h"].get("content-type", "application/json")])
+                            out["log"].append(f"묶음 {k // 50 + 1}: {len(chunk)}통 → {res}")
+                            if res in (200, 204):
+                                done += len(chunk)
+                        else:
+                            # URL에 ID가 하나씩 들어가는 형식
+                            for mid in chunk:
+                                res = page.evaluate("""async ([m, u, b, ct]) => { const r = await fetch(u, {method: m, credentials: 'include', headers: {'Content-Type': ct}, body: b || undefined}); return r.status; }""",
+                                                    [r0["m"], url.replace(first["id"], mid), body.replace(first["id"], mid), r0["h"].get("content-type", "application/json")])
+                                if res in (200, 204):
+                                    done += 1
+            print(f"휴지통으로 옮김: {done}통", flush=True)
         if mode == "discover":
             # 화면에서 '(광고)' 메일 한 통을 골라 삭제 버튼을 눌러, 삭제 API 형식을 기록합니다.
             out["requests"] = []
