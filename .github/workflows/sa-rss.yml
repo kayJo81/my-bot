@@ -1,0 +1,19 @@
+name: Seeking Alpha RSS
+
+on:
+  workflow_dispatch:
+    inputs:
+      tickers:
+        description: "쉼표로 구분한 티커(비우면 워치리스트 전체)"
+        default: ""
+
+jobs:
+  rss:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch
+        run: |
+          python3 -u scripts/sa_rss.py sa_rss.json "${{ github.event.inputs.tickers }}"
+          python3 -c "import json;d=json.load(open('sa_rss.json'));[print(i['published'][:16],i['feed'],'|',i['title'][:100]) for i in d['items'][:15]]"
