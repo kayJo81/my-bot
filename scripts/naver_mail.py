@@ -59,9 +59,24 @@ def main():
                     out["shot_before"] = base64.b64encode(page.screenshot()).decode()
                     posts.clear()
                 try:
-                    btn = page.locator("button.button_delete, button[class*='delete']:visible, button:has-text('삭제'):visible").first
+                    # 메일 한 통 삭제 버튼만: 글자가 정확히 '삭제'이고 보이는 버튼(‘안읽음 삭제’, ‘모두 삭제’ 제외)
+                    btn = page.get_by_role("button", name="삭제", exact=True).locator("visible=true").first
                     btn.click(timeout=6000)
-                    page.wait_for_timeout(2500)
+                    page.wait_for_timeout(1500)
+                    modal = ""
+                    try:
+                        modal = page.locator("[role=dialog], .layer_popup, .popup_layer, .modal").filter(has_text="삭제").first.inner_text(timeout=1500)
+                    except Exception:
+                        pass
+                    if modal and ("모두" in modal or "안읽은" in modal or "안 읽은" in modal):
+                        page.get_by_role("button", name="취소").first.click()
+                        out["log"].append("위험한 확인창(모두 삭제)이 떠서 취소하고 중단")
+                        print("위험한 확인창 → 취소하고 중단", flush=True)
+                        break
+                    if modal:
+                        page.get_by_role("button", name="확인").first.click()
+                        page.wait_for_timeout(1500)
+                    page.wait_for_timeout(1000)
                     ok += 1
                     if os.environ.get("DEBUG") == "1":
                         out["after_url"] = page.url
