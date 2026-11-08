@@ -3,7 +3,7 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const { chromium } = require("playwright");
 const OUT = process.argv[2];
-const TOTAL = 11;
+const TOTAL = 12;
 const TAG = "림프종 정보 · 혈액검사와 예후 지표 이해하기";
 
 let seed = 7;
@@ -255,6 +255,44 @@ ${lineChart({ pts: ANC, h: 320, yMin: 0, yMax: 8000, split: 6, bands: [{ lo: 150
 <div style="text-align:left"><h2>혈소판(출혈)</h2>${lineChart({ pts: PLT, w: 470, h: 300, yMin: 0, yMax: 420, split: 6, small: true, show: [7, 8, 13], bands: [{ lo: 134, hi: 387, fill: "#e3f3ea", label: "" }], fmt: (v) => Math.round(v), color: "#8a4b1f" })}</div></div>
 <div class="box">항암 뒤 <b>7~14일</b>이 가장 낮은 시기예요. 제 경우 1차 뒤 혈색소 <b>10.3</b>, 혈소판 <b>39</b>까지 내려갔다가 회복했어요.</div></div>`);
 
+
+// ---------- 5. 낮을 때 조심할 것 ----------
+const svgI = (inner, c) => `<svg width="64" height="64" viewBox="0 0 64 64" style="flex:none"><circle cx="32" cy="32" r="30" fill="#fff" stroke="${c}" stroke-width="3"/>${inner}</svg>`;
+const I = {
+  hand: (c) => svgI(`<path d="M22 44 V24 a3 3 0 0 1 6 0 V32 M28 22 a3 3 0 0 1 6 0 V32 M34 24 a3 3 0 0 1 6 0 V34 M40 30 a3 3 0 0 1 6 0 V40 c0 7-5 12-12 12 h-2 c-6 0-10-4-10-8" fill="none" stroke="${c}" stroke-width="3" stroke-linecap="round"/><path d="M14 16 q3 4 0 8 M50 14 q3 4 0 8" fill="none" stroke="${c}" stroke-width="2.5"/>`, c),
+  mask: (c) => svgI(`<path d="M16 26 q16-8 32 0 v10 q-16 12-32 0z" fill="none" stroke="${c}" stroke-width="3"/><path d="M16 28 h-6 M48 28 h6 M22 30 h20 M22 35 h20" stroke="${c}" stroke-width="2.5"/>`, c),
+  temp: (c) => svgI(`<rect x="27" y="10" width="10" height="32" rx="5" fill="none" stroke="${c}" stroke-width="3"/><circle cx="32" cy="46" r="8" fill="${c}"/><rect x="30" y="24" width="4" height="20" fill="${c}"/><path d="M41 16 h6 M41 22 h6 M41 28 h6" stroke="${c}" stroke-width="2.5"/>`, c),
+  food: (c) => svgI(`<ellipse cx="32" cy="38" rx="18" ry="8" fill="none" stroke="${c}" stroke-width="3"/><path d="M24 30 q2-6 0-12 M32 30 q2-6 0-12 M40 30 q2-6 0-12" fill="none" stroke="${c}" stroke-width="2.5"/>`, c),
+  tooth: (c) => svgI(`<path d="M14 40 h26 M40 36 h10 v8 h-10z" fill="none" stroke="${c}" stroke-width="3"/><path d="M42 36 v-6 M45 36 v-6 M48 36 v-6" stroke="${c}" stroke-width="2.5"/>`, c),
+  pill: (c) => svgI(`<rect x="16" y="26" width="32" height="14" rx="7" fill="none" stroke="${c}" stroke-width="3" transform="rotate(-30 32 33)"/><path d="M14 50 L50 14" stroke="#d0503b" stroke-width="4"/>`, c),
+  fall: (c) => svgI(`<circle cx="26" cy="18" r="5" fill="${c}"/><path d="M26 24 l6 12 l10 4 M32 36 l-6 12 M28 28 l-10 6" fill="none" stroke="${c}" stroke-width="3" stroke-linecap="round"/><path d="M12 52 h40" stroke="${c}" stroke-width="2.5"/>`, c),
+  drop: (c) => svgI(`<path d="M32 12 C 24 26, 20 32, 20 38 a12 12 0 0 0 24 0 c0-6-4-12-12-26z" fill="${c}" opacity=".85"/>`, c),
+  stand: (c) => svgI(`<circle cx="32" cy="16" r="5" fill="${c}"/><path d="M32 22 v18 M32 40 l-6 12 M32 40 l6 12 M24 30 h16" fill="none" stroke="${c}" stroke-width="3" stroke-linecap="round"/><path d="M44 12 q4 4 0 8 q-4 4 0 8" fill="none" stroke="${c}" stroke-width="2"/>`, c),
+  bed: (c) => svgI(`<path d="M12 44 V24 M12 36 h40 v8 M20 30 h12 a4 4 0 0 1 0 6" fill="none" stroke="${c}" stroke-width="3"/><text x="40" y="26" font-size="12" fill="${c}" font-weight="800">z z</text>`, c),
+};
+const tip = (icon, t, d) => `<div style="display:flex;gap:14px;align-items:center;padding:9px 0">${icon}<div><div style="font-size:23px;font-weight:800">${t}</div><div style="font-size:19px;color:#4a465a;line-height:1.4">${d}</div></div></div>`;
+const careBox = (c, bg, title, sub, tips, alarm) => `<div class="card" style="padding:26px 30px"><div style="display:flex;align-items:center;gap:14px;margin-bottom:6px"><div style="background:${c};color:#fff;border-radius:12px;padding:6px 16px;font-size:28px;font-weight:800">${title}</div><div style="font-size:21px;color:#5e5a6e">${sub}</div></div>
+<div style="display:grid;grid-template-columns:1fr 1fr;column-gap:18px">${tips.join("")}</div>
+<div style="background:${bg};border-left:8px solid ${c};border-radius:12px;padding:12px 18px;font-size:21px;line-height:1.5;margin-top:8px"><b style="color:${c}">바로 연락·응급실</b> ${alarm}</div></div>`;
+const PC = pg(5, "WHEN IT'S LOW", "수치가 낮을 때<br>무엇을 조심할까", "호중구 → 감염 · 혈소판 → 출혈 · 혈색소 → 빈혈", `
+${careBox("#2f7f9a", "#e2f1f4", "호중구 ↓", "1,500 미만 · 특히 500 미만이면 감염 위험↑", [
+  tip(I.hand("#2f7f9a"), "손 씻기", "밖에서 돌아와서, 먹기 전, 화장실 후"),
+  tip(I.mask("#2f7f9a"), "마스크·사람 많은 곳 피하기", "감기 걸린 사람과 거리 두기"),
+  tip(I.temp("#2f7f9a"), "하루 2번 체온 재기", "해열제 먹기 전에 먼저 재기"),
+  tip(I.food("#2f7f9a"), "익힌 음식·깨끗한 물", "날음식·덜 익힌 고기·달걀 피하기"),
+], "38도 이상 열, 오한·떨림 → 호중구감소성 발열일 수 있어요")}
+${careBox("#8a4b1f", "#f6ece2", "혈소판 ↓", "참고치 미만 · 많이 낮을수록 출혈 위험↑", [
+  tip(I.tooth("#8a4b1f"), "부드러운 칫솔·전기면도기", "잇몸·피부 상처 줄이기"),
+  tip(I.fall("#8a4b1f"), "넘어짐·부딪힘 조심", "격한 운동·무거운 것 들기 피하기"),
+  tip(I.pill("#8a4b1f"), "아스피린·진통소염제 주의", "먹기 전에 주치의와 상의"),
+  tip(I.drop("#8a4b1f"), "코 세게 풀지 않기·변비 피하기", "힘줄 때 출혈 위험"),
+], "멈추지 않는 코피·잇몸 출혈, 검은 변·피 섞인 소변, 이유 없는 멍·붉은 점, 심한 두통")}
+${careBox("#b5174f", "#fbe6ee", "혈색소 ↓", "빈혈 · 산소를 나르는 힘이 부족", [
+  tip(I.stand("#b5174f"), "천천히 일어나기", "앉았다 일어날 때 어지러움 주의"),
+  tip(I.bed("#b5174f"), "쉬어 가며 움직이기", "피로는 자연스러운 증상, 무리하지 않기"),
+], "숨이 많이 차거나 가슴 두근거림·통증, 쓰러질 듯한 어지러움")}
+<div class="note" style="padding:0 48px">수혈이나 백혈구 촉진 주사(G-CSF)가 필요한지는 수치와 증상을 보고 주치의가 정해요. 위 내용은 일반적인 안내이며 병원 지침을 먼저 따릅니다.</div>`);
+
 // ---------- 5. 비율 지표 = 분수 ----------
 const chip = (t, c, bg) => `<span style="display:inline-block;background:${bg};color:${c};border:2px solid ${c};border-radius:10px;padding:3px 12px;font-size:22px;font-weight:800;margin:2px">${t}</span>`;
 const L_ = chip("림프구", COL.imm, COL.immBg), M_ = chip("단핵구", COL.inf, COL.infBg), N_ = chip("호중구", COL.inf, COL.infBg), PL_ = chip("혈소판", COL.inf, COL.infBg), A_ = chip("알부민", COL.nut, COL.nutBg), CR_ = chip("CRP", COL.inf, COL.infBg), LD_ = chip("LDH", COL.tum, COL.tumBg), UL_ = chip("정상 상한 200", "#5e5a6e", "#f1f0f4");
@@ -262,7 +300,7 @@ const frac = (name, top, bot, dir, cut) => `<div style="background:#faf9fd;borde
 <div style="width:118px;font-size:30px;font-weight:800;color:#4b3a8c;flex:none">${name}</div>
 <div style="text-align:center;flex:1"><div>${top}</div><div style="height:4px;background:#262233;border-radius:2px;margin:6px 10px"></div><div>${bot}</div></div>
 <div style="width:150px;flex:none;text-align:center"><div style="font-size:22px;font-weight:800;color:${dir === "up" ? COL.good : COL.bad}">${dir === "up" ? "높을수록 좋음" : "높을수록 나쁨"}</div><div style="font-size:18px;color:#5e5a6e;margin-top:4px;line-height:1.35">${cut}</div></div></div>`;
-const PR1 = pg(5, "BLOOD RATIOS", "혈액 비율 지표 = 나눗셈", "숫자 두 개를 나누면 '저울'이 된다", `
+const PR1 = pg(6, "BLOOD RATIOS", "혈액 비율 지표 = 나눗셈", "숫자 두 개를 나누면 '저울'이 된다", `
 <div class="card" style="display:flex;flex-direction:column;gap:10px">
 <div style="font-size:21px;margin-bottom:4px">${chip("내 편(면역)", COL.imm, COL.immBg)} ${chip("종양을 돕는 염증", COL.inf, COL.infBg)} ${chip("영양", COL.nut, COL.nutBg)} ${chip("종양 자체", COL.tum, COL.tumBg)}</div>
 ${frac("LMR", L_, M_, "up", "2.6 이하면 불리")}
@@ -290,7 +328,7 @@ function tug() {
   return s + "</svg>";
 }
 const why = (c, bg, t, d) => `<div style="display:flex;gap:14px;align-items:flex-start;padding:12px 0;border-bottom:1px solid #efedf5"><div style="flex:none">${chip(t, c, bg)}</div><div style="font-size:21px;line-height:1.5;color:#3d3950">${d}</div></div>`;
-const PW = pg(6, "WHY THEY MATTER", "왜 예후와 관련될까", "몸 안에서는 '면역 대 염증' 줄다리기가 벌어진다", `
+const PW = pg(7, "WHY THEY MATTER", "왜 예후와 관련될까", "몸 안에서는 '면역 대 염증' 줄다리기가 벌어진다", `
 <div class="card">${tug()}
 <div class="box" style="margin-top:0">비율 지표는 <b>이 줄다리기에서 누가 이기고 있는지</b>를 숫자로 보여 줘요. 내 편이 강할수록 같은 치료도 더 잘 듣는 경향이 있습니다.</div></div>
 <div class="card">
@@ -302,7 +340,7 @@ ${why(COL.tum, COL.tumBg, "LDH 비율", "<b>종양의 양과 자라는 속도</b
 
 // ---------- 7. 내 비율 그래프 (좋음/나쁨 구간 색) ----------
 const sm = (o) => lineChart({ w: 1000, h: 280, split: 6, ...o, bands: (o.bands || []).map((b) => ({ ...b, label: "" })) });
-const PR2 = pg(7, "MY RATIOS", "내 비율 지표의 흐름", "초록 = 유리한 구간, 빨강 = 불리한 구간", `
+const PR2 = pg(8, "MY RATIOS", "내 비율 지표의 흐름", "초록 = 유리한 구간, 빨강 = 불리한 구간", `
 <div class="card"><h2>LMR (림프구 ÷ 단핵구)</h2>${sm({ pts: LMRs, yMin: 0, yMax: 5, bands: [{ lo: 2.6, hi: 5, fill: "#e3f3ea", label: "유리" , tc: COL.good}, { lo: 0, hi: 2.6, fill: "#fbe0db", label: "불리(2.6 이하)", tc: COL.bad }], fmt: (v) => (+v).toFixed(1), color: "#2f7f9a" })}</div>
 <div class="card"><h2>NLR (호중구 ÷ 림프구)</h2>${sm({ pts: NLRs, yMin: 0, yMax: 6, bands: [{ lo: 4, hi: 6, fill: "#fbe0db", label: "높음(4 이상)", tc: COL.bad }, { lo: 0, hi: 3, fill: "#e3f3ea", label: "" }], fmt: (v) => (+v).toFixed(1), color: "#b5174f" })}</div>
 <div class="card"><h2>림프구 수 (ALC, /μL)</h2>${sm({ pts: ALCs, yMin: 0, yMax: 2500, bands: [{ lo: 1000, hi: 2500, fill: "#e3f3ea", label: "", tc: COL.good }, { lo: 0, hi: 1000, fill: "#fbe0db", label: "불리(1,000 미만)", tc: COL.bad }], fmt: (v) => Math.round(v).toLocaleString(), color: "#4b3a8c" })}
@@ -324,7 +362,7 @@ const heat = () => {
   for (const [name, vals, f, fm] of rows) t += `<tr><td style="font-size:20px;font-weight:800;padding:0 4px">${name}</td>${vals.map((v, i) => v == null ? `<td style="background:#f6f5f9;border-radius:8px;height:62px"></td>` : `<td style="background:${bgc[f(v, i)]};border-radius:8px;height:62px;text-align:center;font-size:17px;font-weight:800">${fm(v)}</td>`).join("")}</tr>`;
   return t + "</table>";
 };
-const PR3 = pg(8, "TRAFFIC LIGHT", "신호등으로 한눈에", "제 기록 13번을 색으로 칠하면", `
+const PR3 = pg(9, "TRAFFIC LIGHT", "신호등으로 한눈에", "제 기록 13번을 색으로 칠하면", `
 <div class="card">${heat()}
 <div style="font-size:20px;margin-top:16px">${zone(bgc.g, "유리")}${zone(bgc.y, "경계")}${zone(bgc.r, "불리")}${zone(bgc.n, "치료 영향(호중구 최저)")}</div>
 <div class="box">관찰기는 거의 초록이었는데, <b>형질전환 전 마지막 검사(25.4)</b>에서 LMR·NLR이 먼저 빨갛게 변했어요. 치료 직전엔 <b>LDH가 정상 상한의 약 7배</b>였습니다. 치료 중 색은 약의 영향이라 치료 뒤 다시 봐야 해요.</div>
@@ -333,7 +371,7 @@ const PR3 = pg(8, "TRAFFIC LIGHT", "신호등으로 한눈에", "제 기록 13�
 // ---------- 9. 나머지 항목 ----------
 const it = (name, easy, up, down, c, bg) => `<div style="background:${bg};border-radius:16px;padding:14px 16px"><div style="font-size:24px;font-weight:800;color:${c}">${name}</div><div style="font-size:19px;color:#3d3950;margin-top:2px">${easy}</div>
 <div style="font-size:19px;margin-top:8px;line-height:1.4"><b style="color:${COL.bad}">▲</b> ${up}</div>${down ? `<div style="font-size:19px;line-height:1.4"><b style="color:#2f6fb0">▼</b> ${down}</div>` : ""}</div>`;
-const P4 = pg(9, "OTHER ITEMS", "나머지 항목 한눈에", "▲ 높으면 · ▼ 낮으면 (일반적인 경향)", `
+const P4 = pg(10, "OTHER ITEMS", "나머지 항목 한눈에", "▲ 높으면 · ▼ 낮으면 (일반적인 경향)", `
 <div class="card"><div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
 ${it("요산·인·칼륨", "세포가 깨질 때 나오는 물질", "첫 항암 직후 급증 → 종양용해증후군 주의", "", COL.tum, COL.tumBg)}
 ${it("β2-마이크로글로불린", "림프구 표면에서 떨어진 단백", "종양 양이 많음 → 예후 점수에 쓰임", "", COL.tum, COL.tumBg)}
@@ -349,7 +387,7 @@ ${it("글로불린·IgG", "항체(면역)", "", "리툭시맙 뒤 흔함 → 감
 // ---------- 10. IPI 체크리스트 ----------
 const chk = (t, d) => `<div style="display:flex;align-items:center;gap:16px;padding:12px 0;border-bottom:1px solid #efedf5"><div style="width:40px;height:40px;border:3px solid #4b3a8c;border-radius:8px;flex:none;display:flex;align-items:center;justify-content:center;color:#4b3a8c;font-size:26px;font-weight:800">+1</div><div><div style="font-size:25px;font-weight:800">${t}</div><div style="font-size:19px;color:#5e5a6e">${d}</div></div></div>`;
 const seg = (t, s, c) => `<div style="flex:1;background:${c};padding:14px 6px;text-align:center"><div style="font-size:24px;font-weight:800">${t}</div><div style="font-size:18px">${s}</div></div>`;
-const P5 = pg(10, "PROGNOSIS · DLBCL", "IPI: 해당하면 1점씩", "공격성 림프종(DLBCL)에서 진단 때 매기는 점수", `
+const P5 = pg(11, "PROGNOSIS · DLBCL", "IPI: 해당하면 1점씩", "공격성 림프종(DLBCL)에서 진단 때 매기는 점수", `
 <div class="card">
 ${chk("나이 60세 초과", "")}
 ${chk("LDH가 참고치 상한 초과", "피검사로 확인")}
@@ -371,7 +409,7 @@ function deauville() {
   return s + "</svg>";
 }
 const bar = (t, v, mx, c) => `<div style="display:flex;align-items:center;gap:12px;margin:8px 0"><div style="width:150px;font-size:21px;font-weight:800">${t}</div><div style="flex:1;background:#f1f0f4;border-radius:8px;height:34px"><div style="width:${v / mx * 100}%;min-width:40px;height:34px;background:${c};border-radius:8px"></div></div><div style="width:90px;font-size:22px;font-weight:800;text-align:right">${v}</div></div>`;
-const P6 = pg(11, "FL · PET", "여포성 림프종 지표와 PET 점수", "FLIPI · POD24 · Deauville", `
+const P6 = pg(12, "FL · PET", "여포성 림프종 지표와 PET 점수", "FLIPI · POD24 · Deauville", `
 <div class="card"><h2>여포성 림프종(FL) 점수</h2>
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
 ${it("FLIPI", "나이·병기·혈색소·LDH·림프절 부위 수", "3개 이상이면 고위험", "", COL.tum, COL.tumBg)}
@@ -385,7 +423,7 @@ ${bar("치료 전", 25.65, 26, "#c8432b")}${bar("중간 PET", 5.15, 26, "#e7a07e
 
 const b = await chromium.launch();
 const p = await b.newPage({ viewport: { width: 1080, height: 800 }, deviceScaleFactor: 1 });
-for (const [i, html] of [P1, PS, P2, P3, PR1, PW, PR2, PR3, P4, P5, P6].entries()) {
+for (const [i, html] of [P1, PS, P2, P3, PC, PR1, PW, PR2, PR3, P4, P5, P6].entries()) {
   await p.setContent(html, { waitUntil: "load" });
   await p.waitForTimeout(300);
   await p.screenshot({ path: `${OUT}/pre-${i + 1}.jpg`, type: "jpeg", quality: 90, fullPage: true });
