@@ -266,7 +266,7 @@ def main() -> None:
             link = page.locator(f"a._modifyPost[class*='_param({edit_no}|']").first
             if not link.count():
                 sys.exit(f"{edit_no}번 글의 수정 링크를 찾지 못했습니다(삭제됐거나 권한 없음).")
-            link.click()
+            link.evaluate("e => e.click()")  # 메뉴 안에 숨은 링크라 스크립트로 클릭
             page.wait_for_timeout(6000)
         else:
             page.goto(f"https://blog.naver.com/{blog_id}?Redirect=Write", wait_until="domcontentloaded")
