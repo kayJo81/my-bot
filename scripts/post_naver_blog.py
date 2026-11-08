@@ -308,8 +308,10 @@ def main() -> None:
                 page.wait_for_timeout(800)
                 imgs = fr.locator(".se-component.se-image").count()
                 texts = fr.locator(".se-component.se-text").count()
-                left = fr.evaluate("() => [...document.querySelectorAll('.se-component.se-text')].map(e => e.innerText.trim()).join('').length")
-                print(f"본문 비우기: 이미지 {imgs}, 글 상자 {texts}, 남은 글자 {left}", flush=True)
+                left_txt = fr.evaluate("""() => [...document.querySelectorAll('.se-component.se-text .se-text-paragraph')]
+                    .map(p => { const c = p.cloneNode(true); c.querySelectorAll('.se-placeholder, [class*=placeholder]').forEach(x => x.remove()); return c.textContent.replace(/\u200b/g, '').trim(); }).join('')""")
+                left = len(left_txt)
+                print(f"본문 비우기: 이미지 {imgs}, 글 상자 {texts}, 남은 글자 {left} {left_txt[:20]!r}", flush=True)
                 if imgs == 0 and left == 0:
                     break
             else:
