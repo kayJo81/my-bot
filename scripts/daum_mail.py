@@ -41,10 +41,11 @@ def main():
                     pass
         page.on("request", on_req)
         page.on("response", on_resp)
-        page.goto("https://mail.daum.net/top/INBOX", wait_until="domcontentloaded")
+        page.goto("https://mail.daum.net/", wait_until="domcontentloaded")
         page.wait_for_timeout(8000)
         out["log"].append(page.url[:80])
         if "kakao.com" in page.url or "logins.daum" in page.url:
+            print("도착:", page.url.split("?")[0][:60], flush=True)
             sys.exit("로그인이 풀려 있습니다(DAUM_COOKIES 갱신 필요).")
         if mode == "probe":
             out["html_sample"] = page.content()[:3000]
