@@ -102,12 +102,32 @@ def main():
                 page.wait_for_timeout(6000)
                 try:
                     row = page.locator("li, tr").filter(has_text=first["subject"][:20]).first
-                    row.locator("input[type=checkbox], label[for], [class*=check]").first.click(timeout=6000)
-                    page.wait_for_timeout(800)
-                    page.get_by_role("button", name="삭제", exact=True).locator("visible=true").first.click(timeout=6000)
+                    cb = row.locator("input.tf_check, input[type=checkbox]").first
+                    try:
+                        cb.check(force=True, timeout=5000)
+                    except Exception:
+                        cb.evaluate("el => { el.click(); }")
+                    page.wait_for_timeout(1000)
+                    out["log"].append(f"체크됨: {cb.is_checked()}")
+                    btns = page.locator("button, a[role=button]").filter(has_text=re.compile(r"^\s*삭제\s*$")).locator("visible=true")
+                    out["log"].append(f"삭제 버튼 후보 {btns.count()}개")
+                    btns.first.click(timeout=6000)
+                    page.wait_for_timeout(1500)
+                    modal = ""
+                    try:
+                        modal = page.locator("[role=dialog], .layer_popup, [class*=layer], [class*=modal]").filter(has_text="삭제").locator("visible=true").first.inner_text(timeout=1500)
+                    except Exception:
+                        pass
+                    if modal and ("모두" in modal or "전체" in modal):
+                        out["log"].append("전체 삭제 확인창이 떠서 취소")
+                        page.keyboard.press("Escape")
+                    elif modal:
+                        out["log"].append(f"확인창: {modal[:40]}")
+                        page.get_by_role("button", name=re.compile("확인|삭제")).locator("visible=true").last.click(timeout=4000)
                     page.wait_for_timeout(3000)
                 except Exception as e:  # noqa: BLE001
                     out["log"].append(f"첫 삭제 실패 {e}"[:300])
+                    out["buttons"] = page.evaluate("""() => [...document.querySelectorAll('button, a[role=button]')].filter(b=>b.offsetParent).map(b=>(b.innerText||b.getAttribute('aria-label')||b.title||'').trim().slice(0,15)).slice(0,60)""")
                 dels = [r for r in out["requests"] if r["m"] in ("POST", "PUT", "PATCH", "DELETE") and first["id"] in (r["u"] + r["body"])]
                 out["delete_req"] = dels[:2]
                 if dels:
