@@ -33,7 +33,14 @@ def main():
         page = ctx.new_page()
         page.set_default_timeout(25000)
         reqs = []
-        page.on("request", lambda rq: reqs.append((rq.url, rq.post_data or "")) if "mail.naver.com/json" in rq.url and rq.method == "POST" else None)
+        def _rq(rq):
+            if "mail.naver.com/json" in rq.url:
+                body = rq.post_data or ""
+                u = rq.url
+                if not body and "?" in u:
+                    u, body = u.split("?", 1)
+                reqs.append((u, body))
+        page.on("request", _rq)
         page.goto("https://mail.naver.com/", wait_until="domcontentloaded")
         page.wait_for_timeout(6000)
         if "nid.naver.com" in page.url:
@@ -45,7 +52,8 @@ def main():
             """첫 쪽 요청 형식을 받아 나머지 쪽을 같은 형식으로 받습니다."""
             n = 0
             for pg in range(1, 400):
-                body = body_first.replace("page=1&", f"page={pg}&", 1) if pg > 1 else body_first
+                import re as _re
+                body = _re.sub(r"(^|&)page=1(&|$)", lambda m_: f"{m_.group(1)}page={pg}{m_.group(2)}", body_first, count=1) if pg > 1 else body_first
                 if pg > 1 and body == body_first:
                     break
                 j = page.evaluate(FETCH, [url_tmpl_first, body])
@@ -72,6 +80,7 @@ def main():
                 out["log"].append(f"{s['q']}: 검색 요청을 못 잡음")
                 continue
             u, body = sr[-1]
+            out.setdefault("search_req", []).append((u, body[:300]))
             if "page=" not in body:
                 body = "page=1&" + body
             emails = [e.lower() for e in s.get("email", [])]
@@ -94,7 +103,8 @@ def main():
             try:
                 page.get_by_text("프로모션", exact=True).first.click()
                 page.wait_for_timeout(5000)
-                lr = [r for r in reqs if "/json/" in r[0] and ("list" in r[0] or "mail" in r[0]) and "page" in r[1]]
+                lr = [r for r in reqs if "page=" in r[1]]
+                out["promo_all"] = [(r[0], r[1][:200]) for r in reqs][-8:]
                 out["promo_req"] = [(r[0], r[1][:300]) for r in lr[-3:]]
                 if lr:
                     u, body = lr[-1]
