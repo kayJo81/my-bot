@@ -230,20 +230,20 @@ ${gauge({ val: 12.2, lo: 12.5, hi: 17.5, min: 8, max: 18, label: "혈색소 ", f
 <div class="box" style="margin-top:4px">참고치를 <b>살짝</b> 벗어난 건 흔해요. 얼마나 벗어났는지가 중요합니다.</div></div>
 <div class="card">${stepHd(2, "내 평소값과 비교하면?", "치료 전 여러 번 잰 값 = 개인 기준선")}
 ${gauge({ val: 241, lo: 100, hi: 200, min: 80, max: 280, mine: [119, 152], label: "LDH ", fmt: (v) => v })}
-<div class="box" style="margin-top:4px">참고치(200)만 보면 '조금 높음'이지만, <b>내 평소값(119~152)</b>보다는 꽤 높아요.</div></div>
+<div class="box" style="margin-top:4px">제 병원 참고치(상한 200)만 보면 '조금 높음'이지만, <b>내 평소값(119~152)</b>보다는 꽤 높아요.</div></div>
 <div class="card">${stepHd(3, "흐름은 어느 쪽?", "한 번의 값보다 여러 번의 방향")}
 ${spark([3060, 476, 1548, 2928], 900, 130, "#2f7f9a")}
 <div class="box" style="margin-top:4px">호중구가 476까지 떨어졌다가 <b>다시 오르는 중</b>이면 회복 신호예요.</div></div>`);
 
 // ---------- 3·4. LDH, 혈구 (그래프 유지) ----------
 const P2 = pg(3, "LDH", "LDH: 종양 활동의 온도계", "제 기록: 관찰기 5회 → R-CHOP 치료기 (로그 눈금)", `
-<div class="card">${lineChart({ pts: LDH, yMin: 100, yMax: 10000, log: true, split: 6, bands: [{ lo: 100, hi: 200, fill: "#e8e6ee", label: "참고치 100~200" }, { lo: 119, hi: 152, fill: "#bfe3d6", op: 0.8, label: "", tc: "#1f6f80" }], fmt: (v) => v >= 1000 ? v.toLocaleString() : v })}
-<div class="legend"><span><i class="sw" style="background:#bfe3d6;border-radius:4px"></i>내 평소값 119~152</span><span><i class="sw" style="background:#e8e6ee;border-radius:4px"></i>참고치 100~200</span></div>
+<div class="card">${lineChart({ pts: LDH, yMin: 100, yMax: 10000, log: true, split: 6, bands: [{ lo: 100, hi: 200, fill: "#e8e6ee", label: "" }, { lo: 119, hi: 152, fill: "#bfe3d6", op: 0.8, label: "", tc: "#1f6f80" }], fmt: (v) => v >= 1000 ? v.toLocaleString() : v })}
+<div class="legend"><span><i class="sw" style="background:#bfe3d6;border-radius:4px"></i>내 평소값 119~152</span><span><i class="sw" style="background:#e8e6ee;border-radius:4px"></i>제 병원 참고치 100~200</span></div>
 <div class="steps" style="margin-top:22px">
 <div class="step">${ico("평온", COL.good, "#e6f4ec", 92)}<div class="t">관찰기<br><b>119~152</b></div></div><div class="arrow">→</div>
 <div class="step">${ico("폭등", COL.bad, "#fbe6e2", 92)}<div class="t">형질전환<br><b>1,387 → 7,000</b></div></div><div class="arrow">→</div>
 <div class="step">${ico("하강", COL.imm, COL.immBg, 92)}<div class="t">항암 뒤<br><b>200 안팎</b></div></div></div>
-<div class="note">LDH는 근육 운동·용혈(채혈 때 적혈구 깨짐)로도 올라요. 한 번보다 추세로 봅니다.</div></div>`);
+<div class="note">LDH 참고치(정상 상한)는 <b>병원·검사 방법마다 달라요</b>. 다른 병원 결과는 그 결과지의 참고치와 비교하세요. LDH는 근육 운동·용혈로도 올라 한 번보다 추세로 봅니다.</div></div>`);
 
 const zone = (c, t) => `<span style="display:inline-flex;align-items:center;gap:8px;margin-right:18px"><i style="width:22px;height:22px;border-radius:5px;background:${c};display:inline-block"></i>${t}</span>`;
 const P3 = pg(4, "CBC", "항암 중 혈구: 언제 조심할까", "초록·노랑·빨강 구간으로 보는 호중구·혈색소·혈소판", `
@@ -295,7 +295,7 @@ ${careBox("#b5174f", "#fbe6ee", "혈색소 ↓", "빈혈 · 산소를 나르는 
 
 // ---------- 5. 비율 지표 = 분수 ----------
 const chip = (t, c, bg) => `<span style="display:inline-block;background:${bg};color:${c};border:2px solid ${c};border-radius:10px;padding:3px 12px;font-size:22px;font-weight:800;margin:2px">${t}</span>`;
-const L_ = chip("림프구", COL.imm, COL.immBg), M_ = chip("단핵구", COL.inf, COL.infBg), N_ = chip("호중구", COL.inf, COL.infBg), PL_ = chip("혈소판", COL.inf, COL.infBg), A_ = chip("알부민", COL.nut, COL.nutBg), CR_ = chip("CRP", COL.inf, COL.infBg), LD_ = chip("LDH", COL.tum, COL.tumBg), UL_ = chip("정상 상한 200", "#5e5a6e", "#f1f0f4");
+const L_ = chip("림프구", COL.imm, COL.immBg), M_ = chip("단핵구", COL.inf, COL.infBg), N_ = chip("호중구", COL.inf, COL.infBg), PL_ = chip("혈소판", COL.inf, COL.infBg), A_ = chip("알부민", COL.nut, COL.nutBg), CR_ = chip("CRP", COL.inf, COL.infBg), LD_ = chip("LDH", COL.tum, COL.tumBg), UL_ = chip("정상 상한(병원마다 다름)", "#5e5a6e", "#f1f0f4");
 const frac = (name, top, bot, dir, cut) => `<div style="background:#faf9fd;border:2px solid #ece9f4;border-radius:18px;padding:14px 16px;display:flex;align-items:center;gap:14px">
 <div style="width:118px;font-size:30px;font-weight:800;color:#4b3a8c;flex:none">${name}</div>
 <div style="text-align:center;flex:1"><div>${top}</div><div style="height:4px;background:#262233;border-radius:2px;margin:6px 10px"></div><div>${bot}</div></div>
@@ -365,8 +365,8 @@ const heat = () => {
 const PR3 = pg(9, "TRAFFIC LIGHT", "신호등으로 한눈에", "제 기록 13번을 색으로 칠하면", `
 <div class="card">${heat()}
 <div style="font-size:20px;margin-top:16px">${zone(bgc.g, "유리")}${zone(bgc.y, "경계")}${zone(bgc.r, "불리")}${zone(bgc.n, "치료 영향(호중구 최저)")}</div>
-<div class="box">관찰기는 거의 초록이었는데, <b>형질전환 전 마지막 검사(25.4)</b>에서 LMR·NLR이 먼저 빨갛게 변했어요. 치료 직전엔 <b>LDH가 정상 상한의 약 7배</b>였습니다. 치료 중 색은 약의 영향이라 치료 뒤 다시 봐야 해요.</div>
-<div class="note">색 기준: 림프구 1,500·1,000 / LMR 3·2.6 / NLR 3·4 / PNI 45·40 / LDH 비율 1·3. 연구마다 기준값은 다르며 개인의 예후를 정하지 않습니다.</div></div>`);
+<div class="box">관찰기는 거의 초록이었는데, <b>형질전환 전 마지막 검사(25.4)</b>에서 LMR·NLR이 먼저 빨갛게 변했어요. 치료 직전엔 <b>LDH가 제 병원 정상 상한의 약 7배</b>였습니다. 치료 중 색은 약의 영향이라 치료 뒤 다시 봐야 해요.</div>
+<div class="note">색 기준: 림프구 1,500·1,000 / LMR 3·2.6 / NLR 3·4 / PNI 45·40 / LDH 비율 1·3(제 병원 상한 200 기준). 연구마다 기준값은 다르며 개인의 예후를 정하지 않습니다.</div></div>`);
 
 // ---------- 9. 나머지 항목 ----------
 const it = (name, easy, up, down, c, bg) => `<div style="background:${bg};border-radius:16px;padding:14px 16px"><div style="font-size:24px;font-weight:800;color:${c}">${name}</div><div style="font-size:19px;color:#3d3950;margin-top:2px">${easy}</div>
