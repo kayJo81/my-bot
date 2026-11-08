@@ -1,0 +1,36 @@
+name: Naver mail (encrypted output)
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "search 또는 trash"
+        default: "search"
+      keywords:
+        description: "검색어, 여러 개는 | 로 구분"
+        required: true
+
+jobs:
+  mail:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          pip install playwright==1.47.0
+          python -m playwright install --with-deps chromium
+      - name: Run and encrypt
+        env:
+          NAVER_COOKIES: ${{ secrets.NAVER_COOKIES }}
+          MODE: ${{ github.event.inputs.mode }}
+          KW: ${{ github.event.inputs.keywords }}
+        run: |
+          python -u scripts/naver_mail.py "$MODE" "$KW" || true
+          [ -f naver_mail_out.json ] || echo '{}' > naver_mail_out.json
+          gzip -9 naver_mail_out.json
+          openssl cms -encrypt -aes256 -binary -in naver_mail_out.json.gz -outform PEM scripts/cafe_cert.pem > enc.pem
+          echo "=====ENC-BEGIN"; cat enc.pem; echo "=====ENC-END"
+          rm -f naver_mail_out.json.gz enc.pem naver_mail_fail.png
