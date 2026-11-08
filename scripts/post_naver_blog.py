@@ -80,17 +80,17 @@ def load_post(d: Path):
     return title, blocks
 
 
-def load_cookies():
-    raw = os.environ.get("NAVER_COOKIES", "").strip()
+def load_cookies(env="NAVER_COOKIES", domain=".naver.com"):
+    raw = os.environ.get(env, "").strip()
     if not raw:
-        sys.exit("NAVER_COOKIES가 없습니다.")
+        sys.exit(f"{env}가 없습니다.")
     data = json.loads(raw)
     out = []
     for c in data:
         ck = {
             "name": c["name"],
             "value": c["value"],
-            "domain": c.get("domain", ".naver.com"),
+            "domain": c.get("domain", domain),
             "path": c.get("path", "/"),
             "secure": bool(c.get("secure", True)),
             "httpOnly": bool(c.get("httpOnly", False)),
