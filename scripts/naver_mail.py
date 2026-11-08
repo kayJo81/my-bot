@@ -71,7 +71,13 @@ def main():
                     for pg in range(2, min(last, 20) + 1):
                         u = real.replace("page=1&", f"page={pg}&", 1)
                         try:
-                            jj = page.evaluate("async (u) => { const r = await fetch(u, {credentials: 'include'}); return await r.json(); }", u)
+                            jj = page.evaluate("""async (u) => {
+                                const [base, qs] = u.split('?');
+                                let r = await fetch(base, {method: 'POST', credentials: 'include',
+                                    headers: {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}, body: qs});
+                                let t = await r.text();
+                                if (!t) { r = await fetch(u, {method: 'POST', credentials: 'include'}); t = await r.text(); }
+                                return JSON.parse(t); }""", u)
                             rows += jj.get("mailData", [])
                         except Exception as e:  # noqa: BLE001
                             out["log"].append(f"{kw} p{pg} 실패 {e}"[:200])
