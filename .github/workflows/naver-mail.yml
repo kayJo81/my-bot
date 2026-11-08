@@ -6,6 +6,9 @@ on:
       mode:
         description: "search, list, trash"
         default: "search"
+      debug:
+        description: "1이면 화면 기록"
+        default: "0"
       keywords:
         description: "검색어, 여러 개는 | 로 구분"
         required: true
@@ -27,6 +30,7 @@ jobs:
           NAVER_COOKIES: ${{ secrets.NAVER_COOKIES }}
           MODE: ${{ github.event.inputs.mode }}
           KW: ${{ github.event.inputs.keywords }}
+          DEBUG: ${{ github.event.inputs.debug }}
         run: |
           python -u scripts/naver_mail.py "$MODE" "$KW" || true
           [ -f naver_mail_out.json ] || echo '{}' > naver_mail_out.json

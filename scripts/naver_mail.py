@@ -45,16 +45,27 @@ def main():
         if mode == "trashsn":
             # kws: "folderSN:mailSN" 목록. 메일을 하나씩 열어 툴바의 '삭제'(휴지통 이동)를 누릅니다.
             posts = []
-            page.on("request", lambda rq: posts.append(rq.url.split("?")[0][:120]) if rq.method == "POST" and "mail.naver.com/json" in rq.url else None)
+            page.on("request", lambda rq: posts.append(rq.method + " " + rq.url.split("?")[0][:120]) if "mail.naver.com" in rq.url and "/json" in rq.url else None)
+            import base64
             ok = 0
             for item in kws:
                 fsn, msn = item.split(":")
                 page.goto(f"https://mail.naver.com/v2/read/{fsn}/{msn}", wait_until="domcontentloaded")
                 page.wait_for_timeout(2500)
+                if os.environ.get("DEBUG") == "1":
+                    out["buttons"] = page.evaluate("""() => [...document.querySelectorAll('button, a[role=button]')]
+                        .filter(b => (b.innerText||'').includes('삭제') || (b.getAttribute('aria-label')||'').includes('삭제') || (b.title||'').includes('삭제'))
+                        .map(b => ({t: (b.innerText||'').trim().slice(0,20), cls: b.className.slice(0,80), aria: b.getAttribute('aria-label'), title: b.title, vis: !!b.offsetParent}))""")
+                    out["shot_before"] = base64.b64encode(page.screenshot()).decode()
+                    posts.clear()
                 try:
-                    page.locator("button:has-text('삭제'):visible").first.click(timeout=6000)
-                    page.wait_for_timeout(1500)
+                    btn = page.locator("button.button_delete, button[class*='delete']:visible, button:has-text('삭제'):visible").first
+                    btn.click(timeout=6000)
+                    page.wait_for_timeout(2500)
                     ok += 1
+                    if os.environ.get("DEBUG") == "1":
+                        out["after_url"] = page.url
+                        out["shot_after"] = base64.b64encode(page.screenshot()).decode()
                 except Exception as e:  # noqa: BLE001
                     out["log"].append(f"{msn} 실패 {e}"[:160])
             out["log"].append(f"삭제 요청 POST: {sorted(set(posts))}")
