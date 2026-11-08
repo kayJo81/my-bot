@@ -39,6 +39,7 @@ Actions → "Send premarket briefing mail" → Run workflow → 날짜 입력.
 | Variable | `NAVER_BLOG_ID` | 블로그 아이디 (blog.naver.com/아이디) |
 | Variable (선택) | `NAVER_PUBLISH` | `0`이면 임시저장만, 없으면 바로 발행 |
 | Secret | `SEEKING_ALPHA_COOKIES` | 시킹알파 로그인 쿠키(Cookie-Editor → Export → JSON). 확인: Actions → "Seeking Alpha cookie check" |
+| Secret | `DAUM_COOKIES` | Daum 로그인 쿠키(daum.net에서 Cookie-Editor → Export → JSON). 확인: Actions → "Daum cookie check" |
 
 시험: Actions → "Post to Naver blog" → Run workflow → 폴더 입력. 실패하면 실행 결과의 `naver-screenshots`를 확인합니다.
 

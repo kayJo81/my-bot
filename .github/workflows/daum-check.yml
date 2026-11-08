@@ -1,0 +1,21 @@
+name: Daum cookie check
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          pip install playwright==1.47.0
+          python -m playwright install --with-deps chromium
+      - name: Check
+        env:
+          DAUM_COOKIES: ${{ secrets.DAUM_COOKIES }}
+        run: python -u scripts/daum_check.py
