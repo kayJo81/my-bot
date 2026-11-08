@@ -16,7 +16,7 @@ from playwright.sync_api import sync_playwright  # noqa: E402
 
 
 def main():
-    mode, kws = sys.argv[1], [k.strip() for k in sys.argv[2].split("|") if k.strip()]
+    mode, kws = sys.argv[1], [k.strip() for k in sys.argv[2].replace(",", "|").split("|") if k.strip()] if sys.argv[1] == "trashsn" else [k.strip() for k in sys.argv[2].split("|") if k.strip()]
     out = {"mode": mode, "results": [], "api": [], "log": []}
     with sync_playwright() as p:
         b = p.chromium.launch(headless=True)
@@ -42,6 +42,24 @@ def main():
         if "nid.naver.com" in page.url:
             sys.exit("로그인이 풀려 있습니다(NAVER_COOKIES 갱신 필요).")
 
+        if mode == "trashsn":
+            # kws: "folderSN:mailSN" 목록. 메일을 하나씩 열어 툴바의 '삭제'(휴지통 이동)를 누릅니다.
+            posts = []
+            page.on("request", lambda rq: posts.append(rq.url.split("?")[0][:120]) if rq.method == "POST" and "mail.naver.com/json" in rq.url else None)
+            ok = 0
+            for item in kws:
+                fsn, msn = item.split(":")
+                page.goto(f"https://mail.naver.com/v2/read/{fsn}/{msn}", wait_until="domcontentloaded")
+                page.wait_for_timeout(2500)
+                try:
+                    page.locator("button:has-text('삭제'):visible").first.click(timeout=6000)
+                    page.wait_for_timeout(1500)
+                    ok += 1
+                except Exception as e:  # noqa: BLE001
+                    out["log"].append(f"{msn} 실패 {e}"[:160])
+            out["log"].append(f"삭제 요청 POST: {sorted(set(posts))}")
+            print(f"삭제(휴지통) {ok}/{len(kws)}건", flush=True)
+            kws = []
         for kw in kws:
             box = page.locator("input[type='search'], input[placeholder*='검색'], input#searchKeyword, input[name='keyword']").first
             try:
