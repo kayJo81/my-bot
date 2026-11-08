@@ -1,0 +1,36 @@
+name: Daum mail (encrypted output)
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "probe, list, trash"
+        default: "probe"
+      arg:
+        description: "list: 쪽수 / trash: 메일 ID 목록(쉼표)"
+        default: ""
+
+jobs:
+  mail:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          pip install playwright==1.47.0
+          python -m playwright install --with-deps chromium
+      - name: Run and encrypt
+        env:
+          DAUM_COOKIES: ${{ secrets.DAUM_COOKIES }}
+          MODE: ${{ github.event.inputs.mode }}
+          ARG: ${{ github.event.inputs.arg }}
+        run: |
+          python -u scripts/daum_mail.py "$MODE" "$ARG" || true
+          [ -f daum_mail_out.json ] || echo '{}' > daum_mail_out.json
+          gzip -9 daum_mail_out.json
+          openssl cms -encrypt -aes256 -binary -in daum_mail_out.json.gz -outform PEM scripts/cafe_cert.pem > enc.pem
+          echo "=====ENC-BEGIN"; cat enc.pem; echo "=====ENC-END"
+          rm -f daum_mail_out.json.gz enc.pem
