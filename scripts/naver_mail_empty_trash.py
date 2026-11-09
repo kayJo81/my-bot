@@ -86,67 +86,66 @@ def main():
         page.goto("https://mail.naver.com/v2/folders/4", wait_until="domcontentloaded")
         page.wait_for_timeout(6000)
         before = counts.get("list_total") or trash_count(page)
-        print("주소:", page.url.split("?")[0], flush=True)
-        btns = page.evaluate("""() => [...document.querySelectorAll('button, a[role=button], [role=button]')]
-            .filter(e => e.offsetParent !== null || e.getClientRects().length)
-            .map(e => ((e.innerText || e.getAttribute('aria-label') || e.title || '').trim().replace(/\\s+/g,' ')) + ' | ' + (e.className||'').toString().slice(0,40))
-            .filter(t => t.split(' | ')[0].length > 0 && t.split(' | ')[0].length <= 12)""")
-        print("화면 버튼:", flush=True)
-        for t in btns[:80]:
-            print("   ", t, flush=True)
-        empties = page.evaluate("""() => [...document.querySelectorAll('*')].filter(e => /비우기/.test(e.innerText||'') && e.children.length===0).map(e => e.tagName + ' ' + (e.className||'').toString().slice(0,40) + ' vis=' + (e.getClientRects().length>0))""")
-        print("비우기 글자 요소:", empties[:10], flush=True)
+        diag = {"menu": [], "after_select": [], "modal": [], "reqs": []}
+        def _rq(rq):
+            if "mail.naver.com/json" in rq.url and rq.method == "POST":
+                path = rq.url.split("mail.naver.com", 1)[1].split("?", 1)[0]
+                body = rq.post_data or ""
+                keys = [kv.split("=", 1)[0] + ("=" + kv.split("=", 1)[1][:30] if kv.split("=", 1)[0] in ("folderSN", "folderSNList", "allSelect", "isAll", "selectAll", "currentFolderType", "deleteSpamDirect") else "") for kv in body.split("&") if kv]
+                diag["reqs"].append(path + " " + " ".join(keys)[:300])
+        page.on("request", _rq)
         print("휴지통 메일 수(비우기 전):", before, flush=True)
-
+        vis = lambda sel: page.evaluate("""(sel) => [...document.querySelectorAll(sel)].filter(e => e.getClientRects().length).map(e => (e.innerText||e.getAttribute('aria-label')||'').trim().replace(/\\s+/g,' ').slice(0,30)).filter(Boolean)""", sel)
+        # 1) 선택 옵션 열고 '전체' 항목 누르기
         clicked = False
-        for sel in ["button:has-text('휴지통 비우기')", "a:has-text('휴지통 비우기')",
-                    "button:has-text('비우기')", "a:has-text('비우기')"]:
-            loc = page.locator(sel)
-            n = loc.count()
-            for i in range(n):
-                el = loc.nth(i)
-                try:
-                    if not el.is_visible():
-                        el.hover(force=True)
-                    el.click(timeout=5000, force=True)
-                    clicked = True
-                    print("누른 버튼:", sel, flush=True)
-                    break
-                except Exception:
-                    continue
-            if clicked:
-                break
-        if not clicked:
-            # 사이드바의 휴지통 항목 위에 올리면 비우기 버튼이 나타나는 경우
-            try:
-                page.get_by_text("휴지통", exact=True).first.hover()
-                page.wait_for_timeout(800)
-                page.locator("text=비우기").first.click(timeout=5000, force=True)
+        try:
+            page.locator("button.button_task_dropdown", has_text="메일 선택 옵션").first.click(timeout=5000)
+        except Exception:
+            page.get_by_role("button", name="메일 선택 옵션").first.click(timeout=5000)
+        page.wait_for_timeout(1200)
+        diag["menu"] = vis("[role=menu] *, [class*=dropdown] li, [class*=layer] li, [class*=option] li")[:40]
+        for t in ["전체 선택", "전체", "모두 선택"]:
+            loc = page.locator(f"li:visible:has-text('{t}'), button:visible:has-text('{t}'), a:visible:has-text('{t}')")
+            if loc.count():
+                loc.first.click(timeout=5000)
+                print("선택 옵션:", t, flush=True)
                 clicked = True
-                print("누른 버튼: 사이드바 비우기", flush=True)
-            except Exception as e:
-                print("비우기 버튼을 찾지 못했습니다:", type(e).__name__, flush=True)
-        page.wait_for_timeout(2500)
-        # 화면 안의 확인 창
-        for txt in ["확인", "비우기", "삭제"]:
-            loc = page.locator(f"[role='dialog'] button:has-text('{txt}'), .layer_popup button:has-text('{txt}'), .popup button:has-text('{txt}'), [class*='layer'] button:has-text('{txt}')")
+                break
+        page.wait_for_timeout(1500)
+        # 2) '메일함 전체 n통 선택' 같은 안내가 나오면 누르기
+        diag["after_select"] = vis("[class*=notice] *, [class*=select] a, [class*=select] button, [class*=all] a, [class*=all] button")[:30]
+        for t in ["모두 선택", "전체 선택", "모든 메일"]:
+            loc = page.locator(f"a:visible:has-text('{t}'), button:visible:has-text('{t}')")
             if loc.count():
                 try:
-                    loc.last.click(timeout=5000)
-                    print("확인 창:", txt, flush=True)
-                    break
+                    loc.first.click(timeout=4000)
+                    print("메일함 전체 선택:", t, flush=True)
                 except Exception:
                     pass
+                break
+        page.wait_for_timeout(1500)
+        # 3) 영구삭제
+        if clicked:
+            page.locator("button.svg_permanent_delete").first.click(timeout=8000)
+            print("영구삭제를 눌렀습니다", flush=True)
+            page.wait_for_timeout(2000)
+            diag["modal"] = vis("[role=dialog] *, [class*=layer] button, [class*=popup] button, [class*=modal] button")[:30]
+            for t in ["영구삭제", "삭제", "확인"]:
+                loc = page.locator(f"[role=dialog] button:has-text('{t}'), [class*=layer] button:has-text('{t}'), [class*=popup] button:has-text('{t}'), [class*=modal] button:has-text('{t}')")
+                if loc.count():
+                    try:
+                        loc.last.click(timeout=5000)
+                        print("확인 창:", t, flush=True)
+                        break
+                    except Exception:
+                        pass
         page.wait_for_timeout(15000)
         counts.pop("list_total", None)
         page.goto("https://mail.naver.com/v2/folders/4", wait_until="domcontentloaded")
         page.wait_for_timeout(8000)
         after = counts.get("list_total") or trash_count(page)
         print("휴지통 메일 수(비우기 후):", after, flush=True)
-        print("요청 경로:", flush=True)
-        for x in paths:
-            if re.search(r"empty|delete|remove|folder", x, re.I):
-                print("  ", x, flush=True)
+        json.dump(diag, open("empty_trash_diag.json", "w"), ensure_ascii=False, indent=1)
         b.close()
 
 

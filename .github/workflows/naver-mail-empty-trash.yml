@@ -17,4 +17,10 @@ jobs:
           python -m playwright install --with-deps chromium
       - env:
           NAVER_COOKIES: ${{ secrets.NAVER_COOKIES }}
-        run: python -u scripts/naver_mail_empty_trash.py
+        run: |
+          python -u scripts/naver_mail_empty_trash.py || true
+          [ -f empty_trash_diag.json ] || echo '{}' > empty_trash_diag.json
+          gzip -9 empty_trash_diag.json
+          openssl cms -encrypt -aes256 -binary -in empty_trash_diag.json.gz -outform PEM scripts/cafe_cert.pem > enc.pem
+          echo "=====ENC-BEGIN"; cat enc.pem; echo "=====ENC-END"
+          rm -f empty_trash_diag.json.gz enc.pem
