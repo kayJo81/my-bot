@@ -86,11 +86,21 @@ def main():
         page.goto("https://mail.naver.com/v2/folders/4", wait_until="domcontentloaded")
         page.wait_for_timeout(6000)
         before = counts.get("list_total") or trash_count(page)
+        print("주소:", page.url.split("?")[0], flush=True)
+        btns = page.evaluate("""() => [...document.querySelectorAll('button, a[role=button], [role=button]')]
+            .filter(e => e.offsetParent !== null || e.getClientRects().length)
+            .map(e => ((e.innerText || e.getAttribute('aria-label') || e.title || '').trim().replace(/\\s+/g,' ')) + ' | ' + (e.className||'').toString().slice(0,40))
+            .filter(t => t.split(' | ')[0].length > 0 && t.split(' | ')[0].length <= 12)""")
+        print("화면 버튼:", flush=True)
+        for t in btns[:80]:
+            print("   ", t, flush=True)
+        empties = page.evaluate("""() => [...document.querySelectorAll('*')].filter(e => /비우기/.test(e.innerText||'') && e.children.length===0).map(e => e.tagName + ' ' + (e.className||'').toString().slice(0,40) + ' vis=' + (e.getClientRects().length>0))""")
+        print("비우기 글자 요소:", empties[:10], flush=True)
         print("휴지통 메일 수(비우기 전):", before, flush=True)
 
         clicked = False
         for sel in ["button:has-text('휴지통 비우기')", "a:has-text('휴지통 비우기')",
-                    "button:has-text('비우기')", "a:has-text('비우기')", "[class*='empty']:visible"]:
+                    "button:has-text('비우기')", "a:has-text('비우기')"]:
             loc = page.locator(sel)
             n = loc.count()
             for i in range(n):
