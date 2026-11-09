@@ -105,8 +105,18 @@ def main():
                 page.get_by_role("button", name="메일 선택 옵션").first.click(timeout=5000)
             page.wait_for_timeout(1200)
             diag["menu"] = vis("[role=menu] *, [class*=dropdown] li, [class*=layer] li, [class*=option] li")[:40]
-            for t in ["전체 선택", "전체", "모두 선택"]:
-                loc = page.locator(f"li:visible:has-text('{t}'), button:visible:has-text('{t}'), a:visible:has-text('{t}')")
+            # 사이드바 휴지통에 마우스를 올렸을 때 나타나는 버튼 이름 기록
+            try:
+                page.keyboard.press("Escape")
+                page.locator("a:has-text('휴지통'), button:has-text('휴지통')").last.hover()
+                page.wait_for_timeout(800)
+                diag["sidebar_hover"] = page.evaluate("""() => [...document.querySelectorAll('nav button, aside button, [class*=lnb] button, [class*=folder] button')].filter(e=>e.getClientRects().length).map(e=>(e.innerText||e.getAttribute('aria-label')||e.title||'').trim()+' | '+(e.className||'').toString().slice(0,40)).slice(0,40)""")
+                page.locator("button.button_task_dropdown", has_text="메일 선택 옵션").first.click(timeout=5000)
+                page.wait_for_timeout(1000)
+            except Exception as e:
+                diag["sidebar_err"] = type(e).__name__
+            for t in ["전체선택"]:
+                loc = page.get_by_text(t, exact=True)
                 if loc.count():
                     loc.first.click(timeout=5000)
                     print("선택 옵션:", t, flush=True)
