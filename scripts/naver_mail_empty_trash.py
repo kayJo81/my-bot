@@ -96,49 +96,60 @@ def main():
         page.on("request", _rq)
         print("휴지통 메일 수(비우기 전):", before, flush=True)
         vis = lambda sel: page.evaluate("""(sel) => [...document.querySelectorAll(sel)].filter(e => e.getClientRects().length).map(e => (e.innerText||e.getAttribute('aria-label')||'').trim().replace(/\\s+/g,' ').slice(0,30)).filter(Boolean)""", sel)
-        # 1) 선택 옵션 열고 '전체' 항목 누르기
-        clicked = False
         try:
-            page.locator("button.button_task_dropdown", has_text="메일 선택 옵션").first.click(timeout=5000)
-        except Exception:
-            page.get_by_role("button", name="메일 선택 옵션").first.click(timeout=5000)
-        page.wait_for_timeout(1200)
-        diag["menu"] = vis("[role=menu] *, [class*=dropdown] li, [class*=layer] li, [class*=option] li")[:40]
-        for t in ["전체 선택", "전체", "모두 선택"]:
-            loc = page.locator(f"li:visible:has-text('{t}'), button:visible:has-text('{t}'), a:visible:has-text('{t}')")
-            if loc.count():
-                loc.first.click(timeout=5000)
-                print("선택 옵션:", t, flush=True)
-                clicked = True
-                break
-        page.wait_for_timeout(1500)
-        # 2) '메일함 전체 n통 선택' 같은 안내가 나오면 누르기
-        diag["after_select"] = vis("[class*=notice] *, [class*=select] a, [class*=select] button, [class*=all] a, [class*=all] button")[:30]
-        for t in ["모두 선택", "전체 선택", "모든 메일"]:
-            loc = page.locator(f"a:visible:has-text('{t}'), button:visible:has-text('{t}')")
-            if loc.count():
-                try:
-                    loc.first.click(timeout=4000)
-                    print("메일함 전체 선택:", t, flush=True)
-                except Exception:
-                    pass
-                break
-        page.wait_for_timeout(1500)
-        # 3) 영구삭제
-        if clicked:
-            page.locator("button.svg_permanent_delete").first.click(timeout=8000)
-            print("영구삭제를 눌렀습니다", flush=True)
-            page.wait_for_timeout(2000)
-            diag["modal"] = vis("[role=dialog] *, [class*=layer] button, [class*=popup] button, [class*=modal] button")[:30]
-            for t in ["영구삭제", "삭제", "확인"]:
-                loc = page.locator(f"[role=dialog] button:has-text('{t}'), [class*=layer] button:has-text('{t}'), [class*=popup] button:has-text('{t}'), [class*=modal] button:has-text('{t}')")
+            # 1) 선택 옵션 열고 '전체' 항목 누르기
+            clicked = False
+            try:
+                page.locator("button.button_task_dropdown", has_text="메일 선택 옵션").first.click(timeout=5000)
+            except Exception:
+                page.get_by_role("button", name="메일 선택 옵션").first.click(timeout=5000)
+            page.wait_for_timeout(1200)
+            diag["menu"] = vis("[role=menu] *, [class*=dropdown] li, [class*=layer] li, [class*=option] li")[:40]
+            for t in ["전체 선택", "전체", "모두 선택"]:
+                loc = page.locator(f"li:visible:has-text('{t}'), button:visible:has-text('{t}'), a:visible:has-text('{t}')")
+                if loc.count():
+                    loc.first.click(timeout=5000)
+                    print("선택 옵션:", t, flush=True)
+                    clicked = True
+                    break
+            page.wait_for_timeout(1500)
+            # 2) '메일함 전체 n통 선택' 같은 안내가 나오면 누르기
+            diag["after_select"] = vis("[class*=notice] *, [class*=select] a, [class*=select] button, [class*=all] a, [class*=all] button")[:30]
+            for t in ["모두 선택", "전체 선택", "모든 메일"]:
+                loc = page.locator(f"a:visible:has-text('{t}'), button:visible:has-text('{t}')")
                 if loc.count():
                     try:
-                        loc.last.click(timeout=5000)
-                        print("확인 창:", t, flush=True)
-                        break
+                        loc.first.click(timeout=4000)
+                        print("메일함 전체 선택:", t, flush=True)
                     except Exception:
                         pass
+                    break
+            page.wait_for_timeout(1500)
+            # 3) 영구삭제
+            if clicked:
+                page.locator("button.svg_permanent_delete").first.click(timeout=8000)
+                print("영구삭제를 눌렀습니다", flush=True)
+                page.wait_for_timeout(2000)
+                diag["modal"] = vis("[role=dialog] *, [class*=layer] button, [class*=popup] button, [class*=modal] button")[:30]
+                for t in ["영구삭제", "삭제", "확인"]:
+                    loc = page.locator(f"[role=dialog] button:has-text('{t}'), [class*=layer] button:has-text('{t}'), [class*=popup] button:has-text('{t}'), [class*=modal] button:has-text('{t}')")
+                    if loc.count():
+                        try:
+                            loc.last.click(timeout=5000)
+                            print("확인 창:", t, flush=True)
+                            break
+                        except Exception:
+                            pass
+
+        except Exception as e:
+            print("중단:", type(e).__name__, str(e).split("\n")[0][:120], flush=True)
+            import base64
+            try:
+                diag["shot"] = base64.b64encode(page.screenshot(type="jpeg", quality=60)).decode()
+            except Exception:
+                pass
+            json.dump(diag, open("empty_trash_diag.json", "w"), ensure_ascii=False)
+            raise
         page.wait_for_timeout(15000)
         counts.pop("list_total", None)
         page.goto("https://mail.naver.com/v2/folders/4", wait_until="domcontentloaded")
