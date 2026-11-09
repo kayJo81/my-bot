@@ -1,0 +1,147 @@
+2026년 11월 9일 개장 전 섹터별 이슈체크
+
+2026년 11월 9일 월요일 개장 전 섹터별 이슈체크입니다. 한국시간 15:30~21:27 사이 나온 소식과 미국 프리마켓 흐름을 정리했어요. 프리마켓 등락률은 금요일 종가 대비이며, 21:27 무렵 기준입니다.
+
+[그림1]
+
+오늘 밤 가장 큰 변수는 엔비디아입니다. 젠슨 황 CEO를 둘러싼 이사회 조사 소식에 엔비디아만 6% 넘게 빠지고 있는데, 나스닥100 선물은 오후 한때 1% 밀렸다가 오히려 상승으로 돌아섰어요. 여기가 중요한 부분인데, 시장이 이번 일을 AI 업황 전체의 문제보다는 엔비디아 한 회사의 지배구조 문제로 나눠 보고 있다는 신호로 읽힙니다.
+
+[그림2]
+
+엔비디아 이사회는 사외이사들로 위원회를 꾸리고 외부 변호인을 붙여 조사하기로 했고, 황 CEO는 조사 기간에도 자리를 지키며 협조하겠다고 밝혔어요. 회사는 국가안보나 영업비밀이 새어 나갔다고 볼 근거는 없다고 했지만, 상대 여성이 중국 정보기관과 연결돼 있다는 미국 관리들의 주장이 나오면서 단순한 사생활 문제로 끝나지 않을 수 있다는 우려가 커졌습니다.
+
+[그림3]
+
+흥미로운 건 같은 시간 AMD와 브로드컴, TSMC는 오르고 있다는 점이에요. 투자자들이 AI 반도체 수요 자체를 의심하기보다 엔비디아에서 다른 AI 칩으로 돈을 옮기는 모습으로 볼 수 있어,, 정규장에서도 이 엇갈림이 이어지는지 보는 게 중요합니다. 중국 외교부는 연루설을 부인했고, 약 60만 개로 알려진 엔비디아 칩 수입 승인 문제에는 답을 피했어요.
+
+[그림4]
+
+나스닥100 선물은 엔비디아 충격이 커진 16시 50분께 금요일보다 1% 낮은 저점을 찍었는데, 바로 직후 중국이 미국 기업을 겨냥한 수출통제 유예를 연장한다는 소식이 나오면서 회복이 시작됐어요. 시점이 겹칠 뿐 이것만으로 반등을 설명할 수는 없지만, 미중 관계가 더 나빠지지 않는다는 신호가 엔비디아 리스크를 일부 상쇄한 것으로 보입니다.
+
+[그림5]
+
+저녁에는 이란 대통령이 협상 의사를 밝히고 호르무즈 문제에서 이란이 양보했다는 확인되지 않은 보도까지 나오면서 유가가 3% 안팎 떨어졌어요. 메타·아마존·마이크로소프트가 2%대로 오르는 등 엔비디아를 뺀 대형 기술주가 지수를 받치고 있고, 모건스탠리와 JP모건도 조정이 막바지에 가깝다는 의견을 냈습니다.
+
+[그림6]
+
+엔비디아는 CEO 조사와 별개로 한국에서 SK텔레콤·리벨리온과 AI 추론 시스템을 함께 만들고 업스테이지 등 스타트업에 투자하는 계획을 그대로 이어 가고 있어요. 지배구조 불확실성이 커진 상황이라, 이런 사업 발표가 주가를 받칠 수 있을지는 정규장에서 확인해야 합니다.
+
+[그림7]
+
+애플은 아이패드와 맥북의 AI 기능이 중국 승인을 받아, 아이폰에 이어 중국에서 AI 기능을 쓸 수 있는 기기가 늘어나게 됐어요. 알파벳은 홍콩달러·싱가포르달러 채권 발행을 검토한다는 보도가 나왔는데, 자금 조달 통화를 넓히려는 움직임이에요.
+
+[그림8]
+
+테슬라는 머스크가 사이버트럭 주문이 생산량보다 훨씬 많다고 말하면서, 라인을 정리하기 전까지 남은 주문을 채우겠다는 기존 설명을 다시 강조했어요. 미국 민주당이 머스크 등에 대한 조사를 추진한다는 소식도 있어, 중간선거 이후 정치 리스크가 테슬라와 스페이스X에 어떻게 작용할지 지켜봐야 합니다.
+
+[그림9]
+
+스페이스X는 머스크가 엔비디아 칩을 쓴 우주 데이터센터를 2027년 3분기에 쏘아 올리겠다는 목표를 내놓으면서 프리마켓에서 2%대 오르고 있어요. 로켓랩은 오늘 장 마감 뒤 실적을 내는데, 금요일에 이미 15% 급등한 만큼 가이던스와 뉴트론 로켓 일정이 기대에 못 미치면 되돌림이 나올 수 있습니다.
+
+[그림10]
+
+S&P가 아카마이 신용등급을 투기 등급인 BB+로 낮춘 이유가 앤트로픽용 설비 투자를 빚으로 조달한다는 점이었어요. AI 기업과 맺은 대형 계약이 매출 기대를 키우는 동시에 공급사의 재무 부담을 키울 수 있다는 걸 보여 주는 사례라, 비슷한 계약을 가진 다른 인프라 기업에도 같은 잣대가 적용될 수 있습니다.
+
+[그림11]
+
+먼데이닷컴은 3분기 매출이 회사 가이던스를 넘고 이익률도 크게 좋아졌는데, 프리마켓에서는 4% 빠지고 있어요. 4분기 전망과 실적 발표 뒤 설명이 정규장 흐름을 가를 것으로 보입니다.
+
+[그림12]
+
+NRG는 가스발전소 일부를 팔아 자사주 매입과 빚 상환에 쓰기로 했고, 컨스텔레이션은 3분기 조정 이익이 전년보다 60% 넘게 늘었어요. 데이터센터 전력 수요가 발전 자산의 몸값을 끌어올리고 있다는 점이 다시 확인된 셈입니다.
+
+[그림13]
+
+반면 소프트뱅크는 미국 데이터센터 성장이 둔화될 가능성에 대비하고 미국 네오클라우드 사업도 다시 따져 보겠다고 해, 코어위브·IREN 같은 네오클라우드가 프리마켓에서 약세예요. 노르웨이는 데이터센터가 늘리는 전력망 비용을 사업자가 내야 한다고 밝혔는데, 미국 중간선거 이후 나온 지역 반발과 같은 흐름이 유럽에서도 나타나고 있습니다.
+
+[그림14]
+
+메모리 쪽에서는 삼성과 SK하이닉스가 EUV 장비를 먼저 확보하려고 경쟁하고 ASML이 공급 부족을 경고하면서, 장비가 다음 병목이 될 수 있다는 이야기가 나와요. 다만 프리마켓에서 메모리주는 약보합이고, SK하이닉스 ADR은 2% 넘게 빠져 있습니다.
+
+[그림15]
+
+TSMC는 엔비디아용 3D DRAM을 만든다는 보도가 나온 뒤 파운드리 사업에 집중하겠다는 입장을 다시 밝혔고, 대만의 엔비디아 공급망 주식은 황 CEO 조사에도 강세였어요. 머스크의 테라팹이 2032년 월 100만 장이라는 큰 목표를 장비 업체에 전달했다는 소식도 있어, 장비주 수주 기대와 실현 가능성을 함께 따져 볼 필요가 있습니다.
+
+[그림16]
+
+비트코인 ETF에서는 지난주 12억 8천만 달러가 빠져나가 6월 하순 이후 가장 큰 주간 유출을 기록했고, 대부분이 블랙록 IBIT에서 나왔어요. 코인베이스가 연방 신탁 인가를 정식으로 받은 건 제도권 진입 측면에서 의미가 크지만, 프리마켓에서는 위험자산 회피 분위기 속에 코인베이스와 스트래티지가 약세입니다.
+
+출처 링크 (2026-11-09 KST)
+· Nvidia Board to Probe Spying Case After CEO Jensen Huang Admits Infidelity (블룸버그): https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity
+· Nvidia stock falls 5% as scrutiny turns to Jensen Huang's relationship with alleged Chinese spy (CNBC): https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html
+· Nvidia Shares Fall More Than 4% as Board Investigates Allegations Involving CEO Jensen Huang (야후 파이낸스): https://finance.yahoo.com/markets/stocks/articles/nvidia-shares-fall-more-4-111021784.html
+· 交易平台Tradegate行情显示，英伟达较周五美股收盘下跌4.5% (시나): https://finance.sina.cn/7x24/2026-11-09/detail-iniycmtu6270209.d.html
+· 美官员称与黄仁勋婚外情女子为中国情报机构工作，外交部：纯属捕风捉影 (시나): https://finance.sina.cn/7x24/2026-11-09/detail-iniycmty6548491.d.html
+· 英伟达盘前股价暴跌6% (시나): https://finance.sina.cn/7x24/2026-11-09/detail-iniycrzz3336836.d.html
+· Aletheia Capital将英伟达的评级下调至持有 (시나): https://finance.sina.cn/7x24/2026-11-09/detail-iniycrzz3354108.d.html
+· NVIDIA (NVDA) (야후 파이낸스): https://finance.yahoo.com/quote/NVDA/
+· Advanced Micro Devices (AMD) (야후 파이낸스): https://finance.yahoo.com/quote/AMD/
+· Broadcom (AVGO) (야후 파이낸스): https://finance.yahoo.com/quote/AVGO/
+· TSMC ADR (TSM) (야후 파이낸스): https://finance.yahoo.com/quote/TSM/
+· 美股期货走低，纳斯达克100指数期货跌超1% (월스트리트견문): https://wallstreetcn.com/livenews/3196770
+· China to extend suspension of exports controls targeting US companies (FinancialJuice): https://www.financialjuice.com/News/9843033/China-to-extend-suspension-of-exports-controls-targeting-US-companies.aspx?xy=rss
+· 商务部：继续暂停对韩华海洋5家美国相关子公司实施反制措施 (시나): https://finance.sina.cn/7x24/2026-11-09/detail-iniycmty6584237.d.html
+· 未经证实的报道称伊朗在霍尔木兹问题上作出让步 (월스트리트견문): https://wallstreetcn.com/livenews/3196911
+· 伊朗总统：伊朗愿意谈判以结束不战不和局面 (월스트리트견문): https://wallstreetcn.com/livenews/3196922
+· 摩根士丹利：美股回调接近尾声 (시나): https://finance.sina.cn/7x24/2026-11-09/detail-iniycmua3327731.d.html
+· 摩根大通依旧看好美股 (월스트리트견문): https://wallstreetcn.com/livenews/3196942
+· E-mini Nasdaq 100 (NQ=F) (야후 파이낸스): https://finance.yahoo.com/quote/NQ%3DF/
+· E-mini S&P 500 (ES=F) (야후 파이낸스): https://finance.yahoo.com/quote/ES%3DF/
+· WTI Crude Oil (CL=F) (야후 파이낸스): https://finance.yahoo.com/quote/CL%3DF/
+· Brent Crude Oil (BZ=F) (야후 파이낸스): https://finance.yahoo.com/quote/BZ%3DF/
+· Meta Platforms (META) (야후 파이낸스): https://finance.yahoo.com/quote/META/
+· Amazon (AMZN) (야후 파이낸스): https://finance.yahoo.com/quote/AMZN/
+· Microsoft (MSFT) (야후 파이낸스): https://finance.yahoo.com/quote/MSFT/
+· Alphabet (GOOGL) (야후 파이낸스): https://finance.yahoo.com/quote/GOOGL/
+· Apple (AAPL) (야후 파이낸스): https://finance.yahoo.com/quote/AAPL/
+· NVIDIA to invest in Korean AI startup Point2 (FinancialJuice): https://www.financialjuice.com/News/9843036/NVIDIA-to-invest-in-Korean-AI-startup-Point2.aspx?xy=rss
+· NVIDIA plans investments in Motif Tech, Rlwrld, upstage (FinancialJuice): https://www.financialjuice.com/News/9843037/NVIDIA-plans-investments-in-Motif-Tech-Rlwrld-upstage.aspx?xy=rss
+· 英伟达、SK电信、Rebellions将联合搭建AI异构计算系统 (시나): https://finance.sina.cn/7x24/2026-11-09/detail-iniycmty6524198.d.html
+· 中方尚未批准约60万枚英伟达先进芯片进口，外交部：建议询问主管部门 (월스트리트견문): https://wallstreetcn.com/livenews/3196759
+· Apple's AI features on iPad, Macbook get China's approval (FinancialJuice): https://www.financialjuice.com/News/9843232/Apples-AI-features-on-Ipad-Macbook-get-Chinas-approval.aspx?xy=rss
+· 报道：Alphabet考虑发行港元和新加坡元债券 (월스트리트견문): https://wallstreetcn.com/livenews/3196721
+· Meta正将青少年账户保护措施扩展至全球 (시나): https://finance.sina.cn/7x24/2026-11-09/detail-iniycwis2832195.d.html
+· 马斯克：Cybertruck的订单量远超我们的产量 (시나): https://finance.sina.cn/7x24/2026-11-09/detail-iniycmua3326533.d.html
+· 美民主党拟对马斯克等发起调查 (시나): https://finance.sina.cn/7x24/2026-11-09/detail-iniycrzu2866632.d.html
+· Tesla (TSLA) (야후 파이낸스): https://finance.yahoo.com/quote/TSLA/
+· Musk targets 3Q27 launch for Nvidia-powered space data centers (DIGITIMES): https://www.digitimes.com/
+· 马斯克：SpaceX与Anthropic算力合约并非单向押注 (시나): https://finance.sina.cn/7x24/2026-11-09/detail-iniycmua3356628.d.html
+· SpaceX (SPCX) (야후 파이낸스): https://finance.yahoo.com/quote/SPCX/
+· Rocket Lab Announces Date of Third Quarter 2026 Financial Results (로켓랩 IR): https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-announces-date-third-quarter-2026-financial-results
+· Rocket Lab (RKLB) (야후 파이낸스): https://finance.yahoo.com/quote/RKLB/
+· 标普：因为ANTHROPIC资本支出提供债务融资，AKAMAI评级下调至BB+ (시나): https://finance.sina.com.cn/7x24/
+· Riding the AI wave: a credit divergence tale of Akamai and Marvell (S&P 글로벌): https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/riding-the-ai-wave-a-credit-divergence-tale-of-akamai-and-marvell
+· Akamai (AKAM) (야후 파이낸스): https://finance.yahoo.com/quote/AKAM/
+· monday.com Q3 2026 results (Form 6-K) (SEC): https://www.sec.gov/Archives/edgar/data/0001845338/000117891326005085/exhibit_99-1.htm
+· monday.com (MNDY) (야후 파이낸스): https://finance.yahoo.com/quote/MNDY/
+· 字节跳动发布Seedream 5.5 (시나): https://finance.sina.cn/7x24/2026-11-09/detail-iniycrzy3302241.d.html
+· 千问办公2.0发布 (시나): https://finance.sina.cn/7x24/2026-11-09/detail-iniycmtu6300805.d.html
+· Sakana AI计划最早2027年秋季进行IPO (월스트리트견문): https://wallstreetcn.com/livenews/3196790
+· NRG Energy to sell 4.9 GW to LS Power (Form 8-K) (SEC): https://www.sec.gov/Archives/edgar/data/0001013871/000110465926124147/tm2629302d1_ex99-1.htm
+· NRG能源将以40亿美元现金向LS Power出售4.9吉瓦天然气资产 (월스트리트견문): https://wallstreetcn.com/livenews/3196938
+· Constellation Energy Q3 2026 results (Form 8-K) (SEC): https://www.sec.gov/Archives/edgar/data/0001868275/000186827526000116/ceg-20261109991.htm
+· NRG Energy (NRG) (야후 파이낸스): https://finance.yahoo.com/quote/NRG/
+· Constellation Energy (CEG) (야후 파이낸스): https://finance.yahoo.com/quote/CEG/
+· 软银集团：正在做好准备，应对美国数据中心业务增长可能放缓 (시나): https://finance.sina.cn/7x24/2026-11-09/detail-iniycmtu6316642.d.html
+· 软银集团：或将重新评估美国Neocloud业务 (시나): https://finance.sina.cn/7x24/2026-11-09/detail-iniycmtw2967239.d.html
+· IREN (IREN) (야후 파이낸스): https://finance.yahoo.com/quote/IREN/
+· CoreWeave (CRWV) (야후 파이낸스): https://finance.yahoo.com/quote/CRWV/
+· Nebius (NBIS) (야후 파이낸스): https://finance.yahoo.com/quote/NBIS/
+· 挪威数字化部长：有必要对数据中心扩张加以管控 (시나): https://finance.sina.cn/7x24/2026-11-09/detail-iniycrzz3323971.d.html
+· 挪威能源部长：数据中心必须为其给电网增加的成本付费 (시나): https://finance.sina.cn/7x24/2026-11-09/detail-iniycrzu2868026.d.html
+· South Korea Industry Minister: Do not believe AI investment will slow due to US midterm election (FinancialJuice): https://www.financialjuice.com/News/9842938/South-Korea-Industry-Minister-Do-not-believe-AI-investment-will-slow-due-to-us-midterm-election---Yonhap.aspx?xy=rss
+· Vertiv (VRT) (야후 파이낸스): https://finance.yahoo.com/quote/VRT/
+· Arista Networks (ANET) (야후 파이낸스): https://finance.yahoo.com/quote/ANET/
+· SK海力士拟扩充美国团队 (시나): https://finance.sina.cn/7x24/2026-11-09/detail-iniycmua3323824.d.html
+· 三星电子蚀刻工艺配方泄露至泛林韩国子公司 (시나): https://finance.sina.cn/7x24/2026-11-09/detail-iniycmty6531180.d.html
+· SK hynix ADR (SKHY) (야후 파이낸스): https://finance.yahoo.com/quote/SKHY/
+· Sandisk (SNDK) (야후 파이낸스): https://finance.yahoo.com/quote/SNDK/
+· Micron (MU) (야후 파이낸스): https://finance.yahoo.com/quote/MU/
+· TSMC reaffirms foundry focus after report of 3D DRAM plans for Nvidia (DIGITIMES): https://www.digitimes.com/news/a20261109VL202/
+· 马斯克的TeraFab工厂目标从2032年起实现每月100万片晶圆产能 (시나): https://finance.sina.cn/7x24/2026-11-09/detail-iniycrzw6493690.d.html
+· 比特币ETF上周净流出12.817亿美元 (시나): https://finance.sina.cn/7x24/2026-11-09/detail-iniycrzy3307009.d.html
+· Coinbase获得联邦银行监管机构颁发的美国完全信托牌照 (시나): https://finance.sina.cn/7x24/2026-11-09/detail-iniycrzz3369019.d.html
+· Strategy (MSTR) (야후 파이낸스): https://finance.yahoo.com/quote/MSTR/
+· Coinbase (COIN) (야후 파이낸스): https://finance.yahoo.com/quote/COIN/
+
+그림 대응(PDF 쪽 번호): 그림1=요약, 그림2=이슈1(1/2), 그림3=이슈1(2/2), 그림4=이슈2(1/2), 그림5=이슈2(2/2), 그림6=메가테크(1/2), 그림7=메가테크(2/2), 그림8=모빌리티(1/2), 그림9=모빌리티(2/2), 그림10=AI 소프트웨어(1/2), 그림11=AI 소프트웨어(2/2), 그림12=AI 인프라(1/2), 그림13=AI 인프라(2/2), 그림14=반도체(1/2), 그림15=반도체(2/2), 그림16=크립토
