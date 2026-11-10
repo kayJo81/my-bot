@@ -86,29 +86,54 @@ def main():
 
         # 받은메일함 목록 요청 형식
         out["all_paths"] = sorted(set(r[0].split("mail.naver.com", 1)[-1] for r in reqs))
-        if not any("/json/list" in r[0] for r in reqs):
-            try:
-                page.locator("a:has-text('받은메일함'), button:has-text('받은메일함')").first.click(timeout=6000)
-                page.wait_for_timeout(5000)
-            except Exception as e:  # noqa: BLE001
-                out["log"].append(f"받은메일함 클릭 실패 {type(e).__name__}")
-            out["all_paths2"] = sorted(set(r[0].split("mail.naver.com", 1)[-1] for r in reqs))
-        lr = [r for r in reqs if re.search(r"/json/list/?$", r[0]) or re.search(r"/json/list\?", r[0])]
-        out["list_req"] = [(u, body[:300]) for u, body in lr[-2:]]
-        if not lr:
+        mails = []
+        lr = [r for r in reqs if re.search(r"/json/list/?$", r[0])]
+        sr = [r for r in reqs if r[0].endswith("/json/list/sender")]
+        if lr:  # 일반 목록 보기
+            u, body = lr[-1]
+            q = dict(parse_qsl(body, keep_blank_values=True))
+            for pg in range(1, int(rule.get("pages", 20)) + 1):
+                q["page"] = str(pg)
+                j = page.evaluate(FETCH, [u, urlencode(q)])
+                rows = (j.get("mailData") or []) if isinstance(j, dict) else []
+                mails += rows
+                if pg >= int((j or {}).get("lastPage") or 1) or not rows:
+                    break
+        elif sr:  # 보낸 사람별 보기
+            u, body = sr[-1]
+            q = dict(parse_qsl(body, keep_blank_values=True))
+            out["sender_req"] = body[:300]
+            folder = q.get("folderSN", "0")
+            senders = []
+            for pg in range(1, 300):
+                q["page"] = str(pg)
+                j = page.evaluate(FETCH, [u, urlencode(q)])
+                got = []
+                walk(j, lambda o: got.append(next((o[k] for k in ("sender", "email", "senderAddress", "address")
+                                                    if isinstance(o.get(k), str) and "@" in o.get(k)), None)))
+                new = [g for g in dict.fromkeys(x for x in got if x) if g not in senders]
+                senders += new
+                last = int(j.get("lastPage") or 0) if isinstance(j, dict) else 0
+                if not new or (last and pg >= last):
+                    break
+            print(f"받은메일함 보낸 사람: {len(senders)}곳", flush=True)
+            for snd in senders:
+                off = 0
+                while off < 3000:
+                    bd = urlencode({"sender": snd, "folderSN": folder, "startOffset": str(off), "pageSize": "100",
+                                    "previewMode": "3", "u": q.get("u", "")})
+                    j = page.evaluate(FETCH, ["https://mail.naver.com/json/list/specificSender/", bd])
+                    rows = []
+                    walk(j, lambda o: rows.append(o) if "mailSN" in o else None)
+                    mails += rows
+                    if len(rows) < 100:
+                        break
+                    off += 100
+                time.sleep(0.15)
+        else:
             out["log"].append("목록 요청을 못 잡음")
             json.dump(out, open("naver_sort_out.json", "w"), ensure_ascii=False)
             sys.exit("받은메일함 목록 요청을 찾지 못했습니다.")
-        u, body = lr[-1]
-        q = dict(parse_qsl(body, keep_blank_values=True))
-        mails = []
-        for pg in range(1, int(rule.get("pages", 20)) + 1):
-            q["page"] = str(pg)
-            j = page.evaluate(FETCH, [u, urlencode(q)])
-            rows = j.get("mailData") or [] if isinstance(j, dict) else []
-            mails += rows
-            if pg >= int((j or {}).get("lastPage") or 1) or not rows:
-                break
         print(f"받은메일함 검사 대상: {len(mails)}통", flush=True)
 
         groups = {}
