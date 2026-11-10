@@ -1,0 +1,29 @@
+name: Make TTS audio for video
+
+on:
+  workflow_dispatch:
+    inputs:
+      dir:
+        description: "영상 폴더 (예: videos/2026-11-10-tsmc-oct)"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install edge-tts
+      - run: python -u scripts/make_tts.py "${{ github.event.inputs.dir }}"
+      - name: Commit audio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "${{ github.event.inputs.dir }}/audio"
+          git commit -m "tts: ${{ github.event.inputs.dir }}" || exit 0
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 5; done
