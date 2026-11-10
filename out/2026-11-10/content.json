@@ -1,0 +1,1075 @@
+{
+ "date": "2026-11-10",
+ "window": "15:30~21:25 KST",
+ "mail_to": "yidiar80k@gmail.com",
+ "summary": [
+  "앤트로픽 IPO 공모가 70~78달러·8.25억 주 확정, 목표 기업가치 약 1조 달러 → 다음 주 수요일 가격 결정",
+  "월러 연준 이사 \"10월 근원 CPI 0.3% 이상이면 12월 0.5%p 인상 필요\" → 12월 0.25%p 인상 완전 반영",
+  "오늘 22:30(KST) 10월 CPI 발표(전년 대비 수치는 미공표), 나스닥100 선물 −0.3% 보합권",
+  "브렌트 8월 이후 첫 90달러 하회 → 호르무즈 유조선 기뢰 화재에도 미-이란 중재 기대 유지",
+  "로켓랩 실적 뒤 프리마켓 −6.8%, 씨티·웰스파고 엔비디아 목표가 하향"
+ ],
+ "checklist": [
+  "22:30 10월 CPI: 근원 전월 대비 0.3% 이상 여부",
+  "장 마감 뒤 코어위브 3분기 실적과 계약 갱신 조건",
+  "앤트로픽 IPO 수요와 AI 인프라 투자사 주가 반응",
+  "엔비디아 이사회 조사 후속과 의회 대응",
+  "유가 90달러 아래 안착 여부와 호르무즈 통항"
+ ],
+ "issues": [
+  {
+   "title": "앤트로픽, IPO 공모가 70~78달러 제시",
+   "subtitle": "[신규] 8.25억 주 · 목표 기업가치 약 1조 달러 · 나스닥 'ANT'",
+   "timeline": [
+    {
+     "t": "15:56",
+     "text": "공모 규모 공개 서류 일부 철회 보도"
+    },
+    {
+     "t": "20:32",
+     "text": "수정 서류: 8.25억 주, 주당 70~78달러"
+    },
+    {
+     "t": "20:34",
+     "text": "AMD·브로드컴·구글·엔비디아 등 260억 달러 투자"
+    },
+    {
+     "t": "20:48",
+     "text": "TSMC, 앤트로픽에 최대 5억 달러 투자 승인"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "공모 규모",
+     "value": "577.5억~643.5억 달러",
+     "note": "8.25억 주 × 70~78달러",
+     "dir": "up"
+    },
+    {
+     "label": "연환산 매출",
+     "value": "약 810억 달러",
+     "note": "10/31 기준, 9월 말보다 100억 달러 증가",
+     "dir": "up"
+    },
+    {
+     "label": "총 약정 지출",
+     "value": "약 9,009억 달러",
+     "note": "회사 공시",
+     "dir": "up"
+    },
+    {
+     "label": "앵커 투자",
+     "value": "260억 달러",
+     "note": "AMD·브로드컴·구글·마이크론·MS·엔비디아·TSMC",
+     "dir": "up"
+    }
+   ],
+   "cause": [
+    "다음 주 수요일 가격 결정, 목요일 상장 예정",
+    "연 매출 10만 달러 이상 고객 11,900곳, 1,000만 달러 이상 약 250곳",
+    "브로드컴에 최대 420억 달러 어음 발행 가능, 스페이스X와 최대 1,205억 달러 GPU 계약",
+    "AI 칩·클라우드 공급사가 고객사 지분까지 사들이는 순환 구조"
+   ],
+   "chips": [
+    {
+     "name": "알파벳",
+     "chg": "+0.71%"
+    },
+    {
+     "name": "아마존",
+     "chg": "+0.40%"
+    },
+    {
+     "name": "AMD",
+     "chg": "-0.64%"
+    },
+    {
+     "name": "브로드컴",
+     "chg": "-0.62%"
+    },
+    {
+     "name": "TSMC",
+     "chg": "+0.29%"
+    }
+   ],
+   "checks": [
+    "공모가 상단·증액 여부",
+    "AI 인프라 투자사의 지분 평가 이익",
+    "약정 지출 9천억 달러의 공급사별 배분"
+   ],
+   "source": "CNBC, 월스트리트견문, FinancialJuice, 시나, 야후 파이낸스"
+  },
+  {
+   "title": "월러 \"12월 0.5%p 인상도 가능\", 오늘 밤 CPI",
+   "subtitle": "[신규] 12월 0.25%p 인상 완전 반영 · 유가는 하락",
+   "timeline": [
+    {
+     "t": "18:00",
+     "text": "월러 \"근원 CPI 0.3% 이상이면 0.5%p 인상 필요\""
+    },
+    {
+     "t": "18:05",
+     "text": "나스닥100 선물 27,909로 15분 새 −0.4%"
+    },
+    {
+     "t": "19:07",
+     "text": "월러 \"최소한 보험성 인하 3번은 되돌려야\""
+    },
+    {
+     "t": "22:30",
+     "text": "10월 CPI 발표 예정(전년 대비 미공표)"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "나스닥100 선물",
+     "value": "-0.29%",
+     "note": "21:16 KST, 월요일 대비",
+     "dir": "down"
+    },
+    {
+     "label": "S&P500 선물",
+     "value": "+0.04%",
+     "note": "21:16 KST",
+     "dir": "up"
+    },
+    {
+     "label": "브렌트",
+     "value": "-2.27%",
+     "note": "90.47달러, 8월 이후 첫 90달러 하회",
+     "dir": "down"
+    },
+    {
+     "label": "NFIB 소기업 낙관",
+     "value": "97.8",
+     "note": "예상 98.2, 전월 97.9",
+     "dir": "down"
+    }
+   ],
+   "cause": [
+    "월러 \"10월 CPI가 개선돼도 12월 0.25%p 인상 지지\"",
+    "\"150~200bp까지 올리진 않는다, 경제를 짓누를 생각 없다\"",
+    "트레이더들, 12월 0.25%p 인상을 완전히 반영(월스트리트견문)",
+    "유가 하락은 물가 부담을 덜지만 디젤 가격은 쉽게 안 내린다는 평가"
+   ],
+   "chips": [
+    {
+     "name": "나스닥100 선물",
+     "chg": "-0.29%"
+    },
+    {
+     "name": "WTI",
+     "chg": "-1.96%"
+    },
+    {
+     "name": "금",
+     "chg": "-0.69%"
+    },
+    {
+     "name": "비트코인",
+     "chg": "-1.28%"
+    }
+   ],
+   "checks": [
+    "근원 CPI 전월 대비 0.3% 이상 여부",
+    "2년물 금리와 달러 반응",
+    "12월 0.5%p 인상 확률"
+   ],
+   "source": "FinancialJuice, 월스트리트견문, 시나, 야후 파이낸스"
+  }
+ ],
+ "sections": {
+  "megatech": [
+   {
+    "company": "엔비디아",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "씨티 목표가 315→285달러, 웰스파고 300달러로 하향(투자의견 유지)"
+     },
+     {
+      "label": "사실",
+      "text": "BofA, 'US1' 추천 목록에서 엔비디아·마이크론·램리서치 제외"
+     },
+     {
+      "label": "사실",
+      "text": "메가스피드 조사에 법무 책임자 개입 의혹 보도, 中 \"스파이 의혹 근거 없어\""
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 한때 +2%대에서 −0.33%로 하락 전환"
+     }
+    ],
+    "chips": [
+     {
+      "name": "엔비디아",
+      "chg": "-0.33%"
+     }
+    ],
+    "source": "시나, DIGITIMES, FinancialJuice, 야후 파이낸스"
+   },
+   {
+    "company": "알파벳 · 아마존 · 메타 · 애플",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "앤트로픽 IPO 목표 기업가치 약 1조 달러 소식에 앤트로픽 지분 보유사 강세"
+     },
+     {
+      "label": "사실",
+      "text": "애플, 전 세계 아이폰 듀오 대응 앱 10만 개 돌파"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 메타 +0.80%, 알파벳 +0.71%, 아마존 +0.40%, 애플 +0.37%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "메타",
+      "chg": "+0.80%"
+     },
+     {
+      "name": "알파벳",
+      "chg": "+0.71%"
+     },
+     {
+      "name": "아마존",
+      "chg": "+0.40%"
+     },
+     {
+      "name": "애플",
+      "chg": "+0.37%"
+     }
+    ],
+    "source": "시나, 월스트리트견문, 야후 파이낸스"
+   }
+  ],
+  "mobility": [
+   {
+    "company": "테슬라",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "10월 중국 소매 판매 9천 대 미만, 5개월 연속 전년 대비 감소"
+     },
+     {
+      "label": "사실",
+      "text": "머스크, 스타링크 엔지니어링을 쓴 그록 새 학습·추론 인프라 공개"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 −0.67%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "테슬라",
+      "chg": "-0.67%"
+     }
+    ],
+    "source": "시나, 야후 파이낸스"
+   },
+   {
+    "company": "로켓랩",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "3분기 매출 2.68억 달러(+73%, 사상 최대), 백로그 35.7억 달러"
+     },
+     {
+      "label": "사실",
+      "text": "3분기 손실이 예상보다 커 프리마켓 급락"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 −6.83%(월요일 10.91% 급등 뒤)"
+     }
+    ],
+    "chips": [
+     {
+      "name": "로켓랩",
+      "chg": "-6.83%"
+     }
+    ],
+    "source": "로켓랩 IR, 시나, 야후 파이낸스"
+   },
+   {
+    "company": "스페이스X · 우주",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "모건스탠리 \"스페이스X, 네오클라우드 정점 지나 로봇·우주 인프라로\" 비중확대 유지"
+     },
+     {
+      "label": "사실",
+      "text": "앤트로픽, 스페이스X와 최대 1,205억 달러 엔비디아 GPU 컴퓨팅 계약 공시"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 스페이스X −0.63%, AST스페이스모바일 −2.36%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "스페이스X",
+      "chg": "-0.63%"
+     },
+     {
+      "name": "AST",
+      "chg": "-2.36%"
+     }
+    ],
+    "source": "시나, 야후 파이낸스"
+   },
+   {
+    "company": "자동차 · 라이다",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "혼다 2분기 영업이익 1,180억 엔으로 예상 2,645억 엔 크게 하회, 연간 전망은 상향"
+     },
+     {
+      "label": "사실",
+      "text": "허사이 3분기 조정 EPS 0.09위안으로 예상 0.53위안 하회"
+     },
+     {
+      "label": "영향",
+      "text": "루시드 프리마켓 −3.06%(3분기 매출 예상 하회 뒤)"
+     }
+    ],
+    "chips": [
+     {
+      "name": "루시드",
+      "chg": "-3.06%"
+     }
+    ],
+    "source": "월스트리트견문, 야후 파이낸스"
+   }
+  ],
+  "ai_software": [
+   {
+    "company": "앤트로픽",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "IPO: 8.25억 주, 주당 70~78달러, 다음 주 수요일 가격 결정(이슈 카드 참고)"
+     },
+     {
+      "label": "사실",
+      "text": "연환산 매출 약 810억 달러, 총 약정 지출 약 9,009억 달러"
+     },
+     {
+      "label": "의미",
+      "text": "에이전트형 제품이 컴퓨팅을 더 많이 쓴다고 공시, 인프라 수요 근거"
+     },
+     {
+      "label": "체크",
+      "text": "공모가 결정과 상장 첫날 수요"
+     }
+    ],
+    "chips": [],
+    "source": "CNBC, 월스트리트견문, 시나"
+   },
+   {
+    "company": "소프트뱅크 · 오픈AI",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "소프트뱅크 2분기 순손실 1.12조 엔(예상은 이익), 비전펀드 손실"
+     },
+     {
+      "label": "사실",
+      "text": "오픈AI 누적 투자 546억 달러, 미국 데이터센터 조달비 37.3억 달러 비용 처리"
+     },
+     {
+      "label": "사실",
+      "text": "CFO \"데이터센터 지연이 직접 위험은 아니다\""
+     },
+     {
+      "label": "의미",
+      "text": "AI 투자 평가손과 데이터센터 비용이 실적에 반영되기 시작"
+     }
+    ],
+    "chips": [],
+    "source": "월스트리트견문, 시나"
+   },
+   {
+    "company": "테이크투 · 기타",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "테이크투, 연간 매출·이익 전망 상향"
+     },
+     {
+      "label": "사실",
+      "text": "디지털터빈, 2분기 실적 뒤 프리마켓 25.9% 급락"
+     },
+     {
+      "label": "영향",
+      "text": "테이크투 프리마켓 +3.66%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "테이크투",
+      "chg": "+3.66%"
+     }
+    ],
+    "source": "시나, 야후 파이낸스"
+   }
+  ],
+  "ai_infra": [
+   {
+    "company": "네오클라우드 · 코어위브",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "코어위브 오늘 장 마감 뒤 3분기 실적"
+     },
+     {
+      "label": "사실",
+      "text": "골드만삭스 CEO \"AI 인프라 자금 수요 여전히 강하고 앤트로픽 상장 환경도 우호적\""
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 IREN −1.21%, 네비우스 −0.81%, 코어위브 −0.53%"
+     },
+     {
+      "label": "체크",
+      "text": "계약 갱신 조건과 회사채 금리"
+     }
+    ],
+    "chips": [
+     {
+      "name": "IREN",
+      "chg": "-1.21%"
+     },
+     {
+      "name": "네비우스",
+      "chg": "-0.81%"
+     },
+     {
+      "name": "코어위브",
+      "chg": "-0.53%"
+     }
+    ],
+    "source": "시나, 야후 파이낸스"
+   },
+   {
+    "company": "전력 · 냉각",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "인피니언, AI 데이터센터 매출 전망 상향, 2027년 매출 약 200억 유로 제시(예상 197.8억)"
+     },
+     {
+      "label": "사실",
+      "text": "소프트뱅크, 프랑스 1.3GW 데이터센터 신속 인허가 대상 선정"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 버티브 −1.08%, 컨스텔레이션 −0.39%(전날 급등 뒤)"
+     }
+    ],
+    "chips": [
+     {
+      "name": "버티브",
+      "chg": "-1.08%"
+     },
+     {
+      "name": "컨스텔레이션",
+      "chg": "-0.39%"
+     }
+    ],
+    "source": "월스트리트견문, 시나, 야후 파이낸스"
+   }
+  ],
+  "semis": [
+   {
+    "company": "TSMC",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "10월 매출 전년 대비 약 60% 증가(AI 칩 수요)"
+     },
+     {
+      "label": "사실",
+      "text": "이사회, 장기 증설용 409억 달러 자본 예산 승인"
+     },
+     {
+      "label": "사실",
+      "text": "앤트로픽·오픈AI에 각각 최대 5억 달러 투자 승인"
+     },
+     {
+      "label": "영향",
+      "text": "TSMC ADR 프리마켓 +0.29%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "TSMC",
+      "chg": "+0.29%"
+     }
+    ],
+    "source": "DIGITIMES, 시나, FinancialJuice, 야후 파이낸스"
+   },
+   {
+    "company": "메모리 · 장비",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "BofA 'US1' 목록에서 마이크론·램리서치 제외"
+     },
+     {
+      "label": "사실",
+      "text": "삼성전자, 차세대 첨단 패키징 3D Cube-H 2027년 초 개발 완료 계획"
+     },
+     {
+      "label": "사실",
+      "text": "삼성전자·SK하이닉스 합산 시가총액 2천조 원 회복"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 SK하이닉스 ADR −1.73%, 램리서치 −1.33%, 샌디스크 −1.13%, 마이크론 −0.70%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "SK하이닉스 ADR",
+      "chg": "-1.73%"
+     },
+     {
+      "name": "램리서치",
+      "chg": "-1.33%"
+     },
+     {
+      "name": "마이크론",
+      "chg": "-0.70%"
+     }
+    ],
+    "source": "시나, 야후 파이낸스"
+   },
+   {
+    "company": "반도체 업황 시각",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "모건스탠리, 북미 반도체 '매력적' 유지, 최선호 엔비디아·브로드컴"
+     },
+     {
+      "label": "사실",
+      "text": "미디어텍 10월 매출 550.3억 대만달러(+5.77%)"
+     },
+     {
+      "label": "사실",
+      "text": "선전 화창베이 RTX5080 가격 4천 위안 인하"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 인텔 −1.89%, 마벨 −1.61%, AMD −0.64%, 브로드컴 −0.62%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "인텔",
+      "chg": "-1.89%"
+     },
+     {
+      "name": "마벨",
+      "chg": "-1.61%"
+     },
+     {
+      "name": "AMD",
+      "chg": "-0.64%"
+     }
+    ],
+    "source": "시나, 월스트리트견문, 야후 파이낸스"
+   }
+  ],
+  "others": [
+   {
+    "company": "비트코인",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "비트코인 7.43만 달러 안팎, 월요일 대비 약 1.3% 하락"
+     },
+     {
+      "label": "의미",
+      "text": "12월 금리 인상 완전 반영과 달러 반등이 부담"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 스트래티지 −1.02%, 코인베이스 −0.91%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "비트코인",
+      "chg": "-1.28%"
+     },
+     {
+      "name": "스트래티지",
+      "chg": "-1.02%"
+     },
+     {
+      "name": "코인베이스",
+      "chg": "-0.91%"
+     }
+    ],
+    "source": "야후 파이낸스, 월스트리트견문"
+   }
+  ]
+ },
+ "empty_notes": {},
+ "greeting": "2026년 11월 10일 화요일 개장 전 섹터별 이슈체크입니다. 한국시간 15:30~21:25 사이 나온 소식과 미국 프리마켓 흐름을 정리했어요. 프리마켓 등락률은 월요일 종가 대비, 21:25 무렵 기준입니다.",
+ "commentary": {
+  "summary": "오늘 밤은 두 가지가 맞물려 있어요. 앤트로픽이 공모가 범위를 내놓으며 AI 업계 사상 최대 규모의 상장 일정을 시작했고, 월러 연준 이사는 12월에 0.5%p 인상까지 열어 두면서 한국시간 22시 30분 CPI의 무게를 키웠습니다. 월요일 급반등 뒤라 선물은 보합권에서 숨을 고르고 있어요.",
+  "issue1": [
+   "여기가 중요한 부분인데, 앤트로픽 공모에는 AMD·브로드컴·구글·엔비디아·MS·TSMC 같은 칩과 클라우드 공급사가 260억 달러를 따로 넣어요. 앤트로픽이 이들 회사에 약속한 지출이 9천억 달러에 이르는 만큼, 공급사가 고객의 지분을 사고 고객은 그 돈으로 다시 공급사의 칩과 클라우드를 사는 구조가 한층 뚜렷해졌습니다.",
+   "연환산 매출이 한 달 사이 100억 달러 늘어 810억 달러에 이르렀다는 점은 AI 수익화가 빠르게 진행되고 있다는 근거예요. 다만 가격은 다음 주 수요일에 정해지고, 상장 첫날 수요가 지난주 흔들렸던 AI 투자 심리를 되살릴지 가늠하는 시험대가 될 것으로 보입니다."
+  ],
+  "issue2": [
+   "월러 이사의 발언이 나온 18시 직후 나스닥100 선물이 15분 만에 0.4% 밀렸다가 되돌아왔어요. 10월 근원 CPI가 전월 대비 0.3% 이상이면 0.5%p 인상도 필요하다고 했고, CPI가 좋아져도 0.25%p 인상은 지지한다고 해, 12월 인상은 사실상 기정사실로 굳어졌습니다.",
+   "이번 CPI는 지난해 셧다운 영향으로 전년 대비 수치가 나오지 않아 전월 대비 수치에 시선이 더 쏠려요. 브렌트유가 8월 이후 처음 90달러 아래로 내려온 건 물가 부담을 덜어 주지만, 월러 이사가 디젤 가격은 쉽게 안 내린다고 짚은 만큼 근원 물가 흐름이 관건입니다."
+  ],
+  "megatech": "엔비디아는 씨티와 웰스파고가 목표가를 낮추고 BofA가 추천 목록에서 뺀 데다, 메가스피드 조사에 법무 책임자가 개입했다는 의혹까지 나오며 프리마켓 상승분을 모두 반납했어요. 반대로 알파벳·아마존·메타는 앤트로픽 IPO 목표 기업가치가 1조 달러로 나오면서 지분 가치 기대에 소폭 오르고 있습니다.",
+  "mobility": [
+   "테슬라는 10월 중국 소매 판매가 9천 대에도 못 미쳐 다섯 달째 전년보다 줄었어요. 머스크는 스타링크 기술을 활용한 그록 학습·추론 인프라를 소개했지만, 프리마켓에서는 약보합입니다.",
+   "로켓랩은 사상 최대 분기 매출과 백로그를 냈지만 손실이 예상보다 커 프리마켓에서 7% 가까이 빠지고 있어요. 전날 11% 급등한 만큼 차익 실현이 겹친 모습이고, 모건스탠리는 스페이스X가 로봇·우주 인프라로 넘어가는 단계라며 비중확대를 유지했습니다."
+  ],
+  "ai_software": [
+   "앤트로픽은 증권신고서에서 에이전트형 제품이 컴퓨팅을 더 많이 쓴다고 밝혔고, 스페이스X와 최대 1,205억 달러 규모 엔비디아 GPU 컴퓨팅 계약도 공개했어요. 모델 회사의 매출이 늘수록 인프라 지출도 함께 커진다는 점이 숫자로 드러난 셈입니다.",
+   "소프트뱅크는 오픈AI 등 AI 투자 평가손과 미국 데이터센터 조달 비용이 겹쳐 2분기 1조 엔이 넘는 순손실을 냈어요. CFO는 데이터센터 지연이 직접적인 위험은 아니라고 했지만, AI 투자의 비용이 실적에 반영되기 시작했다는 점은 눈여겨볼 대목입니다."
+  ],
+  "ai_infra": "코어위브가 오늘 장 마감 뒤 실적을 내는데, 지난주 회사채 금리가 16%를 넘었던 만큼 계약 갱신 조건과 자금 조달 계획이 네오클라우드 전체의 방향을 정할 수 있어요. 인피니언이 데이터센터 매출 전망을 올리고 골드만삭스 CEO가 AI 인프라 자금 수요가 여전하다고 한 건 수요 측면의 긍정적인 신호입니다.",
+  "semis": [
+   "TSMC는 10월 매출이 전년보다 약 60% 늘었고, 장기 증설을 위해 409억 달러 예산을 승인했어요. 앤트로픽과 오픈AI에 각각 최대 5억 달러를 투자하기로 한 것도 파운드리가 AI 모델 회사와 직접 손잡는 흐름으로 읽힙니다.",
+   "월요일 큰 폭으로 반등한 메모리·장비주는 BofA가 마이크론·램리서치를 추천 목록에서 빼면서 프리마켓에서 1% 안팎 밀리고 있어요. 모건스탠리는 북미 반도체를 여전히 '매력적'으로 보고 엔비디아와 브로드컴을 최선호로 꼽았습니다."
+  ],
+  "others": "비트코인은 12월 금리 인상이 완전히 반영되고 달러가 반등하면서 7만 4천 달러대로 밀렸어요. 오늘 밤 CPI가 예상보다 높게 나오면 금리에 민감한 크립토 관련주의 부담이 더 커질 수 있습니다."
+ },
+ "sources": [
+  {
+   "title": "Anthropic sets price range of $70 to $78 in upcoming IPO",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+  },
+  {
+   "title": "Anthropic将IPO发行规模定为8.25亿股，发行价区间每股70至78美元",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3197671"
+  },
+  {
+   "title": "AMD, Broadcom, Google, others to invest $26b in Anthropic",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9845134/AMD-Broadcom-Google-others-to-invest-26b-in-Anthropic.aspx?xy=rss"
+  },
+  {
+   "title": "Anthropic年化营收约810亿美元，总承诺支出约9009亿美元",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3197673"
+  },
+  {
+   "title": "Anthropic IPO预计将于下周三定价",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyhfqu2583878.d.html"
+  },
+  {
+   "title": "Anthropic表示可向博通发行至多420亿美元票据",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3197682"
+  },
+  {
+   "title": "Anthropic披露已与SpaceX签订最高1205亿美元英伟达GPU算力协议",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyhfqv2526486.d.html"
+  },
+  {
+   "title": "报道：Anthropic撤回披露IPO筹资目标的文件",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3197468"
+  },
+  {
+   "title": "Anthropic称智能体类产品对算力的需求更高",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyhfqu2587426.d.html"
+  },
+  {
+   "title": "TSMC: Approved investments in Anthropic up to $500 mln",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9845154/TSMC-Approved-investments-in-Anthropic-up-to-500-mln.aspx?xy=rss"
+  },
+  {
+   "title": "Alphabet股价盘前上涨0.8%，亚马逊上涨0.4%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyhfqv2518830.d.html"
+  },
+  {
+   "title": "Fed's Waller: Half-point Fed rate hike may be needed in December",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9844897/Feds-Waller-Half-point-Fed-rate-hike-may-be-needed-in-december-if-October-core-CPI-inflation-comes-in-around-03-or-higher.aspx?xy=rss"
+  },
+  {
+   "title": "Fed's Waller: Would support quarter-point rate hike in December",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9844898/Feds-Waller-Would-support-quarter-point-rate-hike-in-December-even-if-October-CPI-improves-vs-September.aspx?xy=rss"
+  },
+  {
+   "title": "Fed's Waller: Minimum we need to take back the 3 insurance cuts",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9845025/Feds-Waller-Minimum-we-need-to-take-back-the-3-insurance-cuts.aspx?xy=rss"
+  },
+  {
+   "title": "交易员完全消化12月升息25个基点的预期",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3197588"
+  },
+  {
+   "title": "US NFIB Business Optimism Index Actual 97.8",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9845077/US-NFIB-Business-Optimism-Index-Actual-978-Forecast-982-Previous-9790.aspx?xy=rss"
+  },
+  {
+   "title": "美国劳工统计局将不公布10月CPI同比数据",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfzhx2639705.d.html"
+  },
+  {
+   "title": "布伦特原油自8月以来首次跌破每桶90美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfuyw5970169.d.html"
+  },
+  {
+   "title": "Iran's IRGC Navy: Two tankers caught fire after hitting naval mines in Strait of Hormuz",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9845038/Irans-IRGC-Navy-Two-tankers-caught-fire-after-hitting-naval-mines-in-Strait-of-Hormuz---State-Media.aspx?xy=rss"
+  },
+  {
+   "title": "E-mini Nasdaq 100 (NQ=F)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/NQ%3DF/"
+  },
+  {
+   "title": "E-mini S&P 500 (ES=F)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/ES%3DF/"
+  },
+  {
+   "title": "WTI Crude Oil (CL=F)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/CL%3DF/"
+  },
+  {
+   "title": "Brent Crude Oil (BZ=F)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/BZ%3DF/"
+  },
+  {
+   "title": "Gold (GC=F)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/GC%3DF/"
+  },
+  {
+   "title": "花旗将英伟达目标价从315美元下调至285美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfzhu5923012.d.html"
+  },
+  {
+   "title": "富国银行下调英伟达目标价至300美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfzhu5928157.d.html"
+  },
+  {
+   "title": "美银美林美国1清单剔除泛林集团、美光科技、英伟达",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfzhy9267114.d.html"
+  },
+  {
+   "title": "Nvidia's legal chief accused of interfering in Megaspeed probe",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/"
+  },
+  {
+   "title": "China's Guo: China spy allegations around NVIDIA unfounded",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9844752/Chinas-Guo-China-spy-allegations-around-NVIDIA-unfounded.aspx?xy=rss"
+  },
+  {
+   "title": "英伟达美股盘前转跌",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfzhu5912508.d.html"
+  },
+  {
+   "title": "NVIDIA (NVDA)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/NVDA/"
+  },
+  {
+   "title": "Meta (META)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/META/"
+  },
+  {
+   "title": "Alphabet (GOOGL)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/GOOGL/"
+  },
+  {
+   "title": "Amazon (AMZN)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/AMZN/"
+  },
+  {
+   "title": "Apple (AAPL)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/AAPL/"
+  },
+  {
+   "title": "苹果称全球适配iPhone Duo应用已超10万",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/"
+  },
+  {
+   "title": "特斯拉10月在华零售销量不足9000辆",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfzhw2700813.d.html"
+  },
+  {
+   "title": "马斯克披露Grok全新SI训练推理基建",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfzhy9267903.d.html"
+  },
+  {
+   "title": "Tesla (TSLA)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/TSLA/"
+  },
+  {
+   "title": "Rocket Lab Announces Third Quarter 2026 Financial Results",
+   "outlet": "로켓랩 IR",
+   "url": "https://www.globenewswire.com/news-release/2026/11/09/3398954/0/en/rocket-lab-announces-third-quarter-2026-financial-results-posts-record-revenue-1-2-billion-or-52-sequential-quarterly-backlog-growth-positive-gaap-operating-cash-flow-and-guides-to.html"
+  },
+  {
+   "title": "火箭实验室股价盘前下跌7.8%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfuyw5977663.d.html"
+  },
+  {
+   "title": "Rocket Lab (RKLB)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/RKLB/"
+  },
+  {
+   "title": "大摩：SpaceX正度过新云高峰迈向机器人与太空基建",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfuyw5895427.d.html"
+  },
+  {
+   "title": "SpaceX (SPCX)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/SPCX/"
+  },
+  {
+   "title": "AST SpaceMobile (ASTS)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/ASTS/"
+  },
+  {
+   "title": "本田汽车第二财季经营利润1179.7亿日元",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3197454"
+  },
+  {
+   "title": "禾赛科技第三季度调整后每股收益0.090元",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3197552"
+  },
+  {
+   "title": "Lucid (LCID)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/LCID/"
+  },
+  {
+   "title": "软银集团第二财季净亏损1.12万亿日元",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3197448"
+  },
+  {
+   "title": "软银：截至第二季度末对OpenAI投资总额546亿美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfqta2751567.d.html"
+  },
+  {
+   "title": "软银为美国数据中心的采购支出记录为37.3亿美元费用",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfqta2756062.d.html"
+  },
+  {
+   "title": "软银首席财务官：数据中心延期不会带来直接风险",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3197578"
+  },
+  {
+   "title": "Take-Two Interactive上调年度营收和利润预期",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfuza9352810.d.html"
+  },
+  {
+   "title": "Digital Turbine公布第二季度业绩后盘前下跌25.9%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfuyz2707288.d.html"
+  },
+  {
+   "title": "Take-Two (TTWO)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/TTWO/"
+  },
+  {
+   "title": "高盛CEO：AI基建融资需求依旧旺盛",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfuza9264986.d.html"
+  },
+  {
+   "title": "CoreWeave (CRWV)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/CRWV/"
+  },
+  {
+   "title": "Nebius (NBIS)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/NBIS/"
+  },
+  {
+   "title": "IREN (IREN)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/IREN/"
+  },
+  {
+   "title": "英飞凌上调数据中心业务销售展望",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3197476"
+  },
+  {
+   "title": "英飞凌第四财季营收47.1亿欧元",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3197450"
+  },
+  {
+   "title": "软银在法国获得1.3吉瓦数据中心项目的快速审批资格",
+   "outlet": "시나",
+   "url": "https://finance.sina.com.cn/7x24/"
+  },
+  {
+   "title": "Vertiv (VRT)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/VRT/"
+  },
+  {
+   "title": "Constellation Energy (CEG)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/CEG/"
+  },
+  {
+   "title": "TSMC October revenue jumps about 60% on AI chip demand",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/"
+  },
+  {
+   "title": "台积电批准409亿美元资本预算",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyhfqs5815160.d.html"
+  },
+  {
+   "title": "TSMC ADR (TSM)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/TSM/"
+  },
+  {
+   "title": "三星电子计划于2027年初完成3D Cube-H开发",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfqsy5994171.d.html"
+  },
+  {
+   "title": "三星电子、SK海力士合计市值重返2000万亿韩元",
+   "outlet": "시나",
+   "url": "https://finance.sina.com.cn/7x24/"
+  },
+  {
+   "title": "SK hynix ADR (SKHY)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/SKHY/"
+  },
+  {
+   "title": "Lam Research (LRCX)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/LRCX/"
+  },
+  {
+   "title": "Micron (MU)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/MU/"
+  },
+  {
+   "title": "大摩将北美半导体行业评级列为吸引",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfqtc2726384.d.html"
+  },
+  {
+   "title": "联发科10月销售额550.3亿元台币",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfuyy2749433.d.html"
+  },
+  {
+   "title": "华强北RTX5080价格直降4000元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyfzhu5905860.d.html"
+  },
+  {
+   "title": "Intel (INTC)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/INTC/"
+  },
+  {
+   "title": "Marvell (MRVL)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/MRVL/"
+  },
+  {
+   "title": "AMD (AMD)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/AMD/"
+  },
+  {
+   "title": "Bitcoin USD (BTC-USD)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/BTC-USD/"
+  },
+  {
+   "title": "Strategy (MSTR)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/MSTR/"
+  },
+  {
+   "title": "Coinbase (COIN)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/COIN/"
+  }
+ ]
+}

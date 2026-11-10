@@ -1,0 +1,142 @@
+2026년 11월 10일 개장 전 섹터별 이슈체크
+
+2026년 11월 10일 화요일 개장 전 섹터별 이슈체크입니다. 한국시간 15:30~21:25 사이 나온 소식과 미국 프리마켓 흐름을 정리했어요. 프리마켓 등락률은 월요일 종가 대비, 21:25 무렵 기준입니다.
+
+[그림1]
+
+오늘 밤은 두 가지가 맞물려 있어요. 앤트로픽이 공모가 범위를 내놓으며 AI 업계 사상 최대 규모의 상장 일정을 시작했고, 월러 연준 이사는 12월에 0.5%p 인상까지 열어 두면서 한국시간 22시 30분 CPI의 무게를 키웠습니다. 월요일 급반등 뒤라 선물은 보합권에서 숨을 고르고 있어요.
+
+[그림2]
+
+여기가 중요한 부분인데, 앤트로픽 공모에는 AMD·브로드컴·구글·엔비디아·MS·TSMC 같은 칩과 클라우드 공급사가 260억 달러를 따로 넣어요. 앤트로픽이 이들 회사에 약속한 지출이 9천억 달러에 이르는 만큼, 공급사가 고객의 지분을 사고 고객은 그 돈으로 다시 공급사의 칩과 클라우드를 사는 구조가 한층 뚜렷해졌습니다.
+
+[그림3]
+
+연환산 매출이 한 달 사이 100억 달러 늘어 810억 달러에 이르렀다는 점은 AI 수익화가 빠르게 진행되고 있다는 근거예요. 다만 가격은 다음 주 수요일에 정해지고, 상장 첫날 수요가 지난주 흔들렸던 AI 투자 심리를 되살릴지 가늠하는 시험대가 될 것으로 보입니다.
+
+[그림4]
+
+월러 이사의 발언이 나온 18시 직후 나스닥100 선물이 15분 만에 0.4% 밀렸다가 되돌아왔어요. 10월 근원 CPI가 전월 대비 0.3% 이상이면 0.5%p 인상도 필요하다고 했고, CPI가 좋아져도 0.25%p 인상은 지지한다고 해, 12월 인상은 사실상 기정사실로 굳어졌습니다.
+
+[그림5]
+
+이번 CPI는 지난해 셧다운 영향으로 전년 대비 수치가 나오지 않아 전월 대비 수치에 시선이 더 쏠려요. 브렌트유가 8월 이후 처음 90달러 아래로 내려온 건 물가 부담을 덜어 주지만, 월러 이사가 디젤 가격은 쉽게 안 내린다고 짚은 만큼 근원 물가 흐름이 관건입니다.
+
+[그림6]
+
+엔비디아는 씨티와 웰스파고가 목표가를 낮추고 BofA가 추천 목록에서 뺀 데다, 메가스피드 조사에 법무 책임자가 개입했다는 의혹까지 나오며 프리마켓 상승분을 모두 반납했어요. 반대로 알파벳·아마존·메타는 앤트로픽 IPO 목표 기업가치가 1조 달러로 나오면서 지분 가치 기대에 소폭 오르고 있습니다.
+
+[그림7]
+
+테슬라는 10월 중국 소매 판매가 9천 대에도 못 미쳐 다섯 달째 전년보다 줄었어요. 머스크는 스타링크 기술을 활용한 그록 학습·추론 인프라를 소개했지만, 프리마켓에서는 약보합입니다.
+
+[그림8]
+
+로켓랩은 사상 최대 분기 매출과 백로그를 냈지만 손실이 예상보다 커 프리마켓에서 7% 가까이 빠지고 있어요. 전날 11% 급등한 만큼 차익 실현이 겹친 모습이고, 모건스탠리는 스페이스X가 로봇·우주 인프라로 넘어가는 단계라며 비중확대를 유지했습니다.
+
+[그림9]
+
+앤트로픽은 증권신고서에서 에이전트형 제품이 컴퓨팅을 더 많이 쓴다고 밝혔고, 스페이스X와 최대 1,205억 달러 규모 엔비디아 GPU 컴퓨팅 계약도 공개했어요. 모델 회사의 매출이 늘수록 인프라 지출도 함께 커진다는 점이 숫자로 드러난 셈입니다.
+
+[그림10]
+
+소프트뱅크는 오픈AI 등 AI 투자 평가손과 미국 데이터센터 조달 비용이 겹쳐 2분기 1조 엔이 넘는 순손실을 냈어요. CFO는 데이터센터 지연이 직접적인 위험은 아니라고 했지만, AI 투자의 비용이 실적에 반영되기 시작했다는 점은 눈여겨볼 대목입니다.
+
+[그림11]
+
+코어위브가 오늘 장 마감 뒤 실적을 내는데, 지난주 회사채 금리가 16%를 넘었던 만큼 계약 갱신 조건과 자금 조달 계획이 네오클라우드 전체의 방향을 정할 수 있어요. 인피니언이 데이터센터 매출 전망을 올리고 골드만삭스 CEO가 AI 인프라 자금 수요가 여전하다고 한 건 수요 측면의 긍정적인 신호입니다.
+
+[그림12]
+
+TSMC는 10월 매출이 전년보다 약 60% 늘었고, 장기 증설을 위해 409억 달러 예산을 승인했어요. 앤트로픽과 오픈AI에 각각 최대 5억 달러를 투자하기로 한 것도 파운드리가 AI 모델 회사와 직접 손잡는 흐름으로 읽힙니다.
+
+[그림13]
+
+월요일 큰 폭으로 반등한 메모리·장비주는 BofA가 마이크론·램리서치를 추천 목록에서 빼면서 프리마켓에서 1% 안팎 밀리고 있어요. 모건스탠리는 북미 반도체를 여전히 '매력적'으로 보고 엔비디아와 브로드컴을 최선호로 꼽았습니다.
+
+[그림14]
+
+비트코인은 12월 금리 인상이 완전히 반영되고 달러가 반등하면서 7만 4천 달러대로 밀렸어요. 오늘 밤 CPI가 예상보다 높게 나오면 금리에 민감한 크립토 관련주의 부담이 더 커질 수 있습니다.
+
+출처 링크 (2026-11-10 KST)
+· Anthropic sets price range of $70 to $78 in upcoming IPO (CNBC): https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html
+· Anthropic将IPO发行规模定为8.25亿股，发行价区间每股70至78美元 (월스트리트견문): https://wallstreetcn.com/livenews/3197671
+· AMD, Broadcom, Google, others to invest $26b in Anthropic (FinancialJuice): https://www.financialjuice.com/News/9845134/AMD-Broadcom-Google-others-to-invest-26b-in-Anthropic.aspx?xy=rss
+· Anthropic年化营收约810亿美元，总承诺支出约9009亿美元 (월스트리트견문): https://wallstreetcn.com/livenews/3197673
+· Anthropic IPO预计将于下周三定价 (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyhfqu2583878.d.html
+· Anthropic表示可向博通发行至多420亿美元票据 (월스트리트견문): https://wallstreetcn.com/livenews/3197682
+· Anthropic披露已与SpaceX签订最高1205亿美元英伟达GPU算力协议 (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyhfqv2526486.d.html
+· 报道：Anthropic撤回披露IPO筹资目标的文件 (월스트리트견문): https://wallstreetcn.com/livenews/3197468
+· Anthropic称智能体类产品对算力的需求更高 (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyhfqu2587426.d.html
+· TSMC: Approved investments in Anthropic up to $500 mln (FinancialJuice): https://www.financialjuice.com/News/9845154/TSMC-Approved-investments-in-Anthropic-up-to-500-mln.aspx?xy=rss
+· Alphabet股价盘前上涨0.8%，亚马逊上涨0.4% (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyhfqv2518830.d.html
+· Fed's Waller: Half-point Fed rate hike may be needed in December (FinancialJuice): https://www.financialjuice.com/News/9844897/Feds-Waller-Half-point-Fed-rate-hike-may-be-needed-in-december-if-October-core-CPI-inflation-comes-in-around-03-or-higher.aspx?xy=rss
+· Fed's Waller: Would support quarter-point rate hike in December (FinancialJuice): https://www.financialjuice.com/News/9844898/Feds-Waller-Would-support-quarter-point-rate-hike-in-December-even-if-October-CPI-improves-vs-September.aspx?xy=rss
+· Fed's Waller: Minimum we need to take back the 3 insurance cuts (FinancialJuice): https://www.financialjuice.com/News/9845025/Feds-Waller-Minimum-we-need-to-take-back-the-3-insurance-cuts.aspx?xy=rss
+· 交易员完全消化12月升息25个基点的预期 (월스트리트견문): https://wallstreetcn.com/livenews/3197588
+· US NFIB Business Optimism Index Actual 97.8 (FinancialJuice): https://www.financialjuice.com/News/9845077/US-NFIB-Business-Optimism-Index-Actual-978-Forecast-982-Previous-9790.aspx?xy=rss
+· 美国劳工统计局将不公布10月CPI同比数据 (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyfzhx2639705.d.html
+· 布伦特原油自8月以来首次跌破每桶90美元 (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyfuyw5970169.d.html
+· Iran's IRGC Navy: Two tankers caught fire after hitting naval mines in Strait of Hormuz (FinancialJuice): https://www.financialjuice.com/News/9845038/Irans-IRGC-Navy-Two-tankers-caught-fire-after-hitting-naval-mines-in-Strait-of-Hormuz---State-Media.aspx?xy=rss
+· E-mini Nasdaq 100 (NQ=F) (야후 파이낸스): https://finance.yahoo.com/quote/NQ%3DF/
+· E-mini S&P 500 (ES=F) (야후 파이낸스): https://finance.yahoo.com/quote/ES%3DF/
+· WTI Crude Oil (CL=F) (야후 파이낸스): https://finance.yahoo.com/quote/CL%3DF/
+· Brent Crude Oil (BZ=F) (야후 파이낸스): https://finance.yahoo.com/quote/BZ%3DF/
+· Gold (GC=F) (야후 파이낸스): https://finance.yahoo.com/quote/GC%3DF/
+· 花旗将英伟达目标价从315美元下调至285美元 (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyfzhu5923012.d.html
+· 富国银行下调英伟达目标价至300美元 (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyfzhu5928157.d.html
+· 美银美林美国1清单剔除泛林集团、美光科技、英伟达 (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyfzhy9267114.d.html
+· Nvidia's legal chief accused of interfering in Megaspeed probe (DIGITIMES): https://www.digitimes.com/
+· China's Guo: China spy allegations around NVIDIA unfounded (FinancialJuice): https://www.financialjuice.com/News/9844752/Chinas-Guo-China-spy-allegations-around-NVIDIA-unfounded.aspx?xy=rss
+· 英伟达美股盘前转跌 (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyfzhu5912508.d.html
+· NVIDIA (NVDA) (야후 파이낸스): https://finance.yahoo.com/quote/NVDA/
+· Meta (META) (야후 파이낸스): https://finance.yahoo.com/quote/META/
+· Alphabet (GOOGL) (야후 파이낸스): https://finance.yahoo.com/quote/GOOGL/
+· Amazon (AMZN) (야후 파이낸스): https://finance.yahoo.com/quote/AMZN/
+· Apple (AAPL) (야후 파이낸스): https://finance.yahoo.com/quote/AAPL/
+· 苹果称全球适配iPhone Duo应用已超10万 (월스트리트견문): https://wallstreetcn.com/
+· 特斯拉10月在华零售销量不足9000辆 (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyfzhw2700813.d.html
+· 马斯克披露Grok全新SI训练推理基建 (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyfzhy9267903.d.html
+· Tesla (TSLA) (야후 파이낸스): https://finance.yahoo.com/quote/TSLA/
+· Rocket Lab Announces Third Quarter 2026 Financial Results (로켓랩 IR): https://www.globenewswire.com/news-release/2026/11/09/3398954/0/en/rocket-lab-announces-third-quarter-2026-financial-results-posts-record-revenue-1-2-billion-or-52-sequential-quarterly-backlog-growth-positive-gaap-operating-cash-flow-and-guides-to.html
+· 火箭实验室股价盘前下跌7.8% (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyfuyw5977663.d.html
+· Rocket Lab (RKLB) (야후 파이낸스): https://finance.yahoo.com/quote/RKLB/
+· 大摩：SpaceX正度过新云高峰迈向机器人与太空基建 (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyfuyw5895427.d.html
+· SpaceX (SPCX) (야후 파이낸스): https://finance.yahoo.com/quote/SPCX/
+· AST SpaceMobile (ASTS) (야후 파이낸스): https://finance.yahoo.com/quote/ASTS/
+· 本田汽车第二财季经营利润1179.7亿日元 (월스트리트견문): https://wallstreetcn.com/livenews/3197454
+· 禾赛科技第三季度调整后每股收益0.090元 (월스트리트견문): https://wallstreetcn.com/livenews/3197552
+· Lucid (LCID) (야후 파이낸스): https://finance.yahoo.com/quote/LCID/
+· 软银集团第二财季净亏损1.12万亿日元 (월스트리트견문): https://wallstreetcn.com/livenews/3197448
+· 软银：截至第二季度末对OpenAI投资总额546亿美元 (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyfqta2751567.d.html
+· 软银为美国数据中心的采购支出记录为37.3亿美元费用 (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyfqta2756062.d.html
+· 软银首席财务官：数据中心延期不会带来直接风险 (월스트리트견문): https://wallstreetcn.com/livenews/3197578
+· Take-Two Interactive上调年度营收和利润预期 (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyfuza9352810.d.html
+· Digital Turbine公布第二季度业绩后盘前下跌25.9% (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyfuyz2707288.d.html
+· Take-Two (TTWO) (야후 파이낸스): https://finance.yahoo.com/quote/TTWO/
+· 高盛CEO：AI基建融资需求依旧旺盛 (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyfuza9264986.d.html
+· CoreWeave (CRWV) (야후 파이낸스): https://finance.yahoo.com/quote/CRWV/
+· Nebius (NBIS) (야후 파이낸스): https://finance.yahoo.com/quote/NBIS/
+· IREN (IREN) (야후 파이낸스): https://finance.yahoo.com/quote/IREN/
+· 英飞凌上调数据中心业务销售展望 (월스트리트견문): https://wallstreetcn.com/livenews/3197476
+· 英飞凌第四财季营收47.1亿欧元 (월스트리트견문): https://wallstreetcn.com/livenews/3197450
+· 软银在法国获得1.3吉瓦数据中心项目的快速审批资格 (시나): https://finance.sina.com.cn/7x24/
+· Vertiv (VRT) (야후 파이낸스): https://finance.yahoo.com/quote/VRT/
+· Constellation Energy (CEG) (야후 파이낸스): https://finance.yahoo.com/quote/CEG/
+· 台积电批准409亿美元资本预算 (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyhfqs5815160.d.html
+· TSMC ADR (TSM) (야후 파이낸스): https://finance.yahoo.com/quote/TSM/
+· 三星电子计划于2027年初完成3D Cube-H开发 (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyfqsy5994171.d.html
+· SK hynix ADR (SKHY) (야후 파이낸스): https://finance.yahoo.com/quote/SKHY/
+· Lam Research (LRCX) (야후 파이낸스): https://finance.yahoo.com/quote/LRCX/
+· Micron (MU) (야후 파이낸스): https://finance.yahoo.com/quote/MU/
+· 大摩将北美半导体行业评级列为吸引 (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyfqtc2726384.d.html
+· 联发科10月销售额550.3亿元台币 (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyfuyy2749433.d.html
+· 华强北RTX5080价格直降4000元 (시나): https://finance.sina.cn/7x24/2026-11-10/detail-iniyfzhu5905860.d.html
+· Intel (INTC) (야후 파이낸스): https://finance.yahoo.com/quote/INTC/
+· Marvell (MRVL) (야후 파이낸스): https://finance.yahoo.com/quote/MRVL/
+· AMD (AMD) (야후 파이낸스): https://finance.yahoo.com/quote/AMD/
+· Bitcoin USD (BTC-USD) (야후 파이낸스): https://finance.yahoo.com/quote/BTC-USD/
+· Strategy (MSTR) (야후 파이낸스): https://finance.yahoo.com/quote/MSTR/
+· Coinbase (COIN) (야후 파이낸스): https://finance.yahoo.com/quote/COIN/
+
+그림 대응(PDF 쪽 번호): 그림1=요약, 그림2=이슈1(1/2), 그림3=이슈1(2/2), 그림4=이슈2(1/2), 그림5=이슈2(2/2), 그림6=메가테크, 그림7=모빌리티(1/2), 그림8=모빌리티(2/2), 그림9=AI 소프트웨어(1/2), 그림10=AI 소프트웨어(2/2), 그림11=AI 인프라, 그림12=반도체(1/2), 그림13=반도체(2/2), 그림14=크립토
