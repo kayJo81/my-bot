@@ -155,9 +155,15 @@ def main():
                 if kind == "delete":
                     page.get_by_role("button", name="삭제", exact=True).locator("visible=true").first.click(timeout=6000)
                 else:
-                    page.locator("button.svg_move:visible, button:has-text('이동'):visible").first.click(timeout=6000)
-                    page.wait_for_timeout(1200)
-                    page.locator(f"[role=menu] :text-is('{target_name}'), [class*=layer] :text-is('{target_name}'), [class*=dropdown] :text-is('{target_name}'), li:visible:has-text('{target_name}')").first.click(timeout=6000)
+                    page.locator("button.svg_move:visible").first.click(timeout=6000)
+                    page.wait_for_timeout(1500)
+                    import base64
+                    out.setdefault("shots", []).append(base64.b64encode(page.screenshot(type="jpeg", quality=55)).decode())
+                    out["menu_items"] = page.evaluate("""(name) => [...document.querySelectorAll('*')].filter(e => e.children.length === 0 && (e.innerText||'').trim() === name && e.getClientRects().length).map(e => e.tagName + '.' + (e.className||'').toString().slice(0,40) + ' < ' + (e.parentElement ? e.parentElement.tagName + '.' + (e.parentElement.className||'').toString().slice(0,40) : ''))""", target_name)
+                    cand = page.locator(f"button:visible:text-is('{target_name}'), a:visible:text-is('{target_name}'), [role=menuitem]:visible:has-text('{target_name}'), [role=option]:visible:has-text('{target_name}')")
+                    if cand.count() == 0:
+                        cand = page.get_by_text(target_name, exact=True).locator("visible=true")
+                    cand.last.click(timeout=6000)
                 page.wait_for_timeout(2500)
             except Exception as e:  # noqa: BLE001
                 out["log"].append(f"{kind} 화면 조작 실패: {type(e).__name__} {str(e)[:150]}")
