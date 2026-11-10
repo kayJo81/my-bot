@@ -159,9 +159,9 @@ def main():
                     page.wait_for_timeout(1500)
                     out["menu_items"] = page.evaluate("""(name) => [...document.querySelectorAll('*')].filter(e => e.children.length === 0 && (e.innerText||'').trim() === name && e.getClientRects().length).map(e => e.tagName + '.' + (e.className||'').toString().slice(0,40) + ' < ' + (e.parentElement ? e.parentElement.tagName + '.' + (e.parentElement.className||'').toString().slice(0,40) : ''))""", target_name)
                     page.locator(f"li.context_item button.button_context_item:visible:text-is('{target_name}')").first.click(timeout=6000)
+                    page.wait_for_timeout(800)
+                    page.locator(".layer_mail_move button:visible:text-is('이동')").last.click(timeout=6000)
                     page.wait_for_timeout(2500)
-                    import base64
-                    out.setdefault("shots", []).append(base64.b64encode(page.screenshot(type="jpeg", quality=55)).decode())
                     out.setdefault("after_click", []).append(page.evaluate("""() => [...document.querySelectorAll('[role=dialog], [class*=layer], [class*=popup], [class*=modal], [class*=toast]')].filter(e => e.getClientRects().length).map(e => (e.className||'').toString().slice(0,40) + ': ' + (e.innerText||'').trim().replace(/\\s+/g,' ').slice(0,80))"""))
                 page.wait_for_timeout(2500)
             except Exception as e:  # noqa: BLE001
