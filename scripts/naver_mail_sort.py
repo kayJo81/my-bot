@@ -85,7 +85,15 @@ def main():
         print("폴더:", ", ".join(f"{k}" for k in fsn) or "못 찾음", flush=True)
 
         # 받은메일함 목록 요청 형식
-        lr = [r for r in reqs if re.search(r"/json/list/?$", r[0])]
+        out["all_paths"] = sorted(set(r[0].split("mail.naver.com", 1)[-1] for r in reqs))
+        if not any("/json/list" in r[0] for r in reqs):
+            try:
+                page.locator("a:has-text('받은메일함'), button:has-text('받은메일함')").first.click(timeout=6000)
+                page.wait_for_timeout(5000)
+            except Exception as e:  # noqa: BLE001
+                out["log"].append(f"받은메일함 클릭 실패 {type(e).__name__}")
+            out["all_paths2"] = sorted(set(r[0].split("mail.naver.com", 1)[-1] for r in reqs))
+        lr = [r for r in reqs if re.search(r"/json/list/?$", r[0]) or re.search(r"/json/list\?", r[0])]
         out["list_req"] = [(u, body[:300]) for u, body in lr[-2:]]
         if not lr:
             out["log"].append("목록 요청을 못 잡음")
