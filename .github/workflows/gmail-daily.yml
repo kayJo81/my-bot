@@ -1,9 +1,7 @@
 name: Gmail daily cleanup
 
-# 매일 05:17 KST: 30일 넘은 광고·소셜·뉴스레터만 휴지통으로(영구 삭제 아님)
+# 수동 실행용. 정기 정리는 mail-cleanup.yml(이틀에 한 번)이 맡습니다.
 on:
-  schedule:
-    - cron: "17 20 * * *"
   workflow_dispatch:
     inputs:
       dry_run:

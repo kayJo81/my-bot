@@ -1,0 +1,60 @@
+name: Mail cleanup (every 2 days)
+
+# 이틀에 한 번 05:17 KST(홀수일): 지메일·네이버 메일의 광고·지정 발신자 메일을 휴지통으로 옮깁니다.
+# 영구 삭제나 휴지통 비우기는 하지 않습니다(휴지통에서 일정 기간 되살릴 수 있음).
+on:
+  schedule:
+    - cron: "17 20 */2 * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "1이면 지메일은 개수만 확인(네이버는 건너뜀)"
+        default: "0"
+
+jobs:
+  gmail:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gmail - old promotions/social/newsletters to Trash
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+        run: |
+          KEEP='-is:starred -is:important -in:sent -from:github.com -(영수증 OR 결제 OR 주문 OR 청구 OR 명세서 OR 은행 OR 카드 OR 증권 OR 세금 OR 보험 OR 병원 OR 진료 OR 예약 OR 인증 OR 보안 OR 비밀번호 OR receipt OR invoice OR payment OR statement OR "시장 동향" OR 이슈체크)'
+          python3 -u scripts/gmail_trash.py \
+            "category:promotions older_than:30d $KEEP" \
+            "category:social older_than:30d $KEEP" \
+            "older_than:30d unsubscribe -category:primary $KEEP"
+
+  naver:
+    if: github.event.inputs.dry_run != '1'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          pip install playwright==1.47.0
+          python -m playwright install --with-deps chromium
+      - name: Naver - promotion folder + chosen senders to Trash (encrypted details)
+        env:
+          NAVER_COOKIES: ${{ secrets.NAVER_COOKIES }}
+          RULE: >-
+            {"search":[{"q":"noreply@email.apple.com","email":["noreply@email.apple.com"],"name":["Find My"]},
+            {"q":"returns@edm.sbs.co.kr","email":["returns@edm.sbs.co.kr"],"name":[]},
+            {"q":"네이버 클라우드 플랫폼","email":[],"name":["네이버 클라우드 플랫폼"]},
+            {"q":"fashionmaster@lfcorp.com","email":["fashionmaster@lfcorp.com"],"name":[]},
+            {"q":"카카오뱅크","email":[],"name":["카카오뱅크","kakaobank","KakaoBank"]}],
+            "promotion":true,"minutes":75,"gap_ms":700}
+        run: |
+          python -u scripts/naver_mail_bulk.py "$RULE" || true
+          [ -f naver_mail_out.json ] || echo '{}' > naver_mail_out.json
+          gzip -9 naver_mail_out.json
+          openssl cms -encrypt -aes256 -binary -in naver_mail_out.json.gz -outform PEM scripts/cafe_cert.pem > enc.pem
+          echo "=====ENC-BEGIN"; cat enc.pem; echo "=====ENC-END"
+          rm -f naver_mail_out.json.gz enc.pem
