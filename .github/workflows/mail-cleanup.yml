@@ -1,6 +1,7 @@
 name: Mail cleanup (every 2 days)
 
-# 이틀에 한 번 05:17 KST(홀수일): 지메일·네이버 메일의 광고·지정 발신자 메일을 휴지통으로 옮깁니다.
+# 이틀에 한 번 05:17 KST(홀수일): 지메일·네이버 받은편지함을 분류합니다.
+# 광고 표시 메일은 휴지통, 청구서·쇼핑·뉴스레터·외신은 같은 이름의 폴더(라벨)로. 지정 발신자 메일은 휴지통.
 # 영구 삭제나 휴지통 비우기는 하지 않습니다(휴지통에서 일정 기간 되살릴 수 있음).
 on:
   schedule:
@@ -17,22 +18,26 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-      - name: Gmail - old promotions/social/newsletters to Trash
+      - name: Gmail - sort inbox (ads to Trash, others to labels)
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+          MAX_SCAN: "5000"
+        run: python3 -u scripts/gmail_sort.py
+      - name: Gmail - old promotions left in inbox to Trash
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
         run: |
           KEEP='-is:starred -is:important -in:sent -from:github.com -(영수증 OR 결제 OR 주문 OR 청구 OR 명세서 OR 은행 OR 카드 OR 증권 OR 세금 OR 보험 OR 병원 OR 진료 OR 예약 OR 인증 OR 보안 OR 비밀번호 OR receipt OR invoice OR payment OR statement OR "시장 동향" OR 이슈체크)'
-          python3 -u scripts/gmail_trash.py \
-            "category:promotions older_than:30d $KEEP" \
-            "category:social older_than:30d $KEEP" \
-            "older_than:30d unsubscribe -category:primary $KEEP"
+          python3 -u scripts/gmail_trash.py "in:inbox category:promotions older_than:30d $KEEP"
 
   naver:
     if: github.event.inputs.dry_run != '1'
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -41,7 +46,17 @@ jobs:
       - run: |
           pip install playwright==1.47.0
           python -m playwright install --with-deps chromium
-      - name: Naver - promotion folder + chosen senders to Trash (encrypted details)
+      - name: Naver - sort inbox (ads to Trash, others to folders)
+        env:
+          NAVER_COOKIES: ${{ secrets.NAVER_COOKIES }}
+        run: |
+          python -u scripts/naver_mail_sort.py '{"pages": 20, "minutes": 60, "gap_ms": 700}' || true
+          [ -f naver_sort_out.json ] || echo '{}' > naver_sort_out.json
+          gzip -9 naver_sort_out.json
+          openssl cms -encrypt -aes256 -binary -in naver_sort_out.json.gz -outform PEM scripts/cafe_cert.pem > enc.pem
+          echo "=====ENC-BEGIN"; cat enc.pem; echo "=====ENC-END"
+          rm -f naver_sort_out.json.gz enc.pem
+      - name: Naver - chosen senders to Trash (encrypted details)
         env:
           NAVER_COOKIES: ${{ secrets.NAVER_COOKIES }}
           RULE: >-
@@ -50,7 +65,7 @@ jobs:
             {"q":"네이버 클라우드 플랫폼","email":[],"name":["네이버 클라우드 플랫폼"]},
             {"q":"fashionmaster@lfcorp.com","email":["fashionmaster@lfcorp.com"],"name":[]},
             {"q":"카카오뱅크","email":[],"name":["카카오뱅크","kakaobank","KakaoBank"]}],
-            "promotion":true,"minutes":75,"gap_ms":700}
+            "promotion":false,"minutes":20,"gap_ms":700}
         run: |
           python -u scripts/naver_mail_bulk.py "$RULE" || true
           [ -f naver_mail_out.json ] || echo '{}' > naver_mail_out.json
