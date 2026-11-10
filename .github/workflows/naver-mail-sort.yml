@@ -1,0 +1,32 @@
+name: Naver mail sort (encrypted output)
+
+on:
+  workflow_dispatch:
+    inputs:
+      rule:
+        description: '예: {"pages": 20, "limit": 0}'
+        default: '{"pages": 20, "limit": 0}'
+
+jobs:
+  sort:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          pip install playwright==1.47.0
+          python -m playwright install --with-deps chromium
+      - name: Run and encrypt
+        env:
+          NAVER_COOKIES: ${{ secrets.NAVER_COOKIES }}
+          RULE: ${{ github.event.inputs.rule }}
+        run: |
+          python -u scripts/naver_mail_sort.py "$RULE" || true
+          [ -f naver_sort_out.json ] || echo '{}' > naver_sort_out.json
+          gzip -9 naver_sort_out.json
+          openssl cms -encrypt -aes256 -binary -in naver_sort_out.json.gz -outform PEM scripts/cafe_cert.pem > enc.pem
+          echo "=====ENC-BEGIN"; cat enc.pem; echo "=====ENC-END"
+          rm -f naver_sort_out.json.gz enc.pem
