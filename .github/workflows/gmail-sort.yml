@@ -1,0 +1,20 @@
+name: Gmail sort
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "1이면 개수만 확인"
+        default: "1"
+
+jobs:
+  sort:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+        run: python3 -u scripts/gmail_sort.py

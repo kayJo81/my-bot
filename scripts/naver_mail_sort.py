@@ -177,6 +177,7 @@ def main():
             return got[-1] if got else None
 
         total = 0
+        t_end = time.time() + float(rule.get("minutes", 50)) * 60
         for c, items in groups.items():
             if limit:
                 items = items[:limit]
@@ -204,6 +205,9 @@ def main():
                         qq[k] = str(fs)
                 bodies.append(urlencode(qq))
             for k in range(0, len(bodies), 100):
+                if time.time() > t_end:
+                    print("시간 한도에 닿아 멈춥니다(다음 실행 때 남은 것부터 이어서 분류)", flush=True)
+                    break
                 r = page.evaluate(SEQ, [cu, bodies[k:k + 100], int(rule.get("gap_ms", 700))])
                 done += r["ok"]
                 if r["fail"]:
