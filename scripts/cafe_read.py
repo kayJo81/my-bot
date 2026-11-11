@@ -4,7 +4,7 @@
 사용법:
   python scripts/cafe_read.py <cafeId> list [페이지수]        → 게시판 목록 + 최근 글 목록
   python scripts/cafe_read.py <cafeId> read <글번호,글번호...>  → 글 본문
-  python scripts/cafe_read.py <cafeId> search <검색어,검색어...> → 카페 검색 결과
+  python scripts/cafe_read.py <cafeId> search <검색어[@작성자],...> → 카페 검색 결과
   python scripts/cafe_read.py <cafeId> get <API주소|API주소...>    → 카페 API 응답(JSON)
 출력: cafe_out.json  (워크플로가 바로 암호화해서 로그에는 암호문만 남깁니다. 공개 저장소이므로 평문을 출력하지 않습니다)
 """
@@ -59,6 +59,7 @@ def main():
             visit(f"https://m.cafe.naver.com/ca-fe/web/cafes/{cafe}/menus/0", scroll=int(arg or 3))
         elif mode == "search":
             for kw in [k.strip() for k in arg.split(",") if k.strip()]:
+                kw, _, by = kw.partition("@")  # "검색어@작성자" 형식이면 검색 대상을 바꿉니다
                 page.goto(f"https://m.cafe.naver.com/ca-fe/web/cafes/{cafe}", wait_until="domcontentloaded")
                 page.wait_for_timeout(3500)
                 clicked = False
@@ -78,6 +79,30 @@ def main():
                     out["pages"].append({"url": kw, "final": page.url, "text": f"입력 실패 {e}"[:300]})
                     continue
                 page.wait_for_timeout(4000)
+                if by:  # 검색 대상 바꾸기(예: 작성자): select 박스 또는 버튼 글자로 선택
+                    done = False
+                    for sel in page.locator("select").all():
+                        try:
+                            sel.select_option(label=by, timeout=2000)
+                            done = True
+                            break
+                        except Exception:
+                            pass
+                    if not done:
+                        for t in ["글+댓글", "전체"]:
+                            try:
+                                page.get_by_text(t, exact=True).first.click(timeout=2000)
+                                page.wait_for_timeout(800)
+                                break
+                            except Exception:
+                                pass
+                        try:
+                            page.get_by_text(by, exact=True).last.click(timeout=3000)
+                            done = True
+                        except Exception:
+                            pass
+                    out["pages"].append({"url": f"{kw}@{by}", "final": page.url, "text": f"대상 선택 {done}"})
+                    page.wait_for_timeout(4000)
                 for _ in range(6):
                     page.mouse.wheel(0, 4000)
                     page.wait_for_timeout(1500)
