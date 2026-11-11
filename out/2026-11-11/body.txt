@@ -1,0 +1,126 @@
+2026년 11월 11일 개장 전 섹터별 이슈체크
+
+2026년 11월 11일 수요일 개장 전 섹터별 이슈체크입니다. 한국시간 15:30~21:23 사이 나온 소식과 미국 프리마켓 흐름을 정리했어요. 프리마켓 등락률은 화요일 종가 대비, 21:23 무렵 기준이며, 오늘은 미국 재향군인의 날이라 주식시장은 열리고 국채 현물시장은 쉽니다.
+
+[그림1]
+
+전날 뜨거운 CPI에 반등이 멈췄던 미국 증시가, 새벽에 나온 코어위브 실적 덕분에 프리마켓에서 다시 힘을 받고 있어요. 나스닥100 선물이 2% 가까이 오르는 가운데 네오클라우드·메모리·광통신처럼 지난주 가장 많이 빠졌던 곳이 가장 크게 오르고 있습니다. 다만 국채 현물시장이 쉬는 날이라 금리 신호가 없다는 점은 감안해야 해요.
+
+[그림2]
+
+여기가 중요한 부분인데, 코어위브는 MS 협력 축소 보도와 16%를 넘은 회사채 금리 탓에 한 달 사이 40% 넘게 빠지며 'AI 인프라 신용 위험'의 상징이 돼 있었어요. 그런 회사가 매출·이익·수주잔고·가이던스를 모두 예상보다 높게 내놓자, 시장이 네오클라우드 전반의 수요 우려를 한 번에 덜어 내는 모습입니다.
+
+[그림3]
+
+수주잔고가 1,325억 달러로 한 분기 만에 280억 달러 넘게 늘었다는 건 고객 수요가 여전하다는 뜻이에요. 반면 올해 설비투자가 370억~390억 달러에 이르는 만큼 자금 조달 비용은 계속 숙제로 남아, 내일 네비우스 실적과 회사채 금리 흐름을 함께 봐야 합니다.
+
+[그림4]
+
+엔비디아는 이틀 동안 9.5% 빠진 뒤 코어위브 효과에 프리마켓에서 한때 5%까지 올랐지만, 베어드가 목표가를 500달러에서 200달러로 크게 낮추고 투자의견을 중립으로 내리면서 상승폭이 3%대로 줄었어요. 회사의 AI 수요보다 CEO를 둘러싼 지배구조 위험을 더 크게 본 판단입니다.
+
+[그림5]
+
+같은 시간 대만은 고성능 AI 칩 기판을 국가 핵심기술 목록에 넣었고, 중국 문샷AI가 제한 대상 엔비디아 칩을 썼다는 보도도 나왔어요. 엔비디아 문제가 수출통제 강화 논의로 번지는지가 반등의 지속 여부를 가를 것으로 보이고, 하원은 11월 18일 비공개 브리핑을 요청해 둔 상태입니다.
+
+[그림6]
+
+대형 기술주는 엔비디아를 빼면 움직임이 크지 않아요. 아마존은 일본 공정위가 판매자에게 다른 사이트보다 싼 가격을 강요했다는 혐의를 인정했고, 바이트댄스는 메타의 'Muse'와 비슷한 AI 에이전트를 곧 내놓을 준비를 하고 있습니다.
+
+[그림7]
+
+스페이스X는 엔비디아 베라 루빈 랙을 자체 설계로 맞춤 제작하고 칩만 사들이는 방식을 추진한다는 보도가 나왔어요. 독일 장비업체 싱굴루스와의 공급 계약 소식에 싱굴루스 주가가 49% 뛰었고, 테슬라와 우주주는 기술주 반등에 함께 오르고 있습니다.
+
+[그림8]
+
+앤트로픽은 일본 투자자에게 30억~35억 달러어치를 배정하고 100억 달러가 넘는 새 계약을 공시하며 IPO 수요를 넓히고 있어요. 한편 이번 상장이 AI 랠리의 정점이 될 수 있고 보호예수가 풀리면 연쇄 조정이 올 수 있다는 경계론도 함께 나오고 있습니다.
+
+[그림9]
+
+코어위브 실적과 함께 지멘스에너지 CEO가 미국 데이터센터 사업에 근본적인 변화가 없다고 밝히면서, 전날 소프트뱅크 상각으로 급락했던 전력 장비주가 되살아나고 있어요. 하루 만에 하락분을 되찾을지는 정규장에서 확인이 필요합니다.
+
+[그림10]
+
+메모리는 모건스탠리가 삼성과 SK하이닉스의 장기 이익 전망을 크게 낮췄다는 보도와 PC 업체 재고 증가 소식이 나왔지만, 프리마켓에서는 코어위브 효과에 8% 안팎 오르고 있어요. 개별 악재보다 AI 수요 회복 기대가 더 크게 작용하는 장세라, 정규장에서 이 흐름이 유지되는지 지켜볼 필요가 있습니다.
+
+[그림11]
+
+TSMC는 416달러대까지 올라 11월 하락분을 모두 되찾으려 하고, 마벨·AMD·장비주도 5~8% 오르고 있어요. 내일 AMAT 실적과 금요일 PPI가 반도체 반등의 다음 시험대입니다.
+
+[그림12]
+
+비트코인은 전날 CPI 이후 7억 달러가 넘는 레버리지 포지션이 정리된 뒤 7만 4천 달러 부근에서 숨을 고르고 있어요. 크립토 관련주도 기술주 반등에 소폭 오르고 있습니다.
+
+출처 링크 (2026-11-11 KST)
+· 美股盘前：CoreWeave涨约17%，存储芯片股、光通信股普涨 (월스트리트견문): https://wallstreetcn.com/livenews/3198298
+· COREWEAVE盘前股价上涨19% (시나): https://finance.sina.cn/7x24/2026-11-11/detail-iniykehe9122420.d.html
+· CoreWeave公布业绩后，Nebius上涨11.6%，Iren上涨8.1% (시나): https://finance.sina.cn/7x24/2026-11-11/detail-iniykehe9126220.d.html
+· 美国芯片股盘前上涨，此前CoreWeave业绩缓解了人工智能担忧 (시나): https://finance.sina.cn/7x24/2026-11-11/detail-iniykefy8483195.d.html
+· 花旗集团将COREWEAVE目标价从128美元上调至149美元 (시나): https://finance.sina.cn/7x24/2026-11-11/detail-iniykkqa9055691.d.html
+· CoreWeave Q3 2026 results (월스트리트견문): https://wallstreetcn.com/livenews/3197921
+· CoreWeave (CRWV) (야후 파이낸스): https://finance.yahoo.com/quote/CRWV/
+· Nebius (NBIS) (야후 파이낸스): https://finance.yahoo.com/quote/NBIS/
+· IREN (IREN) (야후 파이낸스): https://finance.yahoo.com/quote/IREN/
+· Bloom Energy (BE) (야후 파이낸스): https://finance.yahoo.com/quote/BE/
+· Vertiv (VRT) (야후 파이낸스): https://finance.yahoo.com/quote/VRT/
+· 英伟达盘前涨幅扩大至5% (월스트리트견문): https://wallstreetcn.com/livenews/3198359
+· Nvidia PT cut to $200 from $500 at Baird; downgrade to neutral (FinancialJuice): https://www.financialjuice.com/News/9847074/Nvidia-PT-cut-to-200-from-500-at-Baird-downgrade-to-neutral-NVDA.aspx?xy=rss
+· Moonshot AI reportedly accessed restricted Nvidia chips in China despite US ban (DIGITIMES): https://www.digitimes.com/
+· 國家核心關鍵技術擴至46項、高階AI晶片載板入列 (DIGITIMES): https://www.digitimes.com.tw/
+· 美官员呼吁收紧对中国获取先进AI芯片的限制 外交部回应 (월스트리트견문): https://wallstreetcn.com/
+· 英伟达股东律师回应：特朗普的态度不决定诉讼走向 (시나): https://finance.sina.cn/7x24/2026-11-11/detail-iniykkpw8424121.d.html
+· NVIDIA (NVDA) (야후 파이낸스): https://finance.yahoo.com/quote/NVDA/
+· AMD (AMD) (야후 파이낸스): https://finance.yahoo.com/quote/AMD/
+· Broadcom (AVGO) (야후 파이낸스): https://finance.yahoo.com/quote/AVGO/
+· 台积电盘前涨幅扩大至5% (시나): https://finance.sina.cn/7x24/2026-11-11/detail-iniykkpz2286224.d.html
+· TSMC ADR (TSM) (야후 파이낸스): https://finance.yahoo.com/quote/TSM/
+· 日本公平贸易委员会发现亚马逊日本涉嫌强迫卖家 (시나): https://finance.sina.cn/7x24/2026-11-11/detail-iniyixxy2021456.d.html
+· Bytedance prepares Muse-like AI agent release for the coming weeks (FinancialJuice): https://www.financialjuice.com/News/9846895/Bytedance-prepares-Muse-like-AI-agent-release-for-the-coming-weeks.aspx?xy=rss
+· Meta (META) (야후 파이낸스): https://finance.yahoo.com/quote/META/
+· Alphabet (GOOGL) (야후 파이낸스): https://finance.yahoo.com/quote/GOOGL/
+· Apple (AAPL) (야후 파이낸스): https://finance.yahoo.com/quote/AAPL/
+· 马斯克加速布局光伏 (시나): https://finance.sina.com.cn/7x24/
+· 特斯拉美股盘前涨超2% (시나): https://finance.sina.cn/7x24/2026-11-11/detail-iniykehc2352133.d.html
+· Tesla (TSLA) (야후 파이낸스): https://finance.yahoo.com/quote/TSLA/
+· Singulus科技在Tradegate交易所上涨44%，此前与SpaceX签订协议 (시나): https://finance.sina.cn/7x24/2026-11-11/detail-iniyixya8557740.d.html
+· SpaceX据悉尝试机架层去英伟达化 (시나): https://finance.sina.cn/7x24/2026-11-11/detail-iniykefx1798995.d.html
+· SpaceX开发定制版英伟达Vera Rubin NVL72机架 (월스트리트견문): https://wallstreetcn.com/livenews/3198279
+· SpaceX (SPCX) (야후 파이낸스): https://finance.yahoo.com/quote/SPCX/
+· AST SpaceMobile (ASTS) (야후 파이낸스): https://finance.yahoo.com/quote/ASTS/
+· Rocket Lab (RKLB) (야후 파이낸스): https://finance.yahoo.com/quote/RKLB/
+· Anthropic拟在IPO中向日本投资者募资30亿至35亿美元 (월스트리트견문): https://wallstreetcn.com/livenews/3198220
+· Anthropic discloses over $10b in new deals - Information (FinancialJuice): https://www.financialjuice.com/News/9847103/Anthropic-discloses-over-10b-in-new-deals---Information.aspx?xy=rss
+· Anthropic世纪IPO恐成AI行情高点 (월스트리트견문): https://wallstreetcn.com/livenews/3198207
+· IBM quantum nighthawk R3 to execute 10,000 operations on 520 qubits (FinancialJuice): https://www.financialjuice.com/News/9847085/IBM-quantum-nighthawk-R3-to-execute-10000-operations-on-520-qubits-IBM.aspx?xy=rss
+· Oracle (ORCL) (야후 파이낸스): https://finance.yahoo.com/quote/ORCL/
+· ServiceNow (NOW) (야후 파이낸스): https://finance.yahoo.com/quote/NOW/
+· 西门子能源首席执行官：美国数据中心业务没有根本性变化 (시나): https://finance.sina.cn/7x24/2026-11-11/detail-iniyixyf2420211.d.html
+· GE Vernova美股盘前涨超5% (시나): https://finance.sina.cn/7x24/2026-11-11/detail-iniykkqa9092117.d.html
+· Coherent (COHR) (야후 파이낸스): https://finance.yahoo.com/quote/COHR/
+· Lumentum (LITE) (야후 파이낸스): https://finance.yahoo.com/quote/LITE/
+· GE Vernova (GEV) (야후 파이낸스): https://finance.yahoo.com/quote/GEV/
+· 摩根士丹利大幅下调三星、海力士长期盈利预期 (시나): https://finance.sina.cn/7x24/2026-11-11/detail-iniykehe9101193.d.html
+· 机构：整机库存堆高，部分PC OEM调整2027年存储器采购策略 (시나): https://finance.sina.cn/7x24/2026-11-11/detail-iniyixxw5276086.d.html
+· 超颖电子：存储类产品订单能见度充足 (시나): https://finance.sina.cn/7x24/2026-11-11/detail-iniykehe9078196.d.html
+· SK海力士美股盘前涨超8% (시나): https://finance.sina.cn/7x24/2026-11-11/detail-iniykehc2376071.d.html
+· Sandisk (SNDK) (야후 파이낸스): https://finance.yahoo.com/quote/SNDK/
+· SK hynix ADR (SKHY) (야후 파이낸스): https://finance.yahoo.com/quote/SKHY/
+· Micron (MU) (야후 파이낸스): https://finance.yahoo.com/quote/MU/
+· 高盛：3只芯片股已成为当前最具配置价值的标的 (시나): https://finance.sina.cn/7x24/2026-11-11/detail-iniykkqa9065385.d.html
+· Marvell (MRVL) (야후 파이낸스): https://finance.yahoo.com/quote/MRVL/
+· Intel (INTC) (야후 파이낸스): https://finance.yahoo.com/quote/INTC/
+· Lam Research (LRCX) (야후 파이낸스): https://finance.yahoo.com/quote/LRCX/
+· Applied Materials (AMAT) (야후 파이낸스): https://finance.yahoo.com/quote/AMAT/
+· Bitcoin USD (BTC-USD) (야후 파이낸스): https://finance.yahoo.com/quote/BTC-USD/
+· Coinbase (COIN) (야후 파이낸스): https://finance.yahoo.com/quote/COIN/
+· Strategy (MSTR) (야후 파이낸스): https://finance.yahoo.com/quote/MSTR/
+· 俄美乌三方会谈结束 (월스트리트견문): https://wallstreetcn.com/livenews/3198362
+· Medinsky: Russia, Ukraine agree on prisoner of war swap (FinancialJuice): https://www.financialjuice.com/News/9847012/Russias-top-Ukraine-negotiator-Medinsky-Russia-Ukraine-agree-on-prisoner-of-war-swap.aspx?xy=rss
+· 美国特使库什纳：我和威特科夫将于明天访问莫斯科 (월스트리트견문): https://wallstreetcn.com/livenews/3198413
+· 美元兑日元上涨0.2%至159.04 (월스트리트견문): https://wallstreetcn.com/livenews/3198355
+· 美债跌势料延续 加息押注升温或推10年期收益率破5% (시나): https://finance.sina.cn/7x24/2026-11-11/detail-iniykkqa9058006.d.html
+· E-mini Nasdaq 100 (NQ=F) (야후 파이낸스): https://finance.yahoo.com/quote/NQ%3DF/
+· Iran: We won't remove enriched nuclear from country (FinancialJuice): https://www.financialjuice.com/News/9846827/Iran-We-wont-remove-enriched-nuclear-from-country---Mayadeen.aspx?xy=rss
+· 伊朗革命卫队声称两艘油轮夜间在霍尔木兹海峡触雷 (월스트리트견문): https://wallstreetcn.com/livenews/3198356
+· WTI Crude Oil (CL=F) (야후 파이낸스): https://finance.yahoo.com/quote/CL%3DF/
+
+그림 대응(PDF 쪽 번호): 그림1=요약, 그림2=이슈1(1/2), 그림3=이슈1(2/2), 그림4=이슈2(1/2), 그림5=이슈2(2/2), 그림6=메가테크, 그림7=모빌리티, 그림8=AI 소프트웨어, 그림9=AI 인프라, 그림10=반도체(1/2), 그림11=반도체(2/2), 그림12=크립토

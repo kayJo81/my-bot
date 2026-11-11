@@ -1,0 +1,939 @@
+{
+ "date": "2026-11-11",
+ "window": "15:30~21:23 KST",
+ "mail_to": "yidiar80k@gmail.com",
+ "summary": [
+  "[배경] 코어위브 3분기 매출·가이던스 상회 → 프리마켓 +17%, 네오클라우드·반도체 동반 급등",
+  "나스닥100 선물 +1.9%: 마이크론·SK하이닉스·마벨 8% 안팎, TSMC +4.8%로 11월 낙폭 회복",
+  "엔비디아 이틀 −9.5% 뒤 프리마켓 +3.7% 반등, 베어드는 목표가 500→200달러로 하향",
+  "아부다비 러·미·우 3자 회담 종료: 포로 교환 합의, 쿠슈너·위트코프 내일 모스크바행",
+  "재향군인의 날 미 국채 현물 휴장, 달러/엔 159엔으로 9월 말 이후 최고"
+ ],
+ "checklist": [
+  "정규장에서 AI 인프라 반등이 이어지는지(전날 CPI 충격 뒤)",
+  "엔비디아 반등과 하원 브리핑·투자의견 하향의 줄다리기",
+  "내일 네비우스(장 전)·시스코·AMAT 실적",
+  "금요일 10월 PPI와 10년물 5% 돌파 여부",
+  "러·미 접촉과 이란 핵물질 반출 거부 이후 유가"
+ ],
+ "issues": [
+  {
+   "title": "코어위브 실적이 되살린 AI 인프라",
+   "subtitle": "[신규] 프리마켓 +17% · 네오클라우드·반도체·전력 동반 급등",
+   "timeline": [
+    {
+     "t": "06:05",
+     "text": "[배경] 코어위브 3분기 실적 발표, 시간외 +6~7%"
+    },
+    {
+     "t": "18:03",
+     "text": "코어위브 프리마켓 +19%, 네비우스 +11.6%"
+    },
+    {
+     "t": "18:16",
+     "text": "반도체 동반 상승: 마벨·AMD·마이크론 강세"
+    },
+    {
+     "t": "19:37",
+     "text": "씨티, 코어위브 목표가 128→149달러"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "코어위브",
+     "value": "+17.38%",
+     "note": "프리마켓, 21:23 KST",
+     "dir": "up"
+    },
+    {
+     "label": "3분기 매출",
+     "value": "36.6억 달러",
+     "note": "예상 약 35.6억 달러",
+     "dir": "up"
+    },
+    {
+     "label": "수주잔고",
+     "value": "약 1,325억 달러",
+     "note": "2분기 1,042억 달러",
+     "dir": "up"
+    },
+    {
+     "label": "2026 매출 가이던스",
+     "value": "130억~133억 달러",
+     "note": "상향",
+     "dir": "up"
+    }
+   ],
+   "cause": [
+    "매출·조정 영업이익·수주잔고·가이던스 모두 예상 상회",
+    "2026년 말 연환산 매출 목표 200억~210억 달러로 상향",
+    "MS 협력 축소·회사채 금리 16% 우려 속 한 달간 40% 넘게 빠졌던 주가",
+    "남은 과제: 연 370억~390억 달러 설비투자 자금조달"
+   ],
+   "chips": [
+    {
+     "name": "코어위브",
+     "chg": "+17.38%"
+    },
+    {
+     "name": "네비우스",
+     "chg": "+14.15%"
+    },
+    {
+     "name": "IREN",
+     "chg": "+7.75%"
+    },
+    {
+     "name": "블룸에너지",
+     "chg": "+8.67%"
+    },
+    {
+     "name": "버티브",
+     "chg": "+6.33%"
+    }
+   ],
+   "checks": [
+    "정규장 상승 유지 여부",
+    "내일 네비우스 실적",
+    "회사채 금리·CDS 변화"
+   ],
+   "source": "월스트리트견문, 시나, 야후 파이낸스"
+  },
+  {
+   "title": "엔비디아, 이틀 −9.5% 뒤 반등 시도",
+   "subtitle": "[신규] 프리마켓 +3.7% · 베어드 투자의견 '중립'으로 하향",
+   "timeline": [
+    {
+     "t": "16:20",
+     "text": "中 외교부 \"美 대중 칩 입장 일관\", 美 의회 규제 강화 요구"
+    },
+    {
+     "t": "18:16",
+     "text": "코어위브 효과에 프리마켓 +3.1%"
+    },
+    {
+     "t": "19:22",
+     "text": "프리마켓 상승폭 5%까지 확대"
+    },
+    {
+     "t": "20:47",
+     "text": "베어드, 목표가 500→200달러·투자의견 중립"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "엔비디아",
+     "value": "+3.65%",
+     "note": "프리마켓, 화요일 168.89달러 대비",
+     "dir": "up"
+    },
+    {
+     "label": "직전 이틀",
+     "value": "-9.5%",
+     "note": "이사회 조사·중국 칩 유입 보도",
+     "dir": "down"
+    },
+    {
+     "label": "TSMC ADR",
+     "value": "+4.78%",
+     "note": "11월 낙폭 회복",
+     "dir": "up"
+    },
+    {
+     "label": "브로드컴",
+     "value": "+4.34%",
+     "note": "프리마켓",
+     "dir": "up"
+    }
+   ],
+   "cause": [
+    "코어위브 실적으로 AI 수요 우려가 누그러지며 반발 매수",
+    "베어드 하향: CEO 리스크로 투자의견 낮춤",
+    "문샷AI가 중국에서 제한 대상 엔비디아 칩을 쓴 정황 보도(DIGITIMES)",
+    "대만, 고성능 AI 칩 기판을 국가 핵심기술에 추가"
+   ],
+   "chips": [
+    {
+     "name": "엔비디아",
+     "chg": "+3.65%"
+    },
+    {
+     "name": "AMD",
+     "chg": "+6.50%"
+    },
+    {
+     "name": "브로드컴",
+     "chg": "+4.34%"
+    },
+    {
+     "name": "TSMC",
+     "chg": "+4.78%"
+    }
+   ],
+   "checks": [
+    "정규장에서 반등 유지 여부",
+    "하원 비공개 브리핑(11/18 요청)",
+    "11/17 실적 전 투자의견 변화"
+   ],
+   "source": "FinancialJuice, 월스트리트견문, 시나, DIGITIMES, 야후 파이낸스"
+  }
+ ],
+ "sections": {
+  "megatech": [
+   {
+    "company": "엔비디아",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "이틀 −9.5% 뒤 프리마켓 +3.65%(이슈 카드 참고)"
+     },
+     {
+      "label": "사실",
+      "text": "베어드 목표가 500→200달러, 투자의견 중립"
+     },
+     {
+      "label": "사실",
+      "text": "주주 소송 변호인 \"트럼프 입장이 소송 방향을 정하지 않아\""
+     },
+     {
+      "label": "체크",
+      "text": "정규장 반등 유지 여부"
+     }
+    ],
+    "chips": [
+     {
+      "name": "엔비디아",
+      "chg": "+3.65%"
+     }
+    ],
+    "source": "FinancialJuice, 시나, 야후 파이낸스"
+   },
+   {
+    "company": "메타 · 알파벳 · MS · 아마존 · 애플",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "일본 공정위, 아마존 재팬이 판매자에게 타 사이트보다 낮은 가격을 강요한 혐의 인정"
+     },
+     {
+      "label": "사실",
+      "text": "바이트댄스, 메타 'Muse'류 AI 에이전트를 수주 안에 출시 준비"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 메타 +1.10%, 알파벳 +0.91%, MS +0.22%, 아마존 +0.01%, 애플 −0.65%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "메타",
+      "chg": "+1.10%"
+     },
+     {
+      "name": "알파벳",
+      "chg": "+0.91%"
+     },
+     {
+      "name": "애플",
+      "chg": "-0.65%"
+     }
+    ],
+    "source": "시나, FinancialJuice, 야후 파이낸스"
+   }
+  ],
+  "mobility": [
+   {
+    "company": "테슬라",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "머스크, 태양광 사업 확대에 속도"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 +1.75%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "테슬라",
+      "chg": "+1.75%"
+     }
+    ],
+    "source": "시나, 야후 파이낸스"
+   },
+   {
+    "company": "스페이스X",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "독일 싱굴루스와 공급 계약, 싱굴루스 주가 49% 급등"
+     },
+     {
+      "label": "사실",
+      "text": "엔비디아 베라 루빈 NVL72 맞춤 랙 개발, 칩만 사고 랙은 자체 설계 추진 보도"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 스페이스X +3.05%, AST스페이스모바일 +4.16%, 로켓랩 +1.98%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "스페이스X",
+      "chg": "+3.05%"
+     },
+     {
+      "name": "AST",
+      "chg": "+4.16%"
+     },
+     {
+      "name": "로켓랩",
+      "chg": "+1.98%"
+     }
+    ],
+    "source": "시나, 월스트리트견문, 야후 파이낸스"
+   }
+  ],
+  "ai_software": [
+   {
+    "company": "앤트로픽",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "IPO에서 일본 투자자에게 30억~35억 달러 배정 계획"
+     },
+     {
+      "label": "사실",
+      "text": "디 인포메이션: 100억 달러 넘는 신규 계약 공시"
+     },
+     {
+      "label": "의미",
+      "text": "\"IPO가 AI 랠리의 정점이 될 수 있다, 보호예수 해제 뒤 연쇄 조정\" 경계론도"
+     },
+     {
+      "label": "체크",
+      "text": "11/18 공모가 결정"
+     }
+    ],
+    "chips": [],
+    "source": "월스트리트견문, FinancialJuice, 시나"
+   },
+   {
+    "company": "오라클 · 중국 AI",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "바이두 '원신 5.5 플래시' 프리뷰 공개, 텐센트 '위안바오 검색' 출시"
+     },
+     {
+      "label": "사실",
+      "text": "IBM, 520큐비트로 1만 회 연산하는 양자 프로세서 '나이트호크 R3' 공개"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 오라클 +5.61%, 서비스나우 +0.94%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "오라클",
+      "chg": "+5.61%"
+     },
+     {
+      "name": "서비스나우",
+      "chg": "+0.94%"
+     }
+    ],
+    "source": "시나, 월스트리트견문, FinancialJuice, 야후 파이낸스"
+   }
+  ],
+  "ai_infra": [
+   {
+    "company": "네오클라우드",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "코어위브 3분기 실적·가이던스 상회(이슈 카드 참고)"
+     },
+     {
+      "label": "사실",
+      "text": "씨티, 코어위브 목표가 128→149달러"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 코어위브 +17.38%, 네비우스 +14.15%, IREN +7.75%, 테라울프 +6.93%"
+     },
+     {
+      "label": "체크",
+      "text": "내일 장 전 네비우스 실적"
+     }
+    ],
+    "chips": [
+     {
+      "name": "코어위브",
+      "chg": "+17.38%"
+     },
+     {
+      "name": "네비우스",
+      "chg": "+14.15%"
+     },
+     {
+      "name": "IREN",
+      "chg": "+7.75%"
+     }
+    ],
+    "source": "시나, 월스트리트견문, 야후 파이낸스"
+   },
+   {
+    "company": "전력 · 광통신",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "지멘스에너지 CEO \"미국 데이터센터 사업에 근본적 변화 없다\""
+     },
+     {
+      "label": "의미",
+      "text": "전날 소프트뱅크 상각발 터빈 주문 취소 우려 진정"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 코히런트 +9.20%, 루멘텀 +9.12%, 블룸에너지 +8.67%, 버티브 +6.33%, GE버노바 +5.39%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "코히런트",
+      "chg": "+9.20%"
+     },
+     {
+      "name": "블룸에너지",
+      "chg": "+8.67%"
+     },
+     {
+      "name": "GE버노바",
+      "chg": "+5.39%"
+     }
+    ],
+    "source": "시나, 야후 파이낸스"
+   }
+  ],
+  "semis": [
+   {
+    "company": "메모리",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "모건스탠리, 삼성·SK하이닉스 장기 이익 전망·목표가 크게 하향 보도"
+     },
+     {
+      "label": "사실",
+      "text": "PC 업체 재고 증가로 일부가 2027년 메모리 구매 전략 조정(조사기관)"
+     },
+     {
+      "label": "사실",
+      "text": "대만 기판업체 \"메모리 주문 가시성 충분, 우량 생산능력은 장기계약으로 묶여\""
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 샌디스크 +8.70%, SK하이닉스 ADR +8.32%, 마이크론 +6.60%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "샌디스크",
+      "chg": "+8.70%"
+     },
+     {
+      "name": "SK하이닉스 ADR",
+      "chg": "+8.32%"
+     },
+     {
+      "name": "마이크론",
+      "chg": "+6.60%"
+     }
+    ],
+    "source": "시나, 야후 파이낸스"
+   },
+   {
+    "company": "TSMC · 팹리스 · 장비",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "TSMC ADR 416달러대로 11월 낙폭 모두 회복 시도"
+     },
+     {
+      "label": "사실",
+      "text": "골드만삭스, 현재 가장 매력적인 반도체 3종목 제시"
+     },
+     {
+      "label": "사실",
+      "text": "캐논, 12월 시간당 400장 처리 KrF 노광기 출시"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 마벨 +8.57%, 인텔 +6.62%, AMD +6.50%, 램리서치 +5.98%, AMAT +5.92%, TSMC +4.78%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "마벨",
+      "chg": "+8.57%"
+     },
+     {
+      "name": "AMD",
+      "chg": "+6.50%"
+     },
+     {
+      "name": "AMAT",
+      "chg": "+5.92%"
+     },
+     {
+      "name": "TSMC",
+      "chg": "+4.78%"
+     }
+    ],
+    "source": "시나, DIGITIMES, 야후 파이낸스"
+   }
+  ],
+  "others": [
+   {
+    "company": "비트코인 · 크립토",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "비트코인 7.39만 달러 안팎, 화요일 대비 +0.3%로 보합권"
+     },
+     {
+      "label": "의미",
+      "text": "전날 CPI 이후 7억 달러 넘는 청산 뒤 숨 고르기"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 코인베이스 +1.76%, 스트래티지 +1.16%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "비트코인",
+      "chg": "+0.31%"
+     },
+     {
+      "name": "코인베이스",
+      "chg": "+1.76%"
+     },
+     {
+      "name": "스트래티지",
+      "chg": "+1.16%"
+     }
+    ],
+    "source": "야후 파이낸스"
+   }
+  ]
+ },
+ "empty_notes": {},
+ "greeting": "2026년 11월 11일 수요일 개장 전 섹터별 이슈체크입니다. 한국시간 15:30~21:23 사이 나온 소식과 미국 프리마켓 흐름을 정리했어요. 프리마켓 등락률은 화요일 종가 대비, 21:23 무렵 기준이며, 오늘은 미국 재향군인의 날이라 주식시장은 열리고 국채 현물시장은 쉽니다.",
+ "commentary": {
+  "summary": "전날 뜨거운 CPI에 반등이 멈췄던 미국 증시가, 새벽에 나온 코어위브 실적 덕분에 프리마켓에서 다시 힘을 받고 있어요. 나스닥100 선물이 2% 가까이 오르는 가운데 네오클라우드·메모리·광통신처럼 지난주 가장 많이 빠졌던 곳이 가장 크게 오르고 있습니다. 다만 국채 현물시장이 쉬는 날이라 금리 신호가 없다는 점은 감안해야 해요.",
+  "issue1": [
+   "여기가 중요한 부분인데, 코어위브는 MS 협력 축소 보도와 16%를 넘은 회사채 금리 탓에 한 달 사이 40% 넘게 빠지며 'AI 인프라 신용 위험'의 상징이 돼 있었어요. 그런 회사가 매출·이익·수주잔고·가이던스를 모두 예상보다 높게 내놓자, 시장이 네오클라우드 전반의 수요 우려를 한 번에 덜어 내는 모습입니다.",
+   "수주잔고가 1,325억 달러로 한 분기 만에 280억 달러 넘게 늘었다는 건 고객 수요가 여전하다는 뜻이에요. 반면 올해 설비투자가 370억~390억 달러에 이르는 만큼 자금 조달 비용은 계속 숙제로 남아, 내일 네비우스 실적과 회사채 금리 흐름을 함께 봐야 합니다."
+  ],
+  "issue2": [
+   "엔비디아는 이틀 동안 9.5% 빠진 뒤 코어위브 효과에 프리마켓에서 한때 5%까지 올랐지만, 베어드가 목표가를 500달러에서 200달러로 크게 낮추고 투자의견을 중립으로 내리면서 상승폭이 3%대로 줄었어요. 회사의 AI 수요보다 CEO를 둘러싼 지배구조 위험을 더 크게 본 판단입니다.",
+   "같은 시간 대만은 고성능 AI 칩 기판을 국가 핵심기술 목록에 넣었고, 중국 문샷AI가 제한 대상 엔비디아 칩을 썼다는 보도도 나왔어요. 엔비디아 문제가 수출통제 강화 논의로 번지는지가 반등의 지속 여부를 가를 것으로 보이고, 하원은 11월 18일 비공개 브리핑을 요청해 둔 상태입니다."
+  ],
+  "megatech": "대형 기술주는 엔비디아를 빼면 움직임이 크지 않아요. 아마존은 일본 공정위가 판매자에게 다른 사이트보다 싼 가격을 강요했다는 혐의를 인정했고, 바이트댄스는 메타의 'Muse'와 비슷한 AI 에이전트를 곧 내놓을 준비를 하고 있습니다.",
+  "mobility": "스페이스X는 엔비디아 베라 루빈 랙을 자체 설계로 맞춤 제작하고 칩만 사들이는 방식을 추진한다는 보도가 나왔어요. 독일 장비업체 싱굴루스와의 공급 계약 소식에 싱굴루스 주가가 49% 뛰었고, 테슬라와 우주주는 기술주 반등에 함께 오르고 있습니다.",
+  "ai_software": "앤트로픽은 일본 투자자에게 30억~35억 달러어치를 배정하고 100억 달러가 넘는 새 계약을 공시하며 IPO 수요를 넓히고 있어요. 한편 이번 상장이 AI 랠리의 정점이 될 수 있고 보호예수가 풀리면 연쇄 조정이 올 수 있다는 경계론도 함께 나오고 있습니다.",
+  "ai_infra": "코어위브 실적과 함께 지멘스에너지 CEO가 미국 데이터센터 사업에 근본적인 변화가 없다고 밝히면서, 전날 소프트뱅크 상각으로 급락했던 전력 장비주가 되살아나고 있어요. 하루 만에 하락분을 되찾을지는 정규장에서 확인이 필요합니다.",
+  "semis": [
+   "메모리는 모건스탠리가 삼성과 SK하이닉스의 장기 이익 전망을 크게 낮췄다는 보도와 PC 업체 재고 증가 소식이 나왔지만, 프리마켓에서는 코어위브 효과에 8% 안팎 오르고 있어요. 개별 악재보다 AI 수요 회복 기대가 더 크게 작용하는 장세라, 정규장에서 이 흐름이 유지되는지 지켜볼 필요가 있습니다.",
+   "TSMC는 416달러대까지 올라 11월 하락분을 모두 되찾으려 하고, 마벨·AMD·장비주도 5~8% 오르고 있어요. 내일 AMAT 실적과 금요일 PPI가 반도체 반등의 다음 시험대입니다."
+  ],
+  "others": "비트코인은 전날 CPI 이후 7억 달러가 넘는 레버리지 포지션이 정리된 뒤 7만 4천 달러 부근에서 숨을 고르고 있어요. 크립토 관련주도 기술주 반등에 소폭 오르고 있습니다."
+ },
+ "sources": [
+  {
+   "title": "美股盘前：CoreWeave涨约17%，存储芯片股、光通信股普涨",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3198298"
+  },
+  {
+   "title": "COREWEAVE盘前股价上涨19%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniykehe9122420.d.html"
+  },
+  {
+   "title": "CoreWeave公布业绩后，Nebius上涨11.6%，Iren上涨8.1%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniykehe9126220.d.html"
+  },
+  {
+   "title": "美国芯片股盘前上涨，此前CoreWeave业绩缓解了人工智能担忧",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniykefy8483195.d.html"
+  },
+  {
+   "title": "花旗集团将COREWEAVE目标价从128美元上调至149美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniykkqa9055691.d.html"
+  },
+  {
+   "title": "CoreWeave Q3 2026 results",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3197921"
+  },
+  {
+   "title": "CoreWeave (CRWV)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/CRWV/"
+  },
+  {
+   "title": "Nebius (NBIS)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/NBIS/"
+  },
+  {
+   "title": "IREN (IREN)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/IREN/"
+  },
+  {
+   "title": "Bloom Energy (BE)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/BE/"
+  },
+  {
+   "title": "Vertiv (VRT)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/VRT/"
+  },
+  {
+   "title": "英伟达盘前涨幅扩大至5%",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3198359"
+  },
+  {
+   "title": "Nvidia PT cut to $200 from $500 at Baird; downgrade to neutral",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9847074/Nvidia-PT-cut-to-200-from-500-at-Baird-downgrade-to-neutral-NVDA.aspx?xy=rss"
+  },
+  {
+   "title": "Moonshot AI reportedly accessed restricted Nvidia chips in China despite US ban",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/"
+  },
+  {
+   "title": "國家核心關鍵技術擴至46項、高階AI晶片載板入列",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com.tw/"
+  },
+  {
+   "title": "美官员呼吁收紧对中国获取先进AI芯片的限制 外交部回应",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/"
+  },
+  {
+   "title": "英伟达股东律师回应：特朗普的态度不决定诉讼走向",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniykkpw8424121.d.html"
+  },
+  {
+   "title": "NVIDIA (NVDA)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/NVDA/"
+  },
+  {
+   "title": "AMD (AMD)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/AMD/"
+  },
+  {
+   "title": "Broadcom (AVGO)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/AVGO/"
+  },
+  {
+   "title": "台积电盘前涨幅扩大至5%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniykkpz2286224.d.html"
+  },
+  {
+   "title": "TSMC ADR (TSM)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/TSM/"
+  },
+  {
+   "title": "日本公平贸易委员会发现亚马逊日本涉嫌强迫卖家",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyixxy2021456.d.html"
+  },
+  {
+   "title": "Bytedance prepares Muse-like AI agent release for the coming weeks",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9846895/Bytedance-prepares-Muse-like-AI-agent-release-for-the-coming-weeks.aspx?xy=rss"
+  },
+  {
+   "title": "Meta (META)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/META/"
+  },
+  {
+   "title": "Alphabet (GOOGL)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/GOOGL/"
+  },
+  {
+   "title": "Apple (AAPL)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/AAPL/"
+  },
+  {
+   "title": "马斯克加速布局光伏",
+   "outlet": "시나",
+   "url": "https://finance.sina.com.cn/7x24/"
+  },
+  {
+   "title": "特斯拉美股盘前涨超2%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniykehc2352133.d.html"
+  },
+  {
+   "title": "Tesla (TSLA)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/TSLA/"
+  },
+  {
+   "title": "Singulus科技在Tradegate交易所上涨44%，此前与SpaceX签订协议",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyixya8557740.d.html"
+  },
+  {
+   "title": "SpaceX据悉尝试机架层去英伟达化",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniykefx1798995.d.html"
+  },
+  {
+   "title": "SpaceX开发定制版英伟达Vera Rubin NVL72机架",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3198279"
+  },
+  {
+   "title": "SpaceX (SPCX)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/SPCX/"
+  },
+  {
+   "title": "AST SpaceMobile (ASTS)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/ASTS/"
+  },
+  {
+   "title": "Rocket Lab (RKLB)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/RKLB/"
+  },
+  {
+   "title": "Anthropic拟在IPO中向日本投资者募资30亿至35亿美元",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3198220"
+  },
+  {
+   "title": "Anthropic discloses over $10b in new deals - Information",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9847103/Anthropic-discloses-over-10b-in-new-deals---Information.aspx?xy=rss"
+  },
+  {
+   "title": "Anthropic世纪IPO恐成AI行情高点",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3198207"
+  },
+  {
+   "title": "百度发布文心5.5 Flash Preview",
+   "outlet": "시나",
+   "url": "https://finance.sina.com.cn/7x24/"
+  },
+  {
+   "title": "腾讯全新搜索产品元宝搜索正式上线",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/"
+  },
+  {
+   "title": "IBM quantum nighthawk R3 to execute 10,000 operations on 520 qubits",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9847085/IBM-quantum-nighthawk-R3-to-execute-10000-operations-on-520-qubits-IBM.aspx?xy=rss"
+  },
+  {
+   "title": "Oracle (ORCL)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/ORCL/"
+  },
+  {
+   "title": "ServiceNow (NOW)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/NOW/"
+  },
+  {
+   "title": "西门子能源首席执行官：美国数据中心业务没有根本性变化",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyixyf2420211.d.html"
+  },
+  {
+   "title": "GE Vernova美股盘前涨超5%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniykkqa9092117.d.html"
+  },
+  {
+   "title": "Coherent (COHR)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/COHR/"
+  },
+  {
+   "title": "Lumentum (LITE)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/LITE/"
+  },
+  {
+   "title": "GE Vernova (GEV)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/GEV/"
+  },
+  {
+   "title": "摩根士丹利大幅下调三星、海力士长期盈利预期",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniykehe9101193.d.html"
+  },
+  {
+   "title": "机构：整机库存堆高，部分PC OEM调整2027年存储器采购策略",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyixxw5276086.d.html"
+  },
+  {
+   "title": "超颖电子：存储类产品订单能见度充足",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniykehe9078196.d.html"
+  },
+  {
+   "title": "SK海力士美股盘前涨超8%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniykehc2376071.d.html"
+  },
+  {
+   "title": "Sandisk (SNDK)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/SNDK/"
+  },
+  {
+   "title": "SK hynix ADR (SKHY)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/SKHY/"
+  },
+  {
+   "title": "Micron (MU)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/MU/"
+  },
+  {
+   "title": "高盛：3只芯片股已成为当前最具配置价值的标的",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniykkqa9065385.d.html"
+  },
+  {
+   "title": "Canon to launch KrF lithography scanner rated at 400 wafers per hour in December",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/"
+  },
+  {
+   "title": "Marvell (MRVL)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/MRVL/"
+  },
+  {
+   "title": "Intel (INTC)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/INTC/"
+  },
+  {
+   "title": "Lam Research (LRCX)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/LRCX/"
+  },
+  {
+   "title": "Applied Materials (AMAT)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/AMAT/"
+  },
+  {
+   "title": "Bitcoin USD (BTC-USD)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/BTC-USD/"
+  },
+  {
+   "title": "Coinbase (COIN)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/COIN/"
+  },
+  {
+   "title": "Strategy (MSTR)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/MSTR/"
+  },
+  {
+   "title": "俄美乌三方会谈结束",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3198362"
+  },
+  {
+   "title": "Medinsky: Russia, Ukraine agree on prisoner of war swap",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9847012/Russias-top-Ukraine-negotiator-Medinsky-Russia-Ukraine-agree-on-prisoner-of-war-swap.aspx?xy=rss"
+  },
+  {
+   "title": "美国特使库什纳：我和威特科夫将于明天访问莫斯科",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3198413"
+  },
+  {
+   "title": "美元兑日元上涨0.2%至159.04",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3198355"
+  },
+  {
+   "title": "美债跌势料延续 加息押注升温或推10年期收益率破5%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniykkqa9058006.d.html"
+  },
+  {
+   "title": "E-mini Nasdaq 100 (NQ=F)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/NQ%3DF/"
+  },
+  {
+   "title": "Iran: We won't remove enriched nuclear from country",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9846827/Iran-We-wont-remove-enriched-nuclear-from-country---Mayadeen.aspx?xy=rss"
+  },
+  {
+   "title": "伊朗革命卫队声称两艘油轮夜间在霍尔木兹海峡触雷",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3198356"
+  },
+  {
+   "title": "WTI Crude Oil (CL=F)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/CL%3DF/"
+  }
+ ]
+}
