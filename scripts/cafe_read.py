@@ -5,6 +5,7 @@
   python scripts/cafe_read.py <cafeId> list [페이지수]        → 게시판 목록 + 최근 글 목록
   python scripts/cafe_read.py <cafeId> read <글번호,글번호...>  → 글 본문
   python scripts/cafe_read.py <cafeId> search <검색어,검색어...> → 카페 검색 결과
+  python scripts/cafe_read.py <cafeId> get <API주소|API주소...>    → 카페 API 응답(JSON)
 출력: cafe_out.json  (워크플로가 바로 암호화해서 로그에는 암호문만 남깁니다. 공개 저장소이므로 평문을 출력하지 않습니다)
 """
 import json
@@ -85,6 +86,18 @@ def main():
                 except Exception:
                     txt = ""
                 out["pages"].append({"url": kw, "final": page.url, "clicked": clicked, "text": txt})
+        elif mode == "get":  # 카페 API 주소를 로그인 쿠키로 직접 요청 (주소는 '|'로 구분)
+            for u in [x.strip() for x in arg.split("|") if x.strip()]:
+                try:
+                    r = ctx.request.get(u, headers={"Referer": f"https://m.cafe.naver.com/ca-fe/web/cafes/{cafe}"})
+                    try:
+                        js = r.json()
+                    except Exception:
+                        js = {"text": r.text()[:3000]}
+                    out["api"].append({"url": u.split("?")[0][-120:], "query": u.split("?")[1][:300] if "?" in u else "",
+                                       "status": r.status, "json": js})
+                except Exception as e:  # noqa: BLE001
+                    out["api"].append({"url": u[:120], "error": str(e)[:300]})
         else:
             for aid in [a for a in arg.split(",") if a.strip()]:
                 visit(f"https://m.cafe.naver.com/ca-fe/web/cafes/{cafe}/articles/{aid.strip()}")
