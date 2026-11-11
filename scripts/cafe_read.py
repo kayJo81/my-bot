@@ -86,16 +86,19 @@ def main():
                 except Exception:
                     txt = ""
                 out["pages"].append({"url": kw, "final": page.url, "clicked": clicked, "text": txt})
-        elif mode == "get":  # 카페 API 주소를 로그인 쿠키로 직접 요청 (주소는 '|'로 구분)
+        elif mode == "get":  # 카페 API 주소를 카페 페이지 안에서 fetch로 요청 (주소는 '|'로 구분)
+            page.goto(f"https://m.cafe.naver.com/ca-fe/web/cafes/{cafe}", wait_until="domcontentloaded")
+            page.wait_for_timeout(3000)
             for u in [x.strip() for x in arg.split("|") if x.strip()]:
                 try:
-                    r = ctx.request.get(u, headers={"Referer": f"https://m.cafe.naver.com/ca-fe/web/cafes/{cafe}"})
+                    res = page.evaluate("""async (u) => { const r = await fetch(u, {credentials: 'include'});
+                        const t = await r.text(); return {status: r.status, text: t}; }""", u)
                     try:
-                        js = r.json()
+                        js = json.loads(res["text"])
                     except Exception:
-                        js = {"text": r.text()[:3000]}
+                        js = {"text": res["text"][:3000]}
                     out["api"].append({"url": u.split("?")[0][-120:], "query": u.split("?")[1][:300] if "?" in u else "",
-                                       "status": r.status, "json": js})
+                                       "status": res["status"], "json": js})
                 except Exception as e:  # noqa: BLE001
                     out["api"].append({"url": u[:120], "error": str(e)[:300]})
         else:
