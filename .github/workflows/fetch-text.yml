@@ -13,7 +13,7 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - run: pip install beautifulsoup4
+      - run: pip install beautifulsoup4 && (command -v pdftotext || sudo apt-get install -y poppler-utils)
       - env:
           URLS: ${{ github.event.inputs.urls }}
         run: python3 -u scripts/fetch_text.py "$URLS"
