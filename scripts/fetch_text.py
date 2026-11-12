@@ -9,7 +9,8 @@ UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.3
 for url in [u for a in sys.argv[1:] for u in a.split() if u]:
     print(f"\n===== {url}")
     try:
-        h = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=40).read().decode("utf-8", "ignore")
+        hd = {"User-Agent": "my-bot research bot@example.com"} if "sec.gov" in url else UA  # SEC는 연락처형 UA 요구
+        h = urllib.request.urlopen(urllib.request.Request(url, headers=hd), timeout=40).read().decode("utf-8", "ignore")
     except Exception as e:  # noqa: BLE001
         print("실패:", e)
         continue
