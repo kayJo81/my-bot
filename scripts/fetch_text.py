@@ -17,6 +17,10 @@ for url in [u for a in sys.argv[1:] for u in a.split() if u]:
     s = BeautifulSoup(h, "html.parser")
     for t in s(["script", "style", "nav", "footer", "header"]):
         t.decompose()
+    for a in s.select("a[href]"):  # 실적·보고서 관련 링크는 주소도 함께 출력
+        tx = a.get_text(" ", strip=True)
+        if any(k in (tx + a["href"]).lower() for k in ("quarter", "results", "letter", "earnings")):
+            print("[링크]", tx[:80], "->", a["href"])
     main = s.select_one("article, main, #mw-content-text, .entry-content") or s.body
     for tb in main.select("table"):
         print("[표]")
