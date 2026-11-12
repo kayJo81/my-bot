@@ -32,14 +32,14 @@
   "id": "issue2#1",
   "name": "이슈2(1/2)",
   "file": "pre_5.jpg",
-  "height": 1362
+  "height": 1668
  },
  {
   "n": 6,
   "id": "issue2#2",
   "name": "이슈2(2/2)",
   "file": "pre_6.jpg",
-  "height": 1652
+  "height": 1779
  },
  {
   "n": 7,
@@ -72,22 +72,29 @@
  {
   "n": 11,
   "id": "semis#1",
-  "name": "반도체(1/2)",
+  "name": "반도체(1/3)",
   "file": "pre_11.jpg",
-  "height": 1284
+  "height": 1213
  },
  {
   "n": 12,
   "id": "semis#2",
-  "name": "반도체(2/2)",
+  "name": "반도체(2/3)",
   "file": "pre_12.jpg",
-  "height": 1213
+  "height": 1284
  },
  {
   "n": 13,
+  "id": "semis#3",
+  "name": "반도체(3/3)",
+  "file": "pre_13.jpg",
+  "height": 1213
+ },
+ {
+  "n": 14,
   "id": "others",
   "name": "크립토",
-  "file": "pre_13.jpg",
+  "file": "pre_14.jpg",
   "height": 917
  }
 ]

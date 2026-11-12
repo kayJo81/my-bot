@@ -1,14 +1,14 @@
 {
  "window_start": "2026-11-12 15:30 KST",
- "fetched_at": "2026-11-12 21:23 KST",
- "count": 766,
+ "fetched_at": "2026-11-12 21:27 KST",
+ "count": 818,
  "items": [
   {
    "kst": "15:30",
    "ts": 1794465053,
    "h": "30-Day Correlation Matrix",
    "ko": "30일 상관관계 매트릭스",
-   "u": "https://www.financialjuice.com/News/9848421/30-Day-Correlation-Matrix.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848421/30-Day-Correlation-Matrix.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -24,7 +24,7 @@
    "ts": 1794465071,
    "h": "60-Day Correlation Matrix",
    "ko": "60일 상관관계 매트릭스",
-   "u": "https://www.financialjuice.com/News/9848422/60-Day-Correlation-Matrix.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848422/60-Day-Correlation-Matrix.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -32,7 +32,7 @@
    "ts": 1794465087,
    "h": "90-Day Correlation Matrix",
    "ko": "90일 상관관계 매트릭스",
-   "u": "https://www.financialjuice.com/News/9848423/90-Day-Correlation-Matrix.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848423/90-Day-Correlation-Matrix.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -40,7 +40,7 @@
    "ts": 1794465105,
    "h": "120-Day Correlation Matrix",
    "ko": "120일 상관관계 매트릭스",
-   "u": "https://www.financialjuice.com/News/9848437/120-Day-Correlation-Matrix.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848437/120-Day-Correlation-Matrix.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -64,7 +64,7 @@
    "ts": 1794465155,
    "h": "Top S&P 500 stock names implied volatility",
    "ko": "S&P 500 상위 주식 이름은 변동성을 내포하고 있습니다.",
-   "u": "https://www.financialjuice.com/News/9848439/Top-SP-500-stock-names-implied-volatility.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848439/Top-SP-500-stock-names-implied-volatility.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -72,7 +72,7 @@
    "ts": 1794465175,
    "h": "US Index Futures Implied Volatility",
    "ko": "미국 지수선물 내재변동성",
-   "u": "https://www.financialjuice.com/News/9848440/US-Index-Futures-Implied-Volatility.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848440/US-Index-Futures-Implied-Volatility.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -88,7 +88,7 @@
    "ts": 1794465192,
    "h": "FX Implied Volatility",
    "ko": "FX 내재변동성",
-   "u": "https://www.financialjuice.com/News/9848441/FX-Implied-Volatility.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848441/FX-Implied-Volatility.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -96,7 +96,7 @@
    "ts": 1794465209,
    "h": "Commodities Implied Volatility",
    "ko": "원자재 내재변동성",
-   "u": "https://www.financialjuice.com/News/9848442/Commodities-Implied-Volatility.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848442/Commodities-Implied-Volatility.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -104,7 +104,7 @@
    "ts": 1794465243,
    "h": "Fed Interest Rate Probabilities",
    "ko": "연준 금리 확률",
-   "u": "https://www.financialjuice.com/News/9848443/Fed-Interest-Rate-Probabilities.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848443/Fed-Interest-Rate-Probabilities.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -112,7 +112,7 @@
    "ts": 1794465263,
    "h": "ECB Interest Rate Probabilities",
    "ko": "ECB 금리 확률",
-   "u": "https://www.financialjuice.com/News/9848444/ECB-Interest-Rate-Probabilities.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848444/ECB-Interest-Rate-Probabilities.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -120,7 +120,7 @@
    "ts": 1794465283,
    "h": "BoE Interest Rate Probabilities",
    "ko": "BoE 금리 확률",
-   "u": "https://www.financialjuice.com/News/9848445/BoE-Interest-Rate-Probabilities.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848445/BoE-Interest-Rate-Probabilities.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -128,7 +128,7 @@
    "ts": 1794465301,
    "h": "BoC Interest Rate Probabilities",
    "ko": "BoC 금리 확률",
-   "u": "https://www.financialjuice.com/News/9848446/BoC-Interest-Rate-Probabilities.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848446/BoC-Interest-Rate-Probabilities.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -144,7 +144,7 @@
    "ts": 1794465322,
    "h": "BoJ Interest Rate Probabilities",
    "ko": "BoJ 금리 확률",
-   "u": "https://www.financialjuice.com/News/9848447/BoJ-Interest-Rate-Probabilities.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848447/BoJ-Interest-Rate-Probabilities.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -160,7 +160,7 @@
    "ts": 1794465339,
    "h": "RBA Interest Rate Probabilities",
    "ko": "RBA 금리 확률",
-   "u": "https://www.financialjuice.com/News/9848448/RBA-Interest-Rate-Probabilities.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848448/RBA-Interest-Rate-Probabilities.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -176,7 +176,7 @@
    "ts": 1794465362,
    "h": "RBNZ Interest Rate Probabilities",
    "ko": "RBNZ 이자율 확률",
-   "u": "https://www.financialjuice.com/News/9848449/RBNZ-Interest-Rate-Probabilities.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848449/RBNZ-Interest-Rate-Probabilities.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -184,7 +184,7 @@
    "ts": 1794465380,
    "h": "SNB Interest Rate Probabilities",
    "ko": "SNB 이자율 확률",
-   "u": "https://www.financialjuice.com/News/9848450/SNB-Interest-Rate-Probabilities.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848450/SNB-Interest-Rate-Probabilities.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -311,7 +311,7 @@
    "kst": "15:46",
    "ts": 1794465981,
    "h": "扎哈罗娃回应英国高官涉俄言论：令人惊讶，当初是英国主动切断了有关沟通渠道",
-   "ko": "자하로바는 러시아에 대한 영국 고위 관리들의 발언에 대해 “놀랍게도 관련 통신 채널을 차단하는 데 앞장섰던 것은 영국이었다”고 답했다.",
+   "ko": "자카로바는 러시아에 대한 영국 고위 관리들의 발언에 대해 다음과 같이 반응합니다. 관련 통신 채널을 차단하기 위해 주도권을 잡은 것이 영국이었다는 것은 놀라운 일입니다",
    "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyniex1114739.d.html",
    "s": "sina"
   },
@@ -399,7 +399,7 @@
    "kst": "15:50",
    "ts": 1794466247,
    "h": "PTA连续主力合约日内涨2%，现报6072.00元。",
-   "ko": "PTA의 주요 계약은 하루 동안 2% 상승했으며 현재 6072.00위안입니다.",
+   "ko": "PTA의 주요 계약은 하루 동안 2% 상승했으며 현재 6072.00위안으로 거래되고 있습니다.",
    "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynifc1704860.d.html",
    "s": "sina"
   },
@@ -496,7 +496,7 @@
    "ts": 1794466599,
    "h": "Siemens CEO: Partnership with NVIDIA to continue as normal.",
    "ko": "Siemens CEO: NVIDIA와의 파트너십은 평소대로 계속됩니다.",
-   "u": "https://www.financialjuice.com/News/9848463/Siemens-CEO-Partnership-with-NVIDIA-to-continue-as-normal.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848463/Siemens-CEO-Partnership-with-NVIDIA-to-continue-as-normal.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -504,7 +504,7 @@
    "ts": 1794466604,
    "h": "Siemens CEO: No extra guardrails needed for our Nvidia business $NVDA",
    "ko": "Siemens CEO: Nvidia 비즈니스 $NVDA에는 추가 가드레일이 필요하지 않습니다.",
-   "u": "https://www.financialjuice.com/News/9848464/Siemens-CEO-No-extra-guardrails-needed-for-our-Nvidia-business-NVDA.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848464/Siemens-CEO-No-extra-guardrails-needed-for-our-Nvidia-business-NVDA.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -568,7 +568,7 @@
    "ts": 1794466753,
    "h": "Iran's state media, citing the IRGC Navy: Two oil tankers face explosions while moving in the 'unauthorized route' In the Strait of Hormuz on Wednesday night",
    "ko": "이란 국영 언론, IRGC 해군 인용: 수요일 밤 호르무즈 해협에서 '무단 경로'로 이동하던 유조선 2척이 폭발에 직면",
-   "u": "https://www.financialjuice.com/News/9848465/Irans-state-media-citing-the-IRGC-Navy-Two-oil-tankers-face-explosions-while-moving-in-the-unauthorized-route-In-the-Strait-of-Hormuz-on-Wednesday-night.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848465/Irans-state-media-citing-the-IRGC-Navy-Two-oil-tankers-face-explosions-while-moving-in-the-unauthorized-route-In-the-Strait-of-Hormuz-on-Wednesday-night.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -592,7 +592,7 @@
    "ts": 1794466801,
    "h": "UK GDP Estimate MoM Actual 0.2% (Forecast 0%, Previous 0.1%)",
    "ko": "영국 GDP 추정(MoM) 실제 0.2%(예측 0%, 이전 0.1%)",
-   "u": "https://www.financialjuice.com/News/9848467/UK-GDP-Estimate-MoM-Actual-02-Forecast-0-Previous-01.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848467/UK-GDP-Estimate-MoM-Actual-02-Forecast-0-Previous-01.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -600,7 +600,7 @@
    "ts": 1794466801,
    "h": "UK Construction Output MoM Actual 0.8% (Forecast -0.1%, Previous -0.2%)",
    "ko": "영국 건설 생산량 (MoM) 실제 0.8% (예측 -0.1%, 이전 -0.2%)",
-   "u": "https://www.financialjuice.com/News/9848466/UK-Construction-Output-MoM-Actual-08-Forecast--01-Previous--02.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848466/UK-Construction-Output-MoM-Actual-08-Forecast--01-Previous--02.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -623,7 +623,7 @@
    "kst": "16:00",
    "ts": 1794466801,
    "h": "英国三季度GDP季环比初值 0.7%，预期 0.7%，前值 0.5%。",
-   "ko": "영국의 3분기 GDP 전분기 대비 초기 값은 0.7%로, 예상치는 0.7%였으며 이전 값은 0.5%였습니다.",
+   "ko": "영국의 3분기 GDP 전분기 대비 초기값은 0.7%로 예상치 0.7%였으며 종전 값은 0.5%였습니다.",
    "u": "https://wallstreetcn.com/livenews/3198913",
    "s": "wscn"
   },
@@ -655,7 +655,7 @@
    "kst": "16:00",
    "ts": 1794466801,
    "h": "英国9月GDP环比 0.2%，预期 0%，前值 0.1%。",
-   "ko": "영국 9월 GDP는 전월 대비 0.2%, 예상 0%였으며 이전 수치는 0.1%였습니다.",
+   "ko": "9월 영국 GDP는 전월 대비 0.2%로 예상치 0%와 이전 수치 0.1%를 크게 상회했습니다.",
    "u": "https://wallstreetcn.com/livenews/3198909",
    "s": "wscn"
   },
@@ -664,7 +664,7 @@
    "ts": 1794466802,
    "h": "UK GDP YoY Prelim Actual 1.9% (Forecast 1.9%, Previous 1.4%)",
    "ko": "영국 GDP YoY 잠정 실제 1.9%(예측 1.9%, 이전 1.4%)",
-   "u": "https://www.financialjuice.com/News/9848471/UK-GDP-YoY-Prelim-Actual-19-Forecast-19-Previous-14.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848471/UK-GDP-YoY-Prelim-Actual-19-Forecast-19-Previous-14.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -672,7 +672,7 @@
    "ts": 1794466802,
    "h": "UK Services MoM Actual 0.2% (Forecast 0%, Previous 0.0%)",
    "ko": "영국 서비스 MoM 실제 0.2%(예측 0%, 이전 0.0%)",
-   "u": "https://www.financialjuice.com/News/9848470/UK-Services-MoM-Actual-02-Forecast-0-Previous-00.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848470/UK-Services-MoM-Actual-02-Forecast-0-Previous-00.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -680,7 +680,7 @@
    "ts": 1794466802,
    "h": "UK GDP QoQ Prelim Actual 0.7% (Forecast 0.7%, Previous 0.5%)",
    "ko": "영국 GDP QoQ 잠정 실제 0.7%(예측 0.7%, 이전 0.5%)",
-   "u": "https://www.financialjuice.com/News/9848469/UK-GDP-QoQ-Prelim-Actual-07-Forecast-07-Previous-05.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848469/UK-GDP-QoQ-Prelim-Actual-07-Forecast-07-Previous-05.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -688,7 +688,7 @@
    "ts": 1794466802,
    "h": "UK Business Investment QoQ Prelim Actual 0.43% (Forecast 0.6%, Previous 1.8%)",
    "ko": "영국 기업 투자 QoQ 잠정 실제 0.43% (예측 0.6%, 이전 1.8%)",
-   "u": "https://www.financialjuice.com/News/9848468/UK-Business-Investment-QoQ-Prelim-Actual-043-Forecast-06-Previous-18.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848468/UK-Business-Investment-QoQ-Prelim-Actual-043-Forecast-06-Previous-18.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -744,7 +744,7 @@
    "ts": 1794466804,
    "h": "UK Industrial Production YoY Actual 3.1% (Forecast 2.8%, Previous 1.6%)",
    "ko": "영국 산업생산 YoY 실제 3.1%(예측 2.8%, 이전 1.6%)",
-   "u": "https://www.financialjuice.com/News/9848472/UK-Industrial-Production-YoY-Actual-31-Forecast-28-Previous-16.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848472/UK-Industrial-Production-YoY-Actual-31-Forecast-28-Previous-16.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -776,7 +776,7 @@
    "ts": 1794466805,
    "h": "UK Goods Trade Balance Actual -22.291B (Forecast -19.2B, Previous -18.01B)",
    "ko": "영국 상품 무역수지 실제 -222.91억(예측 -192억, 이전 -1801억)",
-   "u": "https://www.financialjuice.com/News/9848478/UK-Goods-Trade-Balance-Actual--22291B-Forecast--192B-Previous--1801B.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848478/UK-Goods-Trade-Balance-Actual--22291B-Forecast--192B-Previous--1801B.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -784,7 +784,7 @@
    "ts": 1794466805,
    "h": "UK Manufacturing Production MoM Actual 0.7% (Forecast -0.5%, Previous 1.2%)",
    "ko": "영국 제조업 생산 (MoM) 실제 0.7% (예측 -0.5%, 이전 1.2%)",
-   "u": "https://www.financialjuice.com/News/9848474/UK-Manufacturing-Production-MoM-Actual-07-Forecast--05-Previous-12.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848474/UK-Manufacturing-Production-MoM-Actual-07-Forecast--05-Previous-12.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -792,7 +792,7 @@
    "ts": 1794466805,
    "h": "UK Industrial Production MoM Actual 0.3% (Forecast -0.4%, Previous 0.8%)",
    "ko": "영국 산업 생산 (MoM) 실제 0.3% (예측 -0.4%, 이전 0.8%)",
-   "u": "https://www.financialjuice.com/News/9848473/UK-Industrial-Production-MoM-Actual-03-Forecast--04-Previous-08.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848473/UK-Industrial-Production-MoM-Actual-03-Forecast--04-Previous-08.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -880,7 +880,7 @@
    "ts": 1794466925,
    "h": "UK GDP Estimate YoY Actual 2.1% (Forecast 1.9%, Previous 2.1%)",
    "ko": "영국 GDP 추정 YoY 실제 2.1%(예측 1.9%, 이전 2.1%)",
-   "u": "https://www.financialjuice.com/News/9848477/UK-GDP-Estimate-YoY-Actual-21-Forecast-19-Previous-21.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848477/UK-GDP-Estimate-YoY-Actual-21-Forecast-19-Previous-21.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -888,7 +888,7 @@
    "ts": 1794466925,
    "h": "UK GDP Estimate 3M/3M Actual 0.7% (Forecast 0.6%, Previous 0.7%)",
    "ko": "영국 GDP 추정 3M/3M 실제 0.7%(예측 0.6%, 이전 0.7%)",
-   "u": "https://www.financialjuice.com/News/9848475/UK-GDP-Estimate-3M3M-Actual-07-Forecast-06-Previous-07.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848475/UK-GDP-Estimate-3M3M-Actual-07-Forecast-06-Previous-07.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -904,7 +904,7 @@
    "ts": 1794466926,
    "h": "UK Manufacturing Production YoY Actual 4.4% (Forecast 3.8%, Previous 3.0%)",
    "ko": "영국 제조업 생산 YoY 실제 4.4%(예측 3.8%, 이전 3.0%)",
-   "u": "https://www.financialjuice.com/News/9848479/UK-Manufacturing-Production-YoY-Actual-44-Forecast-38-Previous-30.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848479/UK-Manufacturing-Production-YoY-Actual-44-Forecast-38-Previous-30.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -912,7 +912,7 @@
    "ts": 1794466928,
    "h": "Swedish CPI MoM Actual 0.0% (Forecast 0%, Previous 0.0%)",
    "ko": "스웨덴 CPI 전월 실제 0.0%(예측 0%, 이전 0.0%)",
-   "u": "https://www.financialjuice.com/News/9848482/Swedish-CPI-MoM-Actual-00-Forecast-0-Previous-00.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848482/Swedish-CPI-MoM-Actual-00-Forecast-0-Previous-00.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -920,7 +920,7 @@
    "ts": 1794466928,
    "h": "Swedish CPI YoY Actual 0.9% (Forecast 0.9%, Previous 0.9%)",
    "ko": "스웨덴 CPI YoY 실제 0.9%(예측 0.9%, 이전 0.9%)",
-   "u": "https://www.financialjuice.com/News/9848481/Swedish-CPI-YoY-Actual-09-Forecast-09-Previous-09.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848481/Swedish-CPI-YoY-Actual-09-Forecast-09-Previous-09.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -928,7 +928,7 @@
    "ts": 1794466928,
    "h": "UK Goods Trade Balance Non-EU Actual -8.985B (Forecast -, Previous -5.287B)",
    "ko": "영국 비EU 상품 무역수지 실제 -89.85억(예측 -, 이전 -52.87억)",
-   "u": "https://www.financialjuice.com/News/9848480/UK-Goods-Trade-Balance-Non-EU-Actual--8985B-Forecast---Previous--5287B.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848480/UK-Goods-Trade-Balance-Non-EU-Actual--8985B-Forecast---Previous--5287B.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -1024,7 +1024,7 @@
    "ts": 1794467239,
    "h": "China's Mao: The US should not use spy narrative as pretext for tech curbs",
    "ko": "중국 마오쩌둥: 미국은 스파이 이야기를 기술 억제의 구실로 삼아서는 안 된다",
-   "u": "https://www.financialjuice.com/News/9848491/Chinas-Mao-The-US-should-not-use-spy-narrative-as-pretext-for-tech-curbs.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848491/Chinas-Mao-The-US-should-not-use-spy-narrative-as-pretext-for-tech-curbs.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -1080,7 +1080,7 @@
    "ts": 1794467451,
    "h": "China and the US are in close communication over tariff reduction - Mofcom",
    "ko": "중국과 미국이 관세 인하를 놓고 긴밀히 소통하고 있다 - Mofcom",
-   "u": "https://www.financialjuice.com/News/9848492/China-and-the-US-are-in-close-communication-over-tariff-reduction---Mofcom.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848492/China-and-the-US-are-in-close-communication-over-tariff-reduction---Mofcom.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -1143,7 +1143,7 @@
    "kst": "16:13",
    "ts": 1794467585,
    "h": "今天国际、奥特维等在江苏新设创投基金",
-   "ko": "오늘 International, Otway 등이 장쑤성에 새로운 벤처 캐피탈 펀드를 설립했습니다.",
+   "ko": "오늘 International, Otway 등이 장쑤성에 새로운 벤처 캐피털 펀드를 설립했습니다.",
    "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyniff3814989.d.html",
    "s": "sina"
   },
@@ -1400,7 +1400,7 @@
    "ts": 1794468437,
    "h": "French European affairs minister Haddad: On Monday, the EU will approve more sanctions on Russia",
    "ko": "하다드 프랑스 유럽부 장관: 월요일 EU는 러시아에 대한 추가 제재를 승인할 것입니다.",
-   "u": "https://www.financialjuice.com/News/9848508/French-European-affairs-minister-Haddad-On-Monday-the-EU-will-approve-more-sanctions-on-Russia.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848508/French-European-affairs-minister-Haddad-On-Monday-the-EU-will-approve-more-sanctions-on-Russia.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -1496,7 +1496,7 @@
    "ts": 1794468709,
    "h": "Japan government to spend 650 bln Yen to help ease winter outlays for households - Kyodo",
    "ko": "일본 정부, 가계 겨울 지출 완화 위해 6천500억엔 지출 - 교도통신",
-   "u": "https://www.financialjuice.com/News/9848521/Japan-government-to-spend-650-bln-Yen-to-help-ease-winter-outlays-for-households---Kyodo.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848521/Japan-government-to-spend-650-bln-Yen-to-help-ease-winter-outlays-for-households---Kyodo.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -2056,7 +2056,7 @@
    "ts": 1794470526,
    "h": "Currency Strength Chart: Strongest: CHF, JPY, USD, GBP, CAD, EUR, NZD, AUD - Weakest",
    "ko": "통화 강도 차트: 가장 강함: CHF, JPY, USD, GBP, CAD, EUR, NZD, AUD - 가장 약함",
-   "u": "https://www.financialjuice.com/News/9848554/Currency-Strength-Chart-Strongest-CHF-JPY-USD-GBP-CAD-EUR-NZD-AUD---Weakest.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848554/Currency-Strength-Chart-Strongest-CHF-JPY-USD-GBP-CAD-EUR-NZD-AUD---Weakest.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -2392,7 +2392,7 @@
    "ts": 1794471358,
    "h": "Russia's Ryabkov: It's incorrect to say trust was restored between parties following negotiations in Abu Dhabi - IFX",
    "ko": "러시아 랴브코프: 아부다비 협상 이후 당사자 간 신뢰가 회복됐다는 말은 틀렸다 - IFX",
-   "u": "https://www.financialjuice.com/News/9848560/Russias-Ryabkov-Its-incorrect-to-say-trust-was-restored-between-parties-following-negotiations-in-Abu-Dhabi---IFX.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848560/Russias-Ryabkov-Its-incorrect-to-say-trust-was-restored-between-parties-following-negotiations-in-Abu-Dhabi---IFX.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -2999,7 +2999,7 @@
    "kst": "17:53",
    "ts": 1794473605,
    "h": "纽约期金失守3940美元/盎司，日内跌1.52%。",
-   "ko": "뉴욕 금 선물은 이날 1.52% 하락한 온스당 3,940달러 아래로 떨어졌다.",
+   "ko": "뉴욕 금 선물은 이날 온스당 1.52% 하락한 3,940달러를 기록했다.",
    "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyniex1257167.d.html",
    "s": "sina"
   },
@@ -3312,7 +3312,7 @@
    "ts": 1794474567,
    "h": "Ukrainian interceptors can't reach enough speed to intercept targets in time: Zelenskiy",
    "ko": "우크라이나 요격체는 적시에 목표물을 요격할 만큼 충분한 속도에 도달하지 못한다: Zelenskiy",
-   "u": "https://www.financialjuice.com/News/9848635/Ukrainian-interceptors-cant-reach-enough-speed-to-intercept-targets-in-time-Zelenskiy.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848635/Ukrainian-interceptors-cant-reach-enough-speed-to-intercept-targets-in-time-Zelenskiy.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -3320,7 +3320,7 @@
    "ts": 1794474575,
    "h": "This helps Russia kill more Ukrainians, carry out more precise strikes on Ukraine: Zelenskiy",
    "ko": "이는 러시아가 더 많은 우크라이나인을 죽이고 우크라이나에 대해 보다 정확한 공격을 수행하는 데 도움이 됩니다: Zelenskiy",
-   "u": "https://www.financialjuice.com/News/9848636/This-helps-Russia-kill-more-Ukrainians-carry-out-more-precise-strikes-on-Ukraine-Zelenskiy.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848636/This-helps-Russia-kill-more-Ukrainians-carry-out-more-precise-strikes-on-Ukraine-Zelenskiy.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -3503,7 +3503,7 @@
    "kst": "18:20",
    "ts": 1794475247,
    "h": "李彦宏对谈杨元庆：AI只是给一个基本的初稿，关键的判断决策最后还是在人",
-   "ko": "Robin Li가 Yang Yuanqing과 대화합니다. AI는 기본적인 초안만 제공하며 핵심 판단과 의사 결정은 궁극적으로 인간에게 달려 있습니다.",
+   "ko": "Robin Li가 Yang Yuanqing과 대화합니다. AI는 기본적인 초안만 제공하며 핵심 판단과 의사 결정은 궁극적으로 인간에게 있습니다.",
    "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynpnz1711079.d.html",
    "s": "sina"
   },
@@ -3560,7 +3560,7 @@
    "ts": 1794475503,
    "h": "Europe Sentiment: Sleeping With Chinese Spies Is Bad For Your Employment - FJElite",
    "ko": "유럽의 정서: 중국 스파이와 함께 자는 것은 고용에 좋지 않습니다 - FJElite",
-   "u": "https://www.financialjuice.com/News/9848660/Europe-Sentiment-Sleeping-With-Chinese-Spies-Is-Bad-For-Your-Employment---FJElite.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848660/Europe-Sentiment-Sleeping-With-Chinese-Spies-Is-Bad-For-Your-Employment---FJElite.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -3839,7 +3839,7 @@
    "kst": "18:48",
    "ts": 1794476894,
    "h": "北纬科技：股票交易异常波动 无应披露未披露重大事项",
-   "ko": "Northern Latitude Technology: 비정상적인 주식 거래 변동 및 공개해야 할 주요 미공개 사항 없음",
+   "ko": "Northern Latitude Technology : 비정상적인 주식 거래 변동, 공개 또는 비공개해야 할 주요 사항 없음",
    "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynppc3824354.d.html",
    "s": "sina"
   },
@@ -3880,7 +3880,7 @@
    "ts": 1794477136,
    "h": "MUFG: The JPY - FJElite",
    "ko": "MUFG: JPY - FJElite",
-   "u": "https://www.financialjuice.com/News/9848709/MUFG-The-JPY---FJElite.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848709/MUFG-The-JPY---FJElite.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -3896,7 +3896,7 @@
    "ts": 1794477185,
    "h": "ING: EUR/USD - FJElite",
    "ko": "ING: EUR/USD - FJElite",
-   "u": "https://www.financialjuice.com/News/9848710/ING-EURUSD---FJElite.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848710/ING-EURUSD---FJElite.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -4151,7 +4151,7 @@
    "kst": "19:10",
    "ts": 1794478211,
    "h": "市场消息：沙特将于2027年10月举办下一届旗舰投资会议“未来投资倡议”大会。",
-   "ko": "시장 뉴스: 사우디아라비아는 2027년 10월 차기 주력 투자 컨퍼런스 \"미래 투자 이니셔티브\"를 개최할 예정입니다.",
+   "ko": "시장 뉴스: 사우디아라비아는 2027년 10월 차기 주력 투자 컨퍼런스인 \"미래 투자 이니셔티브\"를 개최할 예정입니다.",
    "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynpnz1745264.d.html",
    "s": "sina"
   },
@@ -4159,7 +4159,7 @@
    "kst": "19:13",
    "ts": 1794478384,
    "h": "据报道，美国中东问题特使威特科夫和库什纳进入克里姆林宫。",
-   "ko": "보도에 따르면 미국의 중동특사인 위트코프와 쿠슈너가 크렘린궁에 들어섰다.",
+   "ko": "보도에 따르면 미국의 중동특사인 위트코프와 쿠슈너가 크렘린에 입장했다.",
    "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynpnz1747451.d.html",
    "s": "sina"
   },
@@ -4207,7 +4207,7 @@
    "kst": "19:17",
    "ts": 1794478651,
    "h": "侨银股份：控股股东刘少云办理2137万股股份质押展期",
-   "ko": "Qiaoyin Co., Ltd.: 지배주주 Liu Shaoyun 2,137만 주 질권 연장 신청",
+   "ko": "Qiaoyin Co., Ltd.: 지배 주주인 Liu Shaoyun이 2,137만 주에 대한 질권 연장을 신청했습니다.",
    "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynpnz1750196.d.html",
    "s": "sina"
   },
@@ -4256,7 +4256,7 @@
    "ts": 1794478796,
    "h": "Senator Cotton: US Commerce Secretary Lutnick should ban China's CXMT from the US - CNBC",
    "ko": "코튼 상원의원: 루트닉 미국 상무장관은 미국에서 중국의 CXMT를 금지해야 합니다 - CNBC",
-   "u": "https://www.financialjuice.com/News/9848735/Senator-Cotton-US-Commerce-Secretary-Lutnick-should-ban-Chinas-CXMT-from-the-US---CNBC.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848735/Senator-Cotton-US-Commerce-Secretary-Lutnick-should-ban-Chinas-CXMT-from-the-US---CNBC.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -4360,7 +4360,7 @@
    "ts": 1794479079,
    "h": "UK Finance Minister Healey, when asked about deal with EU: Deal must deliver benefits that outweigh trade-offs",
    "ko": "힐리 영국 재무장관은 EU와의 거래에 관해 질문을 받았을 때: 거래는 상충관계보다 더 큰 이익을 제공해야 합니다.",
-   "u": "https://www.financialjuice.com/News/9848755/UK-Finance-Minister-Healey-when-asked-about-deal-with-EU-Deal-must-deliver-benefits-that-outweigh-trade-offs.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848755/UK-Finance-Minister-Healey-when-asked-about-deal-with-EU-Deal-must-deliver-benefits-that-outweigh-trade-offs.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -4712,7 +4712,7 @@
    "ts": 1794480312,
    "h": "Albania's PM: Next NATO summit for sure not in 2027",
    "ko": "알바니아 총리: 다음 NATO 정상회담은 2027년이 아닐 것으로 확신",
-   "u": "https://www.financialjuice.com/News/9848756/Albanias-PM-Next-NATO-summit-for-sure-not-in-2027.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848756/Albanias-PM-Next-NATO-summit-for-sure-not-in-2027.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -4728,7 +4728,7 @@
    "ts": 1794480323,
    "h": "Albania's PM: Next NATO maybe in 2028, timing is not clear yet",
    "ko": "알바니아 총리: 차기 NATO는 2028년이 될 수도 있고 시기는 아직 명확하지 않음",
-   "u": "https://www.financialjuice.com/News/9848758/Albanias-PM-Next-NATO-maybe-in-2028-timing-is-not-clear-yet.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848758/Albanias-PM-Next-NATO-maybe-in-2028-timing-is-not-clear-yet.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -4920,7 +4920,7 @@
    "ts": 1794480976,
    "h": "EU's Kallas: We don't see any goodwill from Russia's side",
    "ko": "EU 칼라스 \"러시아 측 호의는 보이지 않는다\"",
-   "u": "https://www.financialjuice.com/News/9848771/EUs-Kallas-We-dont-see-any-goodwill-from-Russias-side.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848771/EUs-Kallas-We-dont-see-any-goodwill-from-Russias-side.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -5056,7 +5056,7 @@
    "ts": 1794481463,
    "h": "EU's Kallas: Would very much like to see Britain back in Europe",
    "ko": "EU 칼라스 \"영국이 유럽에 복귀하는 것을 매우 보고 싶다\"",
-   "u": "https://www.financialjuice.com/News/9848784/EUs-Kallas-Would-very-much-like-to-see-Britain-back-in-Europe.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848784/EUs-Kallas-Would-very-much-like-to-see-Britain-back-in-Europe.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -5152,7 +5152,7 @@
    "ts": 1794481835,
    "h": "Germany’s Chancellor Merz: See good chance to end EU budget talks before year-end",
    "ko": "메르츠 독일 총리: 연말 이전에 EU 예산 협상을 끝낼 좋은 기회를 본다",
-   "u": "https://www.financialjuice.com/News/9848785/Germanys-Chancellor-Merz-See-good-chance-to-end-EU-budget-talks-before-year-end.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848785/Germanys-Chancellor-Merz-See-good-chance-to-end-EU-budget-talks-before-year-end.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -5168,7 +5168,7 @@
    "ts": 1794481848,
    "h": "EC Pres. von der Leyen: Very much welcome peace talks in Abu Dhabi",
    "ko": "EC 대가. von der Leyen: 아부다비에서 열린 평화 회담을 매우 환영합니다.",
-   "u": "https://www.financialjuice.com/News/9848786/EC-Pres-von-der-Leyen-Very-much-welcome-peace-talks-in-Abu-Dhabi.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848786/EC-Pres-von-der-Leyen-Very-much-welcome-peace-talks-in-Abu-Dhabi.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -5176,7 +5176,7 @@
    "ts": 1794481860,
    "h": "Germany's Merz: Europeans need to be involved in Ukraine talks",
    "ko": "독일 메르츠 \"우크라이나 회담에 유럽인 참여해야\"",
-   "u": "https://www.financialjuice.com/News/9848787/Germanys-Merz-Europeans-need-to-be-involved-in-Ukraine-talks.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848787/Germanys-Merz-Europeans-need-to-be-involved-in-Ukraine-talks.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -5248,7 +5248,7 @@
    "ts": 1794482147,
    "h": "Poll: ECB to hike deposit rate to 2.75% in December, said all 71 economists (64 of 73 economists in October poll)",
    "ko": "여론조사: ECB는 12월에 예금 금리를 2.75%로 인상할 것이라고 71명의 경제학자 전원이 밝혔습니다(10월 여론조사에서는 73명의 경제학자 중 64명).",
-   "u": "https://www.financialjuice.com/News/9848790/Poll-ECB-to-hike-deposit-rate-to-275-in-December-said-all-71-economists-64-of-73-economists-in-October-poll.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848790/Poll-ECB-to-hike-deposit-rate-to-275-in-December-said-all-71-economists-64-of-73-economists-in-October-poll.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -5256,7 +5256,7 @@
    "ts": 1794482162,
    "h": "Poll: ECB deposit rate to peak at 2.75%, said 46 of 71 economists; 3.00% said 25 respondents",
    "ko": "여론조사: 71명의 경제학자 중 46명이 ECB 예금율이 2.75%로 최고조에 달할 것이라고 말했습니다. 3.00%는 25명의 응답자가 있다고 말했습니다.",
-   "u": "https://www.financialjuice.com/News/9848791/Poll-ECB-deposit-rate-to-peak-at-275-said-46-of-71-economists-300-said-25-respondents.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848791/Poll-ECB-deposit-rate-to-peak-at-275-said-46-of-71-economists-300-said-25-respondents.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -5512,7 +5512,7 @@
    "ts": 1794483520,
    "h": "Oman emergency committee discusses response to oil tanker running aground off Al Qibliyah Island - State TV",
    "ko": "오만 비상위원회, 알 키블리야 섬에서 좌초된 유조선 대응 논의 - 국영 TV",
-   "u": "https://www.financialjuice.com/News/9848828/Oman-emergency-committee-discusses-response-to-oil-tanker-running-aground-off-Al-Qibliyah-Island---State-TV.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848828/Oman-emergency-committee-discusses-response-to-oil-tanker-running-aground-off-Al-Qibliyah-Island---State-TV.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -5639,7 +5639,7 @@
    "kst": "20:43",
    "ts": 1794483791,
    "h": "阿曼应急委员会跟踪处理油轮货物作业进展。",
-   "ko": "오만 비상위원회는 유조선 화물 작업의 진행 상황을 추적하고 있습니다.",
+   "ko": "오만 비상위원회는 유조선 화물 처리 작업의 진행 상황을 추적하고 있습니다.",
    "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntut1101297.d.html",
    "s": "sina"
   },
@@ -5735,7 +5735,7 @@
    "kst": "20:53",
    "ts": 1794484382,
    "h": "华为中国：华为云CloudRobo具身世界模型发布会，11月16日线上举行。",
-   "ko": "화웨이 중국: 화웨이 클라우드 CloudRobo Embodied World 모델 컨퍼런스가 11월 16일 온라인으로 개최됩니다.",
+   "ko": "화웨이 중국: 화웨이 클라우드 CloudRobo 구현 세계 모델 출시 컨퍼런스가 11월 16일 온라인으로 개최됩니다.",
    "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuy8448112.d.html",
    "s": "sina"
   },
@@ -5752,7 +5752,7 @@
    "ts": 1794484396,
    "h": "NATO's route: we need to make sure Ukraine is as strong as possible in this fight, negotiations with Russia",
    "ko": "NATO의 경로: 우리는 이 싸움에서 우크라이나가 가능한 한 강력하도록 해야 하며 러시아와의 협상도 필요합니다.",
-   "u": "https://www.financialjuice.com/News/9848847/NATOs-route-we-need-to-make-sure-Ukraine-is-as-strong-as-possible-in-this-fight-negotiations-with-Russia.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848847/NATOs-route-we-need-to-make-sure-Ukraine-is-as-strong-as-possible-in-this-fight-negotiations-with-Russia.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -5760,7 +5760,7 @@
    "ts": 1794484406,
    "h": "NATO's Rutte: Positive news out of Abu Dhabi talks",
    "ko": "NATO의 Rutte: 아부다비 회담의 긍정적인 소식",
-   "u": "https://www.financialjuice.com/News/9848848/NATOs-Rutte-Positive-news-out-of-Abu-Dhabi-talks.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848848/NATOs-Rutte-Positive-news-out-of-Abu-Dhabi-talks.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -5808,7 +5808,7 @@
    "ts": 1794484593,
    "h": "NATO's Rutte: Is Russia now willing to play ball, we will assess this later",
    "ko": "NATO의 Rutte: 러시아가 이제 공놀이를 할 의향이 있는지, 나중에 평가할 것입니다",
-   "u": "https://www.financialjuice.com/News/9848849/NATOs-Rutte-Is-Russia-now-willing-to-play-ball-we-will-assess-this-later.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848849/NATOs-Rutte-Is-Russia-now-willing-to-play-ball-we-will-assess-this-later.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -5816,7 +5816,7 @@
    "ts": 1794484610,
    "h": "NATO's Rutte: Europeans and the US have already come to an agreement in January on how security guarantees should be sketched out, and this is all done",
    "ko": "NATO의 Rutte: 유럽과 미국은 이미 지난 1월 안보 보장의 대략적인 구성 방식에 대해 합의했으며 모든 작업이 완료되었습니다.",
-   "u": "https://www.financialjuice.com/News/9848850/NATOs-Rutte-Europeans-and-the-US-have-already-come-to-an-agreement-in-January-on-how-security-guarantees-should-be-sketched-out-and-this-is-all-done.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848850/NATOs-Rutte-Europeans-and-the-US-have-already-come-to-an-agreement-in-January-on-how-security-guarantees-should-be-sketched-out-and-this-is-all-done.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -5872,7 +5872,7 @@
    "ts": 1794484778,
    "h": "Ukraine’s President Zelenskiy: Europe needs to be at the table in talks with Russia",
    "ko": "젤렌스키 우크라이나 대통령: 유럽은 러시아와 협상 테이블에 있어야 한다",
-   "u": "https://www.financialjuice.com/News/9848851/Ukraines-President-Zelenskiy-Europe-needs-to-be-at-the-table-in-talks-with-Russia.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848851/Ukraines-President-Zelenskiy-Europe-needs-to-be-at-the-table-in-talks-with-Russia.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -5888,7 +5888,7 @@
    "ts": 1794484799,
    "h": "Ukraine’s President Zelenskiy: Will have talks with US representatives later on Thursday",
    "ko": "젤렌스키 우크라이나 대통령 \"목요일 후반 미국 대표와 회담할 것\"",
-   "u": "https://www.financialjuice.com/News/9848852/Ukraines-President-Zelenskiy-Will-have-talks-with-US-representatives-later-on-Thursday.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848852/Ukraines-President-Zelenskiy-Will-have-talks-with-US-representatives-later-on-Thursday.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -5940,6 +5940,14 @@
    "s": "sina"
   },
   {
+   "kst": "21:01",
+   "ts": 1794484914,
+   "h": "美股盘前要闻速递",
+   "ko": "미국 주식 시장 전 뉴스 익스프레스",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntut1109313.d.html",
+   "s": "sina"
+  },
+  {
    "kst": "21:02",
    "ts": 1794484938,
    "h": "超威半导体盘前股价上涨2%；威廉布莱尔将其评级上调至跑赢大盘。",
@@ -5960,7 +5968,7 @@
    "ts": 1794484985,
    "h": "Putin to hold security council meeting today - IFX",
    "ko": "푸틴, 오늘 안보리 회의 개최 - IFX",
-   "u": "https://www.financialjuice.com/News/9848868/Putin-to-hold-security-council-meeting-today---IFX.aspx?xy=rss",
+   "u": "https://www.financialjuice.com/News/9848868/Putin-to-hold-security-council-meeting-today---IFX.aspx?xy=1",
    "s": "fj"
   },
   {
@@ -6084,6 +6092,14 @@
    "s": "sina"
   },
   {
+   "kst": "21:07",
+   "ts": 1794485267,
+   "h": "Putin starts meeting with US envoys Witkoff and Kushner - IFX",
+   "ko": "푸틴 대통령, 위트코프·쿠슈너 미국 특사와 회담 시작 - IFX",
+   "u": "https://www.financialjuice.com/News/9848869/Putin-starts-meeting-with-US-envoys-Witkoff-and-Kushner---IFX.aspx?xy=1",
+   "s": "fj"
+  },
+  {
    "kst": "21:08",
    "ts": 1794485298,
    "h": "泰国航空第三季度每股亏损0.020泰铢。",
@@ -6117,6 +6133,14 @@
   },
   {
    "kst": "21:09",
+   "ts": 1794485353,
+   "h": "据俄罗斯媒体12日报道，俄罗斯总统普京当天在莫斯科会见美国总统特使威特科夫和美国总统特朗普的女婿库什纳。（新华社）",
+   "ko": "12일 러시아 언론 보도에 따르면 블라디미르 푸틴 러시아 대통령은 이날 모스크바에서 위트코프 미국 대통령 특사와 트럼프 대통령의 사위 쿠슈너를 만났다. (신화통신)",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntut1114000.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:09",
    "ts": 1794485359,
    "h": "普京强调人道主义轨道的成功。",
    "ko": "푸틴 대통령은 인도주의적 노선의 성공을 강조했다.",
@@ -6129,6 +6153,398 @@
    "h": "俄罗斯总统普京请求美方特使向美国总统特朗普转达谢意，感谢其推动俄乌之间的接触。",
    "ko": "블라디미르 푸틴 러시아 대통령은 미국 특사에게 트럼프 미국 대통령이 러시아와 우크라이나 간 접촉을 촉진한 데 대해 감사의 뜻을 전해달라고 요청했습니다.",
    "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntut1114286.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:10",
+   "ts": 1794485407,
+   "h": "Melius Research将英伟达评级下调至持有，目标价从315美元下调至185美元。",
+   "ko": "Melius Research는 Nvidia를 보류로 하향 조정하고 목표 가격을 315달러에서 185달러로 낮췄습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuy8455498.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:10",
+   "ts": 1794485413,
+   "h": "加拿大帝国商业银行将公用事业板块的评级从“增持”下调至“中性”。",
+   "ko": "캐나다 임페리얼 상업은행(Canadian Imperial Bank of Commerce)은 유틸리티 부문에 대한 등급을 '비중확대'에서 '중립'으로 하향 조정했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntut1114578.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:10",
+   "ts": 1794485437,
+   "h": "普京会见美总统特使",
+   "ko": "푸틴 대통령, 미국 대통령 특사 접견",
+   "u": "https://wallstreetcn.com/livenews/3199118",
+   "s": "wscn"
+  },
+  {
+   "kst": "21:11",
+   "ts": 1794485474,
+   "h": "欧盟的科斯塔：下周将是对俄罗斯是否愿意停止这场冲突的决定性考验。",
+   "ko": "EU 코스타: 다음 주는 이 분쟁을 중단하려는 러시아의 의지를 결정적으로 시험하는 날이 될 것입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntux1680098.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:11",
+   "ts": 1794485498,
+   "h": "普京向美国特使表示，听取他们对阿布扎比会谈的评估对他来说非常重要。",
+   "ko": "푸틴 대통령은 미국 특사들에게 아부다비 회담에 대한 미국 특사들의 평가를 듣는 것이 중요하다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntux1680380.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:12",
+   "ts": 1794485528,
+   "h": "NEBIUS集团股票抹去了跌幅，盘前上涨5%。",
+   "ko": "NEBIUS 그룹 주가는 손실을 없애고 개장 전 거래에서 5% 상승했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntut1115759.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:12",
+   "ts": 1794485543,
+   "h": "Nebius Group：预计2027年营收为120亿至130亿美元；预计2027年资本支出为400亿至450亿美元。",
+   "ko": "Nebius Group: 2027년 매출은 120억~130억 달러로 예상됩니다. 2027년에는 자본 지출이 400억~450억 달러에 이를 것으로 예상된다.",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "21:12",
+   "ts": 1794485552,
+   "h": "摩根大通将英伟达目标价从320美元下调至215美元。",
+   "ko": "JP모건은 엔비디아 목표주가를 320달러에서 215달러로 낮췄다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuz3776583.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:12",
+   "ts": 1794485559,
+   "h": "Nebius第三季度营收9.808亿美元，预期为9.185亿美元。 第三季度调整后EBITDA为4.658亿美元，预期为3.574亿美元。 第三季度调整后净利润为9,090万美元，预期为亏损2.714亿美元。 Nebius预计2026年营收将处于30亿至34亿美元区间的低端；预计2027年营收为120亿至130亿美元。",
+   "ko": "Nebius의 3분기 매출은 9억 8,080만 달러로 예상치 9억 1,850만 달러와 비교됩니다. 3분기 조정 EBITDA는 4억 6,580만 달러로 예상치 3억 5,740만 달러와 비교됩니다. 3분기 조정 순이익은 9,090만 달러로 예상치 2억 7,140만 달러의 손실을 기록했습니다. Nebius는 2026년 수익이 30억~34억 달러 범위의 최저 수준이 될 것으로 예상합니다. 2027년 매출은 120억~130억 달러로 예상된다.",
+   "u": "https://wallstreetcn.com/livenews/3199120",
+   "s": "wscn"
+  },
+  {
+   "kst": "21:12",
+   "ts": 1794485565,
+   "h": "唐永博任中国联通总经理",
+   "ko": "차이나유니콤 총경리로 당용보 선임",
+   "u": "https://wallstreetcn.com/livenews/3199121",
+   "s": "wscn"
+  },
+  {
+   "kst": "21:12",
+   "ts": 1794485579,
+   "h": "Nebius Group：预计2027年营收为120亿至130亿美元；预计2027年资本支出为400亿至450亿美元。Nebius AI Cloud第三季度营收为9.738亿美元，同比增长643%。",
+   "ko": "Nebius Group: 2027년 매출은 120억~130억 달러로 예상됩니다. 2027년 자본 지출은 400억~450억 달러에 달할 것으로 예상된다. 네비우스 AI 클라우드의 3분기 매출은 9억7380만 달러로 전년 동기 대비 643% 증가했다.",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "21:13",
+   "ts": 1794485593,
+   "h": "英国海上贸易行动办公室收到阿拉伯海发生事件的延迟报告。备注：事件发生在11月10日。",
+   "ko": "영국 해양무역운영국(Office of Maritime Trade Operations)은 아라비아해에서 발생한 사건에 대한 지연 보고를 받았습니다. 참고: 사건은 11월 10일에 발생했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuy8457289.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:13",
+   "ts": 1794485639,
+   "h": "英国海上贸易行动办公室：多人伤亡。",
+   "ko": "영국 해상 무역 작전 사무소: 다수의 사상자 발생.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuy8457723.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:14",
+   "ts": 1794485650,
+   "h": "英国海事贸易行动办公室：其余所有船员均安全。",
+   "ko": "영국 해양 무역 조치 사무소: 나머지 선원들은 모두 안전합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuy8457805.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:15",
+   "ts": 1794485712,
+   "h": "特朗普威胁墨西哥：阻止移民车队 否则关税翻倍",
+   "ko": "트럼프, 멕시코에 이민자 캐러밴 중단 또는 이중 관세 중단 위협",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntux1682322.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:15",
+   "ts": 1794485745,
+   "h": "俄副外长谈三方会谈：建立功能性机制需有政治意愿",
+   "ko": "러시아 외무부 차관, 삼자 회담에 대해 언급: 기능적 메커니즘을 구축하려면 정치적 의지가 필요함",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "21:16",
+   "ts": 1794485763,
+   "h": "乌克兰总统泽连斯基会见阿塞拜疆总统阿利耶夫，讨论无人机交易。",
+   "ko": "젤렌스키 우크라이나 대통령은 알리예프 아제르바이잔 대통령과 만나 드론 거래에 대해 논의했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuz3778582.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:16",
+   "ts": 1794485770,
+   "h": "在与美方特使会晤时，俄罗斯总统普京指出乌克兰人道主义工作取得成效。",
+   "ko": "블라디미르 푸틴 러시아 대통령은 미국 특사와의 회담에서 우크라이나에서의 인도주의 활동이 효과적이었다고 지적했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuz3778664.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:16",
+   "ts": 1794485781,
+   "h": "瑞典央行官员邦格：这一形势为收紧货币政策提供了理由，未来一年利率可能进一步上调。",
+   "ko": "스웨덴 중앙은행 관계자 Banger: 이러한 상황은 통화정책을 긴축해야 할 이유를 제공하며, 내년에는 금리가 추가 인상될 수도 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuy8458917.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:16",
+   "ts": 1794485793,
+   "h": "德国联邦宪法法院驳回针对欧洲央行购债计划的诉讼",
+   "ko": "독일 연방헌법재판소, ECB 채권매입 프로그램에 대한 소송 기각",
+   "u": "https://wallstreetcn.com/livenews/3199122",
+   "s": "wscn"
+  },
+  {
+   "kst": "21:16",
+   "ts": 1794485793,
+   "h": "Nebius预计2026年营收将处于30亿至40亿美元区间的低端。",
+   "ko": "Nebius는 2026년 매출이 30억~40억 달러 범위의 최저 수준이 될 것으로 예상합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuz3778967.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:16",
+   "ts": 1794485807,
+   "h": "德国联邦宪法法院驳回针对欧洲央行购债计划的诉讼",
+   "ko": "독일 연방헌법재판소, ECB 채권매입 프로그램에 대한 소송 기각",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntut1118646.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:16",
+   "ts": 1794485815,
+   "h": "美国中东问题特使威特科夫：即将进行的囚犯交换表明在达成解决方案方面取得进展。",
+   "ko": "위트코프 미국 중동 특사: 다가오는 포로 교환은 해결책을 향한 진전을 보여줍니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuy8459221.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:17",
+   "ts": 1794485830,
+   "h": "普京称俄乌在人道问题上取得进展",
+   "ko": "푸틴 \"러시아와 우크라이나가 인도주의적 문제에서 진전을 이루었다\"",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuz3779348.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:17",
+   "ts": 1794485857,
+   "h": "Nebius将通过预付款覆盖2027年75%至85%的资本开支。",
+   "ko": "네비우스는 선불을 통해 2027년 자본 지출의 75~85%를 충당할 예정이다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntux1683587.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:18",
+   "ts": 1794485898,
+   "h": "Nebius：部分第三方算力预计将于2027年上半年到位。",
+   "ko": "네비우스: 일부 타사 컴퓨팅 성능은 2027년 상반기에 출시될 것으로 예상됩니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuy8459967.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:19",
+   "ts": 1794485945,
+   "h": "美国特使威特科夫：我将向泽连斯基通报今天与普京的会谈情况 。",
+   "ko": "위트코프 미국 특사: 젤렌스키에게 오늘 푸틴 대통령과의 회담에 대해 브리핑하겠습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntut1120228.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:19",
+   "ts": 1794485964,
+   "h": "青岛银行：截至2026年9月末绿色贷款余额708.37亿元，较上年末增长20.44%",
+   "ko": "칭다오은행: 2026년 9월 말 현재 녹색대출 잔액은 708억 3,700만 위안으로 전년 말 대비 20.44% 증가했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntux1684615.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:19",
+   "ts": 1794485968,
+   "h": "ACS 预计 2026 年数据中心收入为 170 亿至 180 亿欧元，2030 年数据中心收入为 270 亿至 300 亿欧元。",
+   "ko": "ACS는 2026년 데이터센터 매출을 170억~180억 유로, 2030년에는 270억~300억 유로로 예상하고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntux1684659.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:19",
+   "ts": 1794485986,
+   "h": "Nebius预计2026年客户预付承诺金额将达100亿美元。",
+   "ko": "Nebius는 고객 선불 약속이 2026년에 100억 달러에 이를 것으로 예상합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntux1684869.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:20",
+   "ts": 1794486008,
+   "h": "美国特使威特科夫：俄罗斯和乌克兰代表团在阿布扎比进行了有效工作 。在阿布扎比的欧洲人没有参与谈判，但他们随时了解接触情况。",
+   "ko": "위트코프 미국 특사: 러시아와 우크라이나 대표단은 아부다비에서 효과적인 업무를 수행했습니다. 아부다비의 유럽인들은 협상에 참여하지 않았지만 접촉에 대한 정보를 지속적으로 받았습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuz3781460.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:20",
+   "ts": 1794486037,
+   "h": "Nebius不再认为ARR是衡量业务的合适指标。",
+   "ko": "Nebius는 더 이상 ARR이 비즈니스를 측정하는 데 적합한 측정 기준이라고 믿지 않습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuy8461447.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:20",
+   "ts": 1794486043,
+   "h": "印度外交部：总理访问菲律宾马尼拉。",
+   "ko": "인도 외무부: 총리가 필리핀 마닐라를 방문합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuy8461526.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:20",
+   "ts": 1794486057,
+   "h": "Nebius第三季度剩余履约义务为387亿美元。",
+   "ko": "3분기에 Nebius의 남은 이행 의무는 387억 달러였습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuy8461664.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:21",
+   "ts": 1794486083,
+   "h": "Nebius：预计2026年将有100亿美元的承诺客户预付款。 预计2027年将有170亿至200亿美元的承诺客户预付款。 不再认为ARR是衡量业务的合适指标。 第三季度剩余履约义务为387亿美元。 部分第三方产能目前预计将于（明年）上半年上线。",
+   "ko": "Nebius: 2026년에는 약 100억 달러의 고객 발전이 있을 것으로 예상됩니다. 2027년에는 약 170억~200억 달러의 고객 발전이 있을 것으로 예상됩니다. ARR은 더 이상 비즈니스를 측정하는 적절한 지표로 간주되지 않습니다. 3분기 남은 이행의무는 387억 달러였다. 현재 일부 타사 생산 능력은 내년 상반기에 가동될 것으로 예상됩니다.",
+   "u": "https://wallstreetcn.com/livenews/3199127",
+   "s": "wscn"
+  },
+  {
+   "kst": "21:21",
+   "ts": 1794486092,
+   "h": "印度外交部：总理莫迪将于11月16日至17日访问马尼拉。莫迪将在菲律宾出席第23届东盟-印度峰会。",
+   "ko": "인도 외무부: 나렌드라 모디(Narendra Modi) 총리가 11월 16일부터 17일까지 마닐라를 방문합니다. 모디 총리는 필리핀에서 열리는 제23차 ASEAN-인도 정상회담에 참석할 예정입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntux1685997.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:21",
+   "ts": 1794486102,
+   "h": "美国特使库什纳：美国人可以看到，欧洲人表达了参与谈判并结束乌克兰冲突的意愿。",
+   "ko": "쿠슈너 미국 특사: 미국인들은 유럽인들이 협상에 참여하고 우크라이나 분쟁을 종식하겠다는 의지를 표명한 것을 볼 수 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuy8462139.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:22",
+   "ts": 1794486138,
+   "h": "巴克莱将Coreweave目标价从 105 美元下调至 85 美元。",
+   "ko": "Barclays는 Coreweave의 목표 가격을 105달러에서 85달러로 낮췄습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuy8462479.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:22",
+   "ts": 1794486166,
+   "h": "乌克兰总统泽连斯基：昨天，俄罗斯方面表示，他们无权讨论可能的举措。我方代表团在回应中听到的是，俄罗斯领导人很愤怒，想要继续发动打击。",
+   "ko": "젤렌스키 우크라이나 대통령: 어제 러시아 측은 가능한 조치를 논의할 권한이 없다고 밝혔습니다. 이에 대한 우리 대표단의 반응은 러시아 지도부가 분노하여 계속 공격을 원한다는 것이었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntux1686751.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:23",
+   "ts": 1794486186,
+   "h": "美国特使库什纳：美国已开始与欧洲伙伴就欧洲大陆安全架构进行讨论。",
+   "ko": "쿠슈너 미 특사: 미국은 유럽 대륙의 안보 구조에 관해 유럽 파트너들과 논의를 시작했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuy8462956.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:23",
+   "ts": 1794486194,
+   "h": "俄罗斯夜间用喷气式无人机袭击了 Naftogaz 设施。",
+   "ko": "러시아는 밤에 제트 드론으로 Naftogaz 시설을 공격했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuy8463039.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:23",
+   "ts": 1794486206,
+   "h": "墨西哥比索兑美元下跌0.3%，触及盘中低点。此前美国总统特朗普威胁称，如果墨西哥未能阻止大规模移民，将“立即”把对该国的关税提高一倍。",
+   "ko": "멕시코 페소는 달러 대비 0.3% 하락해 장중 최저치를 기록했다. 앞서 트럼프 미국 대통령은 멕시코가 대규모 이주를 막지 못하면 멕시코에 대한 관세를 '즉시' 두 배로 늘리겠다고 위협한 바 있다.",
+   "u": "https://wallstreetcn.com/livenews/3199128",
+   "s": "wscn"
+  },
+  {
+   "kst": "21:23",
+   "ts": 1794486217,
+   "h": "芬兰政府周四在一份声明中表示，芬兰正在收紧对俄罗斯公民入境的限制，包括运动员和持签证从事短期工作的人员。",
+   "ko": "핀란드 정부는 목요일 성명을 통해 운동선수와 단기 취업 비자를 소지한 사람들을 포함한 러시아 시민에 대한 입국 제한을 강화했다고 밝혔습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntux1687289.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:23",
+   "ts": 1794486225,
+   "h": "NEBIUS集团股价抹去早前涨幅，盘前下跌7.8%。",
+   "ko": "NEBIUS 그룹 주가는 개장 전 상승세를 소거하고 7.8% 하락했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntux1687386.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:24",
+   "ts": 1794486243,
+   "h": "美国特使库什纳：美国看到欧洲强烈希望结束乌克兰冲突。",
+   "ko": "쿠슈너 미국 특사: 미국은 우크라이나 분쟁을 종식시키려는 유럽의 강한 열망을 보고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuy8463571.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:24",
+   "ts": 1794486267,
+   "h": "Nebius美股盘前下挫，现跌近9%，此前一度涨近5%。",
+   "ko": "Nebius 미국 주식은 시장이 개장하기 전에 하락하여 이전에 거의 5% 상승한 후 거의 9% 하락했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3199129",
+   "s": "wscn"
+  },
+  {
+   "kst": "21:24",
+   "ts": 1794486292,
+   "h": "普京表示：对俄罗斯而言，与乌克兰之间只有一条分界线，那就是两国的国界。",
+   "ko": "푸틴 대통령은 “러시아에게는 우크라이나와 단 하나의 분단선이 있는데, 그것이 두 나라의 국경”이라고 말했다.",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "21:24",
+   "ts": 1794486299,
+   "h": "土耳其执政党提交企业税率法案。该法案将免除烟草和电力生产商适用较低税率。",
+   "ko": "투르키예 여당이 법인세 계산서를 제출했다. 이 법안은 담배 및 전기 생산업체에 대한 낮은 세율을 면제하게 됩니다.",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "21:25",
+   "ts": 1794486307,
+   "h": "Nebius第三季度GPU小时价格平均上涨逾20% 短期集群价格超过预留价格两倍",
+   "ko": "네비우스 GPU 시간당 가격은 3분기 평균 20% 이상 올랐고, 단기 클러스터 가격은 예약 가격의 2배를 넘어섰다.",
+   "u": "https://finance.sina.com.cn/7x24/",
    "s": "sina"
   }
  ]
