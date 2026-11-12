@@ -1,0 +1,888 @@
+{
+ "date": "2026-11-12",
+ "window": "15:30~21:23 KST",
+ "mail_to": "yidiar80k@gmail.com",
+ "summary": [
+  "[배경] NYT \"젠슨 황 두 번째 사생활 의혹\" → 엔비디아 이사회 밤새 CEO 거취 논의, 결론 미발표",
+  "엔비디아 프리마켓 −7.8%, 번스타인·에버코어·윌리엄블레어 투자의견 하향, 목표가 줄하향",
+  "AMD +1.8%·브로드컴 +0.9%로 반사이익, 코어위브 −9%·메모리 −4~6% 등 AI 인프라는 동반 약세",
+  "훙하이 \"AI 서버 수요 둔화 없어, 2027년 두 자릿수 성장\", SMIC 4분기 매출 4~6% 증가 전망",
+  "오늘 네비우스(장 전)·시스코·AMAT·세레브라스(장 마감 뒤) 실적, 내일 10월 PPI"
+ ],
+ "checklist": [
+  "엔비디아 이사회 결정 발표와 CEO 승계 여부",
+  "엔비디아 하락이 AI 인프라 전반으로 번지는지",
+  "네비우스 실적과 코어위브 자금조달 보도",
+  "장 마감 뒤 AMAT·시스코 가이던스",
+  "국채시장 재개장 뒤 10년물 5% 돌파 여부"
+ ],
+ "issues": [
+  {
+   "title": "엔비디아 이사회, 젠슨 황 거취 논의",
+   "subtitle": "[신규] 프리마켓 −7.8% · 증권가 투자의견 하향 잇따라",
+   "timeline": [
+    {
+     "t": "새벽",
+     "text": "[배경] NYT: 황 CEO와 임원의 두 번째 사생활 의혹 보도"
+    },
+    {
+     "t": "15:40",
+     "text": "트레이드게이트서 수요일 미국 종가 대비 −7.4%"
+    },
+    {
+     "t": "15:57",
+     "text": "번스타인, 투자의견 시장수익률로 하향·목표가 400→200달러"
+    },
+    {
+     "t": "21:05",
+     "text": "미국 프리마켓 낙폭 8% 넘게 확대"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "엔비디아",
+     "value": "-7.82%",
+     "note": "프리마켓, 수요일 173.73달러 대비",
+     "dir": "down"
+    },
+    {
+     "label": "AMD",
+     "value": "+1.81%",
+     "note": "윌리엄블레어 투자의견 상향",
+     "dir": "up"
+    },
+    {
+     "label": "나스닥100 선물",
+     "value": "-0.66%",
+     "note": "엔비디아가 하락분 절반 이상",
+     "dir": "down"
+    },
+    {
+     "label": "BofA 추산",
+     "value": "1.4조 달러",
+     "note": "황 CEO 이탈 시 장기 기업가치 감소 가능 규모",
+     "dir": "down"
+    }
+   ],
+   "cause": [
+    "이사회가 밤새 회의했지만 결정은 아직 발표되지 않음(로이터 인용 보도)",
+    "번스타인·에버코어·윌리엄블레어 하향, 씨티 225·RBC 230·BMO 240·스티펠 205달러로 목표가 인하",
+    "뚜렷한 승계 계획이 없다는 지적이 리더십 공백 우려를 키움",
+    "바클레이스 \"리더십 혼란이 AI 투자 흐름 자체를 바꾸진 않는다\""
+   ],
+   "chips": [
+    {
+     "name": "엔비디아",
+     "chg": "-7.82%"
+    },
+    {
+     "name": "AMD",
+     "chg": "+1.81%"
+    },
+    {
+     "name": "브로드컴",
+     "chg": "+0.94%"
+    },
+    {
+     "name": "TSMC",
+     "chg": "-2.67%"
+    },
+    {
+     "name": "SK하이닉스 ADR",
+     "chg": "-4.39%"
+    }
+   ],
+   "checks": [
+    "이사회 공식 발표",
+    "임시 CEO 선임 여부",
+    "11/17 실적 일정 유지 여부"
+   ],
+   "source": "CNBC, 로이터, 시킹알파, 시나, 야후 파이낸스"
+  },
+  {
+   "title": "공급망은 \"AI 수요 둔화 없다\"",
+   "subtitle": "[신규] 훙하이·SMIC·지멘스 실적과 발언",
+   "timeline": [
+    {
+     "t": "15:48",
+     "text": "훙하이 3분기 순이익 예상 상회(AI·아이폰 듀오)"
+    },
+    {
+     "t": "16:43",
+     "text": "훙하이 \"2027년 두 자릿수 성장, AI 주문 매우 강해\""
+    },
+    {
+     "t": "17:03",
+     "text": "지멘스 \"미국 데이터센터 수요 10월에도 강해\""
+    },
+    {
+     "t": "18:37",
+     "text": "SMIC 4분기 매출 전분기 대비 4~6% 증가 전망"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "SMIC 1~3분기 순이익",
+     "value": "73.1억 위안",
+     "note": "전년 대비 +91.6%",
+     "dir": "up"
+    },
+    {
+     "label": "SMIC 4분기 가이던스",
+     "value": "+4~6%",
+     "note": "매출 전분기 대비, 총이익률 26~28%",
+     "dir": "up"
+    },
+    {
+     "label": "훙하이 클라우드·네트워크",
+     "value": "매출의 50% 이상",
+     "note": "3~5년 안에 60% 넘을 전망",
+     "dir": "up"
+    },
+    {
+     "label": "TSMC 2027 설비투자",
+     "value": "900억 달러",
+     "note": "BofA 전망",
+     "dir": "up"
+    }
+   ],
+   "cause": [
+    "훙하이 \"칩·메모리 공급 부족으로 2027년 수요가 공급을 계속 웃돌 것\"",
+    "훙하이, 2027년 네오클라우드 고객 새로 늘 것으로 예상",
+    "지멘스 \"美 양당 모두 데이터센터 중요성에 공감, 인허가만 길어질 수 있어\"",
+    "메모리 공급 부족 탓에 2027년 PC 전망은 신중"
+   ],
+   "chips": [
+    {
+     "name": "TSMC",
+     "chg": "-2.67%"
+    },
+    {
+     "name": "델",
+     "chg": "-3.32%"
+    },
+    {
+     "name": "버티브",
+     "chg": "-1.94%"
+    },
+    {
+     "name": "마이크론",
+     "chg": "-3.61%"
+    }
+   ],
+   "checks": [
+    "엔비디아 이슈와 공급망 수요의 분리 여부",
+    "AMAT 가이던스",
+    "시스코 AI 주문"
+   ],
+   "source": "월스트리트견문, 시나, FinancialJuice, 야후 파이낸스"
+  }
+ ],
+ "sections": {
+  "megatech": [
+   {
+    "company": "엔비디아",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "NYT, 황 CEO의 두 번째 사생활 의혹 보도"
+     },
+     {
+      "label": "사실",
+      "text": "이사회 밤새 거취 논의, 결정 미발표(이슈 카드 참고)"
+     },
+     {
+      "label": "사실",
+      "text": "中 외교부 \"미국이 스파이 서사를 기술 규제 구실로 삼아선 안 돼\""
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 −7.82%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "엔비디아",
+      "chg": "-7.82%"
+     }
+    ],
+    "source": "CNBC, FinancialJuice, 시나, 야후 파이낸스"
+   },
+   {
+    "company": "알파벳 · 메타 · 애플 · 아마존 · MS",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "알파벳, 160억 홍콩달러·22.8억 싱가포르달러 채권 발행 착수"
+     },
+     {
+      "label": "사실",
+      "text": "구글, 애드센스 소송에서 불리한 판단(블룸버그) · EU 법원 법률자문관은 구글 반독점 벌금 사건에서 구글 편"
+     },
+     {
+      "label": "사실",
+      "text": "메타, 데이터센터용 저탄소 시멘트 18만 톤 다년 구매 계약"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 애플 +0.49%, 아마존 +0.55%, MS −0.16%, 알파벳 −0.19%, 메타 −0.44%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "아마존",
+      "chg": "+0.55%"
+     },
+     {
+      "name": "애플",
+      "chg": "+0.49%"
+     },
+     {
+      "name": "메타",
+      "chg": "-0.44%"
+     }
+    ],
+    "source": "시나, 월스트리트견문, 야후 파이낸스"
+   }
+  ],
+  "mobility": [
+   {
+    "company": "테슬라 · 스페이스X",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "젤렌스키 \"스타링크에 최근 심각한 운영 이상\""
+     },
+     {
+      "label": "사실",
+      "text": "스테이트스트리트, 스페이스X A주 보유 77.8% 늘린 1,930만 주(SEC 공시)"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 테슬라 −0.67%, 스페이스X −0.61%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "테슬라",
+      "chg": "-0.67%"
+     },
+     {
+      "name": "스페이스X",
+      "chg": "-0.61%"
+     }
+    ],
+    "source": "월스트리트견문, 시나, 야후 파이낸스"
+   }
+  ],
+  "ai_software": [
+   {
+    "company": "AI 모델 업계",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "오픈AI, 알레프와 손잡고 ChatGPT 광고를 44개국으로 확대"
+     },
+     {
+      "label": "사실",
+      "text": "장이밍 \"바이트댄스 AI, 이르면 2029~30년 오픈AI·앤트로픽 따라잡을 것\""
+     },
+     {
+      "label": "사실",
+      "text": "미니맥스 H3-Image, 공개 가중치 이미지 생성·편집 순위 1위"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 오라클 −2.36%, 알리바바 −4.11%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "오라클",
+      "chg": "-2.36%"
+     },
+     {
+      "name": "알리바바",
+      "chg": "-4.11%"
+     }
+    ],
+    "source": "시나, 월스트리트견문, 야후 파이낸스"
+   }
+  ],
+  "ai_infra": [
+   {
+    "company": "네오클라우드",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "코어위브, 최소 40억 달러 규모 투자등급 대출 추진 보도"
+     },
+     {
+      "label": "체크",
+      "text": "네비우스 3분기 실적 오늘 장 전 발표 예정(시장 예상 매출 약 9.1억 달러)"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 코어위브 −9.08%, 네비우스 −5.93%, IREN −5.68%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "코어위브",
+      "chg": "-9.08%"
+     },
+     {
+      "name": "네비우스",
+      "chg": "-5.93%"
+     },
+     {
+      "name": "IREN",
+      "chg": "-5.68%"
+     }
+    ],
+    "source": "시나, 야후 파이낸스"
+   },
+   {
+    "company": "서버 · 광통신 · 전력",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "레노버, 6세대 AMD EPYC 탑재 서버 첫 출시"
+     },
+     {
+      "label": "사실",
+      "text": "지멘스 CEO \"엔비디아와의 협력은 평소대로, 추가 안전장치 필요 없어\""
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 코히런트 −4.57%, 루멘텀 −3.64%, 블룸에너지 −3.40%, 델 −3.32%, 버티브 −1.94%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "코히런트",
+      "chg": "-4.57%"
+     },
+     {
+      "name": "블룸에너지",
+      "chg": "-3.40%"
+     },
+     {
+      "name": "델",
+      "chg": "-3.32%"
+     }
+    ],
+    "source": "시나, FinancialJuice, 야후 파이낸스"
+   }
+  ],
+  "semis": [
+   {
+    "company": "메모리",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "SK하이닉스 HBM4 수율 70% 돌파 보도, 삼성 HBM 공장 가동 1년 앞당겨"
+     },
+     {
+      "label": "사실",
+      "text": "CXMT \"메모리 수요 중 서버 비중 50% 넘어\", 코튼 상원의원은 CXMT 미국 퇴출 요구"
+     },
+     {
+      "label": "의미",
+      "text": "메모리 가격 상승세는 이어지되 제품별 수요는 엇갈리는 국면"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 샌디스크 −5.69%, SK하이닉스 ADR −4.39%, 마이크론 −3.61%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "샌디스크",
+      "chg": "-5.69%"
+     },
+     {
+      "name": "SK하이닉스 ADR",
+      "chg": "-4.39%"
+     },
+     {
+      "name": "마이크론",
+      "chg": "-3.61%"
+     }
+    ],
+    "source": "월스트리트견문, 시나, FinancialJuice, 야후 파이낸스"
+   },
+   {
+    "company": "AMD · 파운드리 · 장비",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "윌리엄블레어, AMD 투자의견 '시장수익률 상회'로 상향"
+     },
+     {
+      "label": "사실",
+      "text": "BofA, TSMC 2027년 설비투자 900억 달러 전망 · 인텔 목표가 100→80달러"
+     },
+     {
+      "label": "체크",
+      "text": "AMAT 4분기 실적 오늘 장 마감 뒤"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 AMD +1.81%, 브로드컴 +0.94%, AMAT −1.75%, ARM −2.50%, 인텔 −2.60%, TSMC −2.67%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "AMD",
+      "chg": "+1.81%"
+     },
+     {
+      "name": "AMAT",
+      "chg": "-1.75%"
+     },
+     {
+      "name": "TSMC",
+      "chg": "-2.67%"
+     }
+    ],
+    "source": "시나, 야후 파이낸스"
+   }
+  ],
+  "others": [
+   {
+    "company": "비트코인",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "비트코인 7.3만 달러 아래로 하락, 수요일 대비 −1.56%"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 코인베이스 −3.69%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "비트코인",
+      "chg": "-1.56%"
+     },
+     {
+      "name": "코인베이스",
+      "chg": "-3.69%"
+     }
+    ],
+    "source": "시나, 야후 파이낸스"
+   }
+  ]
+ },
+ "empty_notes": {},
+ "greeting": "2026년 11월 12일 목요일 개장 전 섹터별 이슈체크입니다. 한국시간 15:30~21:23 사이 나온 소식과 미국 프리마켓 흐름을 정리했어요. 프리마켓 등락률은 수요일 종가 대비, 21:23 무렵 기준입니다.",
+ "commentary": {
+  "summary": "하루 전 코어위브 실적으로 살아났던 AI 랠리가 엔비디아 CEO 거취 문제에 다시 흔들리고 있어요. 엔비디아가 프리마켓에서 8% 가까이 빠지며 나스닥100 선물 하락분의 절반 이상을 차지하는 반면, AMD와 브로드컴은 오히려 오르고 있습니다. 여기가 중요한 부분인데, 같은 시간 훙하이와 SMIC, 지멘스는 AI 수요가 꺾이지 않았다는 신호를 잇달아 내놨어요.",
+  "issue1": [
+   "뉴욕타임스가 젠슨 황 CEO의 두 번째 사생활 의혹을 보도한 뒤, 엔비디아 이사회가 밤새 그의 거취를 논의했다는 보도가 나왔어요. 아직 공식 결정은 나오지 않았지만, 시장은 '황 없는 엔비디아' 가능성을 처음으로 가격에 반영하기 시작했습니다.",
+   "번스타인·에버코어·윌리엄블레어가 투자의견을 낮췄고, 씨티·RBC·BMO·스티펠은 목표가를 200달러대 초중반으로 내렸어요. BofA는 황 CEO가 떠나면 장기 기업가치가 최대 1.4조 달러 줄 수 있다고 계산했는데, 그만큼 창업자 한 사람에게 쏠린 회사라는 뜻입니다.",
+   "반면 바클레이스는 리더십 혼란이 AI 투자라는 큰 흐름까지 바꾸진 않는다고 봤어요. 엔비디아에서 빠진 돈이 AMD·브로드컴으로 옮겨 가는 모습이라, 이사회 발표가 나오기 전까지는 AI 반도체 안에서 종목 간 엇갈림이 커질 수 있습니다."
+  ],
+  "issue2": [
+   "엔비디아의 최대 서버 조립사인 훙하이는 3분기 순이익이 예상을 넘었고, AI 서버 수요에 둔화 조짐이 없다며 2027년 두 자릿수 성장을 자신했어요. 칩과 메모리가 부족해 2027년에도 수요가 공급을 웃돌 것이라는 설명은 엔비디아 개인 리스크와 AI 수요를 따로 봐야 한다는 근거가 됩니다.",
+   "SMIC도 4분기 매출이 4~6% 더 늘 것으로 봤고, 지멘스는 10월에도 미국 데이터센터 수요가 강했다며 인허가만 길어질 수 있다고 했어요. 오늘 밤 AMAT와 시스코 실적이 이 흐름을 미국에서 다시 확인해 줄지가 관건입니다."
+  ],
+  "megatech": "엔비디아를 뺀 대형 기술주는 보합권에서 움직이고 있어요. 알파벳은 홍콩달러와 싱가포르달러로 채권을 찍으며 AI 투자 자금 조달 통로를 넓혔고, 메타는 데이터센터 공급망의 저탄소 시멘트 구매 계약을 맺었습니다.",
+  "mobility": "스페이스X는 젤렌스키 대통령이 스타링크에 최근 심각한 운영 이상이 있었다고 밝히면서 주목받았어요. 대형 운용사 스테이트스트리트가 스페이스X 지분을 크게 늘린 사실도 공시로 확인됐습니다.",
+  "ai_software": "AI 모델 업계에서는 오픈AI가 ChatGPT 광고를 44개국으로 넓히며 수익화에 속도를 내고 있어요. 바이트댄스의 장이밍은 자사 AI가 오픈AI와 앤트로픽을 따라잡으려면 2029~30년은 걸린다고 봤습니다.",
+  "ai_infra": "코어위브는 최소 40억 달러 규모의 투자등급 대출을 추진한다는 보도와 엔비디아 약세가 겹쳐 프리마켓에서 9% 넘게 빠지고 있어요. 이틀 전 실적으로 덜었던 자금 조달 우려가 다시 고개를 드는 셈이라, 오늘 장 전 네비우스 실적이 네오클라우드 분위기를 가를 것으로 보입니다.",
+  "semis": [
+   "메모리는 SK하이닉스 HBM4 수율이 70%를 넘었다는 보도와 삼성 HBM 공장 가동이 1년 앞당겨졌다는 소식이 나왔지만, 엔비디아 리스크에 프리마켓에서 4~6% 밀리고 있어요. 코튼 상원의원이 중국 CXMT의 미국 퇴출을 요구한 것은 장기적으로 한국 메모리 업체에 유리한 재료입니다.",
+   "AMD는 윌리엄블레어의 투자의견 상향과 엔비디아 반사이익으로 오르고 있어요. 장비주는 오늘 장 마감 뒤 AMAT 실적을 앞두고 숨을 고르고 있고, BofA가 TSMC의 2027년 설비투자를 900억 달러로 본 건 장비 수요에 긍정적인 신호입니다."
+  ],
+  "others": "비트코인은 7만 3천 달러 아래로 밀리며 기술주 약세를 따라가고 있어요. 금리 부담이 이어지는 한 크립토 관련주도 반등이 쉽지 않아 보입니다."
+ },
+ "sources": [
+  {
+   "title": "Nerves around Nvidia as investors await the outcome of Board's crisis CEO meeting",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-boards-crisis-meeting.html"
+  },
+  {
+   "title": "Nvidia stock falls 7% as investors await Jensen Huang's fate",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
+  },
+  {
+   "title": "Nvidia shares slide as investors weigh Jensen Huang's future as CEO",
+   "outlet": "시킹알파",
+   "url": "https://seekingalpha.com/news/4671241-nvidia-slides-6-as-investors-weigh-jensen-huangs-future-as-ceo"
+  },
+  {
+   "title": "英伟达在Tradegate交易所较昨日美股收盘价下跌7.4%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynaxh8602073.d.html"
+  },
+  {
+   "title": "伯恩斯坦将英伟达评级下调至与大盘持平，目标价下调至200美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynife8486730.d.html"
+  },
+  {
+   "title": "美银：若黄仁勋离任，英伟达长期企业价值或减1.4万亿美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyniex1234819.d.html"
+  },
+  {
+   "title": "AMD、博通上涨，此前有报道称英伟达董事会开会决定CEO黄仁勋的未来",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynpnz1704772.d.html"
+  },
+  {
+   "title": "英伟达盘前下跌近6% 占纳指期货跌幅一半以上",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynppa8513261.d.html"
+  },
+  {
+   "title": "花旗将英伟达目标价从285美元下调至225美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynpnv1193001.d.html"
+  },
+  {
+   "title": "加拿大皇家银行将英伟达目标价从330美元下调至230美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynppa8531139.d.html"
+  },
+  {
+   "title": "Evercore ISI将英伟达评级下调至与大盘持平",
+   "outlet": "시나",
+   "url": "https://finance.sina.com.cn/7x24/"
+  },
+  {
+   "title": "Stifel将英伟达目标价从315美元下调至205美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntux1657446.d.html"
+  },
+  {
+   "title": "BMO将英伟达目标价从340美元下调至240美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntut1100714.d.html"
+  },
+  {
+   "title": "威廉·布莱尔将英伟达评级下调至与大盘持平",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuy8450319.d.html"
+  },
+  {
+   "title": "William Blair上调AMD评级至跑赢大盘",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntux1673970.d.html"
+  },
+  {
+   "title": "英伟达美股盘前跌超8%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntux1676803.d.html"
+  },
+  {
+   "title": "巴克莱策略师Lafargue：英伟达领导层动荡无碍AI投资大势",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynpnz1766323.d.html"
+  },
+  {
+   "title": "China's Mao: The US should not use spy narrative as pretext for tech curbs",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9848491/Chinas-Mao-The-US-should-not-use-spy-narrative-as-pretext-for-tech-curbs.aspx?xy=rss"
+  },
+  {
+   "title": "NVIDIA (NVDA)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/NVDA/"
+  },
+  {
+   "title": "AMD (AMD)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/AMD/"
+  },
+  {
+   "title": "Broadcom (AVGO)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/AVGO/"
+  },
+  {
+   "title": "E-mini Nasdaq 100 (NQ=F)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/NQ%3DF/"
+  },
+  {
+   "title": "英伟达合作伙伴鸿海净利润超预期",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3198899"
+  },
+  {
+   "title": "鸿海：预计2027年需求将持续超过供应",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyniff3826789.d.html"
+  },
+  {
+   "title": "刘扬伟：鸿海预计2027年实现两位数增长",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynife8533115.d.html"
+  },
+  {
+   "title": "鸿海：人工智能客户订单依然非常强劲",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyniff3853249.d.html"
+  },
+  {
+   "title": "刘扬伟：鸿海认为AI服务器买家需求没有放缓的迹象",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynife8560312.d.html"
+  },
+  {
+   "title": "西门子首席财务官：美国数据中心需求强劲",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyniff3852048.d.html"
+  },
+  {
+   "title": "西门子首席执行官：美国两党对数据中心的重要性达成了共识",
+   "outlet": "시나",
+   "url": "https://finance.sina.com.cn/7x24/"
+  },
+  {
+   "title": "Siemens CEO: Partnership with NVIDIA to continue as normal",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9848463/Siemens-CEO-Partnership-with-NVIDIA-to-continue-as-normal.aspx?xy=rss"
+  },
+  {
+   "title": "中芯国际：前三季度归母净利润73.14亿元，同比增长91.6%",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3199035"
+  },
+  {
+   "title": "中芯国际：预计四季度收入环比增长4%-6%",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3199037"
+  },
+  {
+   "title": "美银：预计台积电2027年资本开支或达900亿美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynife8603139.d.html"
+  },
+  {
+   "title": "TSMC ADR (TSM)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/TSM/"
+  },
+  {
+   "title": "Dell (DELL)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/DELL/"
+  },
+  {
+   "title": "Vertiv (VRT)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/VRT/"
+  },
+  {
+   "title": "Micron (MU)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/MU/"
+  },
+  {
+   "title": "ALPHABET推出160亿港元的三部分港元债券发行",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynppc3878427.d.html"
+  },
+  {
+   "title": "谷歌在AdSense案件的法庭诉讼中遭遇挫折",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3199021"
+  },
+  {
+   "title": "欧盟法院顾问在谷歌对抗欧盟反垄断罚款一案中支持谷歌",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynifc1827409.d.html"
+  },
+  {
+   "title": "Meta与Sublime Systems签署多年期协议，采购18万吨低碳水泥",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuz3769575.d.html"
+  },
+  {
+   "title": "Apple (AAPL)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/AAPL/"
+  },
+  {
+   "title": "Amazon (AMZN)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/AMZN/"
+  },
+  {
+   "title": "Meta (META)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/META/"
+  },
+  {
+   "title": "泽连斯基：星链系统近期出现严重运行异常",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/"
+  },
+  {
+   "title": "美国道富银行将SpaceX的A类股票持股比例提高了77.8%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntux1665029.d.html"
+  },
+  {
+   "title": "Tesla (TSLA)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/TSLA/"
+  },
+  {
+   "title": "SpaceX (SPCX)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/SPCX/"
+  },
+  {
+   "title": "OpenAI与Aleph合作，将ChatGPT广告扩展至44个国家",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynpnz1739593.d.html"
+  },
+  {
+   "title": "张一鸣：字节AI最早2029年或2030年追平OpenAI与Anthropic",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3198945"
+  },
+  {
+   "title": "MiniMax H3-Image登顶AA开放权重双榜",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/"
+  },
+  {
+   "title": "Oracle (ORCL)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/ORCL/"
+  },
+  {
+   "title": "阿里巴巴美股盘前跌超5%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynpnv1130716.d.html"
+  },
+  {
+   "title": "Coreweave盘前下跌7%，据报其拟发行至少40亿美元投资级贷款",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynppa8474929.d.html"
+  },
+  {
+   "title": "Nebius Q3 Preview",
+   "outlet": "시킹알파",
+   "url": "https://seekingalpha.com/news/4670674-nebius-q3-preview-compute-demand-contracts-and-financing-plans-in-focus"
+  },
+  {
+   "title": "CoreWeave (CRWV)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/CRWV/"
+  },
+  {
+   "title": "Nebius (NBIS)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/NBIS/"
+  },
+  {
+   "title": "IREN (IREN)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/IREN/"
+  },
+  {
+   "title": "联想首发搭载第六代AMD EPYC问天服务器新品",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuy8447779.d.html"
+  },
+  {
+   "title": "Coherent (COHR)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/COHR/"
+  },
+  {
+   "title": "Bloom Energy (BE)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/BE/"
+  },
+  {
+   "title": "报道：SK海力士HBM4良率突破70%",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3198894"
+  },
+  {
+   "title": "三星电子三大项目首个动工 HBM工厂投产时间提前一年",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyniex1118664.d.html"
+  },
+  {
+   "title": "长鑫科技副总裁：来自服务器市场的内存需求占比超50%",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3198985"
+  },
+  {
+   "title": "Senator Cotton: Lutnick should ban China's CXMT from the US",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9848735/Senator-Cotton-US-Commerce-Secretary-Lutnick-should-ban-Chinas-CXMT-from-the-US---CNBC.aspx?xy=rss"
+  },
+  {
+   "title": "存储涨价潮仍将延续 产品需求现分化",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuz3759615.d.html"
+  },
+  {
+   "title": "Sandisk (SNDK)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/SNDK/"
+  },
+  {
+   "title": "SK hynix ADR (SKHY)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/SKHY/"
+  },
+  {
+   "title": "美国银行全球研究将英特尔的目标价从100美元下调至80美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynpnv1216777.d.html"
+  },
+  {
+   "title": "Applied Materials (AMAT)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/AMAT/"
+  },
+  {
+   "title": "Arm (ARM)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/ARM/"
+  },
+  {
+   "title": "Intel (INTC)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/INTC/"
+  },
+  {
+   "title": "比特币跌破73000美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntux1666362.d.html"
+  },
+  {
+   "title": "Bitcoin USD (BTC-USD)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/BTC-USD/"
+  },
+  {
+   "title": "Coinbase (COIN)",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/COIN/"
+  }
+ ]
+}

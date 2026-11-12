@@ -1,0 +1,132 @@
+2026년 11월 12일 개장 전 섹터별 이슈체크
+
+2026년 11월 12일 목요일 개장 전 섹터별 이슈체크입니다. 한국시간 15:30~21:23 사이 나온 소식과 미국 프리마켓 흐름을 정리했어요. 프리마켓 등락률은 수요일 종가 대비, 21:23 무렵 기준입니다.
+
+[그림1]
+
+하루 전 코어위브 실적으로 살아났던 AI 랠리가 엔비디아 CEO 거취 문제에 다시 흔들리고 있어요. 엔비디아가 프리마켓에서 8% 가까이 빠지며 나스닥100 선물 하락분의 절반 이상을 차지하는 반면, AMD와 브로드컴은 오히려 오르고 있습니다. 여기가 중요한 부분인데, 같은 시간 훙하이와 SMIC, 지멘스는 AI 수요가 꺾이지 않았다는 신호를 잇달아 내놨어요.
+
+[그림2]
+
+뉴욕타임스가 젠슨 황 CEO의 두 번째 사생활 의혹을 보도한 뒤, 엔비디아 이사회가 밤새 그의 거취를 논의했다는 보도가 나왔어요. 아직 공식 결정은 나오지 않았지만, 시장은 '황 없는 엔비디아' 가능성을 처음으로 가격에 반영하기 시작했습니다.
+
+[그림3]
+
+번스타인·에버코어·윌리엄블레어가 투자의견을 낮췄고, 씨티·RBC·BMO·스티펠은 목표가를 200달러대 초중반으로 내렸어요. BofA는 황 CEO가 떠나면 장기 기업가치가 최대 1.4조 달러 줄 수 있다고 계산했는데, 그만큼 창업자 한 사람에게 쏠린 회사라는 뜻입니다.
+
+[그림4]
+
+반면 바클레이스는 리더십 혼란이 AI 투자라는 큰 흐름까지 바꾸진 않는다고 봤어요. 엔비디아에서 빠진 돈이 AMD·브로드컴으로 옮겨 가는 모습이라, 이사회 발표가 나오기 전까지는 AI 반도체 안에서 종목 간 엇갈림이 커질 수 있습니다.
+
+[그림5]
+
+엔비디아의 최대 서버 조립사인 훙하이는 3분기 순이익이 예상을 넘었고, AI 서버 수요에 둔화 조짐이 없다며 2027년 두 자릿수 성장을 자신했어요. 칩과 메모리가 부족해 2027년에도 수요가 공급을 웃돌 것이라는 설명은 엔비디아 개인 리스크와 AI 수요를 따로 봐야 한다는 근거가 됩니다.
+
+[그림6]
+
+SMIC도 4분기 매출이 4~6% 더 늘 것으로 봤고, 지멘스는 10월에도 미국 데이터센터 수요가 강했다며 인허가만 길어질 수 있다고 했어요. 오늘 밤 AMAT와 시스코 실적이 이 흐름을 미국에서 다시 확인해 줄지가 관건입니다.
+
+[그림7]
+
+엔비디아를 뺀 대형 기술주는 보합권에서 움직이고 있어요. 알파벳은 홍콩달러와 싱가포르달러로 채권을 찍으며 AI 투자 자금 조달 통로를 넓혔고, 메타는 데이터센터 공급망의 저탄소 시멘트 구매 계약을 맺었습니다.
+
+[그림8]
+
+스페이스X는 젤렌스키 대통령이 스타링크에 최근 심각한 운영 이상이 있었다고 밝히면서 주목받았어요. 대형 운용사 스테이트스트리트가 스페이스X 지분을 크게 늘린 사실도 공시로 확인됐습니다.
+
+[그림9]
+
+AI 모델 업계에서는 오픈AI가 ChatGPT 광고를 44개국으로 넓히며 수익화에 속도를 내고 있어요. 바이트댄스의 장이밍은 자사 AI가 오픈AI와 앤트로픽을 따라잡으려면 2029~30년은 걸린다고 봤습니다.
+
+[그림10]
+
+코어위브는 최소 40억 달러 규모의 투자등급 대출을 추진한다는 보도와 엔비디아 약세가 겹쳐 프리마켓에서 9% 넘게 빠지고 있어요. 이틀 전 실적으로 덜었던 자금 조달 우려가 다시 고개를 드는 셈이라, 오늘 장 전 네비우스 실적이 네오클라우드 분위기를 가를 것으로 보입니다.
+
+[그림11]
+
+메모리는 SK하이닉스 HBM4 수율이 70%를 넘었다는 보도와 삼성 HBM 공장 가동이 1년 앞당겨졌다는 소식이 나왔지만, 엔비디아 리스크에 프리마켓에서 4~6% 밀리고 있어요. 코튼 상원의원이 중국 CXMT의 미국 퇴출을 요구한 것은 장기적으로 한국 메모리 업체에 유리한 재료입니다.
+
+[그림12]
+
+AMD는 윌리엄블레어의 투자의견 상향과 엔비디아 반사이익으로 오르고 있어요. 장비주는 오늘 장 마감 뒤 AMAT 실적을 앞두고 숨을 고르고 있고, BofA가 TSMC의 2027년 설비투자를 900억 달러로 본 건 장비 수요에 긍정적인 신호입니다.
+
+[그림13]
+
+비트코인은 7만 3천 달러 아래로 밀리며 기술주 약세를 따라가고 있어요. 금리 부담이 이어지는 한 크립토 관련주도 반등이 쉽지 않아 보입니다.
+
+출처 링크 (2026-11-12 KST)
+· Nerves around Nvidia as investors await the outcome of Board's crisis CEO meeting (CNBC): https://www.cnbc.com/2026/11/12/nvidia-boards-crisis-meeting.html
+· Nvidia stock falls 7% as investors await Jensen Huang's fate (CNBC): https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html
+· Nvidia shares slide as investors weigh Jensen Huang's future as CEO (시킹알파): https://seekingalpha.com/news/4671241-nvidia-slides-6-as-investors-weigh-jensen-huangs-future-as-ceo
+· 英伟达在Tradegate交易所较昨日美股收盘价下跌7.4% (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniynaxh8602073.d.html
+· 伯恩斯坦将英伟达评级下调至与大盘持平，目标价下调至200美元 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniynife8486730.d.html
+· 美银：若黄仁勋离任，英伟达长期企业价值或减1.4万亿美元 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniyniex1234819.d.html
+· AMD、博通上涨，此前有报道称英伟达董事会开会决定CEO黄仁勋的未来 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniynpnz1704772.d.html
+· 英伟达盘前下跌近6% 占纳指期货跌幅一半以上 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniynppa8513261.d.html
+· 花旗将英伟达目标价从285美元下调至225美元 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniynpnv1193001.d.html
+· 加拿大皇家银行将英伟达目标价从330美元下调至230美元 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniynppa8531139.d.html
+· Evercore ISI将英伟达评级下调至与大盘持平 (시나): https://finance.sina.com.cn/7x24/
+· Stifel将英伟达目标价从315美元下调至205美元 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniyntux1657446.d.html
+· BMO将英伟达目标价从340美元下调至240美元 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniyntut1100714.d.html
+· 威廉·布莱尔将英伟达评级下调至与大盘持平 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuy8450319.d.html
+· William Blair上调AMD评级至跑赢大盘 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniyntux1673970.d.html
+· 英伟达美股盘前跌超8% (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniyntux1676803.d.html
+· 巴克莱策略师Lafargue：英伟达领导层动荡无碍AI投资大势 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniynpnz1766323.d.html
+· China's Mao: The US should not use spy narrative as pretext for tech curbs (FinancialJuice): https://www.financialjuice.com/News/9848491/Chinas-Mao-The-US-should-not-use-spy-narrative-as-pretext-for-tech-curbs.aspx?xy=rss
+· NVIDIA (NVDA) (야후 파이낸스): https://finance.yahoo.com/quote/NVDA/
+· AMD (AMD) (야후 파이낸스): https://finance.yahoo.com/quote/AMD/
+· Broadcom (AVGO) (야후 파이낸스): https://finance.yahoo.com/quote/AVGO/
+· E-mini Nasdaq 100 (NQ=F) (야후 파이낸스): https://finance.yahoo.com/quote/NQ%3DF/
+· 英伟达合作伙伴鸿海净利润超预期 (월스트리트견문): https://wallstreetcn.com/livenews/3198899
+· 鸿海：预计2027年需求将持续超过供应 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniyniff3826789.d.html
+· 刘扬伟：鸿海预计2027年实现两位数增长 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniynife8533115.d.html
+· 鸿海：人工智能客户订单依然非常强劲 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniyniff3853249.d.html
+· 刘扬伟：鸿海认为AI服务器买家需求没有放缓的迹象 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniynife8560312.d.html
+· 西门子首席财务官：美国数据中心需求强劲 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniyniff3852048.d.html
+· Siemens CEO: Partnership with NVIDIA to continue as normal (FinancialJuice): https://www.financialjuice.com/News/9848463/Siemens-CEO-Partnership-with-NVIDIA-to-continue-as-normal.aspx?xy=rss
+· 中芯国际：前三季度归母净利润73.14亿元，同比增长91.6% (월스트리트견문): https://wallstreetcn.com/livenews/3199035
+· 中芯国际：预计四季度收入环比增长4%-6% (월스트리트견문): https://wallstreetcn.com/livenews/3199037
+· 美银：预计台积电2027年资本开支或达900亿美元 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniynife8603139.d.html
+· TSMC ADR (TSM) (야후 파이낸스): https://finance.yahoo.com/quote/TSM/
+· Dell (DELL) (야후 파이낸스): https://finance.yahoo.com/quote/DELL/
+· Vertiv (VRT) (야후 파이낸스): https://finance.yahoo.com/quote/VRT/
+· Micron (MU) (야후 파이낸스): https://finance.yahoo.com/quote/MU/
+· ALPHABET推出160亿港元的三部分港元债券发行 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniynppc3878427.d.html
+· 谷歌在AdSense案件的法庭诉讼中遭遇挫折 (월스트리트견문): https://wallstreetcn.com/livenews/3199021
+· 欧盟法院顾问在谷歌对抗欧盟反垄断罚款一案中支持谷歌 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniynifc1827409.d.html
+· Meta与Sublime Systems签署多年期协议，采购18万吨低碳水泥 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuz3769575.d.html
+· Apple (AAPL) (야후 파이낸스): https://finance.yahoo.com/quote/AAPL/
+· Amazon (AMZN) (야후 파이낸스): https://finance.yahoo.com/quote/AMZN/
+· Meta (META) (야후 파이낸스): https://finance.yahoo.com/quote/META/
+· 泽连斯基：星链系统近期出现严重运行异常 (월스트리트견문): https://wallstreetcn.com/
+· 美国道富银行将SpaceX的A类股票持股比例提高了77.8% (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniyntux1665029.d.html
+· Tesla (TSLA) (야후 파이낸스): https://finance.yahoo.com/quote/TSLA/
+· SpaceX (SPCX) (야후 파이낸스): https://finance.yahoo.com/quote/SPCX/
+· OpenAI与Aleph合作，将ChatGPT广告扩展至44个国家 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniynpnz1739593.d.html
+· 张一鸣：字节AI最早2029年或2030年追平OpenAI与Anthropic (월스트리트견문): https://wallstreetcn.com/livenews/3198945
+· Oracle (ORCL) (야후 파이낸스): https://finance.yahoo.com/quote/ORCL/
+· 阿里巴巴美股盘前跌超5% (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniynpnv1130716.d.html
+· Coreweave盘前下跌7%，据报其拟发行至少40亿美元投资级贷款 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniynppa8474929.d.html
+· Nebius Q3 Preview (시킹알파): https://seekingalpha.com/news/4670674-nebius-q3-preview-compute-demand-contracts-and-financing-plans-in-focus
+· CoreWeave (CRWV) (야후 파이낸스): https://finance.yahoo.com/quote/CRWV/
+· Nebius (NBIS) (야후 파이낸스): https://finance.yahoo.com/quote/NBIS/
+· IREN (IREN) (야후 파이낸스): https://finance.yahoo.com/quote/IREN/
+· 联想首发搭载第六代AMD EPYC问天服务器新品 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuy8447779.d.html
+· Coherent (COHR) (야후 파이낸스): https://finance.yahoo.com/quote/COHR/
+· Bloom Energy (BE) (야후 파이낸스): https://finance.yahoo.com/quote/BE/
+· 报道：SK海力士HBM4良率突破70% (월스트리트견문): https://wallstreetcn.com/livenews/3198894
+· 三星电子三大项目首个动工 HBM工厂投产时间提前一年 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniyniex1118664.d.html
+· 长鑫科技副总裁：来自服务器市场的内存需求占比超50% (월스트리트견문): https://wallstreetcn.com/livenews/3198985
+· Senator Cotton: Lutnick should ban China's CXMT from the US (FinancialJuice): https://www.financialjuice.com/News/9848735/Senator-Cotton-US-Commerce-Secretary-Lutnick-should-ban-Chinas-CXMT-from-the-US---CNBC.aspx?xy=rss
+· 存储涨价潮仍将延续 产品需求现分化 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuz3759615.d.html
+· Sandisk (SNDK) (야후 파이낸스): https://finance.yahoo.com/quote/SNDK/
+· SK hynix ADR (SKHY) (야후 파이낸스): https://finance.yahoo.com/quote/SKHY/
+· 美国银行全球研究将英特尔的目标价从100美元下调至80美元 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniynpnv1216777.d.html
+· Applied Materials (AMAT) (야후 파이낸스): https://finance.yahoo.com/quote/AMAT/
+· Arm (ARM) (야후 파이낸스): https://finance.yahoo.com/quote/ARM/
+· Intel (INTC) (야후 파이낸스): https://finance.yahoo.com/quote/INTC/
+· 比特币跌破73000美元 (시나): https://finance.sina.cn/7x24/2026-11-12/detail-iniyntux1666362.d.html
+· Bitcoin USD (BTC-USD) (야후 파이낸스): https://finance.yahoo.com/quote/BTC-USD/
+· Coinbase (COIN) (야후 파이낸스): https://finance.yahoo.com/quote/COIN/
+
+그림 대응(PDF 쪽 번호): 그림1=요약, 그림2=이슈1(1/3), 그림3=이슈1(2/3), 그림4=이슈1(3/3), 그림5=이슈2(1/2), 그림6=이슈2(2/2), 그림7=메가테크, 그림8=모빌리티, 그림9=AI 소프트웨어, 그림10=AI 인프라, 그림11=반도체(1/2), 그림12=반도체(2/2), 그림13=크립토

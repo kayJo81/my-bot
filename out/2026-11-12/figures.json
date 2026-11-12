@@ -1,0 +1,93 @@
+[
+ {
+  "n": 1,
+  "id": "summary",
+  "name": "요약",
+  "file": "pre_1.jpg",
+  "height": 1670
+ },
+ {
+  "n": 2,
+  "id": "issue1#1",
+  "name": "이슈1(1/3)",
+  "file": "pre_2.jpg",
+  "height": 1650
+ },
+ {
+  "n": 3,
+  "id": "issue1#2",
+  "name": "이슈1(2/3)",
+  "file": "pre_3.jpg",
+  "height": 1205
+ },
+ {
+  "n": 4,
+  "id": "issue1#3",
+  "name": "이슈1(3/3)",
+  "file": "pre_4.jpg",
+  "height": 1274
+ },
+ {
+  "n": 5,
+  "id": "issue2#1",
+  "name": "이슈2(1/2)",
+  "file": "pre_5.jpg",
+  "height": 1362
+ },
+ {
+  "n": 6,
+  "id": "issue2#2",
+  "name": "이슈2(2/2)",
+  "file": "pre_6.jpg",
+  "height": 1652
+ },
+ {
+  "n": 7,
+  "id": "megatech",
+  "name": "메가테크",
+  "file": "pre_7.jpg",
+  "height": 1836
+ },
+ {
+  "n": 8,
+  "id": "mobility",
+  "name": "모빌리티",
+  "file": "pre_8.jpg",
+  "height": 985
+ },
+ {
+  "n": 9,
+  "id": "ai_software",
+  "name": "AI 소프트웨어",
+  "file": "pre_9.jpg",
+  "height": 1159
+ },
+ {
+  "n": 10,
+  "id": "ai_infra",
+  "name": "AI 인프라",
+  "file": "pre_10.jpg",
+  "height": 1701
+ },
+ {
+  "n": 11,
+  "id": "semis#1",
+  "name": "반도체(1/2)",
+  "file": "pre_11.jpg",
+  "height": 1284
+ },
+ {
+  "n": 12,
+  "id": "semis#2",
+  "name": "반도체(2/2)",
+  "file": "pre_12.jpg",
+  "height": 1213
+ },
+ {
+  "n": 13,
+  "id": "others",
+  "name": "크립토",
+  "file": "pre_13.jpg",
+  "height": 917
+ }
+]
