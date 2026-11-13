@@ -1,0 +1,872 @@
+{
+ "date": "2026-11-13",
+ "window": "15:30~21:31 KST",
+ "mail_to": "yidiar80k@gmail.com",
+ "summary": [
+  "MS 365 글로벌 장애 이틀째, 유로넥스트·은행까지 전화·팩스로 업무",
+  "엔비디아, 황 사임 이튿날 프리마켓 +2%대 반등… AMD·브로드컴은 −2%",
+  "시스코, 실적·가이던스 올렸지만 이익률 하락에 프리마켓 −3.5%",
+  "세레브라스 4분기 가이던스 대폭 상회·MS 고객 공개로 +16%",
+  "삼성 인수 협상 보도에 냉각업체 모딘 +30%, 비트코인 3개월 최저"
+ ],
+ "checklist": [
+  "22:30 10월 PPI: 헤드라인 전월 +0.4%, 근원 +0.3% 예상(CNBC)",
+  "10년물 5.1%대 유지 여부와 23:10 콜린스 등 연준 발언",
+  "MS 장애 북미 복구 속도와 원인 발표",
+  "엔비디아 반등 지속 여부, 11/17 실적 전 투자의견 추가 변경",
+  "스타십 15차 비행: 한국 시간 11/14(토) 07:45 발사 목표"
+ ],
+ "issues": [
+  {
+   "title": "MS 365 글로벌 장애, 복구 이틀째",
+   "subtitle": "[신규] 아웃룩·팀즈·코파일럿 장애 지속 · 금융시장 업무 차질",
+   "timeline": [
+    {
+     "t": "11/13 02~03시",
+     "text": "Exchange Online 장애 시작, 74개국 신고 13만 건"
+    },
+    {
+     "t": "16:07",
+     "text": "유로넥스트, 이메일 중단·상장사에 전화 사용 안내"
+    },
+    {
+     "t": "18:22",
+     "text": "MS \"초기 안정화 징후\", 이메일 대기 시한 48시간 연장"
+    },
+    {
+     "t": "21:02",
+     "text": "\"유럽 회복 고무적, 일본 안정, 북미 개선 중\""
+    }
+   ],
+   "metrics": [
+    {
+     "label": "다운디텍터 신고",
+     "value": "약 13만 건",
+     "note": "74개국 · 11/12 오후(ET)",
+     "dir": "down"
+    },
+    {
+     "label": "복구",
+     "value": "아태 일부 완료",
+     "note": "용량은 아직 정상 이하",
+     "dir": "up"
+    },
+    {
+     "label": "원인",
+     "value": "미발표",
+     "note": "악의적 활동 징후는 없다고 밝힘",
+     "dir": "down"
+    },
+    {
+     "label": "MSFT 프리마켓",
+     "value": "-1.30%",
+     "note": "21:31 KST",
+     "dir": "down"
+    }
+   ],
+   "cause": [
+    "블룸버그: 트레이더들이 전화·왓츠앱·팩스로 거래, 도이체방크 이메일 불안정",
+    "영국 정부·독일 디지털부 영향 평가, 영란은행 \"핵심 업무 영향 없음\"",
+    "인증·라우팅 구성요소 패치 배포, 근본 원인 보고서는 복구 후 발표 예정"
+   ],
+   "chips": [
+    {
+     "name": "MSFT",
+     "chg": "-1.30%"
+    }
+   ],
+   "checks": [
+    "북미 업무 시간대 복구 여부",
+    "원인 발표와 고객 보상 여부",
+    "코파일럿 등 AI 서비스 신뢰도 영향"
+   ],
+   "source": "블룸버그, FinancialJuice, 월스트리트견문, 시나, Al Jazeera"
+  },
+  {
+   "title": "시스코는 밀리고, 세레브라스는 급등",
+   "subtitle": "[신규] 장 마감 후 실적에 엇갈린 프리마켓 반응",
+   "timeline": [
+    {
+     "t": "06시대",
+     "text": "시스코·AMAT·세레브라스 실적 발표"
+    },
+    {
+     "t": "18:21",
+     "text": "세레브라스 프리마켓 20% 가까이 급등"
+    },
+    {
+     "t": "20:23",
+     "text": "골드만, AMAT \"DRAM·첨단 패키징이 2027년 성장 가속\""
+    },
+    {
+     "t": "21:30",
+     "text": "시스코 −3.5%, 세레브라스 +16%, AMAT −0.5%"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "시스코 1분기 매출",
+     "value": "185.2억 달러",
+     "note": "연간 가이던스 748억~758억 달러로 상향",
+     "dir": "up"
+    },
+    {
+     "label": "시스코 조정 매출총이익률",
+     "value": "65.6%",
+     "note": "전년 대비 −250bp, 메모리 비용 상승",
+     "dir": "down"
+    },
+    {
+     "label": "세레브라스 4분기 가이던스",
+     "value": "3.1억~3.3억 달러",
+     "note": "코어 매출, 예상 크게 상회",
+     "dir": "up"
+    },
+    {
+     "label": "AMAT 다음 분기 매출",
+     "value": "111억±5억 달러",
+     "note": "예상 108.9억 달러 · 14주 분기",
+     "dir": "up"
+    }
+   ],
+   "cause": [
+    "시스코 제품 주문 증가율 21%로 직전 분기 35%에서 둔화, AI 주문 공시 중단",
+    "세레브라스 3분기 코어 매출 2.31억 달러(예상 2.15억), MS를 고객으로 공개",
+    "AMAT는 BofA(650→520달러)·UBS(695→640달러) 등 밸류에이션 이유 목표가 하향"
+   ],
+   "chips": [
+    {
+     "name": "시스코",
+     "chg": "-3.52%"
+    },
+    {
+     "name": "세레브라스",
+     "chg": "+16.01%"
+    },
+    {
+     "name": "AMAT",
+     "chg": "-0.51%"
+    },
+    {
+     "name": "아리스타",
+     "chg": "+0.66%"
+    }
+   ],
+   "checks": [
+    "시스코 메모리 비용 부담이 다음 분기에도 이어질지",
+    "세레브라스 오픈AI 계약 지연 범위",
+    "AMAT 14주 분기 효과를 뺀 성장률"
+   ],
+   "source": "Investing.com, GuruFocus, CNBC, 야후 파이낸스, 시나"
+  }
+ ],
+ "sections": {
+  "megatech": [
+   {
+    "company": "엔비디아",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "황 사임 이튿날 프리마켓 +0.7% → +3%까지 반등"
+     },
+     {
+      "label": "배경",
+      "text": "골드만, 애플의 잡스 이후와 비교 \"위험 대비 보상 매력\"(목표가 300→220달러)"
+     },
+     {
+      "label": "사실",
+      "text": "자오창펑 등 기술계 인사 \"사임은 실수\", 일본 정부 \"동향 주시\""
+     },
+     {
+      "label": "체크",
+      "text": "11/17 실적 전 투자의견 추가 변경"
+     }
+    ],
+    "chips": [
+     {
+      "name": "엔비디아",
+      "chg": "+1.90%"
+     }
+    ],
+    "source": "시나, 블룸버그, 시킹알파, BusinessToday"
+   },
+   {
+    "company": "MSFT",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "M365 글로벌 장애 이틀째, 아태 일부 복구·북미 개선 중"
+     },
+     {
+      "label": "영향",
+      "text": "4거래일 중 세 번째 2%대 프리마켓 하락 후 낙폭 축소"
+     }
+    ],
+    "chips": [
+     {
+      "name": "MSFT",
+      "chg": "-1.30%"
+     }
+    ],
+    "source": "FinancialJuice, TipRanks"
+   },
+   {
+    "company": "아마존",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "로이터 단독: 웹 전체 상품 데이터 수집 'World Product Graph' 계획"
+     },
+     {
+      "label": "의미",
+      "text": "AI 쇼핑 에이전트에 맞설 데이터 확보 목적"
+     },
+     {
+      "label": "사실",
+      "text": "아마존 \"오래된 브레인스토밍 문서\"라고 반박"
+     }
+    ],
+    "chips": [
+     {
+      "name": "아마존",
+      "chg": "+1.15%"
+     }
+    ],
+    "source": "로이터(Investing.com), 월스트리트견문"
+   },
+   {
+    "company": "애플 · 알파벳 · 메타",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "인도, 전자폐기물 재활용업체 감사에 애플·LG·삼성 서비스 업체 포함"
+     },
+     {
+      "label": "영향",
+      "text": "알파벳·애플 소폭 상승, 메타 보합"
+     }
+    ],
+    "chips": [
+     {
+      "name": "알파벳",
+      "chg": "+1.16%"
+     },
+     {
+      "name": "애플",
+      "chg": "+0.39%"
+     },
+     {
+      "name": "메타",
+      "chg": "-0.02%"
+     }
+    ],
+    "source": "시나"
+   }
+  ],
+  "mobility": [
+   {
+    "company": "스페이스X",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "스타십 15차 비행, 한국 시간 11/14(토) 07:45 발사 목표"
+     },
+     {
+      "label": "의미",
+      "text": "블록3 첫 '두 단 모두 타워 포획' 시도"
+     },
+     {
+      "label": "체크",
+      "text": "FAA 면허 수정 승인 발표 여부"
+     }
+    ],
+    "chips": [
+     {
+      "name": "스페이스X",
+      "chg": "+0.30%"
+     },
+     {
+      "name": "로켓랩",
+      "chg": "-0.27%"
+     }
+    ],
+    "source": "NASASpaceFlight, Technology.org"
+   },
+   {
+    "company": "테슬라",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "블룸버그: 스페이스X와 합병 협상 진전, 이르면 12월 발표 가능"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 1% 안팎 상승"
+     }
+    ],
+    "chips": [
+     {
+      "name": "테슬라",
+      "chg": "+0.95%"
+     }
+    ],
+    "source": "블룸버그(RTE), CNBC"
+   }
+  ],
+  "ai_software": [
+   {
+    "company": "앤트로픽",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "Claude 인증 오류, 수정 배포"
+     },
+     {
+      "label": "배경",
+      "text": "IPO 청약 약 6배 초과(블룸버그), 11/19 나스닥 'ANT' 상장 예정"
+     },
+     {
+      "label": "체크",
+      "text": "엔비디아의 사모 배정 약 100억 달러 약정 유지 여부"
+     }
+    ],
+    "chips": [],
+    "source": "FinancialJuice, 블룸버그, Fortune"
+   },
+   {
+    "company": "사이버보안",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "팔로알토·크라우드스트라이크 프리마켓 강세"
+     },
+     {
+      "label": "배경",
+      "text": "팔로알토 11/18 실적 앞둠, 제프리스 목표가 450→400달러(목)"
+     }
+    ],
+    "chips": [
+     {
+      "name": "팔로알토",
+      "chg": "+4.34%"
+     },
+     {
+      "name": "크라우드스트라이크",
+      "chg": "+3.33%"
+     },
+     {
+      "name": "오라클",
+      "chg": "+0.94%"
+     }
+    ],
+    "source": "벤징가, Investing.com"
+   }
+  ],
+  "ai_infra": [
+   {
+    "company": "모딘",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "블룸버그: 삼성전자, 데이터센터 냉각업체 모딘 인수 협상"
+     },
+     {
+      "label": "의미",
+      "text": "모딘 3분기 데이터센터 매출 4.4억 달러(+95%)"
+     },
+     {
+      "label": "체크",
+      "text": "인수 가격과 성사 여부(미확정)"
+     }
+    ],
+    "chips": [
+     {
+      "name": "모딘",
+      "chg": "+30.57%"
+     },
+     {
+      "name": "버티브",
+      "chg": "+2.39%"
+     }
+    ],
+    "source": "블룸버그(야후), Investing.com, DIGITIMES"
+   },
+   {
+    "company": "네오클라우드",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "DA 데이비슨, 네비우스 목표가 250→125달러"
+     },
+     {
+      "label": "배경",
+      "text": "네비우스 목 −16.8%, 올해 매출 범위 하단·일부 용량 이연"
+     },
+     {
+      "label": "영향",
+      "text": "컴퓨팅 클라우드주 프리마켓 약세"
+     }
+    ],
+    "chips": [
+     {
+      "name": "네비우스",
+      "chg": "-1.60%"
+     },
+     {
+      "name": "IREN",
+      "chg": "-1.39%"
+     },
+     {
+      "name": "코어위브",
+      "chg": "0.00%"
+     }
+    ],
+    "source": "시나, CNBC"
+   },
+   {
+    "company": "소프트뱅크",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "AI 데이터센터용 가스터빈 발주 축소로 5,972억 엔(약 37억 달러) 손실"
+     },
+     {
+      "label": "의미",
+      "text": "전력 장비 선점 경쟁의 비용이 드러난 사례"
+     }
+    ],
+    "chips": [],
+    "source": "Tom's Hardware, 시나"
+   }
+  ],
+  "semis": [
+   {
+    "company": "AMAT",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "4분기 매출 104.1억 달러(+53%), 중국 비중 25%(전년 29%)"
+     },
+     {
+      "label": "사실",
+      "text": "골드만 \"DRAM·첨단 패키징이 2027년 성장 가속\""
+     },
+     {
+      "label": "사실",
+      "text": "BofA·UBS·미즈호 목표가 하향, 이유는 밸류에이션"
+     }
+    ],
+    "chips": [
+     {
+      "name": "AMAT",
+      "chg": "-0.51%"
+     },
+     {
+      "name": "램리서치",
+      "chg": "-0.15%"
+     }
+    ],
+    "source": "시나, Investing.com, SEC"
+   },
+   {
+    "company": "메모리 · HBM",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "업계 \"황 사임 이후 한국 메모리의 HBM 협상력 상승\""
+     },
+     {
+      "label": "의미",
+      "text": "베라 루빈·HBM4 계약은 대부분 확정, 1~2년 영향 제한 평가"
+     },
+     {
+      "label": "영향",
+      "text": "미국 메모리주 프리마켓 약세"
+     }
+    ],
+    "chips": [
+     {
+      "name": "SK하이닉스 ADR",
+      "chg": "-1.97%"
+     },
+     {
+      "name": "샌디스크",
+      "chg": "-1.35%"
+     },
+     {
+      "name": "마이크론",
+      "chg": "-0.37%"
+     }
+    ],
+    "source": "시나, 코리아헤럴드"
+   },
+   {
+    "company": "AMD · 브로드컴",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "엔비디아 반등 속 프리마켓 −2%대"
+     },
+     {
+      "label": "배경",
+      "text": "목요일 엔비디아 대안으로 부각되며 5% 넘게 급등"
+     }
+    ],
+    "chips": [
+     {
+      "name": "AMD",
+      "chg": "-2.24%"
+     },
+     {
+      "name": "브로드컴",
+      "chg": "-1.98%"
+     },
+     {
+      "name": "TSMC",
+      "chg": "+0.91%"
+     }
+    ],
+    "source": "시나, CNBC"
+   },
+   {
+    "company": "대만 공급망",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "DIGITIMES: 엔비디아 GPU 점검 강화로 AI 서버 공급 빠듯, 2027년 가격 인상 예상"
+     },
+     {
+      "label": "사실",
+      "text": "훙하이 3분기 ASIC AI 서버 출하 전년 대비 1.5배"
+     },
+     {
+      "label": "사실",
+      "text": "삼성 온양 공장, 최첨단 HBM 패키징 거점으로 전환"
+     }
+    ],
+    "chips": [],
+    "source": "DIGITIMES"
+   },
+   {
+    "company": "인텔",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "한국 기업 23곳과 'K-AI 풀스택 얼라이언스' 결성"
+     },
+     {
+      "label": "사실",
+      "text": "DIGITIMES: HBM 없는 추론 GPU 제안"
+     }
+    ],
+    "chips": [
+     {
+      "name": "인텔",
+      "chg": "-0.21%"
+     }
+    ],
+    "source": "시나, DIGITIMES"
+   }
+  ],
+  "others": [
+   {
+    "company": "비트코인 · 크립토",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "비트코인 68,846달러로 3개월 최저(15:36)"
+     },
+     {
+      "label": "배경",
+      "text": "현물 ETF 5거래일 연속 순유출 약 14.4억 달러, 12월 인상 우려"
+     },
+     {
+      "label": "영향",
+      "text": "관련주 프리마켓 일제히 하락"
+     }
+    ],
+    "chips": [
+     {
+      "name": "코인베이스",
+      "chg": "-2.27%"
+     },
+     {
+      "name": "로빈후드",
+      "chg": "-1.66%"
+     },
+     {
+      "name": "스트래티지",
+      "chg": "-1.45%"
+     },
+     {
+      "name": "서클",
+      "chg": "-1.38%"
+     }
+    ],
+    "source": "시나, 로이터, Cointelegraph"
+   }
+  ]
+ },
+ "empty_notes": {},
+ "greeting": "2026년 11월 13일 금요일 개장 전 섹터별 이슈체크입니다. 한국시간 15:30~21:31 사이 나온 소식과 미국 프리마켓 흐름을 정리했어요. 프리마켓 등락률은 목요일 종가 대비, 21:31 무렵 기준입니다.",
+ "commentary": {
+  "summary": "오늘 밤은 기술주 개별 이슈보다 22:30 10월 PPI가 먼저입니다. 목요일 국채시장이 재개장하자마자 10년물이 5.1%를 넘었고, 12월 인상 기대가 이미 거의 100%까지 올라와 있어 PPI가 예상보다 높으면 금리 부담이 한 번 더 커질 수 있어요. 그 위에 MS 장애, 엔비디아 반등, 장 마감 후 실적 반응이 얹혀 있는 구도입니다.",
+  "issue1": [
+   "MS 장애는 미국 시간 목요일 정오 무렵 시작돼 하루를 넘겼습니다. 여기가 중요한 부분인데, 이번에는 개인 사용자보다 유로넥스트와 은행, 정부기관처럼 업무 메일에 기대는 곳이 직접 영향을 받았어요. 트레이더들이 전화와 팩스로 거래를 마무리했다는 블룸버그 보도가 상징적입니다.",
+   "MS는 악의적 활동 징후는 없다고 밝혔지만 확정 원인은 아직 내놓지 않았습니다. 아태 지역 일부는 복구를 마쳤고 유럽은 회복세, 북미는 개선 중이라는 설명이라 미국 업무 시간이 시작되는 오늘 밤이 실제 확인 구간이에요. 주가는 이번 주 들어 세 번째 2%대 하락을 겪고 있는 만큼, 장애가 길어지면 코파일럿 같은 AI 구독 서비스의 신뢰 문제로 번질 수 있습니다."
+  ],
+  "issue2": [
+   "시스코는 매출과 연간 가이던스를 모두 올렸는데도 프리마켓에서 밀리고 있습니다. 시장이 본 건 숫자보다 질이었어요. 하드웨어 비중이 커지고 메모리 값이 오르면서 매출총이익률이 1년 전보다 2.5%p 낮아졌고, 제품 주문 증가율도 직전 분기 35%에서 21%로 내려왔습니다.",
+   "반면 세레브라스는 4분기 가이던스가 시장 예상을 크게 넘었고 MS를 고객으로 공개하며 급등하고 있어요. 같은 AI 하드웨어라도 메모리 비용을 떠안는 쪽과 새 고객을 늘리는 쪽의 반응이 갈린 셈입니다. AMAT는 실적과 가이던스가 예상을 넘었지만 증권사들이 밸류에이션을 이유로 목표가를 낮추면서 보합권에 머물고 있습니다."
+  ],
+  "megatech": [
+   "엔비디아는 황 사임 이튿날 반등을 시도하고 있어요. 골드만이 애플의 잡스 이후 시기와 비교하며 위험 대비 보상이 매력적이라고 본 노트가 다시 회자되고, 기술계 인사들 사이에서 사임은 실수였다는 목소리가 이어졌습니다. 다만 골드만도 목표가는 300달러에서 220달러로 낮췄다는 점은 함께 봐야 합니다.",
+   "아마존은 웹 전체의 상품 데이터를 모으려는 내부 계획이 로이터 단독으로 보도됐어요. AI 쇼핑 에이전트가 검색과 비교를 대신하는 흐름에 맞서 데이터 주도권을 지키려는 시도로 읽히고, 회사는 오래된 브레인스토밍 문서라고 선을 그었습니다. 알파벳과 애플은 소폭 강세, 메타는 보합입니다."
+  ],
+  "mobility": "스페이스X는 한국 시간 내일 아침 7시 45분 스타십 15차 비행을 목표로 하고 있어요. 이번에는 처음으로 부스터와 우주선을 모두 발사탑 팔로 받아내는 시도라 성공 여부에 따라 재사용 일정 기대가 크게 달라질 수 있습니다. 테슬라는 전날 나온 스페이스X 합병 협상 보도의 여운 속에 1% 안팎 오르고 있습니다.",
+  "ai_software": "앤트로픽은 Claude 인증 오류를 고쳤다고 밝혔고, 다음 주 상장을 앞두고 청약이 6배 안팎 몰렸다는 블룸버그 보도가 나와 있어요. 엔비디아가 사모 배정에서 약 100억 달러를 약정한 만큼 황 사임 이후 이 약정이 그대로 갈지가 상장 전 변수입니다. 사이버보안주는 팔로알토의 다음 주 실적을 앞두고 프리마켓에서 3~4%대 강세를 보이고 있습니다.",
+  "ai_infra": [
+   "삼성전자가 데이터센터 냉각업체 모딘 인수를 협상 중이라는 블룸버그 보도에 모딘이 30% 넘게 뛰고 있어요. 모딘은 3분기 데이터센터 매출이 1년 새 두 배 가까이 늘어난 회사라, 메모리를 넘어 데이터센터 설비까지 넓히려는 삼성의 의도가 엿보입니다. 아직 가격과 성사 여부는 정해지지 않았습니다.",
+   "네오클라우드는 네비우스 실적 충격이 이틀째 이어지고 있습니다. DA 데이비슨이 네비우스 목표가를 절반으로 낮췄고, 컴퓨팅 클라우드주가 프리마켓에서 약하게 출발했어요. 소프트뱅크의 가스터빈 손실은 이번 주 초 나온 소식이지만, 전력 장비를 먼저 잡으려던 경쟁이 비용으로 돌아온 사례라 함께 담았습니다."
+  ],
+  "semis": [
+   "AMAT는 4분기 매출이 53% 늘며 사상 최대를 기록했고, 골드만은 DRAM과 첨단 패키징이 2027년 성장을 더 끌어올릴 것이라고 봤어요. 그래도 BofA와 UBS, 미즈호가 목표가를 낮춘 건 실적보다 주가가 먼저 많이 올랐다는 판단입니다. 메모리주는 황 사임 이후 한국 업체의 HBM 협상력이 커졌다는 업계 평가에도 프리마켓에서 약세예요.",
+   "목요일 엔비디아 대안으로 5% 넘게 올랐던 AMD와 브로드컴은 엔비디아가 반등하자 2%대 하락으로 되돌리고 있습니다. 대만 쪽에서는 엔비디아가 GPU 점검을 강화하면서 AI 서버 공급이 빠듯해지고 2027년 가격 인상이 예상된다는 DIGITIMES 보도가 나왔어요. 훙하이의 ASIC 서버 출하가 1.5배 늘었다는 소식은 맞춤형 칩 수요가 실제 물량으로 이어지고 있다는 신호입니다."
+  ],
+  "others": "비트코인은 오후 한때 68,846달러까지 밀리며 3개월 만의 최저를 기록했어요. 현물 ETF에서 5거래일 연속 돈이 빠졌고 12월 금리 인상 우려가 겹친 결과입니다. 코인베이스와 로빈후드 등 관련주도 프리마켓에서 1~2%대 약세라, 오늘 밤 PPI가 크립토 쪽에도 방향을 줄 가능성이 큽니다."
+ },
+ "sources": [
+  {
+   "title": "Microsoft outage gums up markets, forces traders to use phones",
+   "outlet": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/microsoft-outage-gums-up-markets-forces-traders-to-use-phones"
+  },
+  {
+   "title": "Microsoft on outage: extending email timeout window to 48 hours",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9850621/Microsoft-on-outage-extending-email-timeout-window-to-48-hours-to-protect-delayed-messages-during-service-recovery.aspx?xy=rss"
+  },
+  {
+   "title": "Microsoft: Japan comparatively more stable, North America improving",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9850806/Microsoft-Japan-comparatively-more-stable-North-America-improving.aspx?xy=rss"
+  },
+  {
+   "title": "Euronext: 微软系统故障致邮件通讯服务中断",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3199635"
+  },
+  {
+   "title": "Microsoft outage hits tens of thousands of users",
+   "outlet": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/12/microsoft-outage-hits-tens-of-thousands-of-users"
+  },
+  {
+   "title": "Microsoft stock falls premarket as outage fix fails to work as expected",
+   "outlet": "TipRanks",
+   "url": "https://www.tipranks.com/news/microsoft-stock-falls-premarket-as-outage-fix-fails-to-work-as-expected"
+  },
+  {
+   "title": "Huang ouster fallout, Cisco, Applied Materials outlooks: what's moving markets",
+   "outlet": "Investing.com",
+   "url": "https://www.investing.com/news/economy-news/huang-ouster-fallout-cisco-applied-materials-outlooks--whats-moving-markets-5024550"
+  },
+  {
+   "title": "Cisco shares slip despite strong Q1 earnings amid hardware margin concerns",
+   "outlet": "GuruFocus",
+   "url": "https://www.gurufocus.com/news/9197499/cisco-systems-csco-shares-slip-despite-strong-q1-earnings-amid-hardware-margin-concerns"
+  },
+  {
+   "title": "Cisco releases Q2 2027 earnings guidance",
+   "outlet": "MarketBeat",
+   "url": "https://www.marketbeat.com/instant-alerts/guidance-cisco-systems-nasdaq-csco-releases-q2-2027-earnings-guidance-2026-11-12/"
+  },
+  {
+   "title": "Cerebras Systems Q3 earnings report",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html"
+  },
+  {
+   "title": "Nvidia rival Cerebras rallies on Q4 outlook",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-rival-cerebras-rallies-13-223307284.html"
+  },
+  {
+   "title": "美股AI芯片公司Cerebras盘前大涨近20%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqsna8032619.d.html"
+  },
+  {
+   "title": "Applied Materials fourth quarter and fiscal year 2026 results",
+   "outlet": "SEC",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000006951/000162828026073360/exhibit991q42026earningsre.htm"
+  },
+  {
+   "title": "高盛：应用材料Q4业绩稳健，DRAM及先进封装驱动2027年加速增长",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqwty8007727.d.html"
+  },
+  {
+   "title": "BofA cuts Applied Materials stock price target on valuation",
+   "outlet": "Investing.com",
+   "url": "https://www.investing.com/news/analyst-ratings/bofa-cuts-applied-materials-stock-price-target-on-valuation-93CH-5024753"
+  },
+  {
+   "title": "纳斯达克100指数期货转涨，英伟达美股盘前涨幅扩大至3%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqwtx1220455.d.html"
+  },
+  {
+   "title": "Goldman Sachs sees favorable risk/reward in Nvidia, citing Apple leadership parallel",
+   "outlet": "시킹알파",
+   "url": "https://seekingalpha.com/news/4671691-goldman-sachs-sees-favorable-risk-reward-in-nvidia-citing-apple-leadership-parallel"
+  },
+  {
+   "title": "Jensen Huang resignation sparks backlash as tech leaders call Nvidia's decision a mistake",
+   "outlet": "BusinessToday",
+   "url": "https://www.businesstoday.in/technology/news/story/jensen-huang-resignation-sparks-backlash-as-tech-leaders-call-nvidias-decision-a-mistake-567246-2026-11-13"
+  },
+  {
+   "title": "报道：日本政府正在密切关注黄仁勋相关动向",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqsnc3628516.d.html"
+  },
+  {
+   "title": "Exclusive: Amazon's plan to own the world's product data",
+   "outlet": "로이터(Investing.com)",
+   "url": "https://www.investing.com/news/stock-market-news/exclusiveamazons-plan-to-own-the-worlds-product-data-and-fight-ai-shopping-agents-5024784"
+  },
+  {
+   "title": "印度对电子垃圾回收商的审查将覆盖苹果、LG、三星的服务提供商",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqsmz1240213.d.html"
+  },
+  {
+   "title": "Starship Flight 15 awaits FAA",
+   "outlet": "NASASpaceFlight",
+   "url": "https://www.nasaspaceflight.com/2026/11/starship-flight-15-awaits-faa/"
+  },
+  {
+   "title": "Starship Flight 15 launch: double tower catch",
+   "outlet": "Technology.org",
+   "url": "https://www.technology.org/2026/11/13/starship-flight-15-launch-double-tower-catch-ship-42/"
+  },
+  {
+   "title": "SpaceX and Tesla merger talks",
+   "outlet": "RTE",
+   "url": "https://www.rte.ie/news/business/2026/1113/1599074-spacex-tesla-merger-talks/"
+  },
+  {
+   "title": "Anthropic: Issues with authenticating to Claude, fix deployed",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9850778/Anthropic-Issues-with-authenticating-to-Claude-fix-deployed.aspx?xy=rss"
+  },
+  {
+   "title": "Anthropic's IPO is said to be about six times oversubscribed",
+   "outlet": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-12/anthropic-s-ipo-is-said-to-be-about-six-times-oversubscribed"
+  },
+  {
+   "title": "Anthropic IPO and Jensen Huang's resignation",
+   "outlet": "Fortune",
+   "url": "https://fortune.com/2026/11/12/anthropic-ipo-jensen-huang-resignation-nvidia/"
+  },
+  {
+   "title": "Palo Alto Networks stock is gaining Friday",
+   "outlet": "Benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63233600/palo-alto-networks-stock-is-gaining-friday-whats-going-on"
+  },
+  {
+   "title": "Samsung in talks to buy data center cooling maker Modine",
+   "outlet": "야후 파이낸스(블룸버그)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-talks-buy-data-center-005809830.html"
+  },
+  {
+   "title": "Premarket movers: Modine surges, Cerebras jumps on Microsoft deal",
+   "outlet": "Investing.com",
+   "url": "https://uk.investing.com/news/stock-market-news/premarket-movers-modine-surges-cerebras-jumps-on-microsoft-deal-4980433"
+  },
+  {
+   "title": "Samsung data center cooling acquisition",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261113VL230/samsung-data-center-cooling-acquisition-2026.html"
+  },
+  {
+   "title": "DA Davidson将Nebius目标价从250美元下调至125美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqwty8012150.d.html"
+  },
+  {
+   "title": "SoftBank loses $3.7 billion on canceled AI data center gas turbine orders",
+   "outlet": "Tom's Hardware",
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/softbank-loses-usd3-7-billion-on-canceled-ai-data-center-gas-turbine-orders-days-after-denying-elon-musks-claim-it-was-defaulting-company-kills-reserved-13-gigawatts-of-power-more-than-six-hoover-dams-worth-of-capacity"
+  },
+  {
+   "title": "业内人士：黄仁勋离职后 韩国存储厂商HBM谈判话语权提升",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqsmz1266543.d.html"
+  },
+  {
+   "title": "Jensen Huang's exit and Korean chipmakers",
+   "outlet": "Korea Herald",
+   "url": "https://www.koreaherald.com/article/10936449"
+  },
+  {
+   "title": "英伟达盘前升幅扩大至2.5%，博通、AMD盘前跌2.5%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqwtz3569658.d.html"
+  },
+  {
+   "title": "DIGITIMES 주요 기사",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/"
+  },
+  {
+   "title": "DIGITIMES 中文",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com.tw/"
+  },
+  {
+   "title": "英特尔与韩国23家企业成立K-AI全栈联盟",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqnec1292624.d.html"
+  },
+  {
+   "title": "比特币触及三个月低点",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqnec1280229.d.html"
+  },
+  {
+   "title": "比特币跌至三个月低点，加密货币概念股盘前下跌",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqsmz1248550.d.html"
+  },
+  {
+   "title": "Bitcoin ETFs outflows five days",
+   "outlet": "Crypto Briefing",
+   "url": "https://cryptobriefing.com/bitcoin-etfs-outflows-five-days-risk/"
+  },
+  {
+   "title": "Treasury yields ahead of October PPI",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html"
+  }
+ ]
+}
