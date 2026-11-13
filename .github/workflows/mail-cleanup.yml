@@ -1,11 +1,11 @@
-name: Mail cleanup (every 2 days)
+name: Mail cleanup (daily)
 
-# 이틀에 한 번 05:17 KST(홀수일): 지메일·네이버 받은편지함을 분류합니다.
+# 매일 05:17 KST: 지메일·네이버 받은편지함을 분류합니다.
 # 광고 표시 메일은 휴지통, 청구서·쇼핑·뉴스레터·외신은 같은 이름의 폴더(라벨)로. 지정 발신자 메일은 휴지통.
 # 영구 삭제나 휴지통 비우기는 하지 않습니다(휴지통에서 일정 기간 되살릴 수 있음).
 on:
   schedule:
-    - cron: "17 20 */2 * *"
+    - cron: "17 20 * * *"
   workflow_dispatch:
     inputs:
       dry_run:

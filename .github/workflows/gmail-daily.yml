@@ -1,6 +1,6 @@
 name: Gmail daily cleanup
 
-# 수동 실행용. 정기 정리는 mail-cleanup.yml(이틀에 한 번)이 맡습니다.
+# 수동 실행용. 정기 정리는 mail-cleanup.yml(매일)이 맡습니다.
 # 라벨(외신·뉴스레터함·쇼핑레터함 등)로 분류해 둔 메일은 건드리지 않습니다(has:nouserlabels). 한 번에 최대 300건.
 on:
   workflow_dispatch:
