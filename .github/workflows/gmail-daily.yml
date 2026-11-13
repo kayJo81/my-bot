@@ -1,6 +1,7 @@
 name: Gmail daily cleanup
 
 # 수동 실행용. 정기 정리는 mail-cleanup.yml(이틀에 한 번)이 맡습니다.
+# 라벨(외신·뉴스레터함·쇼핑레터함 등)로 분류해 둔 메일은 건드리지 않습니다(has:nouserlabels). 한 번에 최대 300건.
 on:
   workflow_dispatch:
     inputs:
@@ -19,8 +20,9 @@ jobs:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+          MAX_PER_QUERY: "100"
         run: |
-          KEEP='-is:starred -is:important -in:sent -from:github.com -(영수증 OR 결제 OR 주문 OR 청구 OR 명세서 OR 은행 OR 카드 OR 증권 OR 세금 OR 보험 OR 병원 OR 진료 OR 예약 OR 인증 OR 보안 OR 비밀번호 OR receipt OR invoice OR payment OR statement OR "시장 동향" OR 이슈체크)'
+          KEEP='has:nouserlabels -is:starred -is:important -in:sent -from:github.com -from:youtube.com -(영수증 OR 결제 OR 주문 OR 청구 OR 명세서 OR 은행 OR 카드 OR 증권 OR 세금 OR 보험 OR 병원 OR 진료 OR 예약 OR 인증 OR 보안 OR 비밀번호 OR receipt OR invoice OR payment OR statement OR "시장 동향" OR 이슈체크)'
           python3 -u scripts/gmail_trash.py \
             "category:promotions older_than:30d $KEEP" \
             "category:social older_than:30d $KEEP" \
