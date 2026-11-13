@@ -33,7 +33,7 @@ for url in [u for a in sys.argv[1:] for u in a.split() if u]:
         tx = a.get_text(" ", strip=True)
         if any(k in (tx + a["href"]).lower() for k in ("quarter", "results", "letter", "earnings")):
             print("[링크]", tx[:80], "->", a["href"])
-    main = s.select_one("article, main, #mw-content-text, .entry-content") or s.body
+    main = s.select_one("article, main, #mw-content-text, .entry-content") or s.body or s
     for tb in main.select("table"):
         print("[표]")
         for tr in tb.select("tr"):
