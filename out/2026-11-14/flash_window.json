@@ -1,0 +1,991 @@
+{
+ "window_start": "2026-11-14 15:30 KST",
+ "fetched_at": "2026-11-14 21:23 KST",
+ "count": 123,
+ "items": [
+  {
+   "kst": "15:37",
+   "ts": 1794638265,
+   "h": "Microsoft on outage: completed work to resolve root issue, restored service to affected customers and regions",
+   "ko": "중단된 Microsoft: 근본 문제 해결을 위한 작업 완료, 영향을 받은 고객 및 지역에 대한 서비스 복원",
+   "u": "https://www.financialjuice.com/News/9852078/Microsoft-on-outage-completed-work-to-resolve-root-issue-restored-service-to-affected-customers-and-regions.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "15:38",
+   "ts": 1794638285,
+   "h": "微软就宕机事件发表声明：已完成解决事件根本问题的工作，恢复了其余受影响客户和地区的服务。",
+   "ko": "Microsoft는 중단에 대한 성명을 발표했습니다. 사고의 근본 원인을 해결하기 위한 작업을 완료했으며 영향을 받은 나머지 고객 및 지역에 대한 서비스를 복원했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvkz0497901.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:41",
+   "ts": 1794638508,
+   "h": "微软：所有产品均正常运行。",
+   "ko": "Microsoft: 모든 제품이 정상적으로 작동하고 있습니다.",
+   "u": "https://wallstreetcn.com/livenews/3200112",
+   "s": "wscn"
+  },
+  {
+   "kst": "15:45",
+   "ts": 1794638705,
+   "h": "一汽解放CA6DV1发动机通过欧六e+法规认证",
+   "ko": "FAW Jiefang CA6DV1 엔진은 Euro VI e+ 규제 인증을 통과했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvma7276338.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:48",
+   "ts": 1794638916,
+   "h": "阿斯利康13款创新药通过新版国家基本医保药品及商保创新药目录调整",
+   "ko": "AstraZeneca의 13개 혁신 의약품이 국가 기본 의료 보험 의약품 및 상업 보험 혁신 의약품 카탈로그의 새 버전 조정을 통과했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvkz0501885.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:50",
+   "ts": 1794639016,
+   "h": "中美举行中美经贸磋商机制项下贸易理事会首次会议",
+   "ko": "중국과 미국은 중미 경제무역협상 메커니즘 하에 첫 번째 무역협의회 회의를 개최했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvkz0502548.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:51",
+   "ts": 1794639117,
+   "h": "全美停飞令冲击体育赛事 多支球队出行受阻",
+   "ko": "전국적으로 항공편이 접지되면서 스포츠 행사에 영향을 미치고 많은 팀의 여행이 방해를 받았습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvkz0503324.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:54",
+   "ts": 1794639281,
+   "h": "中美举行中美经贸磋商机制项下贸易理事会首次会议",
+   "ko": "중국과 미국은 중미 경제무역협상 메커니즘 하에 첫 번째 무역협의회 회의를 개최했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3200113",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:02",
+   "ts": 1794639777,
+   "h": "黄仁勋辞职后动向曝光：亲友齐聚旧金山豪宅 炸鸡外卖送上门",
+   "ko": "황런순의 사임 후 활동이 폭로됐다. 친척과 친구들이 샌프란시스코의 한 저택에 모여 프라이드치킨을 문앞으로 배달했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvmc2866250.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:03",
+   "ts": 1794639797,
+   "h": "廖岷主持《金融时报》副主编兼首席经济评论员马丁·沃尔夫线上专题讲座",
+   "ko": "Liao Min은 Financial Times의 부편집장이자 수석 경제 평론가인 Martin Wolf의 온라인 강의를 주최했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvmc2866403.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:05",
+   "ts": 1794639916,
+   "h": "马斯克称Cybercab每月299美元自动驾驶订阅费太高",
+   "ko": "머스크는 사이버캡의 월 299달러 자율주행 구독료가 너무 높다고 말했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvkz0509037.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:12",
+   "ts": 1794640338,
+   "h": "马斯克质疑英伟达董事会：“这就是那个负责做出决策的董事会——而它所掌管的，曾是地球上最有价值的公司！？”",
+   "ko": "머스크는 엔비디아 이사회에 질문을 던졌다. \"이 이사회는 의사 결정을 담당하는 이사회이며 지구상에서 가장 가치 있는 회사를 담당하고 있었습니다!?\"",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvmc2869887.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:14",
+   "ts": 1794640446,
+   "h": "德国高官：特斯拉汽车可能有间谍风险",
+   "ko": "독일 고위 관리: Tesla 자동차는 간첩 위험을 초래할 수 있습니다",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvkz0511956.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:15",
+   "ts": 1794640526,
+   "h": "李强会见泰国国会主席兼下议长索蓬",
+   "ko": "리창(Li Qiang), 태국 소폰(Sophon) 국회 의장 겸 하원의장과 회담",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvma7288401.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:19",
+   "ts": 1794640778,
+   "h": "英伟达回应CEO继任者传闻",
+   "ko": "엔비디아, CEO 후임 루머에 대응",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvkv0211266.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:19",
+   "ts": 1794640792,
+   "h": "微软确认服务已完全恢复",
+   "ko": "Microsoft는 서비스가 완전히 복원되었음을 확인했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3200115",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:21",
+   "ts": 1794640875,
+   "h": "微软确认服务已全面恢复。",
+   "ko": "Microsoft는 서비스가 완전히 복원되었음을 확인했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvkz0513711.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:22",
+   "ts": 1794640936,
+   "h": "马斯克：未来的星舰飞行任务将把超过50太比特/秒的星链带宽送入轨道。",
+   "ko": "머스크: 미래의 우주선 임무는 초당 50테라비트 이상의 Starlink 대역폭을 궤도에 올릴 것입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvma7290087.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:26",
+   "ts": 1794641202,
+   "h": "印尼能源部：印尼将11月下半月4100大卡级煤炭基准价格定为每公吨72.65美元。",
+   "ko": "인도네시아 에너지부: 인도네시아는 11월 하반기 4,100kcal 석탄의 기준 가격을 미터톤당 미화 72.65달러로 설정했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvma7292214.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:26",
+   "ts": 1794641210,
+   "h": "印尼将11月下半月5300大卡等级煤炭基准价定为每公吨100.11美元。",
+   "ko": "인도네시아는 11월 하반기 5,300kcal 등급 석탄의 기준 가격을 미터톤당 미화 100.11달러로 설정했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvkv0213413.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:27",
+   "ts": 1794641279,
+   "h": "越南一装甲车训练中沉没致6名军人死亡",
+   "ko": "베트남 훈련 중 장갑차 침몰해 군인 6명 사망",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvma7292836.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:37",
+   "ts": 1794641828,
+   "h": "印度靛蓝航空：此前影响我们电子邮件支持服务的全球性微软服务中断问题已得到彻底解决。",
+   "ko": "IndiGo Airlines: 이메일 지원 서비스에 영향을 미쳤던 글로벌 Microsoft 서비스 중단이 완전히 해결되었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvkz0520107.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:58",
+   "ts": 1794643097,
+   "h": "美国天然气暗盘日内跌超1%，现报3.6199美元。",
+   "ko": "미국 천연가스 암시장은 하루 동안 1% 이상 하락해 현재 3.6199달러에 거래되고 있다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvkz0529508.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:01",
+   "ts": 1794643273,
+   "h": "印据政府消息人士透露，印度总理莫迪的办公室已传唤电信秘书，就网站下架事件进行问询；据此前披露，这些下架行动是基于伪造的法院命令执行的。印度电信秘书已提前结束行程，亲自向总理办公室解释这一失误。",
+   "ko": "인도 정부 소식통에 따르면 인도 총리 나렌드라 모디(Narendra Modi) 집무실은 웹사이트 제거에 대해 문의하기 위해 통신부 장관을 소환했습니다. 이전에는 이러한 삭제가 위조된 법원 명령에 근거한 것으로 밝혀졌습니다. 인도 통신장관은 예정보다 일찍 여행을 마치고 총리실에 이 실수를 직접 설명했다.",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "17:04",
+   "ts": 1794643449,
+   "h": "本田在美国召回14，648辆汽车，原因是制动压力损失可能降低制动能力，延长所需停车距离，并增加碰撞风险。",
+   "ko": "혼다는 브레이크 압력 손실로 인해 제동 능력이 저하되고 필요한 정지 거리가 연장되며 충돌 위험이 높아질 수 있기 때문에 미국에서 14,648대의 차량을 리콜합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvkz0532708.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:04",
+   "ts": 1794643474,
+   "h": "中信证券：看好中国光通信的长期发展趋势 建议重点关注深度受益于全球AI基建的核心龙头标的",
+   "ko": "CITIC Securities: 중국 광통신의 장기적인 발전 추세에 대해 낙관적이며 글로벌 AI 인프라의 큰 혜택을 받는 핵심 주요 목표에 집중할 것을 권장합니다.",
+   "u": "https://wallstreetcn.com/livenews/3200116",
+   "s": "wscn"
+  },
+  {
+   "kst": "17:05",
+   "ts": 1794643508,
+   "h": "日本大阪市行政系统用户约108万条邮箱地址外泄",
+   "ko": "일본 오사카시 행정 시스템 사용자의 이메일 주소 약 108만 개가 유출됐다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvkz0533352.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:05",
+   "ts": 1794643527,
+   "h": "李强会见泰国国会主席兼下议长索蓬",
+   "ko": "리창(Li Qiang), 태국 소폰(Sophon) 국회 의장 겸 하원의장과 회담",
+   "u": "https://wallstreetcn.com/livenews/3200117",
+   "s": "wscn"
+  },
+  {
+   "kst": "17:07",
+   "ts": 1794643665,
+   "h": "商保创新药已在1710家医疗机构和定点零售药店配备",
+   "ko": "상업적으로 보험에 가입된 혁신적인 의약품이 1,710개의 의료 기관 및 지정된 소매 약국에 배포되었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvma7311066.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:09",
+   "ts": 1794643758,
+   "h": "英伟达暗盘涨超2%，现报164.71美元。",
+   "ko": "엔비디아의 다크마켓은 2% 이상 상승해 현재 164.71달러에 거래되고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvma7311811.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:21",
+   "ts": 1794644510,
+   "h": "Centrica和Equinor据悉进入Uniper出售的下一轮竞购。",
+   "ko": "Uniper 매각을 위한 다음 입찰에는 Centrica와 Equinor가 참여하는 것으로 알려졌습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvma7316654.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:23",
+   "ts": 1794644632,
+   "h": "我国新增3处世界地质遗产地",
+   "ko": "중국, 세계지질문화유산 3곳 새로 추가",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvma7317370.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:27",
+   "ts": 1794644870,
+   "h": "APEC工商咨询理事会第四次会议开幕",
+   "ko": "APEC 기업자문위원회 제4차 회의 개막",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvmc2898841.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:30",
+   "ts": 1794645048,
+   "h": "UK Civil Aviation Authority: US flights resume after FAA lifts ground stop, but follow-on disruption expected as airlines rebook passengers",
+   "ko": "영국 민간 항공국: FAA가 지상 정지를 해제한 후 미국 항공편이 재개되지만 항공사가 승객을 재예약함에 따라 후속 중단이 예상됩니다.",
+   "u": "https://www.financialjuice.com/News/9852128/UK-Civil-Aviation-Authority-US-flights-resume-after-FAA-lifts-ground-stop-but-follow-on-disruption-expected-as-airlines-rebook-passengers.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "17:32",
+   "ts": 1794645120,
+   "h": "英国民航局- 在美国联邦航空管理局解除停飞令后，美国航班已恢复，但由于航空公司正在为乘客重新预订航班，预计后续仍会出现中断。",
+   "ko": "영국 민간 항공국(UK Civil Aviation Authority) - 연방 항공국(Federal Aviation Administration)이 접지 명령을 해제한 후 미국 항공편이 재개되었지만 항공사가 승객을 재예약함에 따라 추가 중단이 예상됩니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvma7319834.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:32",
+   "ts": 1794645138,
+   "h": "南苏丹将选举推迟至2027年2月11日。",
+   "ko": "남수단, 선거를 2027년 2월 11일로 연기",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvma7319974.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:32",
+   "ts": 1794645154,
+   "h": "特朗普：推动《电影、电视与娱乐产业振兴法案》",
+   "ko": "트럼프: '영화, 텔레비전, 엔터테인먼트 산업 진흥법'을 추진하라",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvmc2900257.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:33",
+   "ts": 1794645209,
+   "h": "江苏证监局对申港证券江苏分公司、李季采取责令改正行政监管措施",
+   "ko": "장쑤증권감독관리국은 선강증권 장쑤지점과 리지에 행정감독 조치를 시정하라고 명령했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvmf4126200.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:37",
+   "ts": 1794645435,
+   "h": "南苏丹大选推迟至2027年2月",
+   "ko": "남수단 선거 2027년 2월로 연기",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvmf4127443.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:44",
+   "ts": 1794645892,
+   "h": "驻日美军上尉涉嫌酒驾被日本警方逮捕",
+   "ko": "주일미군 대장, 음주운전 혐의로 일본 경찰에 체포",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvmf4130045.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:59",
+   "ts": 1794646784,
+   "h": "日本邮政将于2027年秋季设立100亿日元的房地产基金。",
+   "ko": "일본우정은 2027년 가을에 100억엔 규모의 부동산 펀드를 조성할 예정이다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsx0424230.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:00",
+   "ts": 1794646823,
+   "h": "Zelenskiy: Ukraine and Denmark discuss supplying 800,000 rounds for F-16 to cover six months' demand",
+   "ko": "Zelenskiy: 우크라이나와 덴마크는 6개월 수요를 충족하기 위해 F-16에 80만 발의 탄약을 공급하는 것에 대해 논의",
+   "u": "https://www.financialjuice.com/News/9852141/Zelenskiy-Ukraine-and-Denmark-discuss-supplying-800000-rounds-for-F-16-to-cover-six-months-demand.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:00",
+   "ts": 1794646823,
+   "h": "Zelenskiy: Ukraine requires more funding for purl program to purchase weapons",
+   "ko": "Zelenskiy: 우크라이나는 무기 구매를 위해 안뜨기하다 프로그램에 더 많은 자금이 필요합니다",
+   "u": "https://www.financialjuice.com/News/9852140/Zelenskiy-Ukraine-requires-more-funding-for-purl-program-to-purchase-weapons.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:01",
+   "ts": 1794646911,
+   "h": "韩国科技部：将评估微软服务中断对韩国用户影响",
+   "ko": "한국 과학기술부: Microsoft 서비스 중단이 한국 사용자에게 미치는 영향을 평가할 예정입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsx0425218.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:03",
+   "ts": 1794646996,
+   "h": "乌克兰总统泽连斯基：丹麦提供了一项价值6.45亿欧元的国防援助计划，以及一项价值2000万欧元的能源援助计划。英国也出台了针对俄罗斯石油行业的新制裁措施。在对丹麦和爱尔兰进行密集访问后，我们带着切实的成果回国了。",
+   "ko": "젤렌스키 우크라이나 대통령: 덴마크는 6억4500만 유로 상당의 국방 지원 계획과 2000만 유로 상당의 에너지 지원 계획을 제공했습니다. 영국도 러시아 석유 산업을 겨냥한 새로운 제재를 도입했습니다. 덴마크와 아일랜드를 집중적으로 방문한 후, 우리는 가시적인 성과를 갖고 집으로 돌아왔습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsz2780855.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:03",
+   "ts": 1794647005,
+   "h": "Zelenskiy: Russia unwilling to agree to energy ceasefire, lacked mandate to discuss in Abu Dhabi",
+   "ko": "Zelenskiy : 러시아는 에너지 휴전에 동의하지 않고 아부 다비에서 논의할 권한이 부족함",
+   "u": "https://www.financialjuice.com/News/9852147/Zelenskiy-Russia-unwilling-to-agree-to-energy-ceasefire-lacked-mandate-to-discuss-in-Abu-Dhabi.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:03",
+   "ts": 1794647005,
+   "h": "Zelenskiy: asked European allies to decide by end of November who will represent Europe in peace talks",
+   "ko": "Zelenskiy: 유럽 동맹국들에게 11월 말까지 평화 회담에서 유럽을 대표할 사람을 결정하도록 요청",
+   "u": "https://www.financialjuice.com/News/9852146/Zelenskiy-asked-European-allies-to-decide-by-end-of-November-who-will-represent-Europe-in-peace-talks.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:03",
+   "ts": 1794647006,
+   "h": "Zelenskiy: US envoys said Putin agreed to include Europe at next negotiation round",
+   "ko": "젤렌스키: 미 특사들은 푸틴 대통령이 다음 협상에 유럽을 포함시키기로 합의했다고 말했습니다.",
+   "u": "https://www.financialjuice.com/News/9852148/Zelenskiy-US-envoys-said-Putin-agreed-to-include-Europe-at-next-negotiation-round.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:03",
+   "ts": 1794647008,
+   "h": "Zelenskiy says he believes NATO ties for Ukraine are back on agenda",
+   "ko": "Zelenskiy는 우크라이나에 대한 NATO 관계가 다시 의제에 포함되었다고 믿습니다.",
+   "u": "https://www.financialjuice.com/News/9852150/Zelenskiy-says-he-believes-NATO-ties-for-Ukraine-are-back-on-agenda.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:03",
+   "ts": 1794647008,
+   "h": "Zelenskiy: US negotiators asked if Ukraine was prepared to cede Donbas for NATO accession",
+   "ko": "Zelenskiy: 미국 협상가들은 우크라이나가 NATO 가입을 위해 Donbas를 양도할 준비가 되어 있는지 물었습니다.",
+   "u": "https://www.financialjuice.com/News/9852149/Zelenskiy-US-negotiators-asked-if-Ukraine-was-prepared-to-cede-Donbas-for-NATO-accession.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:03",
+   "ts": 1794647016,
+   "h": "Russian defence ministry: its forces seize settlement of Tersianka in Ukraine's Zaporizhzhia region",
+   "ko": "러시아 국방부: 러시아군이 우크라이나 자포리지아 지역의 테르시안카 정착촌을 점령했습니다.",
+   "u": "https://www.financialjuice.com/News/9852151/Russian-defence-ministry-its-forces-seize-settlement-of-Tersianka-in-Ukraines-Zaporizhzhia-region.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:03",
+   "ts": 1794647016,
+   "h": "泽连斯基称，美国谈判代表提出了一个问题，即如果乌克兰加入北约，是否准备放弃顿巴斯地区。",
+   "ko": "Zelensky는 미국 협상가들이 우크라이나가 NATO에 가입할 경우 돈바스 지역을 포기할 준비가 되어 있는지에 대한 의문을 제기했다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsy7202062.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:03",
+   "ts": 1794647023,
+   "h": "泽连斯基表示，他相信乌克兰加入北约的问题已重新提上议程。",
+   "ko": "Zelensky는 우크라이나의 NATO 가입이 다시 의제에 포함되었다고 믿는다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsy7202099.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:03",
+   "ts": 1794647029,
+   "h": "泽连斯基表示，美国特使告诉他，普京已同意在下一轮谈判中让欧洲参与同一谈判桌。",
+   "ko": "젤렌스키 총리는 미국 특사가 자신에게 푸틴 대통령이 다음 협상에서 유럽을 동일한 협상 테이블로 끌어들이기로 합의했다고 전했다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsx0426129.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:03",
+   "ts": 1794647038,
+   "h": "泽连斯基表示，俄罗斯不愿同意能源停火，且在阿布扎比没有讨论该问题的授权。",
+   "ko": "젤렌스키 총리는 러시아는 에너지 휴전에 동의할 의사가 없으며 아부다비에서 이 문제를 논의할 권한도 없다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsy7202215.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:04",
+   "ts": 1794647044,
+   "h": "泽连斯基表示，他已要求欧洲盟友在11月底前决定谁将代表欧洲参加和平谈判。",
+   "ko": "젤렌스키 총리는 유럽 동맹국들에게 평화 협상에서 유럽을 대표할 사람이 누구인지 11월 말까지 결정하라고 요청했다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsy7202257.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:04",
+   "ts": 1794647071,
+   "h": "泽连斯基表示，乌克兰和丹麦正在讨论为F-16战斗机提供80万发炮弹，以满足6个月的需求。乌克兰需要为PURL计划提供更多捐款以购买武器",
+   "ko": "Zelensky는 우크라이나와 덴마크가 6개월 간의 수요를 충족시키기 위해 F-16 전투기에 80만 발의 탄약을 제공하는 것을 논의하고 있다고 말했습니다. 우크라이나는 무기 구매를 위해 PURL 프로그램에 더 많은 기부가 필요합니다",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsx0426423.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:04",
+   "ts": 1794647082,
+   "h": "俄罗斯国防部称其部队已控制乌克兰扎波罗热地区的特尔西安卡定居点。",
+   "ko": "러시아 국방부는 자국군이 우크라이나 자포로제 지역의 테르시안카 정착촌을 장악했다고 밝혔습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsy7202520.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:05",
+   "ts": 1794647133,
+   "h": "亚马逊海外购中国业务负责人：中国跨境电商市场具备三大优势",
+   "ko": "아마존 중국 해외구매 사업부장: 중국의 크로스보더 전자상거래 시장은 세 가지 큰 장점을 가지고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsx0426727.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:06",
+   "ts": 1794647209,
+   "h": "Russian defence ministry: struck Ukrainian energy and transport infrastructure used by military, drone production and storage facilities",
+   "ko": "러시아 국방부: 군사, 드론 생산 및 저장 시설에서 사용되는 우크라이나 에너지 및 운송 인프라를 공격했습니다.",
+   "u": "https://www.financialjuice.com/News/9852152/Russian-defence-ministry-struck-Ukrainian-energy-and-transport-infrastructure-used-by-military-drone-production-and-storage-facilities.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:07",
+   "ts": 1794647220,
+   "h": "俄罗斯国防部表示，俄方打击了乌克兰用于军事目的的能源和交通基础设施，以及无人机生产和储存设施。",
+   "ko": "러시아 국방부는 러시아가 군사 목적으로 사용되는 우크라이나의 에너지 및 운송 인프라와 드론 생산 및 저장 시설을 공격했다고 밝혔습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsx0427312.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:08",
+   "ts": 1794647321,
+   "h": "鞠振任山西省副省长",
+   "ko": "Ju Zhen이 산시성 부성장으로 임명됨",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsx0428022.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:09",
+   "ts": 1794647398,
+   "h": "煜鼎增材科创板IPO审核状态变更为已问询。",
+   "ko": "Yuding Additive Science and Technology Innovation Board의 IPO 검토 상태가 문의로 변경되었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsz2783497.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:11",
+   "ts": 1794647468,
+   "h": "李强同泰国总理阿努廷共同出席中泰企业家座谈会",
+   "ko": "리창(Li Qiang)과 아누틴(Anutin) 태국 총리가 중국-태국 기업가 포럼에 공동 참석했습니다.",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "18:11",
+   "ts": 1794647474,
+   "h": "李强同泰国总理阿努廷共同出席中泰企业家座谈会",
+   "ko": "리창(Li Qiang)과 아누틴(Anutin) 태국 총리가 중국-태국 기업가 포럼에 공동 참석했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3200118",
+   "s": "wscn"
+  },
+  {
+   "kst": "18:12",
+   "ts": 1794647523,
+   "h": "近六年我国颠覆性技术产业化指数累计增幅超五成",
+   "ko": "지난 6년 동안 중국의 파괴적 기술 산업화 지수는 50% 이상 증가했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysztc4009828.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:13",
+   "ts": 1794647615,
+   "h": "Vera Wang婚纱中国内地代理商被曝“拖欠押金退款”后，门店已退还所有超时押金",
+   "ko": "중국 본토의 베라왕 웨딩드레스 대리점이 '보증금 환급 연체'로 폭로된 후, 매장에서는 초과 근무 보증금을 모두 환불했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysztc4010427.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:13",
+   "ts": 1794647624,
+   "h": "先声药业依达拉奉右莰醇舌下片首次纳入国家医保目录",
+   "ko": "Simcere Pharmaceuticals의 Edaravone Dexbobornol 설하 정제가 처음으로 국가 의료 보험 목록에 포함되었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsy7206246.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:14",
+   "ts": 1794647686,
+   "h": "傅藏荣任宁德市人民政府副市长、代理市长",
+   "ko": "Fu Zangrong이 닝더시 인민정부 부시장 겸 시장대행으로 임명되었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsx0430649.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:19",
+   "ts": 1794647958,
+   "h": "美团：本周末迎来秋假出行小高峰 亲子门票预订量同比增长72%",
+   "ko": "메이투안: 이번 주말은 가을 휴가 여행의 소폭 성수기를 맞이할 예정이며, 부모-자식 티켓 예약 건수는 전년 대비 72% 증가했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsy7208293.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:20",
+   "ts": 1794648005,
+   "h": "美团：本周末迎来秋假出行小高峰，亲子门票预订量同比增长72%",
+   "ko": "메이투안: 이번 주말은 가을 휴가 여행의 소폭 성수기를 맞이할 예정이며, 부모-자식 티켓 예약 건수는 전년 대비 72% 증가했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3200119",
+   "s": "wscn"
+  },
+  {
+   "kst": "18:23",
+   "ts": 1794648197,
+   "h": "伊朗通报4艘油轮触雷起火",
+   "ko": "이란, 유조선 4척이 지뢰에 부딪혀 화재 발생했다고 보고",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsx0433852.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:24",
+   "ts": 1794648264,
+   "h": "联合国通报134起商船袭击事件",
+   "ko": "유엔, 상선에 대한 공격 134건 보고",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsz2788395.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:25",
+   "ts": 1794648333,
+   "h": "空军多型战机试飞员将亮相第十六届中国航展",
+   "ko": "제16회 중국 에어쇼에 공군 다형전투기 시험조종사 등장",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsx0434564.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:30",
+   "ts": 1794648603,
+   "h": "共和党中期选举大败后，鲁比奥承认美国民众“过得艰难”",
+   "ko": "공화당 중간선거 패배 후 루비오, 미국인들이 \"힘든 시간을 보내고 있다\" 인정",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysztc4015766.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:41",
+   "ts": 1794649318,
+   "h": "瑞普生物与鲁西规模化蛋鸡客户开展深度交流",
+   "ko": "Rip Biotech은 Luxi 대규모 산란계 고객과 심층적인 교류를 진행했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsy7218102.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:43",
+   "ts": 1794649385,
+   "h": "泽连斯基称美国提出以让乌克兰加入北约来换取其放弃顿巴斯地区",
+   "ko": "젤렌스키는 미국이 돈바스 지역을 포기하는 대가로 우크라이나가 NATO에 가입하도록 제안했다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsy7218574.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:46",
+   "ts": 1794649595,
+   "h": "泽连斯基：美国建议乌克兰割让领土以换取加入北约",
+   "ko": "젤렌스키 \"미국, 우크라이나에 NATO 가입 대가로 영토 양도 제안\"",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysztc4022432.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:47",
+   "ts": 1794649679,
+   "h": "英国泰晤士水务的债权人提议设立7500万英镑的社会基金。",
+   "ko": "Thames Water의 채권자들은 £75m의 사회 기금 설립을 제안했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsy7220740.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:48",
+   "ts": 1794649711,
+   "h": "泽连斯基：美国建议乌克兰割让领土以换取加入北约",
+   "ko": "젤렌스키 \"미국, 우크라이나에 NATO 가입 대가로 영토 양도 제안\"",
+   "u": "https://wallstreetcn.com/livenews/3200120",
+   "s": "wscn"
+  },
+  {
+   "kst": "18:52",
+   "ts": 1794649975,
+   "h": "印度将向意大利Elettra 2.0项目投资逾700万欧元。",
+   "ko": "인도는 이탈리아 Elettra 2.0 프로젝트에 700만 유로 이상을 투자할 예정입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysztc4026252.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:54",
+   "ts": 1794650042,
+   "h": "整机22万个零部件全部国产化 大型无人货运飞机W5000试飞成功",
+   "ko": "전체 항공기의 부품 22만개는 모두 국내에서 생산된다. 대형 무인 화물기 W5000이 시험비행에 성공했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsx0448185.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:57",
+   "ts": 1794650231,
+   "h": "证监会接收！六家头部公募集体申报，“A500”拼图将补齐",
+   "ko": "중국증권감독관리위원회가 이를 수락합니다! 6개의 주요 상장 그룹이 신청서를 제출했으며, \"A500\" 퍼즐이 완성됩니다.",
+   "u": "https://wallstreetcn.com/livenews/3200121",
+   "s": "wscn"
+  },
+  {
+   "kst": "18:57",
+   "ts": 1794650256,
+   "h": "证监会接收！六家头部公募集体申报，“A500”拼图将补齐",
+   "ko": "중국증권감독관리위원회가 이를 수락합니다! 6개의 주요 상장 그룹이 신청서를 제출했으며, \"A500\" 퍼즐이 완성됩니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsy7226165.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:58",
+   "ts": 1794650307,
+   "h": "IAEA: electrical grid instability from military action caused power cuts at some nuclear units in Ukraine this week",
+   "ko": "IAEA: 군사 행동으로 인한 전력망 불안정으로 이번 주 우크라이나 일부 원자력 발전소에서 정전 발생",
+   "u": "https://www.financialjuice.com/News/9852167/IAEA-electrical-grid-instability-from-military-action-caused-power-cuts-at-some-nuclear-units-in-Ukraine-this-week.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:59",
+   "ts": 1794650341,
+   "h": "国际原子能机构：军事活动导致电网不稳定，本周乌克兰核电站部分运行机组因此降功率运行。",
+   "ko": "국제원자력기구(IAEA): 군사 활동으로 인해 전력망이 불안정해졌고, 이번 주 우크라이나 원자력 발전소의 일부 운영 장치의 전력이 감소했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsx0450822.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:05",
+   "ts": 1794650732,
+   "h": "何立峰出席亚太经合组织工商咨询理事会第四次会议开幕式并致辞",
+   "ko": "허라이펑(He Lifeng)이 APEC 기업자문위원회 제4차 회의 개회식에 참석하여 연설을 했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsz2807520.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:14",
+   "ts": 1794651285,
+   "h": "Iran navy: oil tanker catches fire after striking naval mine in eastern Strait of Hormuz",
+   "ko": "이란 해군: 호르무즈 해협 동부 기뢰 공격 후 유조선에 화재 발생",
+   "u": "https://www.financialjuice.com/News/9852173/Iran-navy-oil-tanker-catches-fire-after-striking-naval-mine-in-eastern-Strait-of-Hormuz.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "19:15",
+   "ts": 1794651301,
+   "h": "2026年中国资本市场学术年会在沪开幕，周小川作开幕演讲，吴清朱忠明致辞",
+   "ko": "2026년 중국 자본시장 학술대회가 상하이에서 개막했습니다. Zhou Xiaochuan이 개회 연설을 했고, Wu Qing과 Zhu Zhongming이 연설을 했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsy7233301.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:17",
+   "ts": 1794651463,
+   "h": "何立峰出席亚太经合组织工商咨询理事会第四次会议开幕式并致辞",
+   "ko": "허라이펑(He Lifeng)이 APEC 기업자문위원회 제4차 회의 개회식에 참석하여 연설을 했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3200122",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:20",
+   "ts": 1794651604,
+   "h": "2026年中国资本市场学术年会在沪开幕，周小川作开幕演讲，吴清朱忠明致辞",
+   "ko": "2026년 중국 자본시장 학술대회가 상하이에서 개막했습니다. Zhou Xiaochuan이 개회 연설을 했고, Wu Qing과 Zhu Zhongming이 연설을 했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3200123",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:20",
+   "ts": 1794651641,
+   "h": "大雾橙色预警继续 京津冀等9省区市有浓雾或强浓雾",
+   "ko": "짙은 안개에 대한 주황색 경고가 계속됩니다. 베이징, 텐진, 허베이 등 9개 성, 자치구, 직할시에는 짙은 안개 또는 강한 짙은 안개가 끼고 있습니다.",
+   "u": "https://wallstreetcn.com/livenews/3200124",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:22",
+   "ts": 1794651723,
+   "h": "乌克兰称袭击了俄罗斯萨马拉地区的一处输油泵站。",
+   "ko": "우크라이나는 러시아 사마라 지역의 석유 펌프장을 공격했다고 밝혔습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsz2814062.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:22",
+   "ts": 1794651756,
+   "h": "乌克兰称袭击了俄罗斯萨马拉地区的一处输油泵站。",
+   "ko": "우크라이나는 러시아 사마라 지역의 석유 펌프장을 공격했다고 밝혔습니다.",
+   "u": "https://wallstreetcn.com/livenews/3200125",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:26",
+   "ts": 1794651960,
+   "h": "伊朗海军：今天早上，另一艘违规油轮在霍尔木兹海峡东部限制区域起火，据报系因与海军水雷相撞所致。霍尔木兹海峡东部由伊朗海军完全控制和监视。关闭跟踪系统并在限制区域作业的违规船只的命运就是起火和爆炸。",
+   "ko": "이란 해군: 오늘 아침 호르무즈 해협 동부 제한 구역에서 또 다른 불법 유조선에서 화재가 발생했습니다. 해군기뢰와의 충돌로 인해 발생한 것으로 알려졌다. 호르무즈 해협 동부는 이란 해군이 완전히 통제하고 감시하고 있다. 화재와 폭발은 추적 시스템을 끄고 제한된 구역에서 운항하는 규정을 준수하지 않는 선박의 운명입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsz2816131.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:26",
+   "ts": 1794652019,
+   "h": "阿联酋发生重大交通事故造成多人伤亡，我领馆：尚未收到有中国公民伤亡报告",
+   "ko": "아랍에미리트에서 대형 교통사고가 발생해 많은 사상자가 발생했다. 우리 영사관: 중국 국민의 사상자에 대한 보고는 아직 접수되지 않았습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsx0461839.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:29",
+   "ts": 1794652172,
+   "h": "西成铁路红原2号隧道顺利贯通",
+   "ko": "Xicheng Railway Hongyuan No.2 터널이 성공적으로 완공되었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsx0462379.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:30",
+   "ts": 1794652249,
+   "h": "Meta暗盘突破640美元，日内涨1.6%。",
+   "ko": "메타 암시장은 하루 동안 1.6% 상승하여 640달러를 돌파했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsz2817200.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:32",
+   "ts": 1794652370,
+   "h": "美媒：泛美卫生组织不再认定美国是无麻疹国家 ",
+   "ko": "미국 언론: 범미국보건기구(Pan American Health Organization)는 더 이상 미국을 홍역 없는 국가로 선언하지 않습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsy7239485.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:39",
+   "ts": 1794652782,
+   "h": "伊朗称又有一艘油轮在霍尔木兹海峡触雷起火",
+   "ko": "이란, 또 다른 유조선이 호르무즈 해협에서 지뢰를 공격해 화재가 발생했다고 밝혔습니다.",
+   "u": "https://wallstreetcn.com/livenews/3200126",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:59",
+   "ts": 1794653961,
+   "h": "刘海星：中方将始终做中东和平的建设者、稳定的促进者、发展的贡献者",
+   "ko": "류하이싱: 중국은 시종일관 평화의 건설자, 안정의 촉진자, 중동 발전의 공헌자가 될 것입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsx0472191.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:59",
+   "ts": 1794653993,
+   "h": "伊朗称又有一艘油轮在霍尔木兹海峡触雷起火",
+   "ko": "이란, 또 다른 유조선이 호르무즈 해협에서 지뢰를 공격해 화재가 발생했다고 밝혔습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysztc4052891.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:01",
+   "ts": 1794654119,
+   "h": "消息人士称，特朗普最近几天告诉他的高级顾问，除非伊朗再次挑衅，否则他可能会推迟对伊朗的攻击。",
+   "ko": "소식통에 따르면 트럼프 대통령은 최근 이란이 또 다른 도발을 하지 않는 한 이란에 대한 공격을 연기할 수 있다고 고위 보좌관들에게 말했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyszsx0473881.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:03",
+   "ts": 1794654195,
+   "h": "印尼总统下令提高国家在矿业收益中的分成比例",
+   "ko": "인도네시아 대통령, 광산 수익에 대한 국가 몫 증가 명령",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysztc4054716.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:06",
+   "ts": 1794654411,
+   "h": "Kraken: probing problem with Osmosis funding gateway, deposits and withdrawals might be postponed",
+   "ko": "크라켄: Osmosis 자금 게이트웨이 문제 조사, 예금 및 출금이 연기될 수 있음",
+   "u": "https://www.financialjuice.com/News/9852189/Kraken-probing-problem-with-Osmosis-funding-gateway-deposits-and-withdrawals-might-be-postponed.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "20:10",
+   "ts": 1794654620,
+   "h": "特朗普据悉考虑暂缓对伊朗军事打击",
+   "ko": "트럼프, 이란에 대한 군사공격 중단 고려하고 있는 것으로 알려짐",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniytfyw7121684.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:13",
+   "ts": 1794654832,
+   "h": "阿斯利康：泰适卓®首次被纳入基本医保药品目录",
+   "ko": "AstraZeneca: Taixizhuo®가 처음으로 기본 의료 보험 약품 목록에 포함되었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniytfyx2701432.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:13",
+   "ts": 1794654835,
+   "h": "高盛预计2027年日本以外亚洲股市回报率将达19%",
+   "ko": "골드만삭스는 2027년 일본 이외의 아시아 주식시장이 19% 수익률을 낼 것으로 예상한다.",
+   "u": "https://wallstreetcn.com/livenews/3200127",
+   "s": "wscn"
+  },
+  {
+   "kst": "20:14",
+   "ts": 1794654880,
+   "h": "高盛预计2027年日本以外亚洲股市回报率将达19%",
+   "ko": "골드만삭스는 2027년 일본 이외의 아시아 주식시장이 19% 수익률을 낼 것으로 예상한다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniytfyz3927185.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:15",
+   "ts": 1794654911,
+   "h": "报道：特朗普考虑暂缓对伊朗军事打击",
+   "ko": "보도: 트럼프, 이란에 대한 군사 공격 연기 고려",
+   "u": "https://wallstreetcn.com/livenews/3200128",
+   "s": "wscn"
+  },
+  {
+   "kst": "20:16",
+   "ts": 1794654986,
+   "h": "Pakistan foreign affairs ministry: Pakistan to join Shanghai Cooperation Organisation civilizational dialogue in New Delhi, India",
+   "ko": "파키스탄 외무부: 파키스탄, 인도 뉴델리에서 열리는 상하이협력기구 문명대화에 참가",
+   "u": "https://www.financialjuice.com/News/9852190/Pakistan-foreign-affairs-ministry-Pakistan-to-join-Shanghai-Cooperation-Organisation-civilizational-dialogue-in-New-Delhi-India.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "20:16",
+   "ts": 1794654999,
+   "h": "巴基斯坦外交部：巴基斯坦将参加在印度新德里举行的上海合作组织文明对话。",
+   "ko": "파키스탄 외무부: 파키스탄은 인도 뉴델리에서 열리는 상하이협력기구 문명대화에 참가할 예정입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniytfyw7123436.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:17",
+   "ts": 1794655037,
+   "h": "大连市长姚华明率团在宁波苏州开展经贸交流活动",
+   "ko": "야오화밍(Yao Huaming) 다롄 시장이 대표단을 이끌고 닝보(Ningbo)와 쑤저우(Suzhou)에서 경제 무역 교류 활동을 진행했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniytfyv0347568.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:23",
+   "ts": 1794655414,
+   "h": "特朗普据悉曾就打击伊朗征询沙特王储和土耳其总统意见",
+   "ko": "트럼프 대통령이 이란 공격과 관련해 사우디 왕세자와 터키 대통령과 협의한 것으로 알려졌다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniytfyw7125064.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:28",
+   "ts": 1794655731,
+   "h": "美新型轰炸机B-21研制迎来重要里程碑，完成首次武器投放试验",
+   "ko": "미국의 신형 폭격기 B-21 개발이 중요한 이정표에 도달하고 첫 무기 운반 테스트를 완료했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniytfyv0350141.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:41",
+   "ts": 1794656466,
+   "h": "泽连斯基称乌克兰加入北约话题已“重回议程”",
+   "ko": "젤렌스키 \"우크라이나 NATO 회원국 다시 의제에 올라\"",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniytfyw7129337.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:46",
+   "ts": 1794656780,
+   "h": "11月14日《新闻联播》主要内容",
+   "ko": "11월 14일자 '신문련보' 주요 내용",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniytfyw7131198.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:47",
+   "ts": 1794656869,
+   "h": "伊朗国家天然气公司称今年的供应将“非常困难”",
+   "ko": "이란국영가스회사 \"올해 공급이 매우 어려울 것\"",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniytfyv0355870.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:54",
+   "ts": 1794657258,
+   "h": "本轮巴以冲突已致加沙地带74695人死亡",
+   "ko": "이번 팔레스타인-이스라엘 분쟁으로 가자지구에서 74,695명이 사망했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniytfyv0358602.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:58",
+   "ts": 1794657517,
+   "h": "伊朗称拦截并摧毁一架美MQ1无人机",
+   "ko": "이란이 미국 MQ1 드론을 요격해 파괴했다고 밝혔습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniytfyz3939037.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:59",
+   "ts": 1794657556,
+   "h": "伊朗称拦截并摧毁一架美MQ1无人机",
+   "ko": "이란이 미국 MQ1 드론을 요격해 파괴했다고 밝혔습니다.",
+   "u": "https://wallstreetcn.com/livenews/3200130",
+   "s": "wscn"
+  },
+  {
+   "kst": "21:00",
+   "ts": 1794657603,
+   "h": "本周大盘主力资金累计净流入-790.33亿元，半导体、通信设备板块净流入居前，个股寒武纪、源杰科技净流入最多。",
+   "ko": "이번 주 시장 주요 자금의 누적 순유입액은 -790억 3300만 위안으로, 반도체 및 통신장비 업종이 순유입을 주도했고, 개별주인 Cambrian과 Yuanjie Technology가 순유입이 가장 컸다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniytfyv0360603.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:08",
+   "ts": 1794658099,
+   "h": "复宏汉霖汉斯状®纳入国家医保目录",
+   "ko": "Henlius Hansizhuang®은 국가 의료 보험 목록에 포함되어 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-14/detail-iniytfyv0364176.d.html",
+   "s": "sina"
+  }
+ ]
+}

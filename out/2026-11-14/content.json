@@ -1,0 +1,572 @@
+{
+ "date": "2026-11-14",
+ "window": "15:30~21:30 KST",
+ "mail_to": "yidiar80k@gmail.com",
+ "summary": [
+  "엔비디아 이사회 \"후임 후보와 공식 접촉 없어\", 머스크는 이사회 공개 비판",
+  "스타십 15차: 부스터 포획은 취소, 우주선 포획은 내일 아침 06:17 첫 시도",
+  "MS 365 장애 완전 복구, 원인은 보안 연결 서버 과부하",
+  "이란 \"호르무즈서 유조선 또 기뢰 화재\", 로이터 \"트럼프, 도발 없으면 공격 보류 검토\"",
+  "[배경] 금요일 미국장: 반도체 −3.4%·나스닥 −0.9%, 주간으로는 8월 이후 최고의 주"
+ ],
+ "checklist": [
+  "11/15(일) 06:17 스타십 우주선 타워 포획 성공 여부",
+  "월요일 08:00 원유 선물 첫 거래와 호르무즈 통항",
+  "11/18(수) 06:20 엔비디아 실적, 크레스 체제 첫 가이던스",
+  "11/17(화) 22:30 10월 소매판매와 연준 인사 발언",
+  "11/18~19 앤트로픽 공모가 결정과 나스닥 상장"
+ ],
+ "issues": [
+  {
+   "title": "엔비디아 후임 논란, 머스크까지 가세",
+   "subtitle": "[신규] 이사회 \"후보 접촉 없어\" · 실적 앞두고 리더십 공백 지속",
+   "timeline": [
+    {
+     "t": "11/14 01시경",
+     "text": "FT \"이사회, ARM CEO 르네 하스에 접촉\" [배경]"
+    },
+    {
+     "t": "11/14 04시경",
+     "text": "이사회 \"공식 접촉 후보 없어, 추측은 시기상조\" [배경]"
+    },
+    {
+     "t": "16:12",
+     "text": "머스크 \"이게 지구에서 가장 가치 있던 회사의 이사회인가\""
+    },
+    {
+     "t": "16:19",
+     "text": "이사회 답변 재확산, 헤드헌팅사도 아직 미선정"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "엔비디아 금요일",
+     "value": "-2.01%",
+     "note": "주간 −12.75%, 6주 연속 하락",
+     "dir": "down"
+    },
+    {
+     "label": "HSBC",
+     "value": "보유로 하향",
+     "note": "목표가 365→170달러 [배경]",
+     "dir": "down"
+    },
+    {
+     "label": "ARM 금요일",
+     "value": "-4.63%",
+     "note": "하스 접촉 보도 뒤 장중 −8%",
+     "dir": "down"
+    },
+    {
+     "label": "3분기 실적",
+     "value": "11/18(수) 06:20",
+     "note": "컨퍼런스콜 07:00 KST",
+     "dir": "up"
+    }
+   ],
+   "cause": [
+    "황 즉시 사임 후 크레스 임시 CEO·하비 존스 이사회 의장 체제",
+    "상원 은행위 12/3 공개 청문회 출석 요청, 하원은 12/1~2 비공개 면담 요구 [배경]",
+    "머스크는 황 복귀 청원에 서명하겠다고 밝힌 바 있음(WP) [배경]"
+   ],
+   "chips": [
+    {
+     "name": "엔비디아",
+     "chg": "-2.01%"
+    },
+    {
+     "name": "ARM",
+     "chg": "-4.63%"
+    },
+    {
+     "name": "AMD",
+     "chg": "-8.75%"
+    },
+    {
+     "name": "브로드컴",
+     "chg": "-4.76%"
+    }
+   ],
+   "checks": [
+    "후임 CEO 탐색 일정과 헤드헌팅사 선정",
+    "11/18 실적에서 수요·공급망 발언",
+    "엔비디아의 AI 기업 투자·보증 정책 변화"
+   ],
+   "source": "블룸버그, CNBC, 시나, Washington Post"
+  },
+  {
+   "title": "스타십 15차, 부스터 포획 취소",
+   "subtitle": "[신규] 우주선은 궤도 정상 · 내일 아침 첫 우주선 포획 시도",
+   "timeline": [
+    {
+     "t": "07:47",
+     "text": "스타십 15차 발사 [배경]"
+    },
+    {
+     "t": "발사 후",
+     "text": "부스터 타워 포획 취소, 멕시코만 낙하 [배경]"
+    },
+    {
+     "t": "오전",
+     "text": "우주선, 스타링크 V3 26기 배치 [배경]"
+    },
+    {
+     "t": "16:22",
+     "text": "머스크 \"앞으로 스타십이 50Tbps 이상 궤도에 올린다\""
+    }
+   ],
+   "metrics": [
+    {
+     "label": "스타링크 V3 배치",
+     "value": "26기",
+     "note": "위성 1기당 하향 1Tbps",
+     "dir": "up"
+    },
+    {
+     "label": "부스터 포획",
+     "value": "취소",
+     "note": "이유는 매체마다 다름",
+     "dir": "down"
+    },
+    {
+     "label": "우주선 포획 시도",
+     "value": "11/15 06:17 KST",
+     "note": "사상 첫 시도, 비행 약 22.5시간",
+     "dir": "up"
+    },
+    {
+     "label": "스페이스X 금요일",
+     "value": "-0.59%",
+     "note": "[배경]",
+     "dir": "down"
+    }
+   ],
+   "cause": [
+    "스페이스X \"우주선과 열차폐 정상\"",
+    "FAA 전국 지상정지는 스타십과 무관한 관제 통신 문제, 약 4시간 뒤 해제",
+    "블룸버그(11/12): 테슬라와 합병 협상 진전, 이르면 12월 발표 가능 [배경]"
+   ],
+   "chips": [
+    {
+     "name": "스페이스X",
+     "chg": "-0.59%"
+    },
+    {
+     "name": "테슬라",
+     "chg": "-1.82%"
+    },
+    {
+     "name": "로켓랩",
+     "chg": "-3.96%"
+    }
+   ],
+   "checks": [
+    "우주선 포획 성공 여부",
+    "부스터 포획 취소 이유 공식 설명",
+    "V3 위성 실제 대역폭 운용"
+   ],
+   "source": "Space.com, Spaceflight Now, 시나, CNBC"
+  }
+ ],
+ "sections": {
+  "megatech": [
+   {
+    "company": "엔비디아",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "이사회 \"후임 후보와 공식 접촉 없어\"(이슈 카드 참고)"
+     },
+     {
+      "label": "사실",
+      "text": "시나 \"주말 장외 시세 164.71달러, 2% 넘게 상승\"(거래 세션 미확인)"
+     },
+     {
+      "label": "배경",
+      "text": "금요일 HSBC 하향, 장중 −4%까지 밀린 뒤 −2.01% 마감"
+     }
+    ],
+    "chips": [
+     {
+      "name": "엔비디아",
+      "chg": "-2.01%"
+     }
+    ],
+    "source": "블룸버그, 시나, MarketBeat"
+   },
+   {
+    "company": "MSFT",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "\"근본 문제 해결 완료, 모든 제품 정상\" 완전 복구 확인"
+     },
+     {
+      "label": "사실",
+      "text": "원인: 보안 연결 서버 과부하, 사이버공격·AI 무관"
+     },
+     {
+      "label": "체크",
+      "text": "사고 후 보고서 공개와 고객 보상"
+     }
+    ],
+    "chips": [
+     {
+      "name": "MSFT",
+      "chg": "+0.17%"
+     }
+    ],
+    "source": "FinancialJuice, Windows Central"
+   },
+   {
+    "company": "메타 · 애플",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "금요일 반도체 매도 속 메타 S&P 500 상승 1위"
+     },
+     {
+      "label": "배경",
+      "text": "애플 장중 360달러로 사상 최고가 기록"
+     }
+    ],
+    "chips": [
+     {
+      "name": "메타",
+      "chg": "+2.90%"
+     },
+     {
+      "name": "애플",
+      "chg": "+0.39%"
+     }
+    ],
+    "source": "시나, CNBC"
+   }
+  ],
+  "mobility": [
+   {
+    "company": "테슬라",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "일부 고객에 사이버캡 구매 초대: 29,990달러, 자율주행 구독 월 299달러"
+     },
+     {
+      "label": "사실",
+      "text": "머스크 \"월 요금 너무 높다\", 다른 차종 수준(월 약 115달러) 언급"
+     },
+     {
+      "label": "사실",
+      "text": "독일 튀링겐주 정보기관장 \"커넥티드카 스파이 위험\", 테슬라 포함 동일 규칙 촉구"
+     }
+    ],
+    "chips": [
+     {
+      "name": "테슬라",
+      "chg": "-1.82%"
+     }
+    ],
+    "source": "로이터(야후), Tempo(Handelsblatt)"
+   }
+  ],
+  "ai_software": [
+   {
+    "company": "앤트로픽 · 오픈AI",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "앤트로픽 공모가 70~78달러, 11/18 확정·11/19 나스닥 'ANT' 상장 예정"
+     },
+     {
+      "label": "배경",
+      "text": "오픈AI, 'ChatGPT 지갑' 출시·독립 로봇팀 해체"
+     },
+     {
+      "label": "체크",
+      "text": "엔비디아의 앤트로픽 사모 배정 약정 유지 여부"
+     }
+    ],
+    "chips": [],
+    "source": "CNBC, Fortune"
+   }
+  ],
+  "ai_infra": [
+   {
+    "company": "AI 인프라",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "모딘, 삼성 인수 협상 보도에 금요일 +27.95%"
+     },
+     {
+      "label": "배경",
+      "text": "네비우스 목표가 줄하향(DA 데이비슨·베어드·BofA)"
+     },
+     {
+      "label": "배경",
+      "text": "시스코, 메모리 비용에 이익률 하락·목표가 하향 −6.24%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "모딘",
+      "chg": "+27.95%"
+     },
+     {
+      "name": "네비우스",
+      "chg": "-9.92%"
+     },
+     {
+      "name": "시스코",
+      "chg": "-6.24%"
+     },
+     {
+      "name": "델",
+      "chg": "-7.24%"
+     }
+    ],
+    "source": "블룸버그, MarketBeat, Stocktwits"
+   }
+  ],
+  "semis": [
+   {
+    "company": "대만 · 중국 공급망",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "DIGITIMES: 대만 AI 업계, 황 퇴진이 대만·엔비디아 관계에 미칠 영향 점검"
+     },
+     {
+      "label": "사실",
+      "text": "중국 A주 이번 주 순유입 상위는 반도체·통신장비, 캄브리콘 1위"
+     },
+     {
+      "label": "배경",
+      "text": "금요일 반도체지수 −3.43%, 주간으로는 +8.05%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "세레브라스",
+      "chg": "+11.22%"
+     },
+     {
+      "name": "AMD",
+      "chg": "-8.75%"
+     },
+     {
+      "name": "TSMC",
+      "chg": "-1.69%"
+     }
+    ],
+    "source": "DIGITIMES, 시나, 월스트리트견문"
+   }
+  ],
+  "others": [
+   {
+    "company": "비트코인 · 크립토",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "비트코인 한때 6.7만 달러 아래, 8월 중순 이후 최저"
+     },
+     {
+      "label": "사실",
+      "text": "크라켄, 오스모시스 입출금 게이트웨이 문제 조사 중"
+     },
+     {
+      "label": "배경",
+      "text": "금요일 로빈후드·코인베이스 등 관련주 일제히 하락"
+     }
+    ],
+    "chips": [
+     {
+      "name": "로빈후드",
+      "chg": "-4.29%"
+     },
+     {
+      "name": "스트래티지",
+      "chg": "-2.44%"
+     },
+     {
+      "name": "코인베이스",
+      "chg": "-2.31%"
+     }
+    ],
+    "source": "CoinCodex, FinancialJuice"
+   }
+  ]
+ },
+ "empty_notes": {},
+ "greeting": "2026년 11월 14일 토요일 개장 전 섹터별 이슈체크입니다. 미국장이 쉬는 주말이라 한국시간 15:30~21:30 사이 나온 새 소식을 중심으로, 새벽에 끝난 금요일 미국장 흐름을 [배경]으로 함께 정리했어요. 종목 등락률은 금요일 정규장 종가 기준입니다.",
+ "commentary": {
+  "summary": "주말이라 시장은 쉬지만 다음 주를 움직일 변수들이 하나씩 정리되고 있어요. 엔비디아는 후임 CEO 문제가 여전히 공백이고, 스타십은 내일 아침 우주선 포획이라는 큰 시험을 앞두고 있습니다. 중동에서는 호르무즈 유조선 피격 주장이 이어지는 가운데 트럼프 대통령이 공격을 보류할 수 있다는 보도가 나와 월요일 유가 방향이 엇갈릴 수 있습니다.",
+  "issue1": [
+   "FT가 엔비디아 이사회가 ARM의 르네 하스 CEO에게 접촉했다고 보도하자 이사회는 공식 접촉한 후보가 없고 추측은 시기상조라고 선을 그었어요. 헤드헌팅 회사도 아직 고르지 않았다는 답변은, 다음 주 실적 발표 때까지 리더십 공백이 이어진다는 뜻이기도 합니다.",
+   "여기에 머스크가 이사회를 공개적으로 비판하며 논란이 커지고 있어요. 상원과 하원이 12월 초 청문회와 면담을 요구한 상황이라, 11/18 새벽 실적에서 크레스 임시 CEO가 수요와 공급망에 대해 얼마나 분명한 메시지를 내는지가 주가 방향을 가를 가능성이 큽니다."
+  ],
+  "issue2": [
+   "스타십 15차는 한국 시간 오늘 아침 발사됐지만 부스터를 발사탑 팔로 받아내는 시도는 취소되고 멕시코만에 떨어졌어요. 취소 이유는 아직 매체마다 설명이 다릅니다. 같은 시간대에 있었던 미국 전국 항공기 지상정지는 관제 통신 문제로 스타십과는 상관이 없었습니다.",
+   "우주선은 궤도에서 스타링크 V3 위성 26기를 내려놓았고, 내일 아침 6시 17분쯤 사상 처음으로 우주선을 발사탑에서 받아내는 시도를 합니다. 여기가 중요한 부분인데, 이 시도가 성공하면 우주선 재사용 일정이 크게 앞당겨질 수 있어 테슬라와의 합병 논의가 진행 중인 스페이스X 가치 평가에도 영향을 줄 수 있어요."
+  ],
+  "megatech": [
+   "엔비디아는 주말 장외 시세가 2% 넘게 올랐다는 중국 매체 보도가 있지만 어느 거래 세션인지는 확인되지 않아 참고만 하시면 됩니다. 금요일 정규장에서는 HSBC의 투자의견 하향과 워싱턴 압박 속에 2% 하락했고, 주간으로는 6주 연속 하락이었어요.",
+   "MS는 24시간 가까이 이어진 M365 장애가 완전히 복구됐다고 밝혔습니다. 원인은 보안 연결을 맺는 서버 프로세스의 과부하였고 사이버공격이나 AI와는 무관하다고 했어요. 금요일에는 메타가 반도체 매도 속에 S&P 500 상승 1위를 했고, 애플은 장중 사상 최고가를 기록했습니다."
+  ],
+  "mobility": "테슬라가 일부 고객에게 사이버캡 구매 초대를 보냈는데, 차값 29,990달러에 자율주행 구독료가 월 299달러로 책정됐어요. 머스크가 직접 요금이 너무 높다고 언급한 만큼 출시 전 가격 조정 가능성이 있습니다. 독일에서는 한 주 정보기관장이 커넥티드카의 스파이 위험을 거론했는데, 테슬라만 겨냥한 것은 아니고 모든 제조사에 같은 보안 규칙을 적용하자는 취지였어요.",
+  "ai_software": "AI 소프트웨어 쪽은 주말 새 소식이 없어 다음 주 일정 중심으로 정리했어요. 앤트로픽은 11/18 공모가를 확정하고 11/19 나스닥에 상장할 예정인데, 엔비디아가 사모 배정에서 약정한 금액이 황 사임 이후에도 그대로 유지되는지가 관심입니다. 오픈AI는 금요일 ChatGPT 지갑을 내놓고 독립 로봇팀을 해체했습니다.",
+  "ai_infra": "AI 인프라는 금요일 흐름을 배경으로 담았어요. 삼성의 인수 협상 보도에 모딘이 28% 급등한 반면, 네비우스는 목표가 하향이 이어지며 10% 가까이 빠졌고, 시스코는 메모리 비용 상승으로 이익률이 떨어지며 6% 넘게 하락했습니다. 같은 AI 인프라 안에서도 자금 조달과 비용 구조에 따라 주가가 크게 갈리는 한 주였어요.",
+  "semis": "대만 AI 업계는 황 퇴진이 대만과 엔비디아의 관계에 어떤 영향을 줄지 따져보고 있다는 DIGITIMES 보도가 나왔어요. 중국 증시에서는 이번 주 전체 자금이 빠지는 가운데에도 반도체와 통신장비로는 돈이 들어왔고, 캄브리콘이 순유입 1위였습니다. 미국 반도체지수는 금요일 3% 넘게 빠졌지만 주간으로는 8% 올랐어요.",
+  "others": "비트코인은 주말 들어 한때 6만7천 달러 아래로 내려가며 8월 중순 이후 최저를 기록했어요. 주간 낙폭이 10%를 넘었고, 크라켄은 오스모시스 입출금 게이트웨이 문제를 조사 중이라고 밝혔습니다. 금리 인상 기대가 이어지는 동안에는 크립토 쪽 반등이 쉽지 않아 보입니다."
+ },
+ "sources": [
+  {
+   "title": "Nvidia says speculation on new CEO candidates is premature",
+   "outlet": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-says-speculation-on-new-ceo-candidates-is-premature"
+  },
+  {
+   "title": "Nvidia CEO replacement search",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html"
+  },
+  {
+   "title": "英伟达回应CEO继任者传闻",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvkv0211266.d.html"
+  },
+  {
+   "title": "Musk joins calls for Jensen Huang to be reinstated as Nvidia CEO",
+   "outlet": "Washington Post",
+   "url": "https://www.washingtonpost.com/business/2026/11/13/musk-joins-calls-jensen-huang-be-reinstated-ceo-nvidia/"
+  },
+  {
+   "title": "英伟达暗盘涨超2%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvma7311811.d.html"
+  },
+  {
+   "title": "Nvidia stock bumped down to hold by HSBC",
+   "outlet": "MarketBeat",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-nvidia-nasdaq-nvda-stock-bumped-down-to-hold-by-hsbc-2026-11-13/"
+  },
+  {
+   "title": "SpaceX Starship Flight 15 chopsticks double catch",
+   "outlet": "Space.com",
+   "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship"
+  },
+  {
+   "title": "Live coverage: Starship Flight 15",
+   "outlet": "Spaceflight Now",
+   "url": "https://spaceflightnow.com/2026/11/13/live-coverage-starship-flight-15-attempts-to-recover-full-vehicle-in-double-launch-pad-catch/"
+  },
+  {
+   "title": "马斯克：未来的星舰飞行任务将把超过50太比特/秒的星链带宽送入轨道",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvma7290087.d.html"
+  },
+  {
+   "title": "FAA ground stop lifted, flights resume",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html"
+  },
+  {
+   "title": "Microsoft on outage: completed work to resolve root issue",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9852078/"
+  },
+  {
+   "title": "Microsoft apologizes for major outage",
+   "outlet": "Windows Central",
+   "url": "https://www.windowscentral.com/microsoft/we-are-deeply-sorry-microsoft-apologizes-for-major-outage-that-knocked-outlook-teams-and-microsoft-365-offline-for-24-hours-insists-it-wasnt-ai-that-caused-it"
+  },
+  {
+   "title": "Tesla invites select customers to buy Cybercab",
+   "outlet": "로이터(야후)",
+   "url": "https://ca.finance.yahoo.com/news/tesla-invites-select-customers-buy-080131445.html"
+  },
+  {
+   "title": "German intelligence warns Tesla cars bring spy risks",
+   "outlet": "Tempo",
+   "url": "https://en.tempo.co/read/2123633/german-intelligence-warns-tesla-cars-bring-spy-risks"
+  },
+  {
+   "title": "China, US discuss tariffs in first meeting of trade council",
+   "outlet": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-14/china-the-us-discuss-tariffs-in-first-meeting-of-trade-council"
+  },
+  {
+   "title": "Iran's navy says oil tanker on fire after hitting mine in Hormuz",
+   "outlet": "Al Arabiya",
+   "url": "https://english.alarabiya.net/News/middle-east/2026/11/14/iran-s-navy-says-oil-tanker-on-fire-after-hitting-mine-in-hormuz"
+  },
+  {
+   "title": "Trump tells advisers he may hold off on Iran attacks barring new provocations",
+   "outlet": "로이터(Al-Monitor)",
+   "url": "https://www.al-monitor.com/originals/2026/11/trump-tells-advisers-he-may-hold-iran-attacks-barring-new-provocations-sources"
+  },
+  {
+   "title": "Anthropic sets price range of $70 to $78",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+  },
+  {
+   "title": "OpenAI ChatGPT wallet",
+   "outlet": "CNBC",
+   "url": "https://cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html"
+  },
+  {
+   "title": "Samsung in talks to buy Modine",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-talks-buy-modine-data-172540580.html"
+  },
+  {
+   "title": "Nebius PT cut to $125 at DA Davidson",
+   "outlet": "MarketBeat",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-nebius-group-nasdaq-nbis-price-target-cut-to-12500-by-analysts-at-da-davidson-2026-11-13/"
+  },
+  {
+   "title": "Cisco's growth may have peaked, says Citi",
+   "outlet": "Stocktwits",
+   "url": "https://stocktwits.com/news-articles/markets/equity/cisco-s-growth-may-have-peaked-despite-raised-ai-revenue-outlook-says-citi-barclays-sees-margins-holding-up/cNbRTvGR9fO"
+  },
+  {
+   "title": "DIGITIMES 주요 기사",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/"
+  },
+  {
+   "title": "本周大盘主力资金净流入",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniytfyv0360603.d.html"
+  },
+  {
+   "title": "Daily market update for November 14, 2026",
+   "outlet": "CoinCodex",
+   "url": "https://coincodex.com/article/95422/daily-market-update-for-november-14-2026"
+  },
+  {
+   "title": "Kraken probing Osmosis funding gateway",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9852189/"
+  },
+  {
+   "title": "NVIDIA sets conference call for third-quarter results",
+   "outlet": "엔비디아 IR",
+   "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/"
+  },
+  {
+   "title": "Stock market next week outlook Nov 16-20",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/13/stock-market-next-week-outlook-for-nov-16-20-2026.html"
+  }
+ ]
+}
