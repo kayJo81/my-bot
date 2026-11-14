@@ -7,9 +7,12 @@
 공개 저장소이므로 메일 제목·발신자는 출력하지 않고 개수만 출력합니다.
 """
 import imaplib
+import json
 import os
 import re
 import sys
+from collections import Counter
+from email.utils import parseaddr
 
 MAX = int(os.environ.get("MAX_PER_QUERY", "300"))
 
@@ -33,6 +36,8 @@ def main():
         sys.exit("휴지통/전체보관함 폴더를 찾지 못했습니다.")
     m.select(f'"{allmail}"')
     total = 0
+    senders = Counter()
+    stats_file = os.environ.get("STATS_FILE")  # 지정하면 발신자별 개수를 파일로 저장(워크플로가 암호화)
     for q in [a for a in sys.argv[1:] if a.strip()]:
         if q.isascii():
             typ, data = m.uid("SEARCH", "X-GM-RAW", f'"{q}"')
@@ -43,6 +48,14 @@ def main():
         print(f"검색 [{q}] → {len(uids)}건", flush=True)
         if dry or not uids:
             continue
+        if stats_file:
+            for i in range(0, len(uids), 100):
+                chunk = b",".join(uids[i:i + 100]).decode()
+                typ, data = m.uid("FETCH", chunk, "(BODY.PEEK[HEADER.FIELDS (FROM)])")
+                for part in data or []:
+                    if isinstance(part, tuple):
+                        raw = part[1].decode("utf-8", "ignore").split(":", 1)[-1].strip()
+                        senders[parseaddr(raw)[1].lower() or raw[:60]] += 1
         for i in range(0, len(uids), 100):
             chunk = b",".join(uids[i:i + 100]).decode()
             typ, _ = m.uid("MOVE", chunk, f'"{trash}"')
@@ -52,6 +65,9 @@ def main():
                 m.expunge()
         total += len(uids)
     print(("확인만 함(DRY_RUN)" if dry else f"휴지통으로 옮김: {total}건"), flush=True)
+    if stats_file:
+        with open(stats_file, "w", encoding="utf-8") as f:
+            json.dump({"total": total, "senders": senders.most_common(30)}, f, ensure_ascii=False)
     m.logout()
 
 
