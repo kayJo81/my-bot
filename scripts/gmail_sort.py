@@ -21,7 +21,13 @@ MAX = int(os.environ.get("MAX_SCAN", "2000"))
 def dec(v):
     out = ""
     for part, enc in email.header.decode_header(v or ""):
-        out += part.decode(enc or "utf-8", "ignore") if isinstance(part, bytes) else part
+        if isinstance(part, bytes):
+            try:
+                out += part.decode(enc or "utf-8", "ignore")
+            except LookupError:  # 'unknown-8bit' 같은 알 수 없는 인코딩은 utf-8로 시도
+                out += part.decode("utf-8", "ignore")
+        else:
+            out += part
     return out
 
 
