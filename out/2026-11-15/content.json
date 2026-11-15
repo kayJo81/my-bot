@@ -1,0 +1,515 @@
+{
+ "date": "2026-11-15",
+ "window": "15:30~21:30 KST",
+ "mail_to": "yidiar80k@gmail.com",
+ "summary": [
+  "IRGC \"바레인 미군 기지 레이더 공격\", 바레인 \"이란 공중 공격 다수 요격\"",
+  "이란 \"호르무즈서 유조선 잇단 기뢰 피격\", 영국 UKMTO도 걸프 유조선 피격 보고",
+  "엔비디아 실적 D-2: 매출 가이던스 1,080억 달러, 황은 후임 선정에 관여 보도",
+  "[배경] 스타십 15차, 궤도 우주선 첫 발사탑 포획 성공·부스터는 연료 부족으로 실패",
+  "비트코인 주말 6.2만 달러대까지 밀렸다가 6.6만 달러 회복"
+ ],
+ "checklist": [
+  "월요일 08:00 원유 선물 첫 거래와 미국의 바레인 공격 대응",
+  "11/17(화) 02:00 워시 연준 의장 발언, 22:30 10월 소매판매",
+  "11/18(수) 06:20 엔비디아 실적·07:00 콜, 크레스 체제 첫 가이던스",
+  "11/18~19 앤트로픽 공모가 결정과 나스닥 상장",
+  "11/19(목) 04:00 FOMC 의사록, 21:00 월마트 실적"
+ ],
+ "issues": [
+  {
+   "title": "이란, 바레인 미군 기지 공격 주장",
+   "subtitle": "[신규] 걸프 미군 자산 겨냥 · 호르무즈 유조선 피격 잇따라",
+   "timeline": [
+    {
+     "t": "16:08",
+     "text": "바레인 \"이란 공중 공격 다수 요격·격추\", 전국 경보"
+    },
+    {
+     "t": "19:22",
+     "text": "IRGC \"리파 헬기기지 미 방공 레이더에 드론 6기\""
+    },
+    {
+     "t": "20:26",
+     "text": "이란 \"호르무즈서 유조선 5척 기뢰 피격\""
+    },
+    {
+     "t": "20:54",
+     "text": "UKMTO \"아라비아만 유조선 피격 보고\", 선원은 안전"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "IRGC 주장",
+     "value": "드론 6기",
+     "note": "'보복 2단계', 피해 규모 미확인",
+     "dir": "down"
+    },
+    {
+     "label": "유조선 기뢰 피격",
+     "value": "5척",
+     "note": "이란 주장, CENTCOM은 '거짓'이라 반박 [배경]",
+     "dir": "down"
+    },
+    {
+     "label": "브렌트 금요일",
+     "value": "95.84달러",
+     "note": "주간 약 −2.5% [배경]",
+     "dir": "up"
+    },
+    {
+     "label": "WTI 금요일",
+     "value": "88.56달러",
+     "note": "−0.20% [배경]",
+     "dir": "down"
+    }
+   ],
+   "cause": [
+    "로이터(11/14): 트럼프, 새 도발이 없으면 이란 공격 보류 검토 [배경]",
+    "IRGC는 시리크 통신탑 공격에 대한 보복이라고 주장",
+    "이란, 오만과 호르무즈 항로 합의안 의회 표결 대기·외무장관 화요일 오만 방문"
+   ],
+   "chips": [],
+   "checks": [
+    "CENTCOM·트럼프 행정부의 대응",
+    "월요일 유가 개장 반응",
+    "호르무즈 통항과 해상 보험료"
+   ],
+   "source": "RFE/RL, 예루살렘포스트, Al Jazeera, 이란인터내셔널, 시나"
+  },
+  {
+   "title": "엔비디아 실적 D-2",
+   "subtitle": "[신규] 황 사임 후 첫 실적 · 황은 후임 선정에 관여 보도",
+   "timeline": [
+    {
+     "t": "11/12",
+     "text": "황 사임, 크레스 임시 CEO [배경]"
+    },
+    {
+     "t": "11/14",
+     "text": "이사회 \"공식 접촉 후보 없어\" [배경]"
+    },
+    {
+     "t": "17:55",
+     "text": "\"황, 후임 선정 참여·잠재 후보 최소 1명과 통화\"(소식통)"
+    },
+    {
+     "t": "11/18 06:20",
+     "text": "3분기 실적 발표, 07:00 컨퍼런스콜"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "회사 매출 가이던스",
+     "value": "1,080억 달러",
+     "note": "±2%, 중국 데이터센터 제외",
+     "dir": "up"
+    },
+    {
+     "label": "매출 컨센서스",
+     "value": "약 1,092억 달러",
+     "note": "LSEG, EPS 2.48달러",
+     "dir": "up"
+    },
+    {
+     "label": "매출총이익률 가이던스",
+     "value": "74.0%",
+     "note": "±0.5%p",
+     "dir": "up"
+    },
+    {
+     "label": "엔비디아 주간",
+     "value": "-12.75%",
+     "note": "6주 연속 하락 [배경]",
+     "dir": "down"
+    }
+   ],
+   "cause": [
+    "후임 선정 참여 보도는 원 출처 미확인, 소식통 전언 수준",
+    "하원 3개 위원회 12/1 비공개 면담 요구, 상원 은행위도 소환장 가능성 [배경]",
+    "옵션 시장은 실적 전후 ±10%대 변동을 반영"
+   ],
+   "chips": [
+    {
+     "name": "엔비디아",
+     "chg": "-2.01%"
+    },
+    {
+     "name": "AMD",
+     "chg": "-8.75%"
+    },
+    {
+     "name": "브로드컴",
+     "chg": "-4.76%"
+    },
+    {
+     "name": "TSMC",
+     "chg": "-1.69%"
+    }
+   ],
+   "checks": [
+    "4분기 매출 가이던스와 데이터센터 수요 발언",
+    "크레스 임시 CEO의 투자·보증 정책 언급",
+    "공급망(메모리·패키징) 병목 발언"
+   ],
+   "source": "엔비디아 IR, Invezz, 야후 파이낸스, PANews, CNBC"
+  }
+ ],
+ "sections": {
+  "megatech": [
+   {
+    "company": "엔비디아",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "\"황, 후임 선정 과정 참여·후보 최소 1명과 통화\"(소식통, 원 출처 미확인)"
+     },
+     {
+      "label": "배경",
+      "text": "DIGITIMES \"황 퇴진이 엔비디아의 글로벌 AI 투자 네트워크 흔들 수도\""
+     },
+     {
+      "label": "체크",
+      "text": "11/18 06:20 실적(이슈 카드 참고)"
+     }
+    ],
+    "chips": [
+     {
+      "name": "엔비디아",
+      "chg": "-2.01%"
+     }
+    ],
+    "source": "PANews, DIGITIMES"
+   },
+   {
+    "company": "애플 · 메타 · MSFT",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "금요일 애플 장중 사상 최고가, 메타 S&P 500 상승 1위"
+     },
+     {
+      "label": "배경",
+      "text": "MS 365 장애 완전 복구, 사고 후 보고서 공개 예정"
+     }
+    ],
+    "chips": [
+     {
+      "name": "메타",
+      "chg": "+2.90%"
+     },
+     {
+      "name": "애플",
+      "chg": "+0.39%"
+     },
+     {
+      "name": "MSFT",
+      "chg": "+0.17%"
+     }
+    ],
+    "source": "CNBC, FinancialJuice"
+   }
+  ],
+  "mobility": [
+   {
+    "company": "스페이스X",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "스타십 15차 우주선, 궤도 비행 후 발사탑 포획 성공(06:20 KST)"
+     },
+     {
+      "label": "배경",
+      "text": "부스터는 연료 부족 경보로 포획 못 하고 멕시코만에서 폭발"
+     },
+     {
+      "label": "사실",
+      "text": "젤렌스키 \"스타실드 속도 제한 탓에 러시아 드론의 변전소 공격 다수 통과\""
+     }
+    ],
+    "chips": [
+     {
+      "name": "스페이스X",
+      "chg": "-0.59%"
+     },
+     {
+      "name": "테슬라",
+      "chg": "-1.82%"
+     }
+    ],
+    "source": "Space.com, CNBC, Kyiv Independent"
+   }
+  ],
+  "ai_software": [
+   {
+    "company": "앤트로픽 · 오픈AI",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "앤트로픽 공모가 70~78달러·8.25억 주, 11/18 확정·11/19 상장 예정"
+     },
+     {
+      "label": "배경",
+      "text": "오픈AI, 로봇팀을 연구·응용 조직으로 합쳐"
+     },
+     {
+      "label": "체크",
+      "text": "앤트로픽 상장 첫날 수요가 AI 투자 심리 가늠자"
+     }
+    ],
+    "chips": [],
+    "source": "Anthropic, NewsBytes"
+   }
+  ],
+  "ai_infra": [
+   {
+    "company": "에너지 · 지정학",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "우크라, 러 타타르스탄 정유소·석유화학 단지 타격"
+     },
+     {
+      "label": "사실",
+      "text": "흑해 술리나 운하 인근 상선 3척 드론 피격(루마니아 총리)"
+     },
+     {
+      "label": "사실",
+      "text": "EU, 지중해서 러 '그림자 선단' 의심 유조선 승선, 16일 추가 제재 논의"
+     }
+    ],
+    "chips": [],
+    "source": "Kyiv Post, Kyiv Independent, Marine Insight"
+   }
+  ],
+  "semis": [
+   {
+    "company": "넥스페리아 · 메모리 유통",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "윙테크 \"네덜란드 법원의 넥스페리아 추가 임시조치에 항소\""
+     },
+     {
+      "label": "사실",
+      "text": "중국 유주네트워크 자회사, 낸드 플래시 14.28억 위안 구매 주문"
+     },
+     {
+      "label": "의미",
+      "text": "메모리 수급이 빠듯한 틈을 탄 유통·중개 수요"
+     }
+    ],
+    "chips": [],
+    "source": "로이터, 21세기경제보도"
+   },
+   {
+    "company": "공급망",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "DIGITIMES: 호야, 삼성의 2027년 EUV 포토마스크 블랭크 요청 다 못 맞춰"
+     },
+     {
+      "label": "사실",
+      "text": "폭스콘, 5μm 팬아웃으로 차량용 칩렛 공략"
+     }
+    ],
+    "chips": [],
+    "source": "DIGITIMES"
+   }
+  ],
+  "others": [
+   {
+    "company": "비트코인",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "주말 6.2만 달러대까지 밀려 7월 이후 최저, 이후 6.6만 달러 회복"
+     },
+     {
+      "label": "배경",
+      "text": "현물 ETF 7거래일 순유출 약 19.1억 달러, 토요일 약 10억 달러 청산"
+     }
+    ],
+    "chips": [
+     {
+      "name": "코인베이스",
+      "chg": "-2.31%"
+     },
+     {
+      "name": "스트래티지",
+      "chg": "-2.44%"
+     }
+    ],
+    "source": "시나, Coindoo"
+   }
+  ]
+ },
+ "empty_notes": {},
+ "greeting": "2026년 11월 15일 일요일 개장 전 섹터별 이슈체크입니다. 미국장이 쉬는 주말이라 한국시간 15:30~21:30 사이 나온 새 소식을 중심으로, 월요일 장에 영향을 줄 만한 흐름을 [배경]으로 함께 정리했어요. 종목 등락률은 금요일 정규장 종가 기준입니다.",
+ "commentary": {
+  "summary": "주말 사이 가장 큰 변수는 중동입니다. 이란이 바레인의 미군 기지를 공격했다고 주장하고 호르무즈에서 유조선 피격 소식이 이어지면서, 2주 연속 내린 유가가 월요일 아침 어떻게 출발할지가 첫 관전 포인트예요. 그다음은 화요일 밤 소매판매와 수요일 새벽 엔비디아 실적입니다.",
+  "issue1": [
+   "이란 혁명수비대는 바레인 리파 헬기기지의 미군 방공 레이더를 드론 6기로 공격했다고 주장했고, 바레인은 이란의 공중 공격 여러 건을 요격했다고 밝혔어요. 금요일에도 비슷한 주장이 있었지만 그때 미 중부사령부는 드론을 모두 격추했고 피해가 없다고 반박했습니다.",
+   "로이터는 트럼프 대통령이 새 도발이 없으면 이란 공격을 보류할 수 있다고 참모들에게 말했다고 보도했는데, 이번 공격 주장이 그 '새 도발'로 받아들여질지가 관건이에요. 유조선 피격 소식도 계속 나오는 만큼 월요일 아침 원유 선물 첫 거래에서 유가가 다시 위로 방향을 잡을 수 있습니다."
+  ],
+  "issue2": [
+   "엔비디아는 한국 시간 수요일 새벽 6시 20분 3분기 실적을 발표합니다. 회사가 제시한 매출 가이던스는 1,080억 달러이고 시장 예상은 약 1,092억 달러예요. 황 사임 이후 첫 실적이라 숫자 자체보다 크레스 임시 CEO가 내놓는 4분기 가이던스와 수요 관련 발언에 관심이 쏠려 있습니다.",
+   "일요일에는 황이 후임 선정 과정에 참여하고 있고 적어도 한 명의 후보와 통화했다는 소식통 전언이 나왔지만, 원 출처는 아직 확인되지 않았어요. 주가가 6주 연속 빠진 상태라 실적이 기대를 맞추면 반등의 계기가 될 수 있고, 반대로 가이던스가 흔들리면 반도체 전반으로 다시 번질 수 있습니다."
+  ],
+  "megatech": [
+   "엔비디아는 이사회가 공식 접촉한 후보는 없다고 밝힌 상태에서, 황이 비공식적으로 후임 선정에 관여하고 있다는 이야기가 나왔어요. DIGITIMES는 황 퇴진이 엔비디아가 쌓아온 글로벌 AI 투자 네트워크를 흔들 수 있다고 분석했습니다.",
+   "다른 대형 기술주는 주말 새 소식이 없었어요. 금요일에는 반도체 매도 속에서도 애플이 장중 사상 최고가를 찍고 메타가 S&P 500 상승 1위를 해, 같은 빅테크라도 AI 하드웨어와 거리가 있는 종목으로 돈이 옮겨가는 모습이었습니다."
+  ],
+  "mobility": "스타십 15차의 우주선은 한국 시간 오늘 새벽 궤도 비행을 마치고 사상 처음으로 발사탑 팔에 붙잡혔어요. 부스터는 연료 부족 경보로 포획을 포기하고 바다에 떨어졌지만, 궤도에 다녀온 우주선을 통째로 회수할 수 있다는 걸 보여준 만큼 재사용 일정이 앞당겨질 가능성이 커졌습니다. 우크라이나에서는 스타실드 속도 제한이 드론 요격을 어렵게 한다는 불만이 나왔어요.",
+  "ai_software": "AI 소프트웨어 쪽은 주말 새 소식이 없어 다음 주 일정을 중심으로 담았어요. 앤트로픽은 수요일 공모가를 정하고 목요일 나스닥에 상장할 예정이라, 엔비디아 실적과 함께 다음 주 AI 투자 심리를 가를 두 번째 이벤트입니다.",
+  "ai_infra": "에너지 쪽에서는 우크라이나가 러시아 타타르스탄의 정유소와 석유화학 단지를 공격했고, 흑해에서는 상선 3척이 드론에 맞았어요. EU는 지중해에서 러시아 그림자 선단으로 의심되는 유조선에 승선했고 월요일 외교장관회의에서 추가 제재를 논의합니다. 중동과 함께 공급 쪽 변수가 한꺼번에 쌓인 주말이에요.",
+  "semis": "메모리가 귀해지면서 본업과 상관없는 유통 수요까지 붙고 있어요. 중국 게임사 유주네트워크의 자회사가 낸드 플래시를 14억 위안어치 주문했고, 넥스페리아를 둘러싼 네덜란드 법원의 추가 임시조치에 모회사 윙테크는 항소하겠다고 밝혔습니다. DIGITIMES는 일본 호야가 삼성의 2027년 EUV 포토마스크 블랭크 요청을 다 맞추지 못한다고 보도해, 메모리·장비에 이어 소재 쪽 병목도 눈여겨볼 대목입니다.",
+  "others": "비트코인은 주말 한때 6만2천 달러대까지 밀리며 7월 이후 최저를 기록했다가 일요일 저녁 6만6천 달러를 회복했어요. 현물 ETF에서 7거래일 연속 돈이 빠졌고 토요일에만 약 10억 달러어치 레버리지 포지션이 청산됐습니다. 반등의 뚜렷한 계기는 아직 확인되지 않았어요."
+ },
+ "sources": [
+  {
+   "title": "Bahrain says its air defenses intercepted several Iranian aerial attacks",
+   "outlet": "RFE/RL",
+   "url": "https://rferl.org/a/bahrain-said-its-air-defenses-intercepted-and-destroyed-several-iranian-aerial-attacks/33898951.html"
+  },
+  {
+   "title": "Iran says it targets US radar in Bahrain",
+   "outlet": "예루살렘포스트",
+   "url": "https://www.jpost.com/middle-east/iran-news/article-914895"
+  },
+  {
+   "title": "Iran says it struck US radar site in Bahrain",
+   "outlet": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain"
+  },
+  {
+   "title": "Tankers hit by projectiles in Strait of Hormuz",
+   "outlet": "Riviera",
+   "url": "https://www.rivieramm.com/news-content-hub/tankers-hit-by-projectiles-in-strait-of-hormuz-iran-reports-further-mine-strikes-90547"
+  },
+  {
+   "title": "Iran International live blog",
+   "outlet": "이란인터내셔널",
+   "url": "https://www.iranintl.com/en/liveblog/202611143682"
+  },
+  {
+   "title": "Iran says agreement reached with Oman on Strait of Hormuz shipping routes",
+   "outlet": "AA",
+   "url": "https://www.aa.com.tr/en/world/iran-says-agreement-reached-with-oman-on-strait-of-hormuz-shipping-routes/4028346"
+  },
+  {
+   "title": "Trump tells advisers he may hold off on Iran attacks",
+   "outlet": "로이터(Al-Monitor)",
+   "url": "https://www.al-monitor.com/originals/2026/11/trump-tells-advisers-he-may-hold-iran-attacks-barring-new-provocations-sources"
+  },
+  {
+   "title": "Oil prices set for second weekly decline",
+   "outlet": "로이터(Investing.com)",
+   "url": "https://za.investing.com/news/commodities-news/oil-prices-set-for-second-weekly-decline-as-trump-to-stay-with-iran-blockade-4572747"
+  },
+  {
+   "title": "Huang involved in successor selection",
+   "outlet": "PANews",
+   "url": "https://panews.io/articles/01a1de75-fa92-70b8-969a-5a1868380587"
+  },
+  {
+   "title": "Nvidia earnings preview Q3",
+   "outlet": "Invezz",
+   "url": "https://invezz.com/news/2026/11/13/nvidia-earnings-preview-q3-kress-huang/"
+  },
+  {
+   "title": "Nvidia gears up for Q3 earnings",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-gears-q3-earnings-investors-112200508.html"
+  },
+  {
+   "title": "NVIDIA sets conference call for third-quarter results",
+   "outlet": "엔비디아 IR",
+   "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/"
+  },
+  {
+   "title": "Republicans renew push for Jensen Huang's testimony",
+   "outlet": "ABC",
+   "url": "https://abcnews.com/Politics/republicans-renew-push-jensen-huangs-testimony-nvidia-ceos/story?id=138083749"
+  },
+  {
+   "title": "What's next for SpaceX's Starship after Flight 15 chopsticks catch",
+   "outlet": "Space.com",
+   "url": "https://www.space.com/space-exploration/launches-spacecraft/whats-next-for-spacexs-starship-after-epic-flight-15-chopsticks-catch"
+  },
+  {
+   "title": "SpaceX plans first-ever catch of Starship from orbit",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html"
+  },
+  {
+   "title": "Starshield speed restrictions return, Zelensky says",
+   "outlet": "Kyiv Independent",
+   "url": "https://kyivindependent.com/starshield-speed-restrictions-return-hampering-efforts-to-intercept-russian-drones-zelensky-says/"
+  },
+  {
+   "title": "Anthropic roadshow launch",
+   "outlet": "Anthropic",
+   "url": "https://www.anthropic.com/news/roadshow-launch"
+  },
+  {
+   "title": "OpenAI folds robotics team into research and applied AI groups",
+   "outlet": "NewsBytes",
+   "url": "https://www.newsbytesapp.com/news/science/openai-folds-robotics-team-into-research-and-applied-ai-groups/tldr"
+  },
+  {
+   "title": "Major petrochemical complex in Russia hit",
+   "outlet": "Kyiv Post",
+   "url": "https://www.kyivpost.com/post/90172"
+  },
+  {
+   "title": "Three commercial ships struck by drones near Romania's Black Sea coast",
+   "outlet": "Kyiv Independent",
+   "url": "https://kyivindependent.com/three-commercial-ships-struck-by-drones-near-romanias-black-sea-coast-over-two-days/"
+  },
+  {
+   "title": "EU forces board suspected Russian shadow fleet tanker",
+   "outlet": "Kyiv Independent",
+   "url": "https://kyivindependent.com/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says/"
+  },
+  {
+   "title": "Wingtech says it will appeal Dutch court's order in Nexperia dispute",
+   "outlet": "로이터",
+   "url": "https://www.933thedrive.com/2026/11/15/wingtech-says-it-will-appeal-dutch-courts-order-in-nexperia-dispute/"
+  },
+  {
+   "title": "游族网络闪存颗粒采购订单",
+   "outlet": "21세기경제보도",
+   "url": "https://m.21jingji.com/article/20261115/herald/22d5b6a7520f3c1c800f8290a1f1812b.html"
+  },
+  {
+   "title": "DIGITIMES 주요 기사",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/"
+  },
+  {
+   "title": "比特币升破66000美元",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-15/detail-iniyvkxz3095664.d.html"
+  },
+  {
+   "title": "Bitcoin price reclaims $66K after sinking to $62K",
+   "outlet": "Coindoo",
+   "url": "https://coindoo.com/bitcoin-price-reclaims-66k-after-sinking-to-62k/"
+  },
+  {
+   "title": "This week's economic calendar",
+   "outlet": "Kiplinger",
+   "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+  }
+ ]
+}
