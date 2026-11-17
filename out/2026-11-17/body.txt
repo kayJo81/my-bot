@@ -1,0 +1,88 @@
+2026년 11월 17일 개장 전 섹터별 이슈체크
+
+2026년 11월 17일 화요일 개장 전 섹터별 이슈체크입니다. 한국시간 15:30~21:32 사이 나온 소식과 미국 프리마켓 흐름을 정리했어요. 프리마켓 등락률은 월요일 종가 대비, 21:32 무렵 기준입니다.
+
+[그림1]
+
+오늘 밤은 엔비디아 실적 전날이자 10월 소매판매가 나오는 날이에요. 전날 AI 하드웨어가 한꺼번에 무너진 뒤라, 프리마켓에서 반도체·광통신이 되살아나는 모습이 정규장까지 이어질지가 첫 관전 포인트입니다. 같은 날 BofA 서베이에서는 펀드매니저들이 기술주를 20년 만에 가장 많이 줄였다는 결과가 나와, 매도와 저가 매수가 맞서는 구도예요.
+
+[그림2]
+
+엔비디아는 실적 발표를 하루 앞두고 수출 통제 쪽 카드부터 꺼냈어요. CNBC에 따르면 중국 AI 접근과 관련한 법적 위험을 구매자들에게 경고했고, GPU의 절반 넘게 중국 기업에 임대하는 고객에게는 당분간 칩을 팔지 않기로 했습니다. 이사회에는 국가안보·수출통제 감독위원회를 따로 만들었어요.
+
+[그림3]
+
+베선트 재무장관이 수출 컴플라이언스에 대한 답변을 요구하고 상무부가 동남아 5개국 수출 허가제를 내놓은 직후라, 실적 전에 규제 리스크를 먼저 정리하려는 움직임으로 보입니다. 시장 예상 매출은 약 1,093억 달러로 회사 가이던스보다 조금 높고, 크레스 임시 CEO가 4분기 가이던스와 동남아 규제의 영향을 어떻게 설명할지가 핵심이에요.
+
+[그림4]
+
+BofA의 11월 펀드매니저 서베이에서 기술주 순비중확대가 37%에서 12%로 줄어 2006년 이후 한 달 기준 가장 큰 축소를 기록했어요. 기업들이 과잉투자하고 있다는 응답은 38%로 사상 최고였고, 절반 넘게 6개월 안에 하이퍼스케일러가 설비투자를 줄일 것으로 봤습니다.
+
+[그림5]
+
+그런데 프리마켓에서는 한국 시간 저녁 8시 반쯤 지수 선물이 상승으로 돌아서면서 전날 크게 빠진 광통신과 반도체가 반등하고 있어요. 코히런트와 루멘텀, 마벨의 상승 폭이 크지만 개별 재료는 확인되지 않아, 실적을 앞둔 저가 매수 성격이 강해 보입니다. 정규장에서 이 매수가 버티는지가 오늘 밤의 시험대예요.
+
+[그림6]
+
+애플이 삼성전자와 4~5년짜리 D램 장기공급계약을 막바지 협상 중이라는 보도가 나왔어요. 애플은 그동안 대형 IT 기업 중 유일하게 삼성과 장기계약이 없었는데, 메모리 확보가 어려워지자 물량을 미리 묶어두려는 움직임으로 읽힙니다.
+
+[그림7]
+
+아마존은 인도 재생에너지에 70억 달러를 투자하고, 구글은 초고온 지열 발전 스타트업과 전력 구매 계약을 맺는 등 빅테크의 전력 확보 경쟁이 이어지고 있어요. 트럼프 대통령은 지난주 MS 장애에 대해 걱정하지 않는다고 말했습니다.
+
+[그림8]
+
+머스크가 중국 방문을 확인했어요. 일정은 공개되지 않았지만 FSD의 중국 출시 기대가 다시 나오고 있습니다. GM은 늘어나는 공장 비용에 대응해 2028년까지 북미 공장의 로봇·자동화를 20% 늘릴 계획이라는 로이터 단독 보도가 나왔고, 훙하이는 소니의 차량용 카메라 모듈 사업을 인수하기로 했어요. 완성차와 부품 쪽 모두 자동화와 전장 강화에 돈을 쓰는 흐름입니다.
+
+[그림9]
+
+앤트로픽이 수정 증권신고서를 내고 나스닥에 'ANT'로 상장할 수 있는 승인을 받았어요. 공모가 범위는 70~78달러 그대로이고, 아마존은 상장 뒤 전체 자본의 23.8%를 보유하게 됩니다. 홈디포는 매출과 동일점 매출이 예상을 조금 넘었지만 거래 건수가 줄고 이익률이 낮아졌으며, CFO가 CEO로 올라가는 경영진 교체도 발표했어요. 디즈니는 실적이 예상을 넘었지만 프리마켓에서는 등락을 반복하고 있습니다.
+
+[그림10]
+
+전날 6~9% 빠졌던 광통신과 네오클라우드가 프리마켓에서 3~8% 반등하고 있어요. 루멘텀은 마벨이 주식교환 방식으로 인수하기로 한 상태라 두 종목이 함께 움직이고 있습니다. 전력·서버주도 2~4% 반등 중이에요. 상무부 규제의 직접 대상이 된 말레이시아는 미국과 논의할 계획이 없다고 했고, 태국 중앙은행은 영향을 평가하고 있다고 밝혔습니다.
+
+[그림11]
+
+한국 증시는 이틀 연속 급락하며 코스피가 9개월 만에 5,000선 아래로 내려갔어요. 다만 미국 프리마켓에서는 메모리주가 2% 안팎 반등하고 있습니다. 대만 증시도 2% 넘게 빠졌지만 장중 4만 선을 깼다가 회복했어요. 중국 외교부는 미국의 원격 접근 제한을 경제적 강압이라고 비판했고, 중국 증시에서는 반도체 장비 ETF가 5% 가까이 올라 자국 장비 국산화 기대가 계속되고 있습니다.
+
+[그림12]
+
+비트코인은 6만4천 달러대 초중반에서 옆걸음하고 있어요. 미국 현물 ETF가 7거래일 연속 순유출 끝에 월요일 소폭 순유입으로 돌아선 점은 작은 변화지만, 금리 인상 기대와 엔비디아 실적을 앞둔 경계로 아직 방향을 잡지 못한 모습입니다.
+
+출처 링크 (2026-11-17 KST)
+· Nvidia warns buyers of legal risk tied to China AI access (CNBC): https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html
+· Nvidia won't sell chips to buyers who rent >50% GPUs to China (FinancialJuice(CNBC)): https://www.financialjuice.com/News/9855267/Nvidia-wont-sell-chips-to-buyers-who-rent-50-GPUS-to-China---CNBC-NVDA.aspx?xy=rss
+· NVIDIA board establishes national security and export control oversight committee (엔비디아): https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee
+· Trump on Nvidia: Good idea they launched the national security initiative (FinancialJuice): https://www.financialjuice.com/News/9855552/Trump-on-Nvidia-Good-idea-they-launched-the-national-security-initiative-NVDA.aspx?xy=rss
+· Nvidia earnings preview Q3 (S&P Global): https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/11/nvidia-earnings-preview-q3-2027
+· Nvidia stock earnings, Jensen Huang, Colette Kress (Fortune): https://fortune.com/2026/11/16/nvidia-stock-earnings-jensen-huang-colette-kress/
+· Intel stock sell-off deepens after Nvidia cuts stake (Benzinga): https://www.benzinga.com/trading-ideas/movers/26/11/63327363/intel-stock-sell-off-deepens-after-nvidia-cuts-stake
+· BofA survey shows investors cut tech exposure by most since 2006 (Bloomberg): https://www.bloomberg.com/news/articles/2026-11-17/bofa-survey-shows-investors-cut-tech-exposure-by-most-since-2006
+· BofA FMS: Investors slash tech allocation (FinancialJuice): https://www.financialjuice.com/News/9855563/BofA-FMS-Investors-slash-tech-allocation-by-the-most-in-a-month-since-June-2006.aspx?xy=rss
+· 美股AI硬件股盘前回暖 (시나): https://finance.sina.cn/7x24/2026-11-17/detail-iniyzxcx1728027.d.html
+· Marvell strikes $115B deal for Lumentum (Light Reading): https://lightreading.com/ai-machine-learning/marvell-strikes-115b-deal-for-lumentum
+· Samsung and Apple near long-term DRAM supply deal - Maeil (FinancialJuice): https://www.financialjuice.com/News/9855330/Samsung-and-Apple-near-long-term-DRAM-supply-deal---Maeil-AAPL.aspx?xy=rss
+· 삼성 HBM5 D0A 구조 (디일렉): https://www.thelec.net/news/articleView.html?idxno=15696
+· 코스피 5,000선 하회 (뉴스핌): https://newspim.com/news/view/20261117000928
+· 台股收盤 (經濟日報): https://udn.com/news/story/7251/9883924
+· China slams US chip curbs as economic coercion (Global Times): https://www.globaltimes.cn/page/202611/1374456.shtml
+· Quaise Energy signs 50 MW geothermal PPA with Google (BusinessWire): https://www.financialcontent.com/article/bizwire-2026-11-17-quaise-energy-signs-50-mw-geothermal-power-purchase-agreement-with-google
+· 亚马逊计划到2030年在印度投资70亿美元用于可再生能源 (시나): https://finance.sina.cn/7x24/2026-11-17/
+· Trump visit Philippines live news (CNN): https://edition.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines
+· Elon Musk visit China renewing hopes for FSD (CnEVPost): https://cnevpost.com/2026/11/17/elon-musk-visit-china-renewing-hopes-fsd/
+· Exclusive: GM plans 20% boost in robotics (로이터): https://www.933thedrive.com/2026/11/17/exclusive-gm-plans-20-boost-in-robotics-as-factory-costs-rise/
+· 鸿海拟收购索尼车载相机模组业务 (시나): https://finance.sina.cn/7x24/2026-11-17/detail-iniyzxec2149859.d.html
+· Anthropic approved to list on Nasdaq as ANT (월스트리트견문): https://wallstreetcn.com/livenews/3201278
+· Anthropic: Amazon would hold 23.8% of outstanding capital stock (FinancialJuice): https://www.financialjuice.com/News/9855640/Anthropic-Amazon-would-hold-238-of-the-outstanding-capital-stock-AMZN.aspx?xy=rss
+· Google DeepMind strategy chief Jasjeet Sekhon departs for Anthropic (The Information): https://www.theinformation.com/briefings/google-deepmind-strategy-chief-jasjeet-sekhon-departs-anthropic
+· Home Depot Q3 earnings (CNBC): https://www.cnbc.com/2026/11/17/home-depot-hd-q3-earnings-2026.html
+· Home Depot stock slips as shoppers spend more per trip but visit less (GuruFocus): https://www.gurufocus.com/news/9204622/home-depot-stock-slips-as-shoppers-spend-more-per-trip-but-visit-less
+· Disney Q4 FY2026 results (SEC): https://www.sec.gov/Archives/edgar/data/0001744489/000174448926000065/fy2026_q4xerxex991.htm
+· DIGITIMES 주요 기사 (DIGITIMES): https://www.digitimes.com/
+· Bitcoin remains penned in near $64,000 even as ETF outflow streak ends (CoinDesk): https://www.coindesk.com/markets/2026/11/17/bitcoin-remains-penned-in-near-usd64-000-even-as-etf-outflow-streak-ends
+· Retail sales set to hold up under price pressure (RBC): https://www.rbc.com/en/economics/us-week-ahead/retail-sales-set-to-hold-up-under-price-pressure/
+· Centcom: Iran claim drones hit US radar is false (FinancialJuice): https://www.financialjuice.com/News/9855669/Centcom-Iran-claim-drones-hit-US-radar-is-false.aspx?xy=rss
+· Qatar: Meeting to be held with Iran today as part of mediation (FinancialJuice): https://www.financialjuice.com/News/9855516/Qatar-Meeting-to-be-held-with-Iran-today-as-part-of-mediation.aspx?xy=rss
+
+그림 대응(PDF 쪽 번호): 그림1=요약, 그림2=이슈1(1/2), 그림3=이슈1(2/2), 그림4=이슈2(1/2), 그림5=이슈2(2/2), 그림6=메가테크(1/2), 그림7=메가테크(2/2), 그림8=모빌리티, 그림9=AI 소프트웨어, 그림10=AI 인프라, 그림11=반도체, 그림12=크립토

@@ -1,0 +1,700 @@
+{
+ "date": "2026-11-17",
+ "window": "15:30~21:32 KST",
+ "mail_to": "yidiar80k@gmail.com",
+ "summary": [
+  "엔비디아 실적 D-day: 이사회 수출통제 감독위원회 신설, 중국 임대 비중 50% 넘는 구매자엔 판매 중단(CNBC)",
+  "BofA 펀드매니저 서베이: 기술주 비중 2006년 이후 최대 축소, \"과잉투자\" 응답 38% 사상 최고",
+  "AI 하드웨어 프리마켓 반등: 코히런트 +11%·루멘텀 +8%·마벨 +6%",
+  "앤트로픽 S-1/A: 나스닥 'ANT' 상장 승인·공모가 범위 유지, 아마존 지분 23.8%",
+  "홈디포 실적 소폭 상회·CEO 교체에도 −2%, 디즈니는 실적 상회 후 등락 반복"
+ ],
+ "checklist": [
+  "22:30 10월 소매판매: 전월 +0.2%, 컨트롤그룹 +0.4% 예상",
+  "11/18 06:20 엔비디아 실적: 매출 컨센서스 약 1,093억 달러·EPS 2.47달러",
+  "23:10 월러·04:25 윌리엄스 연준 발언",
+  "프리마켓 AI 하드웨어 반등이 정규장에서 이어지는지",
+  "카타르의 미·이란 중재 회담과 호르무즈 통항"
+ ],
+ "issues": [
+  {
+   "title": "엔비디아 실적 D-day, 먼저 꺼낸 카드는 '컴플라이언스'",
+   "subtitle": "[신규] 이사회 감독위원회 신설 · 중국 임대 50% 넘는 구매자 판매 중단",
+   "timeline": [
+    {
+     "t": "16:11",
+     "text": "CNBC \"구매자에 중국 AI 접근 법적 위험 경고\""
+    },
+    {
+     "t": "16:16",
+     "text": "\"GPU 50% 넘게 중국에 임대하는 구매자엔 판매 안 해\""
+    },
+    {
+     "t": "19:00",
+     "text": "이사회, 국가안보·수출통제 감독위원회 신설"
+    },
+    {
+     "t": "19:47",
+     "text": "트럼프 \"좋은 생각\""
+    }
+   ],
+   "metrics": [
+    {
+     "label": "매출 컨센서스",
+     "value": "약 1,093억 달러",
+     "note": "회사 가이던스 1,080억 달러 ±2%",
+     "dir": "up"
+    },
+    {
+     "label": "조정 EPS 컨센서스",
+     "value": "2.47달러",
+     "note": "Zacks 2.49달러",
+     "dir": "up"
+    },
+    {
+     "label": "데이터센터 컨센서스",
+     "value": "1,018억 달러",
+     "note": "S&P Global 집계",
+     "dir": "up"
+    },
+    {
+     "label": "엔비디아 프리마켓",
+     "value": "+1.32%",
+     "note": "20:40 상승 전환, 21:32 KST",
+     "dir": "up"
+    }
+   ],
+   "cause": [
+    "위원회: 분기 1회 이상 회의, 외부 법률·안보·무역 전문가 활용, 컴플라이언스팀이 직접 보고",
+    "베선트 재무장관의 '10일 내 답변' 요구와 상무부 원격 접근 제한 규칙 [배경]",
+    "13F: 엔비디아, 인텔 지분 약 25% 줄이고 스페이스X 지분 늘려 [배경]"
+   ],
+   "chips": [
+    {
+     "name": "엔비디아",
+     "chg": "+1.32%"
+    },
+    {
+     "name": "AMD",
+     "chg": "+2.62%"
+    },
+    {
+     "name": "브로드컴",
+     "chg": "+1.37%"
+    },
+    {
+     "name": "인텔",
+     "chg": "+0.02%"
+    }
+   ],
+   "checks": [
+    "4분기 가이던스와 데이터센터 수요 발언",
+    "동남아 5개국 수출 허가제의 매출 영향 언급",
+    "후임 CEO 일정과 크레스 임시 CEO 메시지"
+   ],
+   "source": "CNBC, 엔비디아 보도자료, FinancialJuice, S&P Global, Fortune"
+  },
+  {
+   "title": "펀드매니저는 팔았고, 프리마켓은 되샀다",
+   "subtitle": "[신규] BofA 서베이 기술주 2006년 이후 최대 축소 · AI 하드웨어 저가 매수",
+   "timeline": [
+    {
+     "t": "18:09",
+     "text": "나스닥·S&P 선물 −0.5% 근처, 장중 저점"
+    },
+    {
+     "t": "19:55",
+     "text": "BofA \"기술주 비중 2006년 6월 이후 월간 최대 축소\""
+    },
+    {
+     "t": "20:28",
+     "text": "나스닥 100 선물 상승 전환"
+    },
+    {
+     "t": "20:52",
+     "text": "코히런트·루멘텀 4% 넘게 상승"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "기술주 순비중확대",
+     "value": "37%→12%",
+     "note": "2006년 6월 이후 월간 최대 축소",
+     "dir": "down"
+    },
+    {
+     "label": "\"기업 과잉투자\" 응답",
+     "value": "38%",
+     "note": "사상 최고",
+     "dir": "down"
+    },
+    {
+     "label": "하이퍼스케일러 투자 축소 예상",
+     "value": "52%",
+     "note": "6개월 안 발표 예상",
+     "dir": "down"
+    },
+    {
+     "label": "코히런트 프리마켓",
+     "value": "+11.00%",
+     "note": "개별 재료 미확인",
+     "dir": "up"
+    }
+   ],
+   "cause": [
+    "최대 꼬리위험은 AI 버블, 현금 비중 3.6%로 8월 이후 최저",
+    "전날 S&P 500 −1.92%·반도체 −5.28% 급락 뒤 실적 앞둔 저가 매수 성격",
+    "코히런트·루멘텀·마벨 급등의 개별 재료는 확인되지 않음"
+   ],
+   "chips": [
+    {
+     "name": "코히런트",
+     "chg": "+11.00%"
+    },
+    {
+     "name": "루멘텀",
+     "chg": "+8.42%"
+    },
+    {
+     "name": "마벨",
+     "chg": "+6.39%"
+    },
+    {
+     "name": "아스테라랩스",
+     "chg": "+5.04%"
+    }
+   ],
+   "checks": [
+    "정규장 개장 뒤 반등 유지 여부",
+    "소매판매 결과에 따른 금리 반응",
+    "엔비디아 실적 뒤 하드웨어 동반 방향"
+   ],
+   "source": "BofA(블룸버그, FinancialJuice), 시나, 월스트리트견문"
+  }
+ ],
+ "sections": {
+  "megatech": [
+   {
+    "company": "애플 · 삼성",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "매일경제: 삼성-애플 D램 장기공급계약 막바지, 기간 4~5년·내년 상반기 발효 방안"
+     },
+     {
+      "label": "의미",
+      "text": "애플은 대형 IT 기업 중 삼성과 장기계약이 없던 유일한 곳, 메모리 확보 경쟁 신호"
+     }
+    ],
+    "chips": [
+     {
+      "name": "애플",
+      "chg": "-0.27%"
+     },
+     {
+      "name": "SK하이닉스 ADR",
+      "chg": "+1.91%"
+     }
+    ],
+    "source": "매일경제(FinancialJuice), 재경일보"
+   },
+   {
+    "company": "아마존 · 구글",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "아마존, 2030년까지 인도 재생에너지 70억 달러 투자·934MW 신규 4건"
+     },
+     {
+      "label": "사실",
+      "text": "구글, 콰이즈 에너지 초고온 지열 50MW 구매 계약(2030년부터)"
+     },
+     {
+      "label": "사실",
+      "text": "베조스, 아마존 주식 약 2억 달러 비영리단체 기부"
+     }
+    ],
+    "chips": [
+     {
+      "name": "아마존",
+      "chg": "+0.56%"
+     },
+     {
+      "name": "알파벳",
+      "chg": "-0.11%"
+     }
+    ],
+    "source": "시나, BusinessWire, WSJ(TipRanks)"
+   },
+   {
+    "company": "MSFT · 메타",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "트럼프 \"MS 장애는 걱정하지 않는다, 대기업에도 생기는 일\""
+     },
+     {
+      "label": "배경",
+      "text": "MS, 지난주 글로벌 장애 원인은 7월 업데이트 버그라고 밝혀"
+     }
+    ],
+    "chips": [
+     {
+      "name": "MSFT",
+      "chg": "-0.39%"
+     },
+     {
+      "name": "메타",
+      "chg": "-0.37%"
+     }
+    ],
+    "source": "CNN, 월스트리트견문"
+   }
+  ],
+  "mobility": [
+   {
+    "company": "테슬라 · 머스크",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "머스크, X에서 중국 방문 확인(일정 미공개)"
+     },
+     {
+      "label": "사실",
+      "text": "아일랜드 개인정보위, X의 AI 에이전트 수집 데이터로 모델 학습 금지"
+     }
+    ],
+    "chips": [
+     {
+      "name": "테슬라",
+      "chg": "+0.39%"
+     },
+     {
+      "name": "스페이스X",
+      "chg": "+1.15%"
+     }
+    ],
+    "source": "CnEVPost, Politico, 시나"
+   },
+   {
+    "company": "GM · 훙하이",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "로이터: GM, 2028년까지 북미 공장 로봇·자동화 20% 확대"
+     },
+     {
+      "label": "사실",
+      "text": "훙하이, 소니 차량용 카메라 모듈 사업 약 72.4억 엔에 인수"
+     }
+    ],
+    "chips": [],
+    "source": "로이터, 블룸버그(월스트리트견문)"
+   }
+  ],
+  "ai_software": [
+   {
+    "company": "앤트로픽",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "S-1/A 제출, 나스닥 글로벌 셀렉트 'ANT' 상장 승인"
+     },
+     {
+      "label": "사실",
+      "text": "공모가 범위 70~78달러 유지, 아마존 전체 자본의 23.8%·N주 48.2%"
+     },
+     {
+      "label": "사실",
+      "text": "구글 딥마인드 전략책임자 자스지트 세콘 합류"
+     },
+     {
+      "label": "체크",
+      "text": "11/18 공모가 결정, 11/19 거래 시작 예정"
+     }
+    ],
+    "chips": [
+     {
+      "name": "아마존",
+      "chg": "+0.56%"
+     }
+    ],
+    "source": "월스트리트견문, FinancialJuice, The Information"
+   },
+   {
+    "company": "홈디포 · 디즈니",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "홈디포 3분기 매출 434억(예상 428.3억), 동일점 +2.2%, CFO 맥페일 CEO 승진"
+     },
+     {
+      "label": "의미",
+      "text": "거래 건수 −0.5%·영업이익률 하락, 연간 가이던스는 범위만 좁혀"
+     },
+     {
+      "label": "사실",
+      "text": "디즈니 조정 EPS 1.77달러(예상 1.66), 2027 설비투자 약 90억 달러"
+     }
+    ],
+    "chips": [
+     {
+      "name": "홈디포",
+      "chg": "-2.16%"
+     },
+     {
+      "name": "디즈니",
+      "chg": "-1.85%"
+     }
+    ],
+    "source": "CNBC, SEC, 월스트리트견문, GuruFocus"
+   }
+  ],
+  "ai_infra": [
+   {
+    "company": "광통신 · 네오클라우드",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "광통신·네오클라우드 프리마켓 반등, 전날 급락분 일부 회복"
+     },
+     {
+      "label": "배경",
+      "text": "마벨-루멘텀 주식교환 인수(루멘텀 1주당 마벨 4.5주)로 두 종목 동조"
+     },
+     {
+      "label": "사실",
+      "text": "DIGITIMES: 10월 TSMC·알칩 매출 증가(2나노·ASIC 주문)"
+     }
+    ],
+    "chips": [
+     {
+      "name": "루멘텀",
+      "chg": "+8.42%"
+     },
+     {
+      "name": "네비우스",
+      "chg": "+3.94%"
+     },
+     {
+      "name": "코어위브",
+      "chg": "+3.01%"
+     },
+     {
+      "name": "코닝",
+      "chg": "+3.70%"
+     }
+    ],
+    "source": "시나, Light Reading, DIGITIMES"
+   },
+   {
+    "company": "전력 · 서버",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "블룸에너지·버티브·델 프리마켓 2~4% 반등"
+     },
+     {
+      "label": "사실",
+      "text": "말레이시아 \"새 칩 규제 미국과 논의 계획 없어\", 태국 중앙은행 \"영향 평가 중\""
+     }
+    ],
+    "chips": [
+     {
+      "name": "블룸에너지",
+      "chg": "+3.64%"
+     },
+     {
+      "name": "델",
+      "chg": "+2.23%"
+     },
+     {
+      "name": "버티브",
+      "chg": "+2.04%"
+     }
+    ],
+    "source": "시나"
+   }
+  ],
+  "semis": [
+   {
+    "company": "메모리",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "디일렉: 삼성 HBM5, 셀·주변회로 웨이퍼 분리 후 하이브리드 본딩(D0A) 구조"
+     },
+     {
+      "label": "배경",
+      "text": "코스피 −2.59%로 9개월 만에 5,000 아래, SK하이닉스 −1.96%"
+     },
+     {
+      "label": "영향",
+      "text": "미국 메모리주 프리마켓 2% 안팎 반등"
+     }
+    ],
+    "chips": [
+     {
+      "name": "샌디스크",
+      "chg": "+2.46%"
+     },
+     {
+      "name": "마이크론",
+      "chg": "+2.36%"
+     }
+    ],
+    "source": "월스트리트견문, 디일렉, 뉴스핌"
+   },
+   {
+    "company": "대만 · 중국",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "대만 가권 −2.31%, TSMC −2.03%, 장중 4만 선 하회 후 회복"
+     },
+     {
+      "label": "사실",
+      "text": "중국 외교부 \"원격 접근 제한은 경제적 강압, 기업 권익 지킬 것\""
+     },
+     {
+      "label": "사실",
+      "text": "중국 반도체 장비 ETF +4.79%로 상승 1위"
+     }
+    ],
+    "chips": [
+     {
+      "name": "TSMC",
+      "chg": "+0.48%"
+     },
+     {
+      "name": "AMAT",
+      "chg": "+2.30%"
+     },
+     {
+      "name": "ARM",
+      "chg": "+2.90%"
+     }
+    ],
+    "source": "經濟日報, Global Times, 시나"
+   }
+  ],
+  "others": [
+   {
+    "company": "비트코인",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "6.4만 달러대 초중반에서 횡보"
+     },
+     {
+      "label": "사실",
+      "text": "미국 현물 ETF, 7거래일 순유출 끝에 월요일 790만 달러 순유입"
+     }
+    ],
+    "chips": [],
+    "source": "CoinDesk"
+   }
+  ]
+ },
+ "empty_notes": {},
+ "greeting": "2026년 11월 17일 화요일 개장 전 섹터별 이슈체크입니다. 한국시간 15:30~21:32 사이 나온 소식과 미국 프리마켓 흐름을 정리했어요. 프리마켓 등락률은 월요일 종가 대비, 21:32 무렵 기준입니다.",
+ "commentary": {
+  "summary": "오늘 밤은 엔비디아 실적 전날이자 10월 소매판매가 나오는 날이에요. 전날 AI 하드웨어가 한꺼번에 무너진 뒤라, 프리마켓에서 반도체·광통신이 되살아나는 모습이 정규장까지 이어질지가 첫 관전 포인트입니다. 같은 날 BofA 서베이에서는 펀드매니저들이 기술주를 20년 만에 가장 많이 줄였다는 결과가 나와, 매도와 저가 매수가 맞서는 구도예요.",
+  "issue1": [
+   "엔비디아는 실적 발표를 하루 앞두고 수출 통제 쪽 카드부터 꺼냈어요. CNBC에 따르면 중국 AI 접근과 관련한 법적 위험을 구매자들에게 경고했고, GPU의 절반 넘게 중국 기업에 임대하는 고객에게는 당분간 칩을 팔지 않기로 했습니다. 이사회에는 국가안보·수출통제 감독위원회를 따로 만들었어요.",
+   "베선트 재무장관이 수출 컴플라이언스에 대한 답변을 요구하고 상무부가 동남아 5개국 수출 허가제를 내놓은 직후라, 실적 전에 규제 리스크를 먼저 정리하려는 움직임으로 보입니다. 시장 예상 매출은 약 1,093억 달러로 회사 가이던스보다 조금 높고, 크레스 임시 CEO가 4분기 가이던스와 동남아 규제의 영향을 어떻게 설명할지가 핵심이에요."
+  ],
+  "issue2": [
+   "BofA의 11월 펀드매니저 서베이에서 기술주 순비중확대가 37%에서 12%로 줄어 2006년 이후 한 달 기준 가장 큰 축소를 기록했어요. 기업들이 과잉투자하고 있다는 응답은 38%로 사상 최고였고, 절반 넘게 6개월 안에 하이퍼스케일러가 설비투자를 줄일 것으로 봤습니다.",
+   "그런데 프리마켓에서는 한국 시간 저녁 8시 반쯤 지수 선물이 상승으로 돌아서면서 전날 크게 빠진 광통신과 반도체가 반등하고 있어요. 코히런트와 루멘텀, 마벨의 상승 폭이 크지만 개별 재료는 확인되지 않아, 실적을 앞둔 저가 매수 성격이 강해 보입니다. 정규장에서 이 매수가 버티는지가 오늘 밤의 시험대예요."
+  ],
+  "megatech": [
+   "애플이 삼성전자와 4~5년짜리 D램 장기공급계약을 막바지 협상 중이라는 보도가 나왔어요. 애플은 그동안 대형 IT 기업 중 유일하게 삼성과 장기계약이 없었는데, 메모리 확보가 어려워지자 물량을 미리 묶어두려는 움직임으로 읽힙니다.",
+   "아마존은 인도 재생에너지에 70억 달러를 투자하고, 구글은 초고온 지열 발전 스타트업과 전력 구매 계약을 맺는 등 빅테크의 전력 확보 경쟁이 이어지고 있어요. 트럼프 대통령은 지난주 MS 장애에 대해 걱정하지 않는다고 말했습니다."
+  ],
+  "mobility": "머스크가 중국 방문을 확인했어요. 일정은 공개되지 않았지만 FSD의 중국 출시 기대가 다시 나오고 있습니다. GM은 늘어나는 공장 비용에 대응해 2028년까지 북미 공장의 로봇·자동화를 20% 늘릴 계획이라는 로이터 단독 보도가 나왔고, 훙하이는 소니의 차량용 카메라 모듈 사업을 인수하기로 했어요. 완성차와 부품 쪽 모두 자동화와 전장 강화에 돈을 쓰는 흐름입니다.",
+  "ai_software": "앤트로픽이 수정 증권신고서를 내고 나스닥에 'ANT'로 상장할 수 있는 승인을 받았어요. 공모가 범위는 70~78달러 그대로이고, 아마존은 상장 뒤 전체 자본의 23.8%를 보유하게 됩니다. 홈디포는 매출과 동일점 매출이 예상을 조금 넘었지만 거래 건수가 줄고 이익률이 낮아졌으며, CFO가 CEO로 올라가는 경영진 교체도 발표했어요. 디즈니는 실적이 예상을 넘었지만 프리마켓에서는 등락을 반복하고 있습니다.",
+  "ai_infra": "전날 6~9% 빠졌던 광통신과 네오클라우드가 프리마켓에서 3~8% 반등하고 있어요. 루멘텀은 마벨이 주식교환 방식으로 인수하기로 한 상태라 두 종목이 함께 움직이고 있습니다. 전력·서버주도 2~4% 반등 중이에요. 상무부 규제의 직접 대상이 된 말레이시아는 미국과 논의할 계획이 없다고 했고, 태국 중앙은행은 영향을 평가하고 있다고 밝혔습니다.",
+  "semis": "한국 증시는 이틀 연속 급락하며 코스피가 9개월 만에 5,000선 아래로 내려갔어요. 다만 미국 프리마켓에서는 메모리주가 2% 안팎 반등하고 있습니다. 대만 증시도 2% 넘게 빠졌지만 장중 4만 선을 깼다가 회복했어요. 중국 외교부는 미국의 원격 접근 제한을 경제적 강압이라고 비판했고, 중국 증시에서는 반도체 장비 ETF가 5% 가까이 올라 자국 장비 국산화 기대가 계속되고 있습니다.",
+  "others": "비트코인은 6만4천 달러대 초중반에서 옆걸음하고 있어요. 미국 현물 ETF가 7거래일 연속 순유출 끝에 월요일 소폭 순유입으로 돌아선 점은 작은 변화지만, 금리 인상 기대와 엔비디아 실적을 앞둔 경계로 아직 방향을 잡지 못한 모습입니다."
+ },
+ "sources": [
+  {
+   "title": "Nvidia warns buyers of legal risk tied to China AI access",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html"
+  },
+  {
+   "title": "Nvidia won't sell chips to buyers who rent >50% GPUs to China",
+   "outlet": "FinancialJuice(CNBC)",
+   "url": "https://www.financialjuice.com/News/9855267/Nvidia-wont-sell-chips-to-buyers-who-rent-50-GPUS-to-China---CNBC-NVDA.aspx?xy=rss"
+  },
+  {
+   "title": "NVIDIA board establishes national security and export control oversight committee",
+   "outlet": "엔비디아",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee"
+  },
+  {
+   "title": "Trump on Nvidia: Good idea they launched the national security initiative",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9855552/Trump-on-Nvidia-Good-idea-they-launched-the-national-security-initiative-NVDA.aspx?xy=rss"
+  },
+  {
+   "title": "Nvidia earnings preview Q3",
+   "outlet": "S&P Global",
+   "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/11/nvidia-earnings-preview-q3-2027"
+  },
+  {
+   "title": "Nvidia stock earnings, Jensen Huang, Colette Kress",
+   "outlet": "Fortune",
+   "url": "https://fortune.com/2026/11/16/nvidia-stock-earnings-jensen-huang-colette-kress/"
+  },
+  {
+   "title": "Intel stock sell-off deepens after Nvidia cuts stake",
+   "outlet": "Benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63327363/intel-stock-sell-off-deepens-after-nvidia-cuts-stake"
+  },
+  {
+   "title": "BofA survey shows investors cut tech exposure by most since 2006",
+   "outlet": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-17/bofa-survey-shows-investors-cut-tech-exposure-by-most-since-2006"
+  },
+  {
+   "title": "BofA FMS: Investors slash tech allocation",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9855563/BofA-FMS-Investors-slash-tech-allocation-by-the-most-in-a-month-since-June-2006.aspx?xy=rss"
+  },
+  {
+   "title": "美股AI硬件股盘前回暖",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-17/detail-iniyzxcx1728027.d.html"
+  },
+  {
+   "title": "Marvell strikes $115B deal for Lumentum",
+   "outlet": "Light Reading",
+   "url": "https://lightreading.com/ai-machine-learning/marvell-strikes-115b-deal-for-lumentum"
+  },
+  {
+   "title": "Samsung and Apple near long-term DRAM supply deal - Maeil",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9855330/Samsung-and-Apple-near-long-term-DRAM-supply-deal---Maeil-AAPL.aspx?xy=rss"
+  },
+  {
+   "title": "삼성 HBM5 D0A 구조",
+   "outlet": "디일렉",
+   "url": "https://www.thelec.net/news/articleView.html?idxno=15696"
+  },
+  {
+   "title": "코스피 5,000선 하회",
+   "outlet": "뉴스핌",
+   "url": "https://newspim.com/news/view/20261117000928"
+  },
+  {
+   "title": "台股收盤",
+   "outlet": "經濟日報",
+   "url": "https://udn.com/news/story/7251/9883924"
+  },
+  {
+   "title": "China slams US chip curbs as economic coercion",
+   "outlet": "Global Times",
+   "url": "https://www.globaltimes.cn/page/202611/1374456.shtml"
+  },
+  {
+   "title": "Quaise Energy signs 50 MW geothermal PPA with Google",
+   "outlet": "BusinessWire",
+   "url": "https://www.financialcontent.com/article/bizwire-2026-11-17-quaise-energy-signs-50-mw-geothermal-power-purchase-agreement-with-google"
+  },
+  {
+   "title": "亚马逊计划到2030年在印度投资70亿美元用于可再生能源",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-17/"
+  },
+  {
+   "title": "Trump visit Philippines live news",
+   "outlet": "CNN",
+   "url": "https://edition.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines"
+  },
+  {
+   "title": "Elon Musk visit China renewing hopes for FSD",
+   "outlet": "CnEVPost",
+   "url": "https://cnevpost.com/2026/11/17/elon-musk-visit-china-renewing-hopes-fsd/"
+  },
+  {
+   "title": "Exclusive: GM plans 20% boost in robotics",
+   "outlet": "로이터",
+   "url": "https://www.933thedrive.com/2026/11/17/exclusive-gm-plans-20-boost-in-robotics-as-factory-costs-rise/"
+  },
+  {
+   "title": "鸿海拟收购索尼车载相机模组业务",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-17/detail-iniyzxec2149859.d.html"
+  },
+  {
+   "title": "Anthropic approved to list on Nasdaq as ANT",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3201278"
+  },
+  {
+   "title": "Anthropic: Amazon would hold 23.8% of outstanding capital stock",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9855640/Anthropic-Amazon-would-hold-238-of-the-outstanding-capital-stock-AMZN.aspx?xy=rss"
+  },
+  {
+   "title": "Google DeepMind strategy chief Jasjeet Sekhon departs for Anthropic",
+   "outlet": "The Information",
+   "url": "https://www.theinformation.com/briefings/google-deepmind-strategy-chief-jasjeet-sekhon-departs-anthropic"
+  },
+  {
+   "title": "Home Depot Q3 earnings",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/17/home-depot-hd-q3-earnings-2026.html"
+  },
+  {
+   "title": "Home Depot stock slips as shoppers spend more per trip but visit less",
+   "outlet": "GuruFocus",
+   "url": "https://www.gurufocus.com/news/9204622/home-depot-stock-slips-as-shoppers-spend-more-per-trip-but-visit-less"
+  },
+  {
+   "title": "Disney Q4 FY2026 results",
+   "outlet": "SEC",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001744489/000174448926000065/fy2026_q4xerxex991.htm"
+  },
+  {
+   "title": "DIGITIMES 주요 기사",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/"
+  },
+  {
+   "title": "Bitcoin remains penned in near $64,000 even as ETF outflow streak ends",
+   "outlet": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/11/17/bitcoin-remains-penned-in-near-usd64-000-even-as-etf-outflow-streak-ends"
+  },
+  {
+   "title": "Retail sales set to hold up under price pressure",
+   "outlet": "RBC",
+   "url": "https://www.rbc.com/en/economics/us-week-ahead/retail-sales-set-to-hold-up-under-price-pressure/"
+  },
+  {
+   "title": "Centcom: Iran claim drones hit US radar is false",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9855669/Centcom-Iran-claim-drones-hit-US-radar-is-false.aspx?xy=rss"
+  },
+  {
+   "title": "Qatar: Meeting to be held with Iran today as part of mediation",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9855516/Qatar-Meeting-to-be-held-with-Iran-today-as-part-of-mediation.aspx?xy=rss"
+  }
+ ]
+}
