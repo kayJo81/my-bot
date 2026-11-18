@@ -24,7 +24,7 @@ def call(url, body=None):
                 return json.load(r)
         except urllib.error.HTTPError as e:
             msg = e.read().decode("utf-8", "ignore")[:3000]
-            if e.code in (429, 500, 503) and i < 3:
+            if e.code in (429, 500, 503) and i < 3 and "exceeded your current quota" not in msg:
                 print(f"일시 오류 {e.code}, {15*(i+1)}초 뒤 다시 시도")
                 time.sleep(15 * (i + 1)); continue
             raise ApiError(e.code, msg)
