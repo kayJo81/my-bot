@@ -1,0 +1,35 @@
+name: Ask Gemini
+
+on:
+  workflow_dispatch:
+    inputs:
+      prompt:
+        description: "질문 (공개 저장소라 실행 정보에 보입니다. 민감한 내용은 넣지 마세요)"
+        required: true
+      model:
+        description: "모델 이름 (list를 넣으면 사용 가능한 모델 목록만 출력)"
+        required: false
+        default: "gemini-flash-latest"
+      search:
+        description: "구글 검색 근거 사용 (1이면 사용)"
+        required: false
+        default: "0"
+
+jobs:
+  ask:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ask
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PROMPT: ${{ github.event.inputs.prompt }}
+          MODEL: ${{ github.event.inputs.model }}
+          SEARCH: ${{ github.event.inputs.search }}
+        run: |
+          python3 -u scripts/gemini_ask.py
+          if [ -f answer.json ]; then
+            openssl cms -encrypt -aes256 -binary -in answer.json -outform PEM scripts/cafe_cert.pem > enc.pem
+            echo "=====ENC-BEGIN"; cat enc.pem; echo "=====ENC-END"; rm -f answer.json enc.pem
+          fi
