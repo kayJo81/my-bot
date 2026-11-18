@@ -1,0 +1,115 @@
+2026년 11월 18일 개장 전 섹터별 이슈체크
+
+2026년 11월 18일 수요일 개장 전 섹터별 이슈체크입니다. 한국시간 15:30~21:32 사이 나온 소식과 미국 프리마켓 흐름을 정리했어요. 프리마켓 등락률은 화요일 종가 대비, 21:32 무렵 기준입니다.
+
+[그림1]
+
+엔비디아가 실적을 내놓은 다음 날이에요. 중국 매출을 빼고도 가이던스와 중기 목표를 올리면서 프리마켓에서 3% 넘게 오르고, 전날 크게 빠졌던 반도체·네오클라우드도 함께 반등하고 있습니다. 반면 로우스와 타깃은 실적이 예상을 넘었는데도 밀리고 있고, 새벽에는 FOMC 의사록과 연준 인사 발언이 이어져요.
+
+[그림2]
+
+엔비디아는 3분기 매출 1,158억 달러로 예상을 넘었고, 4분기 가이던스로 1,300억 달러를 내놨어요. 이 가이던스에는 1주가 더 들어 있지만 중국 데이터센터 매출은 0으로 잡혀 있습니다. 크레스 임시 CEO는 허가를 받은 H200 등 호퍼 제품도 더는 중국에 보내지 않겠다고 했고, 중국 외교부는 원칙적 입장을 여러 번 밝혔다고만 답했어요.
+
+[그림3]
+
+그래도 시장은 중국 없이도 성장 목표를 올린 점에 무게를 두는 모습이에요. FY28 매출 성장 목표를 70%에서 75%로 높였고, 4분기 총이익률 71~72%가 바닥이라고 했습니다. 다만 모건스탠리, 웰스파고 등은 실적 뒤에도 목표가를 내리고 있고, 하원 민주당이 러트닉 장관과 캔터의 엔비디아 보유를 조사한다는 FT 보도도 나와 정치 이슈는 남아 있어요.
+
+[그림4]
+
+로우스와 타깃이 모두 시장 예상을 웃돈 실적을 냈어요. 로우스는 조정 EPS 3.10달러에 연간 매출 전망을 925억 달러로 올렸고, 타깃은 동일점 매출이 5.6% 늘고 연간 EPS 가이던스를 높였습니다.
+
+[그림5]
+
+그런데 두 회사 모두 IEEPA 관세 환급이 이익을 끌어올렸어요. 로우스는 EPS 중 약 0.34달러, 타깃은 0.50달러가 환급 효과이고, 로우스는 총이익률이 1%포인트 넘게 낮아지고 연간 영업이익률 전망도 내렸습니다. 타깃은 실적 전 연초 대비 약 70% 올라 있었던 만큼, 일회성을 뺀 체력을 따지는 매도가 나오는 것으로 보여요.
+
+[그림6]
+
+마이크로소프트는 Ignite에서 코파일럿을 다시 짜서 사람과 에이전트가 함께 일하는 Workspaces 등을 공개했어요. 애플은 AI 투자 부담에서 비켜난 피난처로 거론되지만 밸류에이션이 2008년 이후 최고 수준이라는 점도 함께 언급됩니다. 엔비디아 실적 뒤 대형 기술주는 대체로 강보합이에요.
+
+[그림7]
+
+포니AI는 3분기 매출이 4,460만 달러로 예상을 넘었고, 로보택시 매출이 1년 전보다 2.6배 넘게 늘었어요. 손실 폭도 예상보다 작아 프리마켓에서 8% 안팎 오르고 있습니다. 미국에서는 웨이모가 캘리포니아 당국 명령 뒤 전국 프리웨이 운행을 멈춘 상태라, 자율주행 확장 속도는 지역마다 엇갈리고 있어요.
+
+[그림8]
+
+앤트로픽은 미국 동부 기준 18일 저녁 공모가를 정하고 19일 나스닥에 'ANT'로 상장할 예정이에요. 공모가 범위는 70~78달러이고, 앤트로픽에 연동된 크립토 선물은 최근 AI주 급락에도 약 1.7조 달러 가치를 반영하고 있다고 블룸버그가 전했습니다.
+
+[그림9]
+
+텐센트는 매출과 영업이익이 모두 예상에 못 미쳤어요. 설비투자가 814억 위안으로 예상보다 260억 위안 가까이 많았고, 연산력 선급금 때문에 잉여현금흐름이 마이너스로 돌아섰습니다. 미국에서는 기업들의 중국 AI 모델 사용 공개를 의무화하는 방안을 행정부가 검토한다는 로이터 단독 보도가 나왔어요.
+
+[그림10]
+
+엔비디아 실적 뒤 네오클라우드와 서버주가 프리마켓에서 3~5% 오르고 있어요. 코어위브는 4분기 선급금 90억 달러를 다시 언급하며 미국 내 건설을 계속하겠다고 했습니다. 광통신에서는 AAOI가 5억 5천만 달러 주식 발행을 신청하면서 10% 가까이 빠져 다른 종목들과 반대로 움직이고 있어요.
+
+[그림11]
+
+엔비디아가 공급망을 넓히는 소식이 이어졌어요. SPIL의 CoWoS 패키징 능력을 2029년까지 3배로 늘리도록 자금을 대고, 기판 업체 킨서스에도 10억 달러 넘게 투자합니다. 코스피는 2% 반등했고, 미국 프리마켓에서도 메모리와 장비주가 2~3% 오르고 있어요.
+
+[그림12]
+
+비트코인은 6만 4천 달러대에서 약세가 이어지고 있어요. 한 달 전보다 약 21% 낮고 공포탐욕지수는 11로 극단적 공포 구간입니다. 12월 금리 인상 전망과 현물 ETF 유출이 부담이고, 새벽 FOMC 의사록을 앞둔 경계도 있어요.
+
+출처 링크 (2026-11-18 KST)
+· NVIDIA announces financial results for third quarter fiscal 2027 (엔비디아): https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027
+· Nvidia Q3 2027 earnings report (CNBC): https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html
+· Analysts react to Nvidia's first earnings without CEO Jensen Huang (CNBC): https://www.cnbc.com/2026/11/18/analysts-react-to-nvidias-first-earnings-without-ceo-jensen-huang.html
+· Nvidia is abandoning China after Jensen Huang's ouster (TechCrunch): https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/
+· Nvidia Q3 earnings call highlights (Yahoo Finance): https://finance.yahoo.com/markets/stocks/articles/nvidia-q3-earnings-call-highlights-011255071.html
+· Nvidia Q3 2027 earnings call highlights: Vera Rubin ramp, raised FY2028 outlook (GuruFocus): https://www.gurufocus.com/news/9206596/nvidia-corp-nvda-q3-2027-earnings-call-highlights-record-116-billion-revenue-vera-rubins-historic-ramp-and-a-raised-fy2028-outlook
+· No Jensen, no problem: Nvidia rules out Huang's return (Benzinga): https://www.benzinga.com/markets/tech/26/11/63378751/no-jensen-no-problem-nvidia-delivers-strong-outlook-rules-out-huangs-return
+· 摩根士丹利下调英伟达目标价 (시나): https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvc4822781.d.html
+· 中国外交部回应英伟达停止H200出货 (시나): https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvf1624375.d.html
+· 英伟达盘前涨幅 (시나): https://finance.sina.cn/7x24/2026-11-18/detail-inizeaaz4794306.d.html
+· Wells Fargo cuts Nvidia stock price target (Investing.com): https://www.investing.com/news/analyst-ratings/wells-fargo-cuts-nvidia-stock-price-target-on-supply-chain-focus-93CH-5034889
+· Nvidia demand remains very strong, says Citi (TipRanks): https://www.tipranks.com/news/the-fly/nvidia-demand-remains-very-strong-says-citi-thefly-news
+· Democrats probe whether Lutnick helped Cantor avoid Nvidia losses - FT (로이터(US News)): https://www.usnews.com/news/politics/articles/2026-11-18/democrats-probe-whether-howard-lutnick-helped-cantor-avoid-nvidia-losses-ft-reports
+· Nvidia, Lutnick, Cantor Fitzgerald (CNBC): https://www.cnbc.com/2026/11/18/nvidia-lutnick-china-ai-megaspeed-cantor-fitzgerald.html
+· Lowe's Q3 results (시나): https://finance.sina.cn/7x24/2026-11-18/detail-inizehkx4747199.d.html
+· Lowe's full-year outlook (시나): https://finance.sina.cn/7x24/2026-11-18/detail-inizehkx4747333.d.html
+· Why is Lowe's stock sliding today (Investing.com): https://www.investing.com/news/stock-market-news/why-is-lowes-stock-sliding-today-93CH-5035705
+· Lowe's Q3 2026 earnings (247 Wall St): https://247wallst.com/cards/lowe-s-q3-2026-earnings-low-01m7q580wwp7wmyg04mjgcbczr
+· Target Q3 adj EPS 2.65 vs exp 2.07 (Newsquawk): https://www.newsquawk.com/headlines/target-tgt-q3-usd-adj-eps-265-exp-207-revenue-271bln-exp-2649bln
+· Target raises full-year guidance (월스트리트견문): https://wallstreetcn.com/livenews/3201938
+· Target Corporation reports third quarter (StockTitan): https://www.stocktitan.net/news/TGT/target-corporation-reports-third-quarter-i3f2emstlyrv.html
+· Target premarket reversal (시나): https://finance.sina.cn/7x24/2026-11-18/detail-inizehkz6864432.d.html
+· Tencent Q3 revenue (시나): https://finance.sina.cn/7x24/2026-11-18/detail-inizeacc6875591.d.html
+· Tencent Q3 capex and FCF (월스트리트견문): https://wallstreetcn.com/livenews/3201805
+· Tencent posts flat profit amid surging AI investments (MarketScreener): https://www.marketscreener.com/news/tencent-posts-flat-profit-amid-surging-ai-investments-ce785eddd989f524
+· Prosus falls after Tencent results (월스트리트견문): https://wallstreetcn.com/livenews/3201822
+· Pony AI Q3 results 6-K (SEC): https://www.sec.gov/Archives/edgar/data/0001969302/000110465926129308/tm2629888d1_ex99-1.htm
+· Pony AI premarket (월스트리트견문): https://wallstreetcn.com/livenews/3201825
+· Waymo suspends freeway rides nationwide after California DMV order (TechCrunch): https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order/
+· TTWO gains premarket, Sensor Tower says GTA 6 pre-orders top $1.5B (Stocktwits(TradingView)): https://www.tradingview.com/news/stocktwits:e4f25c2a3094b:0-ttwo-stock-gains-premarket-after-2-day-rout-sensor-towers-says-gta-6-pre-orders-top-1-5b-a-day-before-release/
+· Anthropic sets terms for IPO (Renaissance Capital): https://www.renaissancecapital.com/IPO-Center/News/122657/anthropic-sets-terms-for-61-billion-ipo-targeting-a-1.2-trillion-market-cap
+· Anthropic IPO this week (시나): https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvc4822363.d.html
+· Anthropic crypto bets imply $1.7 trillion value despite AI rout (Bloomberg): https://www.bloomberg.com/news/articles/2026-11-18/anthropic-crypto-bets-imply-1-7-trillion-value-despite-ai-rout
+· OpenAI and Le Groupe Figaro collaborate (FinancialJuice): https://www.financialjuice.com/News/9857467/OpenAI-Le-Groupe-Figaro-and-OpenAI-collaborate-to-bring-Le-Figaro-journalism-to-ChatGPT.aspx
+· Exclusive: Trump administration weighs forcing US firms to disclose Chinese AI use (로이터(US News)): https://www.usnews.com/news/top-news/articles/2026-11-18/exclusive-trump-administration-weighs-forcing-us-firms-to-disclose-chinese-ai-use
+· Microsoft Copilot Workspaces, Autopilot, Copilot Code at Ignite (시나): https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvc4826225.d.html
+· Microsoft Copilot coding, security, operating system (DIGITIMES): https://www.digitimes.com/news/a20261118VL218/microsoft-copilot-coding-security-operating-system-2026.html
+· 苹果成AI动荡中的避风港 (시나): https://finance.sina.cn/7x24/2026-11-18/detail-inizehkz1558750.d.html
+· 美股大型科技股盘前多数上涨 (월스트리트견문): https://wallstreetcn.com/livenews/3201823
+· Apple DRAM deal with Samsung (DIGITIMES): https://www.digitimes.com/news/a20261118VL213/apple-dram-samsung-price-2027.html
+· CoreWeave expects $9B Q4 prepayments (시나): https://finance.sina.cn/7x24/2026-11-18/detail-inizehkz6861921.d.html
+· CoreWeave committed to US construction (시나): https://finance.sina.cn/7x24/2026-11-18/detail-inizehkz1541569.d.html
+· NYSE parent ICE launches tool to assess data center construction delays (로이터(The Star)): https://www.thestar.com.my/tech/tech-news/2026/11/17/nyse-parent-ice-launches-tool-to-assess-data-center-construction-delays
+· AAOI share offering, premarket (시나): https://finance.sina.cn/7x24/2026-11-18/detail-inizeaaz4800806.d.html
+· Stock market today: futures rise ahead of FOMC minutes; NVDA, AAOI, PANW in focus (Benzinga): https://www.tradingview.com/news/benzinga:0512e2112094b:0-stock-market-today-dow-jones-s-p-500-futures-rise-ahead-of-fomc-minutes-nvda-aaoi-panw-in-focus/
+· Nvidia SPIL packaging capacity (DIGITIMES): https://www.digitimes.com/news/a20261118PD239/nvidia-spil-packaging-capacity.html
+· 英伟达资助矽品扩产 (월스트리트견문): https://wallstreetcn.com/livenews/3201942
+· Kinsus capacity, substrate, Nvidia expansion (DIGITIMES): https://www.digitimes.com/news/a20261118PD233/kinsus-capacity-substrate-nvidia-expansion.html
+· Nvidia HBM memory 2028 supply commitments (DIGITIMES): https://www.digitimes.com/news/a20261118VL226/nvidia-hbm-memory-2028.html
+· 高盛：SK海力士2027年HBM利润预期 (시나): https://finance.sina.cn/7x24/2026-11-18/detail-inizeacc6950186.d.html
+· KOSPI closes up 2% (월스트리트견문): https://wallstreetcn.com/livenews/3201732
+· Price of bitcoin 11/18/2026 (Fortune): https://fortune.com/article/price-of-bitcoin-11-18-2026/
+· Bitcoin ETF flows (The Coin Republic): https://www.thecoinrepublic.com/2026/11/18/bitcoin-etf-wells-fargo-doubles-ibit-holdings-to-235-billion/
+· China's Xi welcomes Trump at airport (FinancialJuice): https://www.financialjuice.com/News/9857462/Chinas-Xi-welcomes-Trump-at-airport.aspx
+· Trump visit China live news (CNN): https://edition.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines
+· World oil prices (RTE(로이터)): https://www.rte.ie/news/business/2026/1118/1599640-world-oil-prices/
+· ADNOC L&S ship attacked at Strait of Hormuz (The National): https://thenationalnews.com/business/energy/2026/11/18/adnoc-ls-ship-attacked-at-strait-of-hormuz-with-one-crew-member-missing
+· FOMC minutes, building permits due Wednesday (Investing.com): https://www.investing.com/news/stock-market-news/fomc-minutes-building-permits-and-pending-home-sales-due-wednesday-93CH-5033806
+· Walmart to host third quarter earnings call November 19 (Finviz): https://finviz.com/news/421667/walmart-to-host-third-quarter-earnings-conference-call-november-19-2026
+· DIGITIMES 주요 기사 (DIGITIMES): https://www.digitimes.com/
+
+그림 대응(PDF 쪽 번호): 그림1=요약, 그림2=이슈1(1/2), 그림3=이슈1(2/2), 그림4=이슈2(1/2), 그림5=이슈2(2/2), 그림6=메가테크, 그림7=모빌리티, 그림8=AI 소프트웨어(1/2), 그림9=AI 소프트웨어(2/2), 그림10=AI 인프라, 그림11=반도체, 그림12=크립토

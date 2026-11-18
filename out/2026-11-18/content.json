@@ -1,0 +1,852 @@
+{
+ "date": "2026-11-18",
+ "window": "15:30~21:32 KST",
+ "mail_to": "yidiar80k@gmail.com",
+ "summary": [
+  "엔비디아 실적 다음 날 프리마켓 +3.2%: 중국 H200 출하 중단, FY28 성장 목표 70→75%로 상향",
+  "목표가 하향은 이어져: 모건스탠리 260·웰스파고 250달러, 반도체·네오클라우드 동반 상승",
+  "로우스·타깃 실적 상회에도 프리마켓 하락: 관세 환급 일회성과 이익률 하락이 부담",
+  "텐센트 매출·영업이익 미달, 설비투자 814억 위안으로 예상(554억) 크게 웃돌아",
+  "로이터 단독: 미 행정부, 미국 기업의 중국 AI 모델 사용 공개 의무화 검토"
+ ],
+ "checklist": [
+  "22:30 10월 주택착공",
+  "11/19 04:00 FOMC 의사록(10월 회의), 03:35 바·04:30 윌리엄스·06:15 카시카리 발언",
+  "앤트로픽 공모가 결정(미 동부 18일 저녁)과 19일 나스닥 'ANT' 상장",
+  "팔로알토 네트웍스 장 마감 후 실적, 월마트 11/19 21:00",
+  "트럼프-시진핑 선전 APEC 회담과 엔비디아·수출통제 언급 여부"
+ ],
+ "issues": [
+  {
+   "title": "엔비디아, 중국을 빼고도 올렸다",
+   "subtitle": "[신규] 프리마켓 +3.2% · 중국 H200 출하 중단 · 목표가 하향은 계속",
+   "timeline": [
+    {
+     "t": "15:47",
+     "text": "모건스탠리 목표가 267→260달러, \"대체로 기대 부합\""
+    },
+    {
+     "t": "16:21",
+     "text": "중국 외교부, H200 출하 중단에 \"원칙적 입장 여러 차례 밝혀\""
+    },
+    {
+     "t": "18:00",
+     "text": "엔비디아 프리마켓 +2.9%, 칩·네오클라우드 동반 상승"
+    },
+    {
+     "t": "20:16",
+     "text": "웰스파고 목표가 300→250달러, 비중확대 유지"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "3분기 매출",
+     "value": "1,158억 달러",
+     "note": "예상 약 1,090억, 조정 EPS 2.68달러(예상 2.47)",
+     "dir": "up"
+    },
+    {
+     "label": "4분기 매출 가이던스",
+     "value": "1,300억 달러 ±3%",
+     "note": "1주 추가, 중국 데이터센터 매출 0 가정",
+     "dir": "up"
+    },
+    {
+     "label": "FY28 매출 성장 목표",
+     "value": "70%→75%",
+     "note": "총이익률 4분기 71~72%가 바닥, FY28 72~73%",
+     "dir": "up"
+    },
+    {
+     "label": "엔비디아 프리마켓",
+     "value": "+3.17%",
+     "note": "21:32 KST",
+     "dir": "up"
+    }
+   ],
+   "cause": [
+    "[배경] 크레스 임시 CEO: 허가받은 호퍼 제품 중국 출하 중단(3분기 중국 호퍼 매출 24억 달러)",
+    "[배경] 루빈 첫 분기 매출 약 200억 달러, 자사주 1,500억 달러 추가, 이사회 \"황 복귀 계획 없어\"",
+    "하원 민주당, 러트닉 장관이 캔터의 엔비디아 손실 회피를 도왔는지 조사(FT), 캔터 부인"
+   ],
+   "chips": [
+    {
+     "name": "엔비디아",
+     "chg": "+3.17%"
+    },
+    {
+     "name": "TSMC",
+     "chg": "+3.17%"
+    },
+    {
+     "name": "SK하이닉스 ADR",
+     "chg": "+3.29%"
+    },
+    {
+     "name": "브로드컴",
+     "chg": "+2.03%"
+    }
+   ],
+   "checks": [
+    "정규장에서 +3%대 상승 유지 여부",
+    "트럼프-시진핑 회담의 칩 수출 언급",
+    "목표가 하향이 실적 뒤에도 이어지는지"
+   ],
+   "source": "엔비디아 IR, CNBC, TechCrunch, 시나, 월스트리트견문, Investing.com"
+  },
+  {
+   "title": "실적은 넘었는데, 주가는 밀렸다",
+   "subtitle": "[신규] 로우스·타깃 상회 · 관세 환급 일회성과 이익률 하락에 매도",
+   "timeline": [
+    {
+     "t": "20:00",
+     "text": "로우스 3분기 조정 EPS 3.10달러, 연간 매출 전망 925억 달러로 상향"
+    },
+    {
+     "t": "20:31",
+     "text": "로우스 프리마켓 상승분 반납, 약 −2%로 전환"
+    },
+    {
+     "t": "20:30",
+     "text": "타깃 동일점 +5.6%, 연간 EPS 가이던스 10.65~11.40달러로 상향"
+    },
+    {
+     "t": "20:56",
+     "text": "타깃 프리마켓 −2%에서 +2%로 반전, 이후 다시 하락"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "로우스 조정 EPS",
+     "value": "3.10달러",
+     "note": "예상 2.92, 관세 환급 약 0.34달러 포함",
+     "dir": "up"
+    },
+    {
+     "label": "로우스 총이익률",
+     "value": "33.0%",
+     "note": "전년 34.2%, 연간 영업이익률 전망 약 11.5%로 하향",
+     "dir": "down"
+    },
+    {
+     "label": "타깃 조정 EPS",
+     "value": "2.65달러",
+     "note": "예상 2.08, 관세 환급 0.50달러 포함",
+     "dir": "up"
+    },
+    {
+     "label": "로우스 프리마켓",
+     "value": "−4.29%",
+     "note": "21:29 KST",
+     "dir": "down"
+    }
+   ],
+   "cause": [
+    "IEEPA 관세 환급이 두 회사 EPS를 끌어올린 일회성 효과",
+    "타깃은 실적 전 연초 대비 약 70% 올라 기대가 높았음",
+    "로우스 매출 227.6억 달러(예상 224억)·동일점 +1.8%로 헤드라인은 양호"
+   ],
+   "chips": [
+    {
+     "name": "로우스",
+     "chg": "-4.29%"
+    },
+    {
+     "name": "타깃",
+     "chg": "-2.44%"
+    },
+    {
+     "name": "홈디포",
+     "chg": "-1.40%"
+    }
+   ],
+   "checks": [
+    "11/19 월마트 실적과 소비 흐름",
+    "관세 환급을 뺀 이익률 추세",
+    "정규장에서 소매주 매도 확산 여부"
+   ],
+   "source": "시나, 월스트리트견문, Newsquawk, StockTitan, Investing.com"
+  }
+ ],
+ "sections": {
+  "megatech": [
+   {
+    "company": "MSFT",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "Ignite에서 재구축한 코파일럿 공개: Workspaces·Autopilot·Copilot Code"
+     },
+     {
+      "label": "사실",
+      "text": "Copilot Notebooks는 Workspaces로 이름 변경, Frontier 프로그램부터 제공"
+     }
+    ],
+    "chips": [
+     {
+      "name": "MSFT",
+      "chg": "+0.02%"
+     }
+    ],
+    "source": "시나, DIGITIMES"
+   },
+   {
+    "company": "애플 · 알파벳 · 아마존 · 메타",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "애플, \"AI 혼란 속 피난처\" 평가 속 이익 대비 밸류에이션 2008년 이후 최고 수준"
+     },
+     {
+      "label": "영향",
+      "text": "엔비디아 실적 뒤 대형 기술주 대부분 프리마켓 강보합"
+     },
+     {
+      "label": "배경",
+      "text": "DIGITIMES: 애플-삼성 장기 D램 계약 임박"
+     }
+    ],
+    "chips": [
+     {
+      "name": "애플",
+      "chg": "-0.36%"
+     },
+     {
+      "name": "알파벳",
+      "chg": "+0.97%"
+     },
+     {
+      "name": "아마존",
+      "chg": "+0.49%"
+     },
+     {
+      "name": "메타",
+      "chg": "-0.25%"
+     }
+    ],
+    "source": "시나, 월스트리트견문, DIGITIMES"
+   }
+  ],
+  "mobility": [
+   {
+    "company": "포니AI",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "3분기 매출 4,460만 달러(예상 3,750만), 로보택시 매출 +165%"
+     },
+     {
+      "label": "사실",
+      "text": "조정 주당손실 0.11달러(예상 −0.17), 총이익률 17.8%"
+     },
+     {
+      "label": "영향",
+      "text": "프리마켓 한때 +11% 넘게 상승"
+     }
+    ],
+    "chips": [
+     {
+      "name": "포니AI",
+      "chg": "+8.02%"
+     }
+    ],
+    "source": "SEC, 시나, 월스트리트견문"
+   },
+   {
+    "company": "웨이모 · 테슬라",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "캘리포니아 DMV 명령 뒤 웨이모, 미국 전역 프리웨이 운행 중단(일반 도로는 계속)"
+     },
+     {
+      "label": "사실",
+      "text": "머스크, 트럼프 APEC 수행단 버스에 동승"
+     }
+    ],
+    "chips": [
+     {
+      "name": "테슬라",
+      "chg": "+0.76%"
+     },
+     {
+      "name": "스페이스X",
+      "chg": "+0.54%"
+     }
+    ],
+    "source": "TechCrunch, 시나"
+   }
+  ],
+  "ai_software": [
+   {
+    "company": "앤트로픽 · 오픈AI",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "앤트로픽, 미 동부 18일 저녁 공모가 결정·19일 나스닥 'ANT' 상장, 범위 70~78달러"
+     },
+     {
+      "label": "사실",
+      "text": "블룸버그: 앤트로픽 연동 크립토 선물, AI주 급락에도 약 1.7조 달러 가치 반영"
+     },
+     {
+      "label": "사실",
+      "text": "오픈AI, 르피가로 그룹과 제휴해 기사 ChatGPT 제공"
+     }
+    ],
+    "chips": [
+     {
+      "name": "아마존",
+      "chg": "+0.49%"
+     }
+    ],
+    "source": "시나, Renaissance Capital, Bloomberg, FinancialJuice"
+   },
+   {
+    "company": "텐센트",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "3분기 매출 2,073억 위안(예상 2,105억), 영업이익 592억(예상 666억) 미달"
+     },
+     {
+      "label": "사실",
+      "text": "설비투자 814억 위안(예상 554억), 연산력 선급금 빼면 FCF 플러스"
+     },
+     {
+      "label": "의미",
+      "text": "WorkBuddy 하루 1,000만 명 이상 사용, AI 투자가 이익을 먼저 깎는 구간"
+     },
+     {
+      "label": "영향",
+      "text": "실적 뒤 대주주 프로수스 −5.9%"
+     }
+    ],
+    "chips": [],
+    "source": "시나, 월스트리트견문, MarketScreener"
+   },
+   {
+    "company": "중국 AI · 테이크투",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "로이터 단독: 미 행정부, 미국 기업의 중국 AI 모델 사용 공개 의무화 검토"
+     },
+     {
+      "label": "사실",
+      "text": "테이크투, GTA VI 19일 출시 앞두고 센서타워 사전판매 추정 15.4억 달러"
+     }
+    ],
+    "chips": [
+     {
+      "name": "테이크투",
+      "chg": "+5.92%"
+     }
+    ],
+    "source": "로이터(US News), FinancialJuice, Stocktwits"
+   }
+  ],
+  "ai_infra": [
+   {
+    "company": "네오클라우드 · 서버",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "엔비디아 실적 뒤 네오클라우드·서버 프리마켓 3~5% 동반 상승"
+     },
+     {
+      "label": "사실",
+      "text": "코어위브 \"4분기 선급금 90억 달러 예상, 미국 내 건설 계속\""
+     },
+     {
+      "label": "배경",
+      "text": "ICE, 데이터센터 공사 지연 확률 추정 도구 출시(3,100여 개 카운티)"
+     }
+    ],
+    "chips": [
+     {
+      "name": "네비우스",
+      "chg": "+5.42%"
+     },
+     {
+      "name": "코어위브",
+      "chg": "+3.96%"
+     },
+     {
+      "name": "델",
+      "chg": "+3.40%"
+     },
+     {
+      "name": "SMCI",
+      "chg": "+3.23%"
+     }
+    ],
+    "source": "시나, 로이터(The Star)"
+   },
+   {
+    "company": "광통신 · 전력",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "AAOI, 5억 5천만 달러 주식 발행 신청 뒤 프리마켓 −10%"
+     },
+     {
+      "label": "영향",
+      "text": "코히런트·루멘텀·블룸에너지 4% 안팎 상승"
+     }
+    ],
+    "chips": [
+     {
+      "name": "AAOI",
+      "chg": "-9.93%"
+     },
+     {
+      "name": "코히런트",
+      "chg": "+4.14%"
+     },
+     {
+      "name": "루멘텀",
+      "chg": "+3.93%"
+     },
+     {
+      "name": "블룸에너지",
+      "chg": "+3.94%"
+     }
+    ],
+    "source": "시나, Benzinga"
+   }
+  ],
+  "semis": [
+   {
+    "company": "패키징 · 공급망",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "엔비디아, SPIL에 다년 자금 지원해 CoWoS 능력 2029년까지 3배"
+     },
+     {
+      "label": "사실",
+      "text": "엔비디아, 기판 업체 킨서스에 10억 달러 넘게 투자"
+     },
+     {
+      "label": "사실",
+      "text": "DIGITIMES: 엔비디아 FY28 공급 약정 2,030억 달러로 한 분기 만에 두 배 넘게"
+     }
+    ],
+    "chips": [
+     {
+      "name": "TSMC",
+      "chg": "+3.17%"
+     },
+     {
+      "name": "AMAT",
+      "chg": "+2.47%"
+     },
+     {
+      "name": "램리서치",
+      "chg": "+2.76%"
+     }
+    ],
+    "source": "DIGITIMES, 월스트리트견문"
+   },
+   {
+    "company": "메모리 · 아시아",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "골드만삭스: 시장이 SK하이닉스 2027년 HBM 이익 전망 약 30% 상향"
+     },
+     {
+      "label": "배경",
+      "text": "코스피 +2%로 5,067.44 반등, 닛케이 +0.3%·토픽스 −0.4%"
+     },
+     {
+      "label": "영향",
+      "text": "미국 메모리주 프리마켓 2~3% 상승"
+     }
+    ],
+    "chips": [
+     {
+      "name": "SK하이닉스 ADR",
+      "chg": "+3.29%"
+     },
+     {
+      "name": "샌디스크",
+      "chg": "+2.84%"
+     },
+     {
+      "name": "마이크론",
+      "chg": "+2.17%"
+     },
+     {
+      "name": "AMD",
+      "chg": "+1.96%"
+     }
+    ],
+    "source": "시나, 월스트리트견문"
+   }
+  ],
+  "others": [
+   {
+    "company": "비트코인",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "6.4만 달러대 약세, 한 달 전보다 약 −21%, 공포탐욕지수 11"
+     },
+     {
+      "label": "배경",
+      "text": "미국 현물 ETF 17일 2.4억 달러 순유출"
+     }
+    ],
+    "chips": [
+     {
+      "name": "코인베이스",
+      "chg": "+1.05%"
+     },
+     {
+      "name": "스트래티지",
+      "chg": "+0.78%"
+     }
+    ],
+    "source": "Fortune, The Coin Republic"
+   }
+  ]
+ },
+ "empty_notes": {},
+ "greeting": "2026년 11월 18일 수요일 개장 전 섹터별 이슈체크입니다. 한국시간 15:30~21:32 사이 나온 소식과 미국 프리마켓 흐름을 정리했어요. 프리마켓 등락률은 화요일 종가 대비, 21:32 무렵 기준입니다.",
+ "commentary": {
+  "summary": "엔비디아가 실적을 내놓은 다음 날이에요. 중국 매출을 빼고도 가이던스와 중기 목표를 올리면서 프리마켓에서 3% 넘게 오르고, 전날 크게 빠졌던 반도체·네오클라우드도 함께 반등하고 있습니다. 반면 로우스와 타깃은 실적이 예상을 넘었는데도 밀리고 있고, 새벽에는 FOMC 의사록과 연준 인사 발언이 이어져요.",
+  "issue1": [
+   "엔비디아는 3분기 매출 1,158억 달러로 예상을 넘었고, 4분기 가이던스로 1,300억 달러를 내놨어요. 이 가이던스에는 1주가 더 들어 있지만 중국 데이터센터 매출은 0으로 잡혀 있습니다. 크레스 임시 CEO는 허가를 받은 H200 등 호퍼 제품도 더는 중국에 보내지 않겠다고 했고, 중국 외교부는 원칙적 입장을 여러 번 밝혔다고만 답했어요.",
+   "그래도 시장은 중국 없이도 성장 목표를 올린 점에 무게를 두는 모습이에요. FY28 매출 성장 목표를 70%에서 75%로 높였고, 4분기 총이익률 71~72%가 바닥이라고 했습니다. 다만 모건스탠리, 웰스파고 등은 실적 뒤에도 목표가를 내리고 있고, 하원 민주당이 러트닉 장관과 캔터의 엔비디아 보유를 조사한다는 FT 보도도 나와 정치 이슈는 남아 있어요."
+  ],
+  "issue2": [
+   "로우스와 타깃이 모두 시장 예상을 웃돈 실적을 냈어요. 로우스는 조정 EPS 3.10달러에 연간 매출 전망을 925억 달러로 올렸고, 타깃은 동일점 매출이 5.6% 늘고 연간 EPS 가이던스를 높였습니다.",
+   "그런데 두 회사 모두 IEEPA 관세 환급이 이익을 끌어올렸어요. 로우스는 EPS 중 약 0.34달러, 타깃은 0.50달러가 환급 효과이고, 로우스는 총이익률이 1%포인트 넘게 낮아지고 연간 영업이익률 전망도 내렸습니다. 타깃은 실적 전 연초 대비 약 70% 올라 있었던 만큼, 일회성을 뺀 체력을 따지는 매도가 나오는 것으로 보여요."
+  ],
+  "megatech": "마이크로소프트는 Ignite에서 코파일럿을 다시 짜서 사람과 에이전트가 함께 일하는 Workspaces 등을 공개했어요. 애플은 AI 투자 부담에서 비켜난 피난처로 거론되지만 밸류에이션이 2008년 이후 최고 수준이라는 점도 함께 언급됩니다. 엔비디아 실적 뒤 대형 기술주는 대체로 강보합이에요.",
+  "mobility": "포니AI는 3분기 매출이 4,460만 달러로 예상을 넘었고, 로보택시 매출이 1년 전보다 2.6배 넘게 늘었어요. 손실 폭도 예상보다 작아 프리마켓에서 8% 안팎 오르고 있습니다. 미국에서는 웨이모가 캘리포니아 당국 명령 뒤 전국 프리웨이 운행을 멈춘 상태라, 자율주행 확장 속도는 지역마다 엇갈리고 있어요.",
+  "ai_software": [
+   "앤트로픽은 미국 동부 기준 18일 저녁 공모가를 정하고 19일 나스닥에 'ANT'로 상장할 예정이에요. 공모가 범위는 70~78달러이고, 앤트로픽에 연동된 크립토 선물은 최근 AI주 급락에도 약 1.7조 달러 가치를 반영하고 있다고 블룸버그가 전했습니다.",
+   "텐센트는 매출과 영업이익이 모두 예상에 못 미쳤어요. 설비투자가 814억 위안으로 예상보다 260억 위안 가까이 많았고, 연산력 선급금 때문에 잉여현금흐름이 마이너스로 돌아섰습니다. 미국에서는 기업들의 중국 AI 모델 사용 공개를 의무화하는 방안을 행정부가 검토한다는 로이터 단독 보도가 나왔어요."
+  ],
+  "ai_infra": "엔비디아 실적 뒤 네오클라우드와 서버주가 프리마켓에서 3~5% 오르고 있어요. 코어위브는 4분기 선급금 90억 달러를 다시 언급하며 미국 내 건설을 계속하겠다고 했습니다. 광통신에서는 AAOI가 5억 5천만 달러 주식 발행을 신청하면서 10% 가까이 빠져 다른 종목들과 반대로 움직이고 있어요.",
+  "semis": "엔비디아가 공급망을 넓히는 소식이 이어졌어요. SPIL의 CoWoS 패키징 능력을 2029년까지 3배로 늘리도록 자금을 대고, 기판 업체 킨서스에도 10억 달러 넘게 투자합니다. 코스피는 2% 반등했고, 미국 프리마켓에서도 메모리와 장비주가 2~3% 오르고 있어요.",
+  "others": "비트코인은 6만 4천 달러대에서 약세가 이어지고 있어요. 한 달 전보다 약 21% 낮고 공포탐욕지수는 11로 극단적 공포 구간입니다. 12월 금리 인상 전망과 현물 ETF 유출이 부담이고, 새벽 FOMC 의사록을 앞둔 경계도 있어요."
+ },
+ "sources": [
+  {
+   "title": "NVIDIA announces financial results for third quarter fiscal 2027",
+   "outlet": "엔비디아",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
+  },
+  {
+   "title": "Nvidia Q3 2027 earnings report",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html"
+  },
+  {
+   "title": "Analysts react to Nvidia's first earnings without CEO Jensen Huang",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/18/analysts-react-to-nvidias-first-earnings-without-ceo-jensen-huang.html"
+  },
+  {
+   "title": "Nvidia is abandoning China after Jensen Huang's ouster",
+   "outlet": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/"
+  },
+  {
+   "title": "Nvidia Q3 earnings call highlights",
+   "outlet": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-q3-earnings-call-highlights-011255071.html"
+  },
+  {
+   "title": "Nvidia Q3 2027 earnings call highlights: Vera Rubin ramp, raised FY2028 outlook",
+   "outlet": "GuruFocus",
+   "url": "https://www.gurufocus.com/news/9206596/nvidia-corp-nvda-q3-2027-earnings-call-highlights-record-116-billion-revenue-vera-rubins-historic-ramp-and-a-raised-fy2028-outlook"
+  },
+  {
+   "title": "No Jensen, no problem: Nvidia rules out Huang's return",
+   "outlet": "Benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63378751/no-jensen-no-problem-nvidia-delivers-strong-outlook-rules-out-huangs-return"
+  },
+  {
+   "title": "摩根士丹利下调英伟达目标价",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvc4822781.d.html"
+  },
+  {
+   "title": "中国外交部回应英伟达停止H200出货",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvf1624375.d.html"
+  },
+  {
+   "title": "英伟达盘前涨幅",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizeaaz4794306.d.html"
+  },
+  {
+   "title": "Wells Fargo cuts Nvidia stock price target",
+   "outlet": "Investing.com",
+   "url": "https://www.investing.com/news/analyst-ratings/wells-fargo-cuts-nvidia-stock-price-target-on-supply-chain-focus-93CH-5034889"
+  },
+  {
+   "title": "Nvidia demand remains very strong, says Citi",
+   "outlet": "TipRanks",
+   "url": "https://www.tipranks.com/news/the-fly/nvidia-demand-remains-very-strong-says-citi-thefly-news"
+  },
+  {
+   "title": "Democrats probe whether Lutnick helped Cantor avoid Nvidia losses - FT",
+   "outlet": "로이터(US News)",
+   "url": "https://www.usnews.com/news/politics/articles/2026-11-18/democrats-probe-whether-howard-lutnick-helped-cantor-avoid-nvidia-losses-ft-reports"
+  },
+  {
+   "title": "Nvidia, Lutnick, Cantor Fitzgerald",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/18/nvidia-lutnick-china-ai-megaspeed-cantor-fitzgerald.html"
+  },
+  {
+   "title": "Lowe's Q3 results",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizehkx4747199.d.html"
+  },
+  {
+   "title": "Lowe's full-year outlook",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizehkx4747333.d.html"
+  },
+  {
+   "title": "Why is Lowe's stock sliding today",
+   "outlet": "Investing.com",
+   "url": "https://www.investing.com/news/stock-market-news/why-is-lowes-stock-sliding-today-93CH-5035705"
+  },
+  {
+   "title": "Lowe's Q3 2026 earnings",
+   "outlet": "247 Wall St",
+   "url": "https://247wallst.com/cards/lowe-s-q3-2026-earnings-low-01m7q580wwp7wmyg04mjgcbczr"
+  },
+  {
+   "title": "Target Q3 adj EPS 2.65 vs exp 2.07",
+   "outlet": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/target-tgt-q3-usd-adj-eps-265-exp-207-revenue-271bln-exp-2649bln"
+  },
+  {
+   "title": "Target raises full-year guidance",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3201938"
+  },
+  {
+   "title": "Target Corporation reports third quarter",
+   "outlet": "StockTitan",
+   "url": "https://www.stocktitan.net/news/TGT/target-corporation-reports-third-quarter-i3f2emstlyrv.html"
+  },
+  {
+   "title": "Target premarket reversal",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizehkz6864432.d.html"
+  },
+  {
+   "title": "Tencent Q3 revenue",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizeacc6875591.d.html"
+  },
+  {
+   "title": "Tencent Q3 capex and FCF",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3201805"
+  },
+  {
+   "title": "Tencent posts flat profit amid surging AI investments",
+   "outlet": "MarketScreener",
+   "url": "https://www.marketscreener.com/news/tencent-posts-flat-profit-amid-surging-ai-investments-ce785eddd989f524"
+  },
+  {
+   "title": "Prosus falls after Tencent results",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3201822"
+  },
+  {
+   "title": "Pony AI Q3 results 6-K",
+   "outlet": "SEC",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001969302/000110465926129308/tm2629888d1_ex99-1.htm"
+  },
+  {
+   "title": "Pony AI premarket",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3201825"
+  },
+  {
+   "title": "Waymo suspends freeway rides nationwide after California DMV order",
+   "outlet": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order/"
+  },
+  {
+   "title": "TTWO gains premarket, Sensor Tower says GTA 6 pre-orders top $1.5B",
+   "outlet": "Stocktwits(TradingView)",
+   "url": "https://www.tradingview.com/news/stocktwits:e4f25c2a3094b:0-ttwo-stock-gains-premarket-after-2-day-rout-sensor-towers-says-gta-6-pre-orders-top-1-5b-a-day-before-release/"
+  },
+  {
+   "title": "Anthropic sets terms for IPO",
+   "outlet": "Renaissance Capital",
+   "url": "https://www.renaissancecapital.com/IPO-Center/News/122657/anthropic-sets-terms-for-61-billion-ipo-targeting-a-1.2-trillion-market-cap"
+  },
+  {
+   "title": "Anthropic IPO this week",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvc4822363.d.html"
+  },
+  {
+   "title": "Anthropic crypto bets imply $1.7 trillion value despite AI rout",
+   "outlet": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-18/anthropic-crypto-bets-imply-1-7-trillion-value-despite-ai-rout"
+  },
+  {
+   "title": "OpenAI and Le Groupe Figaro collaborate",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9857467/OpenAI-Le-Groupe-Figaro-and-OpenAI-collaborate-to-bring-Le-Figaro-journalism-to-ChatGPT.aspx"
+  },
+  {
+   "title": "Exclusive: Trump administration weighs forcing US firms to disclose Chinese AI use",
+   "outlet": "로이터(US News)",
+   "url": "https://www.usnews.com/news/top-news/articles/2026-11-18/exclusive-trump-administration-weighs-forcing-us-firms-to-disclose-chinese-ai-use"
+  },
+  {
+   "title": "Microsoft Copilot Workspaces, Autopilot, Copilot Code at Ignite",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvc4826225.d.html"
+  },
+  {
+   "title": "Microsoft Copilot coding, security, operating system",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261118VL218/microsoft-copilot-coding-security-operating-system-2026.html"
+  },
+  {
+   "title": "苹果成AI动荡中的避风港",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizehkz1558750.d.html"
+  },
+  {
+   "title": "美股大型科技股盘前多数上涨",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3201823"
+  },
+  {
+   "title": "Apple DRAM deal with Samsung",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261118VL213/apple-dram-samsung-price-2027.html"
+  },
+  {
+   "title": "CoreWeave expects $9B Q4 prepayments",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizehkz6861921.d.html"
+  },
+  {
+   "title": "CoreWeave committed to US construction",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizehkz1541569.d.html"
+  },
+  {
+   "title": "NYSE parent ICE launches tool to assess data center construction delays",
+   "outlet": "로이터(The Star)",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/17/nyse-parent-ice-launches-tool-to-assess-data-center-construction-delays"
+  },
+  {
+   "title": "AAOI share offering, premarket",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizeaaz4800806.d.html"
+  },
+  {
+   "title": "Stock market today: futures rise ahead of FOMC minutes; NVDA, AAOI, PANW in focus",
+   "outlet": "Benzinga",
+   "url": "https://www.tradingview.com/news/benzinga:0512e2112094b:0-stock-market-today-dow-jones-s-p-500-futures-rise-ahead-of-fomc-minutes-nvda-aaoi-panw-in-focus/"
+  },
+  {
+   "title": "Nvidia SPIL packaging capacity",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261118PD239/nvidia-spil-packaging-capacity.html"
+  },
+  {
+   "title": "英伟达资助矽品扩产",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3201942"
+  },
+  {
+   "title": "Kinsus capacity, substrate, Nvidia expansion",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261118PD233/kinsus-capacity-substrate-nvidia-expansion.html"
+  },
+  {
+   "title": "Nvidia HBM memory 2028 supply commitments",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261118VL226/nvidia-hbm-memory-2028.html"
+  },
+  {
+   "title": "高盛：SK海力士2027年HBM利润预期",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizeacc6950186.d.html"
+  },
+  {
+   "title": "KOSPI closes up 2%",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3201732"
+  },
+  {
+   "title": "Price of bitcoin 11/18/2026",
+   "outlet": "Fortune",
+   "url": "https://fortune.com/article/price-of-bitcoin-11-18-2026/"
+  },
+  {
+   "title": "Bitcoin ETF flows",
+   "outlet": "The Coin Republic",
+   "url": "https://www.thecoinrepublic.com/2026/11/18/bitcoin-etf-wells-fargo-doubles-ibit-holdings-to-235-billion/"
+  },
+  {
+   "title": "China's Xi welcomes Trump at airport",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9857462/Chinas-Xi-welcomes-Trump-at-airport.aspx"
+  },
+  {
+   "title": "Trump visit China live news",
+   "outlet": "CNN",
+   "url": "https://edition.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines"
+  },
+  {
+   "title": "World oil prices",
+   "outlet": "RTE(로이터)",
+   "url": "https://www.rte.ie/news/business/2026/1118/1599640-world-oil-prices/"
+  },
+  {
+   "title": "ADNOC L&S ship attacked at Strait of Hormuz",
+   "outlet": "The National",
+   "url": "https://thenationalnews.com/business/energy/2026/11/18/adnoc-ls-ship-attacked-at-strait-of-hormuz-with-one-crew-member-missing"
+  },
+  {
+   "title": "FOMC minutes, building permits due Wednesday",
+   "outlet": "Investing.com",
+   "url": "https://www.investing.com/news/stock-market-news/fomc-minutes-building-permits-and-pending-home-sales-due-wednesday-93CH-5033806"
+  },
+  {
+   "title": "Walmart to host third quarter earnings call November 19",
+   "outlet": "Finviz",
+   "url": "https://finviz.com/news/421667/walmart-to-host-third-quarter-earnings-conference-call-november-19-2026"
+  },
+  {
+   "title": "DIGITIMES 주요 기사",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/"
+  }
+ ]
+}
