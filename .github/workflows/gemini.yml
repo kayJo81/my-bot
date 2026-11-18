@@ -14,6 +14,10 @@ on:
         description: "구글 검색 근거 사용 (1이면 사용)"
         required: false
         default: "0"
+      files:
+        description: "질문 뒤에 붙일 저장소 파일 경로 (공백으로 구분, 예: blog/2026-11-18/body.txt)"
+        required: false
+        default: ""
 
 jobs:
   ask:
@@ -27,6 +31,7 @@ jobs:
           PROMPT: ${{ github.event.inputs.prompt }}
           MODEL: ${{ github.event.inputs.model }}
           SEARCH: ${{ github.event.inputs.search }}
+          FILES: ${{ github.event.inputs.files }}
         run: |
           python3 -u scripts/gemini_ask.py
           if [ -f answer.json ]; then

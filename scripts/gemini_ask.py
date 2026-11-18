@@ -6,6 +6,12 @@ KEY = os.environ.get("GEMINI_API_KEY", "")
 MODEL = (os.environ.get("MODEL") or "gemini-3.8-flash,gemini-3.7-flash,gemini-flash-latest").strip()
 PROMPT = os.environ.get("PROMPT", "")
 SEARCH = os.environ.get("SEARCH", "0") == "1"
+FILES = [f for f in (os.environ.get("FILES") or "").split() if f]
+for f in FILES:  # 저장소 안의 파일 내용을 질문 뒤에 붙임 (블로그 글 검증용)
+    if os.path.isfile(f):
+        PROMPT += f"\n\n===== {f} =====\n" + open(f, encoding="utf-8").read()
+    else:
+        print(f"파일 없음: {f}")
 BASE = "https://generativelanguage.googleapis.com/v1beta"
 
 if not KEY:
