@@ -7,9 +7,9 @@ on:
         description: "질문 (공개 저장소라 실행 정보에 보입니다. 민감한 내용은 넣지 마세요)"
         required: true
       model:
-        description: "모델 이름 (list를 넣으면 사용 가능한 모델 목록만 출력)"
+        description: "모델 이름, 쉼표로 여러 개면 차례로 시도 (list를 넣으면 사용 가능한 모델 목록만 출력)"
         required: false
-        default: "gemini-flash-latest"
+        default: "gemini-3.8-flash,gemini-3.7-flash,gemini-flash-latest"
       search:
         description: "구글 검색 근거 사용 (1이면 사용)"
         required: false
