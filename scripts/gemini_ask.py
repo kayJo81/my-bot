@@ -18,7 +18,7 @@ def call(url, body=None):
         with urllib.request.urlopen(req, timeout=300) as r:
             return json.load(r)
     except urllib.error.HTTPError as e:
-        msg = e.read().decode("utf-8", "ignore")[:500]
+        msg = e.read().decode("utf-8", "ignore")[:3000]
         sys.exit(f"API 오류 {e.code}: {msg}")
 
 if MODEL == "list":
