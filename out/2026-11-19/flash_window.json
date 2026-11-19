@@ -1,0 +1,5623 @@
+{
+ "window_start": "2026-11-19 15:30 KST",
+ "fetched_at": "2026-11-19 21:23 KST",
+ "count": 702,
+ "items": [
+  {
+   "kst": "15:30",
+   "ts": 1795069805,
+   "h": "11月19日：“农产品批发价格200指数”比昨天上升0.30个点",
+   "ko": "11월 19일 : '농산물도매가격200지수' 어제보다 0.30포인트 상승",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfytz0413009.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:30",
+   "ts": 1795069809,
+   "h": "90-Day Correlation Matrix",
+   "ko": "90일 상관관계 매트릭스",
+   "u": "https://www.financialjuice.com/News/9859381/90-Day-Correlation-Matrix.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "15:30",
+   "ts": 1795069848,
+   "h": "120-Day Correlation Matrix",
+   "ko": "120일 상관관계 매트릭스",
+   "u": "https://www.financialjuice.com/News/9859386/120-Day-Correlation-Matrix.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "15:31",
+   "ts": 1795069875,
+   "h": "日经225指数收盘上涨419.93点，涨幅0.71%，报59444.21点。",
+   "ko": "닛케이225지수는 419.93포인트(0.71%) 오른 59,444.21포인트로 마감했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuh7815622.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:31",
+   "ts": 1795069883,
+   "h": "Top S&P 500 Stock Names Implied Volatility",
+   "ko": "S&P 500 상위 주식의 내재 변동성",
+   "u": "https://www.financialjuice.com/News/9859387/Top-SP-500-Stock-Names-Implied-Volatility.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "15:31",
+   "ts": 1795069906,
+   "h": "US Index Futures Implied Volatility",
+   "ko": "미국 지수선물 내재변동성",
+   "u": "https://www.financialjuice.com/News/9859400/US-Index-Futures-Implied-Volatility.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "15:32",
+   "ts": 1795069921,
+   "h": "日经225指数收盘上涨0.7%，报59,444.21点。日本东证指数收盘下跌0.04%，报3,822.47点。",
+   "ko": "닛케이 225지수는 0.7% 오른 59,444.21포인트에 마감했습니다. 일본 토픽스 지수는 0.04% 하락한 3,822.47포인트로 마감했다.",
+   "u": "https://wallstreetcn.com/livenews/3202377",
+   "s": "wscn"
+  },
+  {
+   "kst": "15:32",
+   "ts": 1795069935,
+   "h": "FX Implied Volatility",
+   "ko": "FX 내재변동성",
+   "u": "https://www.financialjuice.com/News/9859404/FX-Implied-Volatility.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "15:32",
+   "ts": 1795069950,
+   "h": "日本首相高市早苗：计划1月份与韩国李在明会面。",
+   "ko": "사나에 다카이치 일본 총리: 1월 이재명 위원장과 만날 예정.",
+   "u": "https://wallstreetcn.com/livenews/3202378",
+   "s": "wscn"
+  },
+  {
+   "kst": "15:32",
+   "ts": 1795069959,
+   "h": "Commodities Implied Volatility",
+   "ko": "원자재 내재변동성",
+   "u": "https://www.financialjuice.com/News/9859405/Commodities-Implied-Volatility.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "15:33",
+   "ts": 1795070000,
+   "h": "Fed Interest Rate Probabilities",
+   "ko": "연준 금리 확률",
+   "u": "https://www.financialjuice.com/News/9859406/Fed-Interest-Rate-Probabilities.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "15:33",
+   "ts": 1795070020,
+   "h": "国际能源署：能源市场可脱离霍尔木兹海峡运转",
+   "ko": "국제에너지기구(International Energy Agency): 에너지 시장은 호르무즈 해협과 독립적으로 운영될 수 있습니다",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuk4593802.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:33",
+   "ts": 1795070026,
+   "h": "ECB Interest Rate Probabilities",
+   "ko": "ECB 금리 확률",
+   "u": "https://www.financialjuice.com/News/9859407/ECB-Interest-Rate-Probabilities.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "15:33",
+   "ts": 1795070036,
+   "h": "日本烟草公司计划将俄罗斯业务单元从财务报告中剔除。",
+   "ko": "Japan Tobacco는 재무 보고서에서 러시아 사업부를 제외할 계획입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuf6298432.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:34",
+   "ts": 1795070045,
+   "h": "BoE Interest Rate Probabilities",
+   "ko": "BoE 금리 확률",
+   "u": "https://www.financialjuice.com/News/9859408/BoE-Interest-Rate-Probabilities.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "15:34",
+   "ts": 1795070058,
+   "h": "日本烟草将把俄罗斯业务从财务报告中剔除。（彭博）",
+   "ko": "Japan Tobacco는 재무 보고서에서 러시아 사업을 제외할 예정입니다. (블룸버그)",
+   "u": "https://wallstreetcn.com/livenews/3202379",
+   "s": "wscn"
+  },
+  {
+   "kst": "15:34",
+   "ts": 1795070073,
+   "h": "BoC Interest Rate Probabilities",
+   "ko": "BoC 금리 확률",
+   "u": "https://www.financialjuice.com/News/9859409/BoC-Interest-Rate-Probabilities.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "15:34",
+   "ts": 1795070096,
+   "h": "BoJ Interest Rate Probabilities",
+   "ko": "BoJ 금리 확률",
+   "u": "https://www.financialjuice.com/News/9859410/BoJ-Interest-Rate-Probabilities.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "15:34",
+   "ts": 1795070097,
+   "h": "中美元首会见结束",
+   "ko": "중국과 미국 정상의 회담이 종료되었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfytz0415657.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:35",
+   "ts": 1795070114,
+   "h": "RBA Interest Rate Probabilities",
+   "ko": "RBA 금리 확률",
+   "u": "https://www.financialjuice.com/News/9859411/RBA-Interest-Rate-Probabilities.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "15:35",
+   "ts": 1795070125,
+   "h": "中美元首会见结束",
+   "ko": "중국과 미국 정상의 회담이 종료되었습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202381",
+   "s": "wscn"
+  },
+  {
+   "kst": "15:35",
+   "ts": 1795070134,
+   "h": "RBNZ Interest Rate Probabilities",
+   "ko": "RBNZ 이자율 확률",
+   "u": "https://www.financialjuice.com/News/9859412/RBNZ-Interest-Rate-Probabilities.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "15:35",
+   "ts": 1795070135,
+   "h": "驻哈巴罗夫斯克总领馆提醒领区内中国公民和企业注意消防安全",
+   "ko": "주하바롭스크 총영사관은 중국 공민과 영사관 내 기업에 화재 안전에 주의할 것을 당부했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuh7818800.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:35",
+   "ts": 1795070155,
+   "h": "SNB Interest Rate Probabilities",
+   "ko": "SNB 이자율 확률",
+   "u": "https://www.financialjuice.com/News/9859413/SNB-Interest-Rate-Probabilities.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "15:36",
+   "ts": 1795070169,
+   "h": "北京人形全新发布压力表智能检定解决方案，破解计量高危检定难题",
+   "ko": "Beijing Renxing, 계측 분야의 고위험 교정 문제를 해결하기 위해 압력 게이지용 새로운 지능형 교정 솔루션 출시",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuh7819116.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:36",
+   "ts": 1795070186,
+   "h": "Xi, Trump meeting concluded - CCTV",
+   "ko": "시진핑-트럼프 회담 성사 - CCTV",
+   "u": "https://www.financialjuice.com/News/9859414/Xi-Trump-meeting-concluded---CCTV.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "15:36",
+   "ts": 1795070219,
+   "h": "Japan PM Takaichi: Have been communicating with china on rare earth export controls.",
+   "ko": "다카이치 일본 총리: 희토류 수출 통제에 관해 중국과 소통해 왔습니다.",
+   "u": "https://www.financialjuice.com/News/9859415/Japan-PM-Takaichi-Have-been-communicating-with-china-on-rare-earth-export-controls.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "15:37",
+   "ts": 1795070231,
+   "h": "部分宽基ETF持续放量，中证500ETF南方(510500)成交超100亿元，已超昨日4倍，科创50ETF易方达（588080）成交超66亿元，超昨日1.5倍，创业板ETF易方达（159915）、沪深300ETF华泰柏瑞(510300)、中证1000ETF南方(512100)等均明显放量。",
+   "ko": "일부 광범위한 ETF의 거래량이 계속해서 증가하고 있습니다. CSI 500 ETF Southern(510500)의 거래량이 어제보다 4배 많은 100억 위안을 넘었습니다. Kechuang 50 ETF Yifangda(588080)의 거래량이 66억 위안을 초과했습니다. 어제의 1.5배를 넘어 GEM ETF E 펀드(159915), CSI 300 ETF Huatai-PineBridge(510300), CSI 1000 ETF Southern(512100) 등이 모두 큰 폭으로 거래량을 늘렸다.",
+   "u": "https://wallstreetcn.com/livenews/3202383",
+   "s": "wscn"
+  },
+  {
+   "kst": "15:37",
+   "ts": 1795070236,
+   "h": "消息称可灵AI商业产品负责人刘逍离职 官方暂无回应",
+   "ko": "Keling AI의 상용 제품 책임자인 Liu Xiao가 사임한 것으로 알려졌습니다. 아직 공식적인 답변은 없습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuk4596145.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:37",
+   "ts": 1795070237,
+   "h": "部分宽基ETF持续放量，中证500ETF南方(510500)成交超100亿元，已超昨日3倍，科创50ETF易方达（588080）成交超66亿元，超昨日1.5倍。",
+   "ko": "일부 광범위한 ETF의 거래량이 계속해서 증가했습니다. CSI 500 ETF Southern(510500)의 거래량이 100억 위안을 넘어 어제보다 3배나 늘어났다. Science and Technology 50 ETF Yifangda(588080)의 거래량이 66억 위안을 넘어 어제보다 1.5배 증가했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfytz0416748.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:38",
+   "ts": 1795070308,
+   "h": "OpenAI总裁称其模型助力AMD在5个月内实现相当于一年的芯片研发进展",
+   "ko": "OpenAI의 사장은 이 모델이 AMD가 5개월 만에 1년치의 칩 연구 및 개발 진행을 달성하는 데 도움이 되었다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuh7820741.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:40",
+   "ts": 1795070418,
+   "h": "北京：“未名·AI Park”正式揭牌",
+   "ko": "베이징: '웨이밍·AI파크' 공식 공개",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuk4598272.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:40",
+   "ts": 1795070419,
+   "h": "北证50日内跌幅达4.01%，成分股中，并行科技跌10.40%，惠丰钻石跌9.02%，锦华新材跌8.78%，曙光数创跌7.76%。",
+   "ko": "베이증권은 50일 만에 4.01% 하락했다. 구성종목 중 Parallel Technology는 10.40% 하락했고 Huifeng Diamond는 9.02% 하락했으며 Jinhua New Materials는 8.78% 하락했으며 Shuguang Digital은 7.76% 하락했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuk4598287.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:41",
+   "ts": 1795070464,
+   "h": "马斯克：此次中国之行还将到访特斯拉上海工厂",
+   "ko": "머스크: 이번 중국 여행에는 Tesla의 상하이 공장 방문도 포함됩니다",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfytz0418631.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:41",
+   "ts": 1795070466,
+   "h": "西祠胡同创始人响马突发急性心梗，团队发文：术后恢复平稳，愿早日康复",
+   "ko": "Xici Hutong의 창립자인 Xiang Ma는 급성 심근경색을 겪었습니다. 팀은 “수술 후 회복이 안정적이며 곧 회복되기를 희망한다”는 메시지를 전했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuh7822518.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:42",
+   "ts": 1795070524,
+   "h": "DeepSeek第二轮融资落地 31家出资方入股梁文锋搭建的持股平台",
+   "ko": "DeepSeek의 두 번째 자금 조달이 완료되었으며, 31명의 투자자가 Liang Wenfeng이 설립한 주식 보유 플랫폼에 투자했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202456",
+   "s": "wscn"
+  },
+  {
+   "kst": "15:42",
+   "ts": 1795070569,
+   "h": "工信部发布关于公开征求《面向工程机械装备制造的智能工厂通用技术要求》等157项行业标准计划项目意见的公示。",
+   "ko": "산업정보기술부는 '건설기계 장비 제조를 위한 스마트 팩토리 일반 기술 요건'을 포함한 157개 산업 표준 계획 프로젝트에 대한 의견을 수렴하는 고시를 발표했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuk4600045.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:44",
+   "ts": 1795070693,
+   "h": "火山引擎正式上线豆包实时音视频通话模型（SeedRealtime 1.0）API服务，带来全模态交互的新体验。",
+   "ko": "Volcano Engine은 Doubao 실시간 음성 및 영상 통화 모델(SeedRealtime 1.0) API 서비스를 공식 출시하여 풀모달 상호 작용의 새로운 경험을 선사합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuk4601336.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:44",
+   "ts": 1795070694,
+   "h": "英伟达部分董事继续推动黄仁勋回归",
+   "ko": "일부 Nvidia 이사들은 Jen-Hsun Huang의 복귀를 계속해서 추진하고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuf6303738.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:45",
+   "ts": 1795070732,
+   "h": "安联：已公布的人工智能损失低估了真实风险，这只是冰山一角。",
+   "ko": "Allianz: 공개된 AI 손실은 실제 위험을 과소평가했으며 빙산의 일각에 불과합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuk4601776.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:46",
+   "ts": 1795070772,
+   "h": "日本首相高市早苗：国防开支不应局限于数字目标。",
+   "ko": "사나에 다카이치 일본 총리: 국방비는 숫자 목표에만 국한되어서는 안 됩니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuh7825881.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:46",
+   "ts": 1795070794,
+   "h": "日本首相高市早苗：强化日本防卫能力对于保卫民生而言是必要之举。",
+   "ko": "사나에 다카이치 일본 총리: 일본의 국방력 강화는 국민 생활을 보호하는 데 필요합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuk4602551.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:47",
+   "ts": 1795070829,
+   "h": "10月我国动力和储能电池合计产量为245.1GWh，环比增长3.0%",
+   "ko": "10월 중국의 전력 및 에너지 저장 배터리 총 생산량은 245.1GWh로 전월 대비 3.0% 증가했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuh7826618.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:47",
+   "ts": 1795070849,
+   "h": "中俄美元首会晤 国际社会期待会晤促进世界和平稳定",
+   "ko": "중국, 러시아, 미국 정상이 만날 예정이다. 국제사회는 이번 회의가 세계의 평화와 안정을 촉진하는 계기가 될 것으로 기대하고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuf6305186.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:47",
+   "ts": 1795070871,
+   "h": "首创期货：加息预期升温叠加AI叙事降温，有色金属集体暴跌",
+   "ko": "첫 번째 선물: 금리 인상 기대가 뜨거워지고 AI 이야기가 식고, 비철금속이 전체적으로 급락합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuh7827088.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:48",
+   "ts": 1795070936,
+   "h": "俄罗斯库尔斯克州州长表示，乌克兰无人机袭击了库尔斯克市。",
+   "ko": "러시아 쿠르스크 지역 주지사는 우크라이나 드론이 쿠르스크 시를 공격했다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuh7827718.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:51",
+   "ts": 1795071117,
+   "h": "联想首席执行官：至少到明年，原材料成本将维持高位，甚至可能进一步上涨。",
+   "ko": "Lenovo CEO: 원자재 비용은 적어도 내년까지 높은 수준을 유지할 것이며 심지어 더 오를 수도 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuk4606392.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:53",
+   "ts": 1795071228,
+   "h": "有理想员工称“一天收宁德时代三封催债邮件” 8月从宁德前五大客户中消失",
+   "ko": "이상적인 직원은 \"CATL로부터 하루에 세 통의 추심 이메일을 받았다\"고 말했고 8월 CATL의 상위 5대 고객에서 사라졌습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuh7831750.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:53",
+   "ts": 1795071232,
+   "h": "科创50、上证50尾盘拉升",
+   "ko": "과학기술혁신50과 상하이증권거래소50이 늦게 거래됐다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuh7831791.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:54",
+   "ts": 1795071250,
+   "h": "五只热门宽基ETF均破百亿成交",
+   "ko": "인기 있는 광범위한 ETF 5개 모두 거래량 100억 달러 돌파",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuh7831964.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:54",
+   "ts": 1795071257,
+   "h": "百图生科发布AI安评系统，探索用“虚拟猴”开展虚拟给药",
+   "ko": "Baitu Biotech, AI 안전성 평가 시스템 출시 및 \"가상 원숭이\"를 사용하여 가상 약물 전달 수행 탐색",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuh7832043.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:55",
+   "ts": 1795071353,
+   "h": "通号电气化局中标太焦铁路扩能改造工程",
+   "ko": "CRSC 전기국, 타이자오 철도 용량 확장 및 개조 프로젝트 입찰에서 승리",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuf6311317.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:56",
+   "ts": 1795071370,
+   "h": "小摩：升英伟达目标价至230美元，维持“增持”评级，短期前景强劲",
+   "ko": "JP모건: 엔비디아 목표주가를 230달러로 인상, '비중확대' 등급 유지, 강력한 단기 전망",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfytz0428192.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:56",
+   "ts": 1795071405,
+   "h": "10月国内动力电池装车量环比增长14.0% 同比增长18.2%",
+   "ko": "10월 국내 전력배터리 설치량은 전월 대비 14.0%, 전년 동기 대비 18.2% 증가했다.",
+   "u": "https://wallstreetcn.com/livenews/3202384",
+   "s": "wscn"
+  },
+  {
+   "kst": "15:59",
+   "ts": 1795071548,
+   "h": "云顶新耀：VIS-101治疗湿性AMD的IIb期ASCEND临床研究完成首例患者给药",
+   "ko": "Genting Xinyao: 습성 AMD 치료를 위한 VIS-101의 2b상 ASCEND 임상 연구에서 첫 번째 환자의 투여를 완료했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuf6313488.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:59",
+   "ts": 1795071553,
+   "h": "四川：计划到2030年末 力争全省地方国企资产总额突破30万亿元",
+   "ko": "쓰촨성: 2030년 말까지 성 내 지방 국유 기업의 총 자산이 30조 위안을 초과하도록 노력할 계획",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuk4612163.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:59",
+   "ts": 1795071556,
+   "h": "肯尼亚矿业部表示，肯尼亚已选择由美国稀土初创企业 ReElement Technologies 牵头的财团来开发 Mrima Hill 关键矿藏。",
+   "ko": "케냐 광산부는 중요한 Mrima Hill 광상을 개발하기 위해 미국 희토류 스타트업인 ReElement Technologies가 이끄는 컨소시엄을 선택했다고 밝혔습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuk4612198.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:59",
+   "ts": 1795071585,
+   "h": "马斯克称泽连斯基撒谎并企图将“星链”用于军事",
+   "ko": "머스크는 젤렌스키가 거짓말을 했고 스타링크를 군사적 목적으로 이용하려 했다고 말했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuk4612540.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:00",
+   "ts": 1795071604,
+   "h": "股指期货午盘收盘",
+   "ko": "주가지수 선물은 정오에 마감됩니다",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuk4612625.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:00",
+   "ts": 1795071605,
+   "h": "商品期货收盘",
+   "ko": "상품 선물 마감",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuk4612652.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:00",
+   "ts": 1795071615,
+   "h": "多只热门宽基ETF尾盘爆量",
+   "ko": "많은 인기 있는 광범위한 ETF가 늦은 거래에서 폭발했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuk4612861.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:00",
+   "ts": 1795071639,
+   "h": "商品期货收盘，苹果主力合约跌超7%，沪铜跌超5%，沪锡、国际铜跌超4%，沪银、沪镍、丙烯、乙二醇、液化气跌超3%。集运欧线涨超4%。",
+   "ko": "원자재 선물 마감 시 Apple의 주요 계약은 7% 이상 하락했고 상하이 구리는 5% 이상 하락했으며 상하이 주석 및 국제 구리는 4% 이상 하락했으며 상하이 은, 상하이 니켈, 프로필렌, 에틸렌 글리콜 및 액화 가스는 3% 이상 하락했습니다. 컨테이너 해운 유럽선은 4% 이상 증가했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202386",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:00",
+   "ts": 1795071651,
+   "h": "DeepSeek千亿融资落地",
+   "ko": "DeepSeek, 1000억 위안 자금 조달",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfytz0431971.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:01",
+   "ts": 1795071661,
+   "h": "上证指数收报3577.62点，跌0.28%。 深证成指收报10583.20点，跌0.71%。 创业板指收报2293.34点，跌0.79%。 沪深300收报3984.84点，涨0.03%。 科创50收报1270.78点，涨1.83%。 中证500收报6251.96点，跌0.48%。 中证1000收报5938.90点，跌1",
+   "ko": "상하이종합지수는 0.28% 하락한 3577.62포인트로 마감했다. 선전부품지수는 0.71% 하락한 10583.20으로 마감했다. GEM지수는 0.79% 하락한 2293.34포인트로 마감했다. CSI 300지수는 0.03% 오른 3984.84포인트로 마감했다. Kechuang 50은 1.83% 상승한 1270.78로 마감했습니다. CSI 500은 0.48% 하락한 6251.96포인트로 마감했습니다. CSI 1000은 1 하락한 5938.90 포인트로 마감했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202388",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:01",
+   "ts": 1795071662,
+   "h": "沪深两市今日成交额合计1.31万亿元，中际旭创成交额居首",
+   "ko": "오늘 상하이와 선전 주식시장의 총 거래량은 1조 3100억 위안으로, Zhongji InnoLight가 거래량 기준 1위를 차지했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfytz0431975.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:01",
+   "ts": 1795071662,
+   "h": "A股收盘，上证指数跌0.28%，深证成指跌0.71%，创业板指跌0.79%。",
+   "ko": "A주 거래 마감 시 상하이종합지수는 0.28%, 선전 구성요소 지수는 0.71%, GEM 지수는 0.79% 하락했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfytz0431812.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:01",
+   "ts": 1795071664,
+   "h": "A股收评：沪指震荡收跌0.28%，厨卫电器、影视院线、游戏板块重挫",
+   "ko": "A주 마감 코멘트: 상하이 주가지수는 등락세를 보이며 0.28% 하락했고, 주방 및 욕실 가전제품, 영화 및 텔레비전 극장, 게임 부문이 급락했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuf6315161.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:01",
+   "ts": 1795071680,
+   "h": "美股纳斯达克100指数期货涨超2%",
+   "ko": "미국 나스닥 100 지수 선물 2% 이상 상승",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfytz0432391.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:01",
+   "ts": 1795071709,
+   "h": "A股收盘：三大指数小幅下跌，两市成交仅1.3万亿",
+   "ko": "A주 마감: 3개 주요 지수가 소폭 하락했고, 두 도시의 매출액은 1조 3천억에 불과했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202389",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:02",
+   "ts": 1795071737,
+   "h": "瑞士10月季调后实际出口月率 2.4%，前值-0.10%。瑞士10月季调后实际进口月率 0.7%，前值7.00%。",
+   "ko": "10월 계절조정 후 스위스의 실제 월별 수출률은 2.4%로, 이전 수치인 -0.10%에 비해 크게 높아졌습니다. 10월 계절조정 후 스위스의 실제 월별 수입률은 0.7%로 이전 수치인 7.00%와 비교된다.",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "16:02",
+   "ts": 1795071745,
+   "h": "国际能源署预警：到 2030 年数据中心碳排放将增加 70%",
+   "ko": "국제 에너지 기구(International Energy Agency)는 경고합니다: 데이터 센터 탄소 배출량은 2030년까지 70% 증가할 것입니다",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuf6317225.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:02",
+   "ts": 1795071770,
+   "h": "高盛策略师：经济增长接近峰值，看好股票与债券",
+   "ko": "골드만삭스 전략가: 경제 성장이 정점에 가까워지고 있으며 주식과 채권이 강세를 보이고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuf6317645.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:03",
+   "ts": 1795071791,
+   "h": "美股期货涨幅扩大，纳斯达克100指数期货涨2%，Anthropic将挂牌交易",
+   "ko": "미국 주식 선물 확대, 나스닥 100 선물 2% 상승, Anthropic 상장 예정",
+   "u": "https://wallstreetcn.com/livenews/3202390",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:03",
+   "ts": 1795071796,
+   "h": "习近平将主持中俄美元首会晤",
+   "ko": "시진핑 주석, 중국, 러시아, 미국 정상 간 회담 주재할 예정",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuf6318148.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:03",
+   "ts": 1795071829,
+   "h": "ETF两市成交额报5207.31亿元，较昨日此时缩量171.34亿元",
+   "ko": "두 도시의 ETF 거래액은 5207억3100만 위안으로 어제보다 171억3400만 위안 감소했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfytz0435529.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:04",
+   "ts": 1795071886,
+   "h": "Swiss Trade Balance Actual 4,089M (Forecast -, Previous 1,309M)",
+   "ko": "스위스 무역수지 실제 4,089백만(예측 -, 이전 1,309백만)",
+   "u": "https://www.financialjuice.com/News/9859438/Swiss-Trade-Balance-Actual-4089M-Forecast---Previous-1309M.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "16:05",
+   "ts": 1795071900,
+   "h": "沪深两市今日成交额合计13051.47亿元",
+   "ko": "오늘 상하이와 선전 주식시장의 총 거래량은 13억 5147억 위안이다.",
+   "u": "https://wallstreetcn.com/livenews/3202392",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:05",
+   "ts": 1795071902,
+   "h": "习近平将主持中俄美元首会晤",
+   "ko": "시진핑 주석, 중국, 러시아, 미국 정상 간 회담 주재할 예정",
+   "u": "https://wallstreetcn.com/livenews/3202391",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:05",
+   "ts": 1795071906,
+   "h": "山东出台纺织服装产业五年行动计划",
+   "ko": "산둥성, 방직 의류 산업 5개년 행동 계획 발표",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuk4618175.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:05",
+   "ts": 1795071958,
+   "h": "机构：2027年第一季起整体NAND Flash合约价格将转向下跌趋势",
+   "ko": "대행사 : 낸드플래시 전체 고정가격은 2027년 1분기부터 하락세로 전환",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuk4619240.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:06",
+   "ts": 1795071990,
+   "h": "商务部：中美贸易理事会农业工作组将于近期召开首次会议",
+   "ko": "상무부: 중미 비즈니스 협의회 농업 실무그룹이 가까운 시일 내에 첫 회의를 개최할 예정입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuf6321314.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:07",
+   "ts": 1795072030,
+   "h": "商务部：中美贸易理事会农业工作组将于近期召开首次会议",
+   "ko": "상무부: 중미 비즈니스 협의회 농업 실무그룹이 가까운 시일 내에 첫 회의를 개최할 예정입니다.",
+   "u": "https://wallstreetcn.com/livenews/3202396",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:08",
+   "ts": 1795072113,
+   "h": "联想耗资5000万美元全资收购BIOS厂商Phoenix",
+   "ko": "Lenovo는 BIOS 제조업체인 Phoenix를 완전히 인수하기 위해 5천만 달러를 지출합니다.",
+   "u": "https://wallstreetcn.com/livenews/3202397",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:10",
+   "ts": 1795072208,
+   "h": "英国全国建筑协会：预计于2027年上半年推出全国品牌商业银行服务。",
+   "ko": "영국 국립건축협회(National Building Society of the United Kingdom): 2027년 상반기에 국가 브랜드 상업은행 서비스를 출시할 예정입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6193481.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:10",
+   "ts": 1795072259,
+   "h": "APEC观察 | ABAC澳大利亚代表：AI是协助员工的工具，不是用来替代人",
+   "ko": "APEC 시계 | ABAC 호주 대표: AI는 사람을 대체하는 도구가 아니라 직원을 지원하는 도구입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4494277.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:12",
+   "ts": 1795072342,
+   "h": "印度证券交易委员会即将完成深科技企业上市规则制定",
+   "ko": "인도 증권거래위원회, 딥테크 기업 상장 규정 확정",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6195418.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:13",
+   "ts": 1795072381,
+   "h": "中方回应高市早苗礼宾安排：根据国际惯例作出适当礼宾安排",
+   "ko": "중국, 가오시 사나에의 의정서 협약에 대응: 국제 관행에 따라 적절한 의정서 협약 체결",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7720504.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:13",
+   "ts": 1795072395,
+   "h": "金正恩特朗普是否有会晤安排，外交部回应",
+   "ko": "김정은-트럼프 회담 주선 여부 외교부 반응",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0313021.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:13",
+   "ts": 1795072425,
+   "h": "金正恩与特朗普是否有会晤安排？外交部：没有这方面的信息",
+   "ko": "김정은과 트럼프의 회담 계획은 있나요? 외교부 : 이와 관련한 정보는 없다",
+   "u": "https://wallstreetcn.com/livenews/3202399",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:15",
+   "ts": 1795072503,
+   "h": "国债期货收盘",
+   "ko": "국채선물 마감",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0314563.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:15",
+   "ts": 1795072521,
+   "h": "以官员鼓吹“单干”之际 美中央司令部司令到访",
+   "ko": "이스라엘 관리들이 \"혼자 가라\"고 주장하자 미 중부사령부 사령관이 방문한다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7723164.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:16",
+   "ts": 1795072567,
+   "h": "瑞银：降英伟达目标价至220美元，维持“买入”评级",
+   "ko": "UBS: 엔비디아 목표주가를 220달러로 낮추고 '매수' 등급 유지",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7723946.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:16",
+   "ts": 1795072602,
+   "h": "华鑫证券：维持湖南黄金“买入”评级，金钨售价上涨支撑盈利",
+   "ko": "Huaxin Securities: Hunan Gold에 대한 '매수' 등급 유지, 금 및 텅스텐 가격 상승이 실적 지원",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4501016.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:16",
+   "ts": 1795072610,
+   "h": "商务部：今年“双十一”整体平稳",
+   "ko": "상무부 : 올해 '더블 일레븐'은 전반적으로 안정",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4501140.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:16",
+   "ts": 1795072616,
+   "h": "德迈仕：未收到补充担保通知，公司控股股东所质押的股份暂不存在被平仓风险",
+   "ko": "디맥스 : 추가보증 통지가 접수되지 않았으며, 회사의 지배주주가 담보로 제공한 주식은 청산될 위험이 없습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7724879.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:17",
+   "ts": 1795072631,
+   "h": "中方回应中日领导人是否举行会晤",
+   "ko": "중국, 중일 정상 회담 개최 여부에 반응",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7725081.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:17",
+   "ts": 1795072657,
+   "h": "中日领导人是否将举行会晤？外交部回应",
+   "ko": "중국과 일본의 지도자들이 회담을 가질 것인가? 외교부 대응",
+   "u": "https://wallstreetcn.com/livenews/3202403",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:17",
+   "ts": 1795072657,
+   "h": "穆迪将丰田的评级展望从稳定调整为正面，并确认其A1评级。",
+   "ko": "무디스는 도요타의 등급 전망을 안정적에서 긍정적으로 수정하고 A1 등급을 확인했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7725519.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:17",
+   "ts": 1795072675,
+   "h": "商务部：今年“双十一”整体平稳",
+   "ko": "상무부 : 올해 '더블 일레븐'은 전반적으로 안정",
+   "u": "https://wallstreetcn.com/livenews/3202404",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:18",
+   "ts": 1795072685,
+   "h": "三星AI眼镜开启预售，数小时内售罄",
+   "ko": "삼성 AI 안경, 사전 판매 시작, 몇 시간 만에 매진",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7725881.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:18",
+   "ts": 1795072716,
+   "h": "亚太经合组织第三十三次领导人非正式会议成功举行 外交部介绍相关情况",
+   "ko": "제33차 APEC 경제지도자회의가 성공적으로 개최되었습니다. 외교부는 관련 상황을 소개했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7726293.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:18",
+   "ts": 1795072736,
+   "h": "德国商业银行就裕信银行与柏林达成的协议发表声明：执行董事会将继续维护所有利益相关者的利益，并与裕信银行合作制定一项基于两家银行优势的战略。",
+   "ko": "Commerzbank는 UniCredit과 베를린의 계약에 대해 성명을 발표했습니다. 이사회는 계속해서 모든 이해관계자의 이익을 보호하고 UniCredit과 협력하여 두 은행의 강점을 기반으로 한 전략을 개발할 것입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6200708.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:20",
+   "ts": 1795072848,
+   "h": "印度支付公司Razorpay Software Ltd正准备最早于下周公开提交在印度的IPO文件。",
+   "ko": "인도 결제 회사 Razorpay Software Ltd는 이르면 다음 주 인도에서 IPO를 공개적으로 신청할 준비를 하고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0318504.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:21",
+   "ts": 1795072872,
+   "h": "日本农林中央银行提前完成年度利润目标，复苏进程取得进展",
+   "ko": "일본 농림축은행, 예정보다 빨리 연간 이익 목표 달성, 회복 과정 진전",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7728174.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:21",
+   "ts": 1795072910,
+   "h": "亚太经合组织第三十三次领导人非正式会议成功举行 外交部介绍相关情况",
+   "ko": "제33차 APEC 경제지도자회의가 성공적으로 개최되었습니다. 외교부는 관련 상황을 소개했다.",
+   "u": "https://wallstreetcn.com/livenews/3202406",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:22",
+   "ts": 1795072926,
+   "h": "公司2022-2025年是否直接或间接向俄罗斯出口产品？联合光电回应",
+   "ko": "회사는 2022년부터 2025년까지 러시아에 제품을 직간접적으로 수출할 예정입니까? United Optoelectronics가 응답합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4505191.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:22",
+   "ts": 1795072936,
+   "h": "马斯克披露多项业务时间表：Optimus拟18个月内胜任家务，Terafab计划2028年底量产",
+   "ko": "머스크는 다양한 사업 일정을 공개했다. 옵티머스는 18개월 이내에 집안일을 처리할 수 있을 계획이고, 테라팹은 2028년 말까지 양산할 계획이다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7729009.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:22",
+   "ts": 1795072962,
+   "h": "美国对镁碳砖发起反规避调查",
+   "ko": "미국, 마그네시아 탄소 벽돌에 대한 우회 조사 시작",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6203128.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:23",
+   "ts": 1795072980,
+   "h": "德国商业银行：总部将保留在法兰克福，并继续在证券交易所上市。",
+   "ko": "Commerzbank: 본사는 프랑크푸르트에 남을 것이며 계속해서 증권 거래소에 상장될 것입니다.",
+   "u": "https://wallstreetcn.com/livenews/3202408",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:23",
+   "ts": 1795072989,
+   "h": "德国商业银行：总部将保留在法兰克福，并继续在证券交易所上市。",
+   "ko": "Commerzbank: 본사는 프랑크푸르트에 남을 것이며 계속해서 증권 거래소에 상장될 것입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4506181.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:23",
+   "ts": 1795073010,
+   "h": "德国商业银行确认，德国与裕信银行（UniCredit）已就收购达成协议。（彭博）",
+   "ko": "Commerzbank는 독일과 UniCredit이 인수에 합의했다고 확인했습니다. (블룸버그)",
+   "u": "https://wallstreetcn.com/livenews/3202409",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:24",
+   "ts": 1795073041,
+   "h": "韩国最高法院维持对前第一夫人金建希的四年有期徒刑判决。",
+   "ko": "대법원이 김건희 전 여사에게 징역 4년을 선고했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4506900.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:24",
+   "ts": 1795073057,
+   "h": "协创数据：公司始终专注主营业务经营，扎实推进算力云服务等各项业务落地",
+   "ko": "Xiechuang Data: 회사는 항상 주요 비즈니스 운영에 중점을 두고 컴퓨팅 성능 클라우드 서비스 및 기타 비즈니스의 구현을 확고히 추진합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0320912.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:24",
+   "ts": 1795073072,
+   "h": "德国半导体股在法兰克福早盘交易中上涨；英飞凌上涨2.7%，苏斯微泰克上涨2.3%，爱思强上涨2.2%。",
+   "ko": "독일 반도체 주식은 프랑크푸르트 장 초반 거래에서 상승했습니다. 인피니언은 2.7%, Süss Microtech는 2.3%, Aixtron은 2.2% 상승했습니다.",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "16:26",
+   "ts": 1795073183,
+   "h": "逾1.9亿美元 梵高画作拍卖价格创纪录",
+   "ko": "반 고흐 그림, 경매에서 1억 9천만 달러 이상 팔려",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4508895.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:26",
+   "ts": 1795073195,
+   "h": "11月19日沪深两市涨停分析",
+   "ko": "11월 19일 상하이, 선전 증시 일일 한도 분석",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7732755.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:28",
+   "ts": 1795073303,
+   "h": "北京市市场监督管理局等八部门关于印发《促进特殊医学用途配方食品创新发展若干措施》的通知。其中指出，激发企事业单位产学研协同创新活力，推动专业高校和优势企业联合攻关蛋白质定向水解、精准营养组方等特医食品原料、配方、生产、检验关键技术，鼓励企业建设特医食品领域企业技术中心，重点支持临床急需的特定全营养配方食品、罕见病特医食",
+   "ko": "베이징시 시장 규제 관리국을 포함한 8개 부서에서 \"특수 의료 목적을 위한 배합 식품의 혁신적인 개발을 촉진하기 위한 몇 가지 조치\" 발표에 관한 공지입니다. 기업, 기관, 대학 및 연구 기관 간의 공동 혁신의 활력을 자극해야 하며 전문 대학과 우세 기업을 육성하여 단백질 방향성 가수분해 및 정밀한 영양 제제와 같은 특수 의료 식품 원료, 제제, 생산 및 테스트에 대한 핵심 기술을 공동으로 연구해야 한다고 지적했습니다. 기업이 특수 의료식품 분야의 기업 기술 센터를 설립하도록 장려하고 임상 실무에 시급히 필요한 특정 완전 영양식 식품과 희귀병 특수 의료 식품을 지원하는 데 중점을 두어야 합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6206607.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:28",
+   "ts": 1795073327,
+   "h": "北京：培育特医食品产业链，鼓励企业在重点园区建设特医食品中试平台和智能工厂，提供从实验室到规模化生产的技术支持",
+   "ko": "베이징: 특수 의료 식품 산업 체인을 육성하고 기업이 주요 공원에 특수 의료 식품 파일럿 플랫폼과 스마트 공장을 구축하도록 장려하며 실험실에서 대규모 생산에 이르기까지 기술 지원을 제공합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4510426.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:29",
+   "ts": 1795073359,
+   "h": "北京：鼓励通过人工智能、大数据分析对特医食品临床使用数据进行分析，鼓励共建“疾病谱系—营养需求—特医食品适配”数据库",
+   "ko": "베이징: 인공 지능과 빅데이터 분석을 통해 특수 의료 식품의 임상 사용 데이터 분석을 장려하고 \"질병 스펙트럼-영양 요구 사항-특수 의료 식품 적응\" 데이터베이스의 공동 구축을 장려합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4510639.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:29",
+   "ts": 1795073372,
+   "h": "也门胡塞武装称多地遭沙特空袭致11死36伤",
+   "ko": "예멘 후티군 \"사우디 공습으로 여러 곳에서 11명 사망, 36명 부상\"",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6207059.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:29",
+   "ts": 1795073382,
+   "h": "LG Uplus拟投资7890亿韩元建设坡州AI数据中心三期项目",
+   "ko": "LG유플러스, 파주 AI데이터센터 3단계 구축에 7890억 투자한다",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4510833.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:30",
+   "ts": 1795073400,
+   "h": "瑞士三季度工业订单同比 1.6%，前值 5.1%。",
+   "ko": "3분기 스위스 산업 주문은 전년 동기 대비 1.6% 증가해 전 분기 5.1%보다 증가했다.",
+   "u": "https://wallstreetcn.com/livenews/3202411",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:30",
+   "ts": 1795073400,
+   "h": "瑞士三季度工业产出同比 0.8%，前值 5.5%。",
+   "ko": "3분기 스위스 산업생산은 전년 동기 대비 0.8%로 전년 동기 대비 5.5% 증가했다.",
+   "u": "https://wallstreetcn.com/livenews/3202410",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:30",
+   "ts": 1795073415,
+   "h": "北京：鼓励银行等金融机构围绕特医食品科技成果转化深化“科技研发贷”“科技成果转化贷”等金融产品",
+   "ko": "베이징: 은행 및 기타 금융 기관은 특수 의료 식품의 과학 기술 성과 전환을 중심으로 '기술 R&D 대출' 및 '기술 성과 전환 대출'과 같은 금융 상품을 심화하도록 권장됩니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7734806.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:30",
+   "ts": 1795073444,
+   "h": "目击者称沙特利雅得金融中心一大楼遭袭受损",
+   "ko": "목격자들은 사우디아라비아 리야드 금융센터의 한 건물이 공격을 받아 파손됐다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4511560.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:30",
+   "ts": 1795073458,
+   "h": "Anthropic股价在暗盘市场上涨约20%",
+   "ko": "그레이마켓에서 Anthropic 주가 약 20% 상승",
+   "u": "https://wallstreetcn.com/livenews/3202412",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:31",
+   "ts": 1795073466,
+   "h": "瑞士10月输往伦敦黄金出货量大幅下滑 流向中国的黄金增加",
+   "ko": "10월 스위스의 런던으로의 금 출하량은 급격히 감소한 반면 중국으로의 금 흐름은 증가했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0324672.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:31",
+   "ts": 1795073472,
+   "h": "商务部：智能眼镜、外骨骼助力器、具身智能机器人等智能新品销售额高速增长",
+   "ko": "상무부: 스마트글래스, 외골격 부스터, 지능형 지능형 로봇 등 스마트 신제품 판매 급증",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0324727.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:32",
+   "ts": 1795073578,
+   "h": "欧洲央行管委穆兰：通胀水平仍然过高。",
+   "ko": "ECB 운영위원회 위원 Mullan: 인플레이션은 여전히 ​​너무 높습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0325841.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:33",
+   "ts": 1795073588,
+   "h": "ECB's Moulin: Inflation is still too high.",
+   "ko": "ECB 물랭: 인플레이션은 여전히 ​​너무 높습니다.",
+   "u": "https://www.financialjuice.com/News/9859472/ECBs-Moulin-Inflation-is-still-too-high.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "16:33",
+   "ts": 1795073592,
+   "h": "欧洲央行管委穆兰：石油仍在推高通胀。",
+   "ko": "ECB 운영위원회 위원 Mullan: 석유는 여전히 인플레이션을 촉진하고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0326006.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:33",
+   "ts": 1795073598,
+   "h": "欧洲央行管委兼法国央行行长Moulin：通胀仍然过高。 石油仍在推高通胀。",
+   "ko": "물랭, ECB 이사회 겸 프랑스 은행 총재: 인플레이션은 여전히 ​​너무 높습니다. 석유는 여전히 인플레이션을 일으키고 있습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202414",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:33",
+   "ts": 1795073599,
+   "h": "ECB's Moulin: Oil is still fueling inflation.",
+   "ko": "ECB의 물랭: 석유는 여전히 인플레이션을 부채질하고 있습니다.",
+   "u": "https://www.financialjuice.com/News/9859473/ECBs-Moulin-Oil-is-still-fueling-inflation.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "16:33",
+   "ts": 1795073620,
+   "h": "圣泉集团：实控人一致行动人唐地源补充质押108.5万股",
+   "ko": "성취안그룹: 실제 경영자인 Tang Diyuan이 108.5만주를 추가로 약속했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4514294.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:33",
+   "ts": 1795073622,
+   "h": "玲珑轮胎：正在积极推进美国CBP对塞尔维亚玲珑进口暂扣令的解决进程",
+   "ko": "Linglong Tire: 당사는 세르비아산 Linglong 수입품에 대한 미국 CBP의 임시 억류 명령 해결 과정을 적극적으로 추진하고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4514307.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:34",
+   "ts": 1795073640,
+   "h": "国开行发行1年期债券，规模10亿元，发行利率1.3200%，预期1.2900%，投标倍数12.56倍，边际倍数8.41倍。",
+   "ko": "중국개발은행은 10억위안 규모의 1년 만기 채권을 발행했으며 발행이자율은 1.3200%, 예상배수는 1.2900%, 입찰배수는 12.56배, 한계배수는 8.41배이다.",
+   "u": "https://wallstreetcn.com/livenews/3202415",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:34",
+   "ts": 1795073694,
+   "h": "石油交易商与卡塔尔能源洽谈长期供货",
+   "ko": "석유 거래자들, 장기 공급을 위해 카타르 에너지와 협상 중",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7739146.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:36",
+   "ts": 1795073786,
+   "h": "继Quebecor提出收购方案后，BCE与Telus进行了初步磋商。Bell Canada的母公司BCE正在考虑下一步行动，包括分析与Telus达成潜在交易可能涉及的事项。公司已聘请财务和法律顾问。（环球邮报）",
+   "ko": "Quebecor가 제안한 인수 계획에 따라 BCE는 Telus와 예비 논의를 진행했습니다. Bell Canada의 모회사인 BCE는 Telus와의 잠재적인 거래에 포함될 수 있는 사항을 분석하는 것을 포함하여 다음 단계를 고려하고 있습니다. 회사는 재무 및 법률 고문을 고용했습니다. (글로브 앤 메일)",
+   "u": "https://wallstreetcn.com/livenews/3202416",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:37",
+   "ts": 1795073877,
+   "h": "韩股收盘",
+   "ko": "한국 주식 마감",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0329574.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:38",
+   "ts": 1795073937,
+   "h": "特朗普女婿库什纳：将前往柏林，与乌克兰总统泽连斯基及欧盟领导人进行磋商。",
+   "ko": "트럼프 사위 쿠슈너: 베를린으로 가서 젤렌스키 우크라이나 대통령과 유럽연합(EU) 지도자들과 협의할 예정이다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0330192.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:40",
+   "ts": 1795074001,
+   "h": "特朗普女婿库什纳：将进一步强化美国与乌克兰、欧洲之间的密切协调；就实现持久和平的核心要点推动各方形成统一立场；共同拟定下一轮多边谈判的议程与拟议谈判模式。",
+   "ko": "트럼프 사위 쿠슈너: 미국, 우크라이나, 유럽 간의 긴밀한 공조를 더욱 강화할 것입니다. 지속적인 평화 달성의 핵심 사항에 대해 모든 당사자가 통일된 입장을 형성하도록 촉진합니다. 차기 다자간 협상을 위한 의제와 제안된 협상 모델을 공동으로 공식화합니다.",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "16:40",
+   "ts": 1795074002,
+   "h": "US Envoy Kushner: Witkoff and I are heading to Berlin to consult with president Zelenskiy and European leaders at the coalition of the willing meeting.",
+   "ko": "쿠슈너 미국 특사: 위트코프와 저는 젤렌스키 대통령 및 유럽 지도자들과 기꺼이 회의 연합에서 협의하기 위해 베를린으로 향하고 있습니다.",
+   "u": "https://www.financialjuice.com/News/9859474/US-Envoy-Kushner-Witkoff-and-I-are-heading-to-Berlin-to-consult-with-president-Zelenskiy-and-European-leaders-at-the-coalition-of-the-willing-meeting.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "16:40",
+   "ts": 1795074008,
+   "h": "特朗普女婿库什纳：还将探讨志愿联盟的重要工作如何服务于战后安全安排，包括为乌克兰提供可信安全保障，以及搭建更广泛框架，巩固欧洲稳定、降低未来冲突风险。",
+   "ko": "트럼프의 사위 쿠슈너: 우리는 또한 우크라이나에 대한 신뢰할 수 있는 안보 보장을 제공하고 유럽의 안정을 공고히 하고 미래 분쟁의 위험을 줄이기 위한 더 넓은 틀을 구축하는 것을 포함하여 의지 연합의 중요한 작업이 전후 안보 조치에 어떻게 도움이 되는지 살펴볼 것입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4519779.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:40",
+   "ts": 1795074024,
+   "h": "东吴证券：拟发行股份及支付现金购买东海证券83.68%股份",
+   "ko": "동우증권: 동해증권 주식 83.68%를 매입하기 위해 주식을 발행하고 현금을 지불할 계획",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7743665.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:40",
+   "ts": 1795074048,
+   "h": "荷兰政府计划在未来6年内投入16亿欧元用于国防项目。",
+   "ko": "네덜란드 정부는 향후 6년간 방산사업에 16억유로를 투자할 계획이다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4520316.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:41",
+   "ts": 1795074105,
+   "h": "特朗普：请中国继续保持强大",
+   "ko": "트럼프 “중국을 강하게 유지해주세요”",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7744779.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:42",
+   "ts": 1795074151,
+   "h": "克里米亚大桥再次遭袭 列车暂停通行",
+   "ko": "크림 다리 또 공격… 열차 운행 중단",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7745434.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:42",
+   "ts": 1795074172,
+   "h": "华安稀有金属ETF11月20日开始发行",
+   "ko": "Huaan Rare Metal ETF는 11월 20일에 출시될 예정입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4522050.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:45",
+   "ts": 1795074304,
+   "h": "应对中国车企竞争 日本汽车业推动零部件材料标准统一",
+   "ko": "일본 자동차업계는 중국 자동차업체와의 경쟁에 대응해 부품·소재 규격 통일 추진",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4523882.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:45",
+   "ts": 1795074317,
+   "h": "广西修复经营主体信用信息24.9万条",
+   "ko": "광시복구사업업체 신용정보 249,000건",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4524091.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:46",
+   "ts": 1795074376,
+   "h": "法国将禽流感警报级别提高至最高级别。",
+   "ko": "프랑스가 조류독감 경보 수준을 최고 단계로 격상했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4524895.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:48",
+   "ts": 1795074486,
+   "h": "韩国大法院就金建希“三大争议”案终审宣判：有期徒刑4年",
+   "ko": "대법원, 김건희 '3대 논란' 사건 최종 판결 : 징역 4년",
+   "u": "https://wallstreetcn.com/livenews/3202418",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:48",
+   "ts": 1795074493,
+   "h": "中国人民对外友好协会会长杨万明访问尼泊尔",
+   "ko": "중국인민대외우호협회 회장 양완밍 네팔 방문",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4526481.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:48",
+   "ts": 1795074527,
+   "h": "是否接到台积电不给公司供应12nm以下流片的通知？翱捷科技回应",
+   "ko": "TSMC가 12nm 미만의 테이프아웃을 회사에 공급하지 않을 것이라는 통지를 받았습니까? Aojie Technology의 대응",
+   "u": "https://wallstreetcn.com/livenews/3202419",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:50",
+   "ts": 1795074603,
+   "h": "黑芝麻智能在深圳成立具身智能总部，已锁定多家头部机器人量产订单",
+   "ko": "Black Sesame Intelligence는 심천에 구현 지능 본사를 설립하고 다중 헤드 로봇에 대한 대량 생산 주문을 확보했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202420",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:50",
+   "ts": 1795074617,
+   "h": "黑芝麻智能在深圳成立具身智能总部，已锁定多家头部机器人量产订单",
+   "ko": "Black Sesame Intelligence는 심천에 구현 지능 본사를 설립하고 다중 헤드 로봇에 대한 대량 생산 주문을 확보했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0337644.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:50",
+   "ts": 1795074635,
+   "h": "韩国最高法院：“上诉法院对韩德洙伪造公文和伪证罪的定罪是适当的”。",
+   "ko": "대법원 \"공문서 위조 및 위증 혐의로 한덕수에 대한 항소심의 유죄 판결은 타당하다\"",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0337863.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:51",
+   "ts": 1795074704,
+   "h": "塞拉尼斯南京LCP扩建产能投入试生产",
+   "ko": "Celanese Nanjing LCP 증설능력 시험생산 개시",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4529286.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:52",
+   "ts": 1795074749,
+   "h": "根据澳门2027年财政年度预算案，澳门政府预计2027年当地博彩毛收入约为2,400亿澳门元。",
+   "ko": "마카오의 2027회계연도 예산에 따르면 마카오 정부는 2027년 현지 게임 수익이 약 2,400억 파타카에 이를 것으로 추정하고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7753402.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:52",
+   "ts": 1795074757,
+   "h": "克里米亚大桥再次遭袭，交通暂时中断",
+   "ko": "크림 다리 또 공격받아 교통 일시적 방해",
+   "u": "https://wallstreetcn.com/livenews/3202421",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:53",
+   "ts": 1795074839,
+   "h": "欧洲央行管委穆兰：法国不能忽视高债务和高赤字的现实。",
+   "ko": "ECB 운영위원회 위원 물랭: 프랑스는 높은 부채와 높은 적자의 현실을 무시할 수 없습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6223245.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:54",
+   "ts": 1795074857,
+   "h": "中东紧张局势威胁供应 欧洲天然气价格上涨",
+   "ko": "중동 긴장이 공급을 위협함에 따라 유럽 가스 가격이 상승",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7754776.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:54",
+   "ts": 1795074860,
+   "h": "ECB's Moulin: France can't ignore reality of high debt, deficit.",
+   "ko": "ECB 물랭: 프랑스는 높은 부채와 적자의 현실을 무시할 수 없습니다.",
+   "u": "https://www.financialjuice.com/News/9859490/ECBs-Moulin-France-cant-ignore-reality-of-high-debt-deficit.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "16:54",
+   "ts": 1795074861,
+   "h": "韩国水资源公社首次发行14亿港元3年期绿色债，定价为MS+45个基点。（彭博）",
+   "ko": "한국수자원공사는 MS+45 베이시스 포인트로 가격이 책정된 14억 홍콩달러 규모의 3년 녹색채권을 최초로 발행했습니다. (블룸버그)",
+   "u": "https://wallstreetcn.com/livenews/3202422",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:54",
+   "ts": 1795074877,
+   "h": "印尼财政部：预计今年国内生产总值增长率为5.5%-5.6%。",
+   "ko": "인도네시아 재무부: 올해 GDP 성장률은 5.5~5.6%로 예상됩니다.",
+   "u": "https://wallstreetcn.com/livenews/3202423",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:54",
+   "ts": 1795074882,
+   "h": "以军在约旦河西岸大规模搜捕",
+   "ko": "이스라엘군, 서안지구에서 대대적인 추격전 실시",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0340494.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:54",
+   "ts": 1795074890,
+   "h": "兴业证券：发行不超150亿元短期公司债券获证监会同意注册批复。",
+   "ko": "산업 증권: 150억 위안을 초과하지 않는 단기 회사채 발행은 중국 증권감독관리위원회의 등록 승인을 받았습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202424",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:54",
+   "ts": 1795074893,
+   "h": "四川：加快引育一批产业链关键环节重点企业",
+   "ko": "쓰촨성: 산업 체인의 핵심 연결고리에서 다수의 핵심 기업의 도입 및 육성을 가속화합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0340581.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:56",
+   "ts": 1795074966,
+   "h": "欧洲央行管委穆兰：目前尚未达到欧洲央行针对法国启用相关工具的标准。",
+   "ko": "ECB 운영위원회 위원 물랭: 프랑스에 대해 관련 도구를 사용하기 위한 ECB의 기준은 아직 충족되지 않았습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4532480.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:56",
+   "ts": 1795074978,
+   "h": "Putin departs for meeting with Xi and Trump at APEC - Ria",
+   "ko": "푸틴, APEC에서 시진핑·트럼프 회담 위해 출국 - 리아",
+   "u": "https://www.financialjuice.com/News/9859491/Putin-departs-for-meeting-with-Xi-and-Trump-at-APEC---Ria.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "16:59",
+   "ts": 1795075153,
+   "h": "西子洁能：终止筹划发行H股并在港交所上市事项。",
+   "ko": "Xizi Clean Energy: H주 발행 및 홍콩 증권거래소 상장 계획 종료.",
+   "u": "https://wallstreetcn.com/livenews/3202426",
+   "s": "wscn"
+  },
+  {
+   "kst": "16:59",
+   "ts": 1795075187,
+   "h": "第九届国际光伏与储能产业大会上光储项目集中签约 总金额535亿元",
+   "ko": "제9차 국제 태양광 및 에너지 저장 산업 회의에서 태양광 및 에너지 저장 프로젝트의 중앙 집중식 서명은 총 535억 위안에 달했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4534887.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:00",
+   "ts": 1795075203,
+   "h": "欧股开盘普跌，德国DAX指数跌1.11%，英国富时100指数跌1.05%，法国CAC40指数跌0.86%，欧洲斯托克50指数跌0.93%，意大利富时MIB指数跌1.37%。",
+   "ko": "독일 DAX 지수는 1.11%, 영국 FTSE 100 지수는 1.05%, 프랑스 CAC40 지수는 0.86%, 유럽 Stoxx 50 지수는 0.93%, 이탈리아 FTSE MIB 지수는 1.37% 하락하는 등 유럽 증시는 전반적으로 하락세를 보였습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6226835.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:00",
+   "ts": 1795075205,
+   "h": "杨元庆：联想集团千亿美元营收目标有信心提前一年兑现",
+   "ko": "Yang Yuanqing: Lenovo 그룹은 예정보다 1년 앞당겨 1000억 달러 매출 목표를 달성할 것이라고 확신합니다.",
+   "u": "https://wallstreetcn.com/livenews/3202427",
+   "s": "wscn"
+  },
+  {
+   "kst": "17:00",
+   "ts": 1795075210,
+   "h": "越南VN指数收盘下跌0.8%，报1689.62点。",
+   "ko": "베트남 VN 지수는 0.8% 하락한 1,689.62포인트로 마감했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6226895.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:00",
+   "ts": 1795075249,
+   "h": "河南省商丘市人大常委会原党组成员张团结被双开",
+   "ko": "허난(河南)성 상추(商丘)시 인민대표대회 상무위원회 당위원회 위원 장투안지에(張端節)가 이중 해고됐다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4535710.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:00",
+   "ts": 1795075257,
+   "h": "美诺华：盐酸文拉法辛原料药获欧洲CEP证书",
+   "ko": "Menovar: 벤라팍신 염산염 API 유럽 CEP 인증 획득",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4535850.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:01",
+   "ts": 1795075260,
+   "h": "德国电信旗下T.Capital向Mistral D轮融资投资1亿欧元。",
+   "ko": "Deutsche Telekom의 자회사인 T.Capital은 Mistral의 시리즈 D 파이낸싱에 1억 유로를 투자했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6227536.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:01",
+   "ts": 1795075272,
+   "h": "SOITEC股价上涨11%，此前该公司上调了光子学-SOI指导价。",
+   "ko": "SOITEC 주가는 회사가 Photonics-SOI 지침을 상향 조정한 후 11% 상승했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6227683.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:01",
+   "ts": 1795075278,
+   "h": "Currency Strength Chart: Strongest: NZD, EUR, GBP, CHF, CAD, USD, AUD, JPY - Weakest",
+   "ko": "통화 강도 차트: 가장 강함: NZD, EUR, GBP, CHF, CAD, USD, AUD, JPY - 가장 약함",
+   "u": "https://www.financialjuice.com/News/9859494/Currency-Strength-Chart-Strongest-NZD-EUR-GBP-CHF-CAD-USD-AUD-JPY---Weakest.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "17:01",
+   "ts": 1795075284,
+   "h": "欧洲斯托克50指数开盘涨0.65%，德国DAX指数涨0.3%，英国富时100指数平开，法国CAC 40指数涨0.6%。",
+   "ko": "유럽 ​​Stoxx 50 지수는 0.65% 상승했고, 독일 DAX 지수는 0.3% 상승했으며, 영국 FTSE 100 지수는 보합세, 프랑스 CAC 40 지수는 0.6% 상승했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202428",
+   "s": "wscn"
+  },
+  {
+   "kst": "17:01",
+   "ts": 1795075314,
+   "h": "欧洲央行管委兼法国央行行长Moulin：法国不能忽视高额债务及赤字的现实。 目前法国尚未满足欧洲央行动用相关工具的条件。",
+   "ko": "유럽중앙은행 이사회 겸 프랑스 중앙은행 총재 물랭: 프랑스는 높은 부채와 적자의 현실을 무시할 수 없습니다. 현재 프랑스는 유럽중앙은행이 관련 도구를 사용할 수 있는 조건을 아직 충족하지 못했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202429",
+   "s": "wscn"
+  },
+  {
+   "kst": "17:02",
+   "ts": 1795075335,
+   "h": "诺华制药 股价在设定新的中期目标后下跌1.5%。",
+   "ko": "노바티스 주가는 새로운 중기 목표 설정 후 1.5% 하락했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0345058.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:02",
+   "ts": 1795075372,
+   "h": "意大利Technoprobe公司股价早盘上涨5%，意法半导体上涨4.7%。",
+   "ko": "이탈리아 Technoprobe의 주가는 장 초반 5% 상승했고, STMicroelectronics는 4.7% 상승했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7760879.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:03",
+   "ts": 1795075394,
+   "h": "意大利裕信银行股价上涨1.8%，此前与德国就收购德国商业银行达成协议。",
+   "ko": "이탈리아 은행 UniCredit의 주가는 독일과 Commerzbank 인수 합의에 도달한 후 1.8% 상승했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0345686.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:04",
+   "ts": 1795075458,
+   "h": "美国国家公路交通安全管理局（NHTSA）：丰田汽车工程与制造公司正在召回 314,029 辆美国汽车，原因是安全气囊充气装置可能发生破裂，导致尖锐金属碎片击中驾驶员或其他乘员，造成严重伤亡。",
+   "ko": "미국 도로교통안전국(NHTSA): 토요타 자동차 엔지니어링 및 제조(Toyota Motor Engineering and Manufacturing)는 에어백 팽창기가 파열되어 날카로운 금속 파편이 운전자나 다른 탑승자를 강타하여 심각한 부상이나 사망을 초래할 수 있기 때문에 미국 차량 314,029대를 리콜합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6229647.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:04",
+   "ts": 1795075481,
+   "h": "马斯克说深圳建筑很酷",
+   "ko": "머스크는 선전 건축이 멋지다고 말했다",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7762086.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:05",
+   "ts": 1795075506,
+   "h": "三星高管回应AI泡沫争议：NeoCloud风险有限，AI投资源于真实需求",
+   "ko": "삼성 경영진, AI 버블 논란에 대응: NeoCloud 위험은 제한적이며 AI 투자는 실제 요구에서 비롯됨",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7762357.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:05",
+   "ts": 1795075553,
+   "h": "JEDEC发布DDR6标准预览：更强性能、更大容量、更优能效与数据中心级可靠性",
+   "ko": "JEDEC, 더 강력한 성능, 더 큰 용량, 더 나은 에너지 효율성 및 데이터 센터 수준 신뢰성을 갖춘 DDR6 표준 미리 보기 출시",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4539379.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:06",
+   "ts": 1795075564,
+   "h": "也门胡塞武装称多地遭沙特空袭 致11死36伤",
+   "ko": "예멘 후티 반군은 사우디의 공습으로 여러 곳이 공격을 받아 11명이 사망하고 36명이 부상했다고 밝혔습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202430",
+   "s": "wscn"
+  },
+  {
+   "kst": "17:08",
+   "ts": 1795075680,
+   "h": "俄罗斯总统普京抵达会晤现场",
+   "ko": "푸틴 러시아 대통령이 회의에 도착했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6232204.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:08",
+   "ts": 1795075723,
+   "h": "俄罗斯总统普京抵达中俄美元首会晤现场。（央视）",
+   "ko": "블라디미르 푸틴 러시아 대통령이 중국, 러시아, 미국 정상 간 회담에 도착했습니다. (CCTV)",
+   "u": "https://wallstreetcn.com/livenews/3202431",
+   "s": "wscn"
+  },
+  {
+   "kst": "17:08",
+   "ts": 1795075737,
+   "h": "PayPoint股价在公布上半年业绩后下跌10%。",
+   "ko": "페이포인트 주가는 상반기 실적 발표 이후 10% 하락했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0349542.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:09",
+   "ts": 1795075743,
+   "h": "港股收盘：恒生指数跌1.95%，恒生科技指数跌2.33%",
+   "ko": "홍콩 주식 마감: 항셍 지수 1.95% 하락, 항셍 기술 지수 2.33% 하락",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0349615.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:09",
+   "ts": 1795075768,
+   "h": "湖北：将进一步加强新一代通信网和算力网规划建设",
+   "ko": "후베이: 차세대 통신 네트워크와 컴퓨팅 파워 네트워크의 계획 및 구축을 더욱 강화할 것입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7765664.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:10",
+   "ts": 1795075803,
+   "h": "恒生指数收盘跌1.95%，恒生科技指数跌2.33%，腾讯控股跌6.55%",
+   "ko": "항셍지수는 1.95% 하락했고, 항셍기술지수는 2.33%, 텐센트 홀딩스는 6.55% 하락했다.",
+   "u": "https://wallstreetcn.com/livenews/3202432",
+   "s": "wscn"
+  },
+  {
+   "kst": "17:10",
+   "ts": 1795075848,
+   "h": "安联投资莫蒂耶：Anthropic上市短期来看是利好消息。",
+   "ko": "Allianz Investment Motier: Anthropic의 상장은 단기적으로는 좋은 소식입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4543049.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:10",
+   "ts": 1795075857,
+   "h": "安联投资莫蒂耶：对Anthropic的中长期前景存疑。",
+   "ko": "Allianz Investors Motier: Anthropic의 중장기적 전망에 대해 의구심이 듭니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0350971.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:11",
+   "ts": 1795075884,
+   "h": "安联投资莫蒂耶：以美元计价的芯片需求激增。",
+   "ko": "Allianz Investors Motier: 달러 기준으로 칩 수요가 급증하고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4543599.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:11",
+   "ts": 1795075892,
+   "h": "巴基斯坦军方说打死22名恐怖分子",
+   "ko": "파키스탄군 \"테러리스트 22명 사살\"",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7767449.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:11",
+   "ts": 1795075897,
+   "h": "花旗：英伟达业绩强化核心投资论点，维持“买入”评级及目标价225美元",
+   "ko": "Citi: Nvidia의 실적은 핵심 투자 원칙을 강화하고 \"매수\" 등급과 목표 가격 225달러를 유지합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7767566.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:12",
+   "ts": 1795075957,
+   "h": "联合利华大中华区“一把手”落定：陈戈继续掌舵，统管全品类",
+   "ko": "Unilever Greater China의 \"최고 리더\"가 결정되었습니다. Chen Ge는 계속해서 모든 카테고리를 주도하고 감독할 것입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4544746.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:12",
+   "ts": 1795075978,
+   "h": "欧洲央行穆兰：受油价影响，通胀水平依旧过高",
+   "ko": "ECB Mullan: 유가의 영향으로 인플레이션이 여전히 너무 높음",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6235698.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:13",
+   "ts": 1795075986,
+   "h": "安联投资：法国债务市场并未出现恐慌性抛售。",
+   "ko": "Allianz Investments: 프랑스 채권 시장에는 패닉 매도세가 없습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7768723.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:13",
+   "ts": 1795076022,
+   "h": "俄罗斯任命的克里米亚州长表示，经克里米亚大桥的铁路交通将于当地时间16时左右恢复。",
+   "ko": "러시아가 임명한 크림 반도 주지사는 크림 다리를 통한 철도 교통이 현지 시간으로 오후 16시쯤 재개될 것이라고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4545470.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:13",
+   "ts": 1795076035,
+   "h": "Xi: To continue the positive momentum of China-US relationship.",
+   "ko": "시 주석: 중미 관계의 긍정적인 모멘텀을 계속 이어가겠습니다.",
+   "u": "https://www.financialjuice.com/News/9859503/Xi-To-continue-the-positive-momentum-of-China-US-relationship.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "17:14",
+   "ts": 1795076045,
+   "h": "特朗普说美国不支持台独",
+   "ko": "트럼프 “미국은 대만 독립 지지하지 않는다”",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6236314.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:14",
+   "ts": 1795076057,
+   "h": "Xi calls for more cooperation, fewer disputes with US - Xinhua.",
+   "ko": "시 주석은 미국과의 더 많은 협력과 더 적은 분쟁을 요구합니다.",
+   "u": "https://www.financialjuice.com/News/9859504/Xi-calls-for-more-cooperation-fewer-disputes-with-US---Xinhua.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "17:14",
+   "ts": 1795076066,
+   "h": "习近平会见美国总统特朗普",
+   "ko": "시진핑, 트럼프 미국 대통령과 회담",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "17:14",
+   "ts": 1795076070,
+   "h": "韩国成为全球第四个年出口额突破1万亿美元的国家",
+   "ko": "한국, 세계 4번째로 연간 수출 1조달러 돌파 국가",
+   "u": "https://wallstreetcn.com/livenews/3202433",
+   "s": "wscn"
+  },
+  {
+   "kst": "17:14",
+   "ts": 1795076095,
+   "h": "Xi, in meeting with Trump: China, US agree to formulate action plan for constructive strategic stable relationship.",
+   "ko": "시 주석, 트럼프 대통령과 회담에서 중국과 미국은 건설적이고 전략적으로 안정적인 관계를 위한 행동 계획을 수립하기로 합의했습니다.",
+   "u": "https://www.financialjuice.com/News/9859505/Xi-in-meeting-with-Trump-China-US-agree-to-formulate-action-plan-for-constructive-strategic-stable-relationship.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "17:14",
+   "ts": 1795076097,
+   "h": "习近平会见美国总统特朗普",
+   "ko": "시진핑, 트럼프 미국 대통령과 회담",
+   "u": "https://wallstreetcn.com/livenews/3202434",
+   "s": "wscn"
+  },
+  {
+   "kst": "17:15",
+   "ts": 1795076114,
+   "h": "Xi: US, China to cooperate to address AI safety risks.",
+   "ko": "시진핑 \"미국과 중국이 AI 안전 위험 해결을 위해 협력할 것\"",
+   "u": "https://www.financialjuice.com/News/9859506/Xi-US-China-to-cooperate-to-address-AI-safety-risks.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "17:16",
+   "ts": 1795076175,
+   "h": "Xi: To boost communication in trade, AI with US - Xinhua",
+   "ko": "시진핑 “무역 소통 강화하려면 AI로 미국과” - 신화통신",
+   "u": "https://www.financialjuice.com/News/9859510/Xi-To-boost-communication-in-trade-AI-with-US---Xinhua.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "17:18",
+   "ts": 1795076297,
+   "h": "九芝堂：参股公司研发新药在国内获得临床试验批准",
+   "ko": "Jiuzhitang: 합자회사가 개발한 신약이 중국에서 임상시험 승인을 받았습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7771898.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:19",
+   "ts": 1795076356,
+   "h": "大华继显：降腾讯目标价至500港元，人工智能相关成本拖累盈利能力",
+   "ko": "UOB Kay Hian: Tencent의 목표주가를 HK$500로 낮추고, 인공지능 관련 비용으로 수익성 저하",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0356178.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:19",
+   "ts": 1795076383,
+   "h": "韩国大法院就韩德洙涉嫌参与内乱案终审宣判：返回二审法院重审",
+   "ko": "대법원이 한덕수 내란 혐의에 대한 최종 판결을 내렸다. 2심 재심으로 돌아가야 한다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0356560.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:20",
+   "ts": 1795076425,
+   "h": "印度石油部长：预计到2030年，印度石化产品需求将增至5500万吨.",
+   "ko": "인도 석유장관: 인도의 석유화학 제품 수요는 2030년까지 5,500만 톤으로 증가할 것으로 예상됩니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7773294.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:20",
+   "ts": 1795076447,
+   "h": "中马传动：股票交易异常波动 无应披露未披露重大事项",
+   "ko": "중국-말레이시아 전송 : 비정상적인 주식거래 변동, 주요 공개 또는 비공개 사항 없음",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4549998.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:24",
+   "ts": 1795076643,
+   "h": "花旗：维持三大中资电讯股“买入”评级，明年算力基建建设料重回焦点",
+   "ko": "씨티: 중국 3대 통신주에 대해 '매수' 투자의견 유지, 컴퓨팅 파워 인프라 건설자재는 내년부터 다시 초점을 맞출 것",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfam1023029.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:24",
+   "ts": 1795076688,
+   "h": "COP31主席呼吁各方加快凝聚共识",
+   "ko": "COP31 의장은 모든 당사자에게 합의 구축 속도를 높일 것을 촉구합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7776832.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:26",
+   "ts": 1795076773,
+   "h": "商务部：1-10月社会消费商品和服务零售总额同比增长2.5%",
+   "ko": "상무부: 1~10월 소비재 및 서비스 총 소매판매액 전년 동기 대비 2.5% 증가",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4554055.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:27",
+   "ts": 1795076847,
+   "h": "欧盟对华光缆发起第一次反倾销日落复审调查",
+   "ko": "EU, 중국 광케이블에 대한 최초의 반덤핑 일몰 검토 조사 시작",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4554758.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:28",
+   "ts": 1795076889,
+   "h": "亚投行与联合国可持续发展目标联合基金签署合作意向书",
+   "ko": "AIIB와 유엔 지속가능발전목표 공동기금, 협력 의향서 서명",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7778741.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:30",
+   "ts": 1795077009,
+   "h": "网易第三季度经调整每股ADS持续经营净收益14.21元 低于预估",
+   "ko": "NetEase의 3분기 ADS당 계속 운영 조정 순이익은 14.21위안으로 예상보다 낮았습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4555958.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:30",
+   "ts": 1795077026,
+   "h": "网易第三季度经调整每股ADS持续经营净收益为14.21元人民币，低于市场预期的16.36元人民币。",
+   "ko": "NetEase의 3분기 ADS당 계속 운영 조정 순이익은 14.21위안으로 시장 기대치인 16.36위안보다 낮았습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4556164.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:30",
+   "ts": 1795077035,
+   "h": "中国工程院院士陈学东：具身智能能够重塑工业制造",
+   "ko": "중국공정원 학자 Chen Xuedong: 구체화된 지능이 산업 제조를 변화시킬 수 있음",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6246587.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:30",
+   "ts": 1795077042,
+   "h": "网易第三季度营收279亿元人民币，预估303.8亿元人民币。 第三季度经调整每股ADS持续经营净收益14.21元人民币，预估16.36元人民币。 第三季度在线游戏服务净收入229.4亿元人民币，同比下降1.7%，预估253.4亿元人民币。 第三季度创新及其他业务净收入15.4亿元人民币，同比增长7.1%，预估14.1亿",
+   "ko": "NetEase의 3분기 매출은 279억 위안으로 추정치 303억 8000만 위안과 비교됩니다. 3분기 ADS당 계속 영업 조정 순이익은 14.21위안으로 예상치 16.36위안보다 크게 늘어났습니다. 3분기 온라인 게임 서비스 순수익은 229억 4천만 위안으로 전년 대비 1.7% 감소했으며 추정치는 253억 4천만 위안이었습니다. 3분기 혁신 및 기타 사업 부문의 순이익은 15억 4천만 위안으로 전년 대비 7.1% 증가했으며 추정치는 14억 1천만 위안이었습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202446",
+   "s": "wscn"
+  },
+  {
+   "kst": "17:30",
+   "ts": 1795077049,
+   "h": "德意志银行 股价上涨 2%，在经历了自 2 月以来最大的两日跌幅后反弹。",
+   "ko": "도이체방크 주가는 2% 상승해 2월 이후 최대 이틀간 하락세에서 반등했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4556493.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:30",
+   "ts": 1795077052,
+   "h": "在岸人民币兑美元收盘报6.6651，较上一交易日上涨2点。",
+   "ko": "역내 위안화는 미국 달러 대비 6.6651로 마감했는데, 이는 전 거래일보다 2포인트 상승한 수치입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfam1026752.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:31",
+   "ts": 1795077066,
+   "h": "波兰11月消费者信心指数跌至-14.2，预期为-13.8。",
+   "ko": "11월 폴란드 소비자신뢰지수는 -13.8로 예상했던 것과 비교하여 -14.2로 하락했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfam1026878.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:31",
+   "ts": 1795077083,
+   "h": "瑞典央行行长特登：与此同时，由于中东冲突以及对人工智能的大规模投资，燃料、电力和半导体等成本已经上升。",
+   "ko": "테든 스웨덴 Riksbank 총재: 동시에 중동 분쟁과 인공지능에 대한 대규모 투자로 인해 연료, 전기, 반도체 등 비용이 상승했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfam1027100.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:31",
+   "ts": 1795077102,
+   "h": "瑞典央行行长特登：我们预计未来政策利率将逐步回归正常化。",
+   "ko": "Riden: 향후 정책금리는 점진적으로 정상화될 것으로 예상됩니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7780987.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:32",
+   "ts": 1795077170,
+   "h": "马斯克：星链起源于西雅图的一次演讲。",
+   "ko": "머스크: 스타링크는 시애틀 연설에서 시작됐습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6248109.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:32",
+   "ts": 1795077179,
+   "h": "印度NIFTY 50指数延续涨势，最新上涨0.75%。",
+   "ko": "인도 NIFTY 50 지수는 최근 0.75% 상승하며 상승세를 이어갔습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4558295.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:33",
+   "ts": 1795077216,
+   "h": "瑞典央行行长特登：当前政策相当于为经济“松开油门”。",
+   "ko": "테든 스웨덴 중앙은행 총재: 현 정책은 경제의 '가속기 제거'와 같습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4558849.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:34",
+   "ts": 1795077251,
+   "h": "习近平：大国和，则世界安；大国斗，则世界乱",
+   "ko": "시진핑: 대국이 화합하면 세계는 안전할 것입니다. 큰 나라들이 싸우면 세계는 혼란에 빠질 것입니다.",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "17:35",
+   "ts": 1795077333,
+   "h": "快手科技第三季度营收316亿元人民币，低于市场预估的329亿元人民币。快手科技前9个月营收1008.4亿元人民币。",
+   "ko": "Kuaishou Technology의 3분기 매출은 316억 위안으로 시장 추정치 329억 위안보다 낮았습니다. Kuaishou Technology의 첫 9개월간 매출은 1008억 4천만 위안이었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4560253.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:35",
+   "ts": 1795077340,
+   "h": "快手科技第三季度平均月活跃用户达8.2亿，高于预估的7.6亿。",
+   "ko": "Kuaishou Technology의 3분기 평균 월간 활성 사용자는 8억 2천만 명에 달해 예상치인 7억 6천만 명보다 높았습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4560311.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:35",
+   "ts": 1795077347,
+   "h": "快手科技第三季度调整后EBITDA为38.9亿元人民币。",
+   "ko": "Kuaishou Technology의 3분기 조정 EBITDA는 38억 9천만 위안이었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7784034.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:35",
+   "ts": 1795077352,
+   "h": "快手科技第三季度直播业务收入为77.5亿元人民币，低于市场预估的79.4亿元人民币。",
+   "ko": "Kuaishou Technology의 3분기 생방송 사업 수익은 77억 5천만 위안으로 시장 추정치인 79억 4천만 위안보다 낮았습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfam1029916.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:35",
+   "ts": 1795077358,
+   "h": "快手科技第三季度线上营销服务收入178.7亿元人民币 预估191.7亿元人民币",
+   "ko": "Kuaishou Technology의 3분기 온라인 마케팅 서비스 수익은 178억 7천만 위안으로 191억 7천만 위안으로 추산됩니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4560473.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:36",
+   "ts": 1795077360,
+   "h": "Putin: We should discuss global and regional ties, as well as energy security - IFX.",
+   "ko": "푸틴: 우리는 에너지 안보뿐만 아니라 글로벌 및 지역적 관계에 대해서도 논의해야 합니다 - IFX.",
+   "u": "https://www.financialjuice.com/News/9859552/Putin-We-should-discuss-global-and-regional-ties-as-well-as-energy-security---IFX.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "17:36",
+   "ts": 1795077365,
+   "h": "快手科技第三季度线上营销服务收入为178.7亿元人民币。",
+   "ko": "Kuaishou Technology의 3분기 온라인 마케팅 서비스 수익은 178억 7천만 위안을 기록했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7784225.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:36",
+   "ts": 1795077371,
+   "h": "快手科技第三季度销售费用为94.8亿元人民币，低于市场预估的106.6亿元人民币。",
+   "ko": "Kuaishou Technology의 3분기 판매비용은 94억 8천만 위안으로 시장 예상치 106억 6천만 위안보다 낮았습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7784300.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:36",
+   "ts": 1795077400,
+   "h": "Trump: We've already discussed a lot.",
+   "ko": "트럼프: 우리는 이미 많은 논의를 했습니다.",
+   "u": "https://www.financialjuice.com/News/9859553/Trump-Weve-already-discussed-a-lot.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "17:36",
+   "ts": 1795077410,
+   "h": "快手科技第三季度营收316亿元人民币，预估329亿元人民币。 第三季度调整后净利润7.90亿元人民币，预估7.088亿元人民币。 第三季度净亏损9.510亿元人民币，预估亏损1.637亿元人民币。 第三季度调整后息税折旧及摊销前利润38.9亿元人民币，同比下降49%，预估35.8亿元人民币。 第三季度研发支出51.8亿",
+   "ko": "Kuaishou Technology의 3분기 매출은 316억 위안으로 추정치 329억 위안에 비해 크게 늘었습니다. 3분기 조정순이익은 7억9천만위안으로 예상치 7억880만위안보다 크게 늘었다. 3분기 순손실은 9억5100만 위안, 추정 손실액은 1억6370만 위안이다. 3분기 이자, 세금, 감가상각비 및 상각비를 제외한 조정 수익은 38억 9천만 위안으로 전년 대비 49% 감소했으며 추정치는 35억 8천만 위안이었습니다. 3분기 R&D 지출은 51억8000만 달러",
+   "u": "https://wallstreetcn.com/livenews/3202451",
+   "s": "wscn"
+  },
+  {
+   "kst": "17:37",
+   "ts": 1795077446,
+   "h": "快手科技：2026年第四季度收入和盈利能力可能持续承压",
+   "ko": "Kuaishou Technology: 2026년 4분기에도 수익과 수익성이 계속해서 압박을 받을 수 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4561385.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:37",
+   "ts": 1795077463,
+   "h": "习近平：大国良性互动不是选择题，而是必答题",
+   "ko": "시진핑 \"강대국 긍정적 상호작용은 객관식 질문 아닌 반드시 답해야 할 질문\"",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4561620.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:38",
+   "ts": 1795077485,
+   "h": "德意志银行获得来自德商银行客户的委托。",
+   "ko": "Deutsche Bank는 Commerzbank 고객으로부터 위임장을 받습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfam1031093.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:38",
+   "ts": 1795077495,
+   "h": "Trump: We're positioned to discuss reducing nuclear weapons.",
+   "ko": "트럼프: 우리는 핵무기 감축을 논의할 위치에 있습니다.",
+   "u": "https://www.financialjuice.com/News/9859554/Trump-Were-positioned-to-discuss-reducing-nuclear-weapons.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "17:38",
+   "ts": 1795077511,
+   "h": "Trump: It's very hard to give nuclear weapons up.",
+   "ko": "트럼프: 핵무기를 포기하는 것은 매우 어렵다.",
+   "u": "https://www.financialjuice.com/News/9859555/Trump-Its-very-hard-to-give-nuclear-weapons-up.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "17:39",
+   "ts": 1795077562,
+   "h": "习近平：大国良性互动不是选择题，而是必答题",
+   "ko": "시진핑 \"강대국 긍정적 상호작용은 객관식 질문 아닌 반드시 답해야 할 질문\"",
+   "u": "https://wallstreetcn.com/livenews/3202455",
+   "s": "wscn"
+  },
+  {
+   "kst": "17:39",
+   "ts": 1795077581,
+   "h": "中金黄金：周洲在中国黄金集团的职务没有变动",
+   "ko": "CICC Gold: China Gold Group에서 Zhou Zhou의 지위는 변하지 않았습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4562849.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:39",
+   "ts": 1795077597,
+   "h": "MEDIOS AG（股票代码：ILM1k.DE）股价涨幅扩大，目前上涨8.9%，有望创下自2025年11月以来的最佳单日表现。",
+   "ko": "MEDIOS AG(티커: ILM1k.DE) 주가는 상승폭을 확대해 현재 8.9% 상승해 2025년 11월 이후 최고의 일일 실적을 기록하고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4562980.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:40",
+   "ts": 1795077652,
+   "h": "1-10月份，河北全省规模以上工业战略性新兴产业增加值同比增长9.2%",
+   "ko": "1월부터 10월까지 허베이성에서 지정된 규모 이상의 전략적 신흥 산업의 부가가치는 전년 대비 9.2% 증가했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4563578.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:42",
+   "ts": 1795077751,
+   "h": "普京提议讨论全球、地区事务和能源问题。（塔斯社）",
+   "ko": "푸틴 대통령은 글로벌, 지역 문제, 에너지 문제를 논의할 것을 제안했다. (타스)",
+   "u": "https://wallstreetcn.com/livenews/3202459",
+   "s": "wscn"
+  },
+  {
+   "kst": "17:42",
+   "ts": 1795077763,
+   "h": "特朗普：我们有责任保持公开对话。 在讨论削减核武器方面具有独特的优势。 在核扩散威胁问题上合作至关重要。 将讨论俄罗斯和乌克兰冲突问题。 国际刑事法院已经失控了。 看看我们能不能做成点什么。",
+   "ko": "트럼프: 우리는 열린 대화를 유지할 책임이 있습니다. 핵무기 감축을 논의하는 데는 남다른 장점이 있다. 핵확산 위협에 대한 협력은 매우 중요합니다. 러시아와 우크라이나의 갈등이 논의될 것입니다. ICC는 통제 불능이다. 우리가 뭔가를 성취할 수 있는지 봅시다.",
+   "u": "https://wallstreetcn.com/livenews/3202460",
+   "s": "wscn"
+  },
+  {
+   "kst": "17:43",
+   "ts": 1795077781,
+   "h": "机构：部分CSP下修订单抵销北美拉货，2027年NAND Flash供需将反转走跌",
+   "ko": "대행사: 일부 CSP는 북미 출하량을 상쇄하기 위해 수정 주문을 하고, NAND 플래시 수급은 2027년에 역전되어 감소할 것입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7788880.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:43",
+   "ts": 1795077820,
+   "h": "中信董事会批准2027-2030年股东回报计划。",
+   "ko": "CITIC 이사회는 2027~2030년 주주환원 계획을 승인했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7789392.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:43",
+   "ts": 1795077827,
+   "h": "中信证券：新方案下将每年派发两次现金股息。",
+   "ko": "CITIC Securities: 새로운 계획에 따라 현금 배당금은 1년에 2번 지급됩니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7789473.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:44",
+   "ts": 1795077882,
+   "h": "华创证券首席经济学家张瑜：股票市场将进入盈利和估值的博弈期",
+   "ko": "Zhang Yu, Huachuang Securities 수석 이코노미스트: 주식 시장은 수익성과 가치 평가 사이의 게임 기간에 들어갈 것입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7790064.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:45",
+   "ts": 1795077939,
+   "h": "华大智造等在海南成立共赢创投基金",
+   "ko": "MGI 등 하이난 상생 벤처캐피털 펀드 설립",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfam1035554.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:46",
+   "ts": 1795078000,
+   "h": "阿尔斯通股价延续周三跌势，最新下跌3.8%，是欧洲斯托克600指数中表现最差的股票之一。",
+   "ko": "Alstom의 주가는 수요일 손실을 확대했으며 마지막으로 3.8% 하락하여 유럽 Stoxx 600 지수에서 최악의 성과를 내는 주식 중 하나가 되었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7791632.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:47",
+   "ts": 1795078030,
+   "h": "全国预算与会计研究会第六届会员代表大会在北京召开",
+   "ko": "전국예산회계연구회 제6차 회원총회가 베이징에서 개최되었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4568347.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:47",
+   "ts": 1795078040,
+   "h": "蒙古议会投票确认总统辞职。",
+   "ko": "몽골 의회는 대통령의 사임을 승인하기 위해 투표를 했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4568486.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:48",
+   "ts": 1795078130,
+   "h": "香农芯创：股东深圳新联普补充质押10万股股份",
+   "ko": "Shannon Xinchuang: 주주 Shenzhen Xinlianpu가 추가로 100,000주를 약속했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4569543.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:50",
+   "ts": 1795078211,
+   "h": "江化微：股票交易异常波动 无应披露未披露重大事项",
+   "ko": "Jianghua Micro : 비정상적인 주식 거래 변동 및 공개해야 할 주요 미공개 사항 없음",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7794192.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:50",
+   "ts": 1795078231,
+   "h": "快手：公司在可灵AI及整体AI战略上的持续投入将继续带来成本影响，第四季度收入和盈利能力可能持续承压",
+   "ko": "Kuaishou: Keling AI에 대한 회사의 지속적인 투자와 전반적인 AI 전략은 계속 비용에 영향을 미칠 것이며 4분기에도 수익과 수익성이 계속 압박을 받을 수 있습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202462",
+   "s": "wscn"
+  },
+  {
+   "kst": "17:50",
+   "ts": 1795078236,
+   "h": "第六届中泰智库论坛在曼谷举行",
+   "ko": "제6차 중국-태국 싱크탱크 포럼이 방콕에서 개최되었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4570921.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:50",
+   "ts": 1795078247,
+   "h": "快手：第三季度直播业务收入78亿元，同比下降19%",
+   "ko": "Kuaishou: 3분기 생방송 사업 수익은 78억 위안으로 전년 동기 대비 19% 감소했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202463",
+   "s": "wscn"
+  },
+  {
+   "kst": "17:52",
+   "ts": 1795078329,
+   "h": "欧洲央行行长拉加德：信任是制度、社会及货币体系的基石。在信任稀缺的当下，我们必须竭尽全力维护并强化这一基础。",
+   "ko": "라가르드 유럽중앙은행 총재: 신뢰는 제도적, 사회적, 통화 시스템의 초석입니다. 신뢰가 부족한 시대에 우리는 이 기반을 유지하고 강화하기 위해 최선을 다해야 합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7795783.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:52",
+   "ts": 1795078337,
+   "h": "阿达尼能源赢得比哈尔邦电力传输协议。",
+   "ko": "Adani Energy가 Bihar 송전 계약을 따냈습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4572226.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:55",
+   "ts": 1795078552,
+   "h": "印度SENSEX指数上涨1%，报82,854.03点。",
+   "ko": "인도 SENSEX 지수는 1% 상승한 82,854.03포인트를 기록했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7798364.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:56",
+   "ts": 1795078561,
+   "h": "上期所对部分客户采取限制开仓监管措施",
+   "ko": "SHFE는 일부 고객의 채용을 제한하기 위한 규제 조치를 취했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7798485.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:56",
+   "ts": 1795078582,
+   "h": "印度Nifty指数上涨1%至25480.95点。",
+   "ko": "인도 Nifty 지수는 1% 상승한 25,480.95 포인트를 기록했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4575113.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:56",
+   "ts": 1795078599,
+   "h": "燧原科技今日跌20.00%，有4家机构专用席位净卖出5.10亿元",
+   "ko": "Suiyuan Technology는 오늘 20.00% 하락했으며, 4개 기관이 순액 5억 1천만 위안에 독점 좌석을 판매했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7799074.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:57",
+   "ts": 1795078634,
+   "h": "马斯克：来到中国，才能更好读懂中国",
+   "ko": "머스크: 중국에 와야만 중국을 더 잘 이해할 수 있다",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4575723.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:57",
+   "ts": 1795078656,
+   "h": "乘联分会：10月狭义乘用车零售164.8万辆，同比下降26.9%",
+   "ko": "승용차협회: 10월 좁게 정의된 승용차 소매판매는 164만8000대로 전년 동기 대비 26.9% 감소했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7799746.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:57",
+   "ts": 1795078670,
+   "h": "2027届全国普通高校毕业生就业创业工作会议召开",
+   "ko": "2027 전국대졸업자 취업 및 창업 컨퍼런스 개최",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7799957.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:58",
+   "ts": 1795078684,
+   "h": "乘联分会：乘联分会，11月车市虽步入年末冲刺阶段，但季节性拉动明显弱化，需求端仍未见根本性改善",
+   "ko": "승용차협회지부: 승용차협회지부. 자동차 시장이 11월 연말 스프린트 단계에 진입했지만 계절적 견인력이 크게 약화되었으며 수요 측면에서도 근본적인 개선이 이루어지지 않았습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7800125.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:58",
+   "ts": 1795078708,
+   "h": "中广天择：股票交易异常波动 无应披露未披露重大事项",
+   "ko": "Zhongguang Tianze : 비정상적인 주식 거래 변동 및 공개 또는 공개되지 않은 주요 사항 없음",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7800384.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:59",
+   "ts": 1795078782,
+   "h": "Tiktok to attend US House committee roundtable December 15 - Information",
+   "ko": "Tiktok, 12월 15일 미국 하원 위원회 원탁회의에 참석 - 정보",
+   "u": "https://www.financialjuice.com/News/9859575/Tiktok-to-attend-US-House-committee-roundtable-December-15---Information.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "17:59",
+   "ts": 1795078789,
+   "h": "香港恒生港美科技指数将新增Anthropic至指定美国上市成份股名单，9只美国上市成份股的比重将于11月30日市后重新计算至等权重。",
+   "ko": "홍콩의 항셍 홍콩-미국 기술 지수(Hang Seng Hong Kong-US Technology Index)는 미국 상장 구성주 지정 목록에 Anthropic을 추가할 예정이며, 미국 상장 구성주 9개의 비율은 11월 30일 시장 개장 후 동일한 가중치로 재계산될 예정입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4577566.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:00",
+   "ts": 1795078810,
+   "h": "Eurozone Current Account Actual 12.474B (Forecast -, Previous 8.709B)",
+   "ko": "유로존 경상 수지 실제 124억7400만 달러(예측 -, 이전 8709억)",
+   "u": "https://www.financialjuice.com/News/9859576/Eurozone-Current-Account-Actual-12474B-Forecast---Previous-8709B.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:00",
+   "ts": 1795078810,
+   "h": "欧元区9月季调后经常帐 124.74亿欧元，前值 87亿欧元。",
+   "ko": "9월 계절적 조정 후 유로존 경상수지는 124억 7400만 유로로 이전 수치인 87억 유로보다 늘어났습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202465",
+   "s": "wscn"
+  },
+  {
+   "kst": "18:00",
+   "ts": 1795078827,
+   "h": "欧元区9月份经常账户盈余124.74亿欧元。",
+   "ko": "유로존의 9월 경상수지 흑자는 124억7400만유로였다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfam1046105.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:00",
+   "ts": 1795078838,
+   "h": "保加利亚9月份经常账户赤字为8.265亿欧元。",
+   "ko": "불가리아의 9월 경상수지 적자는 8억 2,650만 유로였습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6266232.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:00",
+   "ts": 1795078843,
+   "h": "ECB: 96% of supervised banks received medium-high risk scores on operational and IT risk.",
+   "ko": "ECB: 감독 대상 은행의 96%가 운영 및 IT 위험에 대해 중간-높음 위험 점수를 받았습니다.",
+   "u": "https://www.financialjuice.com/News/9859582/ECB-96-of-supervised-banks-received-medium-high-risk-scores-on-operational-and-IT-risk.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:00",
+   "ts": 1795078846,
+   "h": "伊利诺伊州文件显示，雪佛龙莱蒙特炼油厂存在排放问题。",
+   "ko": "일리노이주 문서에는 Chevron Lemont 정유소의 배출 문제가 나와 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7801952.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:00",
+   "ts": 1795078850,
+   "h": "美股算力云相关股票盘前普涨",
+   "ko": "미국 컴퓨팅 파워 클라우드 관련 주식은 일반적으로 시장 개장 전에 상승했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfam1046396.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:00",
+   "ts": 1795078850,
+   "h": "美股太空概念股盘前普涨",
+   "ko": "미국 우주 컨셉 주식은 일반적으로 시장 개장 전에 상승했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7802025.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:00",
+   "ts": 1795078850,
+   "h": "美股存储板块盘前普涨",
+   "ko": "미국 재고 저장 부문은 일반적으로 개장 전 상승세를 보였습니다.",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "18:00",
+   "ts": 1795078850,
+   "h": "美股光通信股盘前普涨",
+   "ko": "미국 광통신 주식은 일반적으로 시장 개장 전에 상승했습니다.",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "18:00",
+   "ts": 1795078850,
+   "h": "美股盘前：“七姐妹”普涨",
+   "ko": "미국 증시 개장 전: '세븐 시스터즈' 전반적으로 상승",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6266385.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:00",
+   "ts": 1795078850,
+   "h": "美股生物科技板块盘前普跌",
+   "ko": "미국 생명공학 주식은 시판 전 하락세를 보였습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfam1046379.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:00",
+   "ts": 1795078853,
+   "h": "欧洲央行执委施泰恩·科赫尔表示，可能需要进一步加息。",
+   "ko": "유럽중앙은행(ECB) 집행위원인 스타인 코처(Stein Kocher)는 추가 금리 인상이 필요할 수 있다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7802054.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:00",
+   "ts": 1795078854,
+   "h": "2027届全国普通高校毕业生规模预计1299万人",
+   "ko": "2027년 전국 대졸자 수 1,299만명 전망",
+   "u": "https://wallstreetcn.com/livenews/3202466",
+   "s": "wscn"
+  },
+  {
+   "kst": "18:01",
+   "ts": 1795078860,
+   "h": "意大利9月份经常账户盈余15.7亿欧元。",
+   "ko": "이탈리아의 9월 경상수지 흑자는 15억7000만유로였다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6266527.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:01",
+   "ts": 1795078863,
+   "h": "SK海力士美股盘前涨超4%",
+   "ko": "SK하이닉스 미국 증시 개장 전 4% 이상 상승",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4578542.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:01",
+   "ts": 1795078867,
+   "h": "Eurozone Current Account NSA Actual 27.50B (Forecast -, Previous 7.70B)",
+   "ko": "유로존 경상수지 NSA 실제 275억(예측 -, 이전 777억)",
+   "u": "https://www.financialjuice.com/News/9859583/Eurozone-Current-Account-NSA-Actual-2750B-Forecast---Previous-770B.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:01",
+   "ts": 1795078877,
+   "h": "科伦坡全股指数收盘上涨0.7%，报21543.91点。",
+   "ko": "콜롬보 전체주지수는 0.7% 상승한 21,543.91포인트로 마감했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7802394.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:01",
+   "ts": 1795078880,
+   "h": "美股盘前：英伟达涨约1%，存储芯片股、光通信股普涨",
+   "ko": "시판 전 미국 주식 : 엔비디아는 약 1% 상승, 메모리 칩 주식과 광통신 주식은 전반적으로 상승",
+   "u": "https://wallstreetcn.com/livenews/3202467",
+   "s": "wscn"
+  },
+  {
+   "kst": "18:01",
+   "ts": 1795078915,
+   "h": "波兰奥伦石油公司将与凯雷集团签署合作谅解备忘录。",
+   "ko": "폴란드 오렌석유회사(Oren Petroleum Company)가 칼라일그룹(Carlyle Group)과 협력 양해각서(MOU)를 체결할 예정이다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6267011.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:02",
+   "ts": 1795078930,
+   "h": "伦敦金属交易所(LME)：铝库存减少1725吨，铜库存增加125吨，锌库存减少575吨，锡库存减少45吨，铅库存减少2675吨，镍库存增加1002吨。",
+   "ko": "런던금속거래소(LME): 알루미늄 재고가 1,725톤 감소, 구리 재고가 125톤 증가, 아연 재고가 575톤 감소, 주석 재고가 45톤 감소, 납 재고가 2,675톤 감소, 니켈 재고가 1,002톤 증가했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202468",
+   "s": "wscn"
+  },
+  {
+   "kst": "18:03",
+   "ts": 1795078993,
+   "h": "Xi: Nuclear war cannot be won and must never be fought.",
+   "ko": "시진핑: 핵전쟁은 이길 수도 없고 싸워서도 안 됩니다.",
+   "u": "https://www.financialjuice.com/News/9859592/Xi-Nuclear-war-cannot-be-won-and-must-never-be-fought.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:03",
+   "ts": 1795079018,
+   "h": "Xi, to Putin, Trump: nuclear weapons should be comprehensively banned and thoroughly destroyed, building nuclear-free world - Xinhua.",
+   "ko": "시 주석, 푸틴·트럼프에게 “핵무기 전면 금지·철폐해 핵 없는 세상 건설해야”",
+   "u": "https://www.financialjuice.com/News/9859593/Xi-to-Putin-Trump-nuclear-weapons-should-be-comprehensively-banned-and-thoroughly-destroyed-building-nuclear-free-world---Xinhua.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:04",
+   "ts": 1795079052,
+   "h": "伦敦金属交易所（LME）宣布，自11月19日起暂停所有LME迷你合约（合约代码：MA、MC和MZ）的交易，直至另行通知。",
+   "ko": "런던금속거래소(LME)는 11월 19일부터 추후 공지가 있을 때까지 모든 LME 미니 계약(계약 코드: MA, MC, MZ)의 거래를 중단한다고 발표했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6268484.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:04",
+   "ts": 1795079068,
+   "h": "翰宇药业：HY3003注射液获药物临床试验批准通知书",
+   "ko": "한유약품: HY3003 주사제 의약품 임상시험 승인 고시",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6268681.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:04",
+   "ts": 1795079081,
+   "h": "欧洲央行管委Kocher：可能需要进一步加息。",
+   "ko": "ECB 운영위원회 위원 Kocher: 추가 금리 인상이 필요할 수 있습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202470",
+   "s": "wscn"
+  },
+  {
+   "kst": "18:05",
+   "ts": 1795079100,
+   "h": "LME铜现货库存减少7150吨，降至9月以来最低水平。",
+   "ko": "LME 구리 현물 재고는 7,150톤 감소해 9월 이후 최저 수준을 기록했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4581142.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:05",
+   "ts": 1795079115,
+   "h": "马来西亚吉隆坡综合指数收盘基本持平，报1566.16点。",
+   "ko": "말레이시아 쿠알라룸푸르 종합지수는 변동 없이 1,566.16포인트로 마감했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4581300.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:05",
+   "ts": 1795079138,
+   "h": "习近平就大国如何正确相处提出4点看法",
+   "ko": "시진핑은 대국이 어떻게 하면 올바르게 협력할 수 있는지에 대한 4가지 견해를 제시했다.",
+   "u": "https://wallstreetcn.com/livenews/3202471",
+   "s": "wscn"
+  },
+  {
+   "kst": "18:05",
+   "ts": 1795079144,
+   "h": "在 Anthropic 公司上市前，投资于该公司的企业股价在盘前交易中上涨。亚马逊股价上涨2%，Alphabet上涨2.9%，英伟达上涨1.7%，AMD上涨3.4%，博通上涨2.8%。SALESFORCE上涨1.8%，ZOOM COMMUNICATIONS上涨2.9%，美光科技上涨4.2%，微软上涨1.6%",
+   "ko": "앤트로픽에 투자한 기업들의 주가는 회사 데뷔를 앞두고 장전 거래에서 상승했다. 아마존 주가는 2%, 알파벳은 2.9%, 엔비디아는 1.7%, AMD는 3.4%, 브로드컴은 2.8% 상승했다. SALESFORCE 1.8% 상승, ZOOM COMMUNICATIONS 2.9% 상승, Micron Technology 4.2% 상승, Microsoft 1.6% 상승",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6269341.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:06",
+   "ts": 1795079160,
+   "h": "欧元/美元扭转跌势，上涨0.2%至1.0995。",
+   "ko": "EUR/USD는 손실을 반전시켜 0.2% 상승한 1.0995를 기록했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfam1049437.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:06",
+   "ts": 1795079162,
+   "h": "习近平就大国如何正确相处提出4点看法",
+   "ko": "시진핑은 대국이 어떻게 하면 올바르게 협력할 수 있는지에 대한 4가지 견해를 제시했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7805329.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:06",
+   "ts": 1795079179,
+   "h": "恒林股份：前三季度营收99.83亿元 净利同比降42.94%",
+   "ko": "Henglin Shares: 첫 3분기 매출은 99억 8300만 위안, 순이익은 전년 동기 대비 42.94% 감소했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7805569.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:06",
+   "ts": 1795079212,
+   "h": "欧洲央行：96%受监管银行在操作与IT风险方面获中高评级",
+   "ko": "유럽중앙은행(European Central Bank): 규제 대상 은행의 96%가 운영 및 IT 위험 측면에서 중간 또는 높은 등급을 받았습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7805868.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:07",
+   "ts": 1795079222,
+   "h": "Xi: China, US, Russia should set up crisis prevention mechanism.",
+   "ko": "시진핑: 중국, 미국, 러시아는 위기 예방 메커니즘을 구축해야 합니다.",
+   "u": "https://www.financialjuice.com/News/9859594/Xi-China-US-Russia-should-set-up-crisis-prevention-mechanism.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:07",
+   "ts": 1795079236,
+   "h": "伦敦金属交易所（LME）：自11月19日起，将暂停所有伦敦金属交易所迷你合约（合约代码：MA、MC和MZ）的交易，直至另行通知。",
+   "ko": "London Metal Exchange(LME): 11월 19일부터 모든 London Metal Exchange 미니 계약(계약 코드: MA, MC 및 MZ)의 거래가 추후 공지가 있을 때까지 중단됩니다.",
+   "u": "https://wallstreetcn.com/livenews/3202472",
+   "s": "wscn"
+  },
+  {
+   "kst": "18:07",
+   "ts": 1795079240,
+   "h": "丹麦议会批准与美达成的防务协议",
+   "ko": "덴마크 의회, 미국과의 국방협정 승인",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7806146.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:07",
+   "ts": 1795079241,
+   "h": "Xi: China, US, Russia should be partners, friends.",
+   "ko": "시진핑: 중국, 미국, 러시아는 파트너이자 친구가 되어야 합니다.",
+   "u": "https://www.financialjuice.com/News/9859595/Xi-China-US-Russia-should-be-partners-friends.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:07",
+   "ts": 1795079243,
+   "h": "特朗普“惋惜”：深圳非常棒，可惜媒体报道不完它的全景",
+   "ko": "트럼프 \"후회\": 선전은 훌륭하지만 언론이 그 전경을 다 담지 못하는 게 안타깝다",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfam1050263.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:07",
+   "ts": 1795079255,
+   "h": "蒙古国国家大呼拉尔（议会）19日召开全体会议，正式审议通过总统呼日勒苏赫的辞职请求，意味着蒙古国总统辞职正式生效。（新华国际）",
+   "ko": "몽골 국가대통령(의회)은 19일 전체회의를 열고 후렐수흐 대통령의 사임 요구를 공식 검토·승인했다. 이로써 몽골 대통령의 사임이 공식적으로 발효됐다. (신화인터내셔널)",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7806307.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:08",
+   "ts": 1795079331,
+   "h": "Karunia Bara将Harum Energy的50%股权出售给Bara Sejahtera。",
+   "ko": "Karunia Bara는 Harum Energy 지분 50%를 Bara Sejahtera에 매각합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4583323.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:09",
+   "ts": 1795079371,
+   "h": "海立股份：A股股票交易异常波动 无应披露未披露重大事项",
+   "ko": "주가가 높음 : A주 주식거래의 비정상적인 변동이 있으며, 공시 또는 공시할 주요사항 없음",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4583649.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:09",
+   "ts": 1795079379,
+   "h": "美国网络安全公司股价在盘前上涨，此前帕洛阿尔托提高了年度营收预期，OKTA 上涨 3.4%，CROWDSTRIKE 上涨 6.1%，ZSCALER 上涨 5%，CLOUDFLARE 上涨 5.1%，FORTINET 上涨 3.9%，SENTINELONE 上涨 3.7%。",
+   "ko": "Palo Alto가 연간 수익 예측을 상향 조정한 후 미국 사이버 보안 회사의 주가는 OKTA가 3.4%, CROWDSTRIKE가 6.1%, ZSCALER가 5%, CLOUDFLARE가 5.1%, FORTINET이 3.9%, SENTINELONE이 3.7% 증가하는 등 연간 수익 예측을 상향 조정한 후 상승했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6271273.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:11",
+   "ts": 1795079505,
+   "h": "大丰实业：股票交易异常波动 无应披露未披露重大事项",
+   "ko": "다펑산업(Dafeng Industrial): 비정상적인 주식거래 변동이 있으며, 주요 공개사항은 없음",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4585081.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:11",
+   "ts": 1795079507,
+   "h": "武汉：以改革创新推动算网深度融合",
+   "ko": "우한: 개혁과 혁신을 통해 컴퓨팅과 네트워크의 심층 통합 촉진",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4585104.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:13",
+   "ts": 1795079610,
+   "h": "福莱新材：股票交易异常波动 无应披露未披露重大事项",
+   "ko": "푸라이 신소재: 비정상적인 주식 거래 변동 및 공개해야 할 주요 미공개 사항 없음",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4586990.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:14",
+   "ts": 1795079658,
+   "h": "据报道，克里米亚大桥部分路段有望在一至两个月内投入使用。",
+   "ko": "보도에 따르면 크림대교의 일부 구간은 1~2개월 안에 사용이 개시될 것으로 예상된다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfam1054636.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:14",
+   "ts": 1795079665,
+   "h": "欧洲议会工业委员会否决二氧化碳市场改革折中方案。",
+   "ko": "유럽의회 산업위원회는 이산화탄소 시장 개혁을 위한 타협안을 거부했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6274705.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:14",
+   "ts": 1795079697,
+   "h": "欧盟议会法律事务委员会（JURI）主席拉塔斯要求推迟就碳排放交易体系改革进行投票。",
+   "ko": "유럽의회 법무위원회(JURI) 위원장인 라타스(Ratas)는 탄소배출권거래제 개혁에 대한 투표 연기를 요청했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfam1055036.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:15",
+   "ts": 1795079710,
+   "h": "西贝测试新店型“天边冰煮鲜羊”",
+   "ko": "Xibei는 새로운 매장 모델 'Tianbian Ice-cooked Fresh Lamb'을 테스트합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6275166.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:15",
+   "ts": 1795079718,
+   "h": "泡泡玛特(09992.HK)：11月19日斥资6965.95万港元回购49万股。",
+   "ko": "Bubble Mart(09992.HK): 11월 19일 HK$69,6595,000를 지출하여 490,000주를 재매입했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6275269.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:15",
+   "ts": 1795079754,
+   "h": "美能源部长：美国未来几年液化天然气出口能力可增长逾一倍",
+   "ko": "미 에너지부 장관 \"미국 LNG 수출 용량, 향후 몇 년 내 두 배 이상 늘어날 것\"",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7812451.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:16",
+   "ts": 1795079814,
+   "h": "德意志银行审查了意大利业务单元的历史事项。",
+   "ko": "Deutsche Bank는 이탈리아 사업부의 역사적 문제를 검토했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7813140.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:17",
+   "ts": 1795079865,
+   "h": "标普500ETF国泰：因二级市场溢价将实施临时停牌",
+   "ko": "S&P 500 ETF 캐세이패시픽: 유통시장 프리미엄으로 인해 거래 일시 정지 실시",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfam1056676.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:17",
+   "ts": 1795079867,
+   "h": "纳指ETF易方达：因交易价格溢价 11月20日起临时停牌",
+   "ko": "나스닥 ETF E 펀드 : 거래가격 프리미엄으로 인해 11월 20일부터 잠정 중단",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7813632.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:17",
+   "ts": 1795079872,
+   "h": "纳斯达克100LOF：二级市场交易价格大幅溢价 提示风险",
+   "ko": "나스닥 100LOF: 유통 시장 거래 가격의 상당한 프리미엄, 위험 경고",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfam1056722.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:17",
+   "ts": 1795079877,
+   "h": "纳斯达克100ETF大成：因二级市场溢价将临停并提示风险",
+   "ko": "Nasdaq 100 ETF Dacheng: 2차 시장 프리미엄으로 인해 중단되고 위험 경고",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7813708.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:18",
+   "ts": 1795079881,
+   "h": "纳斯达克ETF华安：因二级市场溢价将临时停牌并提示风险",
+   "ko": "나스닥 ETF 화안(Nasdaq ETF Huaan): 유통시장 프리미엄 및 위험 경고로 인해 거래가 일시적으로 중단됩니다",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7813747.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:18",
+   "ts": 1795079885,
+   "h": "标普500ETF华夏：二级市场价格大幅溢价 提示投资风险",
+   "ko": "S&P 500 ETF China: 유통시장의 상당한 가격 프리미엄, 투자 위험 경고",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7813800.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:18",
+   "ts": 1795079888,
+   "h": "纳斯达克100ETF招商：因二级市场溢价将停牌后复牌",
+   "ko": "나스닥 100 ETF 투자촉진 : 유통시장 프리미엄으로 인해 거래가 중단되었다가 재개됩니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4590169.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:18",
+   "ts": 1795079892,
+   "h": "纳指ETF汇添富：因交易价格溢价 11月20日起临时停牌",
+   "ko": "나스닥 ETF 차이나 유니버셜 : 거래가격 프리미엄으로 인해 11월 20일부터 잠정 중단",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7813880.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:18",
+   "ts": 1795079899,
+   "h": "纳指ETF广发：因交易价格溢价 11月20日临时停牌",
+   "ko": "나스닥 ETF 광파 : 거래가격 프리미엄으로 인해 11월 20일 거래 잠정 중단",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7813945.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:18",
+   "ts": 1795079903,
+   "h": "华培动力：股票交易异常波动 无应披露未披露重大事项",
+   "ko": "화페이파워: 비정상적인 주식 거래 변동, 공개 또는 비공개해야 할 주요 사항 없음",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7814001.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:18",
+   "ts": 1795079909,
+   "h": "中国贸促会会长邀马斯克赴链博会",
+   "ko": "중국 국제 무역 촉진위원회 회장, 머스크를 체인 엑스포에 초대",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7814088.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:18",
+   "ts": 1795079910,
+   "h": "中国贸促会会长邀请马斯克明年参加链博会",
+   "ko": "중국국제무역촉진협의회 회장, 머스크를 내년 체인 엑스포에 초대",
+   "u": "https://wallstreetcn.com/livenews/3202481",
+   "s": "wscn"
+  },
+  {
+   "kst": "18:19",
+   "ts": 1795079979,
+   "h": "美国芯片制造商股票在盘前交易中上涨，此前人工智能公司Anthropic即将上市。英特尔上涨3.1%，迈威尔科技上涨3.7%，ARM HOLDINGS 在美国上市的股票上涨 3.5%，SK HYNIX 上涨 5%，应用材料公司股价上涨3.8%，高通公司股价上涨2.2%。",
+   "ko": "인공지능(AI) 기업 앤트로픽(Anthropic)의 기업공개(IPO)를 앞두고 미국 칩 제조업체들의 주가가 시판전 거래에서 상승했다. 인텔은 3.1%, 마벨테크놀로지는 3.7%, ARM홀딩스 미국 상장주가는 3.5%, SK하이닉스는 5%, 어플라이드머티어리얼즈는 3.8%, 퀄컴은 2.2% 상승했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4591035.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:19",
+   "ts": 1795079986,
+   "h": "泡泡玛特：于11月19日斥资6965.95万港元回购49万股。",
+   "ko": "Bubble Mart: 11월 19일에 490,000주를 재매입하는 데 HK$69,659,500를 지출했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202482",
+   "s": "wscn"
+  },
+  {
+   "kst": "18:20",
+   "ts": 1795080023,
+   "h": "SpaceX创始人埃隆·马斯克强调了星链（Starlink）在乌克兰军队通信中的作用，并表示该系统对支持乌军至关重要。他称：“如果切断星链，整个乌克兰前线将立即崩溃。”",
+   "ko": "SpaceX 창립자 Elon Musk는 우크라이나 군사 통신에서 Starlink의 역할을 강조하고 이 시스템이 우크라이나 군대를 지원하는 데 매우 중요하다고 말했습니다. 그는 \"스타링크가 끊어지면 우크라이나 전선 전체가 즉각 무너질 것\"이라고 말했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfam1057976.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:21",
+   "ts": 1795080072,
+   "h": "新加坡海峡时报指数收盘上涨0.5%，报5079.49点。",
+   "ko": "싱가포르 스트레이츠타임스 지수는 0.5% 상승한 5,079.49포인트로 마감했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfam1058533.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:22",
+   "ts": 1795080139,
+   "h": "有道Q3连续九个季度经营利润为正：子曰双模型登顶Hugging Face，AI订阅销售额超1亿",
+   "ko": "Youdao의 3분기 영업 이익은 9분기 연속 흑자였습니다. Ziyue 듀얼 모델이 Hugging Face 1위를 차지했으며 AI 구독 판매량이 1억 개를 초과했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202483",
+   "s": "wscn"
+  },
+  {
+   "kst": "18:22",
+   "ts": 1795080177,
+   "h": "比亚迪申请注册“海鲸”及图形商标",
+   "ko": "BYD는 \"Sea Whale\" 및 그래픽 상표 등록을 신청합니다.",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "18:23",
+   "ts": 1795080231,
+   "h": "北京市新增106款已完成登记的生成式人工智能服务",
+   "ko": "베이징은 등록된 106개의 새로운 생성 인공 지능 서비스를 추가했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4463102.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:28",
+   "ts": 1795080488,
+   "h": "沙特阿拉伯就艾卜哈的潜在危险发出警告。",
+   "ko": "사우디아라비아는 아바(Abha)의 잠재적인 위험에 대해 경고했습니다.",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "18:28",
+   "ts": 1795080509,
+   "h": "哈萨克斯坦总统：应推广鲁班工坊成功经验促进哈各领域经济发展",
+   "ko": "카자흐스탄 대통령: 루반 워크숍의 성공적인 경험을 카자흐스탄의 다양한 분야에서 경제 발전을 촉진하기 위해 홍보해야 합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7689353.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:28",
+   "ts": 1795080525,
+   "h": "Blue Bird、新加坡交易所（SGX）与保加利亚NEK将合作推进SMR项目。",
+   "ko": "블루버드, 싱가포르거래소(SGX), 불가리아 NEK가 SMR 프로젝트 추진을 위해 협력한다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4465793.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:29",
+   "ts": 1795080561,
+   "h": "沙特阿拉伯发布针对海米斯穆谢特的危险警告。",
+   "ko": "사우디아라비아가 카미스 무샤이트에 대해 위험 경고를 발령했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0931925.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:29",
+   "ts": 1795080587,
+   "h": "以色列协调政府活动办公室（COGAT）：以军于周三开始的加沙军事行动已结束。",
+   "ko": "이스라엘 정부 활동 조정 사무소(COGAT): 수요일에 시작된 가자지구에서의 이스라엘 군사 작전이 종료되었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4466153.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:29",
+   "ts": 1795080593,
+   "h": "中国建筑：2026年1-10月新签合同总额35862亿元同比下降0.6%",
+   "ko": "중국 건설 : 2026년 1월부터 10월까지 신규 계약된 총 계약 건수는 3조 5,862억 위안으로 전년 동기 대비 0.6% 감소",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7689840.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:30",
+   "ts": 1795080649,
+   "h": "赛诺医疗：多款产品在海外获批注册",
+   "ko": "사노메디칼(Sano Medical): 여러 제품이 해외 등록 승인을 받았습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6152685.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:31",
+   "ts": 1795080690,
+   "h": "ST交昂：股价短期波动较大 提示相关风险",
+   "ko": "ST Jiaoang: 주가는 단기적으로 크게 변동하며 관련 위험을 나타냅니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7691059.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:33",
+   "ts": 1795080798,
+   "h": "因150元成被执行人？格力电器最新回应",
+   "ko": "150위안을 내고 사형집행을 하게 됩니까? Gree Electric의 최신 답변",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0934464.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:33",
+   "ts": 1795080820,
+   "h": "Investec股价在伦敦下跌8.9%，此前该公司公布业绩。",
+   "ko": "Investec 주가는 회사가 결과를 보고한 후 런던에서 8.9% 하락했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4469230.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:34",
+   "ts": 1795080873,
+   "h": "因150元成被执行人？格力电器最新回应",
+   "ko": "150위안을 내고 사형집행을 하게 됩니까? Gree Electric의 최신 답변",
+   "u": "https://wallstreetcn.com/livenews/3202487",
+   "s": "wscn"
+  },
+  {
+   "kst": "18:35",
+   "ts": 1795080931,
+   "h": "沙特阿拉伯称艾卜哈地区危险已解除。",
+   "ko": "사우디아라비아는 아바(Abha)의 위험이 사라졌다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4470516.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:35",
+   "ts": 1795080944,
+   "h": "领航级智能工厂培育工作推进会在南京召开",
+   "ko": "난징에서 파일럿급 스마트공장 육성사업 추진회의 개최",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0935971.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:36",
+   "ts": 1795080970,
+   "h": "华泰柏瑞沪深300ETF规模重回2000亿 10月初以来份额已翻倍",
+   "ko": "Huatai-Berry CSI 300 ETF의 규모가 2,000억 달러로 돌아왔고, 점유율은 10월 초보다 두 배로 늘어났습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7694553.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:36",
+   "ts": 1795081016,
+   "h": "马斯克：预计未来12-18个月Optimus机器人能做家务劳动",
+   "ko": "머스크: 옵티머스 로봇은 앞으로 12~18개월 안에 집안일을 할 수 있을 것으로 예상된다",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7695006.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:37",
+   "ts": 1795081034,
+   "h": "第三届军事法治高端论坛在京举办",
+   "ko": "군사법치에 관한 제3차 고급 포럼이 베이징에서 개최되었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4471563.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:40",
+   "ts": 1795081203,
+   "h": "南向资金今日净买入39.59亿港元",
+   "ko": "Southbound 펀드는 오늘 HK$39억 5900만 순매수했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7697067.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:40",
+   "ts": 1795081259,
+   "h": "国际足联：已收到国际足联会员协会提名的三名候选人名单，这些候选人将参加2027年3月18日举行的国际足联主席选举。",
+   "ko": "FIFA: 2027년 3월 18일 FIFA 회장 선거에 참가할 FIFA 회원 협회로부터 지명된 후보 3명의 명단을 받았습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4474107.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:41",
+   "ts": 1795081318,
+   "h": "欧盟最终批准简化化学品法规的法律。",
+   "ko": "유럽연합(EU)이 마침내 화학물질 규제를 단순화하는 법안을 승인했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0939433.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:42",
+   "ts": 1795081346,
+   "h": "杨元庆回应AI回报担忧：云厂商下游客户称“没有一台服务器是闲置的”",
+   "ko": "Yang Yuanqing은 AI 반환에 대한 우려에 응답했습니다. 클라우드 공급업체의 다운스트림 고객은 \"단일 서버도 유휴 상태가 아닙니다\"라고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0939661.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:43",
+   "ts": 1795081387,
+   "h": "欧洲央行管委穆兰：目前尚未看到第二轮效应。",
+   "ko": "ECB 운영위원회 위원 Mullan: 우리는 아직 2차 효과를 보지 못했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7699145.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:43",
+   "ts": 1795081399,
+   "h": "欧洲央行管委穆兰：欧洲央行需保持警惕。",
+   "ko": "ECB 운영위원회 위원 Mullan: ECB는 경계심을 유지해야 합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7699270.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:45",
+   "ts": 1795081505,
+   "h": "Anthropic向英国及欧洲大陆散户投资者出售11亿美元股票。",
+   "ko": "Anthropic은 영국과 유럽 대륙의 소매 투자자에게 11억 달러 규모의 주식을 판매합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7700283.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:46",
+   "ts": 1795081582,
+   "h": "北京3宗涉宅用地92.47亿元成交",
+   "ko": "베이징에서 3건의 주거용 토지 거래가 92억 4700만 위안에 매각되었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4477393.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:46",
+   "ts": 1795081609,
+   "h": "杨元庆：联想集团利润结构已变，ISG营收规模超过IDG是大概率事件",
+   "ko": "Yang Yuanqing: Lenovo 그룹의 수익 구조가 바뀌었고 ISG의 수익이 IDG를 초과할 가능성이 높습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202496",
+   "s": "wscn"
+  },
+  {
+   "kst": "18:46",
+   "ts": 1795081610,
+   "h": "沙特阿拉伯就纳季兰地区的潜在危险发出警告。",
+   "ko": "사우디아라비아는 나즈란 지역의 잠재적인 위험에 대해 경고했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0941641.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:47",
+   "ts": 1795081659,
+   "h": "索鹏司长会见意大利普利亚大区主席德卡罗",
+   "ko": "Suopeng 이사가 이탈리아 풀리아 지역 회장 De Carlo를 만났습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4478184.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:47",
+   "ts": 1795081677,
+   "h": "韩国前第一夫人金建希首案终审被判有期徒刑4年",
+   "ko": "김건희 전 영부인, 1심에서 징역 4년 선고",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4478306.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:48",
+   "ts": 1795081708,
+   "h": "统一股份：股票交易异常波动 持股5%以上股东减持",
+   "ko": "Uni-President 주식: 주식 거래가 비정상적으로 변동하고, 주식의 5% 이상을 보유한 주주가 보유 지분을 줄입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7702318.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:48",
+   "ts": 1795081732,
+   "h": "央行：2026年第23期中央国库现金管理商业银行定期存款1000亿元",
+   "ko": "중앙은행: 2026년 상업은행 정기예금 1000억 위안의 중앙국고 현금관리 제23호",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4478869.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:49",
+   "ts": 1795081758,
+   "h": "网易ADR盘前下跌5%，因业绩不及预期。",
+   "ko": "NetEase의 ADR은 실적이 기대에 못 미치면서 시장이 열리기 전에 5% 하락했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7702788.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:49",
+   "ts": 1795081784,
+   "h": "全国首条超百公里纯氢长输管道正式启运",
+   "ko": "국내 최초 순수수소 장거리 파이프라인 100㎞ 이상 공식 개통",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4479320.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:50",
+   "ts": 1795081812,
+   "h": "沙特阿拉伯称纳季兰地区危险已过。",
+   "ko": "사우디아라비아는 나즈란 지역의 위험이 지나갔다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7703230.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:50",
+   "ts": 1795081844,
+   "h": "印度 NIFTY 50 指数 指示性水平上涨 1.5%，延续了拍卖前 1.09% 的涨幅。",
+   "ko": "인도의 NIFTY 50 지수는 지표 수준에서 1.5% 상승하여 경매 전 상승폭이 1.09%로 늘어났습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4479884.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:51",
+   "ts": 1795081877,
+   "h": "商务部谈“双十一”购物季亮点：“词元+终端”创新消费体验",
+   "ko": "상무부는 'Double Eleven' 쇼핑 시즌의 하이라이트: 'Ci Yuan + Terminal' 혁신적 소비 경험에 대해 이야기합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7703894.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:52",
+   "ts": 1795081925,
+   "h": "商务部谈“双十一”购物季亮点：“词元+终端”创新消费体验",
+   "ko": "상무부는 'Double Eleven' 쇼핑 시즌의 하이라이트: 'Ci Yuan + Terminal' 혁신적 소비 경험에 대해 이야기합니다.",
+   "u": "https://wallstreetcn.com/livenews/3202497",
+   "s": "wscn"
+  },
+  {
+   "kst": "18:52",
+   "ts": 1795081942,
+   "h": "*ST天宜：股票交易异常波动 提示多项风险",
+   "ko": "*ST Tianyi: 주식 거래의 비정상적인 변동은 여러 위험을 나타냅니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7704643.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:52",
+   "ts": 1795081971,
+   "h": "以色列反对党阵营重申将尽快组建新政府",
+   "ko": "이스라엘 야당, 조속히 새 정부 구성 의지 재확인",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7704973.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:53",
+   "ts": 1795082014,
+   "h": "丹格特与尼日利亚证券交易委员会讨论通过二次发售以满足炼油厂IPO需求。",
+   "ko": "Dangote는 정유소 IPO 수요를 충족하기 위한 2차 제안을 나이지리아 증권거래위원회와 논의합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4481821.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:53",
+   "ts": 1795082035,
+   "h": "盛剑科技：股票交易异常波动 提示相关风险",
+   "ko": "Shengjian Technology: 주식 거래의 비정상적인 변동은 관련 위험을 나타냅니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4482091.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:55",
+   "ts": 1795082140,
+   "h": "中俄美元首会晤结束",
+   "ko": "중국, 러시아, 미국 정상 간 회담이 종료됩니다",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4483332.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:56",
+   "ts": 1795082183,
+   "h": "中俄美元首会晤结束",
+   "ko": "중국, 러시아, 미국 정상 간 회담이 종료됩니다",
+   "u": "https://wallstreetcn.com/livenews/3202501",
+   "s": "wscn"
+  },
+  {
+   "kst": "18:56",
+   "ts": 1795082208,
+   "h": "阿尔巴尼亚与美国签署关于美国总统特朗普“和平管道”框架的谅解备忘录。",
+   "ko": "알바니아와 미국은 트럼프 대통령의 '평화 파이프라인' 틀에 관한 양해각서에 서명했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6167046.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:57",
+   "ts": 1795082272,
+   "h": "伊朗伊斯兰革命卫队称，两艘油轮在霍尔木兹岛东部触雷。",
+   "ko": "이란 이슬람혁명수비대는 유조선 2척이 호르무즈 섬 동쪽 지뢰를 공격했다고 밝혔다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7708098.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:58",
+   "ts": 1795082283,
+   "h": "伦敦市市长：私募资本提供“非常好的回报”。",
+   "ko": "런던 시장: 사모 펀드는 \"매우 좋은 수익\"을 제공합니다",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7708168.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:58",
+   "ts": 1795082311,
+   "h": "French 8 Yr OAT Yield Actual 4.67% (Forecast -, Previous 3.88%)",
+   "ko": "프랑스 8년 OAT 수익률 실제 4.67%(예측 -, 이전 3.88%)",
+   "u": "https://www.financialjuice.com/News/9859651/French-8-Yr-OAT-Yield-Actual-467-Forecast---Previous-388.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:58",
+   "ts": 1795082312,
+   "h": "French 8 Yr Bid-to-Cover Actual 3.053 (Forecast -, Previous 2.69)",
+   "ko": "프랑스 8년 입찰 실제 3.053(예측 -, 이전 2.69)",
+   "u": "https://www.financialjuice.com/News/9859654/French-8-Yr-Bid-to-Cover-Actual-3053-Forecast---Previous-269.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:58",
+   "ts": 1795082312,
+   "h": "French 5 Yr OAT Yield Actual 4.26% (Forecast -, Previous 4.16%)",
+   "ko": "프랑스 5년 OAT 수익률 실제 4.26%(예측 -, 이전 4.16%)",
+   "u": "https://www.financialjuice.com/News/9859653/French-5-Yr-OAT-Yield-Actual-426-Forecast---Previous-416.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:58",
+   "ts": 1795082312,
+   "h": "French 5 Yr OAT Bid-to-Cover Actual 2.819 (Forecast -, Previous 2.3)",
+   "ko": "프랑스 5년 OAT 입찰 보장 실제 2.819(예측 -, 이전 2.3)",
+   "u": "https://www.financialjuice.com/News/9859652/French-5-Yr-OAT-Bid-to-Cover-Actual-2819-Forecast---Previous-23.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:58",
+   "ts": 1795082338,
+   "h": "欧洲央行管委Moulin称 油价导致通胀仍然过高",
+   "ko": "ECB 운영위원회 위원 물랭은 유가 때문에 인플레이션이 여전히 너무 높다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0948135.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:59",
+   "ts": 1795082367,
+   "h": "Iran: 2 tankers hit mine in Eastern Hormuz - Fars",
+   "ko": "이란: 유조선 2척이 호르무즈 동부에서 지뢰를 공격했습니다.",
+   "u": "https://www.financialjuice.com/News/9859655/Iran-2-tankers-hit-mine-in-Eastern-Hormuz---Fars.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:59",
+   "ts": 1795082378,
+   "h": "French 4 Yr OAT Yield Actual 4.09% (Forecast -, Previous 4.01%)",
+   "ko": "프랑스 4년 OAT 수익률 실제 4.09%(예측 -, 이전 4.01%)",
+   "u": "https://www.financialjuice.com/News/9859657/French-4-Yr-OAT-Yield-Actual-409-Forecast---Previous-401.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:59",
+   "ts": 1795082378,
+   "h": "French 4 Yr OAT Bid-to-Cover Actual 2.83 (Forecast -, Previous 2.32)",
+   "ko": "프랑스 4년 OAT 입찰 보장 실제 2.83(예측 -, 이전 2.32)",
+   "u": "https://www.financialjuice.com/News/9859656/French-4-Yr-OAT-Bid-to-Cover-Actual-283-Forecast---Previous-232.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "19:00",
+   "ts": 1795082401,
+   "h": "Eurozone Construction Output MoM Actual 0.1% (Forecast -, Previous 1.85%)",
+   "ko": "유로존 건설 생산량 MoM 실제 0.1% (예측 -, 이전 1.85%)",
+   "u": "https://www.financialjuice.com/News/9859658/Eurozone-Construction-Output-MoM-Actual-01-Forecast---Previous-185.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "19:00",
+   "ts": 1795082401,
+   "h": "欧元区9月季调后建筑业产出环比 0.1%，前值 1.8%。",
+   "ko": "유로존 건설산업 생산은 계절적 요인을 반영한 9월 전월 대비 0.1% 증가해 전월 1.8%보다 증가했다.",
+   "u": "https://wallstreetcn.com/livenews/3202506",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:00",
+   "ts": 1795082401,
+   "h": "欧元区9月工作日调整后建筑业产出同比 -1.5%，前值 1.4%。",
+   "ko": "9월 영업일 기준 유로존의 조정된 건설 생산량은 전년 동기 대비 -1.5%로 전월의 1.4%와 비교됩니다.",
+   "u": "https://wallstreetcn.com/livenews/3202505",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:00",
+   "ts": 1795082409,
+   "h": "欧元区9月建筑业环比增长0.1%。",
+   "ko": "9월 유로존 건설산업은 전월 대비 0.1% 증가했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4485526.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:00",
+   "ts": 1795082414,
+   "h": "欧元区三季度劳动力成本同比初值 3.5%，前值 3.1%。",
+   "ko": "3분기 유로지역 인건비는 전년 동기 대비 3.5%로 전년 동기 3.1%보다 크게 높아졌다.",
+   "u": "https://wallstreetcn.com/livenews/3202507",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:00",
+   "ts": 1795082421,
+   "h": "欧元区9月建筑业同比下降1.5%。",
+   "ko": "9월 유로존 건설산업은 전년 동기 대비 1.5% 감소했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0948631.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:00",
+   "ts": 1795082423,
+   "h": "欧元区三季度劳动力成本同比初值 3.5%，前值 3.1%。",
+   "ko": "3분기 유로지역 인건비는 전년 동기 대비 3.5%로 전년 동기 3.1%보다 크게 높아졌다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4485686.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:00",
+   "ts": 1795082436,
+   "h": "Goldman Sachs: ASEAN - FJElite",
+   "ko": "골드만삭스: ASEAN - FJElite",
+   "u": "https://www.financialjuice.com/News/9859661/Goldman-Sachs-ASEAN---FJElite.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "19:00",
+   "ts": 1795082437,
+   "h": "泰国SET指数收盘基本持平，报1472.64点。",
+   "ko": "태국 SET 지수는 기본적으로 변동 없이 1,472.64포인트로 마감했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7709518.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:01",
+   "ts": 1795082460,
+   "h": "穆迪将老挝主权信用评级上调至Caa1，展望维持稳定。",
+   "ko": "무디스는 라오스의 국가신용등급을 Caa1로 상향 조정하고 전망을 안정적으로 유지했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0948919.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:01",
+   "ts": 1795082484,
+   "h": "穆迪：上调老挝评级反映政府流动性及外部脆弱性风险降低",
+   "ko": "무디스: 라오스 등급 상향 조정은 정부 유동성 감소와 외부 취약성 위험 반영",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4486362.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:01",
+   "ts": 1795082495,
+   "h": "MUFG: The USD - FJElite",
+   "ko": "MUFG: USD - FJElite",
+   "u": "https://www.financialjuice.com/News/9859662/MUFG-The-USD---FJElite.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "19:02",
+   "ts": 1795082535,
+   "h": "阿里巴巴第二季度调整后每ADS收益为8.10元人民币。",
+   "ko": "알리바바의 2분기 ADS당 조정 수익은 8.10위안이었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4486827.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:02",
+   "ts": 1795082541,
+   "h": "阿里第二财季营收2715.2亿元 经调净利润199.1亿元",
+   "ko": "알리바바의 2분기 매출은 2715억2000만 위안, 조정순이익은 199억1000만 위안을 기록했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0949634.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:02",
+   "ts": 1795082550,
+   "h": "阿里巴巴第二季度调整后EBITDA为460.6亿元人民币。",
+   "ko": "알리바바의 2분기 조정 EBITDA는 460억6000만 위안을 기록했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0949775.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:02",
+   "ts": 1795082557,
+   "h": "阿里巴巴第二财季营收2,715.2亿元人民币，预估2,705.3亿元人民币。 第二财季调整后每ADS收益8.10元人民币，预估10.75元人民币。 第二财季调整后息税折旧及摊销前利润460.6亿元人民币，预估399亿元人民币。 第二财季调整后净利润199.1亿元人民币，预估266.1亿元人民币。 第二财季AI云与算力服",
+   "ko": "알리바바의 2분기 매출은 2715억2000만 위안으로 추정치 2705억3000만 위안보다 크게 늘었다. 2회계연도 분기의 ADS당 조정 수익은 8.10위안으로 추정치는 10.75위안이었습니다. 2회계분기에 이자, 세금, 감가상각비 및 상각비를 제외한 조정 이익은 460억6천만 위안으로 추정치 399억 위안보다 크게 늘었다. 2분기 조정 순이익은 199억1000만 위안으로 예상치 266억1000만 위안을 크게 웃돌았다. 2분기 AI 클라우드 및 컴퓨팅 서비스",
+   "u": "https://wallstreetcn.com/livenews/3202509",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:02",
+   "ts": 1795082560,
+   "h": "阿里巴巴第二季度调整后每股收益为8.10元人民币，低于市场预期的10.75元人民币。",
+   "ko": "알리바바의 2분기 조정 주당순이익은 8.10위안으로 시장 예상치인 10.75위안보다 낮았다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7710766.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:02",
+   "ts": 1795082561,
+   "h": "Moonshot AI ends $150m Indonesia NVIDIA chips deal - Information",
+   "ko": "Moonshot AI는 1억 5천만 달러 규모의 인도네시아 NVIDIA 칩 거래를 종료합니다 - 정보",
+   "u": "https://www.financialjuice.com/News/9859667/Moonshot-AI-ends-150m-Indonesia-NVIDIA-chips-deal---Information.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "19:03",
+   "ts": 1795082588,
+   "h": "阿里巴巴：力争实现自由现金流为正。",
+   "ko": "Alibaba: 긍정적인 무료 현금 흐름을 달성하기 위해 노력합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7711041.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:03",
+   "ts": 1795082597,
+   "h": "阿里巴巴集团：人工智能相关产品收入连续第十三个季度实现三位数增长。",
+   "ko": "알리바바 그룹: 인공지능 관련 제품 매출이 13분기 연속 세 자릿수 성장을 달성했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7711141.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:03",
+   "ts": 1795082603,
+   "h": "阿里巴巴：AI能力持续推动商业化进程。",
+   "ko": "Alibaba: AI 기능이 계속해서 상용화 프로세스를 주도하고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4487555.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:03",
+   "ts": 1795082620,
+   "h": "阿里巴巴第二季度AI云与算力服务收入为609.7亿元人民币。",
+   "ko": "알리바바의 2분기 AI 클라우드 및 컴퓨팅 서비스 매출은 609억7000만 위안을 기록했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7711423.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:03",
+   "ts": 1795082633,
+   "h": "阿里巴巴：电商业务板块实现显著EBITA增长。",
+   "ko": "Alibaba: 전자상거래 사업 부문은 상당한 EBITA 성장을 달성했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7711576.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:04",
+   "ts": 1795082648,
+   "h": "吉视传媒：目前生产经营活动一切正常",
+   "ko": "지시미디어 : 현재 제작 및 운영 활동은 모두 정상입니다",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6170859.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:04",
+   "ts": 1795082667,
+   "h": "阿里巴巴：平头哥进一步强化基础设施底座。",
+   "ko": "알리바바: 핑터우 형제는 인프라 기반을 더욱 강화했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0951044.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:04",
+   "ts": 1795082678,
+   "h": "阿里巴巴：继续看到中国新兴创新经济领域客户的强劲需求，包括电动汽车、具身智能和生物技术。",
+   "ko": "알리바바(Alibaba): 전기 자동차, 구체화된 지능, 생명공학 등 중국의 신흥 혁신 경제에 대한 고객의 수요가 지속적으로 증가하고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4488444.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:05",
+   "ts": 1795082703,
+   "h": "$BABA Alibaba Q2 Earnings",
+   "ko": "$BABA 알리바바 2분기 실적",
+   "u": "https://www.financialjuice.com/News/9859273/BABA-Alibaba-Q2-Earnings.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "19:05",
+   "ts": 1795082741,
+   "h": "阿里巴巴ADR盘前暴涨3.6%，此前该公司公布财报。",
+   "ko": "알리바바의 ADR은 시장 개장 전 재무 실적 발표 이후 3.6% 급등했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7712965.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:07",
+   "ts": 1795082834,
+   "h": "文投控股：股票交易异常波动 无应披露未披露重大事项",
+   "ko": "문화투자홀딩스 : 비정상적인 주식거래 변동, 주요 공시 또는 미공시 사항 없음",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0953889.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:07",
+   "ts": 1795082835,
+   "h": "阿里巴巴美股ADR盘前涨幅扩大至4%。",
+   "ko": "알리바바의 미국 주식 ADR의 시장 전 이익은 4%로 확대됐다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7714909.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:09",
+   "ts": 1795082957,
+   "h": "大晟文化：股票交易异常波动 或被实施退市风险警示",
+   "ko": "Dasheng Culture: 비정상적인 주식 거래 변동으로 인해 상장 폐지 위험 경고가 발생할 수 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7716788.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:10",
+   "ts": 1795083008,
+   "h": "益诺思：通过美国FDA GLP现场检查",
+   "ko": "Yinuosi: 미국 FDA GLP 현장검사 통과",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4493874.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:10",
+   "ts": 1795083036,
+   "h": "龙建股份：股票交易连续3个交易日收盘价格跌幅偏离值累计超过20%",
+   "ko": "Longjian 주식: 주식 거래는 3거래일 연속 종가가 20% 이상 누적 하락했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7718028.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:11",
+   "ts": 1795083102,
+   "h": "阿里巴巴美股盘前拉升，一度涨超4%，公司第二财季营收和调整后每ADS收益均高于预期。",
+   "ko": "알리바바의 미국 주식은 개장 전 상승해 한때 4% 이상 상승했다. 회사의 2분기 매출과 ADS당 조정 이익은 모두 예상보다 높았습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202513",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:13",
+   "ts": 1795083199,
+   "h": "南非民主联盟领导人表示，该党目前将留在民族团结政府中。",
+   "ko": "남아프리카민주동맹(South African Democratic Alliance)의 지도자는 당이 당분간 국가 통합 정부에 남을 것이라고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7720361.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:13",
+   "ts": 1795083207,
+   "h": "三位知情人士称，德国商业银行周四举行了早已安排好的监事会会议。",
+   "ko": "이 문제에 정통한 세 사람은 코메르츠방크가 목요일에 오랫동안 예정된 감독위원회 회의를 열었다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7720510.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:15",
+   "ts": 1795083319,
+   "h": "全筑股份：各项债务不存在逾期、违约情形",
+   "ko": "Quanzhu Co., Ltd.: 각종 채무에 대해 연체 또는 연체 상황이 없습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4498051.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:15",
+   "ts": 1795083338,
+   "h": "阿里巴巴美股盘前跌超1% 此前一度涨超4%",
+   "ko": "알리바바의 미국 주식은 개장 전 1% 이상 하락했다가 4% 이상 상승했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4498426.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:16",
+   "ts": 1795083377,
+   "h": "全筑股份：股票交易异常波动 提示相关风险",
+   "ko": "Quanzhu Holdings: 주식 거래의 비정상적인 변동은 관련 위험을 나타냅니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4498889.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:16",
+   "ts": 1795083418,
+   "h": "市场消息：Anthropic的IPO将吸引来自英国零售投资者近10亿美元的资金需求。新浪财经数据显示，Anthropic暗盘涨超27%，报105.73美元。",
+   "ko": "시장 뉴스: Anthropic의 IPO는 영국 소매 투자자로부터 거의 10억 달러에 달하는 자금 수요를 유치할 것입니다. Sina Finance 데이터에 따르면 Anthropic의 암시장 가격은 US$105.73로 27% 이상 상승했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6181623.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:17",
+   "ts": 1795083469,
+   "h": "阿里巴巴美股盘前走低，现跌超2%，此前一度涨超4%。",
+   "ko": "알리바바의 미국 주식은 개장 전 하락세를 보이며 이전 4% 이상 상승했다가 2% 이상 하락했다.",
+   "u": "https://wallstreetcn.com/livenews/3202515",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:18",
+   "ts": 1795083485,
+   "h": "横店影视：股票交易异常波动 无应披露未披露重大事项",
+   "ko": "Hengdian Film and Television: 비정상적인 주식 거래 변동 및 공개해야 할 주요 미공개 사항 없음",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7723710.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:18",
+   "ts": 1795083520,
+   "h": "顺丰控股：10月速运物流业务、供应链及国际业务合计收入为人民币274.32亿元，同比增长3.70%。",
+   "ko": "SF Holding: 10월 특송 물류 사업, 공급망 및 국제 사업의 총 수익은 RMB 274억 3200만 달러로 전년 대비 3.70% 증가했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202517",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:18",
+   "ts": 1795083539,
+   "h": "中集车辆：北美在手及意向订单回暖，9月美国半挂车净订单同比增385%",
+   "ko": "CIMC 차량: 북미 지역의 현재 주문 및 예정 주문이 회복되고 있으며, 9월 미국 세미트레일러 순 주문은 전년 대비 385% 증가했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0962678.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:19",
+   "ts": 1795083561,
+   "h": "浙文影业：股票交易异常波动 无应披露未披露重大事项",
+   "ko": "Zhewen Pictures : 비정상적인 주식 거래 변동 및 공개해야 할 주요 미공개 사항 없음",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4500866.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:19",
+   "ts": 1795083599,
+   "h": "长鑫科技：调整回购方案，回购金额增至25亿元-50亿元",
+   "ko": "Changxin Technology: 환매 계획을 조정하여 환매 금액을 25억 위안~50억 위안으로 늘립니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6183279.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:20",
+   "ts": 1795083624,
+   "h": "欧洲央行的布赫在被问及德意志银行时表示：如果我们收到新信息，我们会将其纳入考量。",
+   "ko": "ECB의 Bucher는 Deutsche Bank에 대한 질문에 \"새로운 정보를 받으면 이를 고려할 것\"이라고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7725299.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:20",
+   "ts": 1795083635,
+   "h": "阿里巴巴：2026年第三季度自由现金流为-344.72亿元",
+   "ko": "알리바바 \"2026년 3분기 잉여현금흐름 -344억7천200만위안\"",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7725454.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:21",
+   "ts": 1795083675,
+   "h": "晶华新材：公司目前生产经营活动正常",
+   "ko": "징화신소재: 회사의 현재 생산 및 운영 활동은 정상입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4502197.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:21",
+   "ts": 1795083680,
+   "h": "巴克莱将Palo Alto Networks的目标价从375美元上调至385美元。",
+   "ko": "Barclays는 Palo Alto Networks의 목표 가격을 375달러에서 385달러로 상향 조정했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4502277.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:22",
+   "ts": 1795083738,
+   "h": "欧洲央行管委纳格尔：对欧洲央行实现2%通胀目标有信心。",
+   "ko": "ECB 운영위원회 위원 Nagel: 우리는 ECB가 인플레이션 목표인 2%를 달성할 것이라고 확신합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6185026.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:22",
+   "ts": 1795083750,
+   "h": "德国央行行长纳格尔表示，当前通胀形势严峻，但不同于2022年。",
+   "ko": "나겔 분데스방크 총재는 현재 인플레이션 상황이 심각하지만 2022년과는 다르다고 말했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7727051.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:22",
+   "ts": 1795083752,
+   "h": "ECB's Nagel: I am confident ECB will reach 2% inflation target.",
+   "ko": "ECB의 Nagel: 나는 ECB가 인플레이션 목표 2%에 도달할 것이라고 확신합니다.",
+   "u": "https://www.financialjuice.com/News/9859686/ECBs-Nagel-I-am-confident-ECB-will-reach-2-inflation-target.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "19:22",
+   "ts": 1795083765,
+   "h": "全球基金在交易日前净买入价值873亿卢比（约合62.3亿元人民币）的印度股票。",
+   "ko": "글로벌펀드는 거래일 전 873억루피(약 62억3000만위안) 규모의 인도 주식을 순매수했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4503694.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:22",
+   "ts": 1795083774,
+   "h": "欧洲央行管委纳格尔：我不认为存在工资-物价螺旋。",
+   "ko": "ECB 운영위원회 위원 Nagel: 임금-가격 악순환은 없다고 생각합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7727480.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:23",
+   "ts": 1795083784,
+   "h": "TSMC, Samsung suspend some chip shipment to Chinese customers - FT.",
+   "ko": "TSMC, 삼성, 중국 고객에 대한 일부 칩 출하 중단 - FT.",
+   "u": "https://www.financialjuice.com/News/9859687/TSMC-Samsung-suspend-some-chip-shipment-to-Chinese-customers---FT.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "19:23",
+   "ts": 1795083797,
+   "h": "英伟达美股盘前涨超2%",
+   "ko": "NVIDIA의 미국 주식은 시장 개장 전에 2% 이상 상승했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6185963.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:23",
+   "ts": 1795083798,
+   "h": "ECB's Nagel: I don't see a wage-price spiral.",
+   "ko": "ECB의 Nagel: 임금 가격의 악순환은 보이지 않습니다.",
+   "u": "https://www.financialjuice.com/News/9859688/ECBs-Nagel-I-dont-see-a-wage-price-spiral.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "19:23",
+   "ts": 1795083828,
+   "h": "TSMC, Samsung halt as applying for US commerce dept licences - FT",
+   "ko": "TSMC-삼성, 美 상무부 라이선스 신청 중단 - FT",
+   "u": "https://www.financialjuice.com/News/9859689/TSMC-Samsung-halt-as-applying-for-US-commerce-dept-licences---FT.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "19:24",
+   "ts": 1795083844,
+   "h": "欧洲央行管委纳格尔：欧洲央行加息将释放明确信号。",
+   "ko": "ECB 이사회 위원 Nagel: ECB의 금리 인상은 분명한 신호를 보낼 것입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7728470.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:24",
+   "ts": 1795083852,
+   "h": "ECB's Nagel: An ECB rate hike would send clear signal.",
+   "ko": "ECB의 Nagel: ECB의 금리 인상은 분명한 신호를 보낼 것입니다.",
+   "u": "https://www.financialjuice.com/News/9859690/ECBs-Nagel-An-ECB-rate-hike-would-send-clear-signal.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "19:24",
+   "ts": 1795083855,
+   "h": "欧洲央行管委纳格尔表示，在连续两次加息后，欧洲央行可能需要进一步调整利率。",
+   "ko": "ECB 운영위원회 위원 Nagel은 금리를 두 번 연속 인상한 후 ECB가 금리를 추가로 조정해야 할 수도 있다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4504989.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:24",
+   "ts": 1795083886,
+   "h": "阿里巴巴第二财季资本开支同比增长60%，自由现金流净流出扩大至345亿元",
+   "ko": "알리바바의 2회계분기 자본지출은 전년 동기 대비 60% 증가했으며 순 잉여현금 유출액은 345억 위안으로 확대됐다.",
+   "u": "https://wallstreetcn.com/livenews/3202523",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:24",
+   "ts": 1795083893,
+   "h": "欧洲央行官员布赫：数据中心占银行企业风险敞口的1.2%-1.3%。",
+   "ko": "유럽중앙은행 관계자 Bucher: 데이터 센터는 은행 기업 위험 노출의 1.2%-1.3%를 차지합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7729131.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:25",
+   "ts": 1795083915,
+   "h": "【长鑫科技：调整回购方案，回购金额上调至25亿元至50亿元】长鑫科技公告，公司于2026年10月30日召开第二届董事会第八次会议审议通过回购方案，2026年11月3日收到董事长朱一明提议将回购金额增加至不低于人民币25亿元（含），不超过人民币50亿元（含）。2026年11月19日，公司召开第二届董事会第九次会议审议通过",
+   "ko": "[창신기술 : 환매계획 조정 및 환매금액 25억~50억위안으로 인상] 창신기술은 환매계획 검토 및 승인을 위해 2026년 10월 30일 제8차 제2차 이사회를 개최했다고 밝혔다. 2026년 11월 3일, 주이밍(Zhu Yiming) 회장으로부터 환매 금액을 25억 위안(포함) 이상 50억 위안(포함) 이하로 늘리라는 제안을 받았습니다. 회사는 2026년 11월 19일 제9차 이사회를 개최하여 심의 및 승인하였습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202524",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:25",
+   "ts": 1795083919,
+   "h": "墨西哥总统辛鲍姆与美国总统特朗普同意于3月再次举行会晤。",
+   "ko": "셰인바움 멕시코 대통령과 트럼프 미국 대통령이 3월 다시 만나기로 합의했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0967379.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:25",
+   "ts": 1795083929,
+   "h": "欧洲央行官员布赫：12家银行对私人信贷存在重大风险敞口。",
+   "ko": "ECB 공식 Bucher: 12개 은행이 민간 신용에 상당한 노출을 갖고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4505881.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:25",
+   "ts": 1795083932,
+   "h": "欧洲央行表示，银行隔夜向该机构存入1.9万亿欧元。",
+   "ko": "유럽중앙은행(European Central Bank)은 은행들이 밤새 1조9000억 유로를 이 기관에 예치했다고 밝혔다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0967551.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:25",
+   "ts": 1795083939,
+   "h": "荣联科技：收到A客户《成交通知函》，确定为2026年存储设备集采项目01包、04包中选供应商，预计成交总金额8.49亿元（含税）",
+   "ko": "Ronglian Technology: 고객 A로부터 \"거래 통지서\"를 받았으며 2026년 저장 장비 중앙 집중식 조달 프로젝트 패키지 01 및 04의 공급업체로 선정되었습니다. 총 거래 금액은 8억 4900만 위안(세금 포함)이 될 것으로 예상됩니다.",
+   "u": "https://wallstreetcn.com/livenews/3202526",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:27",
+   "ts": 1795084021,
+   "h": "欧洲央行表示，通过隔夜贷款工具借入4000万欧元，存入1.92944万亿欧元。",
+   "ko": "ECB는 익일 대출을 통해 4000만 유로를 빌렸고 1조92944억 유로를 예치했다고 밝혔다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6188501.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:27",
+   "ts": 1795084022,
+   "h": "阿里云单季收入突破600亿元，外部收入增速64%、AI收入连续13季三位数增长",
+   "ko": "Alibaba Cloud의 단일 분기 매출은 600억 위안을 초과했으며 외부 매출은 64% 증가했으며 AI 매출은 13분기 연속 세 자릿수 증가했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202527",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:28",
+   "ts": 1795084120,
+   "h": "瑞银计划将数百个职位转移至印度。",
+   "ko": "UBS는 수백 개의 일자리를 인도로 이전할 계획입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7731532.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:29",
+   "ts": 1795084140,
+   "h": "安靠智电：拟通过香港子公司出资600万迪拉姆设立迪拜孙公司",
+   "ko": "앰코 스마트 일렉트로닉스(Amkor Smart Electronics): 홍콩 자회사를 통해 600만 AED를 투자해 두바이 자회사 설립 계획",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0969496.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:29",
+   "ts": 1795084151,
+   "h": "智利总统卡斯特宣布与菲律宾达成贸易协定。",
+   "ko": "카스트로 칠레 대통령은 필리핀과 무역협정을 체결했다고 발표했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6189539.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:29",
+   "ts": 1795084181,
+   "h": "欧洲央行埃尔德森：我们将在2028年或2029年针对银行气候风险出台一些有时限的措施。",
+   "ko": "ECB Elderson: 우리는 2028년이나 2029년에 은행 기후 위험에 대한 몇 가지 시간 제한적 조치를 도입할 것입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7731841.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:29",
+   "ts": 1795084184,
+   "h": "Anthropic的IPO据悉吸引近10亿美元的英国散户需求。（彭博）",
+   "ko": "Anthropic의 IPO는 영국 소매 수요에서 거의 10억 달러를 유치한 것으로 보고되었습니다. (블룸버그)",
+   "u": "https://wallstreetcn.com/livenews/3202529",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:30",
+   "ts": 1795084205,
+   "h": "瑞银据悉计划将数百个岗位从欧洲转移到印度。（彭博）",
+   "ko": "UBS는 수백 개의 일자리를 유럽에서 인도로 이전할 계획이라고 합니다. (블룸버그)",
+   "u": "https://wallstreetcn.com/livenews/3202530",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:30",
+   "ts": 1795084213,
+   "h": "巴基斯坦KSE-100指数初步数据显示上涨0.3%，报176,751.30点。",
+   "ko": "파키스탄 KSE-100 지수 예비 데이터는 0.3% 상승한 176,751.30을 기록했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6189941.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:30",
+   "ts": 1795084236,
+   "h": "德才股份：股票交易异常波动 无应披露未披露重大事项",
+   "ko": "데카이주 : 주식거래의 비정상적인 변동이 있고, 공시 또는 공시할 주요 사항이 없음",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6190189.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:30",
+   "ts": 1795084239,
+   "h": "荷兰隐私监管机构建议消费者不要购买智能眼镜。",
+   "ko": "네덜란드 개인정보 감시단체는 소비자에게 스마트 안경을 구매하지 말라고 권고했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7732397.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:30",
+   "ts": 1795084245,
+   "h": "荷兰隐私监管机构：带摄像头的AI眼镜对用户和旁观者都不安全。",
+   "ko": "네덜란드의 개인 정보 보호 감시자: 카메라가 장착된 AI 안경은 사용자와 주변인에게 안전하지 않습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4508774.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:30",
+   "ts": 1795084255,
+   "h": "皇台酒业：股票交易异常波动 无应披露未披露重大事项",
+   "ko": "황태주류산업: 비정상적인 주식거래 변동, 주요 공개 또는 비공개 사항 없음",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "19:31",
+   "ts": 1795084295,
+   "h": "彭丽媛同亚太经合组织经济体领导人或代表配偶参观“岭南非遗传承与创新”主题展",
+   "ko": "Peng Liyuan은 APEC 경제 지도자 또는 그 배우자와 함께 \"Lingnan 남아프리카 유산 상속 및 혁신\"주제 전시회를 방문했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0970878.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:31",
+   "ts": 1795084316,
+   "h": "伊朗称两艘超级油轮在霍尔木兹海峡发生爆炸",
+   "ko": "이란 \"호르무즈해협에서 초대형 유조선 2척 폭발\"",
+   "u": "https://wallstreetcn.com/livenews/3202532",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:32",
+   "ts": 1795084360,
+   "h": "潍柴动力：控股股东潍柴集团累计增持0.15%股份，增持金额2.88亿元",
+   "ko": "Weichai Power: 지배 주주인 Weichai Group은 보유 지분을 총 0.15% 늘려 2억 8,800만 위안을 늘렸습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4510225.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:33",
+   "ts": 1795084390,
+   "h": "阿里巴巴：88VIP会员增至约6600万，闲鱼日活同比增长23%",
+   "ko": "알리바바: 88명의 VIP 회원이 약 6,600만 명으로 증가했으며, Xianyu의 일일 활동은 전년 대비 23% 증가했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202533",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:33",
+   "ts": 1795084408,
+   "h": "阿里巴巴：88VIP会员增至约6600万，闲鱼日活同比增长23%",
+   "ko": "알리바바: 88명의 VIP 회원이 약 6,600만 명으로 증가했으며, Xianyu의 일일 활동은 전년 대비 23% 증가했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6192128.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:33",
+   "ts": 1795084409,
+   "h": "金逸影视：股票交易异常波动 无应披露未披露重大事项",
+   "ko": "Jinyi Film and Television: 비정상적인 주식 거래 변동 및 공개해야 할 주요 미공개 사항 없음",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6192149.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:33",
+   "ts": 1795084412,
+   "h": "华升股份：股票交易异常波动 正推进重大资产重组",
+   "ko": "Huasheng Shares: 주식 거래가 비정상적으로 변동하고 주요 자산 구조 조정을 추진하고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7734484.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:33",
+   "ts": 1795084425,
+   "h": "国际法院裁定：缅甸相关行为存在摧毁罗兴亚群体大部分人口的意图，案件审理仍在进行。",
+   "ko": "국제사법재판소는 미얀마의 관련 행위가 로힝야족 인구의 상당 부분을 말살하려는 의도로 이뤄졌다고 판결했으며, 재판은 여전히 ​​진행 중이다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7734661.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:34",
+   "ts": 1795084474,
+   "h": "韩国最高法院将前总理韩德洙涉内乱案发回重审",
+   "ko": "대법원이 한덕수 전 국무총리의 내전 사건을 재심으로 돌려보냈다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6192852.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:35",
+   "ts": 1795084507,
+   "h": "英国政府正考虑延长酒吧营业时间，以配合更多重大活动。",
+   "ko": "영국 정부는 더 많은 주요 행사에 맞춰 펍 영업 시간을 연장하는 것을 고려하고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6193132.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:35",
+   "ts": 1795084528,
+   "h": "国统股份：股票交易异常波动 无应披露未披露重大事项",
+   "ko": "국통주: 비정상적인 주식 거래 변동이 있으며 공개 또는 공개해야 할 주요 사항이 없습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7735863.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:35",
+   "ts": 1795084530,
+   "h": "常山北明：股票交易异常波动 无应披露未披露重大事项",
+   "ko": "창산베이밍: 비정상적인 주식거래 변동, 공개 또는 공개해야 할 주요사항 없음",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4512248.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:35",
+   "ts": 1795084545,
+   "h": "佛得角10月份消费者价格同比上涨4.3%。",
+   "ko": "10월 카보베르데 소비자물가는 전년 동기 대비 4.3% 상승했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7736097.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:37",
+   "ts": 1795084624,
+   "h": "慈文传媒：公司AIGC平台尚未形成相关收入",
+   "ko": "Ciwen Media: 회사의 AIGC 플랫폼은 아직 관련 수익을 창출하지 못했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6194748.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:37",
+   "ts": 1795084630,
+   "h": "Russia, US, China leaders joint statement due within hour - IFX",
+   "ko": "러시아, 미국, 중국 정상의 공동성명, 한 시간 내로 마감 - IFX",
+   "u": "https://www.financialjuice.com/News/9859703/Russia-US-China-leaders-joint-statement-due-within-hour---IFX.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "19:38",
+   "ts": 1795084686,
+   "h": "零食店一栗预计年底门店突破130家",
+   "ko": "스낵 전문점 Yili, 연말까지 130개 이상의 매장 확보 예상",
+   "u": "https://wallstreetcn.com/livenews/3202534",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:38",
+   "ts": 1795084724,
+   "h": "伊朗称两艘超级油轮在霍尔木兹海峡发生爆炸",
+   "ko": "이란 \"호르무즈해협에서 초대형 유조선 2척 폭발\"",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7738413.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:39",
+   "ts": 1795084763,
+   "h": "意大利工业部长表示，意大利已获得欧盟委员会批准，将在马尔盖拉港建立首个欧盟关键原材料储存中心。",
+   "ko": "이탈리아 산업부 장관은 이탈리아가 유럽연합 집행위원회로부터 마르게라 항구에 최초의 EU 중요 원자재 저장 센터를 설립하는 승인을 받았다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6196083.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:39",
+   "ts": 1795084771,
+   "h": "南方上海金ETF：更新招募说明书 提示投资风险",
+   "ko": "Southern Shanghai Gold ETF: 투자 위험을 상기시키기 위한 투자설명서 업데이트",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4515212.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:39",
+   "ts": 1795084787,
+   "h": "香港置业：料香港11月整体物业注册量将环比回升 有望重返6000宗水平",
+   "ko": "홍콩 부동산: 홍콩의 전체 부동산 등록량은 11월에 전월 대비 반등할 것으로 예상되며 6,000 수준으로 돌아올 것으로 예상됩니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4515412.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:40",
+   "ts": 1795084838,
+   "h": "塞内加尔总统法耶以法令形式颁布2026年补充预算。",
+   "ko": "세네갈 파예 대통령은 2026년 추경예산을 법령으로 공포했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7739680.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:40",
+   "ts": 1795084841,
+   "h": "英国央行在7天短期回购中分配了1429.79亿英镑。",
+   "ko": "영란은행은 7일 단기 레포에 1억 429억 7900만 파운드를 할당했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0976853.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:41",
+   "ts": 1795084913,
+   "h": "大摩：仍看好黄金，2027年目标价5250美元",
+   "ko": "모건스탠리: 금에 대해 여전히 낙관적이며 2027년 목표 가격은 5,250달러입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7740508.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:43",
+   "ts": 1795085002,
+   "h": "湖北广电：股票交易异常波动 无应披露未披露重大事项",
+   "ko": "후베이라디오TV: 비정상적인 주식 거래 변동, 공개 또는 공개해야 할 주요 사항 없음",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0978419.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:45",
+   "ts": 1795085113,
+   "h": "中俄美元首和平宣言",
+   "ko": "중국, 러시아, 미국 대통령 간의 평화 선언",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4519229.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:47",
+   "ts": 1795085279,
+   "h": "中俄美元首和平宣言",
+   "ko": "중국, 러시아, 미국 대통령 간의 평화 선언",
+   "u": "https://wallstreetcn.com/livenews/3202540",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:48",
+   "ts": 1795085309,
+   "h": "乌克兰军方称其袭击了克里米亚大桥，乌克兰军方称克里米亚大桥铁路段受损。",
+   "ko": "우크라이나군은 크림대교를 공격했다고 밝혔고, 우크라이나군은 크림대교의 철도 구간이 손상됐다고 밝혔다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0981509.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:48",
+   "ts": 1795085316,
+   "h": "伊朗驻国际原子能机构代表：在面临进一步袭击威胁的情况下，德黑兰不会移交敏感核数据。",
+   "ko": "국제원자력기구(IAEA) 이란 대표: 테헤란은 추가 공격 위협 속에서 민감한 핵 데이터를 넘겨주지 않을 것입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7745347.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:48",
+   "ts": 1795085326,
+   "h": "印度将按车龄修订污染合格证有效期。",
+   "ko": "인도는 차량 연령에 따라 오염 인증서 유효 기간을 개정합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6201717.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:50",
+   "ts": 1795085416,
+   "h": "Xi, Trump, Putin agree to boost supply of refined oil products.",
+   "ko": "시 주석, 트럼프 대통령, 푸틴 대통령은 정제된 석유 제품 공급을 늘리기로 합의했습니다.",
+   "u": "https://www.financialjuice.com/News/9859719/Xi-Trump-Putin-agree-to-boost-supply-of-refined-oil-products.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "19:50",
+   "ts": 1795085459,
+   "h": "荷兰加入CAVS计划。",
+   "ko": "네덜란드가 CAVS 프로그램에 가입했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6203183.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:51",
+   "ts": 1795085493,
+   "h": "Sovcomflot预计年底前接收新LNG运输船。",
+   "ko": "Sovcomflot는 연말 이전에 새로운 LNG 운반선을 인도받을 것으로 예상하고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0983624.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:51",
+   "ts": 1795085509,
+   "h": "我国自主研发酶设计基座大模型“按需定制”工业酶",
+   "ko": "중국이 독자적으로 개발한 효소 설계 기반 대형 모델 \"주문형 맞춤형\" 산업용 효소",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7747662.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:52",
+   "ts": 1795085556,
+   "h": "阿斯麦美股盘前涨超4%",
+   "ko": "ASML의 미국 주가는 개장 전 4% 이상 상승했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4524479.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:53",
+   "ts": 1795085620,
+   "h": "我国自主研发酶设计基座大模型“按需定制”工业酶",
+   "ko": "중국이 독자적으로 개발한 효소 설계 기반 대형 모델 \"주문형 맞춤형\" 산업용 효소",
+   "u": "https://wallstreetcn.com/livenews/3202543",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:54",
+   "ts": 1795085643,
+   "h": "Trump departs Shenzhen after trilateral meeting with Xi, Putin.",
+   "ko": "트럼프 대통령은 시진핑·푸틴 대통령과의 3자 회담을 마치고 선전으로 출국한다.",
+   "u": "https://www.financialjuice.com/News/9859720/Trump-departs-Shenzhen-after-trilateral-meeting-with-Xi-Putin.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "19:54",
+   "ts": 1795085669,
+   "h": "申通快递：2026年10月快递服务业务收入56.96亿元，同比增长15.05%；完成业务量25.38亿票，同比增长11.67%；快递服务单票收入2.24元，同比增长2.75%。",
+   "ko": "STO Express: 2026년 10월 속달 서비스 사업 수익은 56억 9600만 위안으로 전년 대비 15.05% 증가했습니다. 완료된 사업량은 25억 3,800만 장으로 전년 대비 11.67% 증가했습니다. 속달 서비스 단일 티켓 수익은 2.24위안으로 전년 대비 2.75% 증가했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202546",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:54",
+   "ts": 1795085696,
+   "h": "习近平：三国会晤播下的种子必将生根发芽、开花结果",
+   "ko": "시진핑: 3국 정상회담에서 뿌린 씨앗은 반드시 뿌리를 내리고 싹이 트고 꽃을 피우고 열매를 맺게 될 것입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6205881.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:56",
+   "ts": 1795085786,
+   "h": "习近平：三国会晤播下的种子必将生根发芽、开花结果",
+   "ko": "시진핑: 3국 정상회담에서 뿌린 씨앗은 반드시 뿌리를 내리고 싹이 트고 꽃을 피우고 열매를 맺게 될 것입니다.",
+   "u": "https://wallstreetcn.com/livenews/3202548",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:56",
+   "ts": 1795085793,
+   "h": "市场消息：巴林国王乘坐的专机数分钟前离开该国，正飞往沙特阿拉伯。",
+   "ko": "시장 뉴스: 바레인 국왕의 특수 비행기가 몇 분 전에 바레인을 떠나 사우디아라비아로 비행하고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7750728.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:57",
+   "ts": 1795085837,
+   "h": "克里姆林宫称普京即将举行新闻发布会。（IFX）",
+   "ko": "크렘린궁은 푸틴 대통령이 곧 기자회견을 열 예정이라고 밝혔다. (IFX)",
+   "u": "https://wallstreetcn.com/livenews/3202549",
+   "s": "wscn"
+  },
+  {
+   "kst": "19:58",
+   "ts": 1795085932,
+   "h": "燧原科技：连续三个交易日收盘价格跌幅偏离值累计达30%以上",
+   "ko": "Suiyuan Technology: 3거래일 연속 종가 하락 누적 편차가 30% 이상에 도달했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4528356.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:59",
+   "ts": 1795085972,
+   "h": "燧原科技：正与多家国内半导体产业伙伴合作，打造基于国产供应链的云端AI芯片产品",
+   "ko": "Suiyuan Technology: 국내 공급망을 기반으로 클라우드 AI 칩 제품을 만들기 위해 다수의 국내 반도체 업계 파트너와 협력하고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6208484.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:59",
+   "ts": 1795085998,
+   "h": "黑客在今年秋季获取了多达4000名纽约市政府退休人员的财务信息。",
+   "ko": "해커들은 올 가을 뉴욕시 퇴직자 4,000명의 금융 정보에 접근할 수 있었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4528819.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:00",
+   "ts": 1795086000,
+   "h": "英国11月CBI工业物价预期差值 20，前值 24。",
+   "ko": "영국의 11월 CBI 산업 가격 예측 차이는 이전 값인 24와 비교하여 20입니다.",
+   "u": "https://wallstreetcn.com/livenews/3202551",
+   "s": "wscn"
+  },
+  {
+   "kst": "20:00",
+   "ts": 1795086000,
+   "h": "英国11月CBI工业订单差值 -12，前值 -32。",
+   "ko": "11월 영국 CBI 산업 주문 차이는 -12로, 전월의 -32와 비교됩니다.",
+   "u": "https://wallstreetcn.com/livenews/3202550",
+   "s": "wscn"
+  },
+  {
+   "kst": "20:00",
+   "ts": 1795086017,
+   "h": "英国11月CBI工业趋势销售价格20。",
+   "ko": "영국 11월 CBI 산업 동향 판매 가격 20.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0988841.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:00",
+   "ts": 1795086022,
+   "h": "英国11月CBI工业趋势总订单量-12。",
+   "ko": "영국 11월 CBI 산업 동향 총 주문량 -12.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7752678.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:00",
+   "ts": 1795086029,
+   "h": "德国联邦银行：扩张性财政政策正在提振经济增长。",
+   "ko": "Bundesbank: 확장적 재정 정책이 경제성장을 촉진하고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7752776.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:00",
+   "ts": 1795086034,
+   "h": "Bundesbank: German economic growth to quicken in fourth quarter.",
+   "ko": "Bundesbank: 독일 경제 성장은 4분기에 가속화될 것입니다.",
+   "u": "https://www.financialjuice.com/News/9859723/Bundesbank-German-economic-growth-to-quicken-in-fourth-quarter.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "20:00",
+   "ts": 1795086041,
+   "h": "Bundesbank: Higher rates to weigh on investment, construction.",
+   "ko": "Bundesbank: 투자, 건설에 부담을 주는 높은 금리.",
+   "u": "https://www.financialjuice.com/News/9859724/Bundesbank-Higher-rates-to-weigh-on-investment-construction.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "20:01",
+   "ts": 1795086067,
+   "h": "巴基斯坦KSE-100指数收盘上涨0.3%，报176,772.20点。",
+   "ko": "파키스탄 KSE-100 지수는 0.3% 상승한 176,772.20으로 마감했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6209326.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:01",
+   "ts": 1795086088,
+   "h": "德国央行：利率上升将拖累投资和建筑业。",
+   "ko": "Bundesbank: 금리 상승은 투자와 건설을 위축시킬 것입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6209583.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:01",
+   "ts": 1795086099,
+   "h": "傲拓科技：科创板IPO发行价确定为18.18元/股",
+   "ko": "Aotuo Technology: 과학기술혁신위원회의 IPO 발행 가격은 18.18위안/주로 결정됩니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4529913.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:02",
+   "ts": 1795086163,
+   "h": "世界黄金协会展望中国市场：金饰消费有望继续改善 金价回落或将进一步带动购金需求",
+   "ko": "세계금협의회(World Gold Council)는 중국 시장을 기대하고 있습니다. 금 주얼리 소비는 지속적으로 개선될 것으로 예상되며, 금 가격 하락으로 인해 금 구매 수요가 더욱 늘어날 수 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4530624.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:03",
+   "ts": 1795086204,
+   "h": "美银全球研究将MercadoLibre（MELI.O）的目标价从2400美元下调至2000美元。",
+   "ko": "BofA Global Research는 MercadoLibre(MELI.O)의 목표주가를 2,400달러에서 2,000달러로 낮췄습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0990867.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:04",
+   "ts": 1795086277,
+   "h": "超大规模数据：第三季度每股净亏损 0.11 美元。",
+   "ko": "하이퍼스케일 수치: 3분기 주당 순손실은 0.11달러입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7755528.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:05",
+   "ts": 1795086323,
+   "h": "燧原科技：在手订单充沛，并正在与多家国内半导体产业伙伴进行合作",
+   "ko": "Suiyuan Technology: 우리는 많은 주문을 보유하고 있으며 다수의 국내 반도체 업계 파트너와 협력하고 있습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202552",
+   "s": "wscn"
+  },
+  {
+   "kst": "20:06",
+   "ts": 1795086396,
+   "h": "闪迪盘前涨5.11%，现报815.90美元",
+   "ko": "SanDisk는 시장 개장 전 5.11% 상승해 현재 815.90달러에 거래되고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0992870.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:07",
+   "ts": 1795086435,
+   "h": "纳指100ETF博时(513390)将于2026年11月20日开市起至当日10:30停牌。 纳指ETF国泰(513100)将于2026年11月20日开市起至当日10:30停牌。 标普500ETF博时(513500)将于2026年11月20日开市起至当日10:30停牌。 纳斯达克ETF华夏(513300)将于2026年1",
+   "ko": "나스닥 100 ETF 보시(513390)는 2026년 11월 20일 당일 10시 30분까지 거래가 중단됩니다. 나스닥 ETF 캐세이패시픽(513100)은 2026년 11월 20일 당일 10시 30분까지 거래가 중단됩니다. S&P 500 ETF Boshi(513500)는 2026년 11월 20일 당일 10시 30분까지 거래가 중단됩니다. Nasdaq ETF China (513300) 2026년 1월 출시 예정",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "20:08",
+   "ts": 1795086487,
+   "h": "巴布亚新几内亚拉包尔西南偏西31公里处发生5.0级地震，美国地质调查局（USGS）测定。",
+   "ko": "미국지질조사국(USGS)이 측정한 파푸아뉴기니 라바울 서남서쪽 31㎞ 지점에서 규모 5.0의 지진이 발생했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6213647.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:08",
+   "ts": 1795086532,
+   "h": "李希在广西调研时强调 深入学习贯彻党的二十届五中全会精神 在持之以恒推进全面从严治党中更好担当尽责",
+   "ko": "리시 주석은 광시(廣西) 현지 조사에서 당 중앙위원회 제20기 5차 전원회의 정신을 철저히 연구하고 관철해야 하며 당의 전면적이고 엄격한 통치를 지속적으로 추진하는 데서 더 나은 책임을 다해야 한다고 강조했다.",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "20:09",
+   "ts": 1795086590,
+   "h": "ORLEN：合作涵盖人工智能、云技术、网络安全及高级数据分析的发展。",
+   "ko": "ORLEN: 협업에는 인공 지능, 클라우드 기술, 사이버 보안 및 고급 데이터 분석 개발이 포함됩니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6214445.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:09",
+   "ts": 1795086597,
+   "h": "ORLEN ：在 P-TEC 峰会上与 AWS、微软和 IBM 签署三项协议。",
+   "ko": "ORLEN: P-TEC Summit에서 AWS, Microsoft 및 IBM과 세 가지 계약을 체결했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4534712.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:10",
+   "ts": 1795086626,
+   "h": "西部数据美股盘前涨超5%",
+   "ko": "웨스턴디지털 미국 증시는 개장 전 5% 이상 상승했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0994752.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:10",
+   "ts": 1795086646,
+   "h": "京蓝科技：股票交易异常波动 靶材产线尚未量产",
+   "ko": "Jinglan Technology: 주식 거래가 비정상적으로 변동하고 대상 생산 라인이 아직 대량 생산에 투입되지 않았습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4535168.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:10",
+   "ts": 1795086649,
+   "h": "思美传媒：股票交易异常波动 无应披露未披露重大事项",
+   "ko": "Simei Media : 주식 거래의 비정상적인 변동, 주요 사항은 공개 및 비공개되어서는 안됩니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0994915.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:12",
+   "ts": 1795086760,
+   "h": "呼和浩特盛乐国际机场即将转场投运",
+   "ko": "후허하오터 성러 국제공항이 곧 운영될 예정입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6215905.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:12",
+   "ts": 1795086779,
+   "h": "菲律宾10月份国际收支逆差为14.99亿美元。",
+   "ko": "필리핀의 10월 국제수지 적자는 14억 9900만 달러였습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7760264.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:14",
+   "ts": 1795086854,
+   "h": "摩根大通将戴尔科技目标价从635美元下调至515美元。",
+   "ko": "JPMorgan은 Dell Technologies의 목표주가를 635달러에서 515달러로 낮췄습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7760996.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:14",
+   "ts": 1795086876,
+   "h": "2026年APEC工商领导人峰会举行主办权交接仪式",
+   "ko": "2026 APEC 비즈니스 리더스 서밋 개최 인수식 개최",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4537524.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:14",
+   "ts": 1795086894,
+   "h": "欧盟委员会发言人表示，欧盟/印度尼西亚将于本周六正式签署此前达成的贸易协定。",
+   "ko": "유럽연합 집행위원회 대변인은 EU/인도네시아가 이번 토요일에 이전에 체결된 무역 협정에 공식적으로 서명할 것이라고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7761241.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:16",
+   "ts": 1795086991,
+   "h": "据TankerTrackers消息，伊朗似乎正准备恢复石油运输。",
+   "ko": "TankerTrackers에 따르면 이란은 석유 수송 재개를 준비하고 있는 것으로 보입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7761968.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:18",
+   "ts": 1795087091,
+   "h": "邓青云看好中国AI设计OLED分子",
+   "ko": "Deng Qingyun은 중국의 AI 설계 OLED 분자에 대해 낙관적입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7762624.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:19",
+   "ts": 1795087153,
+   "h": "机械革命潘春节：未来会布局企业级AI Box、个人AI PC和边缘智能设备",
+   "ko": "기계혁명 판춘축제: 향후 기업용 AI Box, 개인용 AI PC, 엣지 스마트 디바이스 배치 예정",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki0998727.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:19",
+   "ts": 1795087166,
+   "h": "摩根大通预计美国第四季度同比GDP增速为1.9%。",
+   "ko": "JP모건체이스는 미국의 4분기 GDP 성장률이 전년 동기 대비 1.9%로 예상했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4539402.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:20",
+   "ts": 1795087243,
+   "h": "马斯克：特斯拉不会放弃民用车，将推出可乘坐6-7人无人驾驶版Model Y",
+   "ko": "머스크: 테슬라는 민간용 자동차를 포기하지 않고 6~7인승이 가능한 모델 Y의 자율주행 버전을 출시할 것이다",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4539949.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:21",
+   "ts": 1795087274,
+   "h": "加纳10月份生产者价格同比上涨5.2%。",
+   "ko": "가나의 10월 생산자 물가는 전년 동기 대비 5.2% 상승했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4540135.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:22",
+   "ts": 1795087335,
+   "h": "行云科技：与新丝路控股签署AI词元跨境销售合同，首期订单2亿元",
+   "ko": "Xingyun Technology: New Silk Road Holdings와 AI 단어 국경 간 판매 계약 체결, 초도 주문량 2억 위안",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4540674.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:23",
+   "ts": 1795087404,
+   "h": "乌克兰总统泽连斯基抵达柏林，参加会谈。",
+   "ko": "젤렌스키 우크라이나 대통령은 회담에 참석하기 위해 베를린에 도착했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7764884.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:24",
+   "ts": 1795087442,
+   "h": "乌克兰总统泽连斯基：柏林会议有40多个合作伙伴及美国团队参加。",
+   "ko": "젤렌스키 우크라이나 대통령: 베를린 회의에는 40개 이상의 파트너와 미국 팀이 참석했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7765149.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:24",
+   "ts": 1795087474,
+   "h": "德黑兰市长阿里礼萨·扎卡尼周四表示，伊朗并未陷入僵局，尽管面临制裁和封锁，国家仍可依靠国内能力进行治理。",
+   "ko": "알리레자 알 자카니 테헤란 시장은 목요일 이란은 교착상태에 있지 않으며 제재와 봉쇄에도 불구하고 여전히 국내 역량에 의존해 통치할 수 있다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki1000953.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:25",
+   "ts": 1795087513,
+   "h": "石泰峰在陕西、四川调研时强调 深入学习贯彻习近平党建思想 推动全面从严治党各项任务落到实处",
+   "ko": "스태펑 주석은 산시성과 쓰촨성을 조사하면서 시진핑의 당 건설 사상을 철저히 연구하고 관철해야 하며 당을 전면적이고 엄격하게 통치하는 모든 임무의 관철을 추진해야 한다고 강조했습니다.",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "20:26",
+   "ts": 1795087564,
+   "h": "重庆：锚定千亿工业目标 大渡口建设中心城区产城融合新高地",
+   "ko": "충칭: 1000억 산업 목표를 목표로 Dadukou는 중앙 도시 지역에 산업 도시 통합을 위한 새로운 고지를 건설합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4542235.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:26",
+   "ts": 1795087588,
+   "h": "乌克兰总统泽连斯基：乌克兰的优先事项包括加强防空能力、获取能源和财政支持、推进外交渠道，以及为结束战争和保障安全采取下一步行动。我们正在尽一切努力，确保欧洲全面参与谈判进程，并使这些会议取得实质性成果。我们还计划与欧洲伙伴举行双边会晤，包括与德国总理默茨的会晤。",
+   "ko": "젤렌스키 우크라이나 대통령: 우크라이나의 우선순위에는 방공 능력 강화, 에너지 및 재정 지원 확보, 외교 채널 발전, 전쟁 종식과 안보 보장을 위한 다음 조치 취하는 것이 포함됩니다. 우리는 유럽이 협상 과정에 완전히 참여할 수 있도록 하고 이번 회의에서 실질적인 결과를 얻기 위해 최선을 다하고 있습니다. 또한 메르츠 독일 총리 등 유럽 파트너들과도 양자 회담을 가질 계획입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7766085.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:27",
+   "ts": 1795087677,
+   "h": "世界黄金协会：9月全球央行公开净购金量达61吨 创2026年迄今单月最高纪录",
+   "ko": "세계금협의회(World Gold Council): 9월 글로벌 중앙은행의 공공 금 순매입량은 61톤에 달해 2026년 현재까지 한 달간 최고 기록을 세웠습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4542854.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:28",
+   "ts": 1795087690,
+   "h": "市场消息：前乐购高管惠威正洽谈出任森宝利董事长。",
+   "ko": "시장 뉴스: 전 Tesco 임원인 Swansea가 Sainsbury's의 회장이 되기 위해 협상 중입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7766584.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:28",
+   "ts": 1795087697,
+   "h": "BTG Pactual将巴西股市评级下调至中性，同时上调墨西哥股市评级。",
+   "ko": "BTG Pactual은 브라질 주식시장에 대한 신용등급을 중립으로 낮추고 멕시코 주식시장에 대한 신용등급을 높였습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7766622.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:28",
+   "ts": 1795087716,
+   "h": "伊朗阿曼就建立区域安全框架进行会谈",
+   "ko": "이란과 오만, 지역 안보 체제 구축에 관한 회담",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7766721.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:28",
+   "ts": 1795087723,
+   "h": "意大利内政部长：黑客攻击和虚假信息攻击旨在破坏国家稳定，削弱国家机构的公信力。",
+   "ko": "이탈리아 내무장관: 해킹과 허위 정보 공격은 국가를 불안정하게 만들고 국가 기관의 신뢰성을 약화시키는 것을 목표로 합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7766742.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:29",
+   "ts": 1795087755,
+   "h": "世界黄金协会：9月全球央行公开净购金量达61吨 创2026年迄今单月最高纪录",
+   "ko": "세계금협의회(World Gold Council): 9월 글로벌 중앙은행의 공공 금 순매입량은 61톤에 달해 2026년 현재까지 한 달간 최고 기록을 세웠습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202562",
+   "s": "wscn"
+  },
+  {
+   "kst": "20:29",
+   "ts": 1795087759,
+   "h": "Hexaware连续第四年获评微软Azure专家级托管服务提供商。",
+   "ko": "Hexaware는 4년 연속 Microsoft Azure 전문 관리 서비스 제공업체라는 타이틀을 획득했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6222457.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:29",
+   "ts": 1795087792,
+   "h": "俄罗斯副总理：克里米亚大桥的修复方案已完全协调一致，并将在未来几天内获得批准。",
+   "ko": "러시아 부총리: 크림 대교 복원 계획이 완전히 조율되었으며 앞으로 며칠 내에 승인될 것입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4543429.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:29",
+   "ts": 1795087799,
+   "h": "2027年展望：摩根大通表示，人工智能周期将在2027年以各种表现形式变得更加成熟和温和。",
+   "ko": "2027년 전망: JP Morgan은 2027년에 AI 주기가 다양한 형태로 더욱 성숙하고 온건해질 것이라고 말합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7767121.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:30",
+   "ts": 1795087802,
+   "h": "欧盟委员会发言人表示，欧盟委员会最近已采取必要措施应对网络攻击活动。",
+   "ko": "유럽연합 집행위원회 대변인은 유럽연합 집행위원회가 최근 사이버 공격에 대처하기 위해 필요한 조치를 취했다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7767155.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:30",
+   "ts": 1795087810,
+   "h": "拼多多：第三季度调整后每ADS收益 21.04元人民币，预估18.54元人民币。",
+   "ko": "Pinduoduo: 3분기 ADS당 조정된 수익은 RMB 21.04(추정 RMB 18.54)였습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7767234.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:30",
+   "ts": 1795087816,
+   "h": "拼多多：第三季度营收1,083亿元人民币，预估1,152.1亿元人民币。",
+   "ko": "Pinduoduo: 3분기 매출은 1,083억 위안으로 예상치 1,152억 1천만 위안과 비교됩니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7767281.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:30",
+   "ts": 1795087823,
+   "h": "拼多多：第三季度调整后营业利润326.4亿元人民币。",
+   "ko": "Pinduoduo: 3분기 조정 영업이익은 326억 4천만 위안이었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki1002837.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:30",
+   "ts": 1795087825,
+   "h": "拼多多第三季度营收1,083亿元人民币，预估1,152.1亿元人民币。 第三季度调整后每ADS收益 21.04元人民币，预估18.54元人民币。 第三季度调整后营业利润326.4亿元人民币，预估278.5亿元人民币。 第三季度调整后净利润310.2亿元人民币，预估272.9亿元人民币。 第三季度一般及行政开支16亿元人",
+   "ko": "Pinduoduo의 3분기 매출은 1,083억 위안으로 추정치 1,152억 1천만 위안에 비해 크게 늘었습니다. 3분기 ADS당 조정된 수익은 RMB 21.04로 예상치인 RMB 18.54와 비교됩니다. 3분기 조정 영업이익은 326억4000만 위안으로 예상치 278억5000만 위안을 크게 웃돌았다. 3분기 조정 순이익은 310억2000만 위안으로 예상치 272억9000만 위안을 크게 웃돌았다. 3분기 일반 및 관리 비용은 NT$16억을 기록했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202563",
+   "s": "wscn"
+  },
+  {
+   "kst": "20:30",
+   "ts": 1795087828,
+   "h": "2027年展望：摩根大通表示，我们预计实际商业资本支出增速将从今年的10%放缓至明年的8%。",
+   "ko": "2027년 전망: JP모건은 실질 기업 자본 지출 증가율이 올해 10%에서 내년 8%로 둔화될 것으로 예상한다고 밝혔습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki1002897.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:30",
+   "ts": 1795087840,
+   "h": "截至11月13日，土耳其央行净国际储备为412.6亿美元。",
+   "ko": "11월 13일 현재 터키 중앙은행의 순 해외 준비금은 412억 6천만 달러입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7767530.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:31",
+   "ts": 1795087872,
+   "h": "欧盟委员会：没有证据表明存在影响整个委员会工作人员的数据泄露事件。",
+   "ko": "유럽 ​​위원회: 위원회 전체 직원에게 영향을 미치는 데이터 위반에 대한 증거는 없습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4544089.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:31",
+   "ts": 1795087874,
+   "h": "拼多多盘前短线跳水，现跌超2%。消息面上，第三季度营收不及预期。",
+   "ko": "핀둬둬는 시장 개장 전 단기 급락을 했고 현재는 2% 이상 하락했다. 뉴스에 따르면 3분기 매출은 기대에 미치지 못했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki1003169.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:31",
+   "ts": 1795087878,
+   "h": "摩根大通预计美联储将加息三次，分别在12月、1月和3月，使联邦基金利率达到4.5%-4.75%。",
+   "ko": "JP모건체이스는 연준이 12월, 1월, 3월 세 차례 금리를 인상해 연방기금 금리를 4.5%~4.75%로 끌어올릴 것으로 예상했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6223195.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:31",
+   "ts": 1795087893,
+   "h": "US Energy Secretary Wright: US mulls ramping up diesel, oil exports to Europe.",
+   "ko": "라이트 미국 에너지 장관: 미국은 유럽으로의 디젤, 석유 수출을 늘리는 것을 고려하고 있습니다.",
+   "u": "https://www.financialjuice.com/News/9859759/US-Energy-Secretary-Wright-US-mulls-ramping-up-diesel-oil-exports-to-Europe.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "20:31",
+   "ts": 1795087894,
+   "h": "美国能源部部长赖特：美国正考虑增加对欧洲的柴油和石油出口。",
+   "ko": "라이트 미국 에너지 장관: 미국은 유럽으로의 디젤과 석유 수출을 늘리는 것을 고려하고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki1003362.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:31",
+   "ts": 1795087915,
+   "h": "印度10年期基准国债收益率收于7.2543%，较前一交易日收盘的7.2858%下跌。",
+   "ko": "인도 10년 만기 국채 수익률은 전날 종가 7.2858%보다 하락한 7.2543%로 마감됐다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6223510.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:32",
+   "ts": 1795087959,
+   "h": "欧盟委员会：在那次网络攻击之后，许多要素已被控制。",
+   "ko": "유럽연합 집행위원회: 사이버 공격 이후 많은 요소가 통제되었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7768616.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:32",
+   "ts": 1795087963,
+   "h": "南非财政部缩短12月17日至31日一级交易商交易时间。",
+   "ko": "남아프리카 재무부는 1차 딜러의 거래 시간을 12월 17일에서 31일로 단축했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4544993.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:32",
+   "ts": 1795087969,
+   "h": "英国航空管理局将于1月公布对航班中断审查的初步调查结果。",
+   "ko": "영국 항공청은 1월에 비행 중단에 대한 검토에 대한 예비 결과를 발표할 예정입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4545067.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:33",
+   "ts": 1795087988,
+   "h": "摩根大通表示，这些加息并非为了造成劳动力市场疲软，而是在没有令人信服的暂停加息理由时，维护自身信誉。",
+   "ko": "JPMorgan Chase는 이러한 금리 인상이 노동 시장 약화를 야기하려는 의도가 아니라 금리 인상을 중단할 설득력 있는 이유가 없을 때 신뢰성을 유지하기 위한 것이라고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7768905.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:33",
+   "ts": 1795087995,
+   "h": "比特币升破64000美元，日内涨1.49%。",
+   "ko": "비트코인은 이날 1.49% 상승해 64,000달러를 넘어섰다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7768982.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:33",
+   "ts": 1795088001,
+   "h": "欧盟委员会：不知道在此次网络攻击后向委员会支付了任何赎金。",
+   "ko": "유럽 ​​위원회: 이번 사이버 공격 이후 위원회에 몸값이 지급된 사실을 알지 못합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmiz6224282.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:33",
+   "ts": 1795088036,
+   "h": "Melius Research首次覆盖Anthropic并给予\"买入\"评级，目标价155美元。",
+   "ko": "Melius Research는 \"매수\" 등급과 155달러 목표 가격으로 Anthropic에 대한 보도를 시작했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7769345.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:34",
+   "ts": 1795088095,
+   "h": "Hexaware Technologies首席运营官在2026年审计后续期微软Azure专家MSP认证。",
+   "ko": "Hexaware Technologies COO는 2026년 감사 후 Microsoft Azure Expert MSP 인증을 갱신합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7769886.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:35",
+   "ts": 1795088150,
+   "h": "迈威尔科技美股盘前涨超5%",
+   "ko": "마블 테크놀로지의 미국 주식은 개장 전 5% 이상 상승했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7770327.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:35",
+   "ts": 1795088151,
+   "h": "拼多多美股盘前拉升，现涨超5%，此前一度跌近3%。",
+   "ko": "Pinduoduo의 미국 주식은 시장 개장 전에 상승했으며, 이전에 거의 3% 하락한 후 현재 5% 이상 상승했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202565",
+   "s": "wscn"
+  },
+  {
+   "kst": "20:36",
+   "ts": 1795088161,
+   "h": "东方汇理资管的莫蒂尔表示，看好挪威、澳大利亚、瑞士等债务占GDP比例较低国家的政府债券。",
+   "ko": "Orient Asset Management의 Motil은 노르웨이, 호주, 스위스 등 GDP 대비 부채 비율이 낮은 국가의 국채에 대해 낙관적이라고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki1005342.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:36",
+   "ts": 1795088186,
+   "h": "美国众议员拉斯金与参议员希夫要求九家律所提供记录。",
+   "ko": "라스킨 미국 하원의원과 쉬프 상원의원은 9개 로펌에 기록을 요청했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki1005544.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:36",
+   "ts": 1795088190,
+   "h": "欧盟委员会：鉴于调查仍在进行中，很难判断网络攻击的规模。",
+   "ko": "유럽연합 집행위원회: 조사가 아직 진행 중인 점을 감안할 때 사이버 공격 규모를 판단하기는 어렵습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki1005586.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:36",
+   "ts": 1795088193,
+   "h": "Arm Holdings美股盘前涨超5%",
+   "ko": "Arm Holdings 미국 증시는 개장 전 5% 이상 상승했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4547053.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:36",
+   "ts": 1795088216,
+   "h": "拼多多美股盘前拉升，现涨超4%，此前一度跌近3%。",
+   "ko": "Pinduoduo의 미국 주식은 시장 개장 전에 상승했으며, 이전에 거의 3% 하락한 후 현재 4% 이상 상승했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki1005748.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:37",
+   "ts": 1795088225,
+   "h": "意大利内政部长：现在将责任归咎于一个或多个敌对的、协同行动的参与者还为时过早。",
+   "ko": "이탈리아 내무장관: 콘서트에서 행동하는 한 명 이상의 적대적인 배우들에게 책임을 묻는 것은 아직 이르다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4547265.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:37",
+   "ts": 1795088249,
+   "h": "意大利内政部长：已对不明身份人员展开调查，指控其引发公众恐慌。",
+   "ko": "이탈리아 내무장관: 대중을 당황하게 한 혐의로 신원이 밝혀지지 않은 사람들을 대상으로 조사가 시작되었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4547529.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:37",
+   "ts": 1795088259,
+   "h": "Coherent批准最高20亿美元的股票回购计划。",
+   "ko": "코히런트는 최대 20억 달러 규모의 주식 환매 프로그램을 승인했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki1006108.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:37",
+   "ts": 1795088271,
+   "h": "东方汇理资管的莫蒂尔表示对法国国债持中性立场。",
+   "ko": "Orient Asset Management의 Motier는 프랑스 국채에 대해 중립적이라고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4547668.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:38",
+   "ts": 1795088288,
+   "h": "保能源安全 欧盟推迟“限甲烷排放”法规生效 ",
+   "ko": "EU는 에너지 안보를 보장하기 위해 '메탄 배출 제한' 규정 발효를 연기합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmke4547797.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:38",
+   "ts": 1795088308,
+   "h": "摩根大通预计2028年美联储将降息两次，每次25个基点。",
+   "ko": "JPMorgan Chase는 연준이 2028년에 금리를 두 번(매번 25bp씩) 인하할 것으로 예상했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki1006510.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:38",
+   "ts": 1795088334,
+   "h": "意大利内政部长：初步检查显示，警报源自被入侵的外国电子邮件账户。",
+   "ko": "이탈리아 내무부 장관: 예비 점검 결과 해당 경고는 손상된 외국 이메일 계정에서 발생한 것으로 나타났습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7771933.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:38",
+   "ts": 1795088337,
+   "h": "意大利内政部长：唯一确认的、有组织的网络攻击目标是食品分销行业的制冷系统。",
+   "ko": "이탈리아 내무부 장관: 유일하게 확인되고 조직화된 사이버 공격은 식품 유통 산업의 냉동 시스템을 표적으로 삼았습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmki1006688.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:39",
+   "ts": 1795088342,
+   "h": "东方汇理资管的莫蒂埃表示，更青睐政府债券收益率曲线的短端。",
+   "ko": "오리엔트자산운용의 모티에는 국채 수익률 곡선의 단기를 선호한다고 말했다.",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "20:40",
+   "ts": 1795088406,
+   "h": "德国商业银行董事会成员兼工会官员沃斯：现在需要的是2030年以后的具有约束力的协议，以确保工作稳定、社区强大和良好的工作条件。",
+   "ko": "Commerzbank 이사회 구성원이자 노조 간부인 Voss: 지금 필요한 것은 2030년 이후 일자리 안정성, 강력한 공동체 및 좋은 근무 조건을 보장하기 위한 구속력 있는 합의입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrrx6096362.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:41",
+   "ts": 1795088494,
+   "h": "拼多多盘前短线暴涨，现涨超9%。",
+   "ko": "Pinduoduo는 시장 개장 전 단기적으로 급등했으며 현재 9% 이상 상승했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsf0877192.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:43",
+   "ts": 1795088600,
+   "h": "ST晨鸣：B股股价异常波动 无应披露未披露事项",
+   "ko": "ST Chenming : B주 주가가 비정상적으로 등락하고 있으며, 공개해야 할 미공개 사항은 없습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsf0877999.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:43",
+   "ts": 1795088618,
+   "h": "拼多多美股盘前直线拉升，现涨超9%。",
+   "ko": "Pinduoduo의 미국 주식은 시장이 열리기 전에 급격히 상승했으며 현재 9% 이상 상승했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202566",
+   "s": "wscn"
+  },
+  {
+   "kst": "20:45",
+   "ts": 1795088747,
+   "h": "Isomorphic Labs将根据协议从默沙东获得预付款。",
+   "ko": "Isomorphic Labs는 계약에 따라 Merck로부터 선불금을 받게 됩니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsa4421250.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:46",
+   "ts": 1795088775,
+   "h": "默沙东： ISOMORPHIC LABS获得选择权，可共同资助开发以提高特许权使用费。",
+   "ko": "MSD: ISOMORPHIC LABS는 로열티 강화를 위해 개발 공동 자금 조달 옵션을 획득했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsf0879465.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:46",
+   "ts": 1795088780,
+   "h": "65 Equity Partners：宣布投资瑞典超级跑车制造商柯尼塞格汽车，标志着其投资规模达到20亿美元的里程碑。",
+   "ko": "65개 자산 파트너: 스웨덴 슈퍼카 제조업체인 Koenigsegg Automotive에 대한 투자를 발표하여 투자 규모가 20억 달러라는 이정표를 세웠습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrrx6099524.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:46",
+   "ts": 1795088815,
+   "h": "SK海力士美股盘前涨超6%",
+   "ko": "SK하이닉스 미국 증시 개장 전 6% 이상 상승",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsa4421800.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:47",
+   "ts": 1795088834,
+   "h": "特斯拉美股盘前涨超2%",
+   "ko": "테슬라 미국 주가는 개장 전 2% 이상 상승했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsa4421979.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:47",
+   "ts": 1795088847,
+   "h": "美国考虑加大对欧洲柴油与原油出口，赖特表态",
+   "ko": "미국은 유럽으로의 디젤 및 원유 수출 증가를 고려하고 있으며 Wright는 자신의 입장을 표명했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsf0880088.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:47",
+   "ts": 1795088859,
+   "h": "默沙东：将与 Isomorphic 合作，针对具有战略重要性的肿瘤学靶点发现治疗性小分子候选药物。",
+   "ko": "머크: 전략적으로 중요한 종양학 표적을 표적으로 삼는 치료용 소분자 약물 후보를 발굴하기 위해 Isomorphic과 협력할 예정입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrry7645899.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:48",
+   "ts": 1795088883,
+   "h": "英国药品和医疗产品监管署（MHRA）：任命史蒂文·戴维斯为首席财务与商务官。",
+   "ko": "영국 의약품 및 건강 관리 제품 규제 기관(MHRA): Steven Davis를 최고 재무 및 상업 책임자로 임명했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsf0880404.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:48",
+   "ts": 1795088925,
+   "h": "《GTA6》发售带火PS5：Pro版溢价至1.4万元，全球出货量破1亿台",
+   "ko": "'GTA6' 출시, PS5 출시: Pro 버전 프리미엄 14,000위안, 글로벌 출하량 1억개 돌파",
+   "u": "https://wallstreetcn.com/livenews/3202567",
+   "s": "wscn"
+  },
+  {
+   "kst": "20:48",
+   "ts": 1795088937,
+   "h": "李家超介绍出席APEC会议成果",
+   "ko": "Li Jiachao는 APEC 회의 참석 결과를 소개했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsa4422918.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:49",
+   "ts": 1795088949,
+   "h": "《GTA6》发售带火PS5：Pro版溢价至1.4万元，全球出货量破1亿台",
+   "ko": "'GTA6' 출시, PS5 출시: Pro 버전 프리미엄 14,000위안, 글로벌 출하량 1억개 돌파",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsf0880917.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:49",
+   "ts": 1795088956,
+   "h": "英国10月柴油价格创历史新高",
+   "ko": "영국 디젤가격, 10월 사상 최고치 기록",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsf0880960.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:49",
+   "ts": 1795088965,
+   "h": "美光科技美股盘前涨超6%",
+   "ko": "마이크론 테크놀로지의 미국 주식은 개장 전 6% 이상 상승했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrry7646786.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:49",
+   "ts": 1795088969,
+   "h": "意大利内政部长：目前没有对国家安全构成具体威胁的紧急情况.",
+   "ko": "이탈리아 내무장관: 현재 국가 안보에 특별한 위협을 가하는 긴급 상황은 없습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrrx6101051.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:49",
+   "ts": 1795088992,
+   "h": "蒙特利尔银行将杜克能源目标价从128美元上调至138美元。",
+   "ko": "몬트리올 은행은 듀크 에너지의 목표 가격을 128달러에서 138달러로 상향 조정했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsf0881197.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:50",
+   "ts": 1795089033,
+   "h": "李家超介绍出席APEC会议成果",
+   "ko": "Li Jiachao는 APEC 회의 참석 결과를 소개했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202568",
+   "s": "wscn"
+  },
+  {
+   "kst": "20:51",
+   "ts": 1795089065,
+   "h": "东方汇理资管的莫蒂尔表示，印度市场一直被误解、定价错误，应成为资产配置组合的一部分。",
+   "ko": "Orient Asset Management의 Motil은 인도 시장이 오해되고 가격이 잘못 책정되어 있으며 자산 배분 포트폴리오의 일부가 되어야 한다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrrx6101658.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:52",
+   "ts": 1795089132,
+   "h": "明年起职称评审管理新规将施行",
+   "ko": "전문 타이틀 심사 관리 규정이 내년부터 시행된다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsa4424363.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:52",
+   "ts": 1795089140,
+   "h": "SELLAS生命科学公司股价盘前下跌23.6%，此前其1.5亿美元股票发售定价大幅折让。",
+   "ko": "SELLAS Life Sciences의 주가는 1억 5천만 달러 규모의 주식 공모 가격을 대폭 할인된 가격으로 책정한 후 시판 전 거래에서 23.6% 하락했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsa4424442.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:52",
+   "ts": 1795089147,
+   "h": "智利国家铜业委员会（Cochilco）表示，智利2026-2023年矿业投资组合预计为1111.5亿美元，为13年来最高水平。",
+   "ko": "칠레 국가구리위원회(Cochilco)는 2026년부터 2023년까지 칠레의 광산 투자 포트폴리오가 13년 만에 최고 수준인 1,111억 5천만 달러에 달할 것으로 예상한다고 밝혔습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsa4424519.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:52",
+   "ts": 1795089167,
+   "h": "塞尔维亚议会就新任议长人选进行投票。",
+   "ko": "세르비아 의회는 새 의장 후보를 투표합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsa4424686.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:53",
+   "ts": 1795089201,
+   "h": "中国移动陈怀达：人工智能正加速向制造业全流程渗透",
+   "ko": "China Mobile Chen Huaida: 인공 지능이 전체 제조 공정에 대한 침투를 가속화하고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsf0882579.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:53",
+   "ts": 1795089211,
+   "h": "习近平主持中俄美元首会晤",
+   "ko": "시진핑 중국, 러시아, 미국 정상회담 주재",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrry7648720.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:54",
+   "ts": 1795089293,
+   "h": "普京：三边会谈涉及联合国改革、安全议题。 领导人发言结束后峰会进入自由讨论环节。",
+   "ko": "푸틴: 3자 회담에는 유엔 개혁과 안보 문제가 포함됩니다. 정상회담은 정상들의 연설이 끝난 뒤 자유토론회에 돌입했다.",
+   "u": "https://wallstreetcn.com/livenews/3202569",
+   "s": "wscn"
+  },
+  {
+   "kst": "20:55",
+   "ts": 1795089354,
+   "h": "Bath&Body Works第三季度调整后每股收益0.26美元，上年同期0.35美元，预估0.12美元 第三季度调每股收益0.19美元，上年同期0.37美元。 第三季度调销售净额15.8亿美元，预估15.5亿美元。 第三季度调调整后运营收益1.21亿美元，同比-25%，预估8,670万美元。 Bath&Body Wo",
+   "ko": "Bath & Body Works는 지난해 같은 기간의 0.35달러와 비교하여 3분기 주당 순이익을 0.26달러로 조정했으며 추정치는 0.12달러였습니다. 3분기 조정 주당 순이익은 0.19달러로 지난해 같은 기간의 0.37달러와 비교됩니다. 3분기 순매출은 예상치 15억 5천만 달러에서 15억 8천만 달러로 조정되었습니다. 3분기 조정 영업이익은 1억 2,100만 달러로 전년 대비 -25%, 추정치 8,670만 달러를 기록했습니다. 배스 앤 바디 워",
+   "u": "https://wallstreetcn.com/livenews/3202570",
+   "s": "wscn"
+  },
+  {
+   "kst": "20:56",
+   "ts": 1795089367,
+   "h": "习近平主持中俄美元首会晤",
+   "ko": "시진핑 중국, 러시아, 미국 정상회담 주재",
+   "u": "https://wallstreetcn.com/livenews/3202436",
+   "s": "wscn"
+  },
+  {
+   "kst": "20:56",
+   "ts": 1795089377,
+   "h": "俄各界高度关注中俄美元首会晤 称会晤具有建设性意义",
+   "ko": "러시아 각계 인사들은 이번 회담이 건설적인 의의가 있다며 중국, 러시아, 미국 정상의 회담을 예의주시하고 있다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrry7649980.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:57",
+   "ts": 1795089457,
+   "h": "湖北、四川相关部门公开辟谣“建材市场大检查”",
+   "ko": "후베이성, 쓰촨성 관련 부서에서는 '건축자재 시장 대대적인 조사'에 대한 소문을 공개적으로 퍼뜨렸습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrrx6104497.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:57",
+   "ts": 1795089478,
+   "h": "东方汇理资管的莫蒂埃表示，需要将地方政治的重要性纳入资产配置。",
+   "ko": "오리엔트자산운용의 모티에는 자산배분에 지역정치의 중요성을 고려해야 한다고 말했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrrx6104664.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:58",
+   "ts": 1795089482,
+   "h": "东方汇理资产管理公司的莫蒂埃表示，明年将完全聚焦于地方政治和特定国家的政治局势。",
+   "ko": "Amundi Asset Management의 Motier는 내년에는 지역 정치와 특정 국가의 정치적 상황에 전적으로 초점을 맞출 것이라고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsa4427077.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:58",
+   "ts": 1795089501,
+   "h": "加蓬或于2027年进入欧洲债券市场，具体取决于市场条件。",
+   "ko": "가봉은 시장 상황에 따라 2027년에 유럽 채권 시장에 진출할 수도 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrry7650944.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:58",
+   "ts": 1795089508,
+   "h": "加蓬预计年底前与国际货币基金组织达成协议，已开始偿还部分欠款。",
+   "ko": "가봉은 올해 말까지 국제통화기금(IMF)과 합의할 것으로 예상하고 체납금 일부를 상환하기 시작했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsa4427376.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:59",
+   "ts": 1795089549,
+   "h": "湖北、四川相关部门公开辟谣“建材市场大检查”",
+   "ko": "후베이성, 쓰촨성 관련 부서에서는 '건축자재 시장 대대적인 조사'에 대한 소문을 공개적으로 퍼뜨렸습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202571",
+   "s": "wscn"
+  },
+  {
+   "kst": "20:59",
+   "ts": 1795089552,
+   "h": "中国节能与华为签署战略合作协议",
+   "ko": "CECEP와 화웨이가 전략적 협력 계약을 체결했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrry7651349.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:59",
+   "ts": 1795089563,
+   "h": "百时美施贵宝在2026年美国血液学会（ASH）年会上展示了其在血液癌症和罕见血液疾病领域的广泛布局及临床研究进展。",
+   "ko": "Bristol-Myers Squibb은 2026년 미국 혈액학회(ASH) 연례 회의에서 혈액암 및 희귀 혈액 질환 분야의 광범위한 레이아웃과 임상 연구 진행 상황을 시연했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsf0885257.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:59",
+   "ts": 1795089565,
+   "h": "东方汇理资管的莫蒂埃表示，与今年相比，明年对欧洲股市的看涨情绪有所减弱。",
+   "ko": "오리엔트자산운용의 모티어는 유럽 증시에 대한 강세 심리가 올해보다 내년에 약해질 것이라고 말했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsa4427780.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:59",
+   "ts": 1795089570,
+   "h": "Plains All American美股盘前涨超11%",
+   "ko": "평야 모든 미국 미국 주식은 시장 전 거래에서 11% 이상 상승했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrry7651501.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:59",
+   "ts": 1795089595,
+   "h": "沃尔玛预计全年调整后每股收益为2.84美元至2.89美元，此前预期为2.80美元至2.87美元。",
+   "ko": "월마트는 연간 조정 주당 순이익을 2.84~2.89달러로 예상하고 있으며, 이는 이전 예측인 2.80~2.87달러와 비교됩니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsa4427998.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:00",
+   "ts": 1795089604,
+   "h": "沃尔玛：第三季度营收1,888.4亿美元，预估1,871.7亿美元。",
+   "ko": "월마트: 3분기 매출은 1,888억 4천만 달러로 예상치 1,871억 7천만 달러와 비교됩니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsa4428048.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:00",
+   "ts": 1795089616,
+   "h": "沃尔玛第三季度净利润49.5亿美元。",
+   "ko": "월마트의 3분기 순이익은 49억 5천만 달러였습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrrx6105601.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:00",
+   "ts": 1795089631,
+   "h": "秘鲁钱凯港为亚拉贸易开辟新空间",
+   "ko": "페루의 Chancay 항구가 Yala 무역을 위한 새로운 공간을 열었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsa4428291.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:00",
+   "ts": 1795089633,
+   "h": "1—10月份，大连市规上工业增加值同比增长6.6%",
+   "ko": "1월부터 10월까지 대련의 산업 부가가치는 전년 대비 6.6% 증가했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsf0885770.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:00",
+   "ts": 1795089656,
+   "h": "沃尔玛第三季度营收1,888.4亿美元，预估1,871.7亿美元。 沃尔玛第三季度调整后每股收益0.65美元，预估0.64美元。 沃尔玛预计全年调整后每股收益2.84美元至2.89美元，此前预计2.80美元至2.87美元，市场预估2.89美元。 沃尔玛美股盘前跌超2%。",
+   "ko": "월마트의 3분기 매출은 1,888억 4천만 달러로 예상보다 1,871억 7천만 달러를 기록했습니다. 월마트의 3분기 조정 주당순이익은 0.65달러로 예상치 0.64달러를 웃돌았습니다. 월마트는 연간 조정 주당 순이익을 2.84~2.89달러로 예상하고 있는데, 이는 이전 전망치 2.80~2.87달러와 컨센서스 추정치 2.89달러와 비교됩니다. 월마트 미국 주식은 시장이 열리기 전에 2% 이상 하락했습니다.",
+   "u": "https://wallstreetcn.com/livenews/3202572",
+   "s": "wscn"
+  },
+  {
+   "kst": "21:01",
+   "ts": 1795089660,
+   "h": "JODI数据：沙特阿拉伯9月份原油产量环比增加213.4万桶/日，至837.2万桶/日。",
+   "ko": "JODI 데이터: 사우디아라비아의 9월 원유 생산량은 하루 837만2000배럴로 전월보다 213만4000배럴 증가했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrry7652244.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:01",
+   "ts": 1795089665,
+   "h": "JODI：9月沙特原油出口环比增加92.9万桶/日，至537.9万桶/日。",
+   "ko": "JODI: 사우디아라비아의 9월 원유 수출량은 전월 대비 하루 929,000배럴 증가한 5379만 배럴을 기록했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsa4428635.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:01",
+   "ts": 1795089673,
+   "h": "$WMT Walmart Q3 Earnings",
+   "ko": "$WMT 월마트 3분기 수익",
+   "u": "https://www.financialjuice.com/News/9859795/WMT-Walmart-Q3-Earnings.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "21:01",
+   "ts": 1795089673,
+   "h": "曼联第一财季营收为1.461亿英镑 调整后EBITDA为2750万英镑",
+   "ko": "맨체스터 유나이티드의 첫 번째 회계 분기 수익은 1억 4,610만 파운드였으며 조정 EBITDA는 2,750만 파운드였습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrrx6106043.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:01",
+   "ts": 1795089680,
+   "h": "市场消息：Anthropic IPO将于美东时间上午9:50（北京时间22:50）发布报价。新浪财经数据显示，Anthropic暗盘目前涨超25%，报103.95美元。",
+   "ko": "시장 뉴스: Anthropic IPO는 동부 표준시 오전 9시 50분(베이징 시간 22시 50분)에 견적을 발표할 예정입니다. Sina Finance 데이터에 따르면 Anthropic의 암흑 시장은 현재 25% 이상 상승하여 $103.95를 기록하고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrrx6106112.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:01",
+   "ts": 1795089708,
+   "h": "沃尔玛美股盘前跌超2%",
+   "ko": "월마트 미국 주식은 개장 전 2% 이상 하락했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrrx6106366.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:02",
+   "ts": 1795089727,
+   "h": "国际石油开发帝石授予麦德姆-贝克休斯财团Ichthys液化天然气开发项目合同。",
+   "ko": "국제 석유 개발 Imperial Stone은 Medham-Baker Hughes 컨소시엄에 Ichthys LNG 개발 프로젝트 계약을 체결했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsf0886508.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:02",
+   "ts": 1795089730,
+   "h": "美国中央司令部司令库珀与沙特国防大臣举行会谈。",
+   "ko": "쿠퍼 미 중부사령관이 사우디 국방장관과 회담을 가졌다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsf0886548.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:02",
+   "ts": 1795089750,
+   "h": "中国联通苗守野：融合的深度和智能的厚度决定了5G+工业互联网的价值",
+   "ko": "China Unicom Miao Shoeye: 통합의 깊이와 인텔리전스의 두께가 5G+ 산업 인터넷의 가치를 결정합니다",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsa4429490.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:02",
+   "ts": 1795089756,
+   "h": "曼联第一季度调整后每股亏损7.69便士，上年同期每股亏损1.48便士。",
+   "ko": "맨체스터 유나이티드의 1분기 조정 주당 손실은 7.69펜스로 지난해 같은 기간 주당 1.48펜스의 손실과 비교된다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsf0886942.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:02",
+   "ts": 1795089773,
+   "h": "纳斯达克：Anthropic IPO 将于美国东部时间上午9:50（北京时间22:50）开始报价。",
+   "ko": "Nasdaq: Anthropic IPO는 동부 표준시 오전 9시 50분(베이징 시간 22시 50분)에 견적을 시작합니다.",
+   "u": "https://wallstreetcn.com/livenews/3202573",
+   "s": "wscn"
+  },
+  {
+   "kst": "21:02",
+   "ts": 1795089778,
+   "h": "布鲁克菲尔德基础设施完成企业架构简化。",
+   "ko": "Brookfield 인프라는 엔터프라이즈 아키텍처 단순화를 완성합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsf0887121.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:03",
+   "ts": 1795089783,
+   "h": "沃尔玛预计第四季度库存将略有增加。",
+   "ko": "월마트는 4분기에 재고가 소폭 증가할 것으로 예상하고 있다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsa4429720.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:03",
+   "ts": 1795089798,
+   "h": "英国政府：英国和挪威共同为乌克兰提供两艘先进的快速攻击艇，价值超过1亿英镑。",
+   "ko": "영국 정부: 영국과 노르웨이는 우크라이나에 1억 파운드 이상의 가치가 있는 첨단 고속 공격정 2척을 공동으로 제공할 예정입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsa4429896.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:03",
+   "ts": 1795089801,
+   "h": "瑞银：需要进行重大变革，以确保额外要求仅限于已证实的风险，并与国际标准保持一致。",
+   "ko": "UBS: 추가 요구 사항이 입증된 위험으로 제한되고 국제 표준과 일치하도록 하려면 상당한 변경이 필요합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrry7653585.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:03",
+   "ts": 1795089810,
+   "h": "联合石油数据库JODI：沙特9月原油直烧量减少143,297桶/日，至460,800桶/日。沙特阿拉伯9月国内炼厂原油加工量减少1.2万桶/日，降至228.48万桶/日。沙特阿拉伯9月石油产品需求下降8000桶/日，至257.4万桶/日。沙特9月原油库存增加1071万桶，至1.53907亿桶。",
+   "ko": "JODI: 사우디아라비아의 9월 원유 직접 연소량은 9월 하루 143,297배럴 감소하여 460,800배럴로 감소했습니다. 사우디아라비아 국내 정유공장 원유 처리량은 9월 하루 1만2000배럴 감소한 228억4800만 배럴을 기록했다. 사우디아라비아의 석유제품 수요는 9월 하루 8000배럴 감소한 257만4000배럴을 기록했다. 사우디의 9월 원유재고는 1071만배럴 증가한 1억5390만7000배럴을 기록했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrrx6107497.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:03",
+   "ts": 1795089833,
+   "h": "沃尔玛剩余股票回购授权额度为224亿美元。",
+   "ko": "월마트의 남은 주식 환매 승인 금액은 224억 달러입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrrx6107810.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:04",
+   "ts": 1795089843,
+   "h": "沃尔玛预计，按固定汇率计算，其财年净销售额将增长4.9%至5.2%，此前的预测为增长4%至5%。",
+   "ko": "월마트는 회계연도 순매출이 고정 통화 기준으로 4.9%~5.2% 증가할 것으로 예상하고 있다. 이는 이전 예측인 4~5% 성장과 비교된다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrry7654079.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:04",
+   "ts": 1795089862,
+   "h": "曼联：致力于并遵守英超联赛和欧足联的财务可持续性规定。",
+   "ko": "맨체스터 유나이티드: 프리미어 리그와 UEFA의 재정 지속 가능성 규정을 준수하고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrry7654305.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:05",
+   "ts": 1795089916,
+   "h": "瑞银：应拒绝在未来流动性机制中提高第一道防线的要求。",
+   "ko": "UBS: 향후 유동성 메커니즘의 첫 번째 방어선을 개선하라는 요청은 거부되어야 합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsa4431236.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:05",
+   "ts": 1795089929,
+   "h": "联合石油数据库JODI：沙特9月石油产品出口减少19.3万桶/日，降至94.8万桶/日。",
+   "ko": "JODI: 사우디아라비아의 석유 제품 수출은 9월 하루 193,000배럴 감소하여 948,000배럴로 감소했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsa4431455.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:05",
+   "ts": 1795089958,
+   "h": "国际货币基金组织总裁格奥尔基耶娃：“海纳百川”，共同努力实现共同繁荣与和平",
+   "ko": "게오르기에바 국제통화기금(IMF) 총재 \"바다는 모든 강으로 열려 있다\" \"공동 번영과 평화 위해 함께 노력해야\"",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsf0889147.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:06",
+   "ts": 1795089970,
+   "h": "瑞银：应拒绝缺乏客观触发阈值和明确界定的干预权力的早期干预措施。",
+   "ko": "UBS: 객관적인 트리거 임계값과 명확하게 정의된 개입 권한이 부족한 조기 개입 조치는 거부되어야 합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrry7655483.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:06",
+   "ts": 1795089999,
+   "h": "中国电信李云庄：建议构建多模融合的工业蜂窝网络，加快全国一体化算力网络建设",
+   "ko": "China Telecom Li Yunzhuang: 다중 모드 통합 산업용 셀룰러 네트워크를 구축하고 국가 통합 컴퓨팅 네트워크 구축을 가속화하는 것이 좋습니다",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsf0889667.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:06",
+   "ts": 1795090003,
+   "h": "拼多多美股盘前涨超10%",
+   "ko": "Pinduoduo의 미국 주식은 시장 개장 전에 10% 이상 상승했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsa4432367.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:06",
+   "ts": 1795090018,
+   "h": "阿里巴巴首席执行官：我们预计将于2027年第二季度开始生产下一代“超级节点”集群。",
+   "ko": "알리바바 CEO: 우리는 2027년 2분기에 차세대 '슈퍼노드' 클러스터 생산을 시작할 것으로 예상합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrry7656157.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:07",
+   "ts": 1795090025,
+   "h": "亚马逊：如果纽约市议会的立法获得通过，公司可能被迫考虑将业务迁出纽约市。",
+   "ko": "아마존: 법안이 뉴욕 시의회를 통과하면 회사는 뉴욕시 밖으로 사업장 이전을 고려해야 할 수도 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrrx6109943.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:07",
+   "ts": 1795090036,
+   "h": "索马里信息部长：政府称阿联酋大使应在72小时内离境。索马里驻阿联酋大使也被勒令回国。",
+   "ko": "소말리아 정보부 장관: 정부는 UAE 대사가 72시간 이내에 소말리아를 떠나야 한다고 말했습니다. 아랍에미리트 주재 소말리아 대사도 본국으로 돌아가라는 명령을 받았다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrry7656305.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:08",
+   "ts": 1795090101,
+   "h": "保险行业协会：法国10月17日至18日骚乱造成2.07亿欧元损失。",
+   "ko": "보험산업협회: 10월 17일부터 18일까지 프랑스에서 일어난 폭동으로 2억 7백만 유로의 손실이 발생했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsf0890697.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:08",
+   "ts": 1795090121,
+   "h": "东方汇理资管的Mortier表示，目前对日本国债持中性立场，可能很快转为多头。",
+   "ko": "오리엔트자산운용의 모르티에는 현재 일본 국채에 대해 중립 입장을 취하고 있으며 곧 매수 포지션으로 전환할 수도 있다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsf0890973.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:09",
+   "ts": 1795090155,
+   "h": "曼联股价盘前下跌13%，因第一季度亏损扩大。",
+   "ko": "맨체스터 유나이티드 주가는 1분기 손실이 확대되면서 시장 개장 전 13% 하락했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsf0891218.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:09",
+   "ts": 1795090167,
+   "h": "微信加码图文带货",
+   "ko": "WeChat은 상품을 가져오기 위해 그래픽과 텍스트를 추가합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsa4433895.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:09",
+   "ts": 1795090168,
+   "h": "阿里巴巴高管：我们保持对2030日历年云外部收入1,000亿美元，利润率超过20%的目标不变。",
+   "ko": "Alibaba 임원: 우리는 2030년까지 클라우드 외부 매출 1,000억 달러와 20% 이상의 이익률 목표를 유지합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhrsf0891326.d.html",
+   "s": "sina"
+  }
+ ]
+}
