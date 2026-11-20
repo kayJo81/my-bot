@@ -1,0 +1,19 @@
+name: krx-short
+on:
+  workflow_dispatch:
+    inputs:
+      start: {description: "YYYYMMDD", default: "20260901"}
+      end: {description: "YYYYMMDD", default: "20261120"}
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install pykrx
+      - env: {START: "${{ inputs.start }}", END: "${{ inputs.end }}"}
+        run: python3 -u scripts/krx_short.py
+      - uses: actions/upload-artifact@v4
+        with: {name: krx-short, path: krx_short.json}
