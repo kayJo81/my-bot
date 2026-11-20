@@ -18,6 +18,8 @@ for (const pg of ctx.pages()) console.log('PAGE', pg.url());
 const lp = ctx.pages().find(x => /login|COMS001/i.test(x.url())) || p;
 if (lp !== p) { await lp.waitForLoadState('networkidle').catch(() => {}); }
 console.log('LOGIN_PAGE', lp.url(), (await lp.content()).length);
+console.log('PAGE_TEXT', (await lp.evaluate(() => document.body ? document.body.innerText : '')).replace(/\s+/g, ' ').slice(0, 600));
+console.log('PAGE_IMGS', JSON.stringify(await lp.evaluate(() => [...document.querySelectorAll('img')].map(i => i.alt || i.src.slice(0, 80)))));
 const frames = [...ctx.pages()].flatMap(x => x.frames());
 let target = null;
 for (const f of frames) {
