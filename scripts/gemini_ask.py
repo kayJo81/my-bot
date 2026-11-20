@@ -27,7 +27,7 @@ def call(url, body=None):
         req = urllib.request.Request(url, data=json.dumps(body).encode() if body else None,
                                      headers={"x-goog-api-key": KEY, "Content-Type": "application/json"})
         try:
-            with urllib.request.urlopen(req, timeout=300) as r:
+            with urllib.request.urlopen(req, timeout=900 if VIDEO else 300) as r:
                 return json.load(r)
         except urllib.error.HTTPError as e:
             msg = e.read().decode("utf-8", "ignore")[:3000]
@@ -35,6 +35,8 @@ def call(url, body=None):
                 print(f"일시 오류 {e.code}, {15*(i+1)}초 뒤 다시 시도")
                 time.sleep(15 * (i + 1)); continue
             raise ApiError(e.code, msg)
+        except (TimeoutError, OSError) as e:
+            raise ApiError("timeout", str(e)[:200])
 
 if MODEL == "list":
     try:
@@ -53,6 +55,8 @@ parts = [{"text": PROMPT}]
 if VIDEO:
     parts.insert(0, {"file_data": {"file_uri": VIDEO}})
 body = {"contents": [{"role": "user", "parts": parts}]}
+if VIDEO:  # 긴 영상도 빨리 처리되도록 저해상도로 봄
+    body["generationConfig"] = {"mediaResolution": "MEDIA_RESOLUTION_LOW"}
 if SEARCH:
     body["tools"] = [{"google_search": {}}]
 d = None
