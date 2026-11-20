@@ -7,9 +7,18 @@ const b = await chromium.launch();
 const ctx = await b.newContext({ locale: 'ko-KR' });
 const p = await ctx.newPage();
 p.on('dialog', d => { console.log('DIALOG:', d.message().slice(0, 120)); d.accept().catch(() => {}); });
-await p.goto('https://data.krx.co.kr/contents/MDC/COMS/client/MDCCOMS001.cmd', { waitUntil: 'networkidle', timeout: 60000 });
+await p.goto('https://data.krx.co.kr/contents/MDC/MAIN/main/index.cmd', { waitUntil: 'networkidle', timeout: 60000 });
 await p.waitForTimeout(2000);
-const frames = p.frames();
+const links = await p.evaluate(() => [...document.querySelectorAll('a,button')].filter(e => /로그인/.test(e.innerText || '')).map(e => (e.innerText || '').trim() + ' => ' + (e.getAttribute('href') || '') + ' | ' + (e.getAttribute('onclick') || '')));
+console.log('LOGIN_LINKS', JSON.stringify(links.slice(0, 10)));
+const ll = p.locator('a:has-text("로그인"), button:has-text("로그인")').first();
+if (await ll.count()) { const [np] = await Promise.all([ctx.waitForEvent('page', { timeout: 8000 }).catch(() => null), ll.click().catch(e => console.log('CLICK_ERR', e.message.slice(0, 100)))]); if (np) { console.log('POPUP', np.url()); } }
+await p.waitForTimeout(5000);
+for (const pg of ctx.pages()) console.log('PAGE', pg.url());
+const lp = ctx.pages().find(x => /login|COMS001/i.test(x.url())) || p;
+if (lp !== p) { await lp.waitForLoadState('networkidle').catch(() => {}); }
+console.log('LOGIN_PAGE', lp.url(), (await lp.content()).length);
+const frames = [...ctx.pages()].flatMap(x => x.frames());
 let target = null;
 for (const f of frames) {
   const inputs = await f.evaluate(() => [...document.querySelectorAll('input')].map(i => `${i.type}|${i.name}|${i.id}|${i.offsetParent ? 'vis' : 'hid'}`)).catch(() => []);
