@@ -1,0 +1,106 @@
+2026년 11월 20일 개장 전 섹터별 이슈체크
+
+2026년 11월 20일 금요일 개장 전 섹터별 이슈체크입니다. 한국시간 15:30~21:28 사이 나온 소식과 미국 프리마켓 흐름을 정리했어요. 프리마켓 등락률은 목요일 종가 대비, 21:28 무렵 기준입니다.
+
+[그림1]
+
+전날 미국장이 2% 넘게 빠진 충격이 아시아 반도체로 번지면서 한국·일본은 5%, 대만은 6% 넘게 급락했어요. 유럽 반도체까지 밀린 뒤 미국 프리마켓에서도 반도체와 AI 인프라가 4~7% 내리고 있고, VIX는 장중 30까지 올랐습니다. 오늘은 월간 옵션 만기일이라 장중 변동성이 더 커질 수 있어요.
+
+[그림2]
+
+코스피는 장중 사이드카가 걸린 끝에 5.21% 내린 4,869.96으로 10개월 만의 최저로 마감했고, 닛케이도 5% 넘게 빠졌어요. 대만 가권은 6% 넘게 떨어져 이번 주에만 17.5% 하락했는데, 1991년 이후 가장 나쁜 한 주입니다. 소프트뱅크그룹이 14%, 키옥시아가 11% 넘게 빠지는 등 AI 관련주에 매도가 집중됐어요.
+
+[그림3]
+
+시장에서는 앤트로픽 상장이 AI에 대한 신뢰를 되살리지 못했다는 해석이 나오고 있어요. 전날 나온 AMD 공매도 보고서와 TSMC·삼성의 중국 출하 중단 보도도 반도체 투자심리를 누르고 있습니다. 대만 당국은 시장을 밀착 감시하겠다고 밝혔고, 미국에서는 TSMC ADR과 AMD가 4~6% 내리고 있어요.
+
+[그림4]
+
+앤트로픽은 상장 첫날 공모가 83달러보다 17% 높은 97.17달러로 마쳤지만, 이틀째 프리마켓에서는 9% 넘게 밀려 88달러 근처까지 내려왔어요. 첫날 시초가가 111.50달러였던 만큼 고점에서 산 투자자들의 부담이 커진 모습입니다.
+
+[그림5]
+
+시나는 아모데이 CEO를 포함한 공동창업자 7명이 공모 때 각자 보유분의 약 1.4%씩 팔았다고 전했어요. 지분을 가진 아마존과 알파벳도 프리마켓에서 약세이고, 주관사 리서치는 상장 후 25일이 지나야 나옵니다. 공모가 83달러를 지키는지가 오늘 밤 AI주 전반의 분위기를 가를 수 있어요.
+
+[그림6]
+
+매그니피센트7은 애플을 빼고 프리마켓에서 일제히 내리고 있어요. 알파벳은 60억 캐나다달러 규모 채권 발행 조건을 냈고, 엔비디아는 베라 루빈 시스템을 마이크로소프트 애저에 넣는다는 소식이 나왔습니다. 엔비디아 후임 CEO에 대한 새 소식은 아직 없어요.
+
+[그림7]
+
+테슬라는 이탈리아에서 EU 전체 승인보다 먼저 감독형 FSD를 국가 단위로 허가받았어요. 반면 한국 국토부는 FSD 안전기준 예외 신청을 돌려보내고 자료 보완을 요구했습니다. 스페이스X는 AI 칩 구매용 채권 320억 달러를 8%대 금리로 판 사실이 알려지며 프리마켓에서 5% 넘게 내리고 있어요.
+
+[그림8]
+
+인튜이트는 2021년 120억 달러에 산 메일침프를 36.8억 달러에 팔기로 했고, 크레딧카르마 부진으로 연간 매출 가이던스도 낮췄어요. 웰스파고, UBS, 모건스탠리, 제프리스가 줄줄이 목표가를 내리면서 프리마켓에서 10% 가까이 빠지고 있습니다. 소매에서는 로스스토어가 4분기 가이던스 부진으로 밀린 반면, 월마트는 목표가 상향에 오르고 있어요.
+
+[그림9]
+
+네오클라우드와 서버주는 앤트로픽 상장 뒤에도 AI 신뢰가 살아나지 않았다는 해석 속에 프리마켓에서 4~5% 내리고 있어요. 광통신과 전력기기도 5~7% 약세이고, 전날 20억 달러 자사주 매입으로 버텼던 코히런트도 밀리고 있습니다. 다음 주 델 실적이 서버 수요를 다시 확인하는 자리가 될 거예요.
+
+[그림10]
+
+SK하이닉스는 키옥시아 관련 전환사채를 주식으로 바꿔 12월에 키옥시아의 간접 최대주주가 될 예정이에요. 다만 한국 증시에서는 삼성전자가 약 7%, SK하이닉스가 약 6% 빠졌고, 미국 메모리주도 프리마켓에서 4~6% 내리고 있습니다. 샌디스크는 오늘부터 8대1 액면분할 가격으로 거래돼요.
+
+[그림11]
+
+TSMC는 중국 설계업체에 대한 면제를 없앤 새 미국 규칙을 따르겠다고 밝혔어요. AMD는 공매도 보고서에 반박했지만 이틀째 약세이고, 인텔·ARM·마벨도 4~5% 내리고 있습니다. 반도체 전반이 아시아 투매를 이어받는 흐름이라 정규장 초반 낙폭이 중요해요.
+
+[그림12]
+
+비트코인은 장중 6만 1천 달러대까지 밀려 7월 이후 최저를 기록했어요. 전날 블랙록 IBIT에서 하루 기준 사상 최대인 5억 4천만 달러가 빠져나갔고, 공포탐욕지수는 12로 극단적 공포 구간입니다. 크라켄은 카드와 간편결제 입금을 일시 중단했어요.
+
+출처 링크 (2026-11-20 KST)
+· Asia stocks close: Nikkei, KOSPI fall more than 5% (월스트리트견문): https://wallstreetcn.com/livenews/3203031
+· KOSPI plunges, sidecar triggered (중앙일보(JKN)): https://news.jkn.co.kr/editions/english/post/1110709
+· Japan's Nikkei ends 5% lower as Anthropic's IPO fails to restore AI confidence (Rallies): https://rallies.ai/news/japans-nikkei-ends-5-lower-as-anthropics-ipo-fails-to-restore-ai-confidence-41febda58d69ab23
+· Taiwan stocks, Nvidia, TSMC, AI server (DIGITIMES): https://www.digitimes.com/news/a20261120VL220/taiwan-nvidia-tsmc-design-ai-server.html
+· Chip selloff sends Taiwan toward worst week since 1990 (The Standard): https://www.thestandard.com.hk/finance/article/349117/Chip-selloff-sends-Taiwan-toward-worst-week-since-1990-Asia-stocks-fall
+· 台湾当局：密切关注市场 (월스트리트견문): https://wallstreetcn.com/livenews/3203128
+· 欧洲半导体股大跌 (월스트리트견문): https://wallstreetcn.com/livenews/3203103
+· VIX 升至30 (시나): https://finance.sina.cn/7x24/2026-11-20/detail-inizkqii0347497.d.html
+· 纳指期货跌幅扩大 (시나): https://finance.sina.cn/7x24/2026-11-20/detail-inizkqhz5549844.d.html
+· 英伟达、台积电盘前跌幅扩大 (시나): https://finance.sina.cn/7x24/2026-11-20/detail-inizkqia7182435.d.html
+· Anthropic 盘前下跌，联合创始人出售股份 (시나): https://finance.sina.cn/7x24/2026-11-20/detail-inizkqia7162987.d.html
+· Anthropic stock falls, AMD, Nvidia (CNBC): https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html
+· MGX 200亿美元收益 (월스트리트견문): https://wallstreetcn.com/livenews/3203201
+· Anthropic IPO: Amazon, Google stake windfall (Fortune): https://fortune.com/2026/11/19/anthropic-ipo-amazon-google-stake-windfall-nonvoting/
+· Anthropic buy rating from New Street Research (Crypto Briefing): https://cryptobriefing.com/anthropic-buy-rating-new-street-research-ipo/
+· Magnificent 7 premarket (시나): https://finance.sina.cn/7x24/2026-11-20/detail-inizkqii0309055.d.html
+· Alphabet CAD bond FWP (시나): https://finance.sina.cn/7x24/2026-11-20/detail-inizkurf0260492.d.html
+· Nvidia, Microsoft Azure, Rubin, Windows (DIGITIMES): https://www.digitimes.com/news/a20261120VL206/nvidia-microsoft-azure-rubin-windows.html
+· NVIDIA announces CEO transition (SEC): https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm
+· Tesla FSD Italy approval (Tesla North): https://teslanorth.com/2026/11/20/tesla-fsd-italy-approval-rollout/
+· 特斯拉FSD获意大利批准 (시나): https://finance.sina.cn/7x24/2026-11-20/detail-inizkuqy7160546.d.html
+· 韩国国土部驳回特斯拉FSD申请 (시나): https://finance.sina.cn/7x24/2026-11-20/detail-inizkizc5603370.d.html
+· SpaceX sold US$32 bil AI chip debt, yields topping 8% (The Edge Singapore): https://www.theedgesingapore.com/news/bonds-and-treasuries/spacex-sold-us32-bil-ai-chip-debt-yields-topping-8--bloomberg
+· SpaceX AI chip debt (월스트리트견문): https://wallstreetcn.com/livenews/3203370
+· WeRide Q3 results (월스트리트견문): https://wallstreetcn.com/livenews/3203359
+· Intuit premarket after Mailchimp sale (시나): https://finance.sina.cn/7x24/2026-11-20/detail-inizkqia7171217.d.html
+· Wells Fargo cuts Intuit price target to $320 (Investing.com): https://www.investing.com/news/analyst-ratings/wells-fargo-cuts-intuit-stock-price-target-to-320-on-guidance-concerns-93CH-5041165
+· UBS cuts Intuit price target (Investing.com): https://www.investing.com/news/analyst-ratings/ubs-cuts-intuit-stock-price-target-on-revenue-growth-concerns-93CH-5041197
+· Morgan Stanley cuts Intuit price target (Investing.com): https://www.investing.com/news/analyst-ratings/morgan-stanley-cuts-intuit-stock-price-target-on-credit-karma-concerns-93CH-5041217
+· Intuit price target lowered to $445 at Jefferies (TipRanks): https://www.tipranks.com/news/the-fly/intuit-price-target-lowered-to-445-from-500-at-jefferies-thefly-news
+· Ross Stores Q4 guidance (시나): https://finance.sina.cn/7x24/2026-11-20/detail-inizkqie3958348.d.html
+· Walmart price target raised (시나): https://finance.sina.cn/7x24/2026-11-20/detail-inizkqia7176602.d.html
+· Why CoreWeave, Nebius and IREN stocks are falling in pre-market (TipRanks): https://www.tipranks.com/news/why-coreweave-nebius-and-iren-stocks-are-falling-in-pre-market-today-nov-20
+· Nvidia trims neocloud commitments (Blockspace): https://blockspace.media/insight/nvidia-trims-neocloud-commitments-2026/
+· Dell premarket (시나): https://finance.sina.cn/7x24/2026-11-20/detail-inizkqie3965666.d.html
+· 光通信股盘前下跌 (월스트리트견문): https://wallstreetcn.com/livenews/3203132
+· Coherent authorizes $2 billion share repurchase (MarketScreener): https://www.marketscreener.com/news/coherent-authorizes-2-billion-share-repurchase-program-ce785ed2dc8ff226
+· SK hynix to convert Kioxia bonds (Korea JoongAng Daily): https://www.koreajoongangdaily.com/business/sk-hynix-to-convert-kioxia-bonds-to-become-japanese-nand-firms-largest-indirect-shareholder/12983073
+· SK海力士铠侠可转债转换 (월스트리트견문): https://wallstreetcn.com/livenews/3203092
+· SK hynix HBM equipment from Besi (DIGITIMES): https://www.digitimes.com/news/a20261120VL212/sk-hynix-hbm-equipment-dutch-production.html
+· 闪迪拆股后首日交易 (시나): https://finance.sina.cn/7x24/2026-11-20/detail-inizkqia7173287.d.html
+· TSMC to comply with new US rules (DIGITIMES): https://www.digitimes.com/news/a20261120VL218/tsmc-taiwan-chips-communications-samsung.html
+· AMD falls on short-seller report of alleged China exposure (CNBC): https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html
+· AMD 盘前续跌 (시나): https://finance.sina.cn/7x24/2026-11-20/detail-inizkura3915560.d.html
+· BlackRock IBIT record daily outflow (시나): https://finance.sina.cn/7x24/2026-11-20/detail-inizkize7193147.d.html
+· BTC ETF outflows, IBIT record (99Bitcoins): https://99bitcoins.com/news/bitcoin-btc/btc-usd-etf-outflows-ibit-record/
+· Bitcoin drops to $61K, lowest since July (The Crypto Times): https://www.cryptotimes.io/2026/11/20/bitcoin-price-today-btc-drops-to-61k-hitting-lowest-level-since-july/
+· Kraken card deposits unavailable (시나): https://finance.sina.cn/7x24/2026-11-20/detail-inizkuqx5480825.d.html
+· What to watch Friday Nov 20 (MLQ): https://mlq.ai/news/what-to-watch-friday-nov-20-anthropics-second-day-intuits-mailchimp-sale-feds-cook-and-waller-and-japan-cpi/
+· Trump to hold news conference Friday (ABC News): https://abcnews.com/Politics/trump-hold-news-conference-friday-asia-trip/story?id=138307456
+· DIGITIMES 주요 기사 (DIGITIMES): https://www.digitimes.com/
+
+그림 대응(PDF 쪽 번호): 그림1=요약, 그림2=이슈1(1/2), 그림3=이슈1(2/2), 그림4=이슈2(1/2), 그림5=이슈2(2/2), 그림6=메가테크, 그림7=모빌리티, 그림8=AI 소프트웨어, 그림9=AI 인프라, 그림10=반도체(1/2), 그림11=반도체(2/2), 그림12=크립토

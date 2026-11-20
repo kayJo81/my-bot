@@ -1,0 +1,811 @@
+{
+ "date": "2026-11-20",
+ "window": "15:30~21:28 KST",
+ "mail_to": "yidiar80k@gmail.com",
+ "summary": [
+  "아시아 반도체 투매: 코스피 −5.2%·닛케이 −5.1%·대만 −6.2%, 대만은 주간 −17.5%로 1991년 이후 최악",
+  "미국 프리마켓 반도체·AI 인프라 4~7% 하락, VIX 장중 30으로 3월 말 이후 최고",
+  "앤트로픽 상장 이틀째 프리마켓 −9%, 공모가 83달러와의 거리 좁혀",
+  "인튜이트, 메일침프 헐값 매각·가이던스 하향에 −10%, 목표가 하향 잇따라",
+  "테슬라, 이탈리아에서 EU 승인 전 감독형 FSD 국가 단위 승인"
+ ],
+ "checklist": [
+  "22:25 월러 연준 이사 발언",
+  "24:00 미시간대 소비자심리 확정치",
+  "11/21 02:00 트럼프 백악관 기자회견, 02:15 쿡 이사 발언",
+  "월간 옵션 만기 수급과 S&P 500 7거래일 연속 하락 여부",
+  "앤트로픽 공모가 83달러 지지 여부"
+ ],
+ "issues": [
+  {
+   "title": "아시아가 먼저 무너졌고, 미국 칩주가 뒤따른다",
+   "subtitle": "[신규] 한·일·대만 5~6% 급락 · 유럽 반도체 동반 하락 · 미국 프리마켓 4~7% 약세",
+   "timeline": [
+    {
+     "t": "15:30",
+     "text": "코스피 −5.21%·닛케이 −5.06% 마감, 코스피 장중 사이드카"
+    },
+    {
+     "t": "17:05",
+     "text": "유럽 반도체 급락, ASML −5.2%"
+    },
+    {
+     "t": "17:53",
+     "text": "대만 당국 \"시장 밀착 감시, 적시에 조치\""
+    },
+    {
+     "t": "18:57",
+     "text": "VIX 장중 30, 3월 말 이후 최고"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "코스피",
+     "value": "−5.21%",
+     "note": "4,869.96, 10개월 만의 최저",
+     "dir": "down"
+    },
+    {
+     "label": "닛케이",
+     "value": "−5.06%",
+     "note": "56,436.65, 소프트뱅크G −14.48%",
+     "dir": "down"
+    },
+    {
+     "label": "대만 가권",
+     "value": "−6.23%",
+     "note": "[배경] 14:30 마감, 주간 −17.5%",
+     "dir": "down"
+    },
+    {
+     "label": "TSMC ADR 프리마켓",
+     "value": "−4.60%",
+     "note": "21:28 KST",
+     "dir": "down"
+    }
+   ],
+   "cause": [
+    "앤트로픽 상장 뒤에도 AI 신뢰가 살아나지 않았다는 해석",
+    "[배경] AMD 공매도 보고서와 TSMC·삼성 일부 중국 출하 중단(FT)",
+    "삼성전자 약 −7%, SK하이닉스 약 −6%, 키옥시아 −11.66%, 미디어텍 약 −10%"
+   ],
+   "chips": [
+    {
+     "name": "TSMC",
+     "chg": "-4.60%"
+    },
+    {
+     "name": "AMD",
+     "chg": "-5.56%"
+    },
+    {
+     "name": "마이크론",
+     "chg": "-4.56%"
+    },
+    {
+     "name": "엔비디아",
+     "chg": "-2.38%"
+    }
+   ],
+   "checks": [
+    "정규장 반도체 낙폭과 저가 매수 유입 여부",
+    "월간 옵션 만기 수급",
+    "22:25 월러 발언과 금리 방향"
+   ],
+   "source": "월스트리트견문, 시나, DIGITIMES, 중앙일보, Rallies"
+  },
+  {
+   "title": "앤트로픽 이틀째, 상장 프리미엄이 빠진다",
+   "subtitle": "[신규] 프리마켓 −9% · 첫날 +17%의 절반 넘게 반납 · 보유사도 약세",
+   "timeline": [
+    {
+     "t": "18:01",
+     "text": "앤트로픽 프리마켓 5% 넘게 하락, 91.455달러"
+    },
+    {
+     "t": "18:01",
+     "text": "공동창업자 7명, 공모에서 각 약 338만 주 매각(시나)"
+    },
+    {
+     "t": "18:30",
+     "text": "블룸버그 \"아부다비 MGX, 상장으로 200억 달러 이익\""
+    },
+    {
+     "t": "21:05",
+     "text": "CNBC 기준 프리마켓 −8.09%, 엔비디아·AMD도 약세"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "공모가",
+     "value": "83달러",
+     "note": "희망 범위 70~78달러 상회",
+     "dir": "up"
+    },
+    {
+     "label": "첫날 종가",
+     "value": "97.17달러",
+     "note": "+17.07%, 시초가 111.50달러",
+     "dir": "up"
+    },
+    {
+     "label": "앤트로픽 프리마켓",
+     "value": "−9.37%",
+     "note": "21:28 KST",
+     "dir": "down"
+    },
+    {
+     "label": "아마존 프리마켓",
+     "value": "−1.85%",
+     "note": "상장 후 지분 약 14.7%",
+     "dir": "down"
+    }
+   ],
+   "cause": [
+    "[배경] 첫날 시초가 111.50달러에서 종가 97.17달러로 밀리며 고점 매수 부담",
+    "공동창업자 매각분은 각자 보유분의 약 1.4%(시나)",
+    "주관사 리서치는 상장 후 25일 조용한 기간이라 아직 없음"
+   ],
+   "chips": [
+    {
+     "name": "앤트로픽",
+     "chg": "-9.37%"
+    },
+    {
+     "name": "아마존",
+     "chg": "-1.85%"
+    },
+    {
+     "name": "알파벳",
+     "chg": "-0.19%"
+    }
+   ],
+   "checks": [
+    "공모가 83달러 지지 여부",
+    "개인 매수세 지속 여부",
+    "AI주 전반으로의 매도 확산"
+   ],
+   "source": "CNBC, 시나, 월스트리트견문, Fortune, Crypto Briefing"
+  }
+ ],
+ "sections": {
+  "megatech": [
+   {
+    "company": "알파벳 · 아마존",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "앤트로픽 이틀째 하락에 지분 보유사 프리마켓 약세"
+     },
+     {
+      "label": "배경",
+      "text": "포춘: 공모가 기준 아마존 지분 약 1,610억 달러, 구글 약 1,470억 달러"
+     },
+     {
+      "label": "사실",
+      "text": "알파벳, 60억 캐나다달러 규모 4개 트랜치 채권 가격조건서 제출"
+     }
+    ],
+    "chips": [
+     {
+      "name": "아마존",
+      "chg": "-1.85%"
+     },
+     {
+      "name": "알파벳",
+      "chg": "-0.19%"
+     }
+    ],
+    "source": "Fortune, 시나"
+   },
+   {
+    "company": "엔비디아 · MSFT · 메타 · 애플",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "매그7 프리마켓 일제히 하락, 애플만 보합권"
+     },
+     {
+      "label": "사실",
+      "text": "DIGITIMES: 엔비디아 베라 루빈 시스템 애저 배치, 윈도우 PC 협력"
+     },
+     {
+      "label": "배경",
+      "text": "엔비디아 후임 CEO 신규 소식은 아직 없음, 크레스 임시 CEO 체제"
+     }
+    ],
+    "chips": [
+     {
+      "name": "엔비디아",
+      "chg": "-2.38%"
+     },
+     {
+      "name": "MSFT",
+      "chg": "-1.77%"
+     },
+     {
+      "name": "메타",
+      "chg": "-2.80%"
+     },
+     {
+      "name": "애플",
+      "chg": "+0.14%"
+     }
+    ],
+    "source": "시나, DIGITIMES, SEC"
+   }
+  ],
+  "mobility": [
+   {
+    "company": "테슬라",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "이탈리아, EU 승인 전 감독형 FSD 국가 단위 승인(네덜란드 승인 인정)"
+     },
+     {
+      "label": "의미",
+      "text": "EU 표결은 빨라야 12월, 출시일은 미정"
+     },
+     {
+      "label": "사실",
+      "text": "한국 국토부, FSD 안전기준 예외 신청 반려하고 자료 보완 요구"
+     }
+    ],
+    "chips": [
+     {
+      "name": "테슬라",
+      "chg": "-1.94%"
+     }
+    ],
+    "source": "시나, Tesla North"
+   },
+   {
+    "company": "스페이스X · 위라이드",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "스페이스X, AI 칩 구매용 채권 320억 달러 판매, 최대 트랜치 8.259%"
+     },
+     {
+      "label": "의미",
+      "text": "부외 리스 구조로 은행 대출 포함 전체 조달 400억 달러 넘어"
+     },
+     {
+      "label": "사실",
+      "text": "위라이드 3분기 매출 3.215억 위안(예상 2.688억), 로보택시 매출 1억 위안 돌파"
+     }
+    ],
+    "chips": [
+     {
+      "name": "스페이스X",
+      "chg": "-5.36%"
+     },
+     {
+      "name": "위라이드",
+      "chg": "+5.36%"
+     }
+    ],
+    "source": "월스트리트견문, The Edge Singapore"
+   }
+  ],
+  "ai_software": [
+   {
+    "company": "인튜이트",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "메일침프를 36.8억 달러에 매각(2021년 인수가 120억 달러)"
+     },
+     {
+      "label": "배경",
+      "text": "크레딧카르마 부진에 연간 매출 가이던스 230.8억~233.7억 달러로 하향"
+     },
+     {
+      "label": "사실",
+      "text": "목표가 하향: 웰스파고 320·UBS 315·모건스탠리 310·제프리스 445달러"
+     }
+    ],
+    "chips": [
+     {
+      "name": "인튜이트",
+      "chg": "-9.94%"
+     }
+    ],
+    "source": "시나, Investing.com, TipRanks"
+   },
+   {
+    "company": "로스스토어 · 월마트",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "로스스토어 4분기 EPS 가이던스 2.16~2.25달러, 예상(2.28달러) 하회"
+     },
+     {
+      "label": "사실",
+      "text": "월마트 목표가 상향: 모건스탠리 135달러, TD코웬 147달러"
+     }
+    ],
+    "chips": [
+     {
+      "name": "로스스토어",
+      "chg": "-4.61%"
+     },
+     {
+      "name": "월마트",
+      "chg": "+1.68%"
+     }
+    ],
+    "source": "시나"
+   }
+  ],
+  "ai_infra": [
+   {
+    "company": "네오클라우드 · 서버",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "앤트로픽 상장이 AI 신뢰를 살리지 못했다는 해석 속 4~5% 하락"
+     },
+     {
+      "label": "배경",
+      "text": "엔비디아 네오클라우드 조건부 약정 360억 → 320억 달러"
+     },
+     {
+      "label": "체크",
+      "text": "델 11/24 실적, 서버 수요 확인"
+     }
+    ],
+    "chips": [
+     {
+      "name": "네비우스",
+      "chg": "-5.28%"
+     },
+     {
+      "name": "코어위브",
+      "chg": "-5.26%"
+     },
+     {
+      "name": "IREN",
+      "chg": "-4.58%"
+     },
+     {
+      "name": "델",
+      "chg": "-5.29%"
+     }
+    ],
+    "source": "TipRanks, 시나, Blockspace"
+   },
+   {
+    "company": "광통신 · 전력",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "광통신·전력기기 프리마켓 일제히 5~7% 하락"
+     },
+     {
+      "label": "배경",
+      "text": "코히런트, 전날 20억 달러 자사주 매입 승인 뒤 상승분 대부분 반납"
+     }
+    ],
+    "chips": [
+     {
+      "name": "블룸에너지",
+      "chg": "-6.98%"
+     },
+     {
+      "name": "코히런트",
+      "chg": "-5.73%"
+     },
+     {
+      "name": "루멘텀",
+      "chg": "-5.59%"
+     },
+     {
+      "name": "버티브",
+      "chg": "-4.86%"
+     }
+    ],
+    "source": "시나, 월스트리트견문, MarketScreener"
+   }
+  ],
+  "semis": [
+   {
+    "company": "메모리",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "SK하이닉스, 키옥시아 관련 CB 전환해 12월 간접 최대주주(약 14.1%)"
+     },
+     {
+      "label": "사실",
+      "text": "DIGITIMES: SK하이닉스, 베시(Besi) HBM 본딩 장비 구매 계획"
+     },
+     {
+      "label": "배경",
+      "text": "삼성전자 약 −7%, SK하이닉스 약 −6%로 마감"
+     },
+     {
+      "label": "사실",
+      "text": "샌디스크, 8대1 액면분할 뒤 첫 거래일"
+     }
+    ],
+    "chips": [
+     {
+      "name": "SK하이닉스 ADR",
+      "chg": "-2.39%"
+     },
+     {
+      "name": "마이크론",
+      "chg": "-4.56%"
+     },
+     {
+      "name": "샌디스크",
+      "chg": "-5.92%"
+     },
+     {
+      "name": "웨스턴디지털",
+      "chg": "-4.89%"
+     }
+    ],
+    "source": "중앙일보, 월스트리트견문, DIGITIMES, 시나"
+   },
+   {
+    "company": "TSMC · AMD · 인텔",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "DIGITIMES: TSMC, 중국 설계업체 면제 없앤 새 미국 규칙 따르기로"
+     },
+     {
+      "label": "배경",
+      "text": "AMD, 헌터브룩 공매도 보고서에 \"관행 왜곡\" 반박, 11/19 −7.7%"
+     },
+     {
+      "label": "영향",
+      "text": "AMD 이틀째 하락, 인텔·ARM·마벨 프리마켓 4~5% 약세"
+     }
+    ],
+    "chips": [
+     {
+      "name": "TSMC",
+      "chg": "-4.60%"
+     },
+     {
+      "name": "AMD",
+      "chg": "-5.56%"
+     },
+     {
+      "name": "ARM",
+      "chg": "-4.80%"
+     },
+     {
+      "name": "인텔",
+      "chg": "-4.41%"
+     }
+    ],
+    "source": "DIGITIMES, CNBC, 시나"
+   }
+  ],
+  "others": [
+   {
+    "company": "비트코인",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "블랙록 IBIT 하루 유출 약 5.41억 달러로 사상 최대(11/19)"
+     },
+     {
+      "label": "사실",
+      "text": "장중 6만 1,273달러로 7월 이후 최저, 공포탐욕지수 12"
+     },
+     {
+      "label": "사실",
+      "text": "크라켄, 카드·애플페이·구글페이 입금 일시 중단"
+     }
+    ],
+    "chips": [
+     {
+      "name": "코인베이스",
+      "chg": "-2.23%"
+     },
+     {
+      "name": "스트래티지",
+      "chg": "-2.09%"
+     }
+    ],
+    "source": "시나, 99Bitcoins, The Crypto Times"
+   }
+  ]
+ },
+ "empty_notes": {},
+ "greeting": "2026년 11월 20일 금요일 개장 전 섹터별 이슈체크입니다. 한국시간 15:30~21:28 사이 나온 소식과 미국 프리마켓 흐름을 정리했어요. 프리마켓 등락률은 목요일 종가 대비, 21:28 무렵 기준입니다.",
+ "commentary": {
+  "summary": "전날 미국장이 2% 넘게 빠진 충격이 아시아 반도체로 번지면서 한국·일본은 5%, 대만은 6% 넘게 급락했어요. 유럽 반도체까지 밀린 뒤 미국 프리마켓에서도 반도체와 AI 인프라가 4~7% 내리고 있고, VIX는 장중 30까지 올랐습니다. 오늘은 월간 옵션 만기일이라 장중 변동성이 더 커질 수 있어요.",
+  "issue1": [
+   "코스피는 장중 사이드카가 걸린 끝에 5.21% 내린 4,869.96으로 10개월 만의 최저로 마감했고, 닛케이도 5% 넘게 빠졌어요. 대만 가권은 6% 넘게 떨어져 이번 주에만 17.5% 하락했는데, 1991년 이후 가장 나쁜 한 주입니다. 소프트뱅크그룹이 14%, 키옥시아가 11% 넘게 빠지는 등 AI 관련주에 매도가 집중됐어요.",
+   "시장에서는 앤트로픽 상장이 AI에 대한 신뢰를 되살리지 못했다는 해석이 나오고 있어요. 전날 나온 AMD 공매도 보고서와 TSMC·삼성의 중국 출하 중단 보도도 반도체 투자심리를 누르고 있습니다. 대만 당국은 시장을 밀착 감시하겠다고 밝혔고, 미국에서는 TSMC ADR과 AMD가 4~6% 내리고 있어요."
+  ],
+  "issue2": [
+   "앤트로픽은 상장 첫날 공모가 83달러보다 17% 높은 97.17달러로 마쳤지만, 이틀째 프리마켓에서는 9% 넘게 밀려 88달러 근처까지 내려왔어요. 첫날 시초가가 111.50달러였던 만큼 고점에서 산 투자자들의 부담이 커진 모습입니다.",
+   "시나는 아모데이 CEO를 포함한 공동창업자 7명이 공모 때 각자 보유분의 약 1.4%씩 팔았다고 전했어요. 지분을 가진 아마존과 알파벳도 프리마켓에서 약세이고, 주관사 리서치는 상장 후 25일이 지나야 나옵니다. 공모가 83달러를 지키는지가 오늘 밤 AI주 전반의 분위기를 가를 수 있어요."
+  ],
+  "megatech": "매그니피센트7은 애플을 빼고 프리마켓에서 일제히 내리고 있어요. 알파벳은 60억 캐나다달러 규모 채권 발행 조건을 냈고, 엔비디아는 베라 루빈 시스템을 마이크로소프트 애저에 넣는다는 소식이 나왔습니다. 엔비디아 후임 CEO에 대한 새 소식은 아직 없어요.",
+  "mobility": "테슬라는 이탈리아에서 EU 전체 승인보다 먼저 감독형 FSD를 국가 단위로 허가받았어요. 반면 한국 국토부는 FSD 안전기준 예외 신청을 돌려보내고 자료 보완을 요구했습니다. 스페이스X는 AI 칩 구매용 채권 320억 달러를 8%대 금리로 판 사실이 알려지며 프리마켓에서 5% 넘게 내리고 있어요.",
+  "ai_software": "인튜이트는 2021년 120억 달러에 산 메일침프를 36.8억 달러에 팔기로 했고, 크레딧카르마 부진으로 연간 매출 가이던스도 낮췄어요. 웰스파고, UBS, 모건스탠리, 제프리스가 줄줄이 목표가를 내리면서 프리마켓에서 10% 가까이 빠지고 있습니다. 소매에서는 로스스토어가 4분기 가이던스 부진으로 밀린 반면, 월마트는 목표가 상향에 오르고 있어요.",
+  "ai_infra": "네오클라우드와 서버주는 앤트로픽 상장 뒤에도 AI 신뢰가 살아나지 않았다는 해석 속에 프리마켓에서 4~5% 내리고 있어요. 광통신과 전력기기도 5~7% 약세이고, 전날 20억 달러 자사주 매입으로 버텼던 코히런트도 밀리고 있습니다. 다음 주 델 실적이 서버 수요를 다시 확인하는 자리가 될 거예요.",
+  "semis": [
+   "SK하이닉스는 키옥시아 관련 전환사채를 주식으로 바꿔 12월에 키옥시아의 간접 최대주주가 될 예정이에요. 다만 한국 증시에서는 삼성전자가 약 7%, SK하이닉스가 약 6% 빠졌고, 미국 메모리주도 프리마켓에서 4~6% 내리고 있습니다. 샌디스크는 오늘부터 8대1 액면분할 가격으로 거래돼요.",
+   "TSMC는 중국 설계업체에 대한 면제를 없앤 새 미국 규칙을 따르겠다고 밝혔어요. AMD는 공매도 보고서에 반박했지만 이틀째 약세이고, 인텔·ARM·마벨도 4~5% 내리고 있습니다. 반도체 전반이 아시아 투매를 이어받는 흐름이라 정규장 초반 낙폭이 중요해요."
+  ],
+  "others": "비트코인은 장중 6만 1천 달러대까지 밀려 7월 이후 최저를 기록했어요. 전날 블랙록 IBIT에서 하루 기준 사상 최대인 5억 4천만 달러가 빠져나갔고, 공포탐욕지수는 12로 극단적 공포 구간입니다. 크라켄은 카드와 간편결제 입금을 일시 중단했어요."
+ },
+ "sources": [
+  {
+   "title": "Asia stocks close: Nikkei, KOSPI fall more than 5%",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3203031"
+  },
+  {
+   "title": "KOSPI plunges, sidecar triggered",
+   "outlet": "중앙일보(JKN)",
+   "url": "https://news.jkn.co.kr/editions/english/post/1110709"
+  },
+  {
+   "title": "Japan's Nikkei ends 5% lower as Anthropic's IPO fails to restore AI confidence",
+   "outlet": "Rallies",
+   "url": "https://rallies.ai/news/japans-nikkei-ends-5-lower-as-anthropics-ipo-fails-to-restore-ai-confidence-41febda58d69ab23"
+  },
+  {
+   "title": "Taiwan stocks, Nvidia, TSMC, AI server",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261120VL220/taiwan-nvidia-tsmc-design-ai-server.html"
+  },
+  {
+   "title": "Chip selloff sends Taiwan toward worst week since 1990",
+   "outlet": "The Standard",
+   "url": "https://www.thestandard.com.hk/finance/article/349117/Chip-selloff-sends-Taiwan-toward-worst-week-since-1990-Asia-stocks-fall"
+  },
+  {
+   "title": "台湾当局：密切关注市场",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3203128"
+  },
+  {
+   "title": "欧洲半导体股大跌",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3203103"
+  },
+  {
+   "title": "VIX 升至30",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-20/detail-inizkqii0347497.d.html"
+  },
+  {
+   "title": "纳指期货跌幅扩大",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-20/detail-inizkqhz5549844.d.html"
+  },
+  {
+   "title": "英伟达、台积电盘前跌幅扩大",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-20/detail-inizkqia7182435.d.html"
+  },
+  {
+   "title": "Anthropic 盘前下跌，联合创始人出售股份",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-20/detail-inizkqia7162987.d.html"
+  },
+  {
+   "title": "Anthropic stock falls, AMD, Nvidia",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html"
+  },
+  {
+   "title": "MGX 200亿美元收益",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3203201"
+  },
+  {
+   "title": "Anthropic IPO: Amazon, Google stake windfall",
+   "outlet": "Fortune",
+   "url": "https://fortune.com/2026/11/19/anthropic-ipo-amazon-google-stake-windfall-nonvoting/"
+  },
+  {
+   "title": "Anthropic buy rating from New Street Research",
+   "outlet": "Crypto Briefing",
+   "url": "https://cryptobriefing.com/anthropic-buy-rating-new-street-research-ipo/"
+  },
+  {
+   "title": "Magnificent 7 premarket",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-20/detail-inizkqii0309055.d.html"
+  },
+  {
+   "title": "Alphabet CAD bond FWP",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-20/detail-inizkurf0260492.d.html"
+  },
+  {
+   "title": "Nvidia, Microsoft Azure, Rubin, Windows",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261120VL206/nvidia-microsoft-azure-rubin-windows.html"
+  },
+  {
+   "title": "NVIDIA announces CEO transition",
+   "outlet": "SEC",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+  },
+  {
+   "title": "Tesla FSD Italy approval",
+   "outlet": "Tesla North",
+   "url": "https://teslanorth.com/2026/11/20/tesla-fsd-italy-approval-rollout/"
+  },
+  {
+   "title": "特斯拉FSD获意大利批准",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-20/detail-inizkuqy7160546.d.html"
+  },
+  {
+   "title": "韩国国土部驳回特斯拉FSD申请",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-20/detail-inizkizc5603370.d.html"
+  },
+  {
+   "title": "SpaceX sold US$32 bil AI chip debt, yields topping 8%",
+   "outlet": "The Edge Singapore",
+   "url": "https://www.theedgesingapore.com/news/bonds-and-treasuries/spacex-sold-us32-bil-ai-chip-debt-yields-topping-8--bloomberg"
+  },
+  {
+   "title": "SpaceX AI chip debt",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3203370"
+  },
+  {
+   "title": "WeRide Q3 results",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3203359"
+  },
+  {
+   "title": "Intuit premarket after Mailchimp sale",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-20/detail-inizkqia7171217.d.html"
+  },
+  {
+   "title": "Wells Fargo cuts Intuit price target to $320",
+   "outlet": "Investing.com",
+   "url": "https://www.investing.com/news/analyst-ratings/wells-fargo-cuts-intuit-stock-price-target-to-320-on-guidance-concerns-93CH-5041165"
+  },
+  {
+   "title": "UBS cuts Intuit price target",
+   "outlet": "Investing.com",
+   "url": "https://www.investing.com/news/analyst-ratings/ubs-cuts-intuit-stock-price-target-on-revenue-growth-concerns-93CH-5041197"
+  },
+  {
+   "title": "Morgan Stanley cuts Intuit price target",
+   "outlet": "Investing.com",
+   "url": "https://www.investing.com/news/analyst-ratings/morgan-stanley-cuts-intuit-stock-price-target-on-credit-karma-concerns-93CH-5041217"
+  },
+  {
+   "title": "Intuit price target lowered to $445 at Jefferies",
+   "outlet": "TipRanks",
+   "url": "https://www.tipranks.com/news/the-fly/intuit-price-target-lowered-to-445-from-500-at-jefferies-thefly-news"
+  },
+  {
+   "title": "Ross Stores Q4 guidance",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-20/detail-inizkqie3958348.d.html"
+  },
+  {
+   "title": "Walmart price target raised",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-20/detail-inizkqia7176602.d.html"
+  },
+  {
+   "title": "Why CoreWeave, Nebius and IREN stocks are falling in pre-market",
+   "outlet": "TipRanks",
+   "url": "https://www.tipranks.com/news/why-coreweave-nebius-and-iren-stocks-are-falling-in-pre-market-today-nov-20"
+  },
+  {
+   "title": "Nvidia trims neocloud commitments",
+   "outlet": "Blockspace",
+   "url": "https://blockspace.media/insight/nvidia-trims-neocloud-commitments-2026/"
+  },
+  {
+   "title": "Dell premarket",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-20/detail-inizkqie3965666.d.html"
+  },
+  {
+   "title": "光通信股盘前下跌",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3203132"
+  },
+  {
+   "title": "Coherent authorizes $2 billion share repurchase",
+   "outlet": "MarketScreener",
+   "url": "https://www.marketscreener.com/news/coherent-authorizes-2-billion-share-repurchase-program-ce785ed2dc8ff226"
+  },
+  {
+   "title": "SK hynix to convert Kioxia bonds",
+   "outlet": "Korea JoongAng Daily",
+   "url": "https://www.koreajoongangdaily.com/business/sk-hynix-to-convert-kioxia-bonds-to-become-japanese-nand-firms-largest-indirect-shareholder/12983073"
+  },
+  {
+   "title": "SK海力士铠侠可转债转换",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3203092"
+  },
+  {
+   "title": "SK hynix HBM equipment from Besi",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261120VL212/sk-hynix-hbm-equipment-dutch-production.html"
+  },
+  {
+   "title": "闪迪拆股后首日交易",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-20/detail-inizkqia7173287.d.html"
+  },
+  {
+   "title": "TSMC to comply with new US rules",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261120VL218/tsmc-taiwan-chips-communications-samsung.html"
+  },
+  {
+   "title": "AMD falls on short-seller report of alleged China exposure",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html"
+  },
+  {
+   "title": "AMD 盘前续跌",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-20/detail-inizkura3915560.d.html"
+  },
+  {
+   "title": "BlackRock IBIT record daily outflow",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-20/detail-inizkize7193147.d.html"
+  },
+  {
+   "title": "BTC ETF outflows, IBIT record",
+   "outlet": "99Bitcoins",
+   "url": "https://99bitcoins.com/news/bitcoin-btc/btc-usd-etf-outflows-ibit-record/"
+  },
+  {
+   "title": "Bitcoin drops to $61K, lowest since July",
+   "outlet": "The Crypto Times",
+   "url": "https://www.cryptotimes.io/2026/11/20/bitcoin-price-today-btc-drops-to-61k-hitting-lowest-level-since-july/"
+  },
+  {
+   "title": "Kraken card deposits unavailable",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-20/detail-inizkuqx5480825.d.html"
+  },
+  {
+   "title": "What to watch Friday Nov 20",
+   "outlet": "MLQ",
+   "url": "https://mlq.ai/news/what-to-watch-friday-nov-20-anthropics-second-day-intuits-mailchimp-sale-feds-cook-and-waller-and-japan-cpi/"
+  },
+  {
+   "title": "Trump to hold news conference Friday",
+   "outlet": "ABC News",
+   "url": "https://abcnews.com/Politics/trump-hold-news-conference-friday-asia-trip/story?id=138307456"
+  },
+  {
+   "title": "DIGITIMES 주요 기사",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/"
+  }
+ ]
+}
