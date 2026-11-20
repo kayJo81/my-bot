@@ -7,6 +7,7 @@ MODEL = (os.environ.get("MODEL") or "gemini-3.8-flash,gemini-3.7-flash,gemini-fl
 PROMPT = os.environ.get("PROMPT", "")
 SEARCH = os.environ.get("SEARCH", "0") == "1"
 FILES = [f for f in (os.environ.get("FILES") or "").split() if f]
+VIDEO = (os.environ.get("VIDEO") or "").strip()  # 유튜브 공개 영상 주소 (영상을 직접 보고 답함)
 for f in FILES:  # 저장소 안의 파일 내용을 질문 뒤에 붙임 (블로그 글 검증용)
     if os.path.isfile(f):
         PROMPT += f"\n\n===== {f} =====\n" + open(f, encoding="utf-8").read()
@@ -48,7 +49,10 @@ if MODEL == "list":
 if not PROMPT.strip():
     sys.exit("질문(prompt)이 비어 있습니다.")
 
-body = {"contents": [{"role": "user", "parts": [{"text": PROMPT}]}]}
+parts = [{"text": PROMPT}]
+if VIDEO:
+    parts.insert(0, {"file_data": {"file_uri": VIDEO}})
+body = {"contents": [{"role": "user", "parts": parts}]}
 if SEARCH:
     body["tools"] = [{"google_search": {}}]
 d = None

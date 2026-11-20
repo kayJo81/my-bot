@@ -18,6 +18,10 @@ on:
         description: "질문 뒤에 붙일 저장소 파일 경로 (공백으로 구분, 예: blog/2026-11-18/body.txt)"
         required: false
         default: ""
+      video:
+        description: "유튜브 공개 영상 주소 (넣으면 영상을 보고 답함)"
+        required: false
+        default: ""
 
 jobs:
   ask:
@@ -32,6 +36,7 @@ jobs:
           MODEL: ${{ github.event.inputs.model }}
           SEARCH: ${{ github.event.inputs.search }}
           FILES: ${{ github.event.inputs.files }}
+          VIDEO: ${{ github.event.inputs.video }}
         run: |
           python3 -u scripts/gemini_ask.py
           if [ -f answer.json ]; then
