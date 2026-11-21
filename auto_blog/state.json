@@ -1,11 +1,23 @@
 {
- "last_ts": 1795280916,
+ "last_ts": 1795283793,
  "posted": [
   {
    "date": "2026-11-22",
    "ticker": "META",
    "topic": "뮤즈 참 300달러·버라이즌 5G",
    "url": "https://blog.naver.com/yidiar/224486543098"
+  },
+  {
+   "date": "2026-11-22",
+   "ticker": "AMZN",
+   "topic": "디카트 최대 75억 달러 인수 임박",
+   "url": "https://blog.naver.com/yidiar/224486610124"
+  },
+  {
+   "date": "2026-11-22",
+   "ticker": "NVDA",
+   "topic": "캘리포니아 법무장관 조사 형사 가능성",
+   "url": "https://blog.naver.com/yidiar/224486611006"
   }
  ]
 }
