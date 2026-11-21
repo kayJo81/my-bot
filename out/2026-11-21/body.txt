@@ -1,0 +1,92 @@
+2026년 11월 21일 개장 전 섹터별 이슈체크
+
+2026년 11월 21일 토요일 개장 전 섹터별 이슈체크입니다. 미국장이 쉬는 주말이라 한국시간 15:30~21:30 사이 나온 새 소식을 중심으로, 새벽에 끝난 금요일 미국장 흐름을 [배경]으로 함께 정리했어요. 종목 등락률은 금요일 정규장 종가 기준입니다.
+
+[그림1]
+
+금요일 미국장에서 반도체지수가 10% 넘게 폭락한 뒤 맞은 주말이에요. 대만은 이번 주 17.5% 빠진 증시를 막기 위해 공매도를 전면 금지하는 강수를 뒀고, 호르무즈 해협에서는 유조선 피격 보고가 다시 나왔습니다. 비트코인도 주말 사이 5만 5천 달러대까지 밀리며 위험자산 전반의 매도가 이어지고 있어요.
+
+[그림2]
+
+대만 금융감독관리위원회는 23일 월요일부터 전 영업일 종가보다 낮은 가격의 공매도를 전면 금지하기로 했어요. 대주 보증금 비율을 130%에서 150%로 올리고, 풋워런트 발행 신청을 받지 않으며, 대여기관에는 주식 대여를 멈추라고 권고했습니다. 평반 이하 공매도 전면 금지는 2015년 이후 처음이에요.
+
+[그림3]
+
+재정부는 국가안정기금이 이미 시장에서 주식을 사고 있다고 밝혔지만, 이번에 얼마를 넣었는지는 공개하지 않았어요. 대만 증시는 이번 주에만 17.5% 빠져 35년 만에 가장 나쁜 한 주를 보냈고, 금요일 미국에서도 TSMC ADR이 9% 넘게 밀렸습니다. 월요일 개장에서 이 조치가 매도를 얼마나 누그러뜨리는지가 아시아 반도체의 첫 시험대예요.
+
+[그림4]
+
+영국 해사무역기구(UKMTO)는 오만 카사브 인근에서 유조선이 정체불명의 발사체에 맞았다는 보고를 약 50분 간격으로 두 차례 받았다고 밝혔어요. 첫 보고에서는 부상자가 없었고, 두 보고가 같은 배인지와 선박의 이름·국적은 공개되지 않았습니다.
+
+[그림5]
+
+이란 측은 국영TV를 통해 유조선이 기뢰에 닿아 불이 났다고 주장했지만, 미군은 지난 10월 주요 항로의 기뢰가 제거됐다고 밝힌 바 있어요. 금요일 유가는 소폭 올라 마감했는데, 주말 사이 피격이 이어진 만큼 월요일 유가와 해상 보험료가 어떻게 반응할지 지켜봐야 합니다.
+
+[그림6]
+
+엔비디아는 금요일 SEC가 회계 문제를 들여다보고 있다는 로이터 보도에 14% 폭락했고, 주말 동안 회사의 공식 입장은 나오지 않았어요. 다른 빅테크도 금요일 일제히 밀렸는데, 애플의 낙폭이 가장 작았고 메타가 가장 크게 빠졌습니다. 월요일에는 엔비디아의 해명이나 추가 보도가 나오는지가 관건이에요.
+
+[그림7]
+
+머스크는 FSD V15를 다음 달 대규모로 배포하겠다고 밝혔어요. 테슬라는 금요일 HSBC의 투자의견 상향과 이탈리아의 FSD 승인에도 시장 급락에 7% 넘게 빠졌습니다. 스페이스X는 공모가 135달러를 밑돌면서 손절 물량이 나왔어요.
+
+[그림8]
+
+앤트로픽은 상장 이틀째 8.5% 내렸지만 여전히 공모가 83달러보다 7% 정도 위에 있어요. 금요일 소프트웨어에서는 오라클이 11월 증자 단가 아래로 밀려 52주 신저가를 썼고, 인튜이트는 가이던스 하향과 메일침프 매각 발표 뒤 12% 넘게 빠졌습니다.
+
+[그림9]
+
+이재명 대통령은 울산의 SK·AWS AI 데이터센터 건설 현장을 찾아 AI 데이터센터와 메모리 수요가 계속 늘 것이라며 속도를 강조했어요. 반면 미국에서는 금요일 트럼프 대통령의 해외 데이터센터 과세 발언과 데이터센터 대출 경매 부진이 겹치며 네오클라우드가 12~18% 폭락했고, 코어위브는 장중 공모가 40달러를 밑돌았습니다.
+
+[그림10]
+
+금요일 필라델피아 반도체지수는 10.73% 빠졌고, 한 주 동안 17% 넘게 하락했어요. 궈밍치가 구글의 2027년 TPU 출하 감축을 주장하면서 브로드컴이 크게 밀렸고, 반도체 ETF는 두 달 동안 34.5% 빠져 2001년 이후 최악의 흐름입니다. 대만에서는 젠슨황 사임 뒤에도 AI 공급사 주문이 견조하다는 DIGITIMES 보도가 나왔지만, 월요일 공매도 금지 효과가 먼저 확인돼야 해요.
+
+[그림11]
+
+비트코인은 토요일 5만 5천 달러대까지 밀려 2024년 9월 이후 가장 낮은 수준이에요. 하루 동안 약 25억 달러가 청산됐고 그중 대부분이 상승에 베팅한 포지션이었습니다. 공포·탐욕 지수는 5까지 내려와 극단적인 공포 구간이에요.
+
+출처 링크 (2026-11-21 KST)
+· 台灣金管會五大措施 平盤以下全面禁空 (시나): https://finance.sina.cn/7x24/2026-11-21/detail-iniznthe3426889.d.html
+· 融券保證金成數提高至150% (시나): https://finance.sina.cn/7x24/2026-11-21/detail-inizntfz4903522.d.html
+· 金管會穩市措施 (공상시보): https://www.ctee.com.tw/news/20261121700649-430301
+· 金管會宣布平盤以下禁空 (공시(PTS)): https://news.pts.org.tw/article/836748
+· Taiwan FSC market stabilization measures (Focus Taiwan): https://focustaiwan.tw/business/202611210013
+· Taiwan bans short sales of stocks in new move to calm markets (Bloomberg): https://www.bloomberg.com/news/articles/2026-11-21/taiwan-bans-short-sales-of-stocks-in-new-move-to-calm-markets
+· Taiwan activates NT$500 billion stabilisation fund (The Online Citizen): https://news.theonlinecitizen.com/2026/11/07/taiwan-activates-nt-500-billion-stabilisation-fund-as-taiex-enters-bear-market
+· Taiwan stocks, Nvidia, TSMC, AI server (DIGITIMES): https://www.digitimes.com/news/a20261120VL220/taiwan-nvidia-tsmc-design-ai-server.html
+· Two tanker attacks reported near Oman's Khasab, UKMTO says (CNBC): https://www.cnbc.com/2026/11/21/two-tanker-attacks-reported-near-omans-khasab-ukmto-says.html
+· UK maritime agency reports two tanker incidents near Oman (ThePrint): https://theprint.in/world/uk-maritime-agency-reports-two-tanker-incidents-near-oman-iran-says-vessel-hit-mine-east-of-hormuz/3105198/
+· Iran navy: oil tanker catches fire after striking naval mine - state TV (FinancialJuice): https://www.financialjuice.com/News/9862934/Iran-navy-oil-tanker-catches-fire-after-striking-naval-mine-east-of-Strait-of-Hormuz---state-TV.aspx?xy=rss
+· US military rejects Iranian mine strike claims (Gulf News): https://gulfnews.com/world/mena/us-military-rejects-iranian-mine-strike-claims-says-hormuz-transit-lanes-remain-clear-1.500727648
+· NYMEX WTI December futures settle at $83.98 (FinancialJuice): https://www.financialjuice.com/News/9862340/NYMEX-WTI-Crude-December-futures-settle-at-8398-a-barrel-up-77-cents-093.aspx?xy=rss
+· Exclusive: US SEC's Nvidia probe is examining potential accounting issues (로이터(Investing.com)): https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460
+· NVIDIA announces CEO transition (엔비디아): https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition
+· 但斌回应清盘线 (21세기경제보도): https://m.21jingji.com/article/20261121/herald/cd4b208a5e3bf10eb8f2b459ae77c92f.html
+· Google CDS record high (월스트리트견문): https://wallstreetcn.com/livenews/3203463
+· Tesla FSD V15 December wide release (Tesla North): https://teslanorth.com/2026/11/21/tesla-fsd-v15-december-wide-release/
+· Musk on FSD V15 (X): https://x.com/SawyerMerritt/status/2124043482683625943
+· Apollo, Goldman report pricing of $44B SpaceX GPU financing (FinancialJuice): https://www.financialjuice.com/News/9862056/Apollo--Goldman-Sachs-report-pricing-of-44b-SpaceX-GPU-financing-GS-SPCX.aspx?xy=rss
+· SpaceX falls, breaks below IPO price (Yahoo Finance): https://finance.yahoo.com/markets/stocks/articles/spacex-falls-5-breaks-below-145235801.html
+· Anthropic stock falls on second day (CNBC): https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html
+· OpenAI expands ChatGPT Spaces (Mezha): https://mezha.net/eng/news/mezha-85b07b63e175cace1da0a8c5_openai_expands_chatgpt/
+· Why is Oracle stock sliding to a new 52-week low (Investing.com): https://www.investing.com/news/stock-market-news/why-is-oracle-stock-sliding-to-a-new-52week-low-today-93CH-5042372
+· Intuit stock falls on FY27 revenue forecast cut, Mailchimp sale (Invezz(TradingView)): https://www.tradingview.com/news/invezz:6d543feea094b:0-intuit-stock-falls-9-on-fy27-revenue-forecast-cut-mailchimp-sale-analysts-cut-pts/
+· Lee says AI, memory demand will keep growing at Ulsan data center (서울경제): https://en.sedaily.com/politics/2026/11/21/lee-says-ai-memory-demand-will-keep-growing-at-ulsan-data
+· Lee visits AI data center construction site in Ulsan (코리아타임스): https://www.koreatimes.co.kr/southkorea/politics/20261121/lee-visits-ai-data-center-construction-site-in-ulsan
+· Lee visits construction site of SK data center in Ulsan (중앙일보): https://www.koreajoongangdaily.com/korea/lee-visits-construction-site-of-sk-data-center-in-ulsan-with-call-for-acceleration/12983941
+· Trump: data centers, AI companies tax (CNBC): https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html
+· ING's $500 million data center loan auction stalls on low bids (FinancialJuice): https://www.financialjuice.com/News/9862078/INGs-500-million-data-center-loan-auction-stalls-on-low-bids.aspx?xy=rss
+· CoreWeave falls below IPO price (시나): https://finance.sina.cn/7x24/2026-11-20/detail-inizmfez0165131.d.html
+· Broadcom falls on Google TPU cut report (월스트리트견문): https://wallstreetcn.com/livenews/3203460
+· Semiconductor stocks worst two-month slump since 2001 (Benzinga): https://www.benzinga.com/etfs/sector-etfs/26/11/63508639/semiconductor-stocks-worst-two-month-slump-since-2001
+· TSMC to comply with new US rules (DIGITIMES): https://www.digitimes.com/news/a20261120VL218/tsmc-taiwan-chips-communications-samsung.html
+· PCB demand, electronics manufacturing (DIGITIMES): https://www.digitimes.com/news/a20261120PD235/pcb-demand-electronics-manufacturing.html
+· Bitcoin fell to nearly $55,000, liquidations topped $2.5B (Incrypted): https://incrypted.com/en/bitcoin-fell-to-nearly-55-000-liquidations-topped-2-5b-and-fear-index-hit-all-time-low/
+· Why is Bitcoin crashing today (Coinpaper): https://coinpaper.com/39174/why-is-bitcoin-crashing-today-btc-hits-55-k-as-2-5-b-wiped-out
+· Bitcoin price plunges to $55.5K (Finwire): https://finwire.io/news/crypto-news/bitcoin-price-plunges-to-555k-for-the-first-time-since-september-2024
+· The week ahead: Thanksgiving week brings more inflation data (Schaeffer's): https://www.schaeffersresearch.com/content/news/2026/11/19/the-week-ahead-thanksgiving-week-brings-more-inflation-data
+· The week ahead: global PMIs, US PCE, Dell earnings (CMC Markets): https://www.cmcmarkets.com/en-gb/news-and-analysis/the-week-ahead-global-pmis-us-pce-dell-earnings
+· DIGITIMES 주요 기사 (DIGITIMES): https://www.digitimes.com/
+
+그림 대응(PDF 쪽 번호): 그림1=요약, 그림2=이슈1(1/2), 그림3=이슈1(2/2), 그림4=이슈2(1/2), 그림5=이슈2(2/2), 그림6=메가테크, 그림7=모빌리티, 그림8=AI 소프트웨어, 그림9=AI 인프라, 그림10=반도체, 그림11=크립토

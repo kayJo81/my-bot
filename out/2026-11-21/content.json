@@ -1,0 +1,705 @@
+{
+ "date": "2026-11-21",
+ "window": "15:30~21:30 KST",
+ "mail_to": "yidiar80k@gmail.com",
+ "summary": [
+  "대만 금관회, 23일부터 평반 이하 공매도 전면 금지… 2015년 이후 처음, 국가안정기금도 매수 중",
+  "호르무즈 해협 오만 카사브 인근 유조선 피격 보고 2건(UKMTO), 이란은 '기뢰' 주장",
+  "비트코인 5.5만 달러대로 2024년 9월 이후 최저, 24시간 청산 약 25억 달러",
+  "머스크 \"FSD V15, 다음 달 대규모 배포\"",
+  "[배경] 금요일 반도체지수 −10.7%, S&P 500 7거래일 연속 하락하며 조정 진입"
+ ],
+ "checklist": [
+  "23일 대만·한국 증시 개장 반응과 공매도 금지 효과",
+  "23일 S&P 글로벌 PMI 속보치, HPE·줌 실적",
+  "24일 델·워크데이·HP 실적(델 EPS 예상 6.61달러)",
+  "25일 3분기 GDP 2차 추정치·10월 PCE·베이지북",
+  "26일 추수감사절 휴장, 27일 조기 폐장"
+ ],
+ "issues": [
+  {
+   "title": "대만, 공매도 전면 금지 카드를 꺼냈다",
+   "subtitle": "[신규] 23일부터 평반 이하 공매도 금지 · 대주 보증금 상향 · 국가안정기금 매수",
+   "timeline": [
+    {
+     "t": "16:44",
+     "text": "금융감독관리위원회, 시장 안정 조치 발표"
+    },
+    {
+     "t": "16:45",
+     "text": "재정부 \"국가안정기금, 이미 시장에서 매수 중\""
+    },
+    {
+     "t": "16:47",
+     "text": "23일부터 평반 이하 공매도 전면 금지(헤지 목적 예외)"
+    },
+    {
+     "t": "17:01",
+     "text": "최저 대주 보증금 비율 130% → 150%"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "대만 가권 주간",
+     "value": "−17.50%",
+     "note": "[배경] 35년 만에 가장 나쁜 한 주",
+     "dir": "down"
+    },
+    {
+     "label": "대만 가권(20일)",
+     "value": "−6.23%",
+     "note": "[배경] 36,033.29",
+     "dir": "down"
+    },
+    {
+     "label": "국가안정기금",
+     "value": "NT$5,000억",
+     "note": "[배경] 약 150억 달러, 11/6 개입 승인",
+     "dir": "up"
+    },
+    {
+     "label": "TSMC ADR(금)",
+     "value": "−9.36%",
+     "note": "[배경] 미국 정규장 종가",
+     "dir": "down"
+    }
+   ],
+   "cause": [
+    "풋워런트 발행 신청 중단, 대여기관에 주식 대여 중단·조기 회수 권고",
+    "상장사에 자사주 매입 권고, 종료 시점은 정하지 않음",
+    "2015년 이후 첫 전면 금지, 11/9·11/19에 이은 3차 조치"
+   ],
+   "chips": [
+    {
+     "name": "TSMC",
+     "chg": "-9.36%"
+    },
+    {
+     "name": "엔비디아",
+     "chg": "-14.01%"
+    },
+    {
+     "name": "AMD",
+     "chg": "-13.25%"
+    },
+    {
+     "name": "마이크론",
+     "chg": "-13.89%"
+    }
+   ],
+   "checks": [
+    "23일 대만 개장 반응과 기금 투입 규모",
+    "한국 등 다른 시장의 후속 조치 여부",
+    "미국 반도체의 금요일 낙폭 회복 여부"
+   ],
+   "source": "공상시보, 공시, Focus Taiwan, Bloomberg, 시나"
+  },
+  {
+   "title": "호르무즈에서 다시 유조선이 맞았다",
+   "subtitle": "[신규] UKMTO 피격 보고 2건 · 이란 '기뢰' 주장 · 월요일 유가 변수",
+   "timeline": [
+    {
+     "t": "16:41",
+     "text": "UKMTO \"카사브 북쪽 11해리, 유조선 선미에 발사체\""
+    },
+    {
+     "t": "17:16",
+     "text": "UKMTO \"카사브 동쪽 17해리, 유조선 기관실 피격\""
+    },
+    {
+     "t": "19:56",
+     "text": "이란 측 주장 \"유조선이 기뢰에 닿아 화재\"(국영TV)"
+    },
+    {
+     "t": "20:39",
+     "text": "이란 측 주장 \"미군이 유조선 불법 통행 엄호\""
+    }
+   ],
+   "metrics": [
+    {
+     "label": "피격 보고",
+     "value": "2건",
+     "note": "약 50분 간격, 같은 배인지 불분명",
+     "dir": ""
+    },
+    {
+     "label": "인명 피해",
+     "value": "보고 없음",
+     "note": "UKMTO 1차 보고 기준",
+     "dir": ""
+    },
+    {
+     "label": "WTI 12월물(금)",
+     "value": "83.98달러",
+     "note": "[배경] +0.93% 정산",
+     "dir": "up"
+    },
+    {
+     "label": "브렌트 1월물(금)",
+     "value": "92.57달러",
+     "note": "[배경] +0.64% 정산",
+     "dir": "up"
+    }
+   ],
+   "cause": [
+    "선박명·국적은 공개되지 않음",
+    "[배경] 20일에도 카사브 인근 유조선 화재, CENTCOM은 10월 '주요 항로 기뢰 제거' 발표",
+    "이란 외무장관 \"외교 채널로 미국과 분쟁 해결 의지\""
+   ],
+   "chips": [],
+   "checks": [
+    "월요일 유가 반응",
+    "CENTCOM 등 미국 측 공식 발표",
+    "해상 보험료와 통항량 변화"
+   ],
+   "source": "CNBC, UKMTO(FinancialJuice), ThePrint, Gulf News"
+  }
+ ],
+ "sections": {
+  "megatech": [
+   {
+    "company": "엔비디아",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "로이터: SEC 집행부서가 잠재적 회계 문제 조사, 금요일 −14.01%"
+     },
+     {
+      "label": "배경",
+      "text": "크레스 임시 CEO 체제, 이사회는 황 복귀 배제"
+     },
+     {
+      "label": "사실",
+      "text": "21세기경제보도: 중국 사모펀드, 엔비디아 급락 속 '청산 라인' 언급"
+     }
+    ],
+    "chips": [
+     {
+      "name": "엔비디아",
+      "chg": "-14.01%"
+     }
+    ],
+    "source": "로이터(Investing.com), 21세기경제보도"
+   },
+   {
+    "company": "애플 · 알파벳 · 아마존 · MSFT · 메타",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "금요일 AI 매도에 일제히 하락, 애플 낙폭이 가장 작았음"
+     },
+     {
+      "label": "배경",
+      "text": "구글 CDS 사상 최고, 아마존은 앤트로픽 이틀째 약세 영향"
+     }
+    ],
+    "chips": [
+     {
+      "name": "애플",
+      "chg": "-1.90%"
+     },
+     {
+      "name": "알파벳",
+      "chg": "-2.70%"
+     },
+     {
+      "name": "아마존",
+      "chg": "-4.10%"
+     },
+     {
+      "name": "메타",
+      "chg": "-5.93%"
+     }
+    ],
+    "source": "월스트리트견문, 시나"
+   }
+  ],
+  "mobility": [
+   {
+    "company": "테슬라",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "머스크 \"FSD V15, 다음 달 대규모 배포\""
+     },
+     {
+      "label": "사실",
+      "text": "\"XV는 테슬라 초지능(SI) 중 '슈퍼' 부분의 시작\""
+     },
+     {
+      "label": "배경",
+      "text": "금요일 HSBC 보유 상향·이탈리아 FSD 승인에도 지수 급락에 하락"
+     }
+    ],
+    "chips": [
+     {
+      "name": "테슬라",
+      "chg": "-7.64%"
+     }
+    ],
+    "source": "Tesla North, X, 시나"
+   },
+   {
+    "company": "스페이스X",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "금요일 공모가 135달러 하회, 손절 물량에 하락"
+     },
+     {
+      "label": "배경",
+      "text": "아폴로·골드만, 440억 달러 GPU 파이낸싱 가격 확정"
+     }
+    ],
+    "chips": [
+     {
+      "name": "스페이스X",
+      "chg": "-7.69%"
+     }
+    ],
+    "source": "FinancialJuice, Yahoo Finance"
+   }
+  ],
+  "ai_software": [
+   {
+    "company": "앤트로픽 · 오픈AI",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "앤트로픽 상장 이틀째 88.91달러, 공모가 83달러 대비 +7.1%"
+     },
+     {
+      "label": "배경",
+      "text": "오픈AI, ChatGPT Spaces를 Plus 요금제에 개방"
+     }
+    ],
+    "chips": [
+     {
+      "name": "앤트로픽",
+      "chg": "-8.50%"
+     }
+    ],
+    "source": "CNBC, Mezha"
+   },
+   {
+    "company": "오라클 · 인튜이트",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "오라클, 11월 증자 단가 116달러 밑돌며 52주 신저가"
+     },
+     {
+      "label": "배경",
+      "text": "인튜이트, 매출 가이던스 하향·메일침프 매각에 목표가 하향 잇따라"
+     }
+    ],
+    "chips": [
+     {
+      "name": "오라클",
+      "chg": "-8.49%"
+     },
+     {
+      "name": "인튜이트",
+      "chg": "-12.77%"
+     }
+    ],
+    "source": "Investing.com, Invezz"
+   }
+  ],
+  "ai_infra": [
+   {
+    "company": "한국 AI 데이터센터",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "이재명 대통령, 울산 SK·AWS AI 데이터센터 건설 현장 방문"
+     },
+     {
+      "label": "사실",
+      "text": "\"AI 데이터센터와 메모리 수요 계속 늘 것, 속도가 관건\""
+     },
+     {
+      "label": "배경",
+      "text": "공정률 71%, 2027년 하반기 가동 목표, 총 52억 달러"
+     }
+    ],
+    "chips": [
+     {
+      "name": "SK하이닉스 ADR",
+      "chg": "-13.11%"
+     }
+    ],
+    "source": "서울경제, 코리아타임스, 중앙일보"
+   },
+   {
+    "company": "네오클라우드",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "금요일 IREN·애플라이드디지털 17% 넘게, 네비우스 16% 하락"
+     },
+     {
+      "label": "배경",
+      "text": "트럼프 해외 데이터센터 과세 발언, ING 데이터센터 대출 경매 부진"
+     },
+     {
+      "label": "배경",
+      "text": "코어위브, 장중 2025년 공모가 40달러 하회"
+     }
+    ],
+    "chips": [
+     {
+      "name": "IREN",
+      "chg": "-17.97%"
+     },
+     {
+      "name": "애플라이드디지털",
+      "chg": "-17.81%"
+     },
+     {
+      "name": "네비우스",
+      "chg": "-16.11%"
+     },
+     {
+      "name": "코어위브",
+      "chg": "-12.02%"
+     }
+    ],
+    "source": "CNBC, FinancialJuice, 시나"
+   }
+  ],
+  "semis": [
+   {
+    "company": "반도체 전반",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "금요일 반도체지수 −10.73%, 주간 −17.13%"
+     },
+     {
+      "label": "배경",
+      "text": "궈밍치 \"구글, 2027년 TPU 8i 약 100만 개 감축\" 주장에 브로드컴 급락"
+     },
+     {
+      "label": "배경",
+      "text": "SOXX 두 달 −34.5%, 2001년 이후 최악"
+     }
+    ],
+    "chips": [
+     {
+      "name": "샌디스크",
+      "chg": "-16.05%"
+     },
+     {
+      "name": "ARM",
+      "chg": "-14.09%"
+     },
+     {
+      "name": "AMD",
+      "chg": "-13.25%"
+     },
+     {
+      "name": "브로드컴",
+      "chg": "-12.19%"
+     }
+    ],
+    "source": "월스트리트견문, Benzinga"
+   },
+   {
+    "company": "대만 공급망",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "DIGITIMES: TSMC, 중국 설계사 예외 없앤 새 미국 규정 준수"
+     },
+     {
+      "label": "배경",
+      "text": "DIGITIMES: 황 사임 뒤에도 대만 AI 공급사 주문은 견조"
+     },
+     {
+      "label": "배경",
+      "text": "DIGITIMES: 전 세계 PCB 부족, 2028년 중반 전 해소 어려워"
+     }
+    ],
+    "chips": [
+     {
+      "name": "TSMC",
+      "chg": "-9.36%"
+     },
+     {
+      "name": "마이크론",
+      "chg": "-13.89%"
+     }
+    ],
+    "source": "DIGITIMES"
+   }
+  ],
+  "others": [
+   {
+    "company": "비트코인",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "토요일 5.5만 달러대, 2024년 9월 이후 최저"
+     },
+     {
+      "label": "사실",
+      "text": "24시간 청산 약 25.3억 달러, 이 중 롱 22.7억 달러(CoinGlass)"
+     },
+     {
+      "label": "사실",
+      "text": "공포·탐욕 지수 5"
+     }
+    ],
+    "chips": [
+     {
+      "name": "스트래티지",
+      "chg": "-9.67%"
+     },
+     {
+      "name": "코인베이스",
+      "chg": "-6.34%"
+     }
+    ],
+    "source": "Incrypted, Coinpaper, Finwire"
+   }
+  ]
+ },
+ "empty_notes": {},
+ "greeting": "2026년 11월 21일 토요일 개장 전 섹터별 이슈체크입니다. 미국장이 쉬는 주말이라 한국시간 15:30~21:30 사이 나온 새 소식을 중심으로, 새벽에 끝난 금요일 미국장 흐름을 [배경]으로 함께 정리했어요. 종목 등락률은 금요일 정규장 종가 기준입니다.",
+ "commentary": {
+  "summary": "금요일 미국장에서 반도체지수가 10% 넘게 폭락한 뒤 맞은 주말이에요. 대만은 이번 주 17.5% 빠진 증시를 막기 위해 공매도를 전면 금지하는 강수를 뒀고, 호르무즈 해협에서는 유조선 피격 보고가 다시 나왔습니다. 비트코인도 주말 사이 5만 5천 달러대까지 밀리며 위험자산 전반의 매도가 이어지고 있어요.",
+  "issue1": [
+   "대만 금융감독관리위원회는 23일 월요일부터 전 영업일 종가보다 낮은 가격의 공매도를 전면 금지하기로 했어요. 대주 보증금 비율을 130%에서 150%로 올리고, 풋워런트 발행 신청을 받지 않으며, 대여기관에는 주식 대여를 멈추라고 권고했습니다. 평반 이하 공매도 전면 금지는 2015년 이후 처음이에요.",
+   "재정부는 국가안정기금이 이미 시장에서 주식을 사고 있다고 밝혔지만, 이번에 얼마를 넣었는지는 공개하지 않았어요. 대만 증시는 이번 주에만 17.5% 빠져 35년 만에 가장 나쁜 한 주를 보냈고, 금요일 미국에서도 TSMC ADR이 9% 넘게 밀렸습니다. 월요일 개장에서 이 조치가 매도를 얼마나 누그러뜨리는지가 아시아 반도체의 첫 시험대예요."
+  ],
+  "issue2": [
+   "영국 해사무역기구(UKMTO)는 오만 카사브 인근에서 유조선이 정체불명의 발사체에 맞았다는 보고를 약 50분 간격으로 두 차례 받았다고 밝혔어요. 첫 보고에서는 부상자가 없었고, 두 보고가 같은 배인지와 선박의 이름·국적은 공개되지 않았습니다.",
+   "이란 측은 국영TV를 통해 유조선이 기뢰에 닿아 불이 났다고 주장했지만, 미군은 지난 10월 주요 항로의 기뢰가 제거됐다고 밝힌 바 있어요. 금요일 유가는 소폭 올라 마감했는데, 주말 사이 피격이 이어진 만큼 월요일 유가와 해상 보험료가 어떻게 반응할지 지켜봐야 합니다."
+  ],
+  "megatech": "엔비디아는 금요일 SEC가 회계 문제를 들여다보고 있다는 로이터 보도에 14% 폭락했고, 주말 동안 회사의 공식 입장은 나오지 않았어요. 다른 빅테크도 금요일 일제히 밀렸는데, 애플의 낙폭이 가장 작았고 메타가 가장 크게 빠졌습니다. 월요일에는 엔비디아의 해명이나 추가 보도가 나오는지가 관건이에요.",
+  "mobility": "머스크는 FSD V15를 다음 달 대규모로 배포하겠다고 밝혔어요. 테슬라는 금요일 HSBC의 투자의견 상향과 이탈리아의 FSD 승인에도 시장 급락에 7% 넘게 빠졌습니다. 스페이스X는 공모가 135달러를 밑돌면서 손절 물량이 나왔어요.",
+  "ai_software": "앤트로픽은 상장 이틀째 8.5% 내렸지만 여전히 공모가 83달러보다 7% 정도 위에 있어요. 금요일 소프트웨어에서는 오라클이 11월 증자 단가 아래로 밀려 52주 신저가를 썼고, 인튜이트는 가이던스 하향과 메일침프 매각 발표 뒤 12% 넘게 빠졌습니다.",
+  "ai_infra": "이재명 대통령은 울산의 SK·AWS AI 데이터센터 건설 현장을 찾아 AI 데이터센터와 메모리 수요가 계속 늘 것이라며 속도를 강조했어요. 반면 미국에서는 금요일 트럼프 대통령의 해외 데이터센터 과세 발언과 데이터센터 대출 경매 부진이 겹치며 네오클라우드가 12~18% 폭락했고, 코어위브는 장중 공모가 40달러를 밑돌았습니다.",
+  "semis": "금요일 필라델피아 반도체지수는 10.73% 빠졌고, 한 주 동안 17% 넘게 하락했어요. 궈밍치가 구글의 2027년 TPU 출하 감축을 주장하면서 브로드컴이 크게 밀렸고, 반도체 ETF는 두 달 동안 34.5% 빠져 2001년 이후 최악의 흐름입니다. 대만에서는 젠슨황 사임 뒤에도 AI 공급사 주문이 견조하다는 DIGITIMES 보도가 나왔지만, 월요일 공매도 금지 효과가 먼저 확인돼야 해요.",
+  "others": "비트코인은 토요일 5만 5천 달러대까지 밀려 2024년 9월 이후 가장 낮은 수준이에요. 하루 동안 약 25억 달러가 청산됐고 그중 대부분이 상승에 베팅한 포지션이었습니다. 공포·탐욕 지수는 5까지 내려와 극단적인 공포 구간이에요."
+ },
+ "sources": [
+  {
+   "title": "台灣金管會五大措施 平盤以下全面禁空",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-21/detail-iniznthe3426889.d.html"
+  },
+  {
+   "title": "融券保證金成數提高至150%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-21/detail-inizntfz4903522.d.html"
+  },
+  {
+   "title": "金管會穩市措施",
+   "outlet": "공상시보",
+   "url": "https://www.ctee.com.tw/news/20261121700649-430301"
+  },
+  {
+   "title": "金管會宣布平盤以下禁空",
+   "outlet": "공시(PTS)",
+   "url": "https://news.pts.org.tw/article/836748"
+  },
+  {
+   "title": "Taiwan FSC market stabilization measures",
+   "outlet": "Focus Taiwan",
+   "url": "https://focustaiwan.tw/business/202611210013"
+  },
+  {
+   "title": "Taiwan bans short sales of stocks in new move to calm markets",
+   "outlet": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-21/taiwan-bans-short-sales-of-stocks-in-new-move-to-calm-markets"
+  },
+  {
+   "title": "Taiwan activates NT$500 billion stabilisation fund",
+   "outlet": "The Online Citizen",
+   "url": "https://news.theonlinecitizen.com/2026/11/07/taiwan-activates-nt-500-billion-stabilisation-fund-as-taiex-enters-bear-market"
+  },
+  {
+   "title": "Taiwan stocks, Nvidia, TSMC, AI server",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261120VL220/taiwan-nvidia-tsmc-design-ai-server.html"
+  },
+  {
+   "title": "Two tanker attacks reported near Oman's Khasab, UKMTO says",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/21/two-tanker-attacks-reported-near-omans-khasab-ukmto-says.html"
+  },
+  {
+   "title": "UK maritime agency reports two tanker incidents near Oman",
+   "outlet": "ThePrint",
+   "url": "https://theprint.in/world/uk-maritime-agency-reports-two-tanker-incidents-near-oman-iran-says-vessel-hit-mine-east-of-hormuz/3105198/"
+  },
+  {
+   "title": "Iran navy: oil tanker catches fire after striking naval mine - state TV",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9862934/Iran-navy-oil-tanker-catches-fire-after-striking-naval-mine-east-of-Strait-of-Hormuz---state-TV.aspx?xy=rss"
+  },
+  {
+   "title": "US military rejects Iranian mine strike claims",
+   "outlet": "Gulf News",
+   "url": "https://gulfnews.com/world/mena/us-military-rejects-iranian-mine-strike-claims-says-hormuz-transit-lanes-remain-clear-1.500727648"
+  },
+  {
+   "title": "NYMEX WTI December futures settle at $83.98",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9862340/NYMEX-WTI-Crude-December-futures-settle-at-8398-a-barrel-up-77-cents-093.aspx?xy=rss"
+  },
+  {
+   "title": "Exclusive: US SEC's Nvidia probe is examining potential accounting issues",
+   "outlet": "로이터(Investing.com)",
+   "url": "https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460"
+  },
+  {
+   "title": "NVIDIA announces CEO transition",
+   "outlet": "엔비디아",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+  },
+  {
+   "title": "但斌回应清盘线",
+   "outlet": "21세기경제보도",
+   "url": "https://m.21jingji.com/article/20261121/herald/cd4b208a5e3bf10eb8f2b459ae77c92f.html"
+  },
+  {
+   "title": "Google CDS record high",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3203463"
+  },
+  {
+   "title": "Tesla FSD V15 December wide release",
+   "outlet": "Tesla North",
+   "url": "https://teslanorth.com/2026/11/21/tesla-fsd-v15-december-wide-release/"
+  },
+  {
+   "title": "Musk on FSD V15",
+   "outlet": "X",
+   "url": "https://x.com/SawyerMerritt/status/2124043482683625943"
+  },
+  {
+   "title": "Apollo, Goldman report pricing of $44B SpaceX GPU financing",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9862056/Apollo--Goldman-Sachs-report-pricing-of-44b-SpaceX-GPU-financing-GS-SPCX.aspx?xy=rss"
+  },
+  {
+   "title": "SpaceX falls, breaks below IPO price",
+   "outlet": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-falls-5-breaks-below-145235801.html"
+  },
+  {
+   "title": "Anthropic stock falls on second day",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html"
+  },
+  {
+   "title": "OpenAI expands ChatGPT Spaces",
+   "outlet": "Mezha",
+   "url": "https://mezha.net/eng/news/mezha-85b07b63e175cace1da0a8c5_openai_expands_chatgpt/"
+  },
+  {
+   "title": "Why is Oracle stock sliding to a new 52-week low",
+   "outlet": "Investing.com",
+   "url": "https://www.investing.com/news/stock-market-news/why-is-oracle-stock-sliding-to-a-new-52week-low-today-93CH-5042372"
+  },
+  {
+   "title": "Intuit stock falls on FY27 revenue forecast cut, Mailchimp sale",
+   "outlet": "Invezz(TradingView)",
+   "url": "https://www.tradingview.com/news/invezz:6d543feea094b:0-intuit-stock-falls-9-on-fy27-revenue-forecast-cut-mailchimp-sale-analysts-cut-pts/"
+  },
+  {
+   "title": "Lee says AI, memory demand will keep growing at Ulsan data center",
+   "outlet": "서울경제",
+   "url": "https://en.sedaily.com/politics/2026/11/21/lee-says-ai-memory-demand-will-keep-growing-at-ulsan-data"
+  },
+  {
+   "title": "Lee visits AI data center construction site in Ulsan",
+   "outlet": "코리아타임스",
+   "url": "https://www.koreatimes.co.kr/southkorea/politics/20261121/lee-visits-ai-data-center-construction-site-in-ulsan"
+  },
+  {
+   "title": "Lee visits construction site of SK data center in Ulsan",
+   "outlet": "중앙일보",
+   "url": "https://www.koreajoongangdaily.com/korea/lee-visits-construction-site-of-sk-data-center-in-ulsan-with-call-for-acceleration/12983941"
+  },
+  {
+   "title": "Trump: data centers, AI companies tax",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html"
+  },
+  {
+   "title": "ING's $500 million data center loan auction stalls on low bids",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9862078/INGs-500-million-data-center-loan-auction-stalls-on-low-bids.aspx?xy=rss"
+  },
+  {
+   "title": "CoreWeave falls below IPO price",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-20/detail-inizmfez0165131.d.html"
+  },
+  {
+   "title": "Broadcom falls on Google TPU cut report",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3203460"
+  },
+  {
+   "title": "Semiconductor stocks worst two-month slump since 2001",
+   "outlet": "Benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63508639/semiconductor-stocks-worst-two-month-slump-since-2001"
+  },
+  {
+   "title": "TSMC to comply with new US rules",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261120VL218/tsmc-taiwan-chips-communications-samsung.html"
+  },
+  {
+   "title": "PCB demand, electronics manufacturing",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261120PD235/pcb-demand-electronics-manufacturing.html"
+  },
+  {
+   "title": "Bitcoin fell to nearly $55,000, liquidations topped $2.5B",
+   "outlet": "Incrypted",
+   "url": "https://incrypted.com/en/bitcoin-fell-to-nearly-55-000-liquidations-topped-2-5b-and-fear-index-hit-all-time-low/"
+  },
+  {
+   "title": "Why is Bitcoin crashing today",
+   "outlet": "Coinpaper",
+   "url": "https://coinpaper.com/39174/why-is-bitcoin-crashing-today-btc-hits-55-k-as-2-5-b-wiped-out"
+  },
+  {
+   "title": "Bitcoin price plunges to $55.5K",
+   "outlet": "Finwire",
+   "url": "https://finwire.io/news/crypto-news/bitcoin-price-plunges-to-555k-for-the-first-time-since-september-2024"
+  },
+  {
+   "title": "The week ahead: Thanksgiving week brings more inflation data",
+   "outlet": "Schaeffer's",
+   "url": "https://www.schaeffersresearch.com/content/news/2026/11/19/the-week-ahead-thanksgiving-week-brings-more-inflation-data"
+  },
+  {
+   "title": "The week ahead: global PMIs, US PCE, Dell earnings",
+   "outlet": "CMC Markets",
+   "url": "https://www.cmcmarkets.com/en-gb/news-and-analysis/the-week-ahead-global-pmis-us-pce-dell-earnings"
+  },
+  {
+   "title": "DIGITIMES 주요 기사",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/"
+  }
+ ]
+}
