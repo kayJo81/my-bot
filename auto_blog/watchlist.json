@@ -1,0 +1,470 @@
+{
+ "note": "CNBC 워치리스트(2026-11-20 종가표 기준) + 앤트로픽·오픈AI. 키워드는 종목명(영·한·중). 너무 일반적인 단어(Meta, Arm, Strategy, Figure, Circle, Gemini, ON, AST 등)는 $티커나 회사 맥락과 함께 나올 때만 해당 기업으로 봄.",
+ "groups": {
+  "Semi": {
+   "NVDA": [
+    "Nvidia",
+    "엔비디아",
+    "英伟达"
+   ],
+   "ASML": [
+    "ASML",
+    "阿斯麦"
+   ],
+   "AMD": [
+    "AMD",
+    "超威"
+   ],
+   "INTC": [
+    "Intel",
+    "인텔",
+    "英特尔"
+   ],
+   "QCOM": [
+    "Qualcomm",
+    "퀄컴"
+   ],
+   "TSM": [
+    "TSMC",
+    "台积电"
+   ],
+   "AVGO": [
+    "Broadcom",
+    "브로드컴",
+    "博通"
+   ],
+   "MU": [
+    "Micron",
+    "마이크론",
+    "美光"
+   ],
+   "NXPI": [
+    "NXP"
+   ],
+   "SWKS": [
+    "Skyworks",
+    "스카이웍스"
+   ],
+   "GFS": [
+    "GlobalFoundries",
+    "글로벌파운드리",
+    "格芯"
+   ],
+   "MRVL": [
+    "Marvell",
+    "마벨",
+    "迈威尔"
+   ],
+   "LRCX": [
+    "Lam Research",
+    "램리서치",
+    "泛林"
+   ],
+   "SNPS": [
+    "Synopsys",
+    "시놉시스",
+    "新思"
+   ],
+   "AMAT": [
+    "Applied Materials",
+    "어플라이드",
+    "应用材料"
+   ],
+   "ARM": [
+    "Arm Holdings",
+    "ARM",
+    "安谋"
+   ],
+   "ON": [
+    "onsemi",
+    "ON Semiconductor",
+    "온세미",
+    "安森美"
+   ],
+   "TXN": [
+    "Texas Instruments",
+    "텍사스인스트루먼트",
+    "德州仪器"
+   ],
+   "CDNS": [
+    "Cadence",
+    "케이던스",
+    "楷登"
+   ],
+   "WDC": [
+    "Western Digital",
+    "웨스턴디지털",
+    "西部数据"
+   ],
+   "STX": [
+    "Seagate",
+    "시게이트",
+    "希捷"
+   ],
+   "SNDK": [
+    "SanDisk",
+    "샌디스크",
+    "闪迪"
+   ],
+   "STM": [
+    "STMicro",
+    "ST마이크로",
+    "意法半导体"
+   ],
+   "KLAC": [
+    "KLA"
+   ],
+   "ADI": [
+    "Analog Devices",
+    "아날로그디바이스",
+    "亚德诺"
+   ],
+   "CBRS": [
+    "Cerebras",
+    "세레브라스"
+   ],
+   "SKHY": [
+    "SK hynix",
+    "SK하이닉스",
+    "SK海力士"
+   ]
+  },
+  "Cloud": {
+   "CRM": [
+    "Salesforce",
+    "세일즈포스",
+    "赛富时"
+   ],
+   "ORCL": [
+    "Oracle",
+    "오라클",
+    "甲骨文"
+   ],
+   "ADBE": [
+    "Adobe",
+    "어도비",
+    "奥多比"
+   ],
+   "PLTR": [
+    "Palantir",
+    "팔란티어",
+    "帕兰提尔"
+   ],
+   "WDAY": [
+    "Workday",
+    "워크데이"
+   ],
+   "CRWD": [
+    "CrowdStrike",
+    "크라우드스트라이크"
+   ],
+   "IBM": [
+    "IBM"
+   ],
+   "SNOW": [
+    "Snowflake",
+    "스노우플레이크"
+   ],
+   "HUBS": [
+    "HubSpot",
+    "허브스팟"
+   ],
+   "ZM": [
+    "Zoom",
+    "줌"
+   ],
+   "RDDT": [
+    "Reddit",
+    "레딧"
+   ],
+   "NOW": [
+    "ServiceNow",
+    "서비스나우"
+   ],
+   "PANW": [
+    "Palo Alto",
+    "팔로알토"
+   ],
+   "DDOG": [
+    "Datadog",
+    "데이터독"
+   ],
+   "AKAM": [
+    "Akamai",
+    "아카마이"
+   ],
+   "APP": [
+    "AppLovin",
+    "앱러빈"
+   ]
+  },
+  "TSLA": {
+   "TSLA": [
+    "Tesla",
+    "테슬라",
+    "特斯拉",
+    "FSD",
+    "Optimus",
+    "옵티머스",
+    "Robotaxi",
+    "로보택시",
+    "Cybercab"
+   ]
+  },
+  "space": {
+   "RKLB": [
+    "Rocket Lab",
+    "로켓랩"
+   ],
+   "LUNR": [
+    "Intuitive Machines",
+    "인튜이티브머신스"
+   ],
+   "PL": [
+    "Planet Labs",
+    "플래닛랩스"
+   ],
+   "ASTS": [
+    "AST SpaceMobile",
+    "AST"
+   ],
+   "RDW": [
+    "Redwire",
+    "레드와이어"
+   ],
+   "SPCX": [
+    "SpaceX",
+    "스페이스X",
+    "太空探索",
+    "Starlink",
+    "스타링크",
+    "Starship",
+    "스타십",
+    "xAI",
+    "Grok"
+   ]
+  },
+  "Serve & Infra": {
+   "VRT": [
+    "Vertiv",
+    "버티브",
+    "维谛"
+   ],
+   "ANET": [
+    "Arista",
+    "아리스타"
+   ],
+   "CRWV": [
+    "CoreWeave",
+    "코어위브"
+   ],
+   "SMCI": [
+    "Super Micro",
+    "Supermicro",
+    "슈퍼마이크로",
+    "超微电脑"
+   ],
+   "DELL": [
+    "Dell",
+    "델",
+    "戴尔"
+   ],
+   "HPE": [
+    "Hewlett Packard Enterprise",
+    "HPE"
+   ],
+   "COHR": [
+    "Coherent",
+    "코히런트"
+   ],
+   "NBIS": [
+    "Nebius",
+    "네비우스"
+   ],
+   "NVTS": [
+    "Navitas",
+    "나비타스"
+   ],
+   "POWI": [
+    "Power Integrations",
+    "파워인티"
+   ],
+   "IREN": [
+    "IREN"
+   ],
+   "ETN": [
+    "Eaton",
+    "이튼"
+   ],
+   "CSCO": [
+    "Cisco",
+    "시스코",
+    "思科"
+   ],
+   "WULF": [
+    "TeraWulf",
+    "테라울프"
+   ],
+   "NVT": [
+    "nVent"
+   ],
+   "LITE": [
+    "Lumentum",
+    "루멘텀"
+   ],
+   "APLD": [
+    "Applied Digital",
+    "애플라이드디지털"
+   ],
+   "POET": [
+    "POET Technologies"
+   ],
+   "GLW": [
+    "Corning",
+    "코닝",
+    "康宁"
+   ]
+  },
+  "nuclear": {
+   "SMR": [
+    "NuScale",
+    "뉴스케일"
+   ],
+   "LEU": [
+    "Centrus",
+    "센트러스"
+   ],
+   "OKLO": [
+    "Oklo",
+    "오클로"
+   ],
+   "GEV": [
+    "GE Vernova",
+    "GE버노바"
+   ],
+   "NNE": [
+    "Nano Nuclear",
+    "나노뉴클리어"
+   ],
+   "LTBR": [
+    "Lightbridge",
+    "라이트브리지"
+   ],
+   "CEG": [
+    "Constellation",
+    "컨스텔레이션"
+   ],
+   "CCJ": [
+    "Cameco",
+    "카메코"
+   ],
+   "FRMI": [
+    "Fermi",
+    "페르미"
+   ],
+   "BE": [
+    "Bloom Energy",
+    "블룸에너지"
+   ]
+  },
+  "Crypto": {
+   "HOOD": [
+    "Robinhood",
+    "로빈후드"
+   ],
+   "CRCL": [
+    "Circle",
+    "서클"
+   ],
+   "COIN": [
+    "Coinbase",
+    "코인베이스"
+   ],
+   "BLSH": [
+    "Bullish",
+    "불리시"
+   ],
+   "MSTR": [
+    "Strategy",
+    "MicroStrategy",
+    "스트래티지"
+   ],
+   "BMNR": [
+    "BitMine",
+    "비트마인"
+   ],
+   "GEMI": [
+    "Gemini",
+    "제미니"
+   ],
+   "FIGR": [
+    "Figure",
+    "피겨"
+   ]
+  },
+  "Big Tech": {
+   "AMZN": [
+    "Amazon",
+    "아마존",
+    "亚马逊",
+    "AWS"
+   ],
+   "AAPL": [
+    "Apple",
+    "애플",
+    "苹果"
+   ],
+   "GOOGL": [
+    "Alphabet",
+    "Google",
+    "알파벳",
+    "구글",
+    "谷歌"
+   ],
+   "MSFT": [
+    "Microsoft",
+    "마이크로소프트",
+    "微软"
+   ],
+   "META": [
+    "Meta",
+    "메타"
+   ]
+  },
+  "Rare Earth": {
+   "CRML": [
+    "Critical Metals"
+   ],
+   "USAR": [
+    "USA Rare Earth"
+   ],
+   "NVA": [
+    "Nova Minerals"
+   ],
+   "LAC": [
+    "Lithium Americas",
+    "리튬아메리카스"
+   ],
+   "BHP": [
+    "BHP"
+   ]
+  },
+  "AI Lab": {
+   "ANT": [
+    "Anthropic",
+    "앤트로픽",
+    "Claude",
+    "클로드"
+   ],
+   "OPENAI": [
+    "OpenAI",
+    "오픈AI",
+    "ChatGPT",
+    "챗GPT",
+    "Altman",
+    "올트먼",
+    "奥特曼"
+   ]
+  }
+ }
+}
