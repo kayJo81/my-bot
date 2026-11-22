@@ -1,5 +1,5 @@
 {
- "last_ts": 1795312887,
+ "last_ts": 1795316565,
  "posted": [
   {
    "date": "2026-11-22",
@@ -30,6 +30,12 @@
    "ticker": "TSLA",
    "topic": "FSD v15 배포 시작(업데이트)",
    "url": "https://blog.naver.com/yidiar/224486805900"
+  },
+  {
+   "date": "2026-11-22",
+   "ticker": "SPCX",
+   "topic": "스타실드 속도 제한·예산 경고(하임스)",
+   "url": "https://blog.naver.com/yidiar/224486909112"
   }
  ]
 }
