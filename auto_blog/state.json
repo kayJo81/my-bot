@@ -1,5 +1,5 @@
 {
- "last_ts": 1795350079,
+ "last_ts": 1795353738,
  "posted": [
   {
    "date": "2026-11-22",
@@ -36,6 +36,12 @@
    "ticker": "SPCX",
    "topic": "스타실드 속도 제한·예산 경고(하임스)",
    "url": "https://blog.naver.com/yidiar/224486909112"
+  },
+  {
+   "date": "2026-11-22",
+   "ticker": "ANT",
+   "topic": "IPO 뒷이야기(로이터 단독)",
+   "url": "https://blog.naver.com/yidiar/224487494685"
   }
  ]
 }
