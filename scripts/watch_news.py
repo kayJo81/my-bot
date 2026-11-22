@@ -17,7 +17,7 @@ for g, m in W.items():
             if re.match(r"[A-Za-z]", n):
                 alts.append(r"(?<![A-Za-z])" + re.escape(n) + r"(?![A-Za-z])")
             elif re.match(r"[가-힣]", n) and len(n) <= 3:  # 짧은 한글 이름(델·줌·메타)은 다른 단어 속 글자와 구분
-                alts.append(r"(?<![가-힣])" + re.escape(n) + r"(?!리전스|리젠스)")
+                alts.append(r"(?<![가-힣])" + re.escape(n) + r"(?!리전스|리젠스|타항공|타 항공)")
             else:
                 alts.append(re.escape(n))
         pats[tk] = (g, re.compile("|".join(alts)))
