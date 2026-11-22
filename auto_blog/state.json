@@ -1,5 +1,5 @@
 {
- "last_ts": 1795367281,
+ "last_ts": 1795370290,
  "posted": [
   {
    "date": "2026-11-22",
@@ -42,6 +42,12 @@
    "ticker": "ANT",
    "topic": "IPO 뒷이야기(로이터 단독)",
    "url": "https://blog.naver.com/yidiar/224487494685"
+  },
+  {
+   "date": "2026-11-23",
+   "ticker": "OPENAI",
+   "topic": "퍼플렉시티 공동 한도 제안",
+   "url": "https://blog.naver.com/yidiar/224487731804"
   }
  ]
 }
