@@ -1,0 +1,588 @@
+{
+ "date": "2026-11-22",
+ "window": "15:30~21:30 KST",
+ "mail_to": "yidiar80k@gmail.com",
+ "summary": [
+  "한국 정부, 증안펀드 즉시 가동 체계 정비·자사주 매수 한도 3개월 완화·불법 공매도 특별 감시",
+  "중국 3대 거래소, 신용거래 증거금 하한 100% → 80%로 인하(30일 시행)",
+  "중국 상장 나스닥 ETF, 순자산가치 대비 14~15% 프리미엄에 23일 거래 일시 정지",
+  "바레인 \"이란 공격으로 2명 부상\", 사우디 연합은 리야드 방면 후티 무인기 격추",
+  "로이터: 앤트로픽, 스페이스X처럼 은행 측이 불만을 가진 이례적 IPO 절차 진행"
+ ],
+ "checklist": [
+  "23일 코스피·대만 개장, 대만 공매도 금지 첫날 반응",
+  "24일 한국 자사주 매수 한도 완화 시행, 30일 중국 증거금 인하 시행",
+  "23일 HPE·줌, 24일 델·워크데이·HP 실적",
+  "25일 3분기 GDP 2차 추정치·PCE·베이지북",
+  "26일 추수감사절 휴장, 27일 조기 폐장"
+ ],
+ "issues": [
+  {
+   "title": "대만에 이어 한국·중국도 증시 방어에 나섰다",
+   "subtitle": "[신규] 한국 증안펀드 가동 준비 · 자사주 한도 완화 · 중국 신용 증거금 인하",
+   "timeline": [
+    {
+     "t": "18:21",
+     "text": "한국 F4 회의 \"증안펀드 즉시 가동 체계 정비\""
+    },
+    {
+     "t": "18:21",
+     "text": "상장사 1일 자사주 매수 한도 3개월 완화(24일 시행)"
+    },
+    {
+     "t": "18:24",
+     "text": "금감원·거래소, 불법 공매도 3개월 특별 감시"
+    },
+    {
+     "t": "19:38",
+     "text": "중국 3대 거래소, 신용 증거금 하한 100% → 80%"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "한국 증안펀드 약정",
+     "value": "10조 7,600억 원",
+     "note": "투입 규모·시점은 미정",
+     "dir": ""
+    },
+    {
+     "label": "중국 증분 자금",
+     "value": "약 4,000억 위안",
+     "note": "이론상 추산, 30일 시행",
+     "dir": "up"
+    },
+    {
+     "label": "중국 거래소 수수료 감면",
+     "value": "27.58억 위안+",
+     "note": "상하이 13.68억·선전 13.9억",
+     "dir": "up"
+    },
+    {
+     "label": "SK하이닉스 ADR(금)",
+     "value": "−13.11%",
+     "note": "[배경] 미국 정규장 종가",
+     "dir": "down"
+    }
+   ],
+   "cause": [
+    "참석자들은 AI·반도체 불확실성과 미국 금리를 불안 요인으로 꼽음",
+    "한국은 공매도 금지 대신 감시 강화, 대만은 23일부터 평반 이하 공매도 금지 [배경]",
+    "중국 상장 나스닥 ETF는 순자산가치 대비 14~15% 프리미엄으로 23일 오전 거래 정지"
+   ],
+   "chips": [
+    {
+     "name": "SK하이닉스 ADR",
+     "chg": "-13.11%"
+    },
+    {
+     "name": "TSMC",
+     "chg": "-9.36%"
+    },
+    {
+     "name": "마이크론",
+     "chg": "-13.89%"
+    },
+    {
+     "name": "엔비디아",
+     "chg": "-14.01%"
+    }
+   ],
+   "checks": [
+    "23일 코스피·대만 개장 반응",
+    "증안펀드 실제 투입 여부",
+    "중국 증거금 인하가 신용 매수로 이어지는지"
+   ],
+   "source": "한국경제, 뉴시스, 재경일보, SBS, 서울경제, 매일경제신문(중국), 펑파이, 제일재경, 소후"
+  },
+  {
+   "title": "걸프 긴장, 바레인까지 번졌다",
+   "subtitle": "[신규] 바레인 이란 공격 피해 · 리야드 방면 무인기 격추 · 이란 MQ-1 격추 주장",
+   "timeline": [
+    {
+     "t": "17:15",
+     "text": "이란 측 주장 \"호르무즈 동부서 미국 MQ-1 20번째 격추\""
+    },
+    {
+     "t": "18:40",
+     "text": "바레인, 이란 공격으로 사상자 발생 발표"
+    },
+    {
+     "t": "18:45",
+     "text": "사우디 연합 \"리야드 방면 후티 무인기 격추\""
+    },
+    {
+     "t": "20:39",
+     "text": "바레인 \"2명 부상, 민간 산업시설 화재\""
+    }
+   ],
+   "metrics": [
+    {
+     "label": "바레인 부상자",
+     "value": "2명",
+     "note": "파키스탄 국적 1명 위중",
+     "dir": ""
+    },
+    {
+     "label": "규탄 성명",
+     "value": "사우디·UAE·카타르 등",
+     "note": "GCC·요르단 포함",
+     "dir": ""
+    },
+    {
+     "label": "WTI 12월물(금)",
+     "value": "83.98달러",
+     "note": "[배경] +0.93% 정산",
+     "dir": "up"
+    },
+    {
+     "label": "브렌트 1월물(금)",
+     "value": "92.57달러",
+     "note": "[배경] +0.64% 정산",
+     "dir": "up"
+    }
+   ],
+   "cause": [
+    "바레인 외교부 \"혁명수비대가 공격 자인\", 유엔헌장 51조 자위권 유보",
+    "[배경] 토요일 호르무즈 인근 유조선 피격 보고 2건(UKMTO)",
+    "이란 외무차관 \"미국과 협상은 계속 중\""
+   ],
+   "chips": [],
+   "checks": [
+    "월요일 유가와 해상 보험료",
+    "미국 국방부·CENTCOM 반응",
+    "걸프 지역 추가 공격 여부"
+   ],
+   "source": "Gulf News, Dawn, Middle East Monitor, Anadolu, Al Arabiya"
+  }
+ ],
+ "sections": {
+  "megatech": [
+   {
+    "company": "엔비디아",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "로이터: SEC 집행국, 잠재적 회계 문제 조사(11/20), 회사 입장은 아직 없음"
+     },
+     {
+      "label": "배경",
+      "text": "이사회, 국가안보·수출통제 감독위원회 신설, 정식 CEO 물색 중"
+     },
+     {
+      "label": "체크",
+      "text": "월요일 회사 해명이나 추가 보도 여부"
+     }
+    ],
+    "chips": [
+     {
+      "name": "엔비디아",
+      "chg": "-14.01%"
+     }
+    ],
+    "source": "로이터(Investing.com), ABC7"
+   },
+   {
+    "company": "애플 · 알파벳 · 아마존 · MSFT · 메타",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "금요일 AI 매도에 일제히 하락, 메타 −5.93%로 낙폭 최대"
+     },
+     {
+      "label": "의미",
+      "text": "중국 투자자들은 나스닥 ETF를 웃돈 주고 사들이는 중"
+     }
+    ],
+    "chips": [
+     {
+      "name": "애플",
+      "chg": "-1.90%"
+     },
+     {
+      "name": "MSFT",
+      "chg": "-2.77%"
+     },
+     {
+      "name": "아마존",
+      "chg": "-4.10%"
+     },
+     {
+      "name": "메타",
+      "chg": "-5.93%"
+     }
+    ],
+    "source": "소후, 진십데이터"
+   }
+  ],
+  "mobility": [
+   {
+    "company": "테슬라",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "머스크 \"FSD V15, 다음 달 대규모 배포\"(토요일)"
+     },
+     {
+      "label": "배경",
+      "text": "금요일 HSBC 보유 상향·이탈리아 FSD 승인에도 −7.64%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "테슬라",
+      "chg": "-7.64%"
+     }
+    ],
+    "source": "Tesla North"
+   },
+   {
+    "company": "스페이스X",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "반덴버그에서 미 국가정찰국(NRO) 임무 팰컨9 발사 준비 완료"
+     },
+     {
+      "label": "배경",
+      "text": "금요일 공모가 135달러 하회, 440억 달러 GPU 파이낸싱 가격 확정"
+     }
+    ],
+    "chips": [
+     {
+      "name": "스페이스X",
+      "chg": "-7.69%"
+     }
+    ],
+    "source": "시나, FinancialJuice"
+   }
+  ],
+  "ai_software": [
+   {
+    "company": "앤트로픽",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "로이터 단독: 인수단 일부에 은행별 딜팀 4명 제한 요구"
+     },
+     {
+      "label": "사실",
+      "text": "상장 서류는 넷로드쇼로만 공유, 은행원 이름 워터마크·저장 차단"
+     },
+     {
+      "label": "사실",
+      "text": "인수 수수료 약 5.5억 달러(공모액의 약 0.68%), 그린슈 물량엔 수수료 없음"
+     },
+     {
+      "label": "배경",
+      "text": "상장 이틀째 88.91달러, 공모가 83달러 대비 +7.1%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "앤트로픽",
+      "chg": "-8.50%"
+     }
+    ],
+    "source": "로이터(Business Recorder), Global Banking & Finance"
+   }
+  ],
+  "ai_infra": [
+   {
+    "company": "Nscale",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "FT: 영국 네오클라우드 Nscale, 350억 달러 IPO 앞두고 채용 감속·지출 축소"
+     },
+     {
+      "label": "배경",
+      "text": "3분기 순손실 16.9억 달러, 매출 3.075억 달러"
+     },
+     {
+      "label": "의미",
+      "text": "AI 인프라 자금조달 부담이 비상장 네오클라우드로도 번지는 신호"
+     }
+    ],
+    "chips": [
+     {
+      "name": "코어위브",
+      "chg": "-12.02%"
+     },
+     {
+      "name": "네비우스",
+      "chg": "-16.11%"
+     }
+    ],
+    "source": "FT, CNBC"
+   }
+  ],
+  "semis": [
+   {
+    "company": "반도체 전반",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "금요일 반도체지수 −10.73%, 주간 −17.13%"
+     },
+     {
+      "label": "배경",
+      "text": "대만 23일부터 평반 이하 공매도 금지, 국가안정기금 매수 중"
+     },
+     {
+      "label": "사실",
+      "text": "중신증권 \"2027년 AI 산업체인, 상반기 밸류에이션 압박 뒤 회복\" 전망"
+     }
+    ],
+    "chips": [
+     {
+      "name": "TSMC",
+      "chg": "-9.36%"
+     },
+     {
+      "name": "AMD",
+      "chg": "-13.25%"
+     },
+     {
+      "name": "브로드컴",
+      "chg": "-12.19%"
+     },
+     {
+      "name": "샌디스크",
+      "chg": "-16.05%"
+     }
+    ],
+    "source": "Bloomberg, 시나"
+   }
+  ],
+  "others": [
+   {
+    "company": "비트코인",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "토요일 5.53만 달러까지 밀린 뒤 6만 달러 회복, 일요일 6.1만 달러대"
+     },
+     {
+      "label": "배경",
+      "text": "현물 ETF 주간 약 11억 달러 순유출"
+     }
+    ],
+    "chips": [
+     {
+      "name": "스트래티지",
+      "chg": "-9.67%"
+     },
+     {
+      "name": "코인베이스",
+      "chg": "-6.34%"
+     }
+    ],
+    "source": "CoinDesk, 시나"
+   }
+  ]
+ },
+ "empty_notes": {},
+ "greeting": "2026년 11월 22일 일요일 개장 전 섹터별 이슈체크입니다. 미국장이 쉬는 주말이라 한국시간 15:30~21:30 사이 나온 새 소식을 중심으로, 금요일 미국장 흐름을 [배경]으로 함께 정리했어요. 종목 등락률은 금요일 정규장 종가 기준입니다.",
+ "commentary": {
+  "summary": "금요일 미국 반도체 폭락과 지난주 아시아 투매를 지나, 주말 동안 각국이 증시 방어책을 잇달아 내놓았어요. 대만의 공매도 전면 금지에 이어 한국은 증안펀드 가동 준비와 자사주 매수 한도 완화를, 중국은 신용거래 증거금 인하를 발표했습니다. 중동에서는 바레인이 이란 공격으로 피해를 입었다고 밝혀 월요일 유가도 지켜봐야 해요.",
+  "issue1": [
+   "정부는 일요일 긴급 시장상황점검회의를 열고 증권시장안정펀드를 바로 가동할 수 있도록 체계를 정비하기로 했어요. 상장사의 하루 자사주 매수 한도는 3개월 동안 완화되고 24일부터 시행됩니다. 금감원과 거래소는 불법 공매도를 3개월간 집중 감시하기로 했어요. 증안펀드 약정액은 10조 7,600억 원이지만 실제 투입 규모와 시점은 정해지지 않았습니다.",
+   "중국 상하이·선전·베이징 거래소는 신용거래 증거금 비율 하한을 100%에서 80%로 낮추기로 했고, 30일부터 시행합니다. 이론상 약 4,000억 위안의 매수 여력이 생기고, 거래소 수수료도 추가로 깎아 줍니다. 한편 중국 본토에 상장된 나스닥 ETF는 미국 주가 급락에도 매수가 몰려 순자산가치보다 14~15% 비싸게 거래되면서 23일 오전 거래가 일시 정지돼요."
+  ],
+  "issue2": [
+   "바레인 내무부는 이란의 공격으로 2명이 다쳤고 민간 산업시설에 불이 났다고 밝혔어요. 바레인 외교부는 혁명수비대가 공격을 자인했다며 유엔헌장 51조에 따른 자위권을 유보하고 안보리 조치와 배상을 요구했습니다. 사우디·UAE·카타르 등 걸프 국가들이 일제히 규탄했어요.",
+   "같은 날 사우디 연합군은 리야드 방면으로 날아오던 후티 무인기를 격추했고, 이란 측은 호르무즈 해협 동부에서 미국 무인기를 또 떨어뜨렸다고 주장했어요. 토요일 유조선 피격 보고에 이어 걸프 지역 긴장이 넓어지는 모습이라, 월요일 유가와 미국의 대응이 변수입니다. 이란 외무차관은 미국과의 협상이 계속되고 있다고 말했어요."
+  ],
+  "megatech": "엔비디아는 SEC의 회계 조사 보도 이후 주말 동안 회사 입장을 내지 않았어요. 이사회는 국가안보·수출통제 감독위원회를 새로 만들고 정식 CEO를 찾고 있습니다. 흥미롭게도 중국 투자자들은 미국 기술주 급락을 기회로 보고 나스닥 ETF를 웃돈을 주고 사들이고 있어요.",
+  "mobility": "머스크는 토요일 FSD V15를 다음 달 대규모로 배포하겠다고 밝혔어요. 스페이스X는 일요일 반덴버그 기지에서 미 국가정찰국 임무를 위한 팰컨9 발사를 준비했습니다. 두 종목 모두 금요일 지수 급락에 7%대로 밀린 상태예요.",
+  "ai_software": "로이터는 앤트로픽이 스페이스X처럼 은행 측이 불만을 가질 만큼 이례적으로 IPO를 진행했다고 단독 보도했어요. 은행별 딜팀 인원을 4명으로 제한하고, 상장 서류는 저장할 수 없게 워터마크를 넣어 공유했으며, 인수 수수료도 공모액의 0.68% 수준으로 낮았습니다. 앤트로픽 주가는 상장 이틀째 8.5% 내렸지만 여전히 공모가 위에 있어요.",
+  "ai_infra": "FT는 영국 네오클라우드 Nscale이 350억 달러 규모 IPO를 앞두고 채용을 늦추고 지출을 줄이고 있다고 보도했어요. 3분기에만 16.9억 달러의 순손실을 냈던 만큼, 상장 시장의 분위기가 식자 비용부터 관리하는 모습입니다. 금요일 코어위브·네비우스 급락과 함께 AI 인프라 자금조달 부담이 비상장 기업으로도 번지고 있어요.",
+  "semis": "반도체지수는 금요일 10.73% 빠져 한 주에만 17% 넘게 내렸어요. 대만은 23일부터 공매도를 막고 국가안정기금으로 주식을 사고 있습니다. 중신증권은 2027년 AI 산업체인이 연초 밸류에이션 압박을 받은 뒤 연중 회복할 것으로 내다봤어요.",
+  "others": "비트코인은 토요일 5만 5천 달러대까지 밀려 2년 만의 최저를 기록한 뒤 6만 달러를 회복했고, 일요일에는 6만 1천 달러대에서 움직이고 있어요. 다만 현물 ETF에서 한 주 동안 약 11억 달러가 빠져나가 반등의 힘은 아직 약합니다."
+ },
+ "sources": [
+  {
+   "title": "정부, 긴급 시장상황점검회의",
+   "outlet": "한국경제",
+   "url": "https://www.hankyung.com/article/2026112225537"
+  },
+  {
+   "title": "증안펀드 가동 준비·자사주 매수 한도 완화",
+   "outlet": "뉴시스",
+   "url": "https://newsis.com/view/NISX20261122_0003878336"
+  },
+  {
+   "title": "증시안정펀드 10조7600억원",
+   "outlet": "재경일보",
+   "url": "https://news.jkn.co.kr/post/1114550"
+  },
+  {
+   "title": "불법 공매도 특별 감시",
+   "outlet": "아주경제",
+   "url": "https://www.ajunews.com/view/20261122183043351"
+  },
+  {
+   "title": "Korea readies market stabilization fund",
+   "outlet": "SBS",
+   "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008857945"
+  },
+  {
+   "title": "Korea eases buyback limits but leaves short-selling rules",
+   "outlet": "서울경제",
+   "url": "https://en.sedaily.com/market/2026/11/22/korea-eases-buyback-limits-but-leaves-short-selling-rules"
+  },
+  {
+   "title": "三大交易所下调融资保证金比例至80%",
+   "outlet": "매일경제신문(중국)",
+   "url": "https://cd.nbd.com.cn/articles/2026-11-22/4655114.html"
+  },
+  {
+   "title": "融资保证金比例下调",
+   "outlet": "펑파이",
+   "url": "https://www.thepaper.cn/newsDetail_forward_34534889"
+  },
+  {
+   "title": "沪深交易所降费",
+   "outlet": "매일경제신문(중국)",
+   "url": "https://www.nbd.com.cn/articles/2026-11-22/4655116.html"
+  },
+  {
+   "title": "交易所降费让利",
+   "outlet": "제일재경",
+   "url": "https://www.yicai.com/news/103449296.html"
+  },
+  {
+   "title": "纳指ETF溢价停牌",
+   "outlet": "소후",
+   "url": "https://www.sohu.com/a/1104898123_114984"
+  },
+  {
+   "title": "纳指ETF停牌",
+   "outlet": "진십데이터",
+   "url": "https://shishixinwen.news/news/jin10/20261122171510638800"
+  },
+  {
+   "title": "Taiwan bans short sales of stocks in new move to calm markets",
+   "outlet": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-21/taiwan-bans-short-sales-of-stocks-in-new-move-to-calm-markets"
+  },
+  {
+   "title": "Two injured in Iranian attacks on Bahrain",
+   "outlet": "Gulf News",
+   "url": "https://gulfnews.com/world/gulf/bahrain/two-injured-in-iranian-attacks-on-bahrain-pakistani-resident-critical-1.500756908"
+  },
+  {
+   "title": "Pakistani among two injured in Iranian attacks, Bahrain says",
+   "outlet": "Dawn",
+   "url": "https://www.dawn.com/news/2046321/pakistani-among-two-injured-in-iranian-attacks-bahrain-says"
+  },
+  {
+   "title": "Bahrain demands UN action, compensation for Iranian attacks",
+   "outlet": "Middle East Monitor",
+   "url": "https://www.middleeastmonitor.com/20261122-bahrain-demands-un-action-compensation-for-iranian-attacks/"
+  },
+  {
+   "title": "Saudi-led coalition intercepts Houthi drone targeting Riyadh region",
+   "outlet": "Anadolu",
+   "url": "https://aa.com.tr/en/middle-east/saudi-led-coalition-says-it-intercepted-houthi-drone-targeting-riyadh-region/4133472"
+  },
+  {
+   "title": "Saudi-led coalition intercepts Houthi ballistic missile, drones",
+   "outlet": "Al Arabiya",
+   "url": "https://english.alarabiya.net/News/middle-east/2026/11/22/saudiled-coalition-intercepts-houthi-ballistic-missile-three-drones"
+  },
+  {
+   "title": "Two tanker attacks reported near Oman's Khasab",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/21/two-tanker-attacks-reported-near-omans-khasab-ukmto-says.html"
+  },
+  {
+   "title": "NYMEX WTI December futures settle at $83.98",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9862340/NYMEX-WTI-Crude-December-futures-settle-at-8398-a-barrel-up-77-cents-093.aspx?xy=rss"
+  },
+  {
+   "title": "Exclusive: US SEC's Nvidia probe is examining potential accounting issues",
+   "outlet": "로이터(Investing.com)",
+   "url": "https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460"
+  },
+  {
+   "title": "Nvidia forms national security committee",
+   "outlet": "ABC7",
+   "url": "https://abc7ny.com/story/nvidia-forms-national-security-committee-feds-probe-company-center-scandal/20048239/"
+  },
+  {
+   "title": "Tesla FSD V15 December wide release",
+   "outlet": "Tesla North",
+   "url": "https://teslanorth.com/2026/11/21/tesla-fsd-v15-december-wide-release/"
+  },
+  {
+   "title": "SpaceX Falcon 9 NROL-136 launch",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-22/detail-inizrhva8866380.d.html"
+  },
+  {
+   "title": "Apollo, Goldman report pricing of $44B SpaceX GPU financing",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9862056/Apollo--Goldman-Sachs-report-pricing-of-44b-SpaceX-GPU-financing-GS-SPCX.aspx?xy=rss"
+  },
+  {
+   "title": "Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers",
+   "outlet": "로이터(Business Recorder)",
+   "url": "https://www.brecorder.com/news/40450223/like-spacex-anthropic-ran-an-unusual-ipo-process-chafing-some-bankers"
+  },
+  {
+   "title": "Exclusive: Like SpaceX, Anthropic ran unusual IPO process",
+   "outlet": "Global Banking & Finance",
+   "url": "https://globalbankingandfinance.com/exclusive-like-spacex-anthropic-ran-unusual-ipo-process"
+  },
+  {
+   "title": "Anthropic prices initial public offering",
+   "outlet": "앤트로픽",
+   "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+  },
+  {
+   "title": "Nscale slows hiring and curtails spending ahead of planned $35bn IPO",
+   "outlet": "FT",
+   "url": "https://i.buzzing.cc/en/ft/posts/2026/47/en_rss_2026_11_22__98f5aa90-5581-45ed-8e9b-d72217c56df8/"
+  },
+  {
+   "title": "Nscale updates IPO prospectus that shows widening loss",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/12/nscale-updates-ipo-prospectus-that-shows-widening-loss.html"
+  },
+  {
+   "title": "Semiconductor stocks worst two-month slump since 2001",
+   "outlet": "Benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63508639/semiconductor-stocks-worst-two-month-slump-since-2001"
+  },
+  {
+   "title": "中信证券：2027年AI产业链展望",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-22/detail-inizraph1250212.d.html"
+  },
+  {
+   "title": "Bitcoin bounces 9% from two-year low to retake $60,000",
+   "outlet": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open"
+  },
+  {
+   "title": "Week ahead: US GDP, PCE, Dell, HPE",
+   "outlet": "TradingKey",
+   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262316778-week-ahead-us-gdp-pce-dell-hpe-report-anthropic-tradingkey"
+  },
+  {
+   "title": "Earnings calendar week of November 23",
+   "outlet": "StockTitan",
+   "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-23-2026"
+  }
+ ]
+}

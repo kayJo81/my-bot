@@ -1,0 +1,86 @@
+2026년 11월 22일 개장 전 섹터별 이슈체크
+
+2026년 11월 22일 일요일 개장 전 섹터별 이슈체크입니다. 미국장이 쉬는 주말이라 한국시간 15:30~21:30 사이 나온 새 소식을 중심으로, 금요일 미국장 흐름을 [배경]으로 함께 정리했어요. 종목 등락률은 금요일 정규장 종가 기준입니다.
+
+[그림1]
+
+금요일 미국 반도체 폭락과 지난주 아시아 투매를 지나, 주말 동안 각국이 증시 방어책을 잇달아 내놓았어요. 대만의 공매도 전면 금지에 이어 한국은 증안펀드 가동 준비와 자사주 매수 한도 완화를, 중국은 신용거래 증거금 인하를 발표했습니다. 중동에서는 바레인이 이란 공격으로 피해를 입었다고 밝혀 월요일 유가도 지켜봐야 해요.
+
+[그림2]
+
+정부는 일요일 긴급 시장상황점검회의를 열고 증권시장안정펀드를 바로 가동할 수 있도록 체계를 정비하기로 했어요. 상장사의 하루 자사주 매수 한도는 3개월 동안 완화되고 24일부터 시행됩니다. 금감원과 거래소는 불법 공매도를 3개월간 집중 감시하기로 했어요. 증안펀드 약정액은 10조 7,600억 원이지만 실제 투입 규모와 시점은 정해지지 않았습니다.
+
+[그림3]
+
+중국 상하이·선전·베이징 거래소는 신용거래 증거금 비율 하한을 100%에서 80%로 낮추기로 했고, 30일부터 시행합니다. 이론상 약 4,000억 위안의 매수 여력이 생기고, 거래소 수수료도 추가로 깎아 줍니다. 한편 중국 본토에 상장된 나스닥 ETF는 미국 주가 급락에도 매수가 몰려 순자산가치보다 14~15% 비싸게 거래되면서 23일 오전 거래가 일시 정지돼요.
+
+[그림4]
+
+바레인 내무부는 이란의 공격으로 2명이 다쳤고 민간 산업시설에 불이 났다고 밝혔어요. 바레인 외교부는 혁명수비대가 공격을 자인했다며 유엔헌장 51조에 따른 자위권을 유보하고 안보리 조치와 배상을 요구했습니다. 사우디·UAE·카타르 등 걸프 국가들이 일제히 규탄했어요.
+
+[그림5]
+
+같은 날 사우디 연합군은 리야드 방면으로 날아오던 후티 무인기를 격추했고, 이란 측은 호르무즈 해협 동부에서 미국 무인기를 또 떨어뜨렸다고 주장했어요. 토요일 유조선 피격 보고에 이어 걸프 지역 긴장이 넓어지는 모습이라, 월요일 유가와 미국의 대응이 변수입니다. 이란 외무차관은 미국과의 협상이 계속되고 있다고 말했어요.
+
+[그림6]
+
+엔비디아는 SEC의 회계 조사 보도 이후 주말 동안 회사 입장을 내지 않았어요. 이사회는 국가안보·수출통제 감독위원회를 새로 만들고 정식 CEO를 찾고 있습니다. 흥미롭게도 중국 투자자들은 미국 기술주 급락을 기회로 보고 나스닥 ETF를 웃돈을 주고 사들이고 있어요.
+
+[그림7]
+
+머스크는 토요일 FSD V15를 다음 달 대규모로 배포하겠다고 밝혔어요. 스페이스X는 일요일 반덴버그 기지에서 미 국가정찰국 임무를 위한 팰컨9 발사를 준비했습니다. 두 종목 모두 금요일 지수 급락에 7%대로 밀린 상태예요.
+
+[그림8]
+
+로이터는 앤트로픽이 스페이스X처럼 은행 측이 불만을 가질 만큼 이례적으로 IPO를 진행했다고 단독 보도했어요. 은행별 딜팀 인원을 4명으로 제한하고, 상장 서류는 저장할 수 없게 워터마크를 넣어 공유했으며, 인수 수수료도 공모액의 0.68% 수준으로 낮았습니다. 앤트로픽 주가는 상장 이틀째 8.5% 내렸지만 여전히 공모가 위에 있어요.
+
+[그림9]
+
+FT는 영국 네오클라우드 Nscale이 350억 달러 규모 IPO를 앞두고 채용을 늦추고 지출을 줄이고 있다고 보도했어요. 3분기에만 16.9억 달러의 순손실을 냈던 만큼, 상장 시장의 분위기가 식자 비용부터 관리하는 모습입니다. 금요일 코어위브·네비우스 급락과 함께 AI 인프라 자금조달 부담이 비상장 기업으로도 번지고 있어요.
+
+[그림10]
+
+반도체지수는 금요일 10.73% 빠져 한 주에만 17% 넘게 내렸어요. 대만은 23일부터 공매도를 막고 국가안정기금으로 주식을 사고 있습니다. 중신증권은 2027년 AI 산업체인이 연초 밸류에이션 압박을 받은 뒤 연중 회복할 것으로 내다봤어요.
+
+[그림11]
+
+비트코인은 토요일 5만 5천 달러대까지 밀려 2년 만의 최저를 기록한 뒤 6만 달러를 회복했고, 일요일에는 6만 1천 달러대에서 움직이고 있어요. 다만 현물 ETF에서 한 주 동안 약 11억 달러가 빠져나가 반등의 힘은 아직 약합니다.
+
+출처 링크 (2026-11-22 KST)
+· 정부, 긴급 시장상황점검회의 (한국경제): https://www.hankyung.com/article/2026112225537
+· 증안펀드 가동 준비·자사주 매수 한도 완화 (뉴시스): https://newsis.com/view/NISX20261122_0003878336
+· 증시안정펀드 10조7600억원 (재경일보): https://news.jkn.co.kr/post/1114550
+· 불법 공매도 특별 감시 (아주경제): https://www.ajunews.com/view/20261122183043351
+· Korea readies market stabilization fund (SBS): https://news.sbs.co.kr/english/article.do?news_id=N1008857945
+· Korea eases buyback limits but leaves short-selling rules (서울경제): https://en.sedaily.com/market/2026/11/22/korea-eases-buyback-limits-but-leaves-short-selling-rules
+· 三大交易所下调融资保证金比例至80% (매일경제신문(중국)): https://cd.nbd.com.cn/articles/2026-11-22/4655114.html
+· 融资保证金比例下调 (펑파이): https://www.thepaper.cn/newsDetail_forward_34534889
+· 沪深交易所降费 (매일경제신문(중국)): https://www.nbd.com.cn/articles/2026-11-22/4655116.html
+· 交易所降费让利 (제일재경): https://www.yicai.com/news/103449296.html
+· 纳指ETF溢价停牌 (소후): https://www.sohu.com/a/1104898123_114984
+· 纳指ETF停牌 (진십데이터): https://shishixinwen.news/news/jin10/20261122171510638800
+· Taiwan bans short sales of stocks in new move to calm markets (Bloomberg): https://www.bloomberg.com/news/articles/2026-11-21/taiwan-bans-short-sales-of-stocks-in-new-move-to-calm-markets
+· Two injured in Iranian attacks on Bahrain (Gulf News): https://gulfnews.com/world/gulf/bahrain/two-injured-in-iranian-attacks-on-bahrain-pakistani-resident-critical-1.500756908
+· Pakistani among two injured in Iranian attacks, Bahrain says (Dawn): https://www.dawn.com/news/2046321/pakistani-among-two-injured-in-iranian-attacks-bahrain-says
+· Bahrain demands UN action, compensation for Iranian attacks (Middle East Monitor): https://www.middleeastmonitor.com/20261122-bahrain-demands-un-action-compensation-for-iranian-attacks/
+· Saudi-led coalition intercepts Houthi drone targeting Riyadh region (Anadolu): https://aa.com.tr/en/middle-east/saudi-led-coalition-says-it-intercepted-houthi-drone-targeting-riyadh-region/4133472
+· Saudi-led coalition intercepts Houthi ballistic missile, drones (Al Arabiya): https://english.alarabiya.net/News/middle-east/2026/11/22/saudiled-coalition-intercepts-houthi-ballistic-missile-three-drones
+· Two tanker attacks reported near Oman's Khasab (CNBC): https://www.cnbc.com/2026/11/21/two-tanker-attacks-reported-near-omans-khasab-ukmto-says.html
+· NYMEX WTI December futures settle at $83.98 (FinancialJuice): https://www.financialjuice.com/News/9862340/NYMEX-WTI-Crude-December-futures-settle-at-8398-a-barrel-up-77-cents-093.aspx?xy=rss
+· Exclusive: US SEC's Nvidia probe is examining potential accounting issues (로이터(Investing.com)): https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460
+· Nvidia forms national security committee (ABC7): https://abc7ny.com/story/nvidia-forms-national-security-committee-feds-probe-company-center-scandal/20048239/
+· Tesla FSD V15 December wide release (Tesla North): https://teslanorth.com/2026/11/21/tesla-fsd-v15-december-wide-release/
+· SpaceX Falcon 9 NROL-136 launch (시나): https://finance.sina.cn/7x24/2026-11-22/detail-inizrhva8866380.d.html
+· Apollo, Goldman report pricing of $44B SpaceX GPU financing (FinancialJuice): https://www.financialjuice.com/News/9862056/Apollo--Goldman-Sachs-report-pricing-of-44b-SpaceX-GPU-financing-GS-SPCX.aspx?xy=rss
+· Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers (로이터(Business Recorder)): https://www.brecorder.com/news/40450223/like-spacex-anthropic-ran-an-unusual-ipo-process-chafing-some-bankers
+· Exclusive: Like SpaceX, Anthropic ran unusual IPO process (Global Banking & Finance): https://globalbankingandfinance.com/exclusive-like-spacex-anthropic-ran-unusual-ipo-process
+· Anthropic prices initial public offering (앤트로픽): https://www.anthropic.com/news/anthropic-prices-initial-public-offering
+· Nscale slows hiring and curtails spending ahead of planned $35bn IPO (FT): https://i.buzzing.cc/en/ft/posts/2026/47/en_rss_2026_11_22__98f5aa90-5581-45ed-8e9b-d72217c56df8/
+· Nscale updates IPO prospectus that shows widening loss (CNBC): https://www.cnbc.com/2026/11/12/nscale-updates-ipo-prospectus-that-shows-widening-loss.html
+· Semiconductor stocks worst two-month slump since 2001 (Benzinga): https://www.benzinga.com/etfs/sector-etfs/26/11/63508639/semiconductor-stocks-worst-two-month-slump-since-2001
+· 中信证券：2027年AI产业链展望 (시나): https://finance.sina.cn/7x24/2026-11-22/detail-inizraph1250212.d.html
+· Bitcoin bounces 9% from two-year low to retake $60,000 (CoinDesk): https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open
+· Week ahead: US GDP, PCE, Dell, HPE (TradingKey): https://www.tradingkey.com/analysis/stocks/us-stocks/262316778-week-ahead-us-gdp-pce-dell-hpe-report-anthropic-tradingkey
+· Earnings calendar week of November 23 (StockTitan): https://www.stocktitan.net/articles/earnings-calendar-week-of-november-23-2026
+
+그림 대응(PDF 쪽 번호): 그림1=요약, 그림2=이슈1(1/2), 그림3=이슈1(2/2), 그림4=이슈2(1/2), 그림5=이슈2(2/2), 그림6=메가테크, 그림7=모빌리티, 그림8=AI 소프트웨어, 그림9=AI 인프라, 그림10=반도체, 그림11=크립토
