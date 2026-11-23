@@ -1,5 +1,5 @@
 {
- "last_ts": 1795428576,
+ "last_ts": 1795432118,
  "posted": [
   {
    "date": "2026-11-22",
@@ -90,6 +90,12 @@
    "ticker": "TSLA",
    "topic": "(사용자 요청) 벤츠 S클래스 MB.DRIVE ASSIST vs 테슬라 FSD v14 샌프란시스코 영상 비교",
    "url": "https://blog.naver.com/yidiar/224488864267"
+  },
+  {
+   "date": "2026-11-23",
+   "ticker": "CRWD",
+   "topic": "[업데이트] 지스케일러 439억 달러 인수 합의 공식 발표 + 3분기 실적",
+   "url": "https://blog.naver.com/yidiar/224488895941"
   }
  ]
 }
