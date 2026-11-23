@@ -1,5 +1,5 @@
 {
- "last_ts": 1795421344,
+ "last_ts": 1795424949,
  "posted": [
   {
    "date": "2026-11-22",
@@ -78,6 +78,12 @@
    "ticker": "TSLA",
    "topic": "머스크 AI4 원가 2배(메모리), AI5 옵티머스로, AI4.5 램 24GB, 스타링크 내장",
    "url": "https://blog.naver.com/yidiar/224488571105"
+  },
+  {
+   "date": "2026-11-23",
+   "ticker": "CRWD",
+   "topic": "크라우드스트라이크 지스케일러 인수 협상(블룸버그·로이터)",
+   "url": "https://blog.naver.com/yidiar/224488755232"
   }
  ]
 }
