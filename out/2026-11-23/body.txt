@@ -1,0 +1,95 @@
+2026년 11월 23일 개장 전 섹터별 이슈체크
+
+2026년 11월 23일 월요일 개장 전 섹터별 이슈체크입니다. 한국시간 15:30~21:29 사이 나온 소식과 미국 프리마켓 흐름을 정리했어요. 프리마켓 등락률은 금요일 종가 대비, 21:29 무렵 기준입니다.
+
+[그림1]
+
+지난주 7거래일 연속 하락 끝에 미국 지수 선물이 크게 반등하고 있어요. 나스닥 선물은 3.5% 오르고 엔비디아는 7% 넘게 뛰는 중이며, 낙폭이 컸던 네오클라우드와 서버주도 6~8% 오르고 있습니다. 장 시작 전에는 크라우드스트라이크가 지스케일러를 약 439억 달러에 인수한다고 발표해 보안주가 크게 출렁였어요.
+
+[그림2]
+
+금요일 반도체지수가 10% 넘게 빠진 뒤 오후 4시 무렵부터 미국 지수 선물이 동반 상승했어요. 씨티는 엔비디아가 고객 자금 지원을 완전히 끊더라도 글로벌 메모리 수요 감소가 DRAM 12%, NAND 7% 정도에 그칠 것이라고 분석했습니다. 엔비디아는 저녁 6시 무렵 프리마켓에서 8% 가까이 올랐어요.
+
+[그림3]
+
+대만에서는 TSMC 허우융칭 부사장이 AI 추세는 그대로이고 고객 주문 조정도 보지 못했다고 말했어요. 공매도 금지 첫날 대만 가권은 2% 넘게 올랐지만, 코스피는 이틀 연속 매도 사이드카가 걸리며 3% 넘게 빠졌습니다. 금요일 급락의 원인이던 엔비디아 SEC 조사는 아직 해명이 없어, 정규장에서 반등이 유지되는지가 관건이에요.
+
+[그림4]
+
+크라우드스트라이크는 지스케일러 주식 1주당 자사 주식 1.135주를 주는 방식으로 지스케일러를 약 439억 달러에 인수한다고 발표했어요. 함께 낸 3분기 매출은 15.8억 달러로 예상을 넘었고, 4분기 매출 가이던스와 FY27 순신규 ARR 성장 가이던스도 올렸습니다.
+
+[그림5]
+
+그런데 프리마켓에서 지스케일러는 17% 넘게 오른 반면 크라우드스트라이크는 8% 넘게 내리고 있어요. 전액 주식 거래라 주주 희석이 생기고, 두 회사를 합치는 데 시간이 걸린다는 부담이 반영된 것으로 보입니다. 오늘 밤 10시 컨퍼런스콜에서 통합 계획과 반독점 심사 일정이 나올지 지켜봐야 해요.
+
+[그림6]
+
+트럼프 대통령이 트루스소셜에서 엔비디아 이사회에 젠슨황을 CEO로 다시 데려오라고 촉구했어요. 이사회는 앞서 복귀 계획이 없다고 밝혔고, SEC 회계 조사에 대한 회사 입장도 아직 나오지 않았습니다. 다른 빅테크도 프리마켓에서 일제히 오르고 있고, 알파벳이 5% 넘게 반등하고 있어요.
+
+[그림7]
+
+테슬라는 프리마켓에서 4% 넘게 오르고 있고, 우주 관련주도 함께 반등하고 있어요. FSD V15는 지난 주말 AI4 차량을 대상으로 얼리액세스 배포를 시작했고, 유럽 전체 승인 표결은 12월로 예정돼 있습니다.
+
+[그림8]
+
+앤트로픽은 상장 3거래일째인 오늘 프리마켓에서 소폭 오르고 있어요. 캘리포니아 법무장관은 오픈AI의 모델 안전 관리를 다시 비판했습니다. 소프트웨어에서는 오라클이 4% 넘게 반등하고 있지만, 씨티가 인튜이트와 세일즈포스의 목표가를 크게 낮췄다는 보도도 나왔어요. 줌은 오늘 장 마감 후 실적을 발표합니다.
+
+[그림9]
+
+네오클라우드와 서버주가 프리마켓에서 6~8% 반등하고 있어요. DIGITIMES는 델·HPE·레노버·슈퍼마이크로가 메모리 가격 급등 때문에 이미 계약한 AI 서버 가격을 최대 45% 올려 달라고 요구했다고 전했습니다. 내일 델 실적에서 이런 가격 전가가 이익률에 어떻게 반영되는지가 관심이에요.
+
+[그림10]
+
+대만은 공매도 금지 첫날 반등했고, 거래소는 신용 담보유지비율 하한을 120%로 낮춰 강제 매도 압력을 덜어 주기로 했어요. 반면 한국은 코스피가 3% 넘게 빠지며 삼성전자와 SK하이닉스가 몇 달 만의 최저로 밀렸습니다. 미국 프리마켓에서는 Arm이 하스 CEO의 잔류 확인에 8% 넘게 오르는 등 반도체 전반이 반등 중이에요.
+
+[그림11]
+
+비트코인은 주말 저점에서 반등해 6만 1천 달러대로 올라왔어요. 금요일 52주 신저가를 쓴 스트래티지는 프리마켓에서 8% 넘게 오르고 있지만, 보유 비트코인의 평가손은 여전히 약 120억 달러 규모입니다.
+
+출처 링크 (2026-11-23 KST)
+· 美股期货走高 (시나): https://finance.sina.cn/7x24/2026-11-23/detail-iniztfna2248523.d.html
+· Premarket: US futures rally as AI rout pauses (The Globe and Mail(로이터)): https://www.theglobeandmail.com/investing/markets/inside-the-market/market-news/article-premarket-us-futures-rally-as-ai-rout-pauses/
+· 花旗：存储需求 (시나): https://finance.sina.cn/7x24/2026-11-23/detail-iniztfne8272711.d.html
+· 美股科技股盘前集体反弹 (월스트리트견문): https://wallstreetcn.com/livenews/3204101
+· TSMC's Hou: Not seeing order adjustment from clients (FinancialJuice): https://www.financialjuice.com/News/9864092/TSMCs-Hou-Not-seeing-order-adjustment-from-clients.aspx?xy=rss
+· 台積電侯永清：AI趨勢不變 (DIGITIMES): https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=1&Cat=40&id=0000775819_Z167CRPH2NCPKH80G75DK
+· VIX回落至30以下 (시나): https://finance.sina.cn/7x24/2026-11-23/detail-iniztmtw5542504.d.html
+· 台股收盤 (NOWnews): https://www.nownews.com/news/6894765
+· 台積電收盤 (ETtoday): https://finance.ettoday.net/news/3276976
+· NVIDIA-backed AI company Firmus mulls $1.5 billion bond sale (FinancialJuice): https://www.financialjuice.com/News/9864056/NVIDIA-backed-AI-company-Firmus-mulls-15-billion-bond-sale.aspx?xy=rss
+· 코스피 마감 (이코노미블록): https://economybloc.com/news/126407/
+· 韩股收盘 (월스트리트견문): https://wallstreetcn.com/livenews/3203976
+· CrowdStrike to acquire Zscaler (press release) (SEC): https://www.sec.gov/Archives/edgar/data/0001535527/000110465926130785/tm2630454d1_ex99-1.htm
+· CrowdStrike to acquire Zscaler in $43.9 billion deal (IBTimes): https://www.ibtimes.com/crowdstrike-acquire-zscaler-43-9-billion-deal-3810075
+· CrowdStrike Q3 results (시나): https://finance.sina.cn/7x24/2026-11-23/detail-iniztmua8287521.d.html
+· CrowdStrike-Zscaler termination fee (시나): https://finance.sina.cn/7x24/2026-11-23/detail-iniztrzy8182702.d.html
+· Zscaler Q1 results (시나): https://finance.sina.cn/7x24/2026-11-23/detail-iniztmtw5528911.d.html
+· Trump urges Nvidia to rehire former CEO Jensen Huang (Euronews): https://www.euronews.com/2026/11/23/donald-trump-urges-nvidia-to-rehire-former-ceo-jensen-huang
+· Trump urges Nvidia board to bring back Jensen Huang (Forbes): https://www.forbes.com/sites/siladityaray/2026/11/23/trump-urges-nvidia-board-to-bring-back-jensen-huang-amid-new-chinese-spy-agency-revelations/
+· Nvidia's accounting is focus of US SEC investigation (코리아타임스(로이터)): https://www.koreatimes.co.kr/world/20261121/nvidias-accounting-is-focus-of-us-sec-investigation-sources-say
+· 七姐妹盘前集体上涨 (시나): https://finance.sina.cn/7x24/2026-11-23/detail-iniztmtw5437983.d.html
+· 摩根士丹利下调Meta目标价 (시나): https://finance.sina.cn/7x24/2026-11-23/detail-iniztmua8287110.d.html
+· Tesla FSD v15 first wave (Teslant): https://teslant.com/en/changelog/tesla-fsd-v15-hw4-reality-view-first-wave-2026-11
+· 太空概念股盘前上涨 (시나): https://finance.sina.cn/7x24/2026-11-23/detail-iniztmty2214381.d.html
+· Anthropic 盘前上涨 (시나): https://finance.sina.cn/7x24/2026-11-23/detail-iniztmty2215446.d.html
+· 加州总检察长批评OpenAI (월스트리트견문): https://wallstreetcn.com/livenews/3204082
+· California AG lawsuit against OpenAI (캘리포니아 법무부): https://oag.ca.gov/node/632941
+· 甲骨文盘前上涨 (시나): https://finance.sina.cn/7x24/2026-11-23/detail-iniztmty2320292.d.html
+· 花旗下调Intuit目标价 (시나): https://finance.sina.cn/7x24/2026-11-23/detail-iniztmtw5512754.d.html
+· 花旗下调Salesforce目标价 (시나): https://finance.sina.cn/7x24/2026-11-23/detail-iniztrzw2191143.d.html
+· Zoom earnings preview (Earnings Whispers): https://www.earningswhispers.com/stocks/ZM
+· Why are neocloud stocks rallying in premarket (TipRanks): https://www.tipranks.com/news/why-are-neocloud-stocks-coreweave-iren-and-nebius-rallying-in-premarket-today-november-23
+· AI server price hikes: Dell, HPE, Lenovo (DIGITIMES): https://www.digitimes.com/news/a20261123VL206/ai-server-dell-price-hpe-lenovo.html
+· 戴尔盘前上涨 (시나): https://finance.sina.cn/7x24/2026-11-23/detail-iniztsaa0518429.d.html
+· 港股光通信股走强 (월스트리트견문): https://wallstreetcn.com/livenews/3204038
+· Senator Schiff plans 'no AI bailouts' resolution - Semafor (FinancialJuice): https://www.financialjuice.com/News/9864142/Senator-Schiff-plans-no-AI-bailouts-resolution---Semafor.aspx?xy=rss
+· 台灣證交所下調融資維持率 (시나): https://finance.sina.cn/7x24/2026-11-23/detail-iniztfnh0589350.d.html
+· Chip prices to rise through 2027 (DIGITIMES): https://www.digitimes.com/news/a20261123PD231/2027-growth-demand-revenue-chips.html
+· Arm CEO Haas to stay (월스트리트견문): https://wallstreetcn.com/livenews/3204288
+· Strategy faces $12B bitcoin paper loss (The Crypto Times): https://www.cryptotimes.io/2026/11/23/strategy-faces-12b-bitcoin-paper-loss-as-btc-hits-61k-mstr-falls-to-78-saylor-defends-thesis/
+· MSTR stock jumps in premarket as bitcoin reclaims $61K (Stocktwits): https://stocktwits.com/news-articles/markets/equity/mstr-stock-jumps-in-premarket-as-bitcoin-reclaims-61-k-after-brutal-nasdaq-sell-off/cNbYDgjR9SY
+· US S&P Global PMI expected to ease in November (FXStreet): https://www.fxstreet.com/news/us-sp-global-pmi-expected-to-ease-in-november-202611231008
+· Weekly economic outlook Nov 23 (HeyGoTrade): https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-11-23/
+· DIGITIMES 주요 기사 (DIGITIMES): https://www.digitimes.com/
+
+그림 대응(PDF 쪽 번호): 그림1=요약, 그림2=이슈1(1/2), 그림3=이슈1(2/2), 그림4=이슈2(1/2), 그림5=이슈2(2/2), 그림6=메가테크, 그림7=모빌리티, 그림8=AI 소프트웨어, 그림9=AI 인프라, 그림10=반도체, 그림11=크립토

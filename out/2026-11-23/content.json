@@ -1,0 +1,720 @@
+{
+ "date": "2026-11-23",
+ "window": "15:30~21:29 KST",
+ "mail_to": "yidiar80k@gmail.com",
+ "summary": [
+  "7거래일 급락 뒤 기술주 프리마켓 반등: 나스닥 선물 +3.5%, 엔비디아 +7%, 네오클라우드·서버 6~8%",
+  "크라우드스트라이크, 지스케일러 약 439억 달러 전액 주식 인수… 지스케일러 +18%, CRWD −8%",
+  "대만 공매도 금지 첫날 가권 +2.2%, 코스피는 −3.3%로 이틀 연속 사이드카",
+  "TSMC 허우융칭 \"AI 추세 그대로, 고객 주문 조정 없어\"",
+  "트럼프, 엔비디아 이사회에 \"젠슨황 복귀\" 촉구"
+ ],
+ "checklist": [
+  "23:45 미국 S&P 글로벌 PMI 속보치",
+  "22:00 크라우드스트라이크 컨퍼런스콜",
+  "장 마감 후 줌 실적, 24일 06:00 윌리엄스 뉴욕연은 총재 연설",
+  "24일 델·워크데이 실적, 25일 PCE·GDP 2차 추정치",
+  "엔비디아 SEC 회계 조사에 대한 회사 입장"
+ ],
+ "issues": [
+  {
+   "title": "7일 급락 뒤, AI주가 일제히 고개를 들었다",
+   "subtitle": "[신규] 나스닥 선물 +3.5% · 엔비디아 +7% · TSMC \"주문 조정 없어\"",
+   "timeline": [
+    {
+     "t": "16:08",
+     "text": "미 지수 선물 동반 상승, 나스닥 100 +2.8%"
+    },
+    {
+     "t": "16:09",
+     "text": "씨티 \"엔비디아 지원 끊겨도 DRAM −12%·NAND −7%에 그쳐\""
+    },
+    {
+     "t": "18:00",
+     "text": "엔비디아 프리마켓 8% 가까이 상승"
+    },
+    {
+     "t": "18:22",
+     "text": "TSMC 허우융칭 \"AI 추세 그대로, 고객 주문 조정 없어\""
+    }
+   ],
+   "metrics": [
+    {
+     "label": "나스닥 선물",
+     "value": "+3.54%",
+     "note": "18:05 KST, S&P +2.78%",
+     "dir": "up"
+    },
+    {
+     "label": "엔비디아 프리마켓",
+     "value": "+7.36%",
+     "note": "21:29 KST",
+     "dir": "up"
+    },
+    {
+     "label": "VIX",
+     "value": "30 아래",
+     "note": "20:09 KST, 금요일 39.5",
+     "dir": "down"
+    },
+    {
+     "label": "대만 가권",
+     "value": "+2.16%",
+     "note": "[배경] 공매도 금지 첫날 36,811.89",
+     "dir": "up"
+    }
+   ],
+   "cause": [
+    "[배경] 금요일 S&P 500 7거래일 연속 하락·조정 진입 뒤 저가 매수",
+    "엔비디아 투자사 Firmus 15억 달러 채권 검토 등 자금조달 시도는 계속",
+    "코스피는 −3.31%로 이틀 연속 매도 사이드카, 반등은 미국 장전부터"
+   ],
+   "chips": [
+    {
+     "name": "엔비디아",
+     "chg": "+7.36%"
+    },
+    {
+     "name": "TSMC",
+     "chg": "+6.71%"
+    },
+    {
+     "name": "SK하이닉스 ADR",
+     "chg": "+7.37%"
+    },
+    {
+     "name": "네비우스",
+     "chg": "+7.80%"
+    }
+   ],
+   "checks": [
+    "정규장에서 반등 유지 여부",
+    "23:45 PMI와 금리 반응",
+    "엔비디아 SEC 조사 해명 여부"
+   ],
+   "source": "시나, 월스트리트견문, FinancialJuice, The Globe and Mail(로이터), DIGITIMES"
+  },
+  {
+   "title": "크라우드스트라이크, 지스케일러를 통째로 산다",
+   "subtitle": "[신규] 약 439억 달러 전액 주식 · 실적·가이던스 상회 · 인수 측 주가는 하락",
+   "timeline": [
+    {
+     "t": "18:03",
+     "text": "인수 협상 보도, 지스케일러 프리마켓 16% 급등"
+    },
+    {
+     "t": "19:32",
+     "text": "인수 확정: 지스케일러 1주당 크라우드스트라이크 1.135주"
+    },
+    {
+     "t": "19:33",
+     "text": "3분기 매출 15.8억 달러(예상 15.3억)"
+    },
+    {
+     "t": "20:17",
+     "text": "계약 해지 수수료 14억 달러"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "인수 규모",
+     "value": "약 439억 달러",
+     "note": "전액 주식, 결합 ARR 100억 달러 이상",
+     "dir": ""
+    },
+    {
+     "label": "3분기 매출",
+     "value": "15.8억 달러",
+     "note": "예상 15.3억, 조정 EPS 0.34달러(예상 0.31)",
+     "dir": "up"
+    },
+    {
+     "label": "4분기 매출 가이던스",
+     "value": "16.4억 달러",
+     "note": "예상 16.2억",
+     "dir": "up"
+    },
+    {
+     "label": "CRWD 프리마켓",
+     "value": "−8.47%",
+     "note": "21:29 KST",
+     "dir": "down"
+    }
+   ],
+   "cause": [
+    "FY27 순신규 ARR 성장 가이던스 상향, 시너지 1년 내 실현 목표",
+    "지스케일러 1분기 EPS 1.23달러(예상 1.16) 상회, 거래로 가이던스 철회",
+    "주식 교환에 따른 희석과 통합 부담에 인수 측 주가는 약세"
+   ],
+   "chips": [
+    {
+     "name": "지스케일러",
+     "chg": "+17.54%"
+    },
+    {
+     "name": "크라우드스트라이크",
+     "chg": "-8.47%"
+    }
+   ],
+   "checks": [
+    "22:00 컨퍼런스콜의 통합 계획",
+    "반독점 심사 일정",
+    "팔로알토 등 보안주 재편 반응"
+   ],
+   "source": "SEC(크라우드스트라이크 보도자료), 시나, 월스트리트견문, IBTimes"
+  }
+ ],
+ "sections": {
+  "megatech": [
+   {
+    "company": "엔비디아",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "트럼프, 트루스소셜에서 이사회에 \"젠슨황을 CEO로 복귀시키길\" 촉구"
+     },
+     {
+      "label": "사실",
+      "text": "엔비디아 투자사 Firmus, 15억 달러 채권 발행 검토"
+     },
+     {
+      "label": "배경",
+      "text": "SEC 회계 조사 보도(11/20) 이후 회사 입장은 아직 없음"
+     }
+    ],
+    "chips": [
+     {
+      "name": "엔비디아",
+      "chg": "+7.36%"
+     }
+    ],
+    "source": "Euronews, Forbes, FinancialJuice, 로이터"
+   },
+   {
+    "company": "알파벳 · 아마존 · MSFT · 메타 · 애플",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "매그7 프리마켓 일제히 상승, 알파벳 5% 넘게 반등"
+     },
+     {
+      "label": "사실",
+      "text": "모건스탠리, 메타 목표가 820달러 → 720달러(시나)"
+     }
+    ],
+    "chips": [
+     {
+      "name": "알파벳",
+      "chg": "+5.49%"
+     },
+     {
+      "name": "메타",
+      "chg": "+3.47%"
+     },
+     {
+      "name": "MSFT",
+      "chg": "+3.08%"
+     },
+     {
+      "name": "아마존",
+      "chg": "+2.90%"
+     }
+    ],
+    "source": "시나"
+   }
+  ],
+  "mobility": [
+   {
+    "company": "테슬라 · 스페이스X",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "테슬라 프리마켓 4%대 반등, 우주 테마주도 동반 상승"
+     },
+     {
+      "label": "배경",
+      "text": "FSD V15 얼리액세스 배포 시작, AI4 차량만 대상"
+     },
+     {
+      "label": "체크",
+      "text": "EU 차원의 FSD 표결은 12월 예정"
+     }
+    ],
+    "chips": [
+     {
+      "name": "테슬라",
+      "chg": "+4.30%"
+     },
+     {
+      "name": "스페이스X",
+      "chg": "+2.48%"
+     }
+    ],
+    "source": "Teslant, 시나"
+   }
+  ],
+  "ai_software": [
+   {
+    "company": "앤트로픽 · 오픈AI",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "앤트로픽 상장 3거래일째 프리마켓 소폭 상승"
+     },
+     {
+      "label": "사실",
+      "text": "캘리포니아 법무장관, 오픈AI의 모델 안전 소홀 비판"
+     },
+     {
+      "label": "배경",
+      "text": "캘리포니아주는 11/16 오픈AI를 공공방해·불공정경쟁 혐의로 제소"
+     }
+    ],
+    "chips": [
+     {
+      "name": "앤트로픽",
+      "chg": "+1.01%"
+     }
+    ],
+    "source": "시나, 월스트리트견문, 캘리포니아 법무부"
+   },
+   {
+    "company": "오라클 · 인튜이트 · 세일즈포스 · 줌",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "오라클 프리마켓 4%대 반등"
+     },
+     {
+      "label": "사실",
+      "text": "씨티 목표가 하향: 인튜이트 416→343달러, 세일즈포스 263→198달러(시나)"
+     },
+     {
+      "label": "체크",
+      "text": "줌 장 마감 후 실적, 컨센서스 EPS 1.49달러"
+     }
+    ],
+    "chips": [
+     {
+      "name": "오라클",
+      "chg": "+4.07%"
+     }
+    ],
+    "source": "시나, Earnings Whispers"
+   }
+  ],
+  "ai_infra": [
+   {
+    "company": "네오클라우드 · 서버",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "네오클라우드·서버 프리마켓 6~8% 반등"
+     },
+     {
+      "label": "사실",
+      "text": "DIGITIMES: 델·HPE·레노버·SMCI, 메모리 급등에 계약 뒤 AI 서버 가격 최대 45% 인상 요구"
+     },
+     {
+      "label": "체크",
+      "text": "델 24일 실적, 컨센서스 매출 약 492억 달러"
+     }
+    ],
+    "chips": [
+     {
+      "name": "델",
+      "chg": "+8.18%"
+     },
+     {
+      "name": "HPE",
+      "chg": "+7.28%"
+     },
+     {
+      "name": "네비우스",
+      "chg": "+7.80%"
+     },
+     {
+      "name": "코어위브",
+      "chg": "+6.28%"
+     }
+    ],
+    "source": "DIGITIMES, 월스트리트견문, TipRanks"
+   },
+   {
+    "company": "광통신 · 전력 · 정책",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "홍콩·중국 광통신주 강세, 중지쉬촹 5% 가까이 상승"
+     },
+     {
+      "label": "사실",
+      "text": "시프 상원의원, AI 기업 구제금융 반대 결의안 추진(Semafor)"
+     }
+    ],
+    "chips": [
+     {
+      "name": "블룸에너지",
+      "chg": "+5.97%"
+     },
+     {
+      "name": "루멘텀",
+      "chg": "+5.24%"
+     },
+     {
+      "name": "버티브",
+      "chg": "+4.73%"
+     },
+     {
+      "name": "코히런트",
+      "chg": "+4.48%"
+     }
+    ],
+    "source": "월스트리트견문, FinancialJuice"
+   }
+  ],
+  "semis": [
+   {
+    "company": "대만 · 한국",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "대만 공매도 금지 첫날 가권 +2.16%, TSMC +1.5%"
+     },
+     {
+      "label": "사실",
+      "text": "대만증권거래소, 신용 담보유지비율 하한 130% → 120%(24일 시행)"
+     },
+     {
+      "label": "배경",
+      "text": "코스피 −3.31%로 4,708.54, 삼성전자 −3.06%·SK하이닉스 −2.52%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "TSMC",
+      "chg": "+6.71%"
+     },
+     {
+      "name": "SK하이닉스 ADR",
+      "chg": "+7.37%"
+     }
+    ],
+    "source": "NOWnews, ETtoday, 이코노미블록, 시나"
+   },
+   {
+    "company": "메모리 · 칩 설계",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "씨티 \"엔비디아 자금 지원 끊겨도 DRAM 수요 −12%, NAND −7%에 그쳐\""
+     },
+     {
+      "label": "사실",
+      "text": "DIGITIMES: 칩 가격 2027년까지 오를 전망, 파운드리는 인상 확정"
+     },
+     {
+      "label": "사실",
+      "text": "Arm 하스 CEO, 회사에 남겠다고 확인하며 ADR 급등"
+     }
+    ],
+    "chips": [
+     {
+      "name": "ARM",
+      "chg": "+8.61%"
+     },
+     {
+      "name": "브로드컴",
+      "chg": "+5.03%"
+     },
+     {
+      "name": "마이크론",
+      "chg": "+4.79%"
+     },
+     {
+      "name": "AMD",
+      "chg": "+4.27%"
+     }
+    ],
+    "source": "시나, DIGITIMES, 월스트리트견문"
+   }
+  ],
+  "others": [
+   {
+    "company": "비트코인",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "6.1만 달러대로 반등, 24시간 +3% 안팎"
+     },
+     {
+      "label": "사실",
+      "text": "스트래티지 평가손 약 120억 달러, 평균 매입가 7만 5,452달러"
+     }
+    ],
+    "chips": [
+     {
+      "name": "스트래티지",
+      "chg": "+8.55%"
+     },
+     {
+      "name": "코인베이스",
+      "chg": "+4.64%"
+     }
+    ],
+    "source": "The Crypto Times, Stocktwits"
+   }
+  ]
+ },
+ "empty_notes": {},
+ "greeting": "2026년 11월 23일 월요일 개장 전 섹터별 이슈체크입니다. 한국시간 15:30~21:29 사이 나온 소식과 미국 프리마켓 흐름을 정리했어요. 프리마켓 등락률은 금요일 종가 대비, 21:29 무렵 기준입니다.",
+ "commentary": {
+  "summary": "지난주 7거래일 연속 하락 끝에 미국 지수 선물이 크게 반등하고 있어요. 나스닥 선물은 3.5% 오르고 엔비디아는 7% 넘게 뛰는 중이며, 낙폭이 컸던 네오클라우드와 서버주도 6~8% 오르고 있습니다. 장 시작 전에는 크라우드스트라이크가 지스케일러를 약 439억 달러에 인수한다고 발표해 보안주가 크게 출렁였어요.",
+  "issue1": [
+   "금요일 반도체지수가 10% 넘게 빠진 뒤 오후 4시 무렵부터 미국 지수 선물이 동반 상승했어요. 씨티는 엔비디아가 고객 자금 지원을 완전히 끊더라도 글로벌 메모리 수요 감소가 DRAM 12%, NAND 7% 정도에 그칠 것이라고 분석했습니다. 엔비디아는 저녁 6시 무렵 프리마켓에서 8% 가까이 올랐어요.",
+   "대만에서는 TSMC 허우융칭 부사장이 AI 추세는 그대로이고 고객 주문 조정도 보지 못했다고 말했어요. 공매도 금지 첫날 대만 가권은 2% 넘게 올랐지만, 코스피는 이틀 연속 매도 사이드카가 걸리며 3% 넘게 빠졌습니다. 금요일 급락의 원인이던 엔비디아 SEC 조사는 아직 해명이 없어, 정규장에서 반등이 유지되는지가 관건이에요."
+  ],
+  "issue2": [
+   "크라우드스트라이크는 지스케일러 주식 1주당 자사 주식 1.135주를 주는 방식으로 지스케일러를 약 439억 달러에 인수한다고 발표했어요. 함께 낸 3분기 매출은 15.8억 달러로 예상을 넘었고, 4분기 매출 가이던스와 FY27 순신규 ARR 성장 가이던스도 올렸습니다.",
+   "그런데 프리마켓에서 지스케일러는 17% 넘게 오른 반면 크라우드스트라이크는 8% 넘게 내리고 있어요. 전액 주식 거래라 주주 희석이 생기고, 두 회사를 합치는 데 시간이 걸린다는 부담이 반영된 것으로 보입니다. 오늘 밤 10시 컨퍼런스콜에서 통합 계획과 반독점 심사 일정이 나올지 지켜봐야 해요."
+  ],
+  "megatech": "트럼프 대통령이 트루스소셜에서 엔비디아 이사회에 젠슨황을 CEO로 다시 데려오라고 촉구했어요. 이사회는 앞서 복귀 계획이 없다고 밝혔고, SEC 회계 조사에 대한 회사 입장도 아직 나오지 않았습니다. 다른 빅테크도 프리마켓에서 일제히 오르고 있고, 알파벳이 5% 넘게 반등하고 있어요.",
+  "mobility": "테슬라는 프리마켓에서 4% 넘게 오르고 있고, 우주 관련주도 함께 반등하고 있어요. FSD V15는 지난 주말 AI4 차량을 대상으로 얼리액세스 배포를 시작했고, 유럽 전체 승인 표결은 12월로 예정돼 있습니다.",
+  "ai_software": "앤트로픽은 상장 3거래일째인 오늘 프리마켓에서 소폭 오르고 있어요. 캘리포니아 법무장관은 오픈AI의 모델 안전 관리를 다시 비판했습니다. 소프트웨어에서는 오라클이 4% 넘게 반등하고 있지만, 씨티가 인튜이트와 세일즈포스의 목표가를 크게 낮췄다는 보도도 나왔어요. 줌은 오늘 장 마감 후 실적을 발표합니다.",
+  "ai_infra": "네오클라우드와 서버주가 프리마켓에서 6~8% 반등하고 있어요. DIGITIMES는 델·HPE·레노버·슈퍼마이크로가 메모리 가격 급등 때문에 이미 계약한 AI 서버 가격을 최대 45% 올려 달라고 요구했다고 전했습니다. 내일 델 실적에서 이런 가격 전가가 이익률에 어떻게 반영되는지가 관심이에요.",
+  "semis": "대만은 공매도 금지 첫날 반등했고, 거래소는 신용 담보유지비율 하한을 120%로 낮춰 강제 매도 압력을 덜어 주기로 했어요. 반면 한국은 코스피가 3% 넘게 빠지며 삼성전자와 SK하이닉스가 몇 달 만의 최저로 밀렸습니다. 미국 프리마켓에서는 Arm이 하스 CEO의 잔류 확인에 8% 넘게 오르는 등 반도체 전반이 반등 중이에요.",
+  "others": "비트코인은 주말 저점에서 반등해 6만 1천 달러대로 올라왔어요. 금요일 52주 신저가를 쓴 스트래티지는 프리마켓에서 8% 넘게 오르고 있지만, 보유 비트코인의 평가손은 여전히 약 120억 달러 규모입니다."
+ },
+ "sources": [
+  {
+   "title": "美股期货走高",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-23/detail-iniztfna2248523.d.html"
+  },
+  {
+   "title": "Premarket: US futures rally as AI rout pauses",
+   "outlet": "The Globe and Mail(로이터)",
+   "url": "https://www.theglobeandmail.com/investing/markets/inside-the-market/market-news/article-premarket-us-futures-rally-as-ai-rout-pauses/"
+  },
+  {
+   "title": "花旗：存储需求",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-23/detail-iniztfne8272711.d.html"
+  },
+  {
+   "title": "美股科技股盘前集体反弹",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3204101"
+  },
+  {
+   "title": "TSMC's Hou: Not seeing order adjustment from clients",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9864092/TSMCs-Hou-Not-seeing-order-adjustment-from-clients.aspx?xy=rss"
+  },
+  {
+   "title": "台積電侯永清：AI趨勢不變",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=1&Cat=40&id=0000775819_Z167CRPH2NCPKH80G75DK"
+  },
+  {
+   "title": "VIX回落至30以下",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-23/detail-iniztmtw5542504.d.html"
+  },
+  {
+   "title": "台股收盤",
+   "outlet": "NOWnews",
+   "url": "https://www.nownews.com/news/6894765"
+  },
+  {
+   "title": "台積電收盤",
+   "outlet": "ETtoday",
+   "url": "https://finance.ettoday.net/news/3276976"
+  },
+  {
+   "title": "NVIDIA-backed AI company Firmus mulls $1.5 billion bond sale",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9864056/NVIDIA-backed-AI-company-Firmus-mulls-15-billion-bond-sale.aspx?xy=rss"
+  },
+  {
+   "title": "코스피 마감",
+   "outlet": "이코노미블록",
+   "url": "https://economybloc.com/news/126407/"
+  },
+  {
+   "title": "韩股收盘",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3203976"
+  },
+  {
+   "title": "CrowdStrike to acquire Zscaler (press release)",
+   "outlet": "SEC",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000110465926130785/tm2630454d1_ex99-1.htm"
+  },
+  {
+   "title": "CrowdStrike to acquire Zscaler in $43.9 billion deal",
+   "outlet": "IBTimes",
+   "url": "https://www.ibtimes.com/crowdstrike-acquire-zscaler-43-9-billion-deal-3810075"
+  },
+  {
+   "title": "CrowdStrike Q3 results",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-23/detail-iniztmua8287521.d.html"
+  },
+  {
+   "title": "CrowdStrike-Zscaler termination fee",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-23/detail-iniztrzy8182702.d.html"
+  },
+  {
+   "title": "Zscaler Q1 results",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-23/detail-iniztmtw5528911.d.html"
+  },
+  {
+   "title": "Trump urges Nvidia to rehire former CEO Jensen Huang",
+   "outlet": "Euronews",
+   "url": "https://www.euronews.com/2026/11/23/donald-trump-urges-nvidia-to-rehire-former-ceo-jensen-huang"
+  },
+  {
+   "title": "Trump urges Nvidia board to bring back Jensen Huang",
+   "outlet": "Forbes",
+   "url": "https://www.forbes.com/sites/siladityaray/2026/11/23/trump-urges-nvidia-board-to-bring-back-jensen-huang-amid-new-chinese-spy-agency-revelations/"
+  },
+  {
+   "title": "Nvidia's accounting is focus of US SEC investigation",
+   "outlet": "코리아타임스(로이터)",
+   "url": "https://www.koreatimes.co.kr/world/20261121/nvidias-accounting-is-focus-of-us-sec-investigation-sources-say"
+  },
+  {
+   "title": "七姐妹盘前集体上涨",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-23/detail-iniztmtw5437983.d.html"
+  },
+  {
+   "title": "摩根士丹利下调Meta目标价",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-23/detail-iniztmua8287110.d.html"
+  },
+  {
+   "title": "Tesla FSD v15 first wave",
+   "outlet": "Teslant",
+   "url": "https://teslant.com/en/changelog/tesla-fsd-v15-hw4-reality-view-first-wave-2026-11"
+  },
+  {
+   "title": "太空概念股盘前上涨",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-23/detail-iniztmty2214381.d.html"
+  },
+  {
+   "title": "Anthropic 盘前上涨",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-23/detail-iniztmty2215446.d.html"
+  },
+  {
+   "title": "加州总检察长批评OpenAI",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3204082"
+  },
+  {
+   "title": "California AG lawsuit against OpenAI",
+   "outlet": "캘리포니아 법무부",
+   "url": "https://oag.ca.gov/node/632941"
+  },
+  {
+   "title": "甲骨文盘前上涨",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-23/detail-iniztmty2320292.d.html"
+  },
+  {
+   "title": "花旗下调Intuit目标价",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-23/detail-iniztmtw5512754.d.html"
+  },
+  {
+   "title": "花旗下调Salesforce目标价",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-23/detail-iniztrzw2191143.d.html"
+  },
+  {
+   "title": "Zoom earnings preview",
+   "outlet": "Earnings Whispers",
+   "url": "https://www.earningswhispers.com/stocks/ZM"
+  },
+  {
+   "title": "Why are neocloud stocks rallying in premarket",
+   "outlet": "TipRanks",
+   "url": "https://www.tipranks.com/news/why-are-neocloud-stocks-coreweave-iren-and-nebius-rallying-in-premarket-today-november-23"
+  },
+  {
+   "title": "AI server price hikes: Dell, HPE, Lenovo",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261123VL206/ai-server-dell-price-hpe-lenovo.html"
+  },
+  {
+   "title": "戴尔盘前上涨",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-23/detail-iniztsaa0518429.d.html"
+  },
+  {
+   "title": "港股光通信股走强",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3204038"
+  },
+  {
+   "title": "Senator Schiff plans 'no AI bailouts' resolution - Semafor",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9864142/Senator-Schiff-plans-no-AI-bailouts-resolution---Semafor.aspx?xy=rss"
+  },
+  {
+   "title": "台灣證交所下調融資維持率",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-23/detail-iniztfnh0589350.d.html"
+  },
+  {
+   "title": "Chip prices to rise through 2027",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261123PD231/2027-growth-demand-revenue-chips.html"
+  },
+  {
+   "title": "Arm CEO Haas to stay",
+   "outlet": "월스트리트견문",
+   "url": "https://wallstreetcn.com/livenews/3204288"
+  },
+  {
+   "title": "Strategy faces $12B bitcoin paper loss",
+   "outlet": "The Crypto Times",
+   "url": "https://www.cryptotimes.io/2026/11/23/strategy-faces-12b-bitcoin-paper-loss-as-btc-hits-61k-mstr-falls-to-78-saylor-defends-thesis/"
+  },
+  {
+   "title": "MSTR stock jumps in premarket as bitcoin reclaims $61K",
+   "outlet": "Stocktwits",
+   "url": "https://stocktwits.com/news-articles/markets/equity/mstr-stock-jumps-in-premarket-as-bitcoin-reclaims-61-k-after-brutal-nasdaq-sell-off/cNbYDgjR9SY"
+  },
+  {
+   "title": "US S&P Global PMI expected to ease in November",
+   "outlet": "FXStreet",
+   "url": "https://www.fxstreet.com/news/us-sp-global-pmi-expected-to-ease-in-november-202611231008"
+  },
+  {
+   "title": "Weekly economic outlook Nov 23",
+   "outlet": "HeyGoTrade",
+   "url": "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-11-23/"
+  },
+  {
+   "title": "DIGITIMES 주요 기사",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/"
+  }
+ ]
+}
