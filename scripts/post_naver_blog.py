@@ -163,6 +163,42 @@ def select_category(page, fr, want: str) -> bool:
     return False
 
 
+VIS_NAME = {"private": "비공개", "public": "전체공개", "neighbor": "이웃공개", "mutual": "서로이웃공개"}
+_RADIOS_JS = """() => [...document.querySelectorAll('input[type=radio]')].map(i => {
+  const l = (i.id && document.querySelector(`label[for="${i.id}"]`)) || i.closest('label');
+  return {id: i.id, checked: i.checked, label: l ? l.textContent.trim() : ''}; })"""
+
+
+def select_visibility(page, fr, want: str) -> bool:
+    """발행 레이어에서 공개 설정(비공개 등)을 고르고, 실제로 체크됐는지 확인합니다."""
+    name = VIS_NAME.get(want, want)
+    for sel in [f"label:text-is('{name}')", f"label:has-text('{name}')"]:
+        loc = fr.locator(sel)
+        try:
+            cands = [loc.nth(i) for i in range(loc.count())]
+        except Exception:
+            cands = []
+        for c in cands:
+            if c.inner_text().strip() != name and sel.startswith("label:has"):
+                continue
+            try:
+                c.click(timeout=3000)
+            except Exception:
+                continue
+            page.wait_for_timeout(600)
+            radios = [r for r in fr.evaluate(_RADIOS_JS) if "공개" in r["label"]]
+            print("공개 설정:", radios)
+            if any(r["checked"] and r["label"] == name for r in radios):
+                shot(page, "visibility_selected")
+                return True
+    try:
+        print("공개 설정(선택 실패):", [r for r in fr.evaluate(_RADIOS_JS) if "공개" in r["label"]])
+    except Exception:
+        pass
+    shot(page, "visibility_failed")
+    return False
+
+
 ALIGN = os.environ.get("NAVER_ALIGN", "left").strip().lower()
 _ALIGN_JS = """() => { const s = window.getSelection(); if (!s || !s.anchorNode) return '';
   const n = s.anchorNode.nodeType === 1 ? s.anchorNode : s.anchorNode.parentElement;
@@ -370,6 +406,12 @@ def main() -> None:
                 page.wait_for_timeout(3000)
                 shot(page, "saved_no_category")
                 sys.exit(f"'{want}' 카테고리를 찾지 못해 임시저장만 했습니다. 로그의 카테고리 목록과 스크린샷을 확인하세요.")
+            vis = os.environ.get("NAVER_VISIBILITY", "").strip().lower()
+            if vis and not select_visibility(page, fr, vis):
+                # 공개 설정을 확인하지 못하면 발행하지 않습니다(수정 모드면 기존 글은 그대로 남음).
+                page.keyboard.press("Escape")
+                shot(page, "no_visibility")
+                sys.exit(f"공개 설정 '{vis}'을(를) 고르지 못해 발행하지 않았습니다. 스크린샷을 확인하세요.")
             fr.locator("button:has-text('발행')").last.click()
             page.wait_for_timeout(5000)
             shot(page, "published")

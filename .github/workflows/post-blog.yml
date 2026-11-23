@@ -25,6 +25,10 @@ on:
         description: "기존 글을 고칠 때 그 글 번호(비우면 새 글)"
         required: false
         default: ""
+      visibility:
+        description: "공개 설정: private(비공개), public(전체공개), neighbor(이웃공개). 비우면 블로그 기본값"
+        required: false
+        default: ""
 
 jobs:
   post:
@@ -81,6 +85,7 @@ jobs:
           NAVER_PUBLISH: ${{ github.event.inputs.publish || vars.NAVER_PUBLISH || '1' }}
           NAVER_CATEGORY: ${{ github.event.inputs.category || vars.NAVER_CATEGORY }}
           EDIT_LOGNO: ${{ github.event.inputs.edit_logno }}
+          NAVER_VISIBILITY: ${{ github.event.inputs.visibility }}
           NAVER_ALIGN: ${{ vars.NAVER_ALIGN || 'left' }}
           SHOT_DIR: naver_shots
         run: |
