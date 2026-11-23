@@ -1,5 +1,5 @@
 {
- "last_ts": 1795399690,
+ "last_ts": 1795403343,
  "posted": [
   {
    "date": "2026-11-22",
@@ -54,6 +54,12 @@
    "ticker": "OPENAI",
    "topic": "캘리포니아 법무장관 오픈AI 제소(80건 통제 상실, 허깅페이스)",
    "url": "https://blog.naver.com/yidiar/224488045042"
+  },
+  {
+   "date": "2026-11-23",
+   "ticker": "NVDA",
+   "topic": "트럼프 젠슨 황 재채용 촉구, 이사회 거절, 베선트 톤 변화",
+   "url": "https://blog.naver.com/yidiar/224488219467"
   }
  ]
 }
