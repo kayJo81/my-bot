@@ -19,7 +19,7 @@ for g, m in W.items():
             elif re.match(r"[가-힣]", n) and len(n) <= 3:  # 짧은 한글 이름(델·줌·메타)은 다른 단어 속 글자와 구분
                 alts.append(r"(?<![가-힣])" + re.escape(n) + r"(?!리전스|리젠스|타항공|타 항공)")
             elif n == "苹果":  # 사과 선물(苹果主力合约 등)과 구분
-                alts.append(r"苹果(?!主力|期货|合约|价格|产区|种植)")
+                alts.append(r"苹果(?!连续|主力|期货|合约|价格|产区|种植|期权)")
             else:
                 alts.append(re.escape(n))
         pats[tk] = (g, re.compile("|".join(alts)))
