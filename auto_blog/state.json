@@ -1,5 +1,5 @@
 {
- "last_ts": 1795392436,
+ "last_ts": 1795396129,
  "posted": [
   {
    "date": "2026-11-22",
@@ -48,6 +48,12 @@
    "ticker": "OPENAI",
    "topic": "퍼플렉시티 공동 한도 제안",
    "url": "https://blog.naver.com/yidiar/224487731804"
+  },
+  {
+   "date": "2026-11-23",
+   "ticker": "OPENAI",
+   "topic": "캘리포니아 법무장관 오픈AI 제소(80건 통제 상실, 허깅페이스)",
+   "url": "https://blog.naver.com/yidiar/224488045042"
   }
  ]
 }
