@@ -1,5 +1,5 @@
 {
- "last_ts": 1795403343,
+ "last_ts": 1795406835,
  "posted": [
   {
    "date": "2026-11-22",
@@ -60,6 +60,12 @@
    "ticker": "NVDA",
    "topic": "트럼프 젠슨 황 재채용 촉구, 이사회 거절, 베선트 톤 변화",
    "url": "https://blog.naver.com/yidiar/224488219467"
+  },
+  {
+   "date": "2026-11-23",
+   "ticker": "ANT",
+   "topic": "앤트로픽 9009억 달러 약정, 블랙스톤 BB급(투기등급) 전망",
+   "url": "https://blog.naver.com/yidiar/224488297376"
   }
  ]
 }
