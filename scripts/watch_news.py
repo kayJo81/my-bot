@@ -29,7 +29,7 @@ for x in sorted(items, key=lambda x: x["ts"]):
     if ts <= since: continue
     maxts = max(maxts, ts)
     text = (x.get("h") or "") + " | " + (x.get("ko") or "")
-    if re.search(r"苹果(连续|主力|期货|合约)", x.get("h") or ""):  # 사과 선물: 번역문의 'Apple'도 무시
+    if re.search(r"苹果(连续|主力|期货|合约)|期货.*苹果|苹果.*期货", x.get("h") or ""):  # 사과 선물: 번역문의 'Apple'도 무시
         text = re.sub(r"(?i)apple|애플|苹果", "", text)
     for tk, (g, p) in pats.items():
         if p.search(text):
