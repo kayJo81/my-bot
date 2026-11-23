@@ -1,5 +1,5 @@
 {
- "last_ts": 1795414072,
+ "last_ts": 1795417713,
  "posted": [
   {
    "date": "2026-11-22",
@@ -72,6 +72,12 @@
    "ticker": "SPCX",
    "topic": "제프리스 매수 신규 커버 목표가 210달러, 월가 목표가 정리",
    "url": "https://blog.naver.com/yidiar/224488381188"
+  },
+  {
+   "date": "2026-11-23",
+   "ticker": "TSLA",
+   "topic": "머스크 AI4 원가 2배(메모리), AI5 옵티머스로, AI4.5 램 24GB, 스타링크 내장",
+   "url": "https://blog.naver.com/yidiar/224488571105"
   }
  ]
 }
