@@ -1,5 +1,5 @@
 {
- "last_ts": 1795439301,
+ "last_ts": 1795442961,
  "posted": [
   {
    "date": "2026-11-22",
@@ -102,6 +102,12 @@
    "ticker": "ARM",
    "topic": "르네 하스 2033년까지 연임·소프트뱅크 부회장, 엔비디아 CEO 후보설",
    "url": "https://blog.naver.com/yidiar/224488958725"
+  },
+  {
+   "date": "2026-11-23",
+   "ticker": "NVDA",
+   "topic": "[속보] 젠슨 황 CEO 복귀(이사회 만장일치, 정부 의견), CCO 신설",
+   "url": "https://blog.naver.com/yidiar/224489095951"
   }
  ]
 }
