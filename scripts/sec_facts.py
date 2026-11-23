@@ -35,6 +35,8 @@ def main():
     print("회사:", d.get("entityName"))
     facts = {**d["facts"].get("us-gaap", {}), **{"dei:" + k: v for k, v in d["facts"].get("dei", {}).items()}}
     for t in tags:
+        raw = t.endswith("*")  # 태그 끝에 *를 붙이면 누적(반기·연간 등) 기간도 모두 출력
+        t = t.rstrip("*")
         f = facts.get(t)
         if not f:
             print(f"\n## {t}: 없음")
@@ -46,16 +48,17 @@ def main():
                 continue
             if "start" in v:
                 n = days(v["start"], v["end"])
-                if not 80 <= n <= 100:
+                if not raw and not 80 <= n <= 100:
                     continue
-            key = v["end"]
+            key = (v.get("start", ""), v["end"]) if raw else v["end"]
             # 같은 기간이면 가장 늦게 제출된 값(수정 반영)
             if key not in rows or v["filed"] > rows[key]["filed"]:
                 rows[key] = v
         print(f"\n## {t} ({unit}) — {f.get('label','')}")
-        for k in sorted(rows)[-14:]:
+        for k in sorted(rows, key=lambda x: x if isinstance(x, str) else x[1] + x[0])[-14:]:
             v = rows[k]
-            print(f"{k} | {v['val']:>18,} | {v['form']} {v.get('fy')}{v.get('fp')} | 제출 {v['filed']}")
+            per = f"{v.get('start', '')}~{v['end']}" if raw else v["end"]
+            print(f"{per} | {v['val']:>18,} | {v['form']} {v.get('fy')}{v.get('fp')} | 제출 {v['filed']}")
 
 
 if __name__ == "__main__":
