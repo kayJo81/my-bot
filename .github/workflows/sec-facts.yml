@@ -1,0 +1,23 @@
+name: SEC XBRL facts
+
+on:
+  workflow_dispatch:
+    inputs:
+      cik:
+        description: "회사 CIK (예: 엔비디아 1045810)"
+        required: true
+      tags:
+        description: "us-gaap 태그(쉼표 구분). 비우면 기본 목록"
+        required: false
+        default: ""
+
+jobs:
+  facts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - env:
+          CIK: ${{ github.event.inputs.cik }}
+          TAGS: ${{ github.event.inputs.tags }}
+        run: python3 -u scripts/sec_facts.py "$CIK" "$TAGS"
