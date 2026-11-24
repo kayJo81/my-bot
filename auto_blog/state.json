@@ -1,5 +1,5 @@
 {
- "last_ts": 1795522229,
+ "last_ts": 1795525776,
  "posted": [
   {
    "date": "2026-11-22",
@@ -156,6 +156,12 @@
    "ticker": "ANT",
    "topic": "앤트로픽·오픈AI 직원들 미공개 모델 안전성 우려(Axios 단독), ANT 공모가 하회",
    "url": "https://blog.naver.com/yidiar/224490407928"
+  },
+  {
+   "date": "2026-11-24",
+   "ticker": "ADI",
+   "topic": "ADI 4분기 매출 +42%·EPS 4.06 상회, 1분기 EPS 가이던스 3.82 하회, 개장 전 급락",
+   "url": "https://blog.naver.com/yidiar/224490537697"
   }
  ]
 }
