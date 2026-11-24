@@ -1,0 +1,93 @@
+2026년 11월 24일 개장 전 섹터별 이슈체크
+
+2026년 11월 24일 화요일 개장 전 섹터별 이슈체크입니다. 한국시간 15:30~21:29 사이 나온 소식과 미국 프리마켓 흐름을 정리했어요. 프리마켓 등락률은 월요일 종가 대비, 21:29 무렵 기준입니다.
+
+[그림1]
+
+전날 젠슨황 복귀로 미국 증시가 폭등한 뒤, 오늘 아시아 증시가 뒤늦게 이를 반영해 대만은 9%, 코스피는 6% 넘게 올랐어요. 반면 미국 프리마켓에서는 차익실현이 나오며 엔비디아와 메모리주가 5~7% 밀리고 있습니다. HPE가 AI 서버 마진 하락을 경고하면서, 오늘 장 마감 후 나오는 델 실적이 하드웨어 랠리의 다음 시험대가 됐어요.
+
+[그림2]
+
+엔비디아는 전날 31% 넘게 오르며 하루 기준 2003년 이후 가장 큰 폭으로 올랐어요. 아시아는 오늘에서야 이를 반영해 대만 가권이 사상 최대 포인트 상승을 기록했고, TSMC는 상한가까지 올랐습니다. 코스피도 외국인이 7거래일 만에 순매수로 돌아서며 사흘 만에 5,000을 되찾았어요.
+
+[그림3]
+
+하지만 미국 지수 선물은 저녁 무렵 하락으로 돌아서 나스닥 100이 2% 넘게 밀리고 있어요. 하루 만에 너무 많이 오른 데 따른 차익실현에, HPE의 마진 경고와 의회의 황 복귀 비판이 겹쳤습니다. 12월 3일 상원 청문회와 SEC 조사가 남아 있어 반등이 이어지려면 추가 확인이 필요해 보여요.
+
+[그림4]
+
+HPE는 4분기 매출이 50% 늘어난 145억 달러였고, 조정 EPS도 회사 전망 상단을 넘었어요. 내년 매출 가이던스도 27~35% 성장으로 올렸고 자사주 매입을 50억 달러 늘리겠다고 했습니다.
+
+[그림5]
+
+그런데 실적 발표 콜에서 CFO가 클라우드·AI 부문 영업이익률이 4분기 18.4%에서 내년 약 14%로 낮아질 것이라고 밝히면서 주가가 12% 가까이 밀리고 있어요. 저마진 AI 시스템 비중이 커지고 부품 원가가 오르기 때문인데, 오늘 밤 델 실적에서도 같은 경고가 나올지가 관건입니다.
+
+[그림6]
+
+엔비디아는 씨티와 요크빌이 목표가를 올렸지만 프리마켓에서 5% 넘게 밀리고 있어요. 워런 의원 등 의회의 비판이 이어지고 있고, 상무부는 엔비디아 칩 밀수 조사와 관련해 싱가포르 Megaspeed와 계열사를 블랙리스트에 올렸습니다. JP모건은 메타의 2027년 비용 추정을 높이며 목표가를 낮췄어요.
+
+[그림7]
+
+FT는 테슬라와 스페이스X가 각각 이사들로 특별위원회를 꾸려 합병을 협상하고 있으며, 연내 마무리를 목표로 한다고 보도했어요. 두 회사 합산 가치는 약 3.5조 달러지만 아직 정해진 조건은 없습니다. 미 국방부는 GM·포드와 드론 생산을 협의하고 있다는 소식도 나왔어요.
+
+[그림8]
+
+앤트로픽은 프리마켓에서 한때 공모가 83달러 아래로 내려갔어요. 블룸버그는 내부자 보유 물량이 바로 매도 가능한 상태라는 점을 부담으로 꼽았습니다. Axios는 앤트로픽과 오픈AI 직원들이 아직 공개하지 않은 모델의 안전성을 우려하고 있다고 보도했어요. 오늘 장 마감 후에는 워크데이와 오토데스크가 실적을 냅니다.
+
+[그림9]
+
+HPE의 마진 경고에 델·슈퍼마이크로 등 서버주와 네오클라우드가 프리마켓에서 5~6% 내리고 있어요. 델은 오늘 장 마감 후 실적을 내는데, 950억 달러에 이르는 AI 서버 수주잔고보다 메모리 원가 상승을 얼마나 가격에 옮겼는지가 더 중요해졌습니다. 폭스콘은 12억 달러 규모 전환사채를 발행하기로 했어요.
+
+[그림10]
+
+한국은 오늘부터 상장사의 하루 자사주 매수 한도 완화가 시행됐고, 삼성전자와 SK하이닉스가 6% 넘게 올랐어요. 다만 미국 프리마켓에서는 메모리·장비주가 4~7% 되밀리고 있고, 아날로그디바이스는 다음 분기 이익 전망이 예상에 못 미치며 9% 가까이 빠지고 있습니다. DIGITIMES는 삼성전자가 2029년까지 메모리 생산능력 대부분을 이미 계약했다는 한국 보도를 전했어요.
+
+[그림11]
+
+비트코인은 엔비디아발 반등이 식으면서 6만 달러 안팎으로 다시 약해졌어요. 현물 ETF에서는 전날에도 5억 7천만 달러가 빠져나가 3주 연속 주간 10억 달러 넘는 유출이 이어지고 있습니다.
+
+출처 링크 (2026-11-24 KST)
+· Seoul shares rebound over 6% on Huang's return (코리아타임스): https://www.koreatimes.co.kr/economy/others/20261124/seoul-shares-rebound-over-6-on-huangs-return
+· KOSPI rises as Huang returns (중앙일보): https://www.koreajoongangdaily.com/business/kospi-rises-as-huang-returnsnbspnbsp/12989034
+· Taiex closes up 9% (Focus Taiwan): https://focustaiwan.tw/business/202611240019
+· Japan's Nikkei 225 surges 3.9% (GuruFocus): https://www.gurufocus.com/news/9216549/japans-nikkei-225-index-surges-39-amid-ai-and-chip-sector-boost
+· 纳指期货转跌 (시나): https://finance.sina.cn/7x24/2026-11-24/detail-inizvqte0042340.d.html
+· 英伟达盘前下跌 (시나): https://finance.sina.cn/7x24/2026-11-24/detail-inizvqtm4844072.d.html
+· 美股期货跌幅扩大 (시나): https://finance.sina.cn/7x24/2026-11-24/detail-inizvuze8972979.d.html
+· 芯片股盘前下跌 (시나): https://finance.sina.cn/7x24/2026-11-24/detail-inizvqtf2232712.d.html
+· Congress criticism of Jensen Huang's reinstatement (NBC News): https://www.nbcnews.com/politics/congress/congress-criticism-jensen-huang-nvidia-reinstated-ceo-trump-rcna610926
+· Huang's reinstatement sparks fury in Congress (PBS): https://www.pbs.org/newshour/politics/huangs-reinstatement-at-nvidia-sparks-fury-in-congress-as-lawmakers-move-forward-with-hearings
+· HPE reports fiscal 2026 fourth quarter results (BusinessWire): https://www.businesswire.com/news/home/20261123129850/en/HPE-reports-fiscal-2026-fourth-quarter-results
+· HPE shares slump on warning of margin pressure from AI servers (Seeking Alpha): https://seekingalpha.com/news/4676038-hpe-shares-slump-on-warning-of-margin-pressure-from-ai-servers
+· HPE drops pre-market as Wells Fargo cuts target to $50 (FourWeekMBA): https://fourweekmba.com/ai-hpe-drops-11-6-pre-market-as-wells-fargo-cuts-target-to-50/
+· HPE premarket (시나): https://finance.sina.cn/7x24/2026-11-24/detail-inizvqth9034957.d.html
+· Nvidia: Citigroup raises target price to $240 (FinancialJuice): https://www.financialjuice.com/News/9865910/Nvidia-Citigroup-raises-target-price-to-240-from-225-NVDA.aspx?xy=rss
+· Yorkville raises Nvidia target (시나): https://finance.sina.cn/7x24/2026-11-24/detail-inizvuzi4800822.d.html
+· Nvidia, Alibaba probe, entity list blacklist (DIGITIMES): https://www.digitimes.com/news/a20261124VL222/nvidia-alibaba-probe-entity-list-blacklist.html
+· JP Morgan cuts target price of Meta to $775 (FinancialJuice): https://www.financialjuice.com/News/9865793/JP-Morgan-cuts-target-price-of-Meta-to-775-from-940.aspx?xy=rss
+· Sainsbury's adopts Meta Muse (시나): https://finance.sina.cn/7x24/2026-11-24/detail-inizvkmk9017515.d.html
+· SpaceX, Tesla directors negotiate potential $3.5 trillion merger - FT (Investing.com): https://www.investing.com/news/stock-market-news/spacex-tesla-directors-negotiate-potential-35-trillion-merger-ft-reports-5047091
+· SpaceX, Tesla push for year-end merger (Invezz): https://invezz.com/news/2026/11/24/spacex-tesla-push-for-year-end-merger-as-five-directors-take-charge-of-talks-musk/
+· Tesla FSD v15 rolls out (Not a Tesla App): https://www.notateslaapp.com/news/5065/tesla-fsd-v15-rolls-out-with-incredible-new-reality-view-and-25x-better-safety-video
+· Pentagon talks with GM, Ford on drone production (시나): https://finance.sina.cn/7x24/2026-11-24/detail-inizvuze8945136.d.html
+· Waymo robotaxis banned from California freeways (NBC News): https://www.nbcnews.com/news/us-news/waymo-robotaxis-banned-california-freeways-rcna609917
+· Anthropic breaks below $83 IPO price in premarket trading (Bloomberg): https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading
+· Anthropic, OpenAI staff fear unreleased models unsafe (Axios): https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks
+· BTIG cuts CrowdStrike price target (Investing.com): https://www.investing.com/news/analyst-ratings/btig-cuts-crowdstrike-stock-price-target-on-zscaler-acquisition-93CH-5047617
+· Zoom Q3 FY2027 results (GlobeNewswire): https://www.globenewswire.com/news-release/2026/11/23/3408888/0/en/zoom-communications-reports-financial-results-for-the-third-quarter-of-fiscal-year-2027.html
+· Neocloud stocks premarket (시나): https://finance.sina.cn/7x24/2026-11-24/detail-inizvqth9049296.d.html
+· Dell earnings preview: AI server memory costs (EBC): https://www.ebc.com/forex/dell-earnings-preview-ai-server-memory-costs
+· HPE expects thinner AI margins: is Dell next? (Trefis): https://www.trefis.com/stock/hpe/articles/628212/hpe-expects-thinner-ai-margins-is-dell-next/2026-11-24
+· US pre-market: optical stocks (TradingKey): https://www.tradingkey.com/analysis/stocks/us-stocks/262319957-us-pre-market-trump-jensen-huang-nvidia-ai-chips-xau-wti-oil-gold-ant-tradingkey
+· Foxconn convertible bonds (시나): https://finance.sina.cn/7x24/2026-11-24/detail-inizvqtm4868555.d.html
+· Buyback order limit eased (아시아경제): https://view.asiae.co.kr/article/2026112315463421466
+· Samsung memory capacity contracted through 2029 (DIGITIMES): https://www.digitimes.com/news/a20261124VL220/samsung-capacity-demand-data-center-2027.html
+· Analog Devices reports record fourth quarter (StockTitan): https://www.stocktitan.net/news/ADI/analog-devices-reports-record-fourth-quarter-and-fiscal-2026-0fqs6bjakxwf.html
+· UBS downgrades Aixtron to sell (시나): https://finance.sina.cn/7x24/2026-11-24/detail-inizvkme7757617.d.html
+· Crypto today: bitcoin and ethereum edge lower (FXStreet): https://fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-and-ethereum-edge-lower-xrp-stabilizes-as-etf-redemptions-continue-202611241045
+· Spot ETF outflows exceed $1.2bn for third week (InvestorIdeas): https://www.investorideas.com/news/2026/cryptocurrency/11231-bitcoins-oversold-rebound-faces-test-as-spot-etf-outflows-exceed-1-2bn-for-third-consecutive-week.asp
+· Economic calendar: US consumer confidence (XTB): https://xtb.com/int/market-analysis/news-and-research/economic-calendar-after-wall-street-s-rally-markets-turn-their-attention-to-ifo-and-us-consumer-confidence
+· Daily US earnings estimates 24 Nov (Newsquawk): https://www.newsquawk.com/headlines/newsquawk-daily-us-earnings-estimates---24th-november-2026-mdt-adi-dell
+· DIGITIMES 주요 기사 (DIGITIMES): https://www.digitimes.com/
+
+그림 대응(PDF 쪽 번호): 그림1=요약, 그림2=이슈1(1/2), 그림3=이슈1(2/2), 그림4=이슈2(1/2), 그림5=이슈2(2/2), 그림6=메가테크, 그림7=모빌리티, 그림8=AI 소프트웨어, 그림9=AI 인프라, 그림10=반도체, 그림11=크립토

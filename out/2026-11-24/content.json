@@ -1,0 +1,738 @@
+{
+ "date": "2026-11-24",
+ "window": "15:30~21:29 KST",
+ "mail_to": "yidiar80k@gmail.com",
+ "summary": [
+  "황 복귀 랠리 하루 만에 숨 고르기: 나스닥 선물 −2%, 엔비디아 프리마켓 −5.7%, 메모리 −5~7%",
+  "HPE, 실적·가이던스 상회에도 AI 서버 마진 하락 경고에 −12%… 오늘 밤 델 실적",
+  "아시아는 황 복귀 반영: 대만 +9.0% 사상 최대 포인트 상승, 코스피 +6.3%로 5,000 회복",
+  "앤트로픽 프리마켓 한때 공모가 83달러 밑으로, 내부자 물량 부담",
+  "FT: 테슬라·스페이스X 이사회, 합산 약 3.5조 달러 합병 협상 연내 마무리 목표"
+ ],
+ "checklist": [
+  "25일 00:00 컨퍼런스보드 소비자신뢰지수(예상 92 안팎)",
+  "장 마감 후 델·워크데이·오토데스크 실적(델 회사 가이던스 EPS 6.50달러)",
+  "25일 22:30 10월 PCE·3분기 GDP 2차 추정치",
+  "12월 1~3일 황 의회 면담·상원 은행위 청문회",
+  "26일 추수감사절 휴장, 27일 조기 폐장"
+ ],
+ "issues": [
+  {
+   "title": "황 복귀 랠리, 하루 만에 숨을 고른다",
+   "subtitle": "[신규] 나스닥 선물 −2% · 엔비디아 −5.7% · 아시아는 뒤늦게 급등",
+   "timeline": [
+    {
+     "t": "15:30",
+     "text": "코스피 +6.32% 5,006 마감, 3거래일 만에 5,000 회복"
+    },
+    {
+     "t": "17:31",
+     "text": "나스닥 100 선물, +0.8%에서 하락 전환"
+    },
+    {
+     "t": "18:03",
+     "text": "엔비디아 프리마켓 −4%, 반도체 동반 약세"
+    },
+    {
+     "t": "20:16",
+     "text": "나스닥 100 선물 −2% 넘게, S&P −1.02%"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "엔비디아 프리마켓",
+     "value": "−5.74%",
+     "note": "21:29 KST, 전날 +31.48%",
+     "dir": "down"
+    },
+    {
+     "label": "마이크론 프리마켓",
+     "value": "−6.76%",
+     "note": "21:29 KST, 전날 +19.04%",
+     "dir": "down"
+    },
+    {
+     "label": "대만 가권",
+     "value": "+8.99%",
+     "note": "[배경] 40,122.35, 사상 최대 포인트 상승",
+     "dir": "up"
+    },
+    {
+     "label": "코스피",
+     "value": "+6.32%",
+     "note": "외국인 7,256억 원 순매수",
+     "dir": "up"
+    }
+   ],
+   "cause": [
+    "전날 엔비디아 31%·반도체지수 14% 급등 뒤 차익실현",
+    "HPE의 AI 서버 마진 하락 경고가 하드웨어 전반에 부담",
+    "워런 의원 등 의회 비판 이어지고 12월 3일 상원 청문회 예정"
+   ],
+   "chips": [
+    {
+     "name": "엔비디아",
+     "chg": "-5.74%"
+    },
+    {
+     "name": "마이크론",
+     "chg": "-6.76%"
+    },
+    {
+     "name": "인텔",
+     "chg": "-6.22%"
+    },
+    {
+     "name": "SK하이닉스 ADR",
+     "chg": "-5.62%"
+    }
+   ],
+   "checks": [
+    "정규장 차익실현 폭",
+    "델 실적에서 마진 경고 반복 여부",
+    "SEC 조사·10-Q 관련 추가 소식"
+   ],
+   "source": "코리아타임스, 중앙일보, Focus Taiwan, 시나, CNBC"
+  },
+  {
+   "title": "HPE, 실적은 넘었는데 마진이 걸렸다",
+   "subtitle": "[신규] 매출 +50% · FY27 가이던스 상향 · AI 서버 이익률 하락 경고에 −12%",
+   "timeline": [
+    {
+     "t": "06:05",
+     "text": "[배경] 4분기 매출 145억 달러(+50%), 조정 EPS 1.43달러"
+    },
+    {
+     "t": "07:00",
+     "text": "[배경] CFO \"클라우드·AI 영업이익률 18.4% → FY27 약 14%\""
+    },
+    {
+     "t": "18:02",
+     "text": "HPE 프리마켓 −6.9%"
+    },
+    {
+     "t": "18:39",
+     "text": "낙폭 −10% 넘게 확대"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "4분기 매출",
+     "value": "145억 달러",
+     "note": "+50%, 클라우드·AI 113억 달러(+68.6%)",
+     "dir": "up"
+    },
+    {
+     "label": "조정 EPS",
+     "value": "1.43달러",
+     "note": "회사 가이던스 1.20~1.30달러",
+     "dir": "up"
+    },
+    {
+     "label": "FY27 매출 가이던스",
+     "value": "594억~631억 달러",
+     "note": "+27~35%, EPS 5.05~5.35달러",
+     "dir": "up"
+    },
+    {
+     "label": "HPE 프리마켓",
+     "value": "−11.91%",
+     "note": "21:29 KST",
+     "dir": "down"
+    }
+   ],
+   "cause": [
+    "저마진 AI 시스템 비중 확대, 가격 효과 둔화, 부품 원가 상승",
+    "CFO \"AI 부품 부족은 2028년까지 이어질 수 있어\"",
+    "웰스파고 목표가 50달러로 하향, 자사주 매입 50억 달러 추가"
+   ],
+   "chips": [
+    {
+     "name": "HPE",
+     "chg": "-11.91%"
+    },
+    {
+     "name": "델",
+     "chg": "-6.06%"
+    },
+    {
+     "name": "SMCI",
+     "chg": "-5.01%"
+    }
+   ],
+   "checks": [
+    "델 실적의 AI 서버 이익률",
+    "메모리 원가의 가격 전가 여부",
+    "AI 서버 수주잔고 증가 속도"
+   ],
+   "source": "BusinessWire(HPE), Seeking Alpha, TipRanks, 시나"
+  }
+ ],
+ "sections": {
+  "megatech": [
+   {
+    "company": "엔비디아",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "요크빌 목표가 225 → 250달러(시나), 씨티 240달러 상향 재확인"
+     },
+     {
+      "label": "사실",
+      "text": "워런 의원 등 \"엔비디아와 황 모두 책임 피할 수 없어\""
+     },
+     {
+      "label": "배경",
+      "text": "상무부, Megaspeed와 동남아 계열사 6곳 블랙리스트, 알리바바 이의 제기"
+     }
+    ],
+    "chips": [
+     {
+      "name": "엔비디아",
+      "chg": "-5.74%"
+     }
+    ],
+    "source": "FinancialJuice, NBC, DIGITIMES, 시나"
+   },
+   {
+    "company": "메타 · 빅테크",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "JP모건, 메타 목표가 940 → 775달러, 2027년 비용 추정 50억 달러 상향"
+     },
+     {
+      "label": "사실",
+      "text": "영국 세인스버리, 메타 Muse AI 에이전트 도입"
+     },
+     {
+      "label": "영향",
+      "text": "매그7 프리마켓 약보합"
+     }
+    ],
+    "chips": [
+     {
+      "name": "메타",
+      "chg": "-1.36%"
+     },
+     {
+      "name": "아마존",
+      "chg": "-1.01%"
+     },
+     {
+      "name": "알파벳",
+      "chg": "-0.99%"
+     },
+     {
+      "name": "MSFT",
+      "chg": "-0.71%"
+     }
+    ],
+    "source": "FinancialJuice, TipRanks, 시나"
+   }
+  ],
+  "mobility": [
+   {
+    "company": "테슬라 · 스페이스X",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "FT: 양사 특별위원회(테슬라 이사 3·스페이스X 이사 2) 합병 협상"
+     },
+     {
+      "label": "사실",
+      "text": "연내 마무리 목표, 합산 가치 약 3.5조 달러, 확정 조건 없음"
+     },
+     {
+      "label": "배경",
+      "text": "FSD V15, 12월 홀리데이 업데이트 때 광범위 배포 예정"
+     }
+    ],
+    "chips": [
+     {
+      "name": "테슬라",
+      "chg": "-0.52%"
+     },
+     {
+      "name": "스페이스X",
+      "chg": "-1.85%"
+     }
+    ],
+    "source": "FT(Investing.com), Invezz, Not a Tesla App"
+   },
+   {
+    "company": "GM · 포드 · 웨이모",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "미 국방부, GM·포드와 드론 생산 협의"
+     },
+     {
+      "label": "배경",
+      "text": "웨이모, 캘리포니아 금지 뒤 미국 전역 고속도로 운행 중단, 리콜 2건"
+     }
+    ],
+    "chips": [],
+    "source": "시나, NBC, Engadget"
+   }
+  ],
+  "ai_software": [
+   {
+    "company": "앤트로픽 · 오픈AI",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "블룸버그: 앤트로픽 프리마켓 공모가 83달러 하회, 저점 81.28달러"
+     },
+     {
+      "label": "배경",
+      "text": "내부자 보유 최대 3.15억 주가 매도 가능한 상태"
+     },
+     {
+      "label": "사실",
+      "text": "Axios: 앤트로픽·오픈AI 직원들, 미공개 모델 안전성 우려"
+     }
+    ],
+    "chips": [
+     {
+      "name": "앤트로픽",
+      "chg": "-5.18%"
+     }
+    ],
+    "source": "Bloomberg, Axios, 시나"
+   },
+   {
+    "company": "크라우드스트라이크 · 줌",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "크라우드스트라이크 목표가 하향 잇따라: 번스타인 174·BTIG 239달러"
+     },
+     {
+      "label": "배경",
+      "text": "줌 조정 EPS 1.59달러(예상 1.49), 첫 분기배당 0.25달러"
+     },
+     {
+      "label": "체크",
+      "text": "장 마감 후 워크데이·오토데스크 실적"
+     }
+    ],
+    "chips": [
+     {
+      "name": "크라우드스트라이크",
+      "chg": "-0.70%"
+     },
+     {
+      "name": "줌",
+      "chg": "-1.56%"
+     }
+    ],
+    "source": "Investing.com, GlobeNewswire, 시나"
+   }
+  ],
+  "ai_infra": [
+   {
+    "company": "서버 · 네오클라우드",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "HPE 마진 경고에 서버·네오클라우드 프리마켓 5~6% 하락"
+     },
+     {
+      "label": "체크",
+      "text": "델 장 마감 후 실적, 회사 가이던스 매출 약 490억 달러"
+     },
+     {
+      "label": "배경",
+      "text": "델 AI 서버 수주잔고 950억 달러, 연간 AI 서버 매출 목표 740억 달러"
+     }
+    ],
+    "chips": [
+     {
+      "name": "델",
+      "chg": "-6.06%"
+     },
+     {
+      "name": "코어위브",
+      "chg": "-5.44%"
+     },
+     {
+      "name": "네비우스",
+      "chg": "-4.91%"
+     },
+     {
+      "name": "SMCI",
+      "chg": "-5.01%"
+     }
+    ],
+    "source": "시나, EBC, Trefis"
+   },
+   {
+    "company": "광통신 · 전력 · 폭스콘",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "영향",
+      "text": "광통신·전력기기 프리마켓 4~6% 하락"
+     },
+     {
+      "label": "사실",
+      "text": "폭스콘, 12억 달러 전환사채 발행(전환 프리미엄 15~20%)"
+     }
+    ],
+    "chips": [
+     {
+      "name": "블룸에너지",
+      "chg": "-5.60%"
+     },
+     {
+      "name": "루멘텀",
+      "chg": "-5.47%"
+     },
+     {
+      "name": "버티브",
+      "chg": "-4.75%"
+     },
+     {
+      "name": "코히런트",
+      "chg": "-4.55%"
+     }
+    ],
+    "source": "TradingKey, 시나"
+   }
+  ],
+  "semis": [
+   {
+    "company": "아시아",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "대만 가권 +8.99%로 사상 최대 포인트 상승, TSMC 상한가"
+     },
+     {
+      "label": "배경",
+      "text": "코스피 +6.32%, 삼성전자 +6.7%·SK하이닉스 +6.73%, 닛케이 +3.91%"
+     },
+     {
+      "label": "사실",
+      "text": "한국 상장사 자사주 1일 매수 한도 완화, 오늘부터 3개월 시행"
+     }
+    ],
+    "chips": [
+     {
+      "name": "TSMC",
+      "chg": "-1.47%"
+     },
+     {
+      "name": "SK하이닉스 ADR",
+      "chg": "-5.62%"
+     }
+    ],
+    "source": "Focus Taiwan, 코리아타임스, 아시아경제"
+   },
+   {
+    "company": "메모리 · 아날로그 · 장비",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "DIGITIMES: 삼성전자, 2029년까지 메모리 생산능력 대부분 계약 완료(한국 보도)"
+     },
+     {
+      "label": "사실",
+      "text": "ADI 4분기 매출 43.7억 달러(+42%), 1분기 EPS 가이던스 3.82달러로 예상 하회"
+     },
+     {
+      "label": "사실",
+      "text": "UBS, 엑시트론 매도로 하향, 독일장 −5.8%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "ADI",
+      "chg": "-8.91%"
+     },
+     {
+      "name": "웨스턴디지털",
+      "chg": "-5.45%"
+     },
+     {
+      "name": "AMD",
+      "chg": "-4.29%"
+     },
+     {
+      "name": "AMAT",
+      "chg": "-4.30%"
+     }
+    ],
+    "source": "DIGITIMES, StockTitan, 시나"
+   }
+  ],
+  "others": [
+   {
+    "company": "비트코인",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "엔비디아발 반등 사그라들며 6만 달러 안팎 약세"
+     },
+     {
+      "label": "배경",
+      "text": "현물 ETF 23일 5.7억 달러 순유출, 3주 연속 주간 10억 달러 넘게 유출"
+     }
+    ],
+    "chips": [
+     {
+      "name": "스트래티지",
+      "chg": "-3.55%"
+     },
+     {
+      "name": "코인베이스",
+      "chg": "-2.47%"
+     }
+    ],
+    "source": "FXStreet, InvestorIdeas"
+   }
+  ]
+ },
+ "empty_notes": {},
+ "greeting": "2026년 11월 24일 화요일 개장 전 섹터별 이슈체크입니다. 한국시간 15:30~21:29 사이 나온 소식과 미국 프리마켓 흐름을 정리했어요. 프리마켓 등락률은 월요일 종가 대비, 21:29 무렵 기준입니다.",
+ "commentary": {
+  "summary": "전날 젠슨황 복귀로 미국 증시가 폭등한 뒤, 오늘 아시아 증시가 뒤늦게 이를 반영해 대만은 9%, 코스피는 6% 넘게 올랐어요. 반면 미국 프리마켓에서는 차익실현이 나오며 엔비디아와 메모리주가 5~7% 밀리고 있습니다. HPE가 AI 서버 마진 하락을 경고하면서, 오늘 장 마감 후 나오는 델 실적이 하드웨어 랠리의 다음 시험대가 됐어요.",
+  "issue1": [
+   "엔비디아는 전날 31% 넘게 오르며 하루 기준 2003년 이후 가장 큰 폭으로 올랐어요. 아시아는 오늘에서야 이를 반영해 대만 가권이 사상 최대 포인트 상승을 기록했고, TSMC는 상한가까지 올랐습니다. 코스피도 외국인이 7거래일 만에 순매수로 돌아서며 사흘 만에 5,000을 되찾았어요.",
+   "하지만 미국 지수 선물은 저녁 무렵 하락으로 돌아서 나스닥 100이 2% 넘게 밀리고 있어요. 하루 만에 너무 많이 오른 데 따른 차익실현에, HPE의 마진 경고와 의회의 황 복귀 비판이 겹쳤습니다. 12월 3일 상원 청문회와 SEC 조사가 남아 있어 반등이 이어지려면 추가 확인이 필요해 보여요."
+  ],
+  "issue2": [
+   "HPE는 4분기 매출이 50% 늘어난 145억 달러였고, 조정 EPS도 회사 전망 상단을 넘었어요. 내년 매출 가이던스도 27~35% 성장으로 올렸고 자사주 매입을 50억 달러 늘리겠다고 했습니다.",
+   "그런데 실적 발표 콜에서 CFO가 클라우드·AI 부문 영업이익률이 4분기 18.4%에서 내년 약 14%로 낮아질 것이라고 밝히면서 주가가 12% 가까이 밀리고 있어요. 저마진 AI 시스템 비중이 커지고 부품 원가가 오르기 때문인데, 오늘 밤 델 실적에서도 같은 경고가 나올지가 관건입니다."
+  ],
+  "megatech": "엔비디아는 씨티와 요크빌이 목표가를 올렸지만 프리마켓에서 5% 넘게 밀리고 있어요. 워런 의원 등 의회의 비판이 이어지고 있고, 상무부는 엔비디아 칩 밀수 조사와 관련해 싱가포르 Megaspeed와 계열사를 블랙리스트에 올렸습니다. JP모건은 메타의 2027년 비용 추정을 높이며 목표가를 낮췄어요.",
+  "mobility": "FT는 테슬라와 스페이스X가 각각 이사들로 특별위원회를 꾸려 합병을 협상하고 있으며, 연내 마무리를 목표로 한다고 보도했어요. 두 회사 합산 가치는 약 3.5조 달러지만 아직 정해진 조건은 없습니다. 미 국방부는 GM·포드와 드론 생산을 협의하고 있다는 소식도 나왔어요.",
+  "ai_software": "앤트로픽은 프리마켓에서 한때 공모가 83달러 아래로 내려갔어요. 블룸버그는 내부자 보유 물량이 바로 매도 가능한 상태라는 점을 부담으로 꼽았습니다. Axios는 앤트로픽과 오픈AI 직원들이 아직 공개하지 않은 모델의 안전성을 우려하고 있다고 보도했어요. 오늘 장 마감 후에는 워크데이와 오토데스크가 실적을 냅니다.",
+  "ai_infra": "HPE의 마진 경고에 델·슈퍼마이크로 등 서버주와 네오클라우드가 프리마켓에서 5~6% 내리고 있어요. 델은 오늘 장 마감 후 실적을 내는데, 950억 달러에 이르는 AI 서버 수주잔고보다 메모리 원가 상승을 얼마나 가격에 옮겼는지가 더 중요해졌습니다. 폭스콘은 12억 달러 규모 전환사채를 발행하기로 했어요.",
+  "semis": "한국은 오늘부터 상장사의 하루 자사주 매수 한도 완화가 시행됐고, 삼성전자와 SK하이닉스가 6% 넘게 올랐어요. 다만 미국 프리마켓에서는 메모리·장비주가 4~7% 되밀리고 있고, 아날로그디바이스는 다음 분기 이익 전망이 예상에 못 미치며 9% 가까이 빠지고 있습니다. DIGITIMES는 삼성전자가 2029년까지 메모리 생산능력 대부분을 이미 계약했다는 한국 보도를 전했어요.",
+  "others": "비트코인은 엔비디아발 반등이 식으면서 6만 달러 안팎으로 다시 약해졌어요. 현물 ETF에서는 전날에도 5억 7천만 달러가 빠져나가 3주 연속 주간 10억 달러 넘는 유출이 이어지고 있습니다."
+ },
+ "sources": [
+  {
+   "title": "Seoul shares rebound over 6% on Huang's return",
+   "outlet": "코리아타임스",
+   "url": "https://www.koreatimes.co.kr/economy/others/20261124/seoul-shares-rebound-over-6-on-huangs-return"
+  },
+  {
+   "title": "KOSPI rises as Huang returns",
+   "outlet": "중앙일보",
+   "url": "https://www.koreajoongangdaily.com/business/kospi-rises-as-huang-returnsnbspnbsp/12989034"
+  },
+  {
+   "title": "Taiex closes up 9%",
+   "outlet": "Focus Taiwan",
+   "url": "https://focustaiwan.tw/business/202611240019"
+  },
+  {
+   "title": "Japan's Nikkei 225 surges 3.9%",
+   "outlet": "GuruFocus",
+   "url": "https://www.gurufocus.com/news/9216549/japans-nikkei-225-index-surges-39-amid-ai-and-chip-sector-boost"
+  },
+  {
+   "title": "纳指期货转跌",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizvqte0042340.d.html"
+  },
+  {
+   "title": "英伟达盘前下跌",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizvqtm4844072.d.html"
+  },
+  {
+   "title": "美股期货跌幅扩大",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizvuze8972979.d.html"
+  },
+  {
+   "title": "芯片股盘前下跌",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizvqtf2232712.d.html"
+  },
+  {
+   "title": "Congress criticism of Jensen Huang's reinstatement",
+   "outlet": "NBC News",
+   "url": "https://www.nbcnews.com/politics/congress/congress-criticism-jensen-huang-nvidia-reinstated-ceo-trump-rcna610926"
+  },
+  {
+   "title": "Huang's reinstatement sparks fury in Congress",
+   "outlet": "PBS",
+   "url": "https://www.pbs.org/newshour/politics/huangs-reinstatement-at-nvidia-sparks-fury-in-congress-as-lawmakers-move-forward-with-hearings"
+  },
+  {
+   "title": "HPE reports fiscal 2026 fourth quarter results",
+   "outlet": "BusinessWire",
+   "url": "https://www.businesswire.com/news/home/20261123129850/en/HPE-reports-fiscal-2026-fourth-quarter-results"
+  },
+  {
+   "title": "HPE shares slump on warning of margin pressure from AI servers",
+   "outlet": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4676038-hpe-shares-slump-on-warning-of-margin-pressure-from-ai-servers"
+  },
+  {
+   "title": "HPE drops pre-market as Wells Fargo cuts target to $50",
+   "outlet": "FourWeekMBA",
+   "url": "https://fourweekmba.com/ai-hpe-drops-11-6-pre-market-as-wells-fargo-cuts-target-to-50/"
+  },
+  {
+   "title": "HPE premarket",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizvqth9034957.d.html"
+  },
+  {
+   "title": "Nvidia: Citigroup raises target price to $240",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9865910/Nvidia-Citigroup-raises-target-price-to-240-from-225-NVDA.aspx?xy=rss"
+  },
+  {
+   "title": "Yorkville raises Nvidia target",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizvuzi4800822.d.html"
+  },
+  {
+   "title": "Nvidia, Alibaba probe, entity list blacklist",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261124VL222/nvidia-alibaba-probe-entity-list-blacklist.html"
+  },
+  {
+   "title": "JP Morgan cuts target price of Meta to $775",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9865793/JP-Morgan-cuts-target-price-of-Meta-to-775-from-940.aspx?xy=rss"
+  },
+  {
+   "title": "Sainsbury's adopts Meta Muse",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizvkmk9017515.d.html"
+  },
+  {
+   "title": "SpaceX, Tesla directors negotiate potential $3.5 trillion merger - FT",
+   "outlet": "Investing.com",
+   "url": "https://www.investing.com/news/stock-market-news/spacex-tesla-directors-negotiate-potential-35-trillion-merger-ft-reports-5047091"
+  },
+  {
+   "title": "SpaceX, Tesla push for year-end merger",
+   "outlet": "Invezz",
+   "url": "https://invezz.com/news/2026/11/24/spacex-tesla-push-for-year-end-merger-as-five-directors-take-charge-of-talks-musk/"
+  },
+  {
+   "title": "Tesla FSD v15 rolls out",
+   "outlet": "Not a Tesla App",
+   "url": "https://www.notateslaapp.com/news/5065/tesla-fsd-v15-rolls-out-with-incredible-new-reality-view-and-25x-better-safety-video"
+  },
+  {
+   "title": "Pentagon talks with GM, Ford on drone production",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizvuze8945136.d.html"
+  },
+  {
+   "title": "Waymo robotaxis banned from California freeways",
+   "outlet": "NBC News",
+   "url": "https://www.nbcnews.com/news/us-news/waymo-robotaxis-banned-california-freeways-rcna609917"
+  },
+  {
+   "title": "Anthropic breaks below $83 IPO price in premarket trading",
+   "outlet": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading"
+  },
+  {
+   "title": "Anthropic, OpenAI staff fear unreleased models unsafe",
+   "outlet": "Axios",
+   "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
+  },
+  {
+   "title": "BTIG cuts CrowdStrike price target",
+   "outlet": "Investing.com",
+   "url": "https://www.investing.com/news/analyst-ratings/btig-cuts-crowdstrike-stock-price-target-on-zscaler-acquisition-93CH-5047617"
+  },
+  {
+   "title": "Zoom Q3 FY2027 results",
+   "outlet": "GlobeNewswire",
+   "url": "https://www.globenewswire.com/news-release/2026/11/23/3408888/0/en/zoom-communications-reports-financial-results-for-the-third-quarter-of-fiscal-year-2027.html"
+  },
+  {
+   "title": "Neocloud stocks premarket",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizvqth9049296.d.html"
+  },
+  {
+   "title": "Dell earnings preview: AI server memory costs",
+   "outlet": "EBC",
+   "url": "https://www.ebc.com/forex/dell-earnings-preview-ai-server-memory-costs"
+  },
+  {
+   "title": "HPE expects thinner AI margins: is Dell next?",
+   "outlet": "Trefis",
+   "url": "https://www.trefis.com/stock/hpe/articles/628212/hpe-expects-thinner-ai-margins-is-dell-next/2026-11-24"
+  },
+  {
+   "title": "US pre-market: optical stocks",
+   "outlet": "TradingKey",
+   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262319957-us-pre-market-trump-jensen-huang-nvidia-ai-chips-xau-wti-oil-gold-ant-tradingkey"
+  },
+  {
+   "title": "Foxconn convertible bonds",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizvqtm4868555.d.html"
+  },
+  {
+   "title": "Buyback order limit eased",
+   "outlet": "아시아경제",
+   "url": "https://view.asiae.co.kr/article/2026112315463421466"
+  },
+  {
+   "title": "Samsung memory capacity contracted through 2029",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261124VL220/samsung-capacity-demand-data-center-2027.html"
+  },
+  {
+   "title": "Analog Devices reports record fourth quarter",
+   "outlet": "StockTitan",
+   "url": "https://www.stocktitan.net/news/ADI/analog-devices-reports-record-fourth-quarter-and-fiscal-2026-0fqs6bjakxwf.html"
+  },
+  {
+   "title": "UBS downgrades Aixtron to sell",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizvkme7757617.d.html"
+  },
+  {
+   "title": "Crypto today: bitcoin and ethereum edge lower",
+   "outlet": "FXStreet",
+   "url": "https://fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-and-ethereum-edge-lower-xrp-stabilizes-as-etf-redemptions-continue-202611241045"
+  },
+  {
+   "title": "Spot ETF outflows exceed $1.2bn for third week",
+   "outlet": "InvestorIdeas",
+   "url": "https://www.investorideas.com/news/2026/cryptocurrency/11231-bitcoins-oversold-rebound-faces-test-as-spot-etf-outflows-exceed-1-2bn-for-third-consecutive-week.asp"
+  },
+  {
+   "title": "Economic calendar: US consumer confidence",
+   "outlet": "XTB",
+   "url": "https://xtb.com/int/market-analysis/news-and-research/economic-calendar-after-wall-street-s-rally-markets-turn-their-attention-to-ifo-and-us-consumer-confidence"
+  },
+  {
+   "title": "Daily US earnings estimates 24 Nov",
+   "outlet": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-earnings-estimates---24th-november-2026-mdt-adi-dell"
+  },
+  {
+   "title": "DIGITIMES 주요 기사",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/"
+  }
+ ]
+}
