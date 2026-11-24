@@ -19,7 +19,7 @@ python3 scripts/watch_news.py > "$SCRATCH/wn.json"   # SCRATCH = 세션 scratchp
 python3 -c "
 import json,sys;d=json.load(open(sys.argv[1]));print(d['since'],d['until'],d['count'])
 for tk,v in d['by_company'].items():
-  for it in v['items']: print(tk,it['kst'],it['imp'],it['src'],it['ko'][:200],'|',it['orig'][:80])" "$SCRATCH/wn.json"
+  for it in v['items']: print(tk,it['kst'],it['imp'],it['src'],(it['ko'] or '')[:200],'|',(it['orig'] or '')[:80])" "$SCRATCH/wn.json"
 ```
 오탐(사과 선물→애플, 新思路→시놉시스 등)이 보이면 `scripts/watch_news.py`나 `auto_blog/watchlist.json`을 고친다.
 
