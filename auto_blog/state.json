@@ -1,5 +1,5 @@
 {
- "last_ts": 1795497178,
+ "last_ts": 1795500556,
  "posted": [
   {
    "date": "2026-11-22",
@@ -138,6 +138,12 @@
    "ticker": "MKT",
    "topic": "(사용자 요청) 11월 24일 미국 증시 동향 PDF",
    "url": "https://blog.naver.com/yidiar/224489450926"
+  },
+  {
+   "date": "2026-11-24",
+   "ticker": "TSLA",
+   "topic": "테슬라·스페이스X 합병 협상, 독립 이사 5명 배정(FT), 전액 주식, 12월 발표 가능",
+   "url": "https://blog.naver.com/yidiar/224490035978"
   }
  ]
 }
