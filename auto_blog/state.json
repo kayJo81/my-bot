@@ -1,5 +1,5 @@
 {
- "last_ts": 1795558167,
+ "last_ts": 1795561560,
  "posted": [
   {
    "date": "2026-11-22",
@@ -186,6 +186,12 @@
    "ticker": "DELL",
    "topic": "(사용자 요청) 델 3분기 매출 +103%·EPS 9.45, AI 잔고 1,323억, FY 2,020억 상향(어닝콜 원고 반영)",
    "url": "https://blog.naver.com/yidiar/224490951859"
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "NVDA",
+   "topic": "[후속] 트럼프 엔비디아 정부 지분 검토·젠슨 황 사면 선택지(NY Post)",
+   "url": "https://blog.naver.com/yidiar/224490965356"
   }
  ]
 }
