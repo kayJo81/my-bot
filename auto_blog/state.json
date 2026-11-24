@@ -1,5 +1,5 @@
 {
- "last_ts": 1795532941,
+ "last_ts": 1795536580,
  "posted": [
   {
    "date": "2026-11-22",
@@ -168,6 +168,12 @@
    "ticker": "NVDA",
    "topic": "엔비디아 장중 7% 반락, 12/1 하원 비공개 증언·12/3 상원 공개 청문, 메가스피드 엔티티 리스트",
    "url": "https://blog.naver.com/yidiar/224490664817"
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "MSFT",
+   "topic": "마이크로소프트 M365 장애 뒤 코드 레드 선언(로이터), PIR 원인 3가지",
+   "url": "https://blog.naver.com/yidiar/224490715206"
   }
  ]
 }
