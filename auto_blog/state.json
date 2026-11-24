@@ -1,5 +1,5 @@
 {
- "last_ts": 1795529323,
+ "last_ts": 1795532941,
  "posted": [
   {
    "date": "2026-11-22",
@@ -162,6 +162,12 @@
    "ticker": "ADI",
    "topic": "ADI 4분기 매출 +42%·EPS 4.06 상회, 1분기 EPS 가이던스 3.82 하회, 개장 전 급락",
    "url": "https://blog.naver.com/yidiar/224490537697"
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "NVDA",
+   "topic": "엔비디아 장중 7% 반락, 12/1 하원 비공개 증언·12/3 상원 공개 청문, 메가스피드 엔티티 리스트",
+   "url": "https://blog.naver.com/yidiar/224490664817"
   }
  ]
 }
