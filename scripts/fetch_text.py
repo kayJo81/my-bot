@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""공개 웹페이지의 본문 텍스트와 표를 출력합니다(읽기 전용). 사용법: python scripts/fetch_text.py URL [URL ...]"""
+"""공개 웹페이지의 본문 텍스트와 표를 출력합니다(읽기 전용). 사용법: python scripts/fetch_text.py URL [URL ...] (raw:URL은 원본 그대로)"""
 import subprocess
 import sys
 import tempfile
@@ -10,6 +10,12 @@ from bs4 import BeautifulSoup
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36"}
 for url in [u for a in sys.argv[1:] for u in a.split() if u]:
     print(f"\n===== {url}")
+    if url.startswith("raw:"):  # raw:URL → 원본 HTML·JS·JSON을 그대로 출력(JS로 그리는 페이지의 데이터 주소 찾기용)
+        try:
+            print(urllib.request.urlopen(urllib.request.Request(url[4:], headers=UA), timeout=40).read().decode("utf-8", "ignore")[:60000])
+        except Exception as e:  # noqa: BLE001
+            print("실패:", e)
+        continue
     if ".pdf" in url.lower():  # 공개 PDF는 pdftotext로 본문 출력
         try:
             raw = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60).read()
