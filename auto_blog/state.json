@@ -1,5 +1,5 @@
 {
- "last_ts": 1795594143,
+ "last_ts": 1795597780,
  "posted": [
   {
    "date": "2026-11-22",
@@ -204,6 +204,12 @@
    "ticker": "SPCX",
    "topic": "스페이스X BEAD 보조금 약 7.38억 달러 포기, 보조금 없이 스타링크로 서비스",
    "url": "https://blog.naver.com/yidiar/224491682973"
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "WDAY",
+   "topic": "워크데이 3분기 상회, 4분기 구독 성장 10% 둔화 전망에 개장 전 -10%",
+   "url": "https://blog.naver.com/yidiar/224491858244"
   }
  ]
 }
