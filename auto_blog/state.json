@@ -1,5 +1,5 @@
 {
- "last_ts": 1795621956,
+ "last_ts": 1795626573,
  "posted": [
   {
    "date": "2026-11-22",
@@ -234,6 +234,12 @@
    "ticker": "NVDA",
    "topic": "미 당국 의회 브리핑 '중국 공작 증거 없음'(WSJ), 2018년 집단소송 2.9억 달러 합의",
    "url": "https://blog.naver.com/yidiar/224492303612"
+  },
+  {
+   "date": "2026-11-26",
+   "ticker": "SPCX",
+   "topic": "FCC 스페이스X 스타마인드 궤도 데이터센터 위성 최대 100만 기 승인",
+   "url": "https://blog.naver.com/yidiar/224492343596"
   }
  ]
 }
