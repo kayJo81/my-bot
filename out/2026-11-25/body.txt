@@ -1,0 +1,96 @@
+2026년 11월 25일 개장 전 섹터별 이슈체크
+
+2026년 11월 25일 수요일 개장 전 주요 소식입니다.
+오늘 한국 장 마감(15:30) 이후부터 21:27까지 나온 소식을 모았어요.
+등락률은 화요일 종가 대비, 21:27 무렵 기준입니다.
+
+[그림1]
+
+미국이 16개 경제권을 상대로 301조 관세를 예고했다는 로이터 보도와 메모리 가격 전망 하향이 겹치면서 나스닥 100 선물이 3% 밀리고 있어요. 코스피는 6% 넘게 빠지며 하루 만에 5,000을 내줬고, 삼성전자와 SK하이닉스가 10% 안팎 급락했습니다. 델이 사상 최대 실적을 냈지만 하드웨어 매도 흐름을 막지 못하고 있고, 오늘 밤 22:30 PCE·GDP가 다음 변수예요.
+
+[그림2]
+
+로이터는 미국이 16개 경제권을 대상으로 한 301조 관세를 이르면 현지 시간 25일 발표할 수 있다고 보도했어요. 세율은 아직 알려지지 않았고, 중국은 협상으로 해결할 수 있다면서도 과잉생산 주장 자체를 부인했습니다.
+
+[그림3]
+
+여기에 전날 골드만삭스가 2028년 D램 가격 하락을 전망하며 SK하이닉스 목표가를 크게 낮춘 여파가 아시아 반도체에 이어졌어요. 미국 프리마켓에서도 엔비디아가 5%, 마이크론·AMD·장비주가 6% 안팎 내리고 있어, 관세 세율과 오늘 밤 물가 지표가 낙폭을 가를 것으로 보입니다.
+
+[그림4]
+
+델은 3분기 매출이 103% 늘어난 549억 달러, 조정 EPS는 회사 전망 6.50달러를 크게 넘는 9.45달러였어요. 연간 매출 가이던스를 2,020억 달러로, AI 서버 매출 전망을 780억 달러로 올렸고 자사주 매입도 250억 달러 늘렸습니다.
+
+[그림5]
+
+하지만 프리마켓에서는 처음 −3% 안팎에서 저녁 들어 −7%까지 낙폭이 커졌어요. 회사는 메모리 가격 하락 조짐이 없다고 했고 모건스탠리는 목표가를 올렸지만, 관세와 반도체 전망 우려로 AI 하드웨어 전반이 밀리는 흐름을 피하지 못하고 있습니다.
+
+[그림6]
+
+엔비디아는 관세·반도체 매도에 프리마켓 5% 넘게 내리고 있어요. 트럼프 대통령은 황 CEO 사면이 필요 없을 것이라고 했고, 황은 다음 주 하원 면담과 12월 3일 상원 청문회를 앞두고 있습니다. 빅테크도 MSFT·알파벳이 3%대 밀리는 가운데 애플만 1% 안쪽으로 낙폭이 작아요.
+
+[그림7]
+
+EU가 테슬라 FSD 승인 논의를 12월 15일로 2주 미뤘어요. 승인에는 15개국 이상, 인구 65% 이상의 찬성이 필요합니다. 리오토는 3분기 매출이 예상을 넘었지만 4분기 인도 가이던스가 예상보다 낮았어요.
+
+[그림8]
+
+앤트로픽은 전날 공모가 아래에서 마감한 데 이어 프리마켓에서도 4~6% 내리고 있어요. 워크데이와 오토데스크는 EPS가 예상을 넘었지만, 워크데이의 4분기 매출 가이던스가 예상에 못 미치면서 두 회사 모두 5~6% 밀리고 있습니다. 오픈AI는 저녁에 ChatGPT 유료 요금제 오류가 발생했어요.
+
+[그림9]
+
+코어위브·네비우스 등 네오클라우드가 6~7% 내리고 있고, 델 호실적에도 서버주 반등은 나오지 않고 있어요. 광통신·냉각·전력기기도 6%대로 함께 밀리며 AI 인프라 전반이 약세입니다.
+
+[그림10]
+
+HP는 4분기 EPS가 예상을 넘었지만 내년 EPS 가이던스는 보수적으로 제시했어요. 메모리·스토리지가 원가의 약 40%를 차지해 메모리 가격에 직접 영향을 받는 구조이고, 주가는 보합권입니다.
+
+[그림11]
+
+코스피가 6.16% 내린 4,697.51로 마감했고 삼성전자는 10% 가까이, SK하이닉스는 11% 급락했어요. 정부는 증권시장안정기금 확대를 추진하며 25개 기관의 출자 여력을 평가하고 있습니다. 대만은 4.8%, 일본은 소프트뱅크와 키옥시아가 14% 안팎 급락했어요.
+
+[그림12]
+
+앰바렐라는 4분기 매출 가이던스가 예상에 못 미치며 프리마켓에서 3분의 1가량 빠졌어요. 마이크론·AMD·장비주도 6% 안팎 내리고 있습니다. 중국에서는 반도체 장비 ETF와 GPU 관련주가 급락했고, 화웨이는 내년 ISSCC에서 자체 HBM을 공개할 예정이에요.
+
+출처 링크 (2026-11-25 KST)
+· Nasdaq futures slide over 2% on fresh US tariff concerns, inflation data in focus (로이터(Investing.com)): https://www.investing.com/news/economy-news/nasdaq-futures-slide-over-2-on-fresh-us-tariff-concerns-inflation-data-in-focus-5050138
+· Nasdaq 100 futures down 3% (시나): https://finance.sina.cn/7x24/2026-11-25/detail-inizyehf4202426.d.html
+· KOSPI sinks 6% as chip outlook, US tariff concerns weigh (코리아타임스): https://www.koreatimes.co.kr/economy/20261125/kospi-sinks-6-as-chip-outlook-us-tariff-concerns-weigh
+· KOSPI close (시나): https://finance.sina.cn/7x24/2026-11-25/detail-inizxtsh8547172.d.html
+· China's Zhu: US 301 tariffs can be settled via negotiations (FinancialJuice): https://www.financialjuice.com/News/9867289/Chinas-Zhu-US-301-tariffs-can-be-settled-via-negotiations-with-China.aspx?xy=rss
+· China's foreign ministry on US planned tariffs (FinancialJuice): https://www.financialjuice.com/News/9867337/Chinas-foreign-ministry-on-US-planned-tariffs-announcement-The-so-called-overcapacity-does-not-really-exist.aspx?xy=rss
+· Goldman Sachs cuts Samsung, SK hynix targets (서울경제): https://en.sedaily.com/market/2026/11/24/goldman-sachs-cuts-samsung-sk-hynix-targets-by-up-to-43
+· Dell Technologies delivers third quarter fiscal 2027 results (델 IR): https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results
+· Dell Q3 2027 earnings call highlights (GuruFocus): https://www.gurufocus.com/news/9218650/dell-technologies-inc-dell-q3-2027-earnings-call-highlights-record-549-billion-revenue-1323-billion-ai-backlog-and-a-25-billion-buyback-boost
+· Dell: token demand 87x by 2030 (시나): https://finance.sina.cn/7x24/2026-11-25/detail-inizxtsh8538875.d.html
+· Morgan Stanley raises Dell target (시나): https://finance.sina.cn/7x24/2026-11-25/detail-inizxxyc1749014.d.html
+· Dell premarket (시나): https://finance.sina.cn/7x24/2026-11-25/detail-inizxtsf1770710.d.html
+· Dell premarket decline widens (시나): https://finance.sina.cn/7x24/2026-11-25/detail-inizxxyi4265544.d.html
+· Jensen Huang: Trump says pardon an option (CNN): https://www.cnn.com/2026/11/24/politics/jensen-huang-trump-pardon-option-nvidia
+· Jensen Huang Congress, GTC (CNBC): https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-congress-gtc.html
+· Malaysia regulator seeks $146M from Google (시나): https://finance.sina.cn/7x24/2026-11-25/detail-inizxtsf1762143.d.html
+· EU postpones discussion to approve Tesla's self-driving tech (Investing.com): https://www.investing.com/news/stock-market-news/eu-postpones-discussion-to-approve-teslas-selfdriving-tech-5050292
+· EU Tesla FSD delay (시나): https://finance.sina.cn/7x24/2026-11-25/detail-inizxtsm4323911.d.html
+· Li Auto Q3 results (시나): https://finance.sina.cn/7x24/2026-11-25/detail-inizxtsc9544136.d.html
+· Rivian recall (시나): https://finance.sina.cn/7x24/2026-11-25/detail-inizxtsc9523762.d.html
+· Ford confirms Pentagon talks (시나): https://finance.sina.cn/7x24/2026-11-25/detail-inizxtsm4325420.d.html
+· Anthropic stock below IPO price (CNBC): https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html
+· Anthropic premarket (시나): https://finance.sina.cn/7x24/2026-11-25/detail-inizxxye8583000.d.html
+· OpenAI ChatGPT errors impacting team, business and pro plans (FinancialJuice): https://www.financialjuice.com/News/9867686/OpenAI-ChatGPT-errors-impacting-team-business-and-pro-plans.aspx?xy=rss
+· Workday announces fiscal 2027 third quarter results (워크데이 IR): https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-Announces-Fiscal-2027-Third-Quarter-Financial-Results/default.aspx
+· Workday premarket (시나): https://finance.sina.cn/7x24/2026-11-25/detail-inizxxyi4220934.d.html
+· Autodesk announces fiscal 2027 third quarter results (오토데스크 IR): https://investors.autodesk.com/news-releases/news-release-details/autodesk-inc-announces-fiscal-2027-third-quarter-results
+· Neocloud stocks premarket (시나): https://finance.sina.cn/7x24/2026-11-25/detail-inizxxye8581682.d.html
+· HP Inc reports fiscal 2026 full year and fourth quarter results (HP 뉴스룸): https://www.hp.com/us-en/newsroom/press-releases/2026/hp-inc-reports-fiscal-2026-full-year-and-fourth-quarter-results.html
+· Taiex closes down 4.8%, Nikkei ends below 57,100 (MLQ): https://mlq.ai/news/taiwans-taiex-closes-down-48-and-the-nikkei-ends-below-57100-as-asian-chip-stocks-give-back-tuesdays-rally/
+· SoftBank, Advantest, SK hynix, Samsung fall (CNBC): https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html
+· Korea to expand stock market stabilization fund (시나): https://finance.sina.cn/7x24/2026-11-25/detail-inizxxyc1779888.d.html
+· Ambarella premarket (시나): https://finance.sina.cn/7x24/2026-11-25/detail-inizxxye8532429.d.html
+· China chip equipment ETF (시나): https://finance.sina.cn/7x24/2026-11-25/detail-inizxtsf1776573.d.html
+· China GPU stocks (시나): https://finance.sina.cn/7x24/2026-11-25/detail-inizxtsf1823241.d.html
+· Huawei HBM at ISSCC 2027 (시나): https://finance.sina.cn/7x24/2026-11-25/detail-inizxtsh8622641.d.html
+· October PCE report sets final inflation test (TipRanks): https://www.tipranks.com/news/october-pce-report-sets-final-inflation-test-before-december-fed-rate-decision
+· Federal Reserve November calendar (Federal Reserve): https://www.federalreserve.gov/newsevents/2026-november.htm
+· DIGITIMES 주요 기사 (DIGITIMES): https://www.digitimes.com/
+
+그림 대응(PDF 쪽 번호): 그림1=요약, 그림2=이슈1(1/2), 그림3=이슈1(2/2), 그림4=이슈2(1/2), 그림5=이슈2(2/2), 그림6=메가테크, 그림7=모빌리티, 그림8=AI 소프트웨어, 그림9=AI 인프라(1/2), 그림10=AI 인프라(2/2), 그림11=반도체(1/2), 그림12=반도체(2/2)
