@@ -1,5 +1,5 @@
 {
- "last_ts": 1795583295,
+ "last_ts": 1795586944,
  "posted": [
   {
    "date": "2026-11-22",
@@ -192,6 +192,12 @@
    "ticker": "NVDA",
    "topic": "[후속] 트럼프 엔비디아 정부 지분 검토·젠슨 황 사면 선택지(NY Post)",
    "url": "https://blog.naver.com/yidiar/224490965356"
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "SKHY",
+   "topic": "코스피 6.16% 급락 4,697.51, 삼성전자 -9.87%·SK하이닉스 -11.05%, 외국인 1.9조 순매도",
+   "url": "https://blog.naver.com/yidiar/224491625665"
   }
  ]
 }
