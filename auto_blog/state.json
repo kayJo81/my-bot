@@ -1,5 +1,5 @@
 {
- "last_ts": 1795630137,
+ "last_ts": 1795633634,
  "posted": [
   {
    "date": "2026-11-22",
@@ -240,6 +240,12 @@
    "ticker": "SPCX",
    "topic": "FCC 스페이스X 스타마인드 궤도 데이터센터 위성 최대 100만 기 승인",
    "url": "https://blog.naver.com/yidiar/224492343596"
+  },
+  {
+   "date": "2026-11-26",
+   "ticker": "NVDA",
+   "topic": "[후속] S&P 엔비디아 AA 크레딧워치 네거티브(지배구조), 밴스·부커 발언",
+   "url": "https://blog.naver.com/yidiar/224492405141"
   }
  ]
 }
