@@ -31,6 +31,8 @@ for x in sorted(items, key=lambda x: x["ts"]):
     text = (x.get("h") or "") + " | " + (x.get("ko") or "")
     if re.search(r"苹果(连续|主力|期货|合约)|期货.*苹果|苹果.*期货", x.get("h") or ""):  # 사과 선물: 번역문의 'Apple'도 무시
         text = re.sub(r"(?i)apple|애플|苹果", "", text)
+    if "中微" in (x.get("h") or "") and "美光" not in (x.get("h") or ""):  # 中微公司(AMEC)가 번역에서 마이크론으로 오역
+        text = re.sub(r"(?i)micron|마이크론", "", text)
     for tk, (g, p) in pats.items():
         if p.search(text):
             out.setdefault(tk, {"group": g, "items": []})["items"].append({
