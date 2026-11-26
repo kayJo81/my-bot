@@ -1,5 +1,5 @@
 {
- "last_ts": 1795705716,
+ "last_ts": 1795709336,
  "posted": [
   {
    "date": "2026-11-22",
@@ -264,6 +264,18 @@
    "ticker": "NVDA",
    "topic": "[후속] FT: 엔비디아 동남아 4개국 서버 출하 중단, 새 수출 규정 대응",
    "url": "https://blog.naver.com/yidiar/224493082381"
+  },
+  {
+   "date": "2026-11-27",
+   "ticker": "NVDA",
+   "topic": "[후속] CNBC: 칩 판매업체, 중국 임대 있으면 네오클라우드에 엔비디아 칩 공급 안 해(BIS 원격접근 규정)",
+   "url": "https://blog.naver.com/yidiar/224493901082"
+  },
+  {
+   "date": "2026-11-27",
+   "ticker": "TSLA",
+   "topic": "테슬라 TAD EU TCMV 12/15 회의 표결 가능, 12개국 허용·28.7%",
+   "url": "https://blog.naver.com/yidiar/224493901715"
   }
  ]
 }
