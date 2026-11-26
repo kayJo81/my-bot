@@ -1,5 +1,5 @@
 {
- "last_ts": 1795666174,
+ "last_ts": 1795669714,
  "posted": [
   {
    "date": "2026-11-22",
@@ -258,6 +258,12 @@
    "ticker": "NVDA",
    "topic": "[후속] WP: 국방부 DPA로 엔비디아 이사회 압박 검토, 국방부 부인",
    "url": "https://blog.naver.com/yidiar/224492621168"
+  },
+  {
+   "date": "2026-11-26",
+   "ticker": "NVDA",
+   "topic": "[후속] FT: 엔비디아 동남아 4개국 서버 출하 중단, 새 수출 규정 대응",
+   "url": "https://blog.naver.com/yidiar/224493082381"
   }
  ]
 }
