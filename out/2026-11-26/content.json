@@ -1,0 +1,835 @@
+{
+ "date": "2026-11-26",
+ "window": "15:30~21:22 KST",
+ "mail_to": "yidiar80k@gmail.com",
+ "summary": [
+  "미국 추수감사절 휴장, 지수선물은 나스닥 100 +0.59%·S&P +0.41%(16:39)",
+  "301조 관세 한국·일본·EU 15% 상한 유지에 유럽 +1.7%·대만 +2.5% 반등",
+  "키옥시아 +12.6%·소프트뱅크 +7.3%, 코스피는 한은 금리 인상 속 +0.3%에 그쳐",
+  "영란은행 \"AI 금융은 복잡·순환·불투명\" 경고, 소프트뱅크 CDS 536.6bp로 확대",
+  "DIGITIMES \"엔비디아, 동남아 4개국 서버 출하 중단 요청\"(FT 인용)"
+ ],
+ "checklist": [
+  "27일 미국 조기 폐장(13:00 ET, 28일 03:00 KST)",
+  "29일(일) 증안펀드 긴급 투자관리위원회",
+  "30일(월) EU 세프코비치, 미 무역당국과 직접 협의",
+  "12월 1일 마벨 실적·황 하원 면담, 3일 상원 은행위",
+  "12월 4일 미국 11월 고용보고서"
+ ],
+ "issues": [
+  {
+   "title": "관세 '15% 상한' 확인, 아시아·유럽 반도체 반등",
+   "subtitle": "[신규] 미국 휴장 속 대만 +2.5% · 유럽 +1.7% · 키옥시아 +12.6%",
+   "timeline": [
+    {
+     "t": "15:30",
+     "text": "코스피 +0.29% 4,711.21 마감, 장중 4,800선 뒤 상승폭 반납"
+    },
+    {
+     "t": "16:10",
+     "text": "중국 상무부 \"301조 조사는 일방주의, 단호히 반대\""
+    },
+    {
+     "t": "16:31",
+     "text": "EU 세프코비치 \"합의한 15% 존중 중요\", 30일 미국과 협의"
+    },
+    {
+     "t": "19:20",
+     "text": "유럽 STOXX 600 +1.7%, 기술·은행주 주도"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "대만 가권",
+     "value": "+2.50%",
+     "note": "[배경] 39,151.81, 외국인 9거래일 연속 순매도",
+     "dir": "up"
+    },
+    {
+     "label": "닛케이 225",
+     "value": "+0.86%",
+     "note": "57,499.16, 키옥시아 +12.6%",
+     "dir": "up"
+    },
+    {
+     "label": "STOXX 600",
+     "value": "+1.7%",
+     "note": "19:20 KST, 636.44",
+     "dir": "up"
+    },
+    {
+     "label": "나스닥 100 선물",
+     "value": "+0.59%",
+     "note": "16:39 KST, S&P 선물 +0.41%",
+     "dir": "up"
+    }
+   ],
+   "cause": [
+    "USTR안에서 한국·일본·EU·스위스는 기존 합의의 15% 상한 유지",
+    "전날 미국 장중 급락분 대부분 회복, JP모건 \"AI주 2개월 내 반등 전망\"",
+    "키옥시아는 엔비디아와 AI 메모리 기술검증(PoC) 소식에 급등"
+   ],
+   "chips": [
+    {
+     "name": "키옥시아",
+     "chg": "+12.57%"
+    },
+    {
+     "name": "소프트뱅크",
+     "chg": "+7.32%"
+    },
+    {
+     "name": "SK하이닉스",
+     "chg": "+2.23%"
+    },
+    {
+     "name": "ASML",
+     "chg": "+3.22%"
+    },
+    {
+     "name": "인피니언",
+     "chg": "+4.47%"
+    }
+   ],
+   "checks": [
+    "중국 보복 조치 구체화 여부",
+    "30일 EU·미국 협의 결과",
+    "27일 조기 폐장 미국 반응"
+   ],
+   "source": "AP, 로이터(Investing.com), CNBC, FinancialJuice, 시나"
+  },
+  {
+   "title": "영란은행, 'AI 금융은 순환적·불투명' 경고",
+   "subtitle": "[신규] 금융안정보고서 · 소프트뱅크 CDS 확대 · 피치 \"네오클라우드 임차인 위험\"",
+   "timeline": [
+    {
+     "t": "16:24",
+     "text": "골드만, 델 목표가 510달러로 하향(매수 유지)"
+    },
+    {
+     "t": "17:06",
+     "text": "소프트뱅크 5년 CDS 23.6bp 오른 536.6bp"
+    },
+    {
+     "t": "18:27",
+     "text": "피치 \"네오클라우드 임차인 약세 길어지면 임대료·갱신 영향\""
+    },
+    {
+     "t": "19:31",
+     "text": "영란은행 \"AI 금융 갈수록 복잡·순환·불투명\""
+    }
+   ],
+   "metrics": [
+    {
+     "label": "소프트뱅크 5년 CDS",
+     "value": "536.6bp",
+     "note": "17:06 KST, +23.6bp",
+     "dir": "up"
+    },
+    {
+     "label": "오라클 5년 CDS",
+     "value": "356bp",
+     "note": "[배경] 25일 사상 최고",
+     "dir": "up"
+    },
+    {
+     "label": "코어위브 2031년 회사채",
+     "value": "17.91%",
+     "note": "[배경] 25일 수익률",
+     "dir": "up"
+    },
+    {
+     "label": "델 목표가(골드만)",
+     "value": "510달러",
+     "note": "매수 유지, 25일 종가 297.06달러",
+     "dir": ""
+    }
+   ],
+   "cause": [
+    "영란은행: AI 부채·국가 차입·고금리 위험이 7월보다 커져",
+    "\"최근 하락에도 주식 밸류에이션은 일부 지표상 여전히 높아\"",
+    "베일리 총재 \"AI 시장 집중도 높아, 엔비디아 상황은 미국의 문제\""
+   ],
+   "chips": [
+    {
+     "name": "오라클(25일)",
+     "chg": "-5.13%"
+    },
+    {
+     "name": "코어위브(25일)",
+     "chg": "-0.08%"
+    },
+    {
+     "name": "델(25일)",
+     "chg": "+0.60%"
+    }
+   ],
+   "checks": [
+    "미국 개장 뒤 AI 기업 CDS 추가 확대 여부",
+    "코어위브 45억 달러 대출 판매(다음 주)",
+    "황 청문회 전 엔비디아 신용등급"
+   ],
+   "source": "영란은행, FinancialJuice, 시나"
+  }
+ ],
+ "sections": {
+  "megatech": [
+   {
+    "company": "엔비디아",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "DIGITIMES(FT 인용): 협력사에 말레이시아·싱가포르·태국·인도네시아향 서버 출하 중단 요청"
+     },
+     {
+      "label": "사실",
+      "text": "DIGITIMES: 19일 시행 BIS 규정으로 고객 심사 강화, AI 서버 출하 지연"
+     },
+     {
+      "label": "사실",
+      "text": "베일리 영란은행 총재 \"엔비디아에서 일어난 일은 미국의 문제\""
+     },
+     {
+      "label": "배경",
+      "text": "S&P, 지배구조 문제로 AA 등급 하향 검토(25일), 25일 −3.91%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "엔비디아(25일)",
+      "chg": "-3.91%"
+     }
+    ],
+    "source": "DIGITIMES, FinancialJuice, Benzinga"
+   },
+   {
+    "company": "애플 · 아마존 · 메타",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "DIGITIMES: 삼성디스플레이, 아이폰 폴더블 패널 5년간 단독 공급 가능성"
+     },
+     {
+      "label": "배경",
+      "text": "아마존·메타, 쇼핑 AI 에이전트 Muse의 아마존 접근 재허용 협상 보도(25일)"
+     },
+     {
+      "label": "영향",
+      "text": "25일 메타 +3.40%, 아마존은 AWS 트래픽 둔화 지적에 −3.12%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "메타(25일)",
+      "chg": "+3.40%"
+     },
+     {
+      "name": "애플(25일)",
+      "chg": "+0.43%"
+     },
+     {
+      "name": "아마존(25일)",
+      "chg": "-3.12%"
+     }
+    ],
+    "source": "DIGITIMES, TechCrunch"
+   }
+  ],
+  "mobility": [
+   {
+    "company": "테슬라 · 스페이스X",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "머스크, 스페이스X 주식 \"계속 보유하라\" 권고(17:27)"
+     },
+     {
+      "label": "배경",
+      "text": "25일 EU, FSD 승인 논의 12월 15일로 연기"
+     },
+     {
+      "label": "배경",
+      "text": "합병 희석 우려에 테슬라 장중 −5%대에서 −1.18%로 마감, 스페이스X는 FCC 위성 승인에 반등"
+     }
+    ],
+    "chips": [
+     {
+      "name": "테슬라(25일)",
+      "chg": "-1.18%"
+     },
+     {
+      "name": "스페이스X(25일)",
+      "chg": "+1.30%"
+     }
+    ],
+    "source": "시나, Electrek, Benzinga"
+   },
+   {
+    "company": "화웨이 · 중국 자율주행",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "화웨이, 새 스마트 드라이빙 브랜드 출시 예정(19:50)"
+     },
+     {
+      "label": "사실",
+      "text": "광치혼다 신관다오, 모멘타 자율주행 솔루션 탑재(18:26)"
+     },
+     {
+      "label": "배경",
+      "text": "리오토, 3분기 매출 288억 위안·4분기 흑자 전환 예고에 25일 +11.03%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "리오토(25일)",
+      "chg": "+11.03%"
+     }
+    ],
+    "source": "시나, CnEVPost"
+   }
+  ],
+  "ai_software": [
+   {
+    "company": "중국 AI · 알리바바",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "중국 국가데이터국, AI 기업의 양질 데이터 비용 지불 장려안 의견 수렴(19:38)"
+     },
+     {
+      "label": "사실",
+      "text": "알리바바, 북미 채용 강화… Qwen 팀 올해 AI 인재 수백 명 채용(20:38)"
+     },
+     {
+      "label": "사실",
+      "text": "텐센트 훈위안, DFly2 오픈소스 공개(15:36)"
+     }
+    ],
+    "chips": [
+     {
+      "name": "알리바바(홍콩)",
+      "chg": "+1.6%"
+     },
+     {
+      "name": "텐센트(홍콩)",
+      "chg": "+1.1%"
+     }
+    ],
+    "source": "FinancialJuice, 시나, The Standard"
+   },
+   {
+    "company": "앤트로픽 · 팔란티어",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "앤트로픽, 25일 장중 −9.6% 뒤 공모가 83달러 회복해 +1.08%"
+     },
+     {
+      "label": "사실",
+      "text": "영국 당국, 팔란티어 대체 자체 소프트웨어 검토(19:33)"
+     },
+     {
+      "label": "영향",
+      "text": "25일 소프트웨어 IGV −0.35%, 오라클 −5.13%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "앤트로픽(25일)",
+      "chg": "+1.08%"
+     },
+     {
+      "name": "팔란티어(25일)",
+      "chg": "+1.50%"
+     }
+    ],
+    "source": "시나, Investing.com"
+   }
+  ],
+  "ai_infra": [
+   {
+    "company": "델 · 서버",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "골드만, 델 목표가 510달러로 하향, 매수 의견 유지(16:24)"
+     },
+     {
+      "label": "배경",
+      "text": "25일 도이체·BofA·RBC·웰스파고 등 목표가 하향, 장 초반 −7.9%에서 +0.60% 마감"
+     },
+     {
+      "label": "배경",
+      "text": "4분기 ISG 영업이익률 가이던스 약 15%(3분기 17%)"
+     }
+    ],
+    "chips": [
+     {
+      "name": "델(25일)",
+      "chg": "+0.60%"
+     },
+     {
+      "name": "HP(25일)",
+      "chg": "+11.49%"
+     }
+    ],
+    "source": "시나, TipRanks"
+   },
+   {
+    "company": "데이터센터 · 칩 규제",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "피치 \"미국 칩 규제로 아시아 데이터센터 투자 속도 둔화\"(20:13)"
+     },
+     {
+      "label": "사실",
+      "text": "피치 \"화웨이 어센드가 해외 시설의 엔비디아를 빠르게 대체하긴 어려워\""
+     },
+     {
+      "label": "사실",
+      "text": "중국 광둥성, 컴퓨팅 센터에 국산 AI 칩 우선 사용 장려(17:05)"
+     }
+    ],
+    "chips": [
+     {
+      "name": "코어위브(25일)",
+      "chg": "-0.08%"
+     },
+     {
+      "name": "네비우스(25일)",
+      "chg": "-2.66%"
+     }
+    ],
+    "source": "FinancialJuice, 시나"
+   }
+  ],
+  "semis": [
+   {
+    "company": "한국 · 일본 · 대만",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "코스피 +0.29% 4,711.21, SK하이닉스 +2.23% 105만 3천 원, 삼성전자 +0.35%"
+     },
+     {
+      "label": "배경",
+      "text": "한국은행 기준금리 25bp 인상해 3.25%"
+     },
+     {
+      "label": "사실",
+      "text": "금융위, 29일 증안펀드 긴급 투자관리위원회 소집, 매입 규모·시점 미정"
+     },
+     {
+      "label": "사실",
+      "text": "키옥시아 +12.6%, 어드밴테스트 +4.6%, 대만 TSMC는 −0.23%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "SK하이닉스",
+      "chg": "+2.23%"
+     },
+     {
+      "name": "삼성전자",
+      "chg": "+0.35%"
+     },
+     {
+      "name": "키옥시아",
+      "chg": "+12.57%"
+     },
+     {
+      "name": "TSMC",
+      "chg": "-0.23%"
+     }
+    ],
+    "source": "AP, 이데일리, 코리아타임스, MTN, MLQ"
+   },
+   {
+    "company": "삼성 · 메모리",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "삼성전자, 메모리개발담당 폐지하고 D램·플래시 개발을 사업부장 직속으로, 시스템LSI 영업 확대"
+     },
+     {
+      "label": "사실",
+      "text": "DIGITIMES: 마이크론·삼성·SK하이닉스, 고객 선지급 다년 공급계약 확대"
+     },
+     {
+      "label": "사실",
+      "text": "DIGITIMES: SK하이닉스, HBM 베이스다이용 TSMC 3나노 경험 확보 추진"
+     },
+     {
+      "label": "배경",
+      "text": "25일 트렌드포스 2027년 D램·NAND 전망 하향에 마이크론 −4.53%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "마이크론(25일)",
+      "chg": "-4.53%"
+     },
+     {
+      "name": "샌디스크(25일)",
+      "chg": "-5.57%"
+     }
+    ],
+    "source": "코리아중앙데일리, DIGITIMES"
+   },
+   {
+    "company": "유럽 반도체 · ASML",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "ASML +3%대, 인피니언 +4%대, BESI·ASMI 등 유럽 반도체 동반 상승"
+     },
+     {
+      "label": "사실",
+      "text": "네덜란드, 미국 MATCH 법안이 통과돼도 효력 저지 시도 방침(19:49)"
+     },
+     {
+      "label": "배경",
+      "text": "25일 MATCH 법안 우려에 램리서치 −5.68%, ASML −2.47%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "ASML(암스테르담)",
+      "chg": "+3.22%"
+     },
+     {
+      "name": "인피니언",
+      "chg": "+4.47%"
+     }
+    ],
+    "source": "CNBC, 시나, 야후 파이낸스"
+   }
+  ],
+  "others": []
+ },
+ "empty_notes": {},
+ "greeting": "2026년 11월 26일 목요일 개장 전 주요 소식입니다.\n한국 장 마감(15:30)부터 21:22까지 나온 소식을 모았어요.\n오늘 미국 증시는 추수감사절로 휴장하며, 미국 종목 등락률은 25일(수) 종가 기준입니다.",
+ "commentary": {
+  "summary": "오늘 미국 증시는 추수감사절로 쉬지만, 전날 나스닥이 장중 4.6% 빠졌다가 대부분 회복한 흐름이 아시아·유럽으로 이어졌어요. 미국의 301조 관세안에서 한국·일본·EU가 기존 15% 상한을 지키게 된 점이 확인되며 대만과 유럽 반도체가 크게 올랐습니다. 반면 영란은행은 AI 금융이 갈수록 복잡하고 순환적이라고 경고했고, 소프트뱅크 CDS도 다시 넓어졌어요.",
+  "issue1": [
+   "미국무역대표부가 14개 경제권에 301조 관세를 제안했지만 한국·일본·EU·스위스는 기존 무역합의의 15% 상한이 유지됐어요. 중국은 단호히 반대하며 대응 권리를 남겨 뒀고, EU는 다음 주 월요일 미국과 직접 협의하겠다고 밝혔습니다.",
+   "아시아에서는 대만이 2.5%, 닛케이가 0.9% 올랐고 키옥시아는 엔비디아와의 AI 메모리 협업 소식에 12% 넘게 뛰었어요. 코스피는 한국은행의 기준금리 인상과 개인 매도 속에 0.3% 오르는 데 그쳤습니다. 유럽은 기술주와 은행주가 함께 오르며 STOXX 600이 1.7% 상승 중이에요."
+  ],
+  "issue2": [
+   "영란은행은 금융안정보고서에서 AI 관련 자금조달이 갈수록 복잡하고 순환적이며 불투명해지고 있다고 경고했어요. AI 부채와 국가 차입, 고금리에서 오는 위험이 7월보다 커졌고, 최근 하락에도 주식 밸류에이션이 여전히 높다는 평가입니다.",
+   "시장에서도 비슷한 신호가 이어졌어요. 소프트뱅크 5년 CDS는 536.6bp로 다시 넓어졌고, 피치는 네오클라우드 임차인의 약세가 길어지면 데이터센터 임대료와 재계약에 영향을 줄 수 있다고 봤습니다. 전날 오라클과 코어위브의 CDS가 사상 최고를 기록한 만큼, 미국 개장 뒤 신용시장 흐름을 함께 봐야 할 것 같아요."
+  ],
+  "megatech": [
+   "DIGITIMES는 FT를 인용해 엔비디아가 협력사들에 말레이시아·싱가포르·태국·인도네시아향 서버 출하를 멈추라고 했다고 전했어요. 중국 기업의 AI 연산 임대를 막는 미국 새 규정 이후 고객 심사가 강화되면서 AI 서버 출하가 늦어지고 있다는 보도도 나왔습니다. 엔비디아는 전날 S&P의 신용등급 하향 검토 속에 3.9% 내렸어요.",
+   "애플 관련해서는 삼성디스플레이가 아이폰 폴더블 패널을 5년간 단독 공급할 수 있다는 DIGITIMES 보도가 나왔어요. 전날 메타는 아마존과의 Muse 협상 보도에 3.4% 올랐고, 아마존은 AWS 트래픽 둔화 지적에 3.1% 내렸습니다."
+  ],
+  "mobility": "머스크는 스페이스X 주주들에게 주식을 계속 보유하라고 권했어요. 전날 테슬라는 스페이스X와의 합병에 따른 지분 희석 우려로 장중 5% 넘게 빠졌다가 낙폭을 줄였고, EU의 FSD 승인 논의는 12월 15일로 밀렸습니다. 중국에서는 화웨이가 새 자율주행 브랜드를 예고했어요.",
+  "ai_software": "중국 국가데이터국은 AI 기업이 양질의 데이터에 비용을 지불하도록 장려하는 방안을 내놓고 의견을 받고 있어요. 알리바바는 북미 채용을 늘리며 Qwen 팀에 올해 수백 명의 AI 인재를 뽑았습니다. 앤트로픽은 전날 장중 9.6%까지 빠졌다가 공모가를 되찾으며 1% 올라 마감했어요.",
+  "ai_infra": "골드만삭스도 델 목표가를 510달러로 낮추며 실적 발표 뒤 목표가 하향 행렬에 합류했어요. 델은 전날 장 초반 8% 가까이 빠졌다가 소폭 상승으로 마감했습니다. 피치는 미국의 칩 규제가 아시아 데이터센터 투자 속도를 늦출 것으로 봤고, 화웨이 칩이 해외 시설에서 엔비디아를 빠르게 대체하긴 어렵다고 평가했어요.",
+  "semis": [
+   "한국은행이 기준금리를 3.25%로 올린 가운데 코스피는 장중 4,800선까지 올랐다가 상승폭을 대부분 반납했어요. 개인이 1조 원 넘게 팔았고, 금융위원회는 29일 증안펀드 긴급 투자관리위원회를 소집했지만 매입 규모와 시점은 정해지지 않았습니다. 일본에서는 키옥시아와 소프트뱅크가 급등했어요.",
+   "삼성전자는 메모리개발담당 자리를 없애고 D램·플래시 개발을 메모리사업부장 직속으로 바꾸는 조직 개편을 했어요. DIGITIMES는 메모리 3사가 고객으로부터 수년 치를 미리 받는 장기 공급계약을 늘리고 있다고 전했습니다. 전날 트렌드포스의 전망 하향과는 다른 방향의 신호예요.",
+   "유럽에서는 ASML과 인피니언 등 반도체주가 3~4% 오르고 있어요. 네덜란드는 미국의 반도체 장비 수출 규제 법안(MATCH)이 통과되더라도 효력을 막겠다는 입장을 밝혔습니다. 전날 이 법안 우려로 램리서치와 ASML이 크게 밀렸던 터라, 미국 장비주의 다음 거래일 반응도 지켜볼 만해요."
+  ]
+ },
+ "sources": [
+  {
+   "title": "Asian shares rebound led by AI stocks after Wall Street pares sharp losses",
+   "outlet": "AP",
+   "url": "https://www.ksat.com/business/2026/11/26/asian-shares-rebound-led-by-ai-stocks-after-wall-street-pares-sharp-losses/"
+  },
+  {
+   "title": "KOSPI close 11/26",
+   "outlet": "이데일리",
+   "url": "https://en.edaily.co.kr/news/eda202611265534/"
+  },
+  {
+   "title": "KOSPI rebounds slightly despite BOK's rate hike",
+   "outlet": "코리아타임스",
+   "url": "https://www.koreatimes.co.kr/economy/20261126/kospi-rebounds-slightly-despite-boks-rate-hike"
+  },
+  {
+   "title": "증안펀드 긴급 투자관리위원회",
+   "outlet": "MTN",
+   "url": "https://news.mtn.co.kr/article/2026112619032039358"
+  },
+  {
+   "title": "Taiex jumps 2.5% and Nikkei gains 0.9% as Asian chip stocks rebound",
+   "outlet": "MLQ",
+   "url": "https://mlq.ai/news/taiex-jumps-25-and-nikkei-gains-09-as-asian-chip-stocks-rebound/"
+  },
+  {
+   "title": "Kioxia jumps after Nvidia collaboration",
+   "outlet": "Investing.com",
+   "url": "https://www.investing.com/news/stock-market-news/kioxia-jumps-14-after-nvidia-collaboration-as-chip-stocks-rebound-5052074"
+  },
+  {
+   "title": "Taiwan foreign net selling",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrm3770467.d.html"
+  },
+  {
+   "title": "Hong Kong shares close higher",
+   "outlet": "The Standard",
+   "url": "https://www.thestandard.com.hk/finance/article/349756/Hong-Kong-shares-close-higher"
+  },
+  {
+   "title": "European stocks rally as tech and banks rebound, tariff fears ease",
+   "outlet": "로이터(Investing.com)",
+   "url": "https://www.investing.com/news/economy-news/european-stocks-rally-as-tech-and-banks-rebound-tariff-fears-ease-5052228"
+  },
+  {
+   "title": "Stock markets today",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html"
+  },
+  {
+   "title": "European semiconductor stocks rise",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inkaaaxi3692476.d.html"
+  },
+  {
+   "title": "ASML quote",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/ASML.AS/"
+  },
+  {
+   "title": "Infineon quote",
+   "outlet": "야후 파이낸스",
+   "url": "https://finance.yahoo.com/quote/IFX.DE/"
+  },
+  {
+   "title": "S&P 500 futures edge higher as tariff relief offsets Nvidia risks",
+   "outlet": "JournalArta",
+   "url": "https://journalarta.com/en/2026/11/26/sp-500-futures-edge-higher-as-tariff-relief-offsets-nvidia-risks/"
+  },
+  {
+   "title": "US proposes broad Section 301 tariffs on 14 trading partners",
+   "outlet": "Particle",
+   "url": "https://particle.news/story/us-proposes-broad-section-301-tariffs-on-14-trading-partners"
+  },
+  {
+   "title": "China rejects new 20% US tariff plan",
+   "outlet": "MLQ",
+   "url": "https://mlq.ai/news/china-rejects-new-20-us-tariff-plan-reserves-right-to-respond/"
+  },
+  {
+   "title": "EU's Sefcovic: important to respect 15% tariff",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9869016/EUs-Trade-Chief-Sefcovic-Its-important-to-respect-15-tariff-concluded-with-the-US.aspx?xy=rss"
+  },
+  {
+   "title": "Korea challenges US claims of state-led manufacturing overcapacity",
+   "outlet": "코리아타임스",
+   "url": "https://www.koreatimes.co.kr/economy/others/20261126/korea-challenges-us-claims-of-state-led-manufacturing-overcapacity"
+  },
+  {
+   "title": "JPMorgan expects AI stocks to rebound within two months",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrc8964770.d.html"
+  },
+  {
+   "title": "JPMorgan AI stocks rebound note",
+   "outlet": "Longbridge",
+   "url": "https://longbridge.com/en/news/306874759"
+  },
+  {
+   "title": "Financial Stability Report November 2026",
+   "outlet": "영란은행",
+   "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/november-2026"
+  },
+  {
+   "title": "BoE warns AI financing is increasingly complex, circular, opaque",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9869247/BoE-warns-AI-financing-is-increasingly-complex-circular-opaque.aspx?xy=rss"
+  },
+  {
+   "title": "BoE Gov. Bailey: AI markets are very concentrated",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9869293/BoE-Gov-Bailey-AI-markets-are-very-concentrated-what-has-gone-on-at-Nvidia-is-a-matter-for-the-US.aspx?xy=rss"
+  },
+  {
+   "title": "SoftBank 5-year CDS widens to 536.6bp",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inkaaaxc1382512.d.html"
+  },
+  {
+   "title": "Fitch on US chip controls: neocloud tenants",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9869162/Fitch-on-US-chip-controls-Prolonged-weakness-at-neocloud-tenants-could-affect-lease-payments-renewals-and-occupancy.aspx?xy=rss"
+  },
+  {
+   "title": "Fitch: Huawei Ascend unlikely to substitute rapidly for Nvidia",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9869163/Fitch-on-US-Chip-Controls-Huaweis-ascend-chips-unlikely-to-substitute-rapidly-for-NVIDIA-hardware-in-overseas-facilities.aspx?xy=rss"
+  },
+  {
+   "title": "Fitch: US chip curbs to slow Asia data center investment",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inkaaiff3696387.d.html"
+  },
+  {
+   "title": "Goldman cuts Dell target to $510",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrh8243307.d.html"
+  },
+  {
+   "title": "Dell price target slashed by several analysts",
+   "outlet": "TipRanks",
+   "url": "https://www.tipranks.com/news/dell-stock-price-target-slashed-by-several-analysts-despite-earnings-beat"
+  },
+  {
+   "title": "Oracle shares drop as CDS spreads hit record",
+   "outlet": "StreetInsider",
+   "url": "https://www.streetinsider.com/Investing/Oracle+shares+drop+as+credit+default+swap+spreads+hit+record/27399784.html"
+  },
+  {
+   "title": "CoreWeave banks line up $4.5 billion Meta-backed loan",
+   "outlet": "TipRanks",
+   "url": "https://www.tipranks.com/news/coreweave-banks-line-up-4-5-billion-meta-backed-loan-as-bond-yields-hit-18"
+  },
+  {
+   "title": "Guangdong encourages domestic computing chips",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inkaaawz8913616.d.html"
+  },
+  {
+   "title": "Nvidia halts server shipments to Southeast Asia",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261126VL220/nvidia-chips-manufacturing-shipping-data.html"
+  },
+  {
+   "title": "BIS rules delay AI server shipments",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261126PD214/supply-chain-gpu-data-center-gtc-data.html"
+  },
+  {
+   "title": "S&P places Nvidia on negative credit watch",
+   "outlet": "Benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63659241/sp-global-ratings-nvidia-negative-credit-watch-moodys-jensen-huang-return"
+  },
+  {
+   "title": "Samsung Display iPhone Duo foldable supplier",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261126VL225/sdc-apple-iphone-duo-foldable-smartphone-supplier.html"
+  },
+  {
+   "title": "Amazon and Meta in talks over Muse",
+   "outlet": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse"
+  },
+  {
+   "title": "Musk: keep holding SpaceX shares",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inkaaaxi3713159.d.html"
+  },
+  {
+   "title": "EU delays Tesla FSD vote to December 15",
+   "outlet": "Electrek",
+   "url": "https://electrek.co/2026/11/25/eu-delays-tesla-fsd-vote-december-15-tcmv/"
+  },
+  {
+   "title": "SpaceX shares drop Wednesday",
+   "outlet": "Benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63627528/spacex-shares-drop-wednesday-whats-going-on"
+  },
+  {
+   "title": "Huawei to launch new smart-driving brand",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inkaaiez1392495.d.html"
+  },
+  {
+   "title": "GAC Honda to adopt Momenta",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inkaaaxe8232946.d.html"
+  },
+  {
+   "title": "Li Auto Q3 2026 earnings",
+   "outlet": "CnEVPost",
+   "url": "https://cnevpost.com/2026/11/25/li-auto-q3-2026-earnings/"
+  },
+  {
+   "title": "China proposes encouraging AI firms to pay for quality data",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9869262/China-proposes-encouraging-AI-firms-to-pay-for-quality-data.aspx?xy=rss"
+  },
+  {
+   "title": "Alibaba steps up North America hiring",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inkaaifa8201446.d.html"
+  },
+  {
+   "title": "Tencent Hunyuan DFly2 open source",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrf1412028.d.html"
+  },
+  {
+   "title": "UK explores alternative to Palantir",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inkaaifa8157293.d.html"
+  },
+  {
+   "title": "Anthropic stock",
+   "outlet": "Investing.com",
+   "url": "https://www.investing.com/equities/anthropic"
+  },
+  {
+   "title": "Samsung reshuffles memory, System LSI teams",
+   "outlet": "코리아중앙데일리",
+   "url": "https://www.koreajoongangdaily.com/business/samsung-reshuffles-memory-system-lsi-teams-to-sharpen-ai-chip-push/12993221"
+  },
+  {
+   "title": "Chipmakers sign multiyear supply deals",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261126VL222/sk-hynix-micron-chipmakers-demand-chips.html"
+  },
+  {
+   "title": "SK hynix seeks TSMC 3nm expertise",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261126VL224/sk-hynix-tsmc-micron-3nm-hbm.html"
+  },
+  {
+   "title": "TrendForce cuts 2027 DRAM forecast",
+   "outlet": "The Inference",
+   "url": "https://theinference.org/article/trendforce-cuts-2027-dram-forecast-to-1-15-trillion-as-chinese-cloud-providers-cut-orders"
+  },
+  {
+   "title": "Netherlands to try to block MATCH Act",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inkaaiez1391723.d.html"
+  },
+  {
+   "title": "Dutch official: US chip bill harms European interests",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inkaaiez1437154.d.html"
+  },
+  {
+   "title": "Applied Materials falls as China chip curbs hit equipment stocks",
+   "outlet": "24/7 Wall St",
+   "url": "https://247wallst.com/investing/2026/11/25/applied-materials-falls-6-despite-ubss-575-target-as-china-chip-curbs-hit-equipment-stocks-lam-research-drops-7-kla-edges-lower/"
+  },
+  {
+   "title": "Stock market Thanksgiving 2026 hours",
+   "outlet": "Newsweek",
+   "url": "https://www.newsweek.com/stock-market-thanksgiving-2026-12761725"
+  },
+  {
+   "title": "DIGITIMES 주요 기사",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/"
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+2026년 11월 26일 개장 전 섹터별 이슈체크
+
+2026년 11월 26일 목요일 개장 전 주요 소식입니다.
+한국 장 마감(15:30)부터 21:22까지 나온 소식을 모았어요.
+오늘 미국 증시는 추수감사절로 휴장하며, 미국 종목 등락률은 25일(수) 종가 기준입니다.
+
+[그림1]
+
+오늘 미국 증시는 추수감사절로 쉬지만, 전날 나스닥이 장중 4.6% 빠졌다가 대부분 회복한 흐름이 아시아·유럽으로 이어졌어요. 미국의 301조 관세안에서 한국·일본·EU가 기존 15% 상한을 지키게 된 점이 확인되며 대만과 유럽 반도체가 크게 올랐습니다. 반면 영란은행은 AI 금융이 갈수록 복잡하고 순환적이라고 경고했고, 소프트뱅크 CDS도 다시 넓어졌어요.
+
+[그림2]
+
+미국무역대표부가 14개 경제권에 301조 관세를 제안했지만 한국·일본·EU·스위스는 기존 무역합의의 15% 상한이 유지됐어요. 중국은 단호히 반대하며 대응 권리를 남겨 뒀고, EU는 다음 주 월요일 미국과 직접 협의하겠다고 밝혔습니다.
+
+[그림3]
+
+아시아에서는 대만이 2.5%, 닛케이가 0.9% 올랐고 키옥시아는 엔비디아와의 AI 메모리 협업 소식에 12% 넘게 뛰었어요. 코스피는 한국은행의 기준금리 인상과 개인 매도 속에 0.3% 오르는 데 그쳤습니다. 유럽은 기술주와 은행주가 함께 오르며 STOXX 600이 1.7% 상승 중이에요.
+
+[그림4]
+
+영란은행은 금융안정보고서에서 AI 관련 자금조달이 갈수록 복잡하고 순환적이며 불투명해지고 있다고 경고했어요. AI 부채와 국가 차입, 고금리에서 오는 위험이 7월보다 커졌고, 최근 하락에도 주식 밸류에이션이 여전히 높다는 평가입니다.
+
+[그림5]
+
+시장에서도 비슷한 신호가 이어졌어요. 소프트뱅크 5년 CDS는 536.6bp로 다시 넓어졌고, 피치는 네오클라우드 임차인의 약세가 길어지면 데이터센터 임대료와 재계약에 영향을 줄 수 있다고 봤습니다. 전날 오라클과 코어위브의 CDS가 사상 최고를 기록한 만큼, 미국 개장 뒤 신용시장 흐름을 함께 봐야 할 것 같아요.
+
+[그림6]
+
+DIGITIMES는 FT를 인용해 엔비디아가 협력사들에 말레이시아·싱가포르·태국·인도네시아향 서버 출하를 멈추라고 했다고 전했어요. 중국 기업의 AI 연산 임대를 막는 미국 새 규정 이후 고객 심사가 강화되면서 AI 서버 출하가 늦어지고 있다는 보도도 나왔습니다. 엔비디아는 전날 S&P의 신용등급 하향 검토 속에 3.9% 내렸어요.
+
+[그림7]
+
+애플 관련해서는 삼성디스플레이가 아이폰 폴더블 패널을 5년간 단독 공급할 수 있다는 DIGITIMES 보도가 나왔어요. 전날 메타는 아마존과의 Muse 협상 보도에 3.4% 올랐고, 아마존은 AWS 트래픽 둔화 지적에 3.1% 내렸습니다.
+
+[그림8]
+
+머스크는 스페이스X 주주들에게 주식을 계속 보유하라고 권했어요. 전날 테슬라는 스페이스X와의 합병에 따른 지분 희석 우려로 장중 5% 넘게 빠졌다가 낙폭을 줄였고, EU의 FSD 승인 논의는 12월 15일로 밀렸습니다. 중국에서는 화웨이가 새 자율주행 브랜드를 예고했어요.
+
+[그림9]
+
+중국 국가데이터국은 AI 기업이 양질의 데이터에 비용을 지불하도록 장려하는 방안을 내놓고 의견을 받고 있어요. 알리바바는 북미 채용을 늘리며 Qwen 팀에 올해 수백 명의 AI 인재를 뽑았습니다. 앤트로픽은 전날 장중 9.6%까지 빠졌다가 공모가를 되찾으며 1% 올라 마감했어요.
+
+[그림10]
+
+골드만삭스도 델 목표가를 510달러로 낮추며 실적 발표 뒤 목표가 하향 행렬에 합류했어요. 델은 전날 장 초반 8% 가까이 빠졌다가 소폭 상승으로 마감했습니다. 피치는 미국의 칩 규제가 아시아 데이터센터 투자 속도를 늦출 것으로 봤고, 화웨이 칩이 해외 시설에서 엔비디아를 빠르게 대체하긴 어렵다고 평가했어요.
+
+[그림11]
+
+한국은행이 기준금리를 3.25%로 올린 가운데 코스피는 장중 4,800선까지 올랐다가 상승폭을 대부분 반납했어요. 개인이 1조 원 넘게 팔았고, 금융위원회는 29일 증안펀드 긴급 투자관리위원회를 소집했지만 매입 규모와 시점은 정해지지 않았습니다. 일본에서는 키옥시아와 소프트뱅크가 급등했어요.
+
+[그림12]
+
+삼성전자는 메모리개발담당 자리를 없애고 D램·플래시 개발을 메모리사업부장 직속으로 바꾸는 조직 개편을 했어요. DIGITIMES는 메모리 3사가 고객으로부터 수년 치를 미리 받는 장기 공급계약을 늘리고 있다고 전했습니다. 전날 트렌드포스의 전망 하향과는 다른 방향의 신호예요.
+
+[그림13]
+
+유럽에서는 ASML과 인피니언 등 반도체주가 3~4% 오르고 있어요. 네덜란드는 미국의 반도체 장비 수출 규제 법안(MATCH)이 통과되더라도 효력을 막겠다는 입장을 밝혔습니다. 전날 이 법안 우려로 램리서치와 ASML이 크게 밀렸던 터라, 미국 장비주의 다음 거래일 반응도 지켜볼 만해요.
+
+출처 링크 (2026-11-26 KST)
+· Asian shares rebound led by AI stocks after Wall Street pares sharp losses (AP): https://www.ksat.com/business/2026/11/26/asian-shares-rebound-led-by-ai-stocks-after-wall-street-pares-sharp-losses/
+· KOSPI close 11/26 (이데일리): https://en.edaily.co.kr/news/eda202611265534/
+· KOSPI rebounds slightly despite BOK's rate hike (코리아타임스): https://www.koreatimes.co.kr/economy/20261126/kospi-rebounds-slightly-despite-boks-rate-hike
+· 증안펀드 긴급 투자관리위원회 (MTN): https://news.mtn.co.kr/article/2026112619032039358
+· Taiex jumps 2.5% and Nikkei gains 0.9% as Asian chip stocks rebound (MLQ): https://mlq.ai/news/taiex-jumps-25-and-nikkei-gains-09-as-asian-chip-stocks-rebound/
+· Kioxia jumps after Nvidia collaboration (Investing.com): https://www.investing.com/news/stock-market-news/kioxia-jumps-14-after-nvidia-collaboration-as-chip-stocks-rebound-5052074
+· Taiwan foreign net selling (시나): https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrm3770467.d.html
+· Hong Kong shares close higher (The Standard): https://www.thestandard.com.hk/finance/article/349756/Hong-Kong-shares-close-higher
+· European stocks rally as tech and banks rebound, tariff fears ease (로이터(Investing.com)): https://www.investing.com/news/economy-news/european-stocks-rally-as-tech-and-banks-rebound-tariff-fears-ease-5052228
+· Stock markets today (CNBC): https://www.cnbc.com/2026/11/26/stock-markets-today-.html
+· European semiconductor stocks rise (시나): https://finance.sina.cn/7x24/2026-11-26/detail-inkaaaxi3692476.d.html
+· ASML quote (야후 파이낸스): https://finance.yahoo.com/quote/ASML.AS/
+· Infineon quote (야후 파이낸스): https://finance.yahoo.com/quote/IFX.DE/
+· S&P 500 futures edge higher as tariff relief offsets Nvidia risks (JournalArta): https://journalarta.com/en/2026/11/26/sp-500-futures-edge-higher-as-tariff-relief-offsets-nvidia-risks/
+· US proposes broad Section 301 tariffs on 14 trading partners (Particle): https://particle.news/story/us-proposes-broad-section-301-tariffs-on-14-trading-partners
+· China rejects new 20% US tariff plan (MLQ): https://mlq.ai/news/china-rejects-new-20-us-tariff-plan-reserves-right-to-respond/
+· EU's Sefcovic: important to respect 15% tariff (FinancialJuice): https://www.financialjuice.com/News/9869016/EUs-Trade-Chief-Sefcovic-Its-important-to-respect-15-tariff-concluded-with-the-US.aspx?xy=rss
+· Korea challenges US claims of state-led manufacturing overcapacity (코리아타임스): https://www.koreatimes.co.kr/economy/others/20261126/korea-challenges-us-claims-of-state-led-manufacturing-overcapacity
+· JPMorgan expects AI stocks to rebound within two months (시나): https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrc8964770.d.html
+· JPMorgan AI stocks rebound note (Longbridge): https://longbridge.com/en/news/306874759
+· Financial Stability Report November 2026 (영란은행): https://www.bankofengland.co.uk/financial-stability-report/2026/november-2026
+· BoE warns AI financing is increasingly complex, circular, opaque (FinancialJuice): https://www.financialjuice.com/News/9869247/BoE-warns-AI-financing-is-increasingly-complex-circular-opaque.aspx?xy=rss
+· BoE Gov. Bailey: AI markets are very concentrated (FinancialJuice): https://www.financialjuice.com/News/9869293/BoE-Gov-Bailey-AI-markets-are-very-concentrated-what-has-gone-on-at-Nvidia-is-a-matter-for-the-US.aspx?xy=rss
+· SoftBank 5-year CDS widens to 536.6bp (시나): https://finance.sina.cn/7x24/2026-11-26/detail-inkaaaxc1382512.d.html
+· Fitch on US chip controls: neocloud tenants (FinancialJuice): https://www.financialjuice.com/News/9869162/Fitch-on-US-chip-controls-Prolonged-weakness-at-neocloud-tenants-could-affect-lease-payments-renewals-and-occupancy.aspx?xy=rss
+· Fitch: Huawei Ascend unlikely to substitute rapidly for Nvidia (FinancialJuice): https://www.financialjuice.com/News/9869163/Fitch-on-US-Chip-Controls-Huaweis-ascend-chips-unlikely-to-substitute-rapidly-for-NVIDIA-hardware-in-overseas-facilities.aspx?xy=rss
+· Fitch: US chip curbs to slow Asia data center investment (시나): https://finance.sina.cn/7x24/2026-11-26/detail-inkaaiff3696387.d.html
+· Goldman cuts Dell target to $510 (시나): https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrh8243307.d.html
+· Dell price target slashed by several analysts (TipRanks): https://www.tipranks.com/news/dell-stock-price-target-slashed-by-several-analysts-despite-earnings-beat
+· Oracle shares drop as CDS spreads hit record (StreetInsider): https://www.streetinsider.com/Investing/Oracle+shares+drop+as+credit+default+swap+spreads+hit+record/27399784.html
+· CoreWeave banks line up $4.5 billion Meta-backed loan (TipRanks): https://www.tipranks.com/news/coreweave-banks-line-up-4-5-billion-meta-backed-loan-as-bond-yields-hit-18
+· Guangdong encourages domestic computing chips (시나): https://finance.sina.cn/7x24/2026-11-26/detail-inkaaawz8913616.d.html
+· Nvidia halts server shipments to Southeast Asia (DIGITIMES): https://www.digitimes.com/news/a20261126VL220/nvidia-chips-manufacturing-shipping-data.html
+· BIS rules delay AI server shipments (DIGITIMES): https://www.digitimes.com/news/a20261126PD214/supply-chain-gpu-data-center-gtc-data.html
+· S&P places Nvidia on negative credit watch (Benzinga): https://www.benzinga.com/markets/tech/26/11/63659241/sp-global-ratings-nvidia-negative-credit-watch-moodys-jensen-huang-return
+· Samsung Display iPhone Duo foldable supplier (DIGITIMES): https://www.digitimes.com/news/a20261126VL225/sdc-apple-iphone-duo-foldable-smartphone-supplier.html
+· Amazon and Meta in talks over Muse (TechCrunch): https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse
+· Musk: keep holding SpaceX shares (시나): https://finance.sina.cn/7x24/2026-11-26/detail-inkaaaxi3713159.d.html
+· EU delays Tesla FSD vote to December 15 (Electrek): https://electrek.co/2026/11/25/eu-delays-tesla-fsd-vote-december-15-tcmv/
+· SpaceX shares drop Wednesday (Benzinga): https://www.benzinga.com/trading-ideas/movers/26/11/63627528/spacex-shares-drop-wednesday-whats-going-on
+· Huawei to launch new smart-driving brand (시나): https://finance.sina.cn/7x24/2026-11-26/detail-inkaaiez1392495.d.html
+· GAC Honda to adopt Momenta (시나): https://finance.sina.cn/7x24/2026-11-26/detail-inkaaaxe8232946.d.html
+· Li Auto Q3 2026 earnings (CnEVPost): https://cnevpost.com/2026/11/25/li-auto-q3-2026-earnings/
+· China proposes encouraging AI firms to pay for quality data (FinancialJuice): https://www.financialjuice.com/News/9869262/China-proposes-encouraging-AI-firms-to-pay-for-quality-data.aspx?xy=rss
+· Alibaba steps up North America hiring (시나): https://finance.sina.cn/7x24/2026-11-26/detail-inkaaifa8201446.d.html
+· Tencent Hunyuan DFly2 open source (시나): https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrf1412028.d.html
+· UK explores alternative to Palantir (시나): https://finance.sina.cn/7x24/2026-11-26/detail-inkaaifa8157293.d.html
+· Anthropic stock (Investing.com): https://www.investing.com/equities/anthropic
+· Samsung reshuffles memory, System LSI teams (코리아중앙데일리): https://www.koreajoongangdaily.com/business/samsung-reshuffles-memory-system-lsi-teams-to-sharpen-ai-chip-push/12993221
+· Chipmakers sign multiyear supply deals (DIGITIMES): https://www.digitimes.com/news/a20261126VL222/sk-hynix-micron-chipmakers-demand-chips.html
+· SK hynix seeks TSMC 3nm expertise (DIGITIMES): https://www.digitimes.com/news/a20261126VL224/sk-hynix-tsmc-micron-3nm-hbm.html
+· TrendForce cuts 2027 DRAM forecast (The Inference): https://theinference.org/article/trendforce-cuts-2027-dram-forecast-to-1-15-trillion-as-chinese-cloud-providers-cut-orders
+· Netherlands to try to block MATCH Act (시나): https://finance.sina.cn/7x24/2026-11-26/detail-inkaaiez1391723.d.html
+· Dutch official: US chip bill harms European interests (시나): https://finance.sina.cn/7x24/2026-11-26/detail-inkaaiez1437154.d.html
+· Applied Materials falls as China chip curbs hit equipment stocks (24/7 Wall St): https://247wallst.com/investing/2026/11/25/applied-materials-falls-6-despite-ubss-575-target-as-china-chip-curbs-hit-equipment-stocks-lam-research-drops-7-kla-edges-lower/
+· Stock market Thanksgiving 2026 hours (Newsweek): https://www.newsweek.com/stock-market-thanksgiving-2026-12761725
+· DIGITIMES 주요 기사 (DIGITIMES): https://www.digitimes.com/
+
+그림 대응(PDF 쪽 번호): 그림1=요약, 그림2=이슈1(1/2), 그림3=이슈1(2/2), 그림4=이슈2(1/2), 그림5=이슈2(2/2), 그림6=메가테크(1/2), 그림7=메가테크(2/2), 그림8=모빌리티, 그림9=AI 소프트웨어, 그림10=AI 인프라, 그림11=반도체(1/3), 그림12=반도체(2/3), 그림13=반도체(3/3)
