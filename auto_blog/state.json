@@ -1,5 +1,5 @@
 {
- "last_ts": 1795648075,
+ "last_ts": 1795651779,
  "posted": [
   {
    "date": "2026-11-22",
@@ -252,6 +252,12 @@
    "ticker": "MKT",
    "topic": "(사용자 요청) 11월 26일 미국 증시 동향 PDF",
    "url": "https://blog.naver.com/yidiar/224492520600"
+  },
+  {
+   "date": "2026-11-26",
+   "ticker": "NVDA",
+   "topic": "[후속] WP: 국방부 DPA로 엔비디아 이사회 압박 검토, 국방부 부인",
+   "url": "https://blog.naver.com/yidiar/224492621168"
   }
  ]
 }
