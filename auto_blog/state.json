@@ -1,5 +1,5 @@
 {
- "last_ts": 1795727336,
+ "last_ts": 1795730542,
  "posted": [
   {
    "date": "2026-11-22",
@@ -276,6 +276,18 @@
    "ticker": "TSLA",
    "topic": "테슬라 TAD EU TCMV 12/15 회의 표결 가능, 12개국 허용·28.7%",
    "url": "https://blog.naver.com/yidiar/224493901715"
+  },
+  {
+   "date": "2026-11-27",
+   "ticker": "SPCX",
+   "topic": "머스크 '매년 모든 미국 어린이에게 스페이스X 1주 더', 트럼프 계좌 2주 기부(회사 신주+머스크 매칭)",
+   "url": "https://blog.naver.com/yidiar/224494052197"
+  },
+  {
+   "date": "2026-11-27",
+   "ticker": "ANT",
+   "topic": "제라(JERA), 앤트로픽·메타와 발전소 옆 데이터센터 협의(닛케이), 지바 400MW MOU",
+   "url": "https://blog.naver.com/yidiar/224494053353"
   }
  ]
 }
