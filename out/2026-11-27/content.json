@@ -1,0 +1,787 @@
+{
+ "date": "2026-11-27",
+ "window": "15:30~21:22 KST",
+ "mail_to": "yidiar80k@gmail.com",
+ "summary": [
+  "수요일 급락 뒤 AI주 반등, 나스닥 100 선물 +2.85%(17:50)·엔비디아 프리마켓 한때 +4.5%",
+  "중국 국무원 증시 안정 의지에 창업판 +11.6%·항셍테크 +6.5%, 코스피 +4.3%",
+  "블룸버그 \"상하이 데이터센터에 블랙웰 설치\" 보도, 엔비디아 상승폭 2% 아래로",
+  "델·HP·슈퍼마이크로 프리마켓 +5~7%, 광통신·네오클라우드도 강세",
+  "USTR 301조안, 광주 반도체 클러스터 거론… 한국산 최대 15%, 반도체는 제외 보도"
+ ],
+ "checklist": [
+  "오늘 13:00 ET(28일 03:00 KST) 조기 폐장, 블랙프라이데이",
+  "29일(일) 증안펀드 긴급 투자관리위원회",
+  "30일 MSCI 지수 변경(스트래티지 편출), EU·미국 관세 협의",
+  "12월 1일 황 하원 증언·마벨 실적",
+  "12월 2일 스노우플레이크 실적, 4일 11월 고용보고서"
+ ],
+ "issues": [
+  {
+   "title": "AI주 저가 매수에 중국 부양까지, 나스닥 선물 +2.8%",
+   "subtitle": "[신규] 수요일 급락 뒤 첫 거래일 · 아시아 급등 · 금 +4%",
+   "timeline": [
+    {
+     "t": "15:30",
+     "text": "코스피 +4.34% 4,915.68, 외국인 1조 1,256억 원 순매수"
+    },
+    {
+     "t": "16:01",
+     "text": "상하이 +3.73%, 선전 +7.24%, 창업판 +11.61% 마감"
+    },
+    {
+     "t": "17:50",
+     "text": "나스닥 100 선물 +2.85%, S&P +2.00%, 다우 +1.30%"
+    },
+    {
+     "t": "20:46",
+     "text": "엔비디아 프리마켓 상승폭 2% 아래로 축소"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "나스닥 100 선물",
+     "value": "+2.85%",
+     "note": "17:50 KST, 20:47에도 3대 지수 +1% 이상",
+     "dir": "up"
+    },
+    {
+     "label": "코스피",
+     "value": "+4.34%",
+     "note": "삼성전자 +4.55%, SK하이닉스 +5.41%",
+     "dir": "up"
+    },
+    {
+     "label": "항셍테크",
+     "value": "+6.54%",
+     "note": "항셍 +2.08%",
+     "dir": "up"
+    },
+    {
+     "label": "뉴욕 금 선물",
+     "value": "+4.0%",
+     "note": "17:23 KST, 3,707.30달러",
+     "dir": "up"
+    }
+   ],
+   "cause": [
+    "[배경] 트럼프 \"곧 황과 통화할 것\", 이전 시장 하락에 우려 표명(08:54)",
+    "[배경] 중국 국무원, 국가대표팀·중앙회금의 시장 안정 역할 강화 방침(13:22)",
+    "수요일 장중 −4.6% 뒤 AI주 저가 매수, 나스닥 100은 11월 약 −8%"
+   ],
+   "chips": [
+    {
+     "name": "엔비디아",
+     "chg": "+4.5%"
+    },
+    {
+     "name": "AMD",
+     "chg": "+6.8%"
+    },
+    {
+     "name": "델",
+     "chg": "+7.1%"
+    },
+    {
+     "name": "SK하이닉스",
+     "chg": "+5.41%"
+    },
+    {
+     "name": "삼성전자",
+     "chg": "+4.55%"
+    }
+   ],
+   "checks": [
+    "조기 폐장까지 상승 유지 여부",
+    "트럼프·황 통화 내용",
+    "29일 증안펀드 회의 결과"
+   ],
+   "source": "시나, 코리아헤럴드, 블룸버그, FinancialJuice"
+  },
+  {
+   "title": "블룸버그, 상하이 데이터센터에서 블랙웰 발견",
+   "subtitle": "[신규] 미국 블랙리스트 Megaspeed 연관 부지 · 엔비디아 상승폭 축소",
+   "timeline": [
+    {
+     "t": "18:11",
+     "text": "엔비디아 프리마켓 +4.5%, AMD +6.8%"
+    },
+    {
+     "t": "20:46",
+     "text": "엔비디아 상승폭 2% 아래로 빠르게 축소"
+    },
+    {
+     "t": "20:47",
+     "text": "블룸버그 \"중국 업체 2곳, 상하이 부지에 블랙웰 설치\""
+    },
+    {
+     "t": "12/1",
+     "text": "황 하원 증언 예정"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "설치 장비",
+     "value": "GB300 랙 1대",
+     "note": "GB300 NVL72 랙과 GB200 서버",
+     "dir": ""
+    },
+    {
+     "label": "담보 대출",
+     "value": "9,600만 위안",
+     "note": "약 1,400만 달러, GB300 랙 담보",
+     "dir": ""
+    },
+    {
+     "label": "엔비디아 프리마켓",
+     "value": "+4.5% → 2% 미만",
+     "note": "18:11 → 20:46 KST",
+     "dir": ""
+    },
+    {
+     "label": "10월 고점 대비",
+     "value": "−37.6%",
+     "note": "[배경] 25일 종가 149.30달러",
+     "dir": "down"
+    }
+   ],
+   "cause": [
+    "상하이 업체 2곳이 쑹장 데이터센터에 설치, 중국 당국 제출 서류의 일련번호로 확인",
+    "앨리스 황과 연결된 Megaspeed(이달 미국 블랙리스트 등재) 관련 부지",
+    "블룸버그는 Megaspeed의 칩 전용 증거는 없다고 밝혔고, 회사는 부인"
+   ],
+   "chips": [
+    {
+     "name": "엔비디아",
+     "chg": "+4.5%"
+    }
+   ],
+   "checks": [
+    "상무부·의회 반응",
+    "엔비디아 공식 해명 여부",
+    "12월 1일 황 증언에서 수출통제 질의"
+   ],
+   "source": "블룸버그, Investing.com, FinancialJuice, 시나"
+  }
+ ],
+ "sections": {
+  "megatech": [
+   {
+    "company": "엔비디아",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "프리마켓 18:11 +4.5%에서 20:46 2% 미만으로 상승폭 축소"
+     },
+     {
+      "label": "배경",
+      "text": "트럼프 \"곧 황과 통화할 것\", 황은 \"엔비디아 복귀에 기뻐해\""
+     },
+     {
+      "label": "배경",
+      "text": "25일 −3.91% 149.30달러, S&P 신용등급 하향 검토"
+     },
+     {
+      "label": "체크",
+      "text": "12월 1일 황 하원 증언, 2일 법무총괄 증언"
+     }
+    ],
+    "chips": [
+     {
+      "name": "엔비디아",
+      "chg": "+4.5%"
+     }
+    ],
+    "source": "시나, FinancialJuice, Axios"
+   },
+   {
+    "company": "빅테크 · 애플",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "메타 프리마켓 +4% 넘게(19:44), 알파벳·아마존·MSFT·오라클도 +2~5%"
+     },
+     {
+      "label": "사실",
+      "text": "3분기 미국 스마트폰 출하 전년 대비 −9%, 애플 점유율 57%로 상승(19:42)"
+     },
+     {
+      "label": "배경",
+      "text": "25일 메타 +3.40%, 아마존 −3.12%, 알파벳 −2.13%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "메타",
+      "chg": ""
+     },
+     {
+      "name": "애플",
+      "chg": ""
+     }
+    ],
+    "source": "시나, Irish Times"
+   }
+  ],
+  "mobility": [
+   {
+    "company": "중국 로봇 · 전기차",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "유니트리 상한가(20%), 중국 휴머노이드 로봇주 일제히 강세(15:35)"
+     },
+     {
+      "label": "사실",
+      "text": "SAIC MG, 2027년 1월부터 중국 내수용 내연기관차 생산 중단(16:59)"
+     },
+     {
+      "label": "사실",
+      "text": "로봇 스타트업 Sota Wujie, 엔젤 투자 유치… 3년 내 유럽 슈퍼마켓에 로봇 수천 대 배치 계획"
+     }
+    ],
+    "chips": [],
+    "source": "시나"
+   },
+   {
+    "company": "테슬라 · 우주",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "미국 우주 관련주 개장 전 전반적 상승(18:00)"
+     },
+     {
+      "label": "배경",
+      "text": "25일 테슬라 −1.18%, 스페이스X는 FCC 위성 승인에 +1.30%"
+     },
+     {
+      "label": "체크",
+      "text": "12월 15일 EU FSD 승인 논의"
+     }
+    ],
+    "chips": [
+     {
+      "name": "테슬라(25일)",
+      "chg": "-1.18%"
+     },
+     {
+      "name": "스페이스X(25일)",
+      "chg": "+1.30%"
+     }
+    ],
+    "source": "시나, Electrek"
+   }
+  ],
+  "ai_software": [
+   {
+    "company": "앤트로픽 · JERA",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "앤트로픽 프리마켓 +3.6% 85.73달러, 공모가 83달러 위로"
+     },
+     {
+      "label": "사실",
+      "text": "DIGITIMES: 일본 JERA, 앤트로픽·메타와 AI 데이터센터 전력 협의(15:41)"
+     },
+     {
+      "label": "배경",
+      "text": "25일 장중 −9.6% 뒤 +1.08% 마감"
+     }
+    ],
+    "chips": [
+     {
+      "name": "앤트로픽",
+      "chg": "+3.6%"
+     }
+    ],
+    "source": "Forbes, DIGITIMES"
+   },
+   {
+    "company": "알리바바 · 팔란티어",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "알리바바 ADR 프리마켓 +5% 넘게 90.6달러(18:33), 중국 부양 기대"
+     },
+     {
+      "label": "사실",
+      "text": "폴란드 장관 \"팔란티어 계약 규모 약 3억 달러\"(21:06)"
+     },
+     {
+      "label": "체크",
+      "text": "12월 2일 스노우플레이크 3분기 실적"
+     }
+    ],
+    "chips": [
+     {
+      "name": "알리바바",
+      "chg": "+5%"
+     }
+    ],
+    "source": "시나, 스노우플레이크"
+   }
+  ],
+  "ai_infra": [
+   {
+    "company": "서버",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "주초 매도 뒤 서버주 프리마켓 반등: 델 +7.1%, HP +5.5%, 슈퍼마이크로 +5.8%(18:26)"
+     },
+     {
+      "label": "배경",
+      "text": "델, 실적 뒤 4분기 ISG 이익률 하향 가이던스에 목표가 하향 잇따라"
+     }
+    ],
+    "chips": [
+     {
+      "name": "델",
+      "chg": "+7.1%"
+     },
+     {
+      "name": "HP",
+      "chg": "+5.5%"
+     },
+     {
+      "name": "SMCI",
+      "chg": "+5.8%"
+     }
+    ],
+    "source": "시나, TipRanks"
+   },
+   {
+    "company": "네오클라우드 · 광통신",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "광통신·컴퓨팅 클라우드 관련주 개장 전 전반적 상승(18:00)"
+     },
+     {
+      "label": "사실",
+      "text": "애플라이드디지털 +9.2%, 코어사이언티픽 +6.7%, 허트에이트 +7.4%"
+     },
+     {
+      "label": "사실",
+      "text": "DIGITIMES: 실리콘 포토닉스·CPO 장비, 2027년 양산 준비(16:53)"
+     }
+    ],
+    "chips": [
+     {
+      "name": "애플라이드디지털",
+      "chg": "+9.2%"
+     }
+    ],
+    "source": "시나, DIGITIMES"
+   }
+  ],
+  "semis": [
+   {
+    "company": "한국 · 일본 · 대만 · 중국",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "코스피 +4.34% 4,915.68, 삼성전자 +4.55% 17만 9,100원, SK하이닉스 +5.41% 111만 원"
+     },
+     {
+      "label": "사실",
+      "text": "닛케이 +2.11%, 키옥시아 +8.9%·어드밴테스트 +7.1%"
+     },
+     {
+      "label": "배경",
+      "text": "대만 가권 +0.40%, TSMC +1.63%"
+     },
+     {
+      "label": "사실",
+      "text": "중국 창업판 +11.61%, 반도체 ETF 상한가"
+     }
+    ],
+    "chips": [
+     {
+      "name": "SK하이닉스",
+      "chg": "+5.41%"
+     },
+     {
+      "name": "삼성전자",
+      "chg": "+4.55%"
+     },
+     {
+      "name": "TSMC",
+      "chg": "+1.63%"
+     }
+    ],
+    "source": "코리아헤럴드, 코리아타임스, Focus Taiwan, 시나"
+   },
+   {
+    "company": "메모리",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "UBS, 마이크론 목표가 하향, 매수 의견 유지(16:26)"
+     },
+     {
+      "label": "사실",
+      "text": "조사기관 \"수요 가시성 낮아 2028년 D램 고정가 하락 위험 커져\"(16:29)"
+     },
+     {
+      "label": "사실",
+      "text": "SK하이닉스 \"솔리드다임 미국 NAND 신규 공장 결정 안 해\"(17:40)"
+     },
+     {
+      "label": "영향",
+      "text": "미국 메모리·저장장치주 개장 전 전반적 상승(18:00)"
+     }
+    ],
+    "chips": [
+     {
+      "name": "마이크론(25일)",
+      "chg": "-4.53%"
+     }
+    ],
+    "source": "시나"
+   },
+   {
+    "company": "관세 · 장비 · 유럽",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "USTR 301조안, 광주(호남) 반도체 클러스터 거론… 한국산 최대 15%, 협의 불충분 시 25%"
+     },
+     {
+      "label": "의미",
+      "text": "반도체는 232조 대상이라 제외된다는 보도, 미국 내 공장 압박 해석"
+     },
+     {
+      "label": "사실",
+      "text": "유럽 기술주 +2.3%, ASML·ASMI·인피니언 +3.8~4.5%"
+     },
+     {
+      "label": "사실",
+      "text": "DIGITIMES: 중국 반도체 증설, 장비 대기 2년에 지연"
+     }
+    ],
+    "chips": [],
+    "source": "서울경제, 로이터(Investing.com), DIGITIMES"
+   }
+  ],
+  "others": [
+   {
+    "company": "비트코인",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "비트코인 +2.35%, 6만 2천 달러 넘어서(17:17)"
+     },
+     {
+      "label": "배경",
+      "text": "MSCI, 30일 마감 뒤 스트래티지를 주요 지수에서 편출"
+     }
+    ],
+    "chips": [
+     {
+      "name": "비트코인",
+      "chg": "+2.35%"
+     }
+    ],
+    "source": "시나, 코인텔레그래프"
+   }
+  ]
+ },
+ "empty_notes": {},
+ "greeting": "2026년 11월 27일 금요일 개장 전 주요 소식입니다.\n한국 장 마감(15:30)부터 21:22까지 나온 소식을 모았어요.\n미국 증시는 추수감사절 다음 날로 13시(ET)에 조기 폐장하며, 프리마켓 등락률은 수요일 종가 대비이고 시각을 함께 적었습니다.",
+ "commentary": {
+  "summary": "추수감사절 휴장을 마치고 미국 증시가 다시 열리는 날, 수요일 급락했던 AI주로 저가 매수가 들어오며 나스닥 100 선물이 한때 2.8% 넘게 올랐어요. 중국 국무원이 증시 안정 의지를 밝히자 중국·홍콩 기술주가 급등했고, 코스피도 4% 넘게 올랐습니다. 다만 저녁에 블룸버그가 상하이 데이터센터에서 블랙웰이 발견됐다고 보도하면서 엔비디아의 상승폭은 줄었어요.",
+  "issue1": [
+   "오늘 반등은 두 갈래에서 나왔어요. 수요일 나스닥이 장중 4.6%까지 빠진 뒤 AI주로 저가 매수가 이어졌고, 트럼프 대통령은 이전 시장 하락에 우려를 나타내며 곧 젠슨황과 통화하겠다고 말했습니다. 여기에 중국 국무원이 낮 시간에 이례적으로 '국가대표팀'과 중앙회금의 시장 안정 역할을 강화하겠다고 밝히면서 아시아 증시가 크게 올랐어요.",
+   "코스피는 외국인이 9월 이후 가장 많은 1조 1천억 원 넘게 사들이며 4.34% 올랐고, 중국 창업판은 11% 넘게 뛰었습니다. 금 선물도 4% 오르며 3,700달러를 다시 넘었어요. 다만 나스닥 100은 11월 들어 여전히 8% 안팎 빠져 있어, 거래 시간이 짧은 오늘 반등이 얼마나 유지될지가 관건입니다."
+  ],
+  "issue2": [
+   "블룸버그는 중국 업체 두 곳이 상하이 쑹장의 데이터센터에 엔비디아 GB300 NVL72 랙과 GB200 서버를 설치했다고 보도했어요. 중국 당국에 낸 서류의 일련번호로 확인됐고, GB300 랙은 약 1,400만 달러 대출의 담보로 잡혀 있었습니다.",
+   "이 부지는 앨리스 황과 연결된 Megaspeed와 관련이 있는데, 이 회사는 이달 미국 블랙리스트에 올랐어요. 블룸버그는 Megaspeed가 칩을 빼돌렸다는 증거는 찾지 못했다고 밝혔고, 회사는 부인했습니다. 보도 직전 엔비디아의 프리마켓 상승폭이 2% 아래로 줄었는데, 시점은 겹치지만 직접 원인이라고 밝힌 보도는 없어요. 12월 1일 황의 하원 증언에서 수출통제 문제가 다시 다뤄질 가능성이 커졌습니다."
+  ],
+  "megatech": "엔비디아는 프리마켓에서 한때 4.5% 올랐다가 블랙웰 관련 보도 무렵 상승폭이 2% 아래로 줄었어요. 메타는 4% 넘게 오르고 있고 다른 빅테크도 2~5% 반등하고 있습니다. 애플은 3분기 미국 스마트폰 출하가 9% 줄어든 가운데 점유율을 57%로 끌어올렸다는 집계가 나왔어요.",
+  "mobility": "중국에서는 유니트리가 상한가를 기록하며 휴머노이드 로봇주가 일제히 올랐어요. SAIC MG는 2027년부터 중국 내수용 내연기관차 생산을 멈추기로 했습니다. 미국 우주 관련주도 개장 전 오름세를 보이고 있어요.",
+  "ai_software": "앤트로픽은 프리마켓에서 3% 넘게 올라 공모가 83달러를 다시 웃돌고 있어요. DIGITIMES는 일본 최대 발전사 JERA가 앤트로픽·메타와 AI 데이터센터 전력 공급을 협의하고 있다고 전했습니다. 알리바바 ADR은 중국 부양 기대에 5% 넘게 오르고 있어요.",
+  "ai_infra": "주초 HPE와 델의 마진 우려로 급락했던 서버주가 프리마켓에서 5~7% 반등하고 있어요. 광통신과 네오클라우드 관련주도 개장 전 오름세를 보이고 있습니다. 다만 이번 반등은 애널리스트 의견 변화보다 저가 매수 성격이 강해 보여요.",
+  "semis": [
+   "한국에서는 삼성전자와 SK하이닉스가 4~5% 올랐고, 정부의 증안펀드 확대 검토 보도가 투자심리를 받쳤어요. 일본에서는 키옥시아와 어드밴테스트가 7~9% 올랐고, 중국은 반도체 ETF가 상한가를 기록했습니다. 대만은 0.4% 오르는 데 그쳤어요.",
+   "메모리 쪽에서는 UBS가 마이크론 목표가를 낮췄고, 대만의 한 조사기관은 2028년 D램 고정가 하락 위험이 커졌다고 봤어요. 미국 301조 관세안은 광주(호남) 반도체 클러스터를 거론했지만 반도체 자체는 제외된다는 보도가 나왔습니다. 유럽에서는 ASML·인피니언 등 반도체주가 4% 안팎 오르고 있어요."
+  ],
+  "others": "비트코인은 위험자산 반등과 함께 2% 넘게 올라 6만 2천 달러를 넘었어요. MSCI는 30일 장 마감 뒤 스트래티지를 주요 지수에서 빼기로 했어요."
+ },
+ "sources": [
+  {
+   "title": "US futures rise: Nasdaq 100 +2.8%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaefwi3186189.d.html"
+  },
+  {
+   "title": "US index futures all up more than 1%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaesnc3149026.d.html"
+  },
+  {
+   "title": "Stock futures surge as battered AI shares rebound",
+   "outlet": "Forbes",
+   "url": "https://www.forbes.com/sites/siladityaray/2026/11/27/stock-futures-surge-as-battered-ai-shares-rebound-ahead-of-shorterned-friday-trading/"
+  },
+  {
+   "title": "Stocks extend recovery on AI trade rebound",
+   "outlet": "Irish Times",
+   "url": "https://www.irishtimes.com/business/markets/2026/11/27/stocks-extend-recovery-on-ai-trade-rebound/"
+  },
+  {
+   "title": "Trump expressed concern about earlier market declines",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9869849/Trump-expressed-concern-about-earlier-market-declines.aspx?xy=rss"
+  },
+  {
+   "title": "China's cabinet stresses market support in midday release",
+   "outlet": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-27/china-s-cabinet-stresses-market-support-in-midday-release"
+  },
+  {
+   "title": "State Council meeting on capital market",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaczqf1056553.d.html"
+  },
+  {
+   "title": "A-share close: ChiNext +11.61%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaefwc1060361.d.html"
+  },
+  {
+   "title": "Hong Kong close: HS Tech +6.54%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaefwe7904116.d.html"
+  },
+  {
+   "title": "KOSPI surges over 4%",
+   "outlet": "코리아헤럴드",
+   "url": "https://www.koreaherald.com/article/10952169"
+  },
+  {
+   "title": "KOSPI surges over 4%, KOSDAQ gains 8% on hopes for market stabilization fund",
+   "outlet": "코리아타임스",
+   "url": "https://www.koreatimes.co.kr/economy/20261127/kospi-surges-over-4-kosdaq-gains-top-8-on-hopes-for-market-stabilization-fund"
+  },
+  {
+   "title": "South Korea reportedly mulls expanding stock stabilization fund",
+   "outlet": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-27/south-korea-reportedly-mulls-expanding-stock-stabilization-fund"
+  },
+  {
+   "title": "Nikkei, Lasertec",
+   "outlet": "Vibiznews",
+   "url": "https://vibiznews.com/index.php/2026/11/27/nikkei-menguat-dua-hari-beruntun-investor-borong-saham-ai-lasertec-meroket-10/"
+  },
+  {
+   "title": "Asian markets: Chinese chip stocks surge",
+   "outlet": "finanzen.net",
+   "url": "https://www.finanzen.net/nachricht/aktien/maerkte-asien-weiter-aufwaerts-chinesische-chipwerte-haussieren-16089705"
+  },
+  {
+   "title": "Taiex closes up 0.40%",
+   "outlet": "Focus Taiwan",
+   "url": "https://focustaiwan.tw/business/202611270014"
+  },
+  {
+   "title": "NY gold futures up 4%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaefwc1140055.d.html"
+  },
+  {
+   "title": "Nvidia +4.5%, AMD +6.8% premarket",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaencz1048387.d.html"
+  },
+  {
+   "title": "Nvidia gain narrows below 2%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaesmy7807634.d.html"
+  },
+  {
+   "title": "Nvidia Blackwell chips turn up at China site tied to Alice Huang",
+   "outlet": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang"
+  },
+  {
+   "title": "Nvidia Blackwell chips found in Shanghai data center",
+   "outlet": "Investing.com",
+   "url": "https://ca.investing.com/news/stock-market-news/nvidia-blackwell-chips-found-in-shanghai-data-center-tied-to-alice-huang-4983310"
+  },
+  {
+   "title": "Two Chinese firms installed Blackwell GPUs at Shanghai site",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9870527/Two-Chinese-firms-installed-the-high-end-NVIDIA-Blackwell-GPUs-at-the-Shanghai-site-NVDA.aspx?xy=rss"
+  },
+  {
+   "title": "Nvidia Huang Congress testify dates",
+   "outlet": "Axios",
+   "url": "https://axios.com/2026/11/17/nvidia-jensen-huang-congress-testify-dates"
+  },
+  {
+   "title": "S&P places Nvidia on negative credit watch",
+   "outlet": "Benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63659241/sp-global-ratings-nvidia-negative-credit-watch-moodys-jensen-huang-return"
+  },
+  {
+   "title": "Meta premarket +4%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaenef3240194.d.html"
+  },
+  {
+   "title": "US smartphone shipments Q3, Apple share 57%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaencz1122852.d.html"
+  },
+  {
+   "title": "Unitree limit up, humanoid robots",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaefwc1039813.d.html"
+  },
+  {
+   "title": "SAIC MG to stop ICE production for mainland",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaefwi3250340.d.html"
+  },
+  {
+   "title": "Sota Wujie angel round",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaefwc1055809.d.html"
+  },
+  {
+   "title": "US space stocks rise premarket",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaenea7815005.d.html"
+  },
+  {
+   "title": "EU delays Tesla FSD vote to December 15",
+   "outlet": "Electrek",
+   "url": "https://electrek.co/2026/11/25/eu-delays-tesla-fsd-vote-december-15-tcmv/"
+  },
+  {
+   "title": "JERA in talks with Anthropic and Meta",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261127VL212/anthropic-meta-data-infrastructure-electricity.html"
+  },
+  {
+   "title": "Alibaba ADR premarket +5%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaeneh5519476.d.html"
+  },
+  {
+   "title": "Palantir Poland contract",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaesmy7817255.d.html"
+  },
+  {
+   "title": "Snowflake FY27 Q3 earnings date",
+   "outlet": "스노우플레이크",
+   "url": "https://www.snowflake.com/en/news/press-releases/fy27-q3-earnings-date-announcement/"
+  },
+  {
+   "title": "Server makers rise premarket: Dell, HP, Super Micro",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaencz1063281.d.html"
+  },
+  {
+   "title": "Dell price target slashed by several analysts",
+   "outlet": "TipRanks",
+   "url": "https://www.tipranks.com/news/dell-stock-price-target-slashed-by-several-analysts-despite-earnings-beat"
+  },
+  {
+   "title": "US optical stocks rise premarket",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaenea7815038.d.html"
+  },
+  {
+   "title": "US computing cloud stocks rise premarket",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaenef3164685.d.html"
+  },
+  {
+   "title": "SiPh, CPO equipment 2027",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261127PD225/siph-cpo-equipment-2027.html"
+  },
+  {
+   "title": "UBS cuts Micron target",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaefwc1091418.d.html"
+  },
+  {
+   "title": "2028 DRAM fixed price downside risk",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaefwc1094161.d.html"
+  },
+  {
+   "title": "SK hynix: Solidigm US NAND fab undecided",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaencz1022672.d.html"
+  },
+  {
+   "title": "US storage stocks rise premarket",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaenef3164666.d.html"
+  },
+  {
+   "title": "US targets Honam chip cluster with tariff warning",
+   "outlet": "서울경제",
+   "url": "https://en.sedaily.com/economy/2026/11/27/us-targets-honam-chip-cluster-with-tariff-warning-of-up-to"
+  },
+  {
+   "title": "USTR Korea Federal Register notice",
+   "outlet": "USTR",
+   "url": "https://ustr.gov/sites/default/files/files/Press/Releases/2026/Korea%20FRN.pdf"
+  },
+  {
+   "title": "European stocks extend recovery as tech, miners advance",
+   "outlet": "로이터(Investing.com)",
+   "url": "https://www.investing.com/news/stock-market-news/european-stocks-extend-recovery-as-tech-miners-advance-5053129"
+  },
+  {
+   "title": "German chip stocks up 3-6%",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaefwe7904804.d.html"
+  },
+  {
+   "title": "China chip capacity expansion stalled by tool waits",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261127PD213/china-semiconductors-capacity-expansion-component-equipment-smic.html"
+  },
+  {
+   "title": "Bitcoin rises above $62,000",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-27/detail-inkaefwc1135452.d.html"
+  },
+  {
+   "title": "MSCI confirms Strategy's removal from indexes",
+   "outlet": "코인텔레그래프",
+   "url": "https://cointelegraph.com/news/msci-confirms-strategys-removal-from-indexes-end-november"
+  },
+  {
+   "title": "Black Friday market hours",
+   "outlet": "QuantVPS",
+   "url": "https://www.quantvps.com/market-hours/black-friday"
+  },
+  {
+   "title": "DIGITIMES 주요 기사",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/"
+  }
+ ]
+}

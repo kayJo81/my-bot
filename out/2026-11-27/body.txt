@@ -1,0 +1,109 @@
+2026년 11월 27일 개장 전 섹터별 이슈체크
+
+2026년 11월 27일 금요일 개장 전 주요 소식입니다.
+한국 장 마감(15:30)부터 21:22까지 나온 소식을 모았어요.
+미국 증시는 추수감사절 다음 날로 13시(ET)에 조기 폐장하며, 프리마켓 등락률은 수요일 종가 대비이고 시각을 함께 적었습니다.
+
+[그림1]
+
+추수감사절 휴장을 마치고 미국 증시가 다시 열리는 날, 수요일 급락했던 AI주로 저가 매수가 들어오며 나스닥 100 선물이 한때 2.8% 넘게 올랐어요. 중국 국무원이 증시 안정 의지를 밝히자 중국·홍콩 기술주가 급등했고, 코스피도 4% 넘게 올랐습니다. 다만 저녁에 블룸버그가 상하이 데이터센터에서 블랙웰이 발견됐다고 보도하면서 엔비디아의 상승폭은 줄었어요.
+
+[그림2]
+
+오늘 반등은 두 갈래에서 나왔어요. 수요일 나스닥이 장중 4.6%까지 빠진 뒤 AI주로 저가 매수가 이어졌고, 트럼프 대통령은 이전 시장 하락에 우려를 나타내며 곧 젠슨황과 통화하겠다고 말했습니다. 여기에 중국 국무원이 낮 시간에 이례적으로 '국가대표팀'과 중앙회금의 시장 안정 역할을 강화하겠다고 밝히면서 아시아 증시가 크게 올랐어요.
+
+[그림3]
+
+코스피는 외국인이 9월 이후 가장 많은 1조 1천억 원 넘게 사들이며 4.34% 올랐고, 중국 창업판은 11% 넘게 뛰었습니다. 금 선물도 4% 오르며 3,700달러를 다시 넘었어요. 다만 나스닥 100은 11월 들어 여전히 8% 안팎 빠져 있어, 거래 시간이 짧은 오늘 반등이 얼마나 유지될지가 관건입니다.
+
+[그림4]
+
+블룸버그는 중국 업체 두 곳이 상하이 쑹장의 데이터센터에 엔비디아 GB300 NVL72 랙과 GB200 서버를 설치했다고 보도했어요. 중국 당국에 낸 서류의 일련번호로 확인됐고, GB300 랙은 약 1,400만 달러 대출의 담보로 잡혀 있었습니다.
+
+[그림5]
+
+이 부지는 앨리스 황과 연결된 Megaspeed와 관련이 있는데, 이 회사는 이달 미국 블랙리스트에 올랐어요. 블룸버그는 Megaspeed가 칩을 빼돌렸다는 증거는 찾지 못했다고 밝혔고, 회사는 부인했습니다. 보도 직전 엔비디아의 프리마켓 상승폭이 2% 아래로 줄었는데, 시점은 겹치지만 직접 원인이라고 밝힌 보도는 없어요. 12월 1일 황의 하원 증언에서 수출통제 문제가 다시 다뤄질 가능성이 커졌습니다.
+
+[그림6]
+
+엔비디아는 프리마켓에서 한때 4.5% 올랐다가 블랙웰 관련 보도 무렵 상승폭이 2% 아래로 줄었어요. 메타는 4% 넘게 오르고 있고 다른 빅테크도 2~5% 반등하고 있습니다. 애플은 3분기 미국 스마트폰 출하가 9% 줄어든 가운데 점유율을 57%로 끌어올렸다는 집계가 나왔어요.
+
+[그림7]
+
+중국에서는 유니트리가 상한가를 기록하며 휴머노이드 로봇주가 일제히 올랐어요. SAIC MG는 2027년부터 중국 내수용 내연기관차 생산을 멈추기로 했습니다. 미국 우주 관련주도 개장 전 오름세를 보이고 있어요.
+
+[그림8]
+
+앤트로픽은 프리마켓에서 3% 넘게 올라 공모가 83달러를 다시 웃돌고 있어요. DIGITIMES는 일본 최대 발전사 JERA가 앤트로픽·메타와 AI 데이터센터 전력 공급을 협의하고 있다고 전했습니다. 알리바바 ADR은 중국 부양 기대에 5% 넘게 오르고 있어요.
+
+[그림9]
+
+주초 HPE와 델의 마진 우려로 급락했던 서버주가 프리마켓에서 5~7% 반등하고 있어요. 광통신과 네오클라우드 관련주도 개장 전 오름세를 보이고 있습니다. 다만 이번 반등은 애널리스트 의견 변화보다 저가 매수 성격이 강해 보여요.
+
+[그림10]
+
+한국에서는 삼성전자와 SK하이닉스가 4~5% 올랐고, 정부의 증안펀드 확대 검토 보도가 투자심리를 받쳤어요. 일본에서는 키옥시아와 어드밴테스트가 7~9% 올랐고, 중국은 반도체 ETF가 상한가를 기록했습니다. 대만은 0.4% 오르는 데 그쳤어요.
+
+[그림11]
+
+메모리 쪽에서는 UBS가 마이크론 목표가를 낮췄고, 대만의 한 조사기관은 2028년 D램 고정가 하락 위험이 커졌다고 봤어요. 미국 301조 관세안은 광주(호남) 반도체 클러스터를 거론했지만 반도체 자체는 제외된다는 보도가 나왔습니다. 유럽에서는 ASML·인피니언 등 반도체주가 4% 안팎 오르고 있어요.
+
+[그림12]
+
+비트코인은 위험자산 반등과 함께 2% 넘게 올라 6만 2천 달러를 넘었어요. MSCI는 30일 장 마감 뒤 스트래티지를 주요 지수에서 빼기로 했어요.
+
+출처 링크 (2026-11-27 KST)
+· US futures rise: Nasdaq 100 +2.8% (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaefwi3186189.d.html
+· US index futures all up more than 1% (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaesnc3149026.d.html
+· Stock futures surge as battered AI shares rebound (Forbes): https://www.forbes.com/sites/siladityaray/2026/11/27/stock-futures-surge-as-battered-ai-shares-rebound-ahead-of-shorterned-friday-trading/
+· Stocks extend recovery on AI trade rebound (Irish Times): https://www.irishtimes.com/business/markets/2026/11/27/stocks-extend-recovery-on-ai-trade-rebound/
+· Trump expressed concern about earlier market declines (FinancialJuice): https://www.financialjuice.com/News/9869849/Trump-expressed-concern-about-earlier-market-declines.aspx?xy=rss
+· China's cabinet stresses market support in midday release (블룸버그): https://www.bloomberg.com/news/articles/2026-11-27/china-s-cabinet-stresses-market-support-in-midday-release
+· State Council meeting on capital market (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaczqf1056553.d.html
+· A-share close: ChiNext +11.61% (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaefwc1060361.d.html
+· Hong Kong close: HS Tech +6.54% (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaefwe7904116.d.html
+· KOSPI surges over 4% (코리아헤럴드): https://www.koreaherald.com/article/10952169
+· KOSPI surges over 4%, KOSDAQ gains 8% on hopes for market stabilization fund (코리아타임스): https://www.koreatimes.co.kr/economy/20261127/kospi-surges-over-4-kosdaq-gains-top-8-on-hopes-for-market-stabilization-fund
+· South Korea reportedly mulls expanding stock stabilization fund (블룸버그): https://www.bloomberg.com/news/articles/2026-11-27/south-korea-reportedly-mulls-expanding-stock-stabilization-fund
+· Nikkei, Lasertec (Vibiznews): https://vibiznews.com/index.php/2026/11/27/nikkei-menguat-dua-hari-beruntun-investor-borong-saham-ai-lasertec-meroket-10/
+· Asian markets: Chinese chip stocks surge (finanzen.net): https://www.finanzen.net/nachricht/aktien/maerkte-asien-weiter-aufwaerts-chinesische-chipwerte-haussieren-16089705
+· Taiex closes up 0.40% (Focus Taiwan): https://focustaiwan.tw/business/202611270014
+· NY gold futures up 4% (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaefwc1140055.d.html
+· Nvidia +4.5%, AMD +6.8% premarket (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaencz1048387.d.html
+· Nvidia gain narrows below 2% (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaesmy7807634.d.html
+· Nvidia Blackwell chips turn up at China site tied to Alice Huang (블룸버그): https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang
+· Nvidia Blackwell chips found in Shanghai data center (Investing.com): https://ca.investing.com/news/stock-market-news/nvidia-blackwell-chips-found-in-shanghai-data-center-tied-to-alice-huang-4983310
+· Two Chinese firms installed Blackwell GPUs at Shanghai site (FinancialJuice): https://www.financialjuice.com/News/9870527/Two-Chinese-firms-installed-the-high-end-NVIDIA-Blackwell-GPUs-at-the-Shanghai-site-NVDA.aspx?xy=rss
+· Nvidia Huang Congress testify dates (Axios): https://axios.com/2026/11/17/nvidia-jensen-huang-congress-testify-dates
+· S&P places Nvidia on negative credit watch (Benzinga): https://www.benzinga.com/markets/tech/26/11/63659241/sp-global-ratings-nvidia-negative-credit-watch-moodys-jensen-huang-return
+· Meta premarket +4% (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaenef3240194.d.html
+· US smartphone shipments Q3, Apple share 57% (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaencz1122852.d.html
+· Unitree limit up, humanoid robots (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaefwc1039813.d.html
+· SAIC MG to stop ICE production for mainland (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaefwi3250340.d.html
+· Sota Wujie angel round (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaefwc1055809.d.html
+· US space stocks rise premarket (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaenea7815005.d.html
+· EU delays Tesla FSD vote to December 15 (Electrek): https://electrek.co/2026/11/25/eu-delays-tesla-fsd-vote-december-15-tcmv/
+· JERA in talks with Anthropic and Meta (DIGITIMES): https://www.digitimes.com/news/a20261127VL212/anthropic-meta-data-infrastructure-electricity.html
+· Alibaba ADR premarket +5% (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaeneh5519476.d.html
+· Palantir Poland contract (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaesmy7817255.d.html
+· Snowflake FY27 Q3 earnings date (스노우플레이크): https://www.snowflake.com/en/news/press-releases/fy27-q3-earnings-date-announcement/
+· Server makers rise premarket: Dell, HP, Super Micro (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaencz1063281.d.html
+· Dell price target slashed by several analysts (TipRanks): https://www.tipranks.com/news/dell-stock-price-target-slashed-by-several-analysts-despite-earnings-beat
+· US optical stocks rise premarket (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaenea7815038.d.html
+· US computing cloud stocks rise premarket (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaenef3164685.d.html
+· SiPh, CPO equipment 2027 (DIGITIMES): https://www.digitimes.com/news/a20261127PD225/siph-cpo-equipment-2027.html
+· UBS cuts Micron target (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaefwc1091418.d.html
+· 2028 DRAM fixed price downside risk (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaefwc1094161.d.html
+· SK hynix: Solidigm US NAND fab undecided (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaencz1022672.d.html
+· US storage stocks rise premarket (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaenef3164666.d.html
+· US targets Honam chip cluster with tariff warning (서울경제): https://en.sedaily.com/economy/2026/11/27/us-targets-honam-chip-cluster-with-tariff-warning-of-up-to
+· USTR Korea Federal Register notice (USTR): https://ustr.gov/sites/default/files/files/Press/Releases/2026/Korea%20FRN.pdf
+· European stocks extend recovery as tech, miners advance (로이터(Investing.com)): https://www.investing.com/news/stock-market-news/european-stocks-extend-recovery-as-tech-miners-advance-5053129
+· German chip stocks up 3-6% (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaefwe7904804.d.html
+· China chip capacity expansion stalled by tool waits (DIGITIMES): https://www.digitimes.com/news/a20261127PD213/china-semiconductors-capacity-expansion-component-equipment-smic.html
+· Bitcoin rises above $62,000 (시나): https://finance.sina.cn/7x24/2026-11-27/detail-inkaefwc1135452.d.html
+· MSCI confirms Strategy's removal from indexes (코인텔레그래프): https://cointelegraph.com/news/msci-confirms-strategys-removal-from-indexes-end-november
+· Black Friday market hours (QuantVPS): https://www.quantvps.com/market-hours/black-friday
+· DIGITIMES 주요 기사 (DIGITIMES): https://www.digitimes.com/
+
+그림 대응(PDF 쪽 번호): 그림1=요약, 그림2=이슈1(1/2), 그림3=이슈1(2/2), 그림4=이슈2(1/2), 그림5=이슈2(2/2), 그림6=메가테크, 그림7=모빌리티, 그림8=AI 소프트웨어, 그림9=AI 인프라, 그림10=반도체(1/2), 그림11=반도체(2/2), 그림12=크립토
