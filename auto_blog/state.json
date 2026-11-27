@@ -1,5 +1,5 @@
 {
- "last_ts": 1795777777,
+ "last_ts": 1795781363,
  "posted": [
   {
    "date": "2026-11-22",
@@ -300,6 +300,18 @@
    "ticker": "SKHY",
    "topic": "USTR 301조 한국 과잉생산 보고서, 반도체 지목, 15%→25% 관세안, 호남 클러스터, 232조로 칩 제외 해석",
    "url": "https://blog.naver.com/yidiar/224494835199"
+  },
+  {
+   "date": "2026-11-27",
+   "ticker": "NVDA",
+   "topic": "[후속] 블룸버그: 상하이 쑹장 데이터센터에 블랙웰 GB300·GB200, 앨리스 황·메가스피드 연관",
+   "url": "https://blog.naver.com/yidiar/224495084549"
+  },
+  {
+   "date": "2026-11-27",
+   "ticker": "PLTR",
+   "topic": "폴란드 국방부 팔란티어 사투른(메이븐) 계약 서명, 장관 '약 3억 달러'",
+   "url": "https://blog.naver.com/yidiar/224495086182"
   }
  ]
 }
