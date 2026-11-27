@@ -1,5 +1,5 @@
 {
- "last_ts": 1795802702,
+ "last_ts": 1795806554,
  "posted": [
   {
    "date": "2026-11-22",
@@ -318,6 +318,12 @@
    "ticker": "SNDK",
    "topic": "샌디스크 장중 13%↑ 메모리주 반등, 키옥시아 GB200 랙 SSD 1.1PB 시연, 트렌드포스 D램 신중론",
    "url": "https://blog.naver.com/yidiar/224495297953"
+  },
+  {
+   "date": "2026-11-28",
+   "ticker": "OPENAI",
+   "topic": "오픈AI 애플 반소: 영업비밀 도용·공급업체 압박·고용관행, 재판 2027.7.19",
+   "url": "https://blog.naver.com/yidiar/224495381961"
   }
  ]
 }
