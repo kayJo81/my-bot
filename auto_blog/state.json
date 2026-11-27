@@ -1,5 +1,5 @@
 {
- "last_ts": 1795763324,
+ "last_ts": 1795766964,
  "posted": [
   {
    "date": "2026-11-22",
@@ -294,6 +294,12 @@
    "ticker": "MKT",
    "topic": "(사용자 요청) 11월 27일 시장 동향 PDF(미국 휴장, 유럽 마감)",
    "url": "https://blog.naver.com/yidiar/224494069742"
+  },
+  {
+   "date": "2026-11-27",
+   "ticker": "SKHY",
+   "topic": "USTR 301조 한국 과잉생산 보고서, 반도체 지목, 15%→25% 관세안, 호남 클러스터, 232조로 칩 제외 해석",
+   "url": "https://blog.naver.com/yidiar/224494835199"
   }
  ]
 }
