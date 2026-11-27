@@ -1,5 +1,5 @@
 {
- "last_ts": 1795792162,
+ "last_ts": 1795795734,
  "posted": [
   {
    "date": "2026-11-22",
@@ -312,6 +312,12 @@
    "ticker": "PLTR",
    "topic": "폴란드 국방부 팔란티어 사투른(메이븐) 계약 서명, 장관 '약 3억 달러'",
    "url": "https://blog.naver.com/yidiar/224495086182"
+  },
+  {
+   "date": "2026-11-28",
+   "ticker": "SNDK",
+   "topic": "샌디스크 장중 13%↑ 메모리주 반등, 키옥시아 GB200 랙 SSD 1.1PB 시연, 트렌드포스 D램 신중론",
+   "url": "https://blog.naver.com/yidiar/224495297953"
   }
  ]
 }
