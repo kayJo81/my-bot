@@ -1,0 +1,807 @@
+{
+ "window_start": "2026-11-28 15:30 KST",
+ "fetched_at": "2026-11-28 21:22 KST",
+ "count": 100,
+ "items": [
+  {
+   "kst": "15:33",
+   "ts": 1795847603,
+   "h": "一汽解放首台1000公里J7氢燃料电池牵引车顺利下线",
+   "ko": "FAW Jiefang의 첫 번째 1,000km J7 수소 연료 전지 트랙터가 조립 라인에서 순조롭게 굴러갑니다",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahkve7377760.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:37",
+   "ts": 1795847850,
+   "h": "巴基斯坦官方紧急救援组织“救援1122”28日说，该国南部信德省首府卡拉奇发生的楼房坍塌事故已造成11人丧生。（新华社）",
+   "ko": "파키스탄 공식 긴급구조단체 '레스큐 1122'는 28일 파키스탄 남부 신드주 수도 카라치에서 건물이 붕괴돼 11명이 숨졌다고 밝혔다. (신화통신)",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahkvc0603937.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:40",
+   "ts": 1795848048,
+   "h": "特朗普在社交媒体发布图片，配文“相信特朗普”，图中的特朗普头戴写有“MAKE AMERICA GREAT AGAIN”（让美国再次伟大）的帽子。",
+   "ko": "트럼프는 자신의 SNS에 \"트럼프를 믿으세요\"라는 글과 함께 사진을 게재했다. 사진 속 트럼프는 'MAKE AMERICA GREAT AGAIN'(Make America Great Again)이라고 적힌 모자를 쓰고 있다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahkvc0605866.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:51",
+   "ts": 1795848660,
+   "h": "西部证券孙寅：资本市场定位再强化 多渠道资金合力托底",
+   "ko": "Western Securities의 Sun Yin: 자본 시장 포지셔닝이 더욱 강화되고 다양한 자금 채널이 협력하여 수익을 지원합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahkvi2650969.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:51",
+   "ts": 1795848700,
+   "h": "金价回调带动购金热 黄金迎来抢购潮",
+   "ko": "금 가격 조정으로 인해 금 구매 열풍, 금 구매 급증",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahkvi2651325.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:55",
+   "ts": 1795848908,
+   "h": "阿富汗库纳尔省警察局发言人28日确认，当地一所学校当天发生爆炸，有人员伤亡。（新华社）",
+   "ko": "아프가니스탄 쿠나르 지방경찰청 대변인은 이날 현지 학교에서 폭발이 발생해 사상자가 발생했다고 28일 확인했다. (신화통신)",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahkvi2653090.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:55",
+   "ts": 1795848942,
+   "h": "歼-35A真机进驻航展一号馆",
+   "ko": "J-35A 실제 항공기가 에어쇼 1번 홀에 입장합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahkvc0614156.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "15:59",
+   "ts": 1795849175,
+   "h": "Musk: Google shows interest in leasing additional compute capacity from SpaceX",
+   "ko": "머스크: 구글이 SpaceX로부터 추가 컴퓨팅 용량 임대에 관심을 보임",
+   "u": "https://www.financialjuice.com/News/9871303/Musk-Google-shows-interest-in-leasing-additional-compute-capacity-from-SpaceX.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "16:01",
+   "ts": 1795849312,
+   "h": "马斯克：谷歌已表示有兴趣从SpaceX租用更多算力",
+   "ko": "머스크: 구글은 스페이스X로부터 더 많은 컴퓨팅 성능을 임대하는 데 관심을 표명했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahkvc0616798.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:02",
+   "ts": 1795849344,
+   "h": "Gemini工作人员：几乎天天用Grok Bot",
+   "ko": "Gemini 직원: 거의 매일 Grok Bot을 사용합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahkvc0617103.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:07",
+   "ts": 1795849640,
+   "h": "消息称谷歌Gemini 4基准团队11人同日被解雇 举报工程师称基准分数系“热交换”伪造",
+   "ko": "이날 구글 제미니 4 벤치마크팀 직원 11명이 해고된 것으로 알려졌다. 내부 고발자 엔지니어는 벤치마크 점수가 \"핫 스와핑\"에 의해 위조되었다고 주장했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahkvc0619795.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:10",
+   "ts": 1795849822,
+   "h": "斯里兰卡财长称正为各种外币融资方案做准备",
+   "ko": "스리랑카 재무장관은 다양한 외화 자금 조달 옵션을 준비하고 있다고 밝혔습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahkve7397597.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:11",
+   "ts": 1795849903,
+   "h": "岚图汽车蒋焘：明年车市或处于收缩状态，公司已做充分准备",
+   "ko": "Lantu Automobile Jiang Tao: 내년 자동차 시장은 위축될 수 있으며 회사는 만반의 준비를 갖추고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahkvc0621994.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:13",
+   "ts": 1795850030,
+   "h": "文蒙铁路首座超2000米隧道顺利贯通",
+   "ko": "Wenmeng 철도의 첫 번째 2,000m 이상의 터널이 성공적으로 완공되었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahkvc0623393.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:17",
+   "ts": 1795850244,
+   "h": "光伏“退役潮”近在咫尺，回收利用站上爆发风口",
+   "ko": "태양광 '해체 파동'이 코앞에 다가와 재활용 스테이션이 주목을 받고 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahraz0494299.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:21",
+   "ts": 1795850509,
+   "h": "俄罗斯称夜间击落1246架乌克兰无人机。",
+   "ko": "러시아는 이날 밤 동안 우크라이나 드론 1246대를 격추했다고 주장했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrch4864226.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:29",
+   "ts": 1795850947,
+   "h": "司法部发布监督安全生产领域严格执法典型案例",
+   "ko": "법무부가 생산안전 감독 분야의 엄격한 법집행 사례를 공개했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrca7277864.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:38",
+   "ts": 1795851522,
+   "h": "当地官员称，阿富汗库纳尔省阿萨达巴德一所学校发生爆炸。",
+   "ko": "아프가니스탄 쿠나르주 아사다바드의 한 학교에서 폭발이 발생했다고 현지 관리들이 밝혔습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrca7284776.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:38",
+   "ts": 1795851529,
+   "h": "美国环保署称，爱荷华州爆炸并未导致水中铅含量升高。",
+   "ko": "EPA는 아이오와주 폭발로 인해 물 속 납 농도가 높아지지는 않았다고 밝혔습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrca7284835.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:40",
+   "ts": 1795851612,
+   "h": "实验猴价格居高不下，一只实验猴飙涨至26万元",
+   "ko": "실험용 원숭이 가격은 여전히 ​​높은데, 실험용 원숭이 한 마리가 26만 위안까지 치솟았다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahraz0509241.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:40",
+   "ts": 1795851659,
+   "h": "币安：币安支付、DK银行、格勒普正念城官方银行、Tether今日签署谅解备忘录，将稳定币支付引入不丹商户。",
+   "ko": "바이낸스: 바이낸스 페이먼트, 겔레푸 마인드풀니스 시티의 공식 은행인 DK 은행, 테더는 오늘 부탄 상인들에게 스테이블코인 결제를 도입하기 위한 양해각서에 서명했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrca7286129.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:41",
+   "ts": 1795851688,
+   "h": "币安：作为谅解备忘录的一部分，符合条件的用户可在符合条件的交易中获得 5% 的返利，每笔交易最高限额为 5 美元。",
+   "ko": "바이낸스: MOU의 일환으로 적격 사용자는 적격 거래에 대해 5% 리베이트를 받을 수 있으며 거래당 최대 한도는 $5입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrcf2548395.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:42",
+   "ts": 1795851752,
+   "h": "推动“冷资源”转化为“热经济” 我国启动冰雪气候资源普查",
+   "ko": "'한랭 자원'을 '핫 경제'로 전환 촉진 중국, 빙설 기후 자원 인구조사 개시",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrch4877765.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:43",
+   "ts": 1795851823,
+   "h": "印度巴拉特石油公司（BPCL）董事会批准在安得拉邦新建炼油厂。",
+   "ko": "인도의 Bharat Petroleum Corporation Limited(BPCL) 이사회는 안드라 프라데시(Andhra Pradesh)에 새로운 정유소를 승인했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahraz0511549.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:45",
+   "ts": 1795851931,
+   "h": "甘浙特高压端对端联调 甘肃电能抵浙",
+   "ko": "간쑤성과 저장성 UHV 엔드투엔드 합동 시운전, 간쑤성 전력이 저장성에 도달",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahraz0512771.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:48",
+   "ts": 1795852134,
+   "h": "英国海上贸易行动办公室收到报告，在也门巴勒哈夫64海里处发生船只被劫持事件。",
+   "ko": "영국 해상무역운영국(UK Maritime Trade Operations Office)은 예멘의 발하프(Baalhaf)에서 64해리 떨어진 곳에서 선박이 납치되었다는 보고를 받았습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahraz0514613.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:49",
+   "ts": 1795852166,
+   "h": "实测三家品牌电视开机仍有广告，小米：我们属于互联网电视，但可协助关闭",
+   "ko": "실제로 3개 브랜드의 TV를 켰을 때 광고가 계속 나오는 것으로 테스트되었습니다. Xiaomi: 우리는 인터넷 TV이지만, TV를 끌 수 있도록 도와드릴 수 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrca7291296.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:50",
+   "ts": 1795852229,
+   "h": "英国海上贸易行动办公室：一艘货船在也门附近被武装人员登船，未经授权人员控制了船只。",
+   "ko": "영국 해상 무역 조치 사무소(UK Maritime Trade Action Office): 예멘 근처에서 무장한 사람들이 화물선에 탑승했고 승인되지 않은 인원이 선박을 통제했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrca7291796.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:50",
+   "ts": 1795852234,
+   "h": "UKMTO reports incident 64nm southwest of Yemen's Balhaf",
+   "ko": "UKMTO, 예멘 발하프 남서쪽 64nm 지점에서 사건 보고",
+   "u": "https://www.financialjuice.com/News/9871311/UKMTO-reports-incident-64nm-southwest-of-Yemens-Balhaf.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "16:50",
+   "ts": 1795852259,
+   "h": "Ukmto: master of cargo ship reports being boarded by armed unauthorized individuals",
+   "ko": "Ukmto: 무장한 승인되지 않은 개인이 승선하고 있다고 보고한 화물선의 선장",
+   "u": "https://www.financialjuice.com/News/9871312/Ukmto-master-of-cargo-ship-reports-being-boarded-by-armed-unauthorized-individuals.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "16:51",
+   "ts": 1795852278,
+   "h": "UKMTO: unauthorized individuals are controlling the vessel",
+   "ko": "UKMTO: 승인되지 않은 개인이 선박을 통제하고 있습니다.",
+   "u": "https://www.financialjuice.com/News/9871313/UKMTO-unauthorized-individuals-are-controlling-the-vessel.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "16:55",
+   "ts": 1795852521,
+   "h": "伊朗革命卫队总司令艾哈迈德·瓦希迪（Ahmad Vahidi）周六表示，伊朗海军已做好准备，应对任何针对国家安全、核心利益及海上主权的威胁。在纪念伊朗“海军日”之际，瓦希迪指出，伊朗针对该地区（特别是霍尔木兹海峡）内美军及以军军事目标的打击行动，已迫使敌方海军舰队只能在远海充当“旁观者”。",
+   "ko": "이란 혁명수비대 총사령관 아마드 바히디는 토요일 이란 해군이 국가 안보, 핵심 이익, 해양 주권에 대한 어떤 위협에도 대응할 준비가 되어 있다고 말했습니다. 바히디는 이란의 '해군의 날'을 기념하면서 이 지역(특히 호르무즈 해협)에 있는 미국과 이스라엘의 군사 목표물에 대한 이란의 공격으로 인해 적 해군 함대가 먼 바다에서 '관중' 역할을 하게 됐다고 지적했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahraz0518099.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "16:57",
+   "ts": 1795852673,
+   "h": "无国界医生组织称，以色列空袭造成加沙诊所外两名工作人员死亡。",
+   "ko": "국경 없는 의사회는 이스라엘의 공습으로 가자지구 병원 밖에서 직원 2명이 사망했다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrca7295627.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:00",
+   "ts": 1795852847,
+   "h": "神舟家族第9次在轨交接",
+   "ko": "Shenzhou 가족의 9번째 궤도 이양",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrca7297027.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:12",
+   "ts": 1795853550,
+   "h": "近千只主动基单日涨超10% 8只近20%",
+   "ko": "거의 1,000개에 가까운 활성 주식이 하루 만에 10% 이상 상승했고, 8개 주식이 거의 20% 상승했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrcf2562430.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:14",
+   "ts": 1795853640,
+   "h": "Saudi civil defense issues warning over potential hazard in Jazan",
+   "ko": "사우디 민방위 문제, 자잔의 잠재적 위험 경고",
+   "u": "https://www.financialjuice.com/News/9871314/Saudi-civil-defense-issues-warning-over-potential-hazard-in-Jazan.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "17:14",
+   "ts": 1795853654,
+   "h": "沙特民防部门就吉赞潜在危险发布警报。",
+   "ko": "사우디 민방위대는 지잔의 잠재적인 위험에 대해 경보를 발령했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahraz0528108.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:15",
+   "ts": 1795853711,
+   "h": "泰国总理阿努廷给特朗普递了张手写便条，为泰国香米和玉米争取关税豁免",
+   "ko": "아누틴 태국 총리가 트럼프 대통령에게 태국 바스마티 쌀과 옥수수에 대한 관세 면제를 요청하는 자필 메모를 건넸다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrch4892568.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:16",
+   "ts": 1795853807,
+   "h": "有报告称也门附近海域发生武装人员劫持货船事件",
+   "ko": "예멘 인근 해역에서 무장한 사람들이 화물선을 납치했다는 보고가 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrca7305955.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:16",
+   "ts": 1795853809,
+   "h": "莱斯信息联合中标安徽省低空智能网联系统项目",
+   "ko": "라이스정보, 안후이성 저고도 지능형 네트워크 연결 시스템 프로젝트 입찰에서 공동 낙찰",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrca7305974.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:16",
+   "ts": 1795853819,
+   "h": "Saudi civil defense: danger has passed in Jazan",
+   "ko": "사우디 민방위: 자잔(Jazan)에서 위험이 지나갔습니다",
+   "u": "https://www.financialjuice.com/News/9871319/Saudi-civil-defense-danger-has-passed-in-Jazan.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "17:17",
+   "ts": 1795853829,
+   "h": "沙特民防部门表示吉赞的危险已经过去。",
+   "ko": "사우디 민방위대는 지잔의 위험이 지나갔다고 밝혔습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahraz0529736.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:17",
+   "ts": 1795853878,
+   "h": "我国首次发现南方猛犸象完整头骨化石",
+   "ko": "남부 매머드의 최초 완전한 두개골 화석이 중국에서 발견되었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahraz0530205.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:21",
+   "ts": 1795854083,
+   "h": "证监会出手！“南京路宝宝总”被严肃查处",
+   "ko": "중국 증권감독관리위원회가 조치를 취했습니다! '난징로드 베이비 매니저'는 엄중한 조사와 처벌을 받았다",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "17:23",
+   "ts": 1795854181,
+   "h": "四川绵遂资内铁路全线首座跨铁路转体桥梁成功转体",
+   "ko": "쓰촨성 미안-수이-자네이 철도 전체 노선의 첫 번째 교차 레일 회전교가 성공적으로 흔들렸습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrca7310279.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:30",
+   "ts": 1795854637,
+   "h": "日本长崎核爆资料馆启动把南京大屠杀改称“南京事件”",
+   "ko": "일본 나가사키 핵폭발 박물관은 난징대학살을 '난징사변'으로 명명하기 시작했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrca7315158.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:39",
+   "ts": 1795855174,
+   "h": "神舟二十三号和神舟二十四号航天员完成在轨交接。（新华社）",
+   "ko": "선저우 23호와 선저우 24호의 우주 비행사들이 궤도 내 인계를 완료했습니다. (신화통신)",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahraz0544239.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:43",
+   "ts": 1795855406,
+   "h": "神舟二十三号和神舟二十四号航天员完成在轨交接",
+   "ko": "선저우 23호와 선저우 24호의 우주 비행사들이 궤도 내 인계를 완료했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahraz0546277.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:46",
+   "ts": 1795855596,
+   "h": "段永平：马斯克确实显著提高了我的生活质量",
+   "ko": "Duan Yongping: 머스크는 실제로 내 삶의 질을 크게 향상시켰습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrca7324330.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:49",
+   "ts": 1795855799,
+   "h": "澳大利亚自由党和国家党联盟据预测赢得维多利亚州选举。杰斯·威尔逊将出任维多利亚州下一任州长。",
+   "ko": "호주 자유당과 국민당의 연합이 빅토리아 주 선거에서 승리할 것으로 예상됩니다. Jess Wilson은 차기 빅토리아주 총리가 될 것입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrca7325886.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:55",
+   "ts": 1795856118,
+   "h": "阿富汗库纳尔省学校爆炸造成至少6名学生死亡。",
+   "ko": "아프가니스탄 쿠나르 주에서 학교 폭발이 일어나 최소 6명의 학생이 사망했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrch9360792.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "17:57",
+   "ts": 1795856273,
+   "h": "第16届中国航展首架外机抵达珠海",
+   "ko": "제16회 중국 에어쇼의 첫 외부 항공기가 주하이에 도착했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrca7329448.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:03",
+   "ts": 1795856628,
+   "h": "沙特阿拉伯表示海米斯穆谢特的危险已经过去。",
+   "ko": "사우디아라비아는 카미스 무샤트에 대한 위험이 지나갔다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahraz0555550.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:07",
+   "ts": 1795856878,
+   "h": "俄罗斯连夜击落1200多架乌军无人机",
+   "ko": "러시아, 밤새 우크라이나 드론 1200대 이상 격추",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrca7333646.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:12",
+   "ts": 1795857178,
+   "h": "土耳其将重新开放26只被冻结的投资基金",
+   "ko": "터키, 동결된 투자 자금 26개 재개장",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrca7336225.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:17",
+   "ts": 1795857478,
+   "h": "阿富汗政府发言人：库纳尔省安德里西尔地区发生爆炸，造成7名学生死亡，另有多达99人受伤。",
+   "ko": "아프가니스탄 정부 대변인 : 쿠나르주 안드리실 지역에서 폭발이 발생해 학생 7명이 사망하고 99명이 부상을 입었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahraz0562153.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:18",
+   "ts": 1795857501,
+   "h": "津巴布韦将银行政策利率从27.5%下调至25%。",
+   "ko": "짐바브웨는 은행 정책 금리를 27.5%에서 25%로 낮췄습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrca7338851.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:18",
+   "ts": 1795857533,
+   "h": "韩国浦项制铁工会投票接受薪资协议",
+   "ko": "포스코 노조, 임금협상 가결",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrca7339207.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:21",
+   "ts": 1795857676,
+   "h": "前10月中国社会物流总额312.4万亿元 同比增长4.8%",
+   "ko": "첫 10개월 동안 중국 사회물류 총액은 312조4000억 위안으로 전년 동기 대비 4.8% 증가했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahraz0564313.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:21",
+   "ts": 1795857690,
+   "h": "阿富汗库纳尔省省立医院方面28日证实，该省首府阿萨达巴德市当天发生的爆炸事件已造成7人死亡、97人受伤。（新华社）",
+   "ko": "아프가니스탄 쿠나르주 도립병원은 이날 주도 아사다바드에서 발생한 폭발로 7명이 사망하고 97명이 부상했다고 28일 확인했다. (신화통신)",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahrch9371343.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:26",
+   "ts": 1795857998,
+   "h": "Saudi-led coalition: intercepts and destroys ballistic missile launched by Yemen's Houthis at southern region",
+   "ko": "사우디 주도 연합군, 예멘 후티 반군이 남부 지역에서 발사한 탄도미사일 요격 및 파괴",
+   "u": "https://www.financialjuice.com/News/9871333/Saudi-led-coalition-intercepts-and-destroys-ballistic-missile-launched-by-Yemens-Houthis-at-southern-region.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "18:34",
+   "ts": 1795858445,
+   "h": "泽连斯基表示，乌克兰在利比亚针对俄罗斯船只的袭击并未与合作伙伴进行协调。",
+   "ko": "젤렌스키는 리비아에서 러시아 선박에 대한 우크라이나의 공격이 파트너들과 조율되지 않았다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvkx0441170.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:34",
+   "ts": 1795858469,
+   "h": "印度财政部发布月度经济评估，认为厄尔尼诺现象带来通胀上行风险。",
+   "ko": "인도 재무부는 엘니뇨 현상이 인플레이션 상승 위험을 야기한다고 믿고 월별 경제 평가를 발표했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvkx0441468.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:36",
+   "ts": 1795858613,
+   "h": "印度：中东冲突可能导致印度石油进口支出持续波动。",
+   "ko": "인도: 중동 분쟁으로 인해 인도의 석유 수입 지출이 지속적으로 변동될 수 있습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvme9248273.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:51",
+   "ts": 1795859485,
+   "h": "黑神话悟空制作人发长文谈AI冲击",
+   "ko": "Black Myth Wukong의 제작자는 AI의 영향을 논의하는 긴 기사를 게시합니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvky7227157.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "18:56",
+   "ts": 1795859766,
+   "h": "华夏理财天工34号的“过山车”：6个月最大回撤54%",
+   "ko": "34일 중국 재무관리 천공의 '롤러코스터': 6개월 최대 하락폭은 54%",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvme4807496.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:08",
+   "ts": 1795860519,
+   "h": "一批亚太与湾区研究最新学术成果发布",
+   "ko": "아시아 태평양 및 베이지역 연구에 대한 최신 학술 결과가 발표되었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvky7237228.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:09",
+   "ts": 1795860561,
+   "h": "国泰海通证券：券商经营确定性提升，持续看好券商板块",
+   "ko": "Cathay Haitong Securities: 증권 회사의 운영 확실성이 높아졌으며 우리는 증권 산업 부문에 대해 계속해서 낙관적입니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvkx0461099.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:10",
+   "ts": 1795860650,
+   "h": "日媒：日拟将研究引入核潜艇写进“安保三文件”",
+   "ko": "일본 언론: 일본, '3대 안보문서'에 핵잠수함 연구 포함 계획",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvky7238374.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:14",
+   "ts": 1795860881,
+   "h": "意向成交与投融资额超1750亿元 第二十八届高交会今天闭幕",
+   "ko": "의도적인 거래 및 투자 및 자금조달 금액이 1,750억 위안을 초과, 제28회 하이테크 박람회가 오늘 마감되었습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvkx0464161.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:19",
+   "ts": 1795861182,
+   "h": "挪威主权财富基金将再次投票反对马斯克万亿美元薪酬方案",
+   "ko": "노르웨이 국부펀드, 머스크의 1조 달러 보상 계획에 또 반대 투표",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvme4818914.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:22",
+   "ts": 1795861360,
+   "h": "开源鸿蒙发布具身智能操作系统RoboOH 2.0",
+   "ko": "오픈소스 Hongmeng, 구현된 지능형 운영 체제 RoboOH 2.0 출시",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvme9269665.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:23",
+   "ts": 1795861383,
+   "h": "伊朗海军司令：伊军事行动最终目标是将美国逐出西亚",
+   "ko": "이란 해군 사령관 \"이란 군사 작전의 궁극적인 목표는 서아시아에서 미국을 몰아내는 것\"",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvky7245072.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:26",
+   "ts": 1795861588,
+   "h": "航行警告！渤海执行军事任务",
+   "ko": "내비게이션 경고! 발해해에서 군사 임무 수행",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvme9271733.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:35",
+   "ts": 1795862109,
+   "h": "太空数据中心在轨技术试验平台上线",
+   "ko": "우주 데이터센터 궤도상 기술 테스트 플랫폼 온라인화",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvme9275085.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:49",
+   "ts": 1795862996,
+   "h": "加密货币市场集体跳水 近24小时10万人爆仓",
+   "ko": "암호화폐 시장은 집단적으로 급락했고, 지난 24시간 동안 10만 명이 포지션을 청산했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvme4833254.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:50",
+   "ts": 1795863039,
+   "h": "俄称打击乌能源设施 乌称打击俄无人机控制点",
+   "ko": "러시아는 우크라이나 에너지 시설을 공격하고 있다고 밝혔고, 우크라이나는 러시아 드론 통제 지점을 공격하고 있다고 밝혔습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvky7259644.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "19:57",
+   "ts": 1795863456,
+   "h": "国家能源局主要负责人会见格鲁吉亚副总理兼经济和可持续发展部部长",
+   "ko": "국가에너지청 주요 책임자가 조지아 부총리 겸 경제지속가능발전부 장관을 만났습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvkx0486532.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:00",
+   "ts": 1795863652,
+   "h": "韩国总理敦促三星和SK海力士等扩大招聘",
+   "ko": "국무총리, 삼성·SK하이닉스 등에 채용 확대 촉구",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvkx0487767.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:02",
+   "ts": 1795863773,
+   "h": "西班牙加那利群岛附近发现的移民船已有14人死亡",
+   "ko": "스페인 카나리아 제도 인근에서 이민자 보트에서 14명 사망 발견",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvkx0488552.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:03",
+   "ts": 1795863791,
+   "h": "伊朗伊斯兰革命卫队推出新型无人机",
+   "ko": "이란 이슬람혁명수비대, 신형 드론 발사",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvme4838981.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:05",
+   "ts": 1795863918,
+   "h": "国家能源局主要负责人会见伊朗能源部部长",
+   "ko": "국가에너지청 주요 책임자, 이란 에너지부 장관 면담",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvme4839918.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:10",
+   "ts": 1795864216,
+   "h": "下周A股解禁市值逾430亿元",
+   "ko": "다음 주 금지령이 해제되면 A주의 시가총액은 430억 위안을 넘어설 것이다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvky7267846.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:19",
+   "ts": 1795864785,
+   "h": "Adviser to Iran's supreme leader warns Iraq against becoming ‘Trump’s tool’ after border crossings closed - post on X",
+   "ko": "이란 최고지도자 보좌관, 국경 폐쇄 후 이라크가 '트럼프의 도구'가 되지 말라고 경고",
+   "u": "https://www.financialjuice.com/News/9871361/Adviser-to-Irans-supreme-leader-warns-Iraq-against-becoming-Trumps-tool-after-border-crossings-closed---post-on-X.aspx?xy=rss",
+   "s": "fj"
+  },
+  {
+   "kst": "20:21",
+   "ts": 1795864898,
+   "h": "第12批集采月末全国落地 上海定额报销药品增至约100种",
+   "ko": "12차 중앙구매가 이달 말 전국적으로 시행되며, 상하이의 약품 고정비율 급여는 약 100종으로 늘어난다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvky7272654.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:22",
+   "ts": 1795864930,
+   "h": "伊朗最高领袖顾问在X平台发文警告伊拉克，在边境口岸关闭后，不要成为“特朗普的工具”。",
+   "ko": "이란 최고 지도자의 고문은 X 플랫폼에서 국경 통과가 폐쇄된 후 이라크가 \"트럼프의 도구\"가 되지 말라고 경고하는 메시지를 발표했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvkx0496443.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:23",
+   "ts": 1795865000,
+   "h": "泰国总理称预计明年底前完成与欧盟自由贸易协定谈判",
+   "ko": "태국 총리 \"내년 말까지 EU와 자유무역협정(FTA) 협상 마무리할 것\"",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvky7273535.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:29",
+   "ts": 1795865347,
+   "h": "阿富汗一中学附近爆炸致10人死亡、逾110人受伤",
+   "ko": "아프가니스탄 중학교 인근에서 폭발이 발생해 10명이 사망하고 110명 이상이 부상당했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvme9298223.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:33",
+   "ts": 1795865623,
+   "h": "国家能源局主要负责人会见哈萨克斯坦能源部部长",
+   "ko": "국가 에너지청 주요 책임자가 카자흐스탄 에너지부 장관을 만났습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvkx0502072.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:36",
+   "ts": 1795865796,
+   "h": "我国探索全生命周期城市更新规划设计新路径",
+   "ko": "중국, 전체 수명주기 도시 재개발 계획 및 설계를 위한 새로운 길 모색",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvky7279858.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:40",
+   "ts": 1795866017,
+   "h": "泰国因市场波动收紧卖空规则，为期一个月",
+   "ko": "태국, 시장 변동성 우려로 한 달간 공매도 규제 강화",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvkx0505235.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:43",
+   "ts": 1795866232,
+   "h": "欧盟海军部队称，索马里沿海发生一起涉及商船的海盗事件。",
+   "ko": "유럽연합 해군은 소말리아 해안에서 상선과 관련된 해적 사건이 발생했다고 밝혔다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvky7283790.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:45",
+   "ts": 1795866308,
+   "h": "沙特阿拉伯发布阿卜哈潜在危险警报。",
+   "ko": "사우디아라비아는 아바(Abha)의 잠재적인 위험에 대해 경고했다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvkx0508110.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:45",
+   "ts": 1795866338,
+   "h": "沙特阿拉伯发布哈米斯穆谢特潜在危险警报。",
+   "ko": "사우디아라비아는 카미스 무샤이트에게 잠재적 위험이 있다고 경고했다.",
+   "u": "https://finance.sina.com.cn/7x24/",
+   "s": "sina"
+  },
+  {
+   "kst": "20:46",
+   "ts": 1795866368,
+   "h": "深交所科交中心发布《行业潜在技术需求和应用场景清单》",
+   "ko": "심천증권거래소 과학기술교류센터는 \"업계의 잠재적 기술 요구사항 및 응용 시나리오 목록\"을 발표했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvkx0508638.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:49",
+   "ts": 1795866597,
+   "h": "11月28日《新闻联播》主要内容",
+   "ko": "11월 28일자 '신문련보' 주요 내용",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvme4857285.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:52",
+   "ts": 1795866762,
+   "h": "国际海洋法法庭发布命令，驳回阿根廷关于停止英国在福克兰群岛（马尔维纳斯群岛）石油活动的请求。",
+   "ko": "국제해양법재판소는 포클랜드 제도(말비나스 제도)에서 영국의 석유 활동을 중단해 달라는 아르헨티나의 요청을 기각하는 명령을 내렸습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahzta9176289.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "20:55",
+   "ts": 1795866929,
+   "h": "沙特阿拉伯称阿卜哈和哈米斯穆沙伊特的危险已经过去。",
+   "ko": "사우디아라비아는 아브하(Abha)와 카미스 무샤이트(Khamis Mashait)의 위험이 지나갔다고 말했습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahzsv0382323.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:07",
+   "ts": 1795867671,
+   "h": "英国称敦促阿根廷停止对福克兰群岛施加更广泛的经济压力。",
+   "ko": "영국은 아르헨티나에게 포클랜드 제도에 대한 광범위한 경제적 압박을 중단할 것을 촉구했다고 밝혔습니다.",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahzsw7163985.d.html",
+   "s": "sina"
+  },
+  {
+   "kst": "21:08",
+   "ts": 1795867693,
+   "h": "苏州光通信产业基地二期启动",
+   "ko": "쑤저우 광통신 산업 기지 2단계 출범",
+   "u": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahzsv0387707.d.html",
+   "s": "sina"
+  }
+ ]
+}

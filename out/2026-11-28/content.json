@@ -1,0 +1,634 @@
+{
+ "date": "2026-11-28",
+ "window": "15:30~21:22 KST",
+ "mail_to": "yidiar80k@gmail.com",
+ "summary": [
+  "머스크 \"구글, 스페이스X 컴퓨팅 추가 임대에 관심\"… GPU당 임대료도 오르는 중",
+  "엔비디아, 12월 1~3일 의회 증언 앞두고 동남아 출하 중단·상하이 블랙웰 논란",
+  "노르웨이 국부펀드, 12월 3일 테슬라 주총에서 머스크 보상안 반대 표결 예정",
+  "[배경] 금요일 반도체지수 +4.7%, S&P 500 주간 +5.6%로 2025년 4월 이후 최고",
+  "비트코인 6만 달러 아래, 24시간 청산 4억 달러… 30일 MSCI 스트래티지 편출"
+ ],
+ "checklist": [
+  "29일(일) 증안펀드 긴급 투자관리위원회",
+  "30일 MSCI 지수 변경(스트래티지 편출), 11월 마감",
+  "12월 1일 황 하원 면담, 마벨·몽고DB 실적, 사이버먼데이",
+  "12월 2일 세일즈포스·스노우플레이크 실적, 3일 황 상원 청문회·테슬라 주총",
+  "12월 4일 미국 11월 고용보고서"
+ ],
+ "issues": [
+  {
+   "title": "머스크 \"구글, 스페이스X 컴퓨팅 더 빌리고 싶어해\"",
+   "subtitle": "[신규] GPU 임대 사업 확장 · 우주 데이터센터 경쟁도 속도",
+   "timeline": [
+    {
+     "t": "6월",
+     "text": "[배경] 구글, 스페이스X GPU 약 11만 개 임대 계약(월 9.2억 달러)"
+    },
+    {
+     "t": "11월",
+     "text": "[배경] 스페이스X, 텍사스·애리조나 컴퓨팅 캠퍼스에 740억 달러 이상 투자 발표"
+    },
+    {
+     "t": "15:59",
+     "text": "머스크 \"누가 더 살지 모르지만 구글이 추가 임대에 관심\""
+    },
+    {
+     "t": "19:35",
+     "text": "중국, 우주 데이터센터 궤도 시험 플랫폼 가동 발표"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "구글 월 임대료",
+     "value": "9.2억 달러",
+     "note": "[배경] 2026년 10월~2029년 6월",
+     "dir": ""
+    },
+    {
+     "label": "임대 GPU",
+     "value": "약 11만 개",
+     "note": "[배경] 엔비디아 GPU",
+     "dir": ""
+    },
+    {
+     "label": "컴퓨팅 캠퍼스 투자",
+     "value": "740억 달러+",
+     "note": "[배경] 스타베이스·애리조나 코치스",
+     "dir": ""
+    },
+    {
+     "label": "스페이스X(27일)",
+     "value": "+4.83%",
+     "note": "[배경] 주간 +4.54%",
+     "dir": "up"
+    }
+   ],
+   "cause": [
+    "머스크 \"스페이스X 컴퓨팅의 GPU당 평균 임대료가 오르고 있다\"",
+    "추가 임대 규모·가격·시기는 밝히지 않았고, 구글은 답하지 않음",
+    "[배경] FCC 위원장, 우주 데이터센터가 지상 데이터센터를 보완할 것이라며 지지"
+   ],
+   "chips": [
+    {
+     "name": "스페이스X",
+     "chg": "+4.83%"
+    },
+    {
+     "name": "알파벳",
+     "chg": "+0.68%"
+    },
+    {
+     "name": "코어위브",
+     "chg": "+3.71%"
+    }
+   ],
+   "checks": [
+    "구글 측 확인 여부",
+    "스페이스X·테슬라 합병 협상 진행",
+    "GPU 임대료 상승이 네오클라우드에 주는 신호"
+   ],
+   "source": "FinancialJuice, CNBC, 로이터(Investing.com)"
+  },
+  {
+   "title": "엔비디아, 청문회 주간 앞두고 수출통제가 변수",
+   "subtitle": "[신규] 동남아 출하 중단 여파 · 상하이 블랙웰 · 12월 3일 공개 청문회",
+   "timeline": [
+    {
+     "t": "26일",
+     "text": "[배경] FT \"델·슈퍼마이크로 등에 동남아 4개국 서버 출하 중단 지시\""
+    },
+    {
+     "t": "27일",
+     "text": "[배경] 블룸버그 \"상하이 데이터센터에 GB300 랙, 대출 담보로\""
+    },
+    {
+     "t": "16:20",
+     "text": "DIGITIMES \"동남아 출하 동결, 대만 AI 서버 생산 분산 전략 시험대\""
+    },
+    {
+     "t": "12/3",
+     "text": "상원 은행위 '수출통제 감독' 공개 청문회, 황 단독 증인"
+    }
+   ],
+   "metrics": [
+    {
+     "label": "엔비디아(27일)",
+     "value": "+0.80%",
+     "note": "[배경] 같은 날 반도체지수 +4.69%",
+     "dir": "up"
+    },
+    {
+     "label": "주간 상승률",
+     "value": "+19.88%",
+     "note": "[배경] 월요일 황 복귀 랠리 영향",
+     "dir": "up"
+    },
+    {
+     "label": "상하이 대출 담보",
+     "value": "9,600만 위안",
+     "note": "[배경] GB300 NVL72 랙 1대",
+     "dir": ""
+    },
+    {
+     "label": "의회 일정",
+     "value": "12/1~3",
+     "note": "하원 비공개 면담 → 법무총괄 → 상원 청문회",
+     "dir": ""
+    }
+   ],
+   "cause": [
+    "새 수출 규정 뒤 동남아 우회 경로 차단, 출하 재개 시점 미정",
+    "상하이 반입 경위는 서류로 확인되지 않았고, 상무부는 허가 여부 언급 피해",
+    "[배경] 트럼프, 황 복귀에 직접 관여했다며 정부 지분 가능성도 언급"
+   ],
+   "chips": [
+    {
+     "name": "엔비디아",
+     "chg": "+0.80%"
+    },
+    {
+     "name": "델",
+     "chg": "+6.70%"
+    },
+    {
+     "name": "SMCI",
+     "chg": "+1.93%"
+    }
+   ],
+   "checks": [
+    "청문회 전 상무부 추가 조치",
+    "동남아 출하 재개 여부",
+    "대만 서버 업체 생산 계획 변경"
+   ],
+   "source": "DIGITIMES, FT(US News), 블룸버그, The National"
+  }
+ ],
+ "sections": {
+  "megatech": [
+   {
+    "company": "엔비디아",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "12월 1일 하원 3개 위원회 비공개 면담, 2일 법무총괄, 3일 상원 공개 청문회"
+     },
+     {
+      "label": "배경",
+      "text": "트럼프 \"황 복귀 위해 이사회에 전화\", 정부 지분 가능성 열어둬"
+     },
+     {
+      "label": "체크",
+      "text": "10일 러트닉 상무장관 상원 출석"
+     }
+    ],
+    "chips": [
+     {
+      "name": "엔비디아",
+      "chg": "+0.80%"
+     }
+    ],
+    "source": "The National, Fortune"
+   },
+   {
+    "company": "애플 · 아마존 · 구글",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "머스크 \"구글, 스페이스X 컴퓨팅 추가 임대에 관심\"(15:59)"
+     },
+     {
+      "label": "배경",
+      "text": "어도비: 블랙프라이데이 온라인 매출 18:30(ET)까지 97억 달러, +12.8%"
+     },
+     {
+      "label": "배경",
+      "text": "오픈AI, 애플 상대로 영업비밀 침해 등 맞소송(27일)"
+     }
+    ],
+    "chips": [
+     {
+      "name": "아마존",
+      "chg": "+3.96%"
+     },
+     {
+      "name": "애플",
+      "chg": "+0.83%"
+     },
+     {
+      "name": "알파벳",
+      "chg": "+0.68%"
+     }
+    ],
+    "source": "FinancialJuice, 로이터(Investing.com), CNN"
+   }
+  ],
+  "mobility": [
+   {
+    "company": "테슬라",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "노르웨이 국부펀드, 12월 3일 테슬라 주총서 머스크 보상안 반대 표결 예정(19:19)"
+     },
+     {
+      "label": "의미",
+      "text": "권고적 표결이라 구속력 없음, 지난해에도 반대했지만 통과"
+     },
+     {
+      "label": "배경",
+      "text": "독일 장비업체 EMAG 인수 신고 공개에 27일 +5.22%"
+     },
+     {
+      "label": "배경",
+      "text": "FSD v15, 12월 홀리데이 업데이트로 광범위 배포 예정"
+     }
+    ],
+    "chips": [
+     {
+      "name": "테슬라",
+      "chg": "+5.22%"
+     }
+    ],
+    "source": "시나, MLQ, Investing.com, Tesla Oracle"
+   },
+   {
+    "company": "스페이스X · 우주",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "머스크 \"스페이스X 컴퓨팅 GPU당 평균 임대료 상승 중\""
+     },
+     {
+      "label": "사실",
+      "text": "중국, 궤도 시험위성 '천광 1호' 기반 우주 데이터센터 시험 플랫폼 가동(19:35)"
+     },
+     {
+      "label": "배경",
+      "text": "27일 우주 관련주 강세: 로켓랩 +8.2%, 인튜이티브머신스 +9.4%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "스페이스X",
+      "chg": "+4.83%"
+     },
+     {
+      "name": "로켓랩",
+      "chg": "+8.21%"
+     }
+    ],
+    "source": "CNBC, 시나, 지에몐"
+   }
+  ],
+  "ai_software": [
+   {
+    "company": "오픈AI · 앤트로픽",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "오픈AI, 애플 맞소송… 공급사 압박·영업비밀 침해 주장, 애플 \"관심 돌리기\""
+     },
+     {
+      "label": "배경",
+      "text": "앤트로픽, 27일 +10.98% 91.88달러로 상장 후 최고 종가"
+     },
+     {
+      "label": "체크",
+      "text": "12월 15일 앤트로픽 보호예수 해제"
+     }
+    ],
+    "chips": [
+     {
+      "name": "앤트로픽",
+      "chg": "+10.98%"
+     },
+     {
+      "name": "팔란티어",
+      "chg": "+5.24%"
+     }
+    ],
+    "source": "CNN, Decrypt, Forbes"
+   }
+  ],
+  "ai_infra": [
+   {
+    "company": "AI 서버 공급망",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "DIGITIMES: 엔비디아 동남아 출하 동결이 대만 AI 서버 생산 분산 전략 시험대(16:20)"
+     },
+     {
+      "label": "사실",
+      "text": "DIGITIMES: PCB 공급 위험이 칩 부족에 맞먹을 수도"
+     },
+     {
+      "label": "배경",
+      "text": "27일 광통신·서버 반등: 코히런트 +14.1%, 델 +6.7%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "코히런트",
+      "chg": "+14.07%"
+     },
+     {
+      "name": "델",
+      "chg": "+6.70%"
+     },
+     {
+      "name": "코어위브",
+      "chg": "+3.71%"
+     }
+    ],
+    "source": "DIGITIMES"
+   }
+  ],
+  "semis": [
+   {
+    "company": "삼성전자 · SK하이닉스",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "국무총리, 삼성전자·SK하이닉스·네이버에 청년 채용 확대 요청(20:00)"
+     },
+     {
+      "label": "사실",
+      "text": "DIGITIMES: 삼성·SK하이닉스, D램 설계 방향 서로 달리해"
+     },
+     {
+      "label": "배경",
+      "text": "29일(일) 증안펀드 긴급 투자관리위원회에서 투입 시기·규모 논의"
+     }
+    ],
+    "chips": [
+     {
+      "name": "SK하이닉스 ADR",
+      "chg": "+7.52%"
+     },
+     {
+      "name": "마이크론",
+      "chg": "+7.60%"
+     },
+     {
+      "name": "샌디스크",
+      "chg": "+15.96%"
+     }
+    ],
+    "source": "서울경제, DIGITIMES, 한국경제"
+   },
+   {
+    "company": "미국 반도체",
+    "tag": "배경",
+    "lines": [
+     {
+      "label": "배경",
+      "text": "27일 반도체지수 +4.69%, 주간 +9.25%"
+     },
+     {
+      "label": "배경",
+      "text": "마벨 12월 1일 실적, 옵션시장은 15~16% 주가 변동 반영"
+     },
+     {
+      "label": "배경",
+      "text": "AMD, 에르스테그룹 투자의견 보유로 하향에도 +4.56%"
+     }
+    ],
+    "chips": [
+     {
+      "name": "마벨",
+      "chg": "+7.34%"
+     },
+     {
+      "name": "퀄컴",
+      "chg": "+6.29%"
+     },
+     {
+      "name": "AMD",
+      "chg": "+4.56%"
+     }
+    ],
+    "source": "로이터(Investing.com), GuruFocus, MarketBeat"
+   }
+  ],
+  "others": [
+   {
+    "company": "비트코인 · 스트래티지",
+    "tag": "신규",
+    "lines": [
+     {
+      "label": "사실",
+      "text": "비트코인 5만 9천~6만 달러, 24시간 약 −3.7%"
+     },
+     {
+      "label": "사실",
+      "text": "24시간 청산 4억 700만 달러, 이 중 롱 3억 1,400만 달러"
+     },
+     {
+      "label": "배경",
+      "text": "현물 ETF 8거래일 연속 순유출"
+     },
+     {
+      "label": "배경",
+      "text": "MSCI, 30일 마감 기준 스트래티지 편출… 지수 추종 보유 약 1,300만 주"
+     }
+    ],
+    "chips": [
+     {
+      "name": "스트래티지",
+      "chg": "+2.08%"
+     },
+     {
+      "name": "코인베이스",
+      "chg": "+3.20%"
+     }
+    ],
+    "source": "CryptoTicker, Crypto Briefing, BeInCrypto"
+   }
+  ]
+ },
+ "empty_notes": {},
+ "greeting": "2026년 11월 28일 토요일 주요 소식입니다.\n한국 시간 15:30부터 21:22까지 나온 소식을 모았어요.\n미국 증시는 주말 휴장이며, 미국 종목 등락률은 27일(금) 종가 기준입니다.",
+ "commentary": {
+  "summary": "주말이라 새 소식은 많지 않았지만, 머스크가 구글이 스페이스X에서 컴퓨팅을 더 빌리고 싶어 한다고 밝히면서 AI 연산 수요가 여전히 강하다는 신호가 나왔어요. 다음 주에는 젠슨황의 의회 출석과 마벨·세일즈포스 실적, 고용보고서가 이어집니다. 금요일 반도체 반등이 이어질지는 이 일정들이 가를 것 같아요.",
+  "issue1": [
+   "머스크는 X에 누가 더 살지는 모르지만 구글이 스페이스X 컴퓨팅을 더 빌리는 데 관심을 보였다고 썼어요. 구글은 이미 6월 계약으로 엔비디아 GPU 약 11만 개를 월 9.2억 달러에 빌리고 있고, 스페이스X는 이달 텍사스와 애리조나 컴퓨팅 캠퍼스에 740억 달러 넘게 투자하겠다고 밝혔습니다.",
+   "머스크는 GPU당 평균 임대료도 오르고 있다고 했지만, 추가 임대 규모나 가격은 밝히지 않았고 구글도 답하지 않았어요. 같은 날 중국은 궤도 위성을 이용한 우주 데이터센터 시험 플랫폼을 열었다고 발표했는데, 우주 데이터센터를 둘러싼 경쟁이 빨라지는 모습입니다."
+  ],
+  "issue2": [
+   "엔비디아는 금요일 반도체지수가 4.7% 오르는 동안 0.8% 오르는 데 그쳤어요. FT가 엔비디아가 협력사들에 동남아 4개국으로의 서버 출하를 멈추게 했다고 보도했고, 블룸버그는 상하이 데이터센터에서 블랙웰 랙이 대출 담보로 잡혀 있는 사실을 찾아냈습니다.",
+   "DIGITIMES는 이번 출하 동결이 동남아로 생산을 나눠 온 대만 서버 업체들의 전략을 시험대에 올렸다고 짚었어요. 젠슨황은 12월 1일 하원 비공개 면담에 이어 3일 상원 은행위의 수출통제 감독 청문회에 단독 증인으로 나섭니다. 청문회 전에 상무부가 추가 조치를 내놓을지도 지켜볼 대목이에요."
+  ],
+  "megatech": "엔비디아는 다음 주 세 차례 의회 일정이 잡혀 있고, 트럼프 대통령은 황 복귀에 직접 관여했다며 정부 지분 가능성도 열어 뒀어요. 아마존은 금요일 4% 가까이 올랐는데, 어도비 집계로 블랙프라이데이 온라인 매출이 저녁까지 97억 달러로 13% 가까이 늘었습니다. 오픈AI는 애플을 상대로 영업비밀 침해 등을 주장하는 맞소송을 냈어요.",
+  "mobility": "노르웨이 국부펀드는 12월 3일 테슬라 주총에서 머스크의 보상안에 다시 반대표를 던지겠다고 밝혔어요. 다만 권고적 표결이라 구속력은 없고, 지난해에도 반대했지만 주주 다수 찬성으로 통과됐습니다. 테슬라는 금요일 독일 장비업체 인수 신고가 알려지며 5% 넘게 올랐어요.",
+  "ai_software": "이번 시간대에 오픈AI·앤트로픽의 새 소식은 없었어요. 오픈AI는 금요일 애플을 상대로 맞소송을 냈고, 앤트로픽은 같은 날 11% 가까이 오르며 상장 이후 가장 높은 가격으로 마감했습니다. 12월 15일에는 앤트로픽의 보호예수가 풀려요.",
+  "ai_infra": "DIGITIMES는 엔비디아의 동남아 출하 동결이 대만 서버 업체들의 생산 분산 전략에 부담이 될 수 있다고 짚었어요. 기판(PCB) 공급 위험이 칩 부족만큼 커질 수 있다는 분석도 나왔습니다. 금요일에는 광통신과 서버주가 수요일 급락분을 크게 되돌렸어요.",
+  "semis": "국무총리는 삼성전자·SK하이닉스·네이버에 청년 채용 확대를 요청했고, 일요일에는 증안펀드 긴급 투자관리위원회가 열려 투입 시기와 규모를 논의해요. 미국에서는 금요일 메모리주가 크게 올랐고, 12월 1일 마벨 실적을 두고 옵션시장은 15% 안팎의 주가 변동을 예상하고 있습니다.",
+  "others": "비트코인은 주식 반등에도 6만 달러 아래에 머물고 있어요. 하루 동안 4억 달러 넘는 포지션이 청산됐고, 현물 ETF에서는 8거래일 연속 자금이 빠졌습니다. MSCI는 30일 마감 기준으로 스트래티지를 주요 지수에서 빼요."
+ },
+ "sources": [
+  {
+   "title": "Musk: Google shows interest in leasing additional compute capacity from SpaceX",
+   "outlet": "FinancialJuice",
+   "url": "https://www.financialjuice.com/News/9871303/Musk-Google-shows-interest-in-leasing-additional-compute-capacity-from-SpaceX.aspx?xy=rss"
+  },
+  {
+   "title": "Musk says Google wants to rent more computing capacity from SpaceX",
+   "outlet": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/28/musk-says-google-wants-to-rent-more-computing-capacity-from-spacex.html"
+  },
+  {
+   "title": "Musk says Google is interested in renting more computing capacity from SpaceX",
+   "outlet": "로이터(Investing.com)",
+   "url": "https://www.investing.com/news/stock-market-news/musk-says-google-is-interested-in-renting-more-computing-capacity-from-spacex-5054241"
+  },
+  {
+   "title": "Space data center on-orbit test platform goes online",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvme9275085.d.html"
+  },
+  {
+   "title": "Beijing space data center test platform",
+   "outlet": "지에몐",
+   "url": "https://www.jiemian.com/article/15386315.html"
+  },
+  {
+   "title": "Nvidia's Southeast Asia shipment freeze tests Taiwan's AI-server manufacturing hedge",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261127VL214/ai-server-capacity-manufacturing-regulation-nvidia-taiwan.html"
+  },
+  {
+   "title": "PCB supply risks may rival chip shortages",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261127PD226/pcb-demand-supply-chain-capacity-medical.html"
+  },
+  {
+   "title": "Nvidia halts server shipments to four Southeast Asian countries - FT",
+   "outlet": "US News(로이터)",
+   "url": "https://www.usnews.com/news/top-news/articles/2026-11-26/nvidia-halts-server-shipments-to-four-southeast-asian-countries-ft-reports"
+  },
+  {
+   "title": "Nvidia Blackwell chips turn up at China site tied to Alice Huang",
+   "outlet": "블룸버그",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang"
+  },
+  {
+   "title": "When will Jensen Huang testify in Congress",
+   "outlet": "The National",
+   "url": "https://www.thenationalnews.com/future/technology/2026/11/25/when-will-jensen-huang-testify-in-congress/"
+  },
+  {
+   "title": "Trump, Jensen Huang and Nvidia intervention",
+   "outlet": "Fortune",
+   "url": "https://fortune.com/2026/11/28/trump-jensen-huang-nvidia-intervention/"
+  },
+  {
+   "title": "US Black Friday online sales to cross $13 billion, Adobe says",
+   "outlet": "로이터(Investing.com)",
+   "url": "https://www.investing.com/news/stock-market-news/us-black-friday-online-sales-to-cross-13-billion-adobe-says-5054031"
+  },
+  {
+   "title": "OpenAI countersues Apple",
+   "outlet": "CNN",
+   "url": "https://www.cnn.com/2026/11/27/tech/openai-apple-countersuit"
+  },
+  {
+   "title": "OpenAI countersuit Apple trade secret theft claims",
+   "outlet": "Decrypt",
+   "url": "https://decrypt.co/384222/openai-countersuit-apple-trade-secret-theft-claims"
+  },
+  {
+   "title": "Norway wealth fund votes against Musk pay plan again",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvme4818914.d.html"
+  },
+  {
+   "title": "Norway's wealth fund will vote against Musk's pay at Tesla's Dec 3 meeting",
+   "outlet": "MLQ",
+   "url": "https://mlq.ai/news/norways-wealth-fund-will-vote-against-musks-pay-at-teslas-dec-3-meeting/"
+  },
+  {
+   "title": "Why is Tesla stock climbing today",
+   "outlet": "Investing.com",
+   "url": "https://uk.investing.com/news/stock-market-news/why-is-tesla-stock-climbing-today-93CH-5006657"
+  },
+  {
+   "title": "Tesla FSD v15 wide release with holiday update",
+   "outlet": "Tesla Oracle",
+   "url": "https://www.teslaoracle.com/2026/11/21/tesla-fsd-v15-to-go-wide-release-with-the-2026-holiday-update-and-mind-bending-reality-renders-in-december-says-musk/"
+  },
+  {
+   "title": "Anthropic surges 11% in best day since IPO",
+   "outlet": "Forbes",
+   "url": "https://www.forbes.com/sites/saradorn/2026/11/27/anthropic-surges-11-in-best-day-since-ipo-boom/"
+  },
+  {
+   "title": "Prime Minister urges Samsung, SK Hynix to expand hiring",
+   "outlet": "서울경제",
+   "url": "https://en.sedaily.com/politics/2026/11/28/prime-minister-urges-samsung-sk-hynix-to-expand-hiring"
+  },
+  {
+   "title": "PM urges hiring",
+   "outlet": "시나",
+   "url": "https://finance.sina.cn/7x24/2026-11-28/detail-inkahvkx0487767.d.html"
+  },
+  {
+   "title": "Samsung, SK Hynix pursue different DRAM designs",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/news/a20261127VL215/samsung-dram-sk-hynix-data-production.html"
+  },
+  {
+   "title": "증안펀드 긴급 투자관리위원회",
+   "outlet": "한국경제",
+   "url": "https://www.hankyung.com/article/2026112632051"
+  },
+  {
+   "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+   "outlet": "로이터(Investing.com)",
+   "url": "https://ca.investing.com/news/economy-news/wall-street-ends-higher-as-battered-ai-stocks-gain-in-volatile-week-4983613"
+  },
+  {
+   "title": "Marvell options price in 16% earnings-day stock swing",
+   "outlet": "GuruFocus",
+   "url": "https://www.gurufocus.com/news/9227763/marvell-options-price-in-16-earningsday-stock-swing"
+  },
+  {
+   "title": "AMD downgraded by Erste Group to Hold",
+   "outlet": "MarketBeat",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-advanced-micro-devices-nasdaq-amd-downgraded-by-erste-group-bank-to-hold-2026-11-27/"
+  },
+  {
+   "title": "Coherent jumps as optical stocks rebound",
+   "outlet": "24/7 Wall St",
+   "url": "https://247wallst.com/investing/2026/11/27/coherent-jumps-12-as-optical-stocks-rebound-from-wednesdays-ai-selloff-applied-optoelectronics-and-lumentum-rise-7/"
+  },
+  {
+   "title": "Bitcoin price $59,600, eighth day of ETF outflows",
+   "outlet": "CryptoTicker",
+   "url": "https://cryptoticker.io/en/bitcoin-price-59600-eighth-day-etf-outflows-wall-street/"
+  },
+  {
+   "title": "Crypto liquidations $407 million",
+   "outlet": "Crypto Briefing",
+   "url": "https://cryptobriefing.com/crypto-liquidations-407-million-coinglass"
+  },
+  {
+   "title": "MSCI drops Strategy from US index",
+   "outlet": "BeInCrypto",
+   "url": "https://beincrypto.com/msci-drops-strategy-us-index-selling/"
+  },
+  {
+   "title": "DIGITIMES 주요 기사",
+   "outlet": "DIGITIMES",
+   "url": "https://www.digitimes.com/"
+  }
+ ]
+}
