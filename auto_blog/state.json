@@ -1,5 +1,5 @@
 {
- "last_ts": 1795845889,
+ "last_ts": 1795849903,
  "posted": [
   {
    "date": "2026-11-22",
@@ -330,6 +330,12 @@
    "ticker": "MKT",
    "topic": "(사용자 요청) 11월 28일 미국 증시 동향 PDF",
    "url": "https://blog.naver.com/yidiar/224495518006"
+  },
+  {
+   "date": "2026-11-28",
+   "ticker": "SPCX",
+   "topic": "머스크: 구글 스페이스X 컴퓨팅 추가 임대 관심, 기존 월 9.2억 달러, 앤트로픽 계약 조건 변화",
+   "url": "https://blog.naver.com/yidiar/224496000827"
   }
  ]
 }
